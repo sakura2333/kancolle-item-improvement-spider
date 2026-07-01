@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-30T12:22:42+00:00",
+  "strict": true,
+  "improvementSourceStatus": "ok",
+  "dropFromIssueCount": 2,
+  "specialBonusIssueCount": 0,
+  "iconCount": 16,
+  "requiredUseitemIconIds": [
+    2,
+    57,
+    70,
+    71,
+    75,
+    77,
+    78,
+    91,
+    92,
+    94,
+    95,
+    100,
+    104
+  ],
+  "missingUseitemIconIds": []
+}

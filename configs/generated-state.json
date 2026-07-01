@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "online-data",
+  "role": "generated-state",
+  "backend": "git-ref",
+  "ref": "online",
+  "management": "project-managed",
+  "manifestPath": ".generated-state/manifest.json",
+  "exportPaths": [
+    "data/improvement",
+    "data/start2_data",
+    "data/assets",
+    "data/sources",
+    "packages/kancolle-data/improvement",
+    "packages/kancolle-data/equipment",
+    "packages/kancolle-data/assets",
+    "packages/kancolle-data/audit",
+    "packages/kancolle-data/CHANGELOG.md",
+    "packages/kancolle-data/RELEASES.json",
+    "packages/kancolle-data/manifest.json"
+  ],
+  "baselineSyncPaths": [
+    "data/improvement",
+    "data/start2_data",
+    "data/assets",
+    "data/sources",
+    "packages/kancolle-data/improvement",
+    "packages/kancolle-data/equipment",
+    "packages/kancolle-data/assets",
+    "packages/kancolle-data/audit",
+    "packages/kancolle-data/CHANGELOG.md",
+    "packages/kancolle-data/RELEASES.json",
+    "packages/kancolle-data/manifest.json"
+  ],
+  "forbiddenPaths": [
+    ".github",
+    "configs",
+    "pojo",
+    "script",
+    "service",
+    "tests",
+    "util",
+    "requirements.txt",
+    "VERSION"
+  ],
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/*.tgz",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/.DS_Store"
+  ]
+}
