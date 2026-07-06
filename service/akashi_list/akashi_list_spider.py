@@ -10,6 +10,7 @@ from lxml import etree
 from service.akashi_list.akashi_detail_processor import DetailProcessor
 from service.akashi_list.akashi_list_utils import convert_vo
 from service.data_package.builder import build_data_package
+from service.operator_stop import OperatorStopError, write_operator_stop
 from service.data_package.equipment_bonus import SOURCE_URL as KC3_BONUS_URL
 from service.data_package.equipment_drop_from import (
     EQUIPMENT_URL as KCWIKI_EQUIPMENT_URL,
@@ -75,7 +76,16 @@ def process(url=AKASHI_URL):
     }
     if failures:
         summary = ", ".join(f"{key}: {error}" for key, error in failures.items())
-        raise RuntimeError(f"website collection failed: {summary}") from next(iter(failures.values()))
+        raise OperatorStopError(
+            stop_reason="source-collection-retry-exhausted",
+            message=f"网站数据源采集失败且自动重试已结束：{summary}",
+            action="检查网络、代理和对应站点状态；修复后重新执行 ./flow run。",
+            checkpoint="data/raw_data/site_cache/_meta.json",
+            details={
+                key: f"{type(error).__name__}: {error}"
+                for key, error in failures.items()
+            },
+        ) from next(iter(failures.values()))
 
     vo_list = results["akashi-list"]
     clear()
@@ -89,6 +99,15 @@ def process(url=AKASHI_URL):
     build_data_package()
 
 
+def main() -> int:
+    try:
+        update_start2_if_needed()
+        process()
+    except OperatorStopError as exc:
+        write_operator_stop(exc)
+        return exc.exit_code
+    return 0
+
+
 if __name__ == "__main__":
-    update_start2_if_needed()
-    process()
+    raise SystemExit(main())

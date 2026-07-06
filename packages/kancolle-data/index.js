@@ -14,11 +14,13 @@ module.exports = Object.freeze({
   }),
   equipment: Object.freeze({
     dropFromPath: resolveData('equipment', 'drop-from.nedb'),
+    sourcesPath: resolveData('equipment', 'sources.nedb'),
     specialBonusesPath: resolveData('equipment', 'special-bonuses.nedb'),
   }),
   schemas: Object.freeze({
     improvementDetailPath: resolveData('schemas', 'improvement-detail.schema.json'),
     equipmentDropFromPath: resolveData('schemas', 'equipment-drop-from.schema.json'),
+    equipmentSourcesPath: resolveData('schemas', 'equipment-sources.schema.json'),
     equipmentSpecialBonusesPath: resolveData('schemas', 'equipment-special-bonus.schema.json'),
   }),
   audit: Object.freeze({

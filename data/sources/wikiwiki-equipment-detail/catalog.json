@@ -1,0 +1,1746 @@
+[
+  {
+    "equipmentId": 353,
+    "equipmentName": "Fw190 A-5改(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Fw190%20A-5%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Fw190%20A-5%E6%94%B9%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "89e54310e052c15c4a0fa6abed05686013ef17b70fdc57dad6c939239477bc34",
+    "fetchedAt": 1783245158
+  },
+  {
+    "equipmentId": 354,
+    "equipmentName": "Fw190 D-9",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Fw190%20D-9",
+    "cacheKey": "wikiwiki.jp/kancolle/Fw190%20D-9.html",
+    "contentSha256": "c795a13495b2dc0cd2f4f0067fb8e4270267474648e747838c4af61c87e8a644",
+    "fetchedAt": 1783245162
+  },
+  {
+    "equipmentId": 355,
+    "equipmentName": "M4A1 DD",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/M4A1%20DD",
+    "cacheKey": "wikiwiki.jp/kancolle/M4A1%20DD.html",
+    "contentSha256": "82babd9e7d4a5b55d1f9a1e31e25d6fba7864ef6c73e6af26592699c3f839c76",
+    "fetchedAt": 1783245165
+  },
+  {
+    "equipmentId": 356,
+    "equipmentName": "8inch三連装砲 Mk.9",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9",
+    "cacheKey": "wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9",
+    "contentSha256": "b5f07e1bf720b5bc0ef908e6dd483c00a1b5a7f373a808255f66442cecc04032",
+    "fetchedAt": 1783245169
+  },
+  {
+    "equipmentId": 357,
+    "equipmentName": "8inch三連装砲 Mk.9 mod.2",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9%20mod.2",
+    "cacheKey": "wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9%20mod.2",
+    "contentSha256": "3910267136f7dd3c4dca4581b9e292a29e108e515c1b289d44ad7d41b1dbf1f4",
+    "fetchedAt": 1783245173
+  },
+  {
+    "equipmentId": 358,
+    "equipmentName": "5inch 単装高角砲群",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/5inch%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4",
+    "cacheKey": "wikiwiki.jp/kancolle/5inch%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4.html",
+    "contentSha256": "d957b3f0b133de7ec22e9ffd0dede56fe53515a55983ffff7bc29a1da84ee97f",
+    "fetchedAt": 1783245178
+  },
+  {
+    "equipmentId": 359,
+    "equipmentName": "6inch 連装速射砲 Mk.XXI",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/6inch%20%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.XXI",
+    "cacheKey": "wikiwiki.jp/kancolle/6inch%20%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.XXI",
+    "contentSha256": "31faf730ffd53019fd49af9df592ac44cdf822248a15d8032a3f2c6b22bdb58d",
+    "fetchedAt": 1783245182
+  },
+  {
+    "equipmentId": 360,
+    "equipmentName": "Bofors 15cm連装速射砲 Mk.9 Model 1938",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%20Model%201938",
+    "cacheKey": "wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%20Model%201938",
+    "contentSha256": "88c382cfd79f5a3e0345a520bb6d42a17bccfdbbd8681258f9f298b79c47c476",
+    "fetchedAt": 1783245279
+  },
+  {
+    "equipmentId": 361,
+    "equipmentName": "Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%E6%94%B9%EF%BC%8B%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.10%E6%94%B9%20Model%201938",
+    "cacheKey": "wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%E6%94%B9%EF%BC%8B%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.10%E6%94%B9%20Model%201938",
+    "contentSha256": "56d9432b6665af24ad05b6ddfa29565687c91a58c14379f12cffbab429b6262b",
+    "fetchedAt": 1783245284
+  },
+  {
+    "equipmentId": 362,
+    "equipmentName": "5inch連装両用砲(集中配備)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+    "cacheKey": "wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29.html",
+    "contentSha256": "d05e858abd161d2abb318e030329a516678fbfd9cba0081397a7e406c778e599",
+    "fetchedAt": 1783245288
+  },
+  {
+    "equipmentId": 363,
+    "equipmentName": "GFCS Mk.37+5inch連装両用砲(集中配備)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/GFCS%20Mk.37%EF%BC%8B5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+    "cacheKey": "wikiwiki.jp/kancolle/GFCS%20Mk.37%EF%BC%8B5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+    "contentSha256": "f60056ef668642bdd1a077b15f8e1de851de44113cdbed2fafd79c10d0c14416",
+    "fetchedAt": 1783245294
+  },
+  {
+    "equipmentId": 364,
+    "equipmentName": "甲標的 丁型改(蛟龍改)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%81%E5%9E%8B%E6%94%B9%28%E8%9B%9F%E9%BE%8D%E6%94%B9%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%81%E5%9E%8B%E6%94%B9%28%E8%9B%9F%E9%BE%8D%E6%94%B9%29.html",
+    "contentSha256": "518fb7eb3cd6df009a792e0e24f70e7988de25e130284b13f25b642e739e0d58",
+    "fetchedAt": 1783245296
+  },
+  {
+    "equipmentId": 365,
+    "equipmentName": "一式徹甲弾改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE%E6%94%B9.html",
+    "contentSha256": "93a2d8c97dd6d536bf75f060d8aa59ee5405f22dafebe3eafa71dc96865ec8f0",
+    "fetchedAt": 1783245300
+  },
+  {
+    "equipmentId": 366,
+    "equipmentName": "12.7cm連装砲D型改三",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89",
+    "contentSha256": "a8d65b9d062f132b2e19e040d108c7ce67883c3592a5afa8bc392545771e04f7",
+    "fetchedAt": 1783245303
+  },
+  {
+    "equipmentId": 367,
+    "equipmentName": "Swordfish(水上機型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29.html",
+    "contentSha256": "509bc5e729fee570610ccdf23cc3e9ee5328354a8cf0f698c8cc4829e040b759",
+    "fetchedAt": 1783245307
+  },
+  {
+    "equipmentId": 368,
+    "equipmentName": "Swordfish Mk.III改(水上機型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29",
+    "contentSha256": "a0726abbc07f99620dad857973ff6d218203f30c08b0d495d67b49a55c57b214",
+    "fetchedAt": 1783245312
+  },
+  {
+    "equipmentId": 369,
+    "equipmentName": "Swordfish Mk.III改(水上機型/熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+    "contentSha256": "cd06d5a196c3e5cd966317239d28f24bcba87ecd7ac96710145632f5e39eabb2",
+    "fetchedAt": 1783245316
+  },
+  {
+    "equipmentId": 370,
+    "equipmentName": "Swordfish Mk.II改(水偵型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.II%E6%94%B9%28%E6%B0%B4%E5%81%B5%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Swordfish%20Mk.II%E6%94%B9%28%E6%B0%B4%E5%81%B5%E5%9E%8B%29",
+    "contentSha256": "e50fdc3ce2c1c64fe2d087a6b015b62297cbac1b66d3ab55d4b5f434124b8aad",
+    "fetchedAt": 1783245320
+  },
+  {
+    "equipmentId": 371,
+    "equipmentName": "Fairey Seafox改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Fairey%20Seafox%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/Fairey%20Seafox%E6%94%B9.html",
+    "contentSha256": "97a6c7ddfe6b0193f15db6c5cd463bb17abb888cfaab5aa8c535137cf42a1ccc",
+    "fetchedAt": 1783245325
+  },
+  {
+    "equipmentId": 372,
+    "equipmentName": "天山一二型甲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2.html",
+    "contentSha256": "459100925f58023cd077e60f6dda03d5eff64041fcbac6b9b269a2fb612258b0",
+    "fetchedAt": 1783245419
+  },
+  {
+    "equipmentId": 373,
+    "equipmentName": "天山一二型甲改(空六号電探改装備機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29.html",
+    "contentSha256": "3cb2bb3385a5cfd98f4ea043289c8a4015b34603c0ec6d6834c218c404ac16c2",
+    "fetchedAt": 1783245423
+  },
+  {
+    "equipmentId": 374,
+    "equipmentName": "天山一二型甲改(熟練/空六号電探改装備機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29.html",
+    "contentSha256": "6ffd00aa4535cbb7d19da35c52e99a8818c54f2d2f3e2bc6baf0c6f9c2da41df",
+    "fetchedAt": 1783245428
+  },
+  {
+    "equipmentId": 375,
+    "equipmentName": "XF5U",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/XF5U",
+    "cacheKey": "wikiwiki.jp/kancolle/XF5U.html",
+    "contentSha256": "3c72fb05f30b6b2d5ddf713be24b12f3b609b6b354c6519b5a438fc1a63f281a",
+    "fetchedAt": 1783245431
+  },
+  {
+    "equipmentId": 376,
+    "equipmentName": "533mm五連装魚雷(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/533mm%E4%BA%94%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/533mm%E4%BA%94%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "558c5f3c487afeec1d7e09449f3b56268e4d17bfdb76c20dab055876c6fba4e9",
+    "fetchedAt": 1783245435
+  },
+  {
+    "equipmentId": 377,
+    "equipmentName": "RUR-4A Weapon Alpha改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/RUR-4A%20Weapon%20Alpha%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/RUR-4A%20Weapon%20Alpha%E6%94%B9.html",
+    "contentSha256": "c7d145bdec2ae6694a68ec024eccde254b2349e371668dcd5e9b6d899e3da344",
+    "fetchedAt": 1783245438
+  },
+  {
+    "equipmentId": 378,
+    "equipmentName": "対潜短魚雷(試作初期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%AF%BE%E6%BD%9C%E7%9F%AD%E9%AD%9A%E9%9B%B7%28%E8%A9%A6%E4%BD%9C%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%AF%BE%E6%BD%9C%E7%9F%AD%E9%AD%9A%E9%9B%B7%28%E8%A9%A6%E4%BD%9C%E5%88%9D%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "f3a27bdbc7feb0c5c9856c16ae20252eb917d0e1be387802ed214087d72d5349",
+    "fetchedAt": 1783245443
+  },
+  {
+    "equipmentId": 379,
+    "equipmentName": "12.7cm単装高角砲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "contentSha256": "d2940f82dfe0e5a29a4bb6b6337af5232aa35e7f776376c4169176cdf014f1aa",
+    "fetchedAt": 1783245537
+  },
+  {
+    "equipmentId": 380,
+    "equipmentName": "12.7cm連装高角砲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "contentSha256": "43e3eb2681642fa358233376f9c68946f16b116bd52eb88c253f8ae70e5953eb",
+    "fetchedAt": 1783245541
+  },
+  {
+    "equipmentId": 381,
+    "equipmentName": "16inch三連装砲 Mk.6",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6",
+    "cacheKey": "wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6",
+    "contentSha256": "c7810a7b62e28a857c42ffc964070bcf3fe5ae0924d40f900e38d3542727cda5",
+    "fetchedAt": 1783245546
+  },
+  {
+    "equipmentId": 382,
+    "equipmentName": "12cm単装高角砲E型",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B",
+    "cacheKey": "wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B.html",
+    "contentSha256": "61d2aa74d80d4bbe996c88aa9ed9a98d98cb8ebc7bf652dbf7dcd18e58f31675",
+    "fetchedAt": 1783245549
+  },
+  {
+    "equipmentId": 383,
+    "equipmentName": "後期型53cm艦首魚雷(8門)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B53cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B53cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29.html",
+    "contentSha256": "37b59478348803b22df2304101ebbf7b6d115fcfdf21605392d24bce77d0d03d",
+    "fetchedAt": 1783245553
+  },
+  {
+    "equipmentId": 384,
+    "equipmentName": "後期型潜水艦搭載電探&逆探",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2.html",
+    "contentSha256": "27e68b61d6128aad99fa1fd833096087a7f0142812bcefd5c5bf5e7f74d34acf",
+    "fetchedAt": 1783245556
+  },
+  {
+    "equipmentId": 385,
+    "equipmentName": "16inch三連装砲 Mk.6 mod.2",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%20mod.2",
+    "cacheKey": "wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%20mod.2",
+    "contentSha256": "660cbce14c2ae070396024e78d333c775f57a17b50719c0ab9a03eac0bff507b",
+    "fetchedAt": 1783245560
+  },
+  {
+    "equipmentId": 386,
+    "equipmentName": "6inch三連装速射砲 Mk.16",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16",
+    "cacheKey": "wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16",
+    "contentSha256": "1fbc7418df7a26f8f5e25b47af1d30a2c267ffcf3be28ec0ed3cf9218090582d",
+    "fetchedAt": 1783245655
+  },
+  {
+    "equipmentId": 387,
+    "equipmentName": "6inch三連装速射砲 Mk.16 mod.2",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16%20mod.2",
+    "cacheKey": "wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16%20mod.2",
+    "contentSha256": "4a95cbaf4edcf48c68bd4541812e9699acb3340d9c055dba62682cf6bd86d923",
+    "fetchedAt": 1783245659
+  },
+  {
+    "equipmentId": 388,
+    "equipmentName": "銀河(江草隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29.html",
+    "contentSha256": "8296e378719c0a1d4a6775637cb9c58a25f3f386e5e3386f9e856dd626ae02d9",
+    "fetchedAt": 1783245664
+  },
+  {
+    "equipmentId": 390,
+    "equipmentName": "16inch三連装砲 Mk.6+GFCS",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%EF%BC%8BGFCS",
+    "cacheKey": "wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%EF%BC%8BGFCS",
+    "contentSha256": "e1d6c1acd1b85bf04fedc41d6d03c2bcfa45decae09ec8583d8686d34d7207c9",
+    "fetchedAt": 1783245668
+  },
+  {
+    "equipmentId": 391,
+    "equipmentName": "九九式艦爆二二型",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B.html",
+    "contentSha256": "a3a3b7c6bf90772a28fdccefe6c168ea41e368d03684fc8e8752dbd6724c9e09",
+    "fetchedAt": 1783245672
+  },
+  {
+    "equipmentId": 392,
+    "equipmentName": "九九式艦爆二二型(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "e6103a91e938caf410ad0297a66c6e86a6c84eed228ac435eab477349a622e13",
+    "fetchedAt": 1783245676
+  },
+  {
+    "equipmentId": 393,
+    "equipmentName": "120mm/50 連装砲 mod.1936",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%20mod.1936",
+    "cacheKey": "wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%20mod.1936",
+    "contentSha256": "92e521b72d56a7dd7914f8c62e8dbccf8c63fc65dee30172354632cd062d60e1",
+    "fetchedAt": 1783245679
+  },
+  {
+    "equipmentId": 394,
+    "equipmentName": "120mm/50 連装砲改 A.mod.1937",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20A.mod.1937",
+    "cacheKey": "wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20A.mod.1937",
+    "contentSha256": "e8641f13b4fb25062e05c572fd14f78018ff7431e106a8da32edec1f99df242f",
+    "fetchedAt": 1783245774
+  },
+  {
+    "equipmentId": 395,
+    "equipmentName": "深山",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1.html",
+    "contentSha256": "1c296040a7087bacc8769cce0c5617bb368272692f913e737a7c6eb3ff14de9f",
+    "fetchedAt": 1783245777
+  },
+  {
+    "equipmentId": 396,
+    "equipmentName": "深山改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1%E6%94%B9.html",
+    "contentSha256": "f645d87d681b28cbf1144417467840ac927c9e867c9e7ab73258418b09c014dc",
+    "fetchedAt": 1783245781
+  },
+  {
+    "equipmentId": 397,
+    "equipmentName": "現地改装12.7cm連装高角砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8512.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8512.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+    "contentSha256": "d0ca858d6ea45f90957bc6136367ee8129b40bb10337475a6619a1615a6ed478",
+    "fetchedAt": 1783245786
+  },
+  {
+    "equipmentId": 398,
+    "equipmentName": "現地改装10cm連装高角砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8510cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8510cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2.html",
+    "contentSha256": "e491f117074c786e31885fab52acde93bbfb9748372f4eae0efd805b2bf59f80",
+    "fetchedAt": 1783245790
+  },
+  {
+    "equipmentId": 399,
+    "equipmentName": "6inch Mk.XXIII三連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/6inch%20Mk.XXIII%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/6inch%20Mk.XXIII%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "contentSha256": "459f9b011c8888c6937251d5373e1ab3be9cae4666e2226185e2b26af77056e9",
+    "fetchedAt": 1783245794
+  },
+  {
+    "equipmentId": 400,
+    "equipmentName": "533mm 三連装魚雷(53-39型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/533mm%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%2853-39%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/533mm%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%2853-39%E5%9E%8B%29.html",
+    "contentSha256": "570cc6b0aabec6e30a7b56e53474c46fd8b4410da5af5b9b85644a133f9f1a8f",
+    "fetchedAt": 1783245798
+  },
+  {
+    "equipmentId": 401,
+    "equipmentName": "Do 17 Z-2",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Do%2017%20Z-2",
+    "cacheKey": "wikiwiki.jp/kancolle/Do%2017%20Z-2.html",
+    "contentSha256": "1d4dc6ae19f92306b67b6393ec01b85f5030793281ff9919c97339a6ba32b644",
+    "fetchedAt": 1783245891
+  },
+  {
+    "equipmentId": 402,
+    "equipmentName": "寒冷地装備&甲板要員",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%AF%92%E5%86%B7%E5%9C%B0%E8%A3%85%E5%82%99%EF%BC%86%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%AF%92%E5%86%B7%E5%9C%B0%E8%A3%85%E5%82%99%EF%BC%86%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1.html",
+    "contentSha256": "a43eb35545111b07b251f79a022df8713909e8dc5dc411f8d4668c7f977bb210",
+    "fetchedAt": 1783245895
+  },
+  {
+    "equipmentId": 403,
+    "equipmentName": "四式重爆 飛龍",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D.html",
+    "contentSha256": "ff845b173630e16cffb326b6e3d5f67b34127f1bf587f4cd4eb6e0ffe75b7aa1",
+    "fetchedAt": 1783245899
+  },
+  {
+    "equipmentId": 404,
+    "equipmentName": "四式重爆 飛龍(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "1410eaaa6f14ed70577507d968a2b1265a9289dd32caa9231aa25e9b01dde2ca",
+    "fetchedAt": 1783245901
+  },
+  {
+    "equipmentId": 405,
+    "equipmentName": "Do 217 E-5+Hs293初期型",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BHs293%E5%88%9D%E6%9C%9F%E5%9E%8B",
+    "cacheKey": "wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BHs293%E5%88%9D%E6%9C%9F%E5%9E%8B.html",
+    "contentSha256": "7b389bbde15ae35a536f51d011c6b2846cf911183c1be88bd94e2903a69e0732",
+    "fetchedAt": 1783245905
+  },
+  {
+    "equipmentId": 406,
+    "equipmentName": "Do 217 K-2+Fritz-X",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Do%20217%20K-2%EF%BC%8BFritz-X",
+    "cacheKey": "wikiwiki.jp/kancolle/Do%20217%20K-2%EF%BC%8BFritz-X.html",
+    "contentSha256": "ddff8feded790fc3fdce322882e353980a433687d485421359664321cd3d0170",
+    "fetchedAt": 1783245908
+  },
+  {
+    "equipmentId": 407,
+    "equipmentName": "15.2cm連装砲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "contentSha256": "6cf5c009f199f832e4b54442b3b146bbb56029a6255c1377aca6ba81344f2e12",
+    "fetchedAt": 1783246003
+  },
+  {
+    "equipmentId": 408,
+    "equipmentName": "装甲艇(AB艇)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29.html",
+    "contentSha256": "e13d31c60ffbcb49c6e6ad0df96e0968acaaeadf5a3ee4af4553bf9bc4cfbde2",
+    "fetchedAt": 1783246007
+  },
+  {
+    "equipmentId": 409,
+    "equipmentName": "武装大発",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%AD%A6%E8%A3%85%E5%A4%A7%E7%99%BA",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%AD%A6%E8%A3%85%E5%A4%A7%E7%99%BA.html",
+    "contentSha256": "eeffa093e1003cf77a356a2f22c2421b8a6f7fc4300a4f9bcc51d14485c341b4",
+    "fetchedAt": 1783246011
+  },
+  {
+    "equipmentId": 410,
+    "equipmentName": "21号対空電探改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "a604aae1073f13ee440729cdb1bee0455433c7886279e64e9829d49372a542fa",
+    "fetchedAt": 1783246014
+  },
+  {
+    "equipmentId": 411,
+    "equipmentName": "42号対空電探改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "5eecce872c27b9d4b95aee7346f36a1c67fbbcdfb7616c55209ef501070cf7b0",
+    "fetchedAt": 1783246019
+  },
+  {
+    "equipmentId": 412,
+    "equipmentName": "水雷戦隊 熟練見張員",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1.html",
+    "contentSha256": "ce99fc911ace871568a0a755c80ef4bdc45a3b9570a4a960d9127ac56f22b7dc",
+    "fetchedAt": 1783246023
+  },
+  {
+    "equipmentId": 413,
+    "equipmentName": "精鋭水雷戦隊 司令部",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%B2%BE%E9%8B%AD%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E5%8F%B8%E4%BB%A4%E9%83%A8",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%B2%BE%E9%8B%AD%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E5%8F%B8%E4%BB%A4%E9%83%A8.html",
+    "contentSha256": "a28040a1419806142057b3b365abf5ffc967f8777b0295d3cd0cf4e4ddf715a2",
+    "fetchedAt": 1783246027
+  },
+  {
+    "equipmentId": 414,
+    "equipmentName": "SOC Seagull",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SOC%20Seagull",
+    "cacheKey": "wikiwiki.jp/kancolle/SOC%20Seagull.html",
+    "contentSha256": "ede9bbe7ec4631500c088006e5d0e01e40b83401b69160b64fd4901bc0048750",
+    "fetchedAt": 1783246032
+  },
+  {
+    "equipmentId": 415,
+    "equipmentName": "SO3C Seamew改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SO3C%20Seamew%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/SO3C%20Seamew%E6%94%B9.html",
+    "contentSha256": "8651efc4dee4b76ed984202aa730068f74ff82bedb3bd0b6bdd8837ec233b911",
+    "fetchedAt": 1783246035
+  },
+  {
+    "equipmentId": 416,
+    "equipmentName": "零式艦戦21型(台南空)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29.html",
+    "contentSha256": "0aabd3c174ffbc2db8fb4916ec47230ca9a2fc3c91c8a85ddb49c67207f885ed",
+    "fetchedAt": 1783246040
+  },
+  {
+    "equipmentId": 417,
+    "equipmentName": "零式艦戦32型(台南空)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29.html",
+    "contentSha256": "6e6b4dc3ef88343e5bb5e085d3ff246e4f0da5e7be08dcfae03406c38ea9fa8f",
+    "fetchedAt": 1783246045
+  },
+  {
+    "equipmentId": 418,
+    "equipmentName": "零式艦戦22型(251空)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A622%E5%9E%8B%28251%E7%A9%BA%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A622%E5%9E%8B%28251%E7%A9%BA%29.html",
+    "contentSha256": "95a76cc12be99ce0f4526b7d558d4bff9d80a7daafd02e9f8d39ce38a7f53f6a",
+    "fetchedAt": 1783246140
+  },
+  {
+    "equipmentId": 419,
+    "equipmentName": "SBD-5",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SBD-5",
+    "cacheKey": "wikiwiki.jp/kancolle/SBD-5.html",
+    "contentSha256": "df37b640cfda4b27a17ea5c52d79c504cb073868b948d5c724b83115d6f30af5",
+    "fetchedAt": 1783246145
+  },
+  {
+    "equipmentId": 420,
+    "equipmentName": "SB2C-3",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SB2C-3",
+    "cacheKey": "wikiwiki.jp/kancolle/SB2C-3.html",
+    "contentSha256": "99a3eec02ca1eeb7a0e61efb76240c3ff7e75f27dae9a42c96e55e5fecc974aa",
+    "fetchedAt": 1783246149
+  },
+  {
+    "equipmentId": 421,
+    "equipmentName": "SB2C-5",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SB2C-5",
+    "cacheKey": "wikiwiki.jp/kancolle/SB2C-5.html",
+    "contentSha256": "ca92db5bdf306786ef335a53b7f52de9326e6147f75b5045573a2271264b3ed4",
+    "fetchedAt": 1783246152
+  },
+  {
+    "equipmentId": 422,
+    "equipmentName": "FR-1 Fireball",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/FR-1%20Fireball",
+    "cacheKey": "wikiwiki.jp/kancolle/FR-1%20Fireball.html",
+    "contentSha256": "5102e7221a6a7834ade6d9c2906a00f0c9f19fa023ce25a91c79b2b56dccd0ec",
+    "fetchedAt": 1783246156
+  },
+  {
+    "equipmentId": 423,
+    "equipmentName": "Fulmar(戦闘偵察/熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Fulmar%28%E6%88%A6%E9%97%98%E5%81%B5%E5%AF%9F%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Fulmar%28%E6%88%A6%E9%97%98%E5%81%B5%E5%AF%9F%EF%BC%8F%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "13ab00c9956c8c2bd43a9b51e25ccc16b298febdf95d1a408f99bbbc00452615",
+    "fetchedAt": 1783246250
+  },
+  {
+    "equipmentId": 424,
+    "equipmentName": "Barracuda Mk.II",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Barracuda%20Mk.II",
+    "cacheKey": "wikiwiki.jp/kancolle/Barracuda%20Mk.II",
+    "contentSha256": "ae7039cd369178e9c7cc20a4c72436ccae6f77c6bec6362fb01492d18b65d036",
+    "fetchedAt": 1783246254
+  },
+  {
+    "equipmentId": 425,
+    "equipmentName": "Barracuda Mk.III",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Barracuda%20Mk.III",
+    "cacheKey": "wikiwiki.jp/kancolle/Barracuda%20Mk.III",
+    "contentSha256": "9bd3bdd5327941c844ddb4608cb2d6ccb3f5b027348b2690b82a7e28c6eaa944",
+    "fetchedAt": 1783246259
+  },
+  {
+    "equipmentId": 426,
+    "equipmentName": "305mm/46 連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "f8c14204481d0f516ef0cde62457b6a9da28de53d88072085294eecbf05b9024",
+    "fetchedAt": 1783246264
+  },
+  {
+    "equipmentId": 427,
+    "equipmentName": "305mm/46 三連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "c30568e656b7da6ab1fad6399845aaf79f4a89b46379af1c6cd192e41e831625",
+    "fetchedAt": 1783246269
+  },
+  {
+    "equipmentId": 428,
+    "equipmentName": "320mm/44 連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "e6cae81bb3c6de5f7a319cb79ca67029b66e7c488665c260b29fb013595a4e38",
+    "fetchedAt": 1783246273
+  },
+  {
+    "equipmentId": 429,
+    "equipmentName": "320mm/44 三連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "45cf06b19ed0e0c0c0a92b9f0024a7e7a0a0314daa9d13247610a609ab65305e",
+    "fetchedAt": 1783246278
+  },
+  {
+    "equipmentId": 430,
+    "equipmentName": "65mm/64 単装速射砲改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/65mm%EF%BC%8F64%20%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/65mm%EF%BC%8F64%20%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%E6%94%B9.html",
+    "contentSha256": "def730719bd701abf6daa3311a25829c9fdb10d1570859b5c4d34c9ec9c7252d",
+    "fetchedAt": 1783246282
+  },
+  {
+    "equipmentId": 431,
+    "equipmentName": "SM.79",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SM.79",
+    "cacheKey": "wikiwiki.jp/kancolle/SM.79",
+    "contentSha256": "69edfd55fd5d2fa163d6890da23fad2127cb37507bea3bed325bb55cbcaaf7af",
+    "fetchedAt": 1783246287
+  },
+  {
+    "equipmentId": 432,
+    "equipmentName": "SM.79 bis",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SM.79%20bis",
+    "cacheKey": "wikiwiki.jp/kancolle/SM.79%20bis",
+    "contentSha256": "5657733d8ca4d95bf466c7103b986af32202201ce86464d38d74a1aa12ccf6f0",
+    "fetchedAt": 1783246291
+  },
+  {
+    "equipmentId": 433,
+    "equipmentName": "SM.79 bis(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SM.79%20bis%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SM.79%20bis%28%E7%86%9F%E7%B7%B4%29",
+    "contentSha256": "085918aaf20538ddb07e5cf3d76ad0878e00f06b43dae2324632c928098d1846",
+    "fetchedAt": 1783246385
+  },
+  {
+    "equipmentId": 434,
+    "equipmentName": "Corsair Mk.II",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Corsair%20Mk.II",
+    "cacheKey": "wikiwiki.jp/kancolle/Corsair%20Mk.II",
+    "contentSha256": "7e945f5667649a74d94b3d3f7d08c63a594f3f50976397e51c3d87f961d4ca11",
+    "fetchedAt": 1783246390
+  },
+  {
+    "equipmentId": 435,
+    "equipmentName": "Corsair Mk.II(Ace)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Corsair%20Mk.II%28Ace%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Corsair%20Mk.II%28Ace%29",
+    "contentSha256": "576460e67ee4420d262790c48d803119e335b35739ac64f7d1515ab6c3b89f79",
+    "fetchedAt": 1783246393
+  },
+  {
+    "equipmentId": 436,
+    "equipmentName": "大発動艇(II号戦車/北アフリカ仕様)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28II%E5%8F%B7%E6%88%A6%E8%BB%8A%EF%BC%8F%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28II%E5%8F%B7%E6%88%A6%E8%BB%8A%EF%BC%8F%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29.html",
+    "contentSha256": "683983fce7adab3476795e6decb99880cc5e4f7718cf3e669c214cc27a26b97c",
+    "fetchedAt": 1783246396
+  },
+  {
+    "equipmentId": 437,
+    "equipmentName": "試製 陣風",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%99%A3%E9%A2%A8",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%99%A3%E9%A2%A8.html",
+    "contentSha256": "4c4f685dc9cccb5d4aaee3681a0dc98ca73cf14fdb9492d1f6a326ad0d5c0400",
+    "fetchedAt": 1783246401
+  },
+  {
+    "equipmentId": 438,
+    "equipmentName": "三式水中探信儀改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9.html",
+    "contentSha256": "daf8546466e1d420d1a7fe94ae79f275f05523fa590def70f0aefe0c37b442f3",
+    "fetchedAt": 1783246406
+  },
+  {
+    "equipmentId": 439,
+    "equipmentName": "Hedgehog(初期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Hedgehog%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Hedgehog%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "f81310636d5438d9e93b668b06209f518dbfc407733a0724fd3d5b2941b92ef0",
+    "fetchedAt": 1783246410
+  },
+  {
+    "equipmentId": 440,
+    "equipmentName": "21inch艦首魚雷発射管6門(初期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "e6bd0c3afdb9fada9dac8b55bb68be7c7b802ef988fb305d84d837a288cab760",
+    "fetchedAt": 1783246414
+  },
+  {
+    "equipmentId": 441,
+    "equipmentName": "21inch艦首魚雷発射管6門(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "51effad839c0550d73cb8d7a6118d8b70de922ea0b8c6a683b1b0b2ea2f554c2",
+    "fetchedAt": 1783246418
+  },
+  {
+    "equipmentId": 442,
+    "equipmentName": "潜水艦後部魚雷発射管4門(初期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "2955619e131f5b1e651fccc769e0263c7e7d67fa528326e2adbbdc0f3b829004",
+    "fetchedAt": 1783246515
+  },
+  {
+    "equipmentId": 443,
+    "equipmentName": "潜水艦後部魚雷発射管4門(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "a9ab4baf50c593a861243e44ce3959b4bcdcc04d49219cba112895af09dd3797",
+    "fetchedAt": 1783246518
+  },
+  {
+    "equipmentId": 444,
+    "equipmentName": "四式重爆 飛龍+イ号一型甲 誘導弾",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE.html",
+    "contentSha256": "3955950f9db83694a0e33e2369fb93525bc5b63a418f9c693ac63e6c8e23974b",
+    "fetchedAt": 1783246522
+  },
+  {
+    "equipmentId": 445,
+    "equipmentName": "二式複戦 屠龍",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D.html",
+    "contentSha256": "33987e668c6bce24ed942a0437038d2b9100a258ac880e54b0f5e6e731603978",
+    "fetchedAt": 1783246527
+  },
+  {
+    "equipmentId": 446,
+    "equipmentName": "二式複戦 屠龍 丙型",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D%20%E4%B8%99%E5%9E%8B",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D%20%E4%B8%99%E5%9E%8B.html",
+    "contentSha256": "d481ac523f68b18a0b98c6cd483e23e3e10a3e0147de3dd79959a88fa0cc1aa1",
+    "fetchedAt": 1783246531
+  },
+  {
+    "equipmentId": 447,
+    "equipmentName": "零式艦戦64型(複座KMX搭載機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E8%A4%87%E5%BA%A7KMX%E6%90%AD%E8%BC%89%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E8%A4%87%E5%BA%A7KMX%E6%90%AD%E8%BC%89%E6%A9%9F%29.html",
+    "contentSha256": "cc084cbb881909a186a995854359d31c4c2cd39a6f62e97a9b0118b65011d655",
+    "fetchedAt": 1783246535
+  },
+  {
+    "equipmentId": 449,
+    "equipmentName": "特大発動艇+一式砲戦車",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E4%B8%80%E5%BC%8F%E7%A0%B2%E6%88%A6%E8%BB%8A",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E4%B8%80%E5%BC%8F%E7%A0%B2%E6%88%A6%E8%BB%8A.html",
+    "contentSha256": "02952582c65066b359706e93ed208552ce34dc7588774ad9a96d70701e145514",
+    "fetchedAt": 1783246540
+  },
+  {
+    "equipmentId": 450,
+    "equipmentName": "13号対空電探改(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "1740818446fb226a3c144dc0c7528a37a79aabe259f58230ad104ed3caef5512",
+    "fetchedAt": 1783246544
+  },
+  {
+    "equipmentId": 451,
+    "equipmentName": "三式指揮連絡機改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9.html",
+    "contentSha256": "fe35223377c6261f619ee4e37e6060ca024e6d16e0e6078a69d7be3e092c83ee",
+    "fetchedAt": 1783246547
+  },
+  {
+    "equipmentId": 452,
+    "equipmentName": "キ96",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E3%82%AD96",
+    "cacheKey": "wikiwiki.jp/kancolle/%E3%82%AD96.html",
+    "contentSha256": "9cae14406c518917f670f65082b1bd4a5dcd36e4b0ca35fcd257313b5f713c1e",
+    "fetchedAt": 1783246642
+  },
+  {
+    "equipmentId": 453,
+    "equipmentName": "キ102乙",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99",
+    "cacheKey": "wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99.html",
+    "contentSha256": "8966f1b51839853be970afba6d5b568da164a65b1b829dcf2dc51342c6d10f45",
+    "fetchedAt": 1783246645
+  },
+  {
+    "equipmentId": 454,
+    "equipmentName": "キ102乙改+イ号一型乙 誘導弾",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99%E6%94%B9%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E4%B9%99%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+    "cacheKey": "wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99%E6%94%B9%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E4%B9%99%20%E8%AA%98%E5%B0%8E%E5%BC%BE.html",
+    "contentSha256": "42e83b2b57ffc1f9cd5db0610334a754a81f9c6da0692cdb606c8d9ab5128e85",
+    "fetchedAt": 1783246650
+  },
+  {
+    "equipmentId": 455,
+    "equipmentName": "試製 長12.7cm連装砲A型改四",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%95%B712.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E5%9B%9B",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%95%B712.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E5%9B%9B",
+    "contentSha256": "9e2e47df0504154e2fb7a296a34fefde79cbd9cd5d79c3dc6a8851f7ff4fa82a",
+    "fetchedAt": 1783246654
+  },
+  {
+    "equipmentId": 456,
+    "equipmentName": "SG レーダー(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SG%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SG%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "6b38bb8dc18ab0f252d79c0b7fc67ccaee1846bded1159c1181a980c4537cc48",
+    "fetchedAt": 1783246657
+  },
+  {
+    "equipmentId": 457,
+    "equipmentName": "後期型艦首魚雷(4門)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29.html",
+    "contentSha256": "e57e99af1a4815c6d40b6ffb8707182c5f966f3b24178b2a5b820e991adce648",
+    "fetchedAt": 1783246753
+  },
+  {
+    "equipmentId": 458,
+    "equipmentName": "後期型電探&逆探+シュノーケル装備",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2%EF%BC%8B%E3%82%B7%E3%83%A5%E3%83%8E%E3%83%BC%E3%82%B1%E3%83%AB%E8%A3%85%E5%82%99",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2%EF%BC%8B%E3%82%B7%E3%83%A5%E3%83%8E%E3%83%BC%E3%82%B1%E3%83%AB%E8%A3%85%E5%82%99.html",
+    "contentSha256": "45db0a60580f91435e8eea1a3953b98f70b6eaa0fb81fb82ec604ba190013d84",
+    "fetchedAt": 1783246756
+  },
+  {
+    "equipmentId": 459,
+    "equipmentName": "B-25",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/B-25",
+    "cacheKey": "wikiwiki.jp/kancolle/B-25.html",
+    "contentSha256": "da69e2834cad2c64fe0d9745ea0a07b652c1a0ae7eab515460472cf838d2c441",
+    "fetchedAt": 1783246760
+  },
+  {
+    "equipmentId": 460,
+    "equipmentName": "15m二重測距儀改+21号電探改二+熟練射撃指揮所",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%E6%94%B9%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C%EF%BC%8B%E7%86%9F%E7%B7%B4%E5%B0%84%E6%92%83%E6%8C%87%E6%8F%AE%E6%89%80",
+    "cacheKey": "wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%E6%94%B9%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C%EF%BC%8B%E7%86%9F%E7%B7%B4%E5%B0%84%E6%92%83%E6%8C%87%E6%8F%AE%E6%89%80.html",
+    "contentSha256": "e60227d9beba4101c8061644bd74ec9d06b889c3106cc2f4fc136f4b1be1a699",
+    "fetchedAt": 1783246764
+  },
+  {
+    "equipmentId": 461,
+    "equipmentName": "熟練聴音員+後期型艦首魚雷(4門)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%81%B4%E9%9F%B3%E5%93%A1%EF%BC%8B%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%81%B4%E9%9F%B3%E5%93%A1%EF%BC%8B%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29.html",
+    "contentSha256": "30f1fcd4ab446057920eea68df0a0001e7c92412e8390b9ad53306a41483cf65",
+    "fetchedAt": 1783246767
+  },
+  {
+    "equipmentId": 463,
+    "equipmentName": "15.5cm三連装副砲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "contentSha256": "17d944786945140f62fdfe2c3c2749e50a9ca934b02e947c77dd89b176a926c1",
+    "fetchedAt": 1783246771
+  },
+  {
+    "equipmentId": 464,
+    "equipmentName": "10cm連装高角砲群 集中配備",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+    "cacheKey": "wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99.html",
+    "contentSha256": "76dff30811919456727d68c4acc33ed7a4c7d88ce3cc29c92dc8d170c7027659",
+    "fetchedAt": 1783246776
+  },
+  {
+    "equipmentId": 465,
+    "equipmentName": "試製51cm三連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "3455e28f5e758454638a5b2b7efd6952e81ac409f52dad3af50cb95a9e54a13c",
+    "fetchedAt": 1783246870
+  },
+  {
+    "equipmentId": 466,
+    "equipmentName": "流星改(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "a8ac2e68635b897725cfa883ee55e1be48869f52f0488a0d51e67df125836282",
+    "fetchedAt": 1783246874
+  },
+  {
+    "equipmentId": 468,
+    "equipmentName": "38cm四連装砲改 deux",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20deux",
+    "cacheKey": "wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20deux.html",
+    "contentSha256": "cedd8686cd15f62f78ccfaf76f9e3da82e48b8df1ad731d68524bee9ba45ce03",
+    "fetchedAt": 1783246879
+  },
+  {
+    "equipmentId": 469,
+    "equipmentName": "零式水上偵察機11型乙改(夜偵)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29.html",
+    "contentSha256": "860806e22313dc966dee40c18e35241399c0eccbe3449a3ef11b37d073089211",
+    "fetchedAt": 1783246883
+  },
+  {
+    "equipmentId": 470,
+    "equipmentName": "12.7cm連装砲C型改三",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89",
+    "contentSha256": "ddfe338dc866e2fbe5fe3ebbeb9853287de198551879a3e9d669f01f53fa3bc9",
+    "fetchedAt": 1783246889
+  },
+  {
+    "equipmentId": 471,
+    "equipmentName": "Loire 130M",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Loire%20130M",
+    "cacheKey": "wikiwiki.jp/kancolle/Loire%20130M.html",
+    "contentSha256": "a09470564f6ac05eb9760acff21b607b55301f579eab039d190dc1c54a0ef29b",
+    "fetchedAt": 1783246893
+  },
+  {
+    "equipmentId": 472,
+    "equipmentName": "Mk.32 対潜魚雷(Mk.2落射機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29",
+    "contentSha256": "989e1aca7690f0a03a8ec6174b7bc651cbecf5794e69da40b56728495a756877",
+    "fetchedAt": 1783246897
+  },
+  {
+    "equipmentId": 473,
+    "equipmentName": "F4U-2 Night Corsair",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/F4U-2%20Night%20Corsair",
+    "cacheKey": "wikiwiki.jp/kancolle/F4U-2%20Night%20Corsair.html",
+    "contentSha256": "4e859a1a0bd97501d005c81a40bbf6ff9bb7a5acec69bc0a977a7c5b61c880c3",
+    "fetchedAt": 1783246900
+  },
+  {
+    "equipmentId": 474,
+    "equipmentName": "F4U-4",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/F4U-4",
+    "cacheKey": "wikiwiki.jp/kancolle/F4U-4.html",
+    "contentSha256": "8d99fad520f6bf4fa9f445236c33d391fe2eaabd8529a3f9aa2b72c8c7b05b2c",
+    "fetchedAt": 1783246906
+  },
+  {
+    "equipmentId": 475,
+    "equipmentName": "AU-1",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/AU-1",
+    "cacheKey": "wikiwiki.jp/kancolle/AU-1.html",
+    "contentSha256": "57fea88042acd82872b2e6a3f2fd38880605266de43d120e5c41be96839b8336",
+    "fetchedAt": 1783246910
+  },
+  {
+    "equipmentId": 476,
+    "equipmentName": "F4U-7",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/F4U-7",
+    "cacheKey": "wikiwiki.jp/kancolle/F4U-7.html",
+    "contentSha256": "093bef3b2e80e93cf16c4a0c422205e18449c1f34076fdf6045f2be76c38054d",
+    "fetchedAt": 1783246958
+  },
+  {
+    "equipmentId": 477,
+    "equipmentName": "熟練甲板要員",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1.html",
+    "contentSha256": "a2bb97c91308fcc494985df167716419d0dcaaf98204a8ac1bacbc730772b1fe",
+    "fetchedAt": 1783246963
+  },
+  {
+    "equipmentId": 478,
+    "equipmentName": "熟練甲板要員+航空整備員",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1%EF%BC%8B%E8%88%AA%E7%A9%BA%E6%95%B4%E5%82%99%E5%93%A1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1%EF%BC%8B%E8%88%AA%E7%A9%BA%E6%95%B4%E5%82%99%E5%93%A1.html",
+    "contentSha256": "09f5f9977afd8ede216d9a999854146bec15003877f072ba16b8692caf10855f",
+    "fetchedAt": 1783246968
+  },
+  {
+    "equipmentId": 479,
+    "equipmentName": "Mosquito FB Mk.VI",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Mosquito%20FB%20Mk.VI",
+    "cacheKey": "wikiwiki.jp/kancolle/Mosquito%20FB%20Mk.VI",
+    "contentSha256": "6dcc38dd9a322f87cdd11fd50b727abbf2bb254365365c710c22924d50d497e2",
+    "fetchedAt": 1783246972
+  },
+  {
+    "equipmentId": 480,
+    "equipmentName": "Mosquito PR Mk.IV",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Mosquito%20PR%20Mk.IV",
+    "cacheKey": "wikiwiki.jp/kancolle/Mosquito%20PR%20Mk.IV",
+    "contentSha256": "5aad9e935e42f3fe8bc56eaddb4ee907888bc6af5fd5612056e4d663a4ac3a74",
+    "fetchedAt": 1783246976
+  },
+  {
+    "equipmentId": 481,
+    "equipmentName": "Mosquito TR Mk.33",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Mosquito%20TR%20Mk.33",
+    "cacheKey": "wikiwiki.jp/kancolle/Mosquito%20TR%20Mk.33",
+    "contentSha256": "a629eb16688cefa289775a478c9343df8404259e84e4ef12997972081c955f0c",
+    "fetchedAt": 1783246980
+  },
+  {
+    "equipmentId": 482,
+    "equipmentName": "特大発動艇+Ⅲ号戦車(北アフリカ仕様)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8A%28%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8A%28%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29.html",
+    "contentSha256": "9db4745e5dab14e5304417ef787570e6b9c4eb2c5f92e791eea68b4b6f0afb52",
+    "fetchedAt": 1783246984
+  },
+  {
+    "equipmentId": 483,
+    "equipmentName": "三式弾改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "4f3da6cda529ae6aee338ddf1fec6bdd050f51ecbc2c519c9f06286180591e62",
+    "fetchedAt": 1783247078
+  },
+  {
+    "equipmentId": 484,
+    "equipmentName": "四式重爆 飛龍(熟練)+イ号一型甲 誘導弾",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE.html",
+    "contentSha256": "4d7ac2bb4bdfd1a299d450d61da0664bb5dedd07a50db642f4db13b672cfbabe",
+    "fetchedAt": 1783247082
+  },
+  {
+    "equipmentId": 485,
+    "equipmentName": "強風改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "f295d925f3f6f86fa4a743945af265ddc427bccf4ce0189ccb6ea408ce40cd58",
+    "fetchedAt": 1783247086
+  },
+  {
+    "equipmentId": 486,
+    "equipmentName": "零式艦戦64型(制空戦闘機仕様)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E5%88%B6%E7%A9%BA%E6%88%A6%E9%97%98%E6%A9%9F%E4%BB%95%E6%A7%98%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E5%88%B6%E7%A9%BA%E6%88%A6%E9%97%98%E6%A9%9F%E4%BB%95%E6%A7%98%29.html",
+    "contentSha256": "9c6e4001001b4af1343af6ae15d3b22ab04db67ffb95bfbee02b1d0b5fbe16e4",
+    "fetchedAt": 1783247090
+  },
+  {
+    "equipmentId": 487,
+    "equipmentName": "零式艦戦64型(熟練爆戦)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E7%86%9F%E7%B7%B4%E7%88%86%E6%88%A6%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E7%86%9F%E7%B7%B4%E7%88%86%E6%88%A6%29.html",
+    "contentSha256": "35fb41337dd31b701a2d4e8b35e6ffa12d89a96f5bf1109a4434e59d4d0ef1ea",
+    "fetchedAt": 1783247095
+  },
+  {
+    "equipmentId": 488,
+    "equipmentName": "二式爆雷改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "464a3cca48589660d7198a3d3f70c8eb22466f4f3e448aa9db6720fc9059a938",
+    "fetchedAt": 1783247190
+  },
+  {
+    "equipmentId": 489,
+    "equipmentName": "一式戦 隼II型改(20戦隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B%E6%94%B9%2820%E6%88%A6%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B%E6%94%B9%2820%E6%88%A6%E9%9A%8A%29.html",
+    "contentSha256": "01a499d83911b0be7bc2c280e32a7351442c30911c5d190f2f0bacddc72d721c",
+    "fetchedAt": 1783247193
+  },
+  {
+    "equipmentId": 490,
+    "equipmentName": "試製 夜間瑞雲(攻撃装備)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29.html",
+    "contentSha256": "a5f92589f35a72e068a9d2e8ef817dc8c865b952552573b099be15e4394560c1",
+    "fetchedAt": 1783247196
+  },
+  {
+    "equipmentId": 491,
+    "equipmentName": "一式戦 隼III型改(熟練/20戦隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F20%E6%88%A6%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F20%E6%88%A6%E9%9A%8A%29.html",
+    "contentSha256": "6fb83765efffde1fbad63ee6af579167da1545f22a2936288cbb69ef5797bd1d",
+    "fetchedAt": 1783247201
+  },
+  {
+    "equipmentId": 492,
+    "equipmentName": "零戦52型丙(八幡部隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29.html",
+    "contentSha256": "b563c48655b1c4cd27a2e4e6ea7926cb75d67bbc269d6705ad003b1fd8a56db9",
+    "fetchedAt": 1783247205
+  },
+  {
+    "equipmentId": 493,
+    "equipmentName": "一式陸攻(八幡部隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29.html",
+    "contentSha256": "9ed0dd4a915bd4414c3526ee86749331967679e93190dac716f526d1fbedb288",
+    "fetchedAt": 1783247208
+  },
+  {
+    "equipmentId": 494,
+    "equipmentName": "特大発動艇+チハ",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F.html",
+    "contentSha256": "036d14b70f9e4955ba2c70abca07ee72443b0974f7daa490964feb0d3c86edeb",
+    "fetchedAt": 1783247211
+  },
+  {
+    "equipmentId": 495,
+    "equipmentName": "特大発動艇+チハ改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9.html",
+    "contentSha256": "b21ea550620782ac50c7a25a327b130e6a205ce98c5fb7c862d17facaae6bf74",
+    "fetchedAt": 1783247215
+  },
+  {
+    "equipmentId": 496,
+    "equipmentName": "陸軍歩兵部隊",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A.html",
+    "contentSha256": "68f56d0676e028fc26c8d2b6afd3ade768dd622f03d21766edf7a8f066b4a4ff",
+    "fetchedAt": 1783247218
+  },
+  {
+    "equipmentId": 497,
+    "equipmentName": "九七式中戦車(チハ)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%28%E3%83%81%E3%83%8F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%28%E3%83%81%E3%83%8F%29.html",
+    "contentSha256": "5f4f43b8b1d88a104d51fcf0c52717b5b952b2b38d7f4d24bda5a935fe6fcf84",
+    "fetchedAt": 1783247221
+  },
+  {
+    "equipmentId": 498,
+    "equipmentName": "九七式中戦車 新砲塔(チハ改)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%20%E6%96%B0%E7%A0%B2%E5%A1%94%28%E3%83%81%E3%83%8F%E6%94%B9%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%20%E6%96%B0%E7%A0%B2%E5%A1%94%28%E3%83%81%E3%83%8F%E6%94%B9%29.html",
+    "contentSha256": "8748ecd04ed0ea51c0973a4529bc8f576962208825dd6cd43c9da5cacccc97c6",
+    "fetchedAt": 1783247226
+  },
+  {
+    "equipmentId": 499,
+    "equipmentName": "陸軍歩兵部隊+チハ改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9.html",
+    "contentSha256": "1ce6423abe513ad236898e354cdb9af63d23b4da71b62023a4422c9aedd52dd0",
+    "fetchedAt": 1783247320
+  },
+  {
+    "equipmentId": 500,
+    "equipmentName": "発煙装置(煙幕)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%28%E7%85%99%E5%B9%95%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%28%E7%85%99%E5%B9%95%29.html",
+    "contentSha256": "93f7b6325b9d3e9d798085af678e1bf0ba93dc35d3275025347aafa26587c77c",
+    "fetchedAt": 1783247324
+  },
+  {
+    "equipmentId": 501,
+    "equipmentName": "発煙装置改(煙幕)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%E6%94%B9%28%E7%85%99%E5%B9%95%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%E6%94%B9%28%E7%85%99%E5%B9%95%29.html",
+    "contentSha256": "ab705acee1c7d570c57d74056184b56245578f6bb728105b271a1cfa2b5e0e28",
+    "fetchedAt": 1783247327
+  },
+  {
+    "equipmentId": 502,
+    "equipmentName": "35.6cm連装砲改三(ダズル迷彩仕様)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+    "cacheKey": "wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+    "contentSha256": "a86cf137134ea57137f259a1c97711a3a957381d35a35ffa1382df9940fda3fa",
+    "fetchedAt": 1783247330
+  },
+  {
+    "equipmentId": 503,
+    "equipmentName": "35.6cm連装砲改四",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E5%9B%9B",
+    "cacheKey": "wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E5%9B%9B",
+    "contentSha256": "2328c3f865e3948e2b6c48668eb6de4b2b11e28dde761384959c0f172637c969",
+    "fetchedAt": 1783247335
+  },
+  {
+    "equipmentId": 504,
+    "equipmentName": "銀河(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "e45d511242e51e36806f5a673b1167eb444ac0b7d7963336cee13dc0f8a5f38c",
+    "fetchedAt": 1783247429
+  },
+  {
+    "equipmentId": 505,
+    "equipmentName": "25mm対空機銃増備",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/25mm%E5%AF%BE%E7%A9%BA%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99",
+    "cacheKey": "wikiwiki.jp/kancolle/25mm%E5%AF%BE%E7%A9%BA%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99.html",
+    "contentSha256": "19f649d054846222d5510ad0b216066bff10b5edb6cd6500700e19c8bf1d469f",
+    "fetchedAt": 1783247433
+  },
+  {
+    "equipmentId": 506,
+    "equipmentName": "電探装備マスト(13号改+22号電探改四)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%E3%83%9E%E3%82%B9%E3%83%88%2813%E5%8F%B7%E6%94%B9%EF%BC%8B22%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%E3%83%9E%E3%82%B9%E3%83%88%2813%E5%8F%B7%E6%94%B9%EF%BC%8B22%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%29.html",
+    "contentSha256": "fd5517e225267bb0724e2041b6eb7193fcd2666087457af487a62f2ff4b7245c",
+    "fetchedAt": 1783247437
+  },
+  {
+    "equipmentId": 507,
+    "equipmentName": "14inch/45 連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "b677dca70a9e5fc3f9285af870eaa94a029a070f85e307e9baceaa01802bd8b4",
+    "fetchedAt": 1783247441
+  },
+  {
+    "equipmentId": 508,
+    "equipmentName": "14inch/45 三連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2.html",
+    "contentSha256": "0fb9fae1fe9e76389494251909434d847a138532b49d0934f49165a1a0e6c621",
+    "fetchedAt": 1783247445
+  },
+  {
+    "equipmentId": 509,
+    "equipmentName": "12cm単装高角砲E型改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B%E6%94%B9.html",
+    "contentSha256": "0de8f666833db0c472dc839dfe80c62f0e04a24c3e0b896b3e1c4ea60ea24666",
+    "fetchedAt": 1783247450
+  },
+  {
+    "equipmentId": 510,
+    "equipmentName": "Walrus",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Walrus",
+    "cacheKey": "wikiwiki.jp/kancolle/Walrus.html",
+    "contentSha256": "d79896b05ed01bfd6021629616d16e224a2d4369a4a6f83e2a1d6d2574687500",
+    "fetchedAt": 1783247545
+  },
+  {
+    "equipmentId": 511,
+    "equipmentName": "21inch艦首魚雷発射管4門(初期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "d289f1c032fd45e4f701de8b680e728e54bfdd699990ef949b16c3694c8d94d1",
+    "fetchedAt": 1783247549
+  },
+  {
+    "equipmentId": 512,
+    "equipmentName": "21inch艦首魚雷発射管4門(後期型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29.html",
+    "contentSha256": "ce472e8c9d23bf6d81824e98e98e52fa7cc8962c5ee9bc9b564487a2c0f835cd",
+    "fetchedAt": 1783247553
+  },
+  {
+    "equipmentId": 513,
+    "equipmentName": "阻塞気球",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%98%BB%E5%A1%9E%E6%B0%97%E7%90%83",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%98%BB%E5%A1%9E%E6%B0%97%E7%90%83.html",
+    "contentSha256": "b4c2cc30bee66314627357f921ff0c7613244f7b39b9b461c824ee5f993c69d7",
+    "fetchedAt": 1783247558
+  },
+  {
+    "equipmentId": 514,
+    "equipmentName": "特大発動艇+Ⅲ号戦車J型",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8AJ%E5%9E%8B",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8AJ%E5%9E%8B.html",
+    "contentSha256": "e1b410112e96ad1a7f2ecba1e854eb46b53574fd721a159c0f681c73d0b0e55b",
+    "fetchedAt": 1783247562
+  },
+  {
+    "equipmentId": 515,
+    "equipmentName": "Sea Otter",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Sea%20Otter",
+    "cacheKey": "wikiwiki.jp/kancolle/Sea%20Otter.html",
+    "contentSha256": "8a6c8fbf9432618ab0fb4f3eda241b22faa77c7ee9b2438edb9827542297ec98",
+    "fetchedAt": 1783247566
+  },
+  {
+    "equipmentId": 516,
+    "equipmentName": "Me 262 A-1a/R1",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Me%20262%20A-1a%EF%BC%8FR1",
+    "cacheKey": "wikiwiki.jp/kancolle/Me%20262%20A-1a%EF%BC%8FR1.html",
+    "contentSha256": "20546b8718089f6c46ca5e1615a5153c373bb634cd531ab6ba591840c0ce5f9f",
+    "fetchedAt": 1783247660
+  },
+  {
+    "equipmentId": 517,
+    "equipmentName": "逆探(E27)+22号対水上電探改四(後期調整型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29.html",
+    "contentSha256": "44790d915ddc8036e96eff8be1efb2c97464298787b7e2abbc086d375134e690",
+    "fetchedAt": 1783247663
+  },
+  {
+    "equipmentId": 518,
+    "equipmentName": "14cm連装砲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "6f6bc95c321959c78c30c406d94f25936caaff45acd79c62805f6f5b6f844a10",
+    "fetchedAt": 1783247667
+  },
+  {
+    "equipmentId": 519,
+    "equipmentName": "SJレーダー+潜水艦司令塔装備",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SJ%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%8F%B8%E4%BB%A4%E5%A1%94%E8%A3%85%E5%82%99",
+    "cacheKey": "wikiwiki.jp/kancolle/SJ%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%8F%B8%E4%BB%A4%E5%A1%94%E8%A3%85%E5%82%99.html",
+    "contentSha256": "87530fa2f3076147d2833cc3180bdd9fab75ad4088c3cb328d8176bc1c7c8f3d",
+    "fetchedAt": 1783247670
+  },
+  {
+    "equipmentId": 520,
+    "equipmentName": "試製20.3cm(4号)連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "contentSha256": "5ff0288f42d7ff2947a87e29d88377e204cbde9026f105e7cab861d4a2354c3f",
+    "fetchedAt": 1783247674
+  },
+  {
+    "equipmentId": 521,
+    "equipmentName": "紫雲(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "b51b1fd7372bb012fa81e0e2299d1079f494820893ae18736ad78de8730ce281",
+    "fetchedAt": 1783247678
+  },
+  {
+    "equipmentId": 522,
+    "equipmentName": "零式小型水上機",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F.html",
+    "contentSha256": "708f3c8203232aa00fbeb2d3b5bfe99e3ff51fb1c3ed0497b7548bb7ff889216",
+    "fetchedAt": 1783247682
+  },
+  {
+    "equipmentId": 523,
+    "equipmentName": "零式小型水上機(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "49a172850181c8a9129aab93c0be9265f9e1a35a272157b313c524d6d78744a5",
+    "fetchedAt": 1783247776
+  },
+  {
+    "equipmentId": 524,
+    "equipmentName": "12cm単装高角砲+25mm機銃増備",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B25mm%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99",
+    "cacheKey": "wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B25mm%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99.html",
+    "contentSha256": "f5a1ea4108b814b32f64e51d7f00d3856c05b3f50f5aab0eb46a0cb5efdeeaf7",
+    "fetchedAt": 1783247779
+  },
+  {
+    "equipmentId": 525,
+    "equipmentName": "特四式内火艇",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87.html",
+    "contentSha256": "015e95addf3789cf9c515c4dba58601a2afdf3b3a5e47e11533680f77995a258",
+    "fetchedAt": 1783247784
+  },
+  {
+    "equipmentId": 526,
+    "equipmentName": "特四式内火艇改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87%E6%94%B9.html",
+    "contentSha256": "1de956b0d687de1db74de8cc0ff94439c39653d708810a1fac2bf800ceeca747",
+    "fetchedAt": 1783247787
+  },
+  {
+    "equipmentId": 527,
+    "equipmentName": "Type281 レーダー",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Type281%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+    "cacheKey": "wikiwiki.jp/kancolle/Type281%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC.html",
+    "contentSha256": "2a275181970a4b296c3c3d53c2b02ec2dc63d48600f54210cac78d746eacf8e6",
+    "fetchedAt": 1783247792
+  },
+  {
+    "equipmentId": 528,
+    "equipmentName": "Type274 射撃管制レーダー",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Type274%20%E5%B0%84%E6%92%83%E7%AE%A1%E5%88%B6%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+    "cacheKey": "wikiwiki.jp/kancolle/Type274%20%E5%B0%84%E6%92%83%E7%AE%A1%E5%88%B6%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC.html",
+    "contentSha256": "f3912df817942fd8aa5ec5b58639f44608bd46af50ca893f28a90818107a71da",
+    "fetchedAt": 1783247796
+  },
+  {
+    "equipmentId": 529,
+    "equipmentName": "12.7cm連装砲C型改三H",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89H",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89H",
+    "contentSha256": "b1c57e39a57d553b3e13a16e1a8a8658731813ed6f2c2e000311938194ad304d",
+    "fetchedAt": 1783247801
+  },
+  {
+    "equipmentId": 530,
+    "equipmentName": "35.6cm連装砲改三丙",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%E4%B8%99",
+    "cacheKey": "wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%E4%B8%99",
+    "contentSha256": "e0bcc206b4f1e5a0c87a9212b54508f5c0e14e71d3a734f5930f457921d205fa",
+    "fetchedAt": 1783247805
+  },
+  {
+    "equipmentId": 531,
+    "equipmentName": "艦隊通信アンテナ",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%89%A6%E9%9A%8A%E9%80%9A%E4%BF%A1%E3%82%A2%E3%83%B3%E3%83%86%E3%83%8A",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%89%A6%E9%9A%8A%E9%80%9A%E4%BF%A1%E3%82%A2%E3%83%B3%E3%83%86%E3%83%8A.html",
+    "contentSha256": "52ddbe634db3d80df68fdbb66d2b89207fdb30f40adf0ffc658fc6d4ab610ab3",
+    "fetchedAt": 1783247808
+  },
+  {
+    "equipmentId": 532,
+    "equipmentName": "通信装置&要員",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%80%9A%E4%BF%A1%E8%A3%85%E7%BD%AE%EF%BC%86%E8%A6%81%E5%93%A1",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%80%9A%E4%BF%A1%E8%A3%85%E7%BD%AE%EF%BC%86%E8%A6%81%E5%93%A1.html",
+    "contentSha256": "be04c6bacf8825b996df1606d1f05d5f8f25ca851f298677f9841eb67b7d0519",
+    "fetchedAt": 1783247811
+  },
+  {
+    "equipmentId": 533,
+    "equipmentName": "10cm連装高角砲改+高射装置改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9.html",
+    "contentSha256": "df96e03899dbff2fb17076578abb6b6b7046bf1aa2e7098172ae1a2788dde9c0",
+    "fetchedAt": 1783247816
+  },
+  {
+    "equipmentId": 534,
+    "equipmentName": "13.8cm連装砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+    "contentSha256": "f6c0777d8d6ac29c5b61bbf416a167b28a92756e8671dee843db259b1770e795",
+    "fetchedAt": 1783247820
+  },
+  {
+    "equipmentId": 535,
+    "equipmentName": "13.8cm連装砲改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+    "contentSha256": "991d970a2bd9427a21754d303ba58db4a0af6b92e45b8247b09fbf41cf8ac4aa",
+    "fetchedAt": 1783247824
+  },
+  {
+    "equipmentId": 536,
+    "equipmentName": "15.2cm三連装主砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2",
+    "contentSha256": "d80ee725c374e6b6f930de667133acb541a68a1d85eb4603040326bde1807ce5",
+    "fetchedAt": 1783247827
+  },
+  {
+    "equipmentId": 537,
+    "equipmentName": "15.2cm三連装主砲改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2%E6%94%B9",
+    "contentSha256": "f29e89cd5c191339b02edabb099607fe0751deb8a74bfbdc8b651eac74b32836",
+    "fetchedAt": 1783247831
+  },
+  {
+    "equipmentId": 538,
+    "equipmentName": "Loire 130M改(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Loire%20130M%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Loire%20130M%E6%94%B9%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "0879a1f19825bedf9f3c14924507cfa79383e0c5140a80612097fa4776af2bc0",
+    "fetchedAt": 1783247835
+  },
+  {
+    "equipmentId": 539,
+    "equipmentName": "SOC Seagull 後期型(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SOC%20Seagull%20%E5%BE%8C%E6%9C%9F%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SOC%20Seagull%20%E5%BE%8C%E6%9C%9F%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "bb61ed75518d6ffb2003dbb63b5b86cd9697b785b9d55778aeb9e338ee3399fe",
+    "fetchedAt": 1783247840
+  },
+  {
+    "equipmentId": 540,
+    "equipmentName": "零式水上偵察機11型甲改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "b257d4416843f356b2891bcb8f22e6ea5243015f8669c0ca471e39dec81a8c07",
+    "fetchedAt": 1783247935
+  },
+  {
+    "equipmentId": 541,
+    "equipmentName": "SBD(Yellow Wings)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SBD%28Yellow%20Wings%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SBD%28Yellow%20Wings%29.html",
+    "contentSha256": "5ae5e032cbcdbc4b846e6bd0c68f83a242f51e81dff3918d95dcd81494dd0523",
+    "fetchedAt": 1783247940
+  },
+  {
+    "equipmentId": 542,
+    "equipmentName": "TBD(Yellow Wings)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/TBD%28Yellow%20Wings%29",
+    "cacheKey": "wikiwiki.jp/kancolle/TBD%28Yellow%20Wings%29.html",
+    "contentSha256": "17733ce9c5b4c4d79fcc6f509addd92b3cb9efec20b998928ba7ee5bfd605510",
+    "fetchedAt": 1783247944
+  },
+  {
+    "equipmentId": 543,
+    "equipmentName": "SBD VS-2(偵察飛行隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SBD%20VS-2%28%E5%81%B5%E5%AF%9F%E9%A3%9B%E8%A1%8C%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SBD%20VS-2%28%E5%81%B5%E5%AF%9F%E9%A3%9B%E8%A1%8C%E9%9A%8A%29.html",
+    "contentSha256": "939984ffe3aae73f1d9752037eb41bd721b2872f4bcf2a3d3f8eb1af709c7d48",
+    "fetchedAt": 1783247949
+  },
+  {
+    "equipmentId": 544,
+    "equipmentName": "SBD VB-2(爆撃飛行隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SBD%20VB-2%28%E7%88%86%E6%92%83%E9%A3%9B%E8%A1%8C%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SBD%20VB-2%28%E7%88%86%E6%92%83%E9%A3%9B%E8%A1%8C%E9%9A%8A%29.html",
+    "contentSha256": "23872bffb0e466b041f68382b496d1d2df1aacb4fd72eb092210267856863689",
+    "fetchedAt": 1783247952
+  },
+  {
+    "equipmentId": 545,
+    "equipmentName": "天山一二型甲改二(村田隊/電探装備)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29.html",
+    "contentSha256": "51b475ca6e4802191beba2505c3c8001a1ad952c072e9b3bff5f5989400e9026",
+    "fetchedAt": 1783247956
+  },
+  {
+    "equipmentId": 546,
+    "equipmentName": "試製 震電(局地戦闘機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29.html",
+    "contentSha256": "fe8efe8a1628ae6ddcf5e8280c3ae49f8bfc2313ff64c133addcd14e66f76032",
+    "fetchedAt": 1783247960
+  },
+  {
+    "equipmentId": 547,
+    "equipmentName": "震電改二(艦戦型改二)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29.html",
+    "contentSha256": "fa89ff9ae07f83f8f08b625a188ede9cf0aa3c6a398e86a02ad8d0ff0e65d4f3",
+    "fetchedAt": 1783247963
+  },
+  {
+    "equipmentId": 548,
+    "equipmentName": "震電改三(試製 噴式震電)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29.html",
+    "contentSha256": "99400d098507f65890e9956e4f0a6e34501adbdc1da4fb88d033985aed61711b",
+    "fetchedAt": 1783247967
+  },
+  {
+    "equipmentId": 549,
+    "equipmentName": "三式指揮連絡機改二",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9%E4%BA%8C",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9%E4%BA%8C.html",
+    "contentSha256": "d91db3197aefec256db15a9573d40d1f515ad5de3880e2a5dcbab7f4a947e029",
+    "fetchedAt": 1783247971
+  },
+  {
+    "equipmentId": 550,
+    "equipmentName": "試製 明星(増加試作機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E6%98%8E%E6%98%9F%28%E5%A2%97%E5%8A%A0%E8%A9%A6%E4%BD%9C%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E6%98%8E%E6%98%9F%28%E5%A2%97%E5%8A%A0%E8%A9%A6%E4%BD%9C%E6%A9%9F%29.html",
+    "contentSha256": "cdef9acf0152044eae6030916920b47d6febc7f49b53d0a477376783fa1fbd46",
+    "fetchedAt": 1783248066
+  },
+  {
+    "equipmentId": 551,
+    "equipmentName": "明星改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%98%8E%E6%98%9F%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%98%8E%E6%98%9F%E6%94%B9.html",
+    "contentSha256": "cc7378796165227005778ecc800450d2d478b1e5ed9f3d6e4ef697fde136221e",
+    "fetchedAt": 1783248069
+  },
+  {
+    "equipmentId": 552,
+    "equipmentName": "九九式練爆二二型改(夜間装備実験機)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E7%B7%B4%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E8%A3%85%E5%82%99%E5%AE%9F%E9%A8%93%E6%A9%9F%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E7%B7%B4%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E8%A3%85%E5%82%99%E5%AE%9F%E9%A8%93%E6%A9%9F%29.html",
+    "contentSha256": "05f610eebefbec8b11a3a9dc1abde86e0a911af219b5a24f20185bd7d8e217b1",
+    "fetchedAt": 1783248073
+  },
+  {
+    "equipmentId": 553,
+    "equipmentName": "10cm連装高角砲改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9.html",
+    "contentSha256": "b6bd18eb6cf173bb61c52ec00204031b506f80ccb1b5dbd5d1382a3d41a5255c",
+    "fetchedAt": 1783248076
+  },
+  {
+    "equipmentId": 554,
+    "equipmentName": "九七式艦攻改(北東海軍航空隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%28%E5%8C%97%E6%9D%B1%E6%B5%B7%E8%BB%8D%E8%88%AA%E7%A9%BA%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%28%E5%8C%97%E6%9D%B1%E6%B5%B7%E8%BB%8D%E8%88%AA%E7%A9%BA%E9%9A%8A%29.html",
+    "contentSha256": "ee6bd1b8c577c04897fd6c7c931a42e53b6960d4b4368844658299c8ccfcb418",
+    "fetchedAt": 1783248081
+  },
+  {
+    "equipmentId": 555,
+    "equipmentName": "18cm/57 三連装主砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/18cm%EF%BC%8F57%20%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/18cm%EF%BC%8F57%20%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2.html",
+    "contentSha256": "d6e3701aadd299587263013611b8a68734f1c980adb6f50dbcea5e3c7aa88368",
+    "fetchedAt": 1783248084
+  },
+  {
+    "equipmentId": 556,
+    "equipmentName": "10cm/56 単装高角砲(集中配備)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/10cm%EF%BC%8F56%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+    "cacheKey": "wikiwiki.jp/kancolle/10cm%EF%BC%8F56%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29.html",
+    "contentSha256": "955776b5078ff256107b5e5c53ce626cd656c9bc120650b5b16799bc33a8f08d",
+    "fetchedAt": 1783248088
+  },
+  {
+    "equipmentId": 557,
+    "equipmentName": "零式艦戦62型改(夜間爆戦)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29.html",
+    "contentSha256": "d2eea7dc01d0ee8d73d4e3d835b9a4642d5be82d5fe1120730f370ee29e44cb0",
+    "fetchedAt": 1783248092
+  },
+  {
+    "equipmentId": 558,
+    "equipmentName": "零式艦戦62型改(熟練/夜間爆戦)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29.html",
+    "contentSha256": "f5aaf685e2f43b0ec4d85185a9e1c42a426f697ed83d13f787a55bd7f8162319",
+    "fetchedAt": 1783248096
+  },
+  {
+    "equipmentId": 559,
+    "equipmentName": "Ju87 D-4(Fliegerass)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Ju87%20D-4%28Fliegerass%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Ju87%20D-4%28Fliegerass%29.html",
+    "contentSha256": "86ca29e73e75c77529f8b93f0007a7513e81b14c388989a14c6bb6cab2a0bda8",
+    "fetchedAt": 1783248100
+  },
+  {
+    "equipmentId": 560,
+    "equipmentName": "Bf109 T-3(G)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Bf109%20T-3%28G%29",
+    "cacheKey": "wikiwiki.jp/kancolle/Bf109%20T-3%28G%29.html",
+    "contentSha256": "2ae920835fd996ba8c9f0fb5ce3c2ed8f78efe31fa9073512ab0b3e42bdb995e",
+    "fetchedAt": 1783248104
+  },
+  {
+    "equipmentId": 561,
+    "equipmentName": "Ho229",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Ho229",
+    "cacheKey": "wikiwiki.jp/kancolle/Ho229.html",
+    "contentSha256": "c0ccde4f66956d4d0a12e04e54c751f532d52811bd0be269f4e9e62a47128173",
+    "fetchedAt": 1783248108
+  },
+  {
+    "equipmentId": 562,
+    "equipmentName": "Do 217 E-5+TV誘導型 Hs293D",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BTV%E8%AA%98%E5%B0%8E%E5%9E%8B%20Hs293D",
+    "cacheKey": "wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BTV%E8%AA%98%E5%B0%8E%E5%9E%8B%20Hs293D.html",
+    "contentSha256": "2d075597cb44f5bbccd3f361c4b82618f8732dc6379984620b4b4cc5bfb65350",
+    "fetchedAt": 1783248112
+  },
+  {
+    "equipmentId": 564,
+    "equipmentName": "21cm単装主砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/21cm%E5%8D%98%E8%A3%85%E4%B8%BB%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/21cm%E5%8D%98%E8%A3%85%E4%B8%BB%E7%A0%B2.html",
+    "contentSha256": "be184beb816c324eefb6bf861b7396e79ed9adda0e4dc8633061a8823a87ed44",
+    "fetchedAt": 1783248115
+  },
+  {
+    "equipmentId": 565,
+    "equipmentName": "15cm単装副砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/15cm%E5%8D%98%E8%A3%85%E5%89%AF%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/15cm%E5%8D%98%E8%A3%85%E5%89%AF%E7%A0%B2.html",
+    "contentSha256": "f702ee56dad74ae779d6688d63e89913420d3d4738e469189582098ca89d012e",
+    "fetchedAt": 1783248210
+  },
+  {
+    "equipmentId": 566,
+    "equipmentName": "10.2cm三連装副砲",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/10.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2",
+    "cacheKey": "wikiwiki.jp/kancolle/10.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2",
+    "contentSha256": "0558c1a05bbadb194bb16db2e84e7552b6499e0d658189fd4b293e475a04f442",
+    "fetchedAt": 1783248214
+  },
+  {
+    "equipmentId": 567,
+    "equipmentName": "Sea Gladiator",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/Sea%20Gladiator",
+    "cacheKey": "wikiwiki.jp/kancolle/Sea%20Gladiator.html",
+    "contentSha256": "ce4f7c85a82d3accf3f5c3d312a93c4160ce224e459ff9797653c311ab84509a",
+    "fetchedAt": 1783248219
+  },
+  {
+    "equipmentId": 568,
+    "equipmentName": "強風改二(熟練)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C%28%E7%86%9F%E7%B7%B4%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C%28%E7%86%9F%E7%B7%B4%29.html",
+    "contentSha256": "965db48298a0e3173e59e29602e9100fd31c50afaf563492a4860cbf6b7d5860",
+    "fetchedAt": 1783248223
+  },
+  {
+    "equipmentId": 569,
+    "equipmentName": "三式爆雷投射機改",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%E6%94%B9",
+    "cacheKey": "wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%E6%94%B9.html",
+    "contentSha256": "fd7c7f7dd490edf01320c64c8f248e8f37011b9023d52ea6466c09b8d914a764",
+    "fetchedAt": 1783248226
+  },
+  {
+    "equipmentId": 570,
+    "equipmentName": "流星改(友永隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29.html",
+    "contentSha256": "681d3d03bad3fe2788ae7dae43685270f073f5216d2a836f2e4e759e3f292279",
+    "fetchedAt": 1783248322
+  },
+  {
+    "equipmentId": 571,
+    "equipmentName": "53cm連装魚雷改(酸素魚雷)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/53cm%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%E6%94%B9%28%E9%85%B8%E7%B4%A0%E9%AD%9A%E9%9B%B7%29",
+    "cacheKey": "wikiwiki.jp/kancolle/53cm%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%E6%94%B9%28%E9%85%B8%E7%B4%A0%E9%AD%9A%E9%9B%B7%29.html",
+    "contentSha256": "f025e368a88758d13db92e519a77d1e08d076945871d70987e62f6cfaa1936cf",
+    "fetchedAt": 1783248326
+  },
+  {
+    "equipmentId": 572,
+    "equipmentName": "12.7cm単装高角砲改三",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%B8%89",
+    "cacheKey": "wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%B8%89",
+    "contentSha256": "42fb76fc57317e11f2d632d4b9afe98863b2425681018a9a9f942c5c1f41974b",
+    "fetchedAt": 1783248329
+  },
+  {
+    "equipmentId": 573,
+    "equipmentName": "試製 23号電探改三",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%2023%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%B8%89",
+    "cacheKey": "wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%2023%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%B8%89.html",
+    "contentSha256": "b793bb49a46df4b6aa0b44b7cf0e3d9cd211313cb1e49b21e7050a2c4804fe85",
+    "fetchedAt": 1783248332
+  },
+  {
+    "equipmentId": 574,
+    "equipmentName": "SCレーダー改(後期調整型)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29",
+    "cacheKey": "wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29.html",
+    "contentSha256": "883b74efb07ff5f6dadf9d8655840f8478a70b3a20fe46e4f190cb8f289c4d2c",
+    "fetchedAt": 1783248335
+  },
+  {
+    "equipmentId": 575,
+    "equipmentName": "25mm連装機銃(熟練機銃員分隊)",
+    "sourceUrl": "https://wikiwiki.jp/kancolle/25mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%28%E7%86%9F%E7%B7%B4%E6%A9%9F%E9%8A%83%E5%93%A1%E5%88%86%E9%9A%8A%29",
+    "cacheKey": "wikiwiki.jp/kancolle/25mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%28%E7%86%9F%E7%B7%B4%E6%A9%9F%E9%8A%83%E5%93%A1%E5%88%86%E9%9A%8A%29.html",
+    "contentSha256": "ddbce7d03fd5e0a779fdbfebf8016f884c4fc5ee4a96b82d9e03f2d84469e708",
+    "fetchedAt": 1783248339
+  }
+]

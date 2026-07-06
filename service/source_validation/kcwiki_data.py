@@ -217,7 +217,7 @@ def parse_kcwiki_data(
     unresolved_ship_count = sum(1 for issue in issues if issue.kind == "unresolved-ship")
     evidence_count = len(merged_schedules) + unresolved_ship_count
     unresolved_ship_ratio = unresolved_ship_count / evidence_count if evidence_count else 0.0
-    status = "partial" if unresolved_ship_ratio > 0.10 else "ok"
+    status = "partial" if issues else "ok"
     return SourceResult(
         source=SOURCE_ID,
         url=source_url,

@@ -20,8 +20,9 @@ def fetch(url: str, force: bool = False, require_fresh: bool | None = None) -> s
     if not force and os.path.exists(path) and audit.was_validated_in_run(url):
         simple_logger.debug(f"[CACHE VALIDATED THIS RUN] {url} -> {storage.cache_key(path)}")
         return storage.read_text_cache(path)
-    if not force and os.path.exists(path) and not require_fresh and storage.is_local_cache_fresh(old_meta):
-        simple_logger.debug(f"[CACHE] {url} -> {storage.cache_key(path)}")
+    if not force and os.path.exists(path) and storage.is_local_cache_fresh(old_meta):
+        audit.mark_validated(url)
+        simple_logger.debug(f"[CACHE FRESH] {url} -> {storage.cache_key(path)}")
         return storage.read_text_cache(path)
     try:
         response = transport.request_with_cache_headers(url, old_meta, settings.TEXT_REQUEST_TIMEOUT_SECONDS)
@@ -62,8 +63,9 @@ def download_file(
     if not force and os.path.exists(save_path) and audit.was_validated_in_run(url):
         simple_logger.debug(f"[CACHE VALIDATED THIS RUN] {url} -> {storage.cache_key(save_path)}")
         return save_path
-    if not force and os.path.exists(save_path) and not require_fresh and storage.is_local_cache_fresh(old_meta, expire_seconds):
-        simple_logger.debug(f"[CACHE] {url} -> {storage.cache_key(save_path)}")
+    if not force and os.path.exists(save_path) and storage.is_local_cache_fresh(old_meta, expire_seconds):
+        audit.mark_validated(url)
+        simple_logger.debug(f"[CACHE FRESH] {url} -> {storage.cache_key(save_path)}")
         return save_path
     try:
         response = transport.request_with_cache_headers(url, old_meta, settings.FILE_REQUEST_TIMEOUT_SECONDS)
@@ -85,3 +87,23 @@ def download_file(
     storage.save_meta(save_path, url, response, old_meta=old_meta)
     transport.log_cache_updated(url, save_path, response.status_code)
     return save_path
+
+
+def download_pic(
+    url: str,
+    save_path: str,
+    force: bool = False,
+    expire_seconds: int | None = None,
+    require_fresh: bool | None = None,
+) -> str:
+    return download_file(
+        url=url,
+        save_path=save_path,
+        force=force,
+        expire_seconds=(
+            settings.IMAGE_CACHE_TTL_SECONDS
+            if expire_seconds is None
+            else expire_seconds
+        ),
+        require_fresh=require_fresh,
+    )

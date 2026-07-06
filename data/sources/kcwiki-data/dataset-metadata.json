@@ -1,0 +1,49 @@
+{
+  "source": "kcwiki-data",
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json",
+    "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
+  ],
+  "shipEntryCount": 840,
+  "equipmentRecordCount": 249,
+  "relationCount": 1647,
+  "issueCount": 0,
+  "semanticAliasMatchCount": 2,
+  "schemaVersion": 1,
+  "status": "ok",
+  "fetches": [
+    {
+      "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json",
+      "status": "fresh",
+      "statusCode": 304,
+      "validatedAt": 1783277206,
+      "validatedInRun": true,
+      "usedCacheFallback": false,
+      "contentSha256": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
+      "cachePath": "raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json",
+      "status": "fresh",
+      "statusCode": 304,
+      "validatedAt": 1783277204,
+      "validatedInRun": true,
+      "usedCacheFallback": false,
+      "contentSha256": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b",
+      "cachePath": "raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
+    }
+  ],
+  "inputHashes": {
+    "ship": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
+    "equipment": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b"
+  },
+  "incremental": {
+    "mode": "reuse-unchanged-inputs",
+    "parsed": false,
+    "changed": false,
+    "addedIds": [],
+    "changedIds": [],
+    "removedIds": [],
+    "unchangedCount": 249
+  }
+}

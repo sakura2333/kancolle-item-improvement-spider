@@ -5,12 +5,51 @@ from typing import Any, Dict
 
 from service.data_package.equipment_bonus import SOURCE_URL as BONUS_URL, parse_special_bonuses
 from service.data_package.equipment_drop_from import EQUIPMENT_URL, SHIP_URL, parse_drop_from
+from service.data_package.acquisition_references import QUEST_DATA_URL, QuestReferenceCatalog
 from service.data_package.package_paths import AKASHI_METADATA_PATH, AKASHI_URL, SOURCE_ROOT
+from service.operator_stop import OperatorStopError
+from service.source_validation.semantic_aliases import validate_semantic_alias_dictionary
 from util.cache import collection_completed_in_run, fetch, get_fetch_meta
-from util.json_utils import write_json, write_json_lines
+from util.json_utils import read_json_lines, write_json, write_json_lines
 from util.logger import simple_logger
 from util.start2.start2_item_utils import start2ItemUtils
 from util.start2.start2_ship_utils import ship_utils
+
+
+
+def _read_json_object(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError, json.JSONDecodeError):
+        return {}
+
+
+def _record_map(records: list[dict]) -> dict[int, str]:
+    result: dict[int, str] = {}
+    for record in records:
+        try:
+            equipment_id = int(record.get("equipmentId") or 0)
+        except (TypeError, ValueError):
+            continue
+        if equipment_id > 0:
+            result[equipment_id] = json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return result
+
+
+def _record_diff(previous: list[dict], current: list[dict]) -> dict:
+    before = _record_map(previous)
+    after = _record_map(current)
+    added = sorted(set(after) - set(before))
+    removed = sorted(set(before) - set(after))
+    changed = sorted(key for key in set(before) & set(after) if before[key] != after[key])
+    return {
+        "addedIds": added,
+        "changedIds": changed,
+        "removedIds": removed,
+        "unchangedCount": len(set(before) & set(after)) - len(changed),
+        "changed": bool(added or changed or removed),
+    }
 
 def _load_json(url: str) -> tuple[Any, dict]:
     value = json.loads(fetch(url))
@@ -90,31 +129,91 @@ def _export_source_bundle(source: str, records: list, issues: list, metadata: di
 def collect_optional_datasets(strict: bool = False) -> dict:
     item_utils = start2ItemUtils.load()
     ships = ship_utils.load()
+    alias_validation = validate_semantic_alias_dictionary(item_utils, ships)
+    simple_logger.info(
+        "[semantic aliases] "
+        f"validated={alias_validation['validatedTargetCount']}/"
+        f"{alias_validation['entryCount']} against Start2"
+    )
     result: Dict[str, Any] = {}
 
     try:
         ship_catalog, ship_fetch = _load_json(SHIP_URL)
         equipment_catalog, equipment_fetch = _load_json(EQUIPMENT_URL)
-        records, issues, metadata = parse_drop_from(
-            ship_catalog,
-            equipment_catalog,
-            item_utils,
-            ships,
-        )
-        if not records or int(metadata.get("relationCount", 0)) <= 0:
-            raise ValueError("KcWiki drop-from source parsed no usable equipment relations")
         fetches = [ship_fetch, equipment_fetch]
-        metadata = {
-            **metadata,
-            "status": _source_status(fetches),
-            "fetches": fetches,
+        source_dir = SOURCE_ROOT / "kcwiki-data"
+        record_path = source_dir / "equipment-drop-from.nedb"
+        issue_path = source_dir / "dataset-issues.nedb"
+        metadata_path = source_dir / "dataset-metadata.json"
+        previous_metadata = _read_json_object(metadata_path)
+        input_hashes = {
+            "ship": ship_fetch.get("contentSha256"),
+            "equipment": equipment_fetch.get("contentSha256"),
         }
-        _export_source_bundle(
-            "kcwiki-data",
-            records,
-            issues,
-            metadata,
-            "equipment-drop-from.nedb",
+        previous_records = read_json_lines(record_path)
+        can_reuse = (
+            bool(previous_records)
+            and all(input_hashes.values())
+            and previous_metadata.get("inputHashes") == input_hashes
+            and record_path.is_file()
+            and issue_path.is_file()
+        )
+        if can_reuse:
+            records = previous_records
+            issues = read_json_lines(issue_path)
+            metadata = {
+                **previous_metadata,
+                "status": _source_status(fetches),
+                "fetches": fetches,
+                "inputHashes": input_hashes,
+                "incremental": {
+                    "mode": "reuse-unchanged-inputs",
+                    "parsed": False,
+                    "changed": False,
+                    "addedIds": [],
+                    "changedIds": [],
+                    "removedIds": [],
+                    "unchangedCount": len(records),
+                },
+            }
+            write_json(str(metadata_path), metadata, mode="w", log=False)
+        else:
+            records, issues, metadata = parse_drop_from(
+                ship_catalog,
+                equipment_catalog,
+                item_utils,
+                ships,
+            )
+            if not records or int(metadata.get("relationCount", 0)) <= 0:
+                raise ValueError("KcWiki drop-from source parsed no usable equipment relations")
+            diff = _record_diff(previous_records, records)
+            metadata = {
+                **metadata,
+                "status": _source_status(fetches),
+                "fetches": fetches,
+                "inputHashes": input_hashes,
+                "incremental": {"mode": "parsed", "parsed": True, **diff},
+            }
+            _export_source_bundle(
+                "kcwiki-data", records, issues, metadata, "equipment-drop-from.nedb"
+            )
+        if strict and issues:
+            first = issues[0]
+            payload = first.to_json() if hasattr(first, "to_json") else dict(first)
+            kind = str(payload.get("kind") or "kcwiki-mapping-conflict")
+            raise OperatorStopError(
+                stop_reason=kind,
+                message=f"KcWiki 来源存在 {len(issues)} 个无法自动确认的映射问题。",
+                action="检查 dataset-issues.nedb；修正权威数据冲突或人工接受映射后重试。",
+                checkpoint=str(source_dir / "dataset-issues.nedb"),
+                details={"issueCount": len(issues), "firstIssue": payload},
+            )
+        simple_logger.info(
+            "[data source] kcwiki-data: "
+            f"status={metadata['status']}, relations={metadata['relationCount']}, "
+            f"issues={metadata['issueCount']}, "
+            f"incremental={metadata['incremental']['mode']}, "
+            f"semanticAliases={metadata.get('semanticAliasMatchCount', 0)}"
         )
         result["dropFrom"] = {"records": records, "issues": issues, "metadata": metadata}
     except Exception as exc:
@@ -130,6 +229,47 @@ def collect_optional_datasets(strict: bool = False) -> dict:
         }
         if strict:
             raise
+
+    try:
+        quest_catalog, quest_fetch = _load_json(QUEST_DATA_URL)
+        quest_index = QuestReferenceCatalog.from_json_text(
+            json.dumps(quest_catalog, ensure_ascii=False)
+        )
+        quest_fetches = [quest_fetch]
+        quest_metadata = {
+            "source": "kcwikizh-kcquests",
+            "sourceUrl": QUEST_DATA_URL,
+            "status": _source_status(quest_fetches),
+            "fetches": quest_fetches,
+            "questCount": len(quest_index.records),
+            "schemaVersion": 1,
+        }
+        result["questCatalog"] = {
+            "catalog": quest_catalog,
+            "metadata": quest_metadata,
+        }
+        simple_logger.info(
+            "[data source] kcwikizh-kcquests: "
+            f"status={quest_metadata['status']}, quests={quest_metadata['questCount']}"
+        )
+    except Exception as exc:
+        simple_logger.error(f"[data package] quest catalog collection failed: {exc}")
+        result["questCatalog"] = {
+            "catalog": None,
+            "metadata": {
+                "status": "failed",
+                "error": f"{type(exc).__name__}: {exc}",
+                "sourceUrl": QUEST_DATA_URL,
+            },
+        }
+        if strict:
+            raise OperatorStopError(
+                stop_reason="quest-catalog-invalid",
+                message=f"kcQuests 任务目录无法获取或校验：{exc}",
+                action="检查网络或缓存，确认 quests-scn.json 顶层为数字 questKey 后重试。",
+                checkpoint=str(SOURCE_ROOT / "wikiwiki-equipment-detail"),
+                details={"sourceUrl": QUEST_DATA_URL},
+            ) from exc
 
     try:
         bonus_catalog, bonus_fetch = _load_json(BONUS_URL)

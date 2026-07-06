@@ -13,7 +13,7 @@ from service.akashi_list.akashi_list_utils import (
     search_title,
 )
 from service.akashi_list.detail_recipe_parser import parse_stage_route_alternatives
-from util.cache import download_file
+from util.cache import download_pic
 from util.html_table_utils import next_td, next_tr
 from util.logger import simple_logger
 from util.lxml_utils import node_to_string
@@ -29,6 +29,13 @@ state_dic: Dict[str, tuple[int, int]] = {
     stage_six: (6, 9),
     stage_max: (10, 10),
 }
+
+
+def _download_useitem_image(consumable: ConsumeItem, png_url: str) -> None:
+    if int(consumable.type) != 1:
+        return
+    download_pic(url=png_url, save_path=f"cache/images/{consumable.id}.png")
+
 
 def process_stage(processor, current_node):
     star_range = [-1,-1]
@@ -127,7 +134,7 @@ def process_stage(processor, current_node):
             consumable.count = int(count_text)
 
             png_url = (consumable_item_node[0].xpath('.//@data-src') or consumable_item_node[0].xpath('.//@src'))[0]
-            download_file(url=png_url, save_path=f"cache/images/{consumable.id}.png")
+            _download_useitem_image(consumable, png_url)
             stage.consumable_list.append(consumable)
             for improvement in processor.item.improvement_list:
                 improvement.stage_list.append(stage)
@@ -178,10 +185,10 @@ def process_upgrade(processor, current_node, kind=""):
             consumable_item_record = require_record(consumable_item_record, "upgrade use item", consumable_item_name)
             consumable_item_id = consumable_item_record.get("api_id")
             png_url = consumable_item.xpath('./@src')[0]
-            download_file(url=png_url,save_path=f"cache/images/{consumable_item_id}.png")
             consumable_item_count = int(consumable_item.xpath('following::figcaption[1]')[0].text.split(" ")[-1])
-            upgrade.consumable_list.append(
-                ConsumeItem(id=consumable_item_id, count=consumable_item_count,type=1))
+            useitem = ConsumeItem(id=consumable_item_id, count=consumable_item_count, type=1)
+            _download_useitem_image(useitem, png_url)
+            upgrade.consumable_list.append(useitem)
 
         current_node, _ = next_tr(current_node)
         upgrade_to_weapon_node = current_node.xpath("./td/div//*[@title]/div")[-1]

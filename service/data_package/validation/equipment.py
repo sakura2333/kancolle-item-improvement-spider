@@ -30,6 +30,44 @@ def _validate_drop_from(path: Path) -> tuple[int, int]:
         ids.add(item_id)
     return len(records), relation_count
 
+
+def _validate_equipment_sources(path: Path) -> tuple[int, int, int, int]:
+    records = _read_nedb(path)
+    ids: set[int] = set()
+    ship_relations = 0
+    upgrade_relations = 0
+    quest_relations = 0
+    for index, record in enumerate(records):
+        equipment_id = record.get("equipmentId")
+        if not _positive_int(equipment_id) or equipment_id in ids:
+            raise QualityGateError(
+                f"invalid or duplicate equipment-source id at record {index}"
+            )
+        if not _non_empty_string(record.get("equipmentName")):
+            raise QualityGateError(f"equipment-source {equipment_id} has no name")
+        source = record.get("source")
+        if not isinstance(source, dict) or set(source) != {
+            "shipIds", "upgradeFromItemIds", "questKey"
+        }:
+            raise QualityGateError(
+                f"equipment-source {equipment_id} has an invalid source contract"
+            )
+        for field in ("shipIds", "upgradeFromItemIds", "questKey"):
+            values = source.get(field)
+            if (
+                not isinstance(values, list)
+                or any(not _positive_int(value) for value in values)
+                or values != sorted(set(values))
+            ):
+                raise QualityGateError(
+                    f"equipment-source {equipment_id} has invalid {field}"
+                )
+        ship_relations += len(source["shipIds"])
+        upgrade_relations += len(source["upgradeFromItemIds"])
+        quest_relations += len(source["questKey"])
+        ids.add(equipment_id)
+    return len(records), ship_relations, upgrade_relations, quest_relations
+
 def _validate_special_bonuses(path: Path) -> tuple[int, int, int, int]:
     records = _read_nedb(path)
     equipment_ids: set[int] = set()

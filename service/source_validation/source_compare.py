@@ -37,5 +37,9 @@ def _load_detail_as_vo():
     return items
 
 
+def compare_current_projection():
+    return run_source_validation(_load_detail_as_vo(), record_history=False)
+
+
 if __name__ == "__main__":
-    run_source_validation(_load_detail_as_vo())
+    compare_current_projection()

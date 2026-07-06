@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-30T12:22:42+00:00",
+  "generatedAt": "2026-07-06T11:25:30+00:00",
   "strict": true,
   "improvementSourceStatus": "ok",
-  "dropFromIssueCount": 2,
+  "dropFromIssueCount": 0,
   "specialBonusIssueCount": 0,
+  "equipmentSourceRecordCount": 571,
+  "equipmentSourceIncremental": {
+    "addedIds": [],
+    "changedIds": [],
+    "removedIds": [],
+    "unchangedCount": 571,
+    "changed": false,
+    "inputHashes": {
+      "improvementDetail": "078e8dc2f15eb0e6fa96af3f7af5137b652c3b5b7d99d2f680493340e7f4317a",
+      "wikiwikiAcquisition": "3943d5e83f98c4335b8efa69751e5e072e45098cfeb4f359490645eba8aca316",
+      "kcwikiShip": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
+      "kcwikiEquipment": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b"
+    },
+    "projectionSha256": "8f4bbd0471392a2825b59a91eac0fd97559f3313ed3d1af59d13ecce5d74ede7"
+  },
+  "improvement2Compatibility": {
+    "detailRecordCount": 372,
+    "routeCount": 412
+  },
   "iconCount": 16,
   "requiredUseitemIconIds": [
     2,

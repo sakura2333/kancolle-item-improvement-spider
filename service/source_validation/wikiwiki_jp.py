@@ -12,6 +12,7 @@ from service.akashi_list.akashi_list_utils import build_assistant_ship_ids_by_da
 from service.akashi_list.ship_name_resolver import ShipNameResolver
 from service.source_validation.common import CatalogMatcher, merge_schedules, normalize_catalog_name
 from service.source_validation.model import SourceIssue, SourceResult, SourceSchedule, normalize_week
+from service.source_validation.semantic_aliases import resolve_semantic_alias
 from util.cache import fetch
 from util.start2.start2_item_utils import Start2ItemUtils
 from util.start2.start2_ship_utils import Start2ShipUtils
@@ -186,6 +187,7 @@ def parse_wikiwiki_html(
     source_refs_by_item: Dict[int, List[str]] = defaultdict(list)
     table_count = 0
     parsed_row_count = 0
+    semantic_alias_match_count = 0
 
     for table_index, table in enumerate(root.xpath("//table")):
         rows = expand_table(table)
@@ -223,7 +225,14 @@ def parse_wikiwiki_html(
             parsed_row_count += 1
 
             helper_text = row[header["ship"]].text.strip()
-            for helper in _helper_lines(helper_text):
+            full_cell_alias = resolve_semantic_alias(
+                SOURCE_ID,
+                "ship",
+                helper_text,
+                match_modes={"normalized-full-cell-exact"},
+            )
+            helpers = [helper_text] if full_cell_alias else _helper_lines(helper_text)
+            for helper in helpers:
                 if helper == "-":
                     rules_by_item[item_id].append(ShipWeek(
                         text="",
@@ -231,6 +240,24 @@ def parse_wikiwiki_html(
                         ship_id_list=[],
                     ))
                     continue
+
+                alias = full_cell_alias or resolve_semantic_alias(
+                    SOURCE_ID,
+                    "ship",
+                    helper,
+                    match_modes={"normalized-alias-exact"},
+                )
+                if alias is not None:
+                    semantic_alias_match_count += 1
+                    rules_by_item[item_id].append(ShipWeek(
+                        text=helper_text if full_cell_alias else helper,
+                        week=week,
+                        ship_id_list=[alias.canonical_id],
+                        anchor_ship_ids=[alias.canonical_id],
+                        match_distance_by_id={alias.canonical_id: 0},
+                    ))
+                    continue
+
                 try:
                     resolution = resolver.resolve(helper)
                 except Exception as exc:
@@ -286,15 +313,21 @@ def parse_wikiwiki_html(
                 },
             ))
 
+    unresolved_ship_count = sum(1 for issue in issues if issue.kind == "unresolved-ship")
+    unresolved_item_count = sum(1 for issue in issues if issue.kind == "unresolved-item")
     return SourceResult(
         source=SOURCE_ID,
         url=source_url,
         schedules=merge_schedules(schedules),
         issues=issues,
+        status="partial" if issues else "ok",
         metadata={
             "supportedCapabilities": ["improve"],
             "tableCount": table_count,
             "parsedRowCount": parsed_row_count,
+            "semanticAliasMatchCount": semantic_alias_match_count,
+            "unresolvedShipCount": unresolved_ship_count,
+            "unresolvedItemCount": unresolved_item_count,
         },
     )
 

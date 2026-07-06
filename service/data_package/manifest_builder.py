@@ -26,11 +26,15 @@ def refresh_package_manifest() -> dict:
     manifest["packageVersion"] = package_version()
     files = {}
     for path in sorted(PACKAGE_DIR.rglob("*")):
-        if not path.is_file() or path.name in {"manifest.json", "package.json"}:
+        if not path.is_file():
+            continue
+        relative = path.relative_to(PACKAGE_DIR).as_posix()
+        if relative in {"manifest.json", "package.json"}:
+            continue
+        if relative.startswith("compat/") or relative == "schemas/improvement-detail-v3.schema.json":
             continue
         if path.suffix == ".tgz" or "node_modules" in path.parts:
             continue
-        relative = path.relative_to(PACKAGE_DIR).as_posix()
         files[relative] = {"sha256": _sha256(path), "bytes": path.stat().st_size}
     manifest["files"] = files
     write_json(str(manifest_path), manifest, mode="w", log=True)

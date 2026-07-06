@@ -4,13 +4,14 @@ from .audit import (
     reset_fetch_audit,
     was_validated_in_run,
 )
-from .client import download_file, fetch
+from .client import download_file, download_pic, fetch
 from .settings import strict_fetch_enabled
 from .storage import get_fetch_meta, url_to_path
 
 __all__ = [
     "collection_completed_in_run",
     "download_file",
+    "download_pic",
     "fetch",
     "get_fetch_meta",
     "mark_collection_completed",

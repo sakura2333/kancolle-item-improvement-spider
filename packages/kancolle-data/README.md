@@ -9,6 +9,7 @@ const data = require('@sakura2333/kancolle-data')
 console.log(data.improvement.listPath)
 console.log(data.schemas.improvementDetailPath)
 console.log(data.equipment.dropFromPath)
+console.log(data.equipment.sourcesPath)
 console.log(data.equipment.specialBonusesPath)
 console.log(data.assets.useitemPath(71))
 ```
@@ -18,7 +19,9 @@ Datasets:
 - `improvement/list.json`: compact all + weekday list projection.
 - `improvement/detail.nedb`: full routes plus ★0..★MAX effect expectations and 11 explicit per-route actions (including optional MAX conversion).
 - `schemas/improvement-detail.schema.json`: JSON Schema for each schema-4 NeDB record.
-- `equipment/drop-from.nedb`: equipment obtainable from ship initial/remodel loadouts.
+- `equipment/drop-from.nedb`: detailed ship initial/remodel loadout evidence.
+- `equipment/sources.nedb`: one unified record per equipment with required `shipIds`, `upgradeFromItemIds`, and numeric `questKey` arrays.
+- `schemas/equipment-sources.schema.json`: JSON Schema for unified source records.
 - `equipment/special-bonuses.nedb`: bonus rules targeting either concrete equipment IDs or equipment-type IDs.
 - `assets/useitems/*.png`: use-item images required by improvement recipes.
 
@@ -32,3 +35,25 @@ Special-bonus targets are discriminated by `target.kind`:
 Use `manifest.json` to verify schema versions, source freshness, icon-reference integrity and file hashes. `RELEASES.json` contains machine-readable release metrics.
 
 Strict releases require same-run network validation for the canonical Akashi improvement source and the KcWiki/KC3 supplemental datasets. A cached projection cannot be promoted as a fresh release.
+
+## Legacy `poi-plugin-item-improvement2` distribution
+
+The Stable main release builds two immutable npm versions from the same canonical candidate:
+
+```text
+@sakura2333/kancolle-data@latest
+  normal paths -> canonical improvement detail schema 4
+
+@sakura2333/kancolle-data@improvement2
+  normal paths -> frozen improvement detail schema 3
+```
+
+The compatibility version is not a second crawler or a copied parser. The release tool projects the canonical records through an explicit schema-3 VO whitelist, replaces the normal `improvement/detail.nedb` and schema path in a temporary package staging area, assigns a unique `*-improvement2` npm version, and binds that version to the `improvement2` dist-tag.
+
+Legacy consumers keep their existing code and install the tag:
+
+```bash
+npm install @sakura2333/kancolle-data@improvement2
+```
+
+Future canonical fields do not require changes to the compatibility projection. Only changes needed to preserve an original schema-3 field or meaning may modify the frozen VO.

@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from collections import defaultdict
+import unicodedata
 from dataclasses import dataclass, field
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
+from service.source_validation.semantic_aliases import resolve_semantic_alias
 from util.start2.start2_item_utils import Start2ItemUtils
 from util.start2.start2_ship_utils import Start2ShipUtils
 
@@ -67,17 +69,39 @@ def _equipment_reference_map(catalog: Any) -> Dict[str, int]:
     return refs
 
 
-def _resolve_ship_id(node: dict, ship_utils: Start2ShipUtils) -> Optional[int]:
-    api_id = _positive_int(node.get("_api_id")) or _positive_int(node.get("api_id"))
-    if api_id and ship_utils.get_by_id(api_id):
-        return api_id
-    name = str(node.get("_japanese_name") or "").strip()
-    if not name:
-        return None
-    matches = [ship for ship in ship_utils.ships if str(ship.get("api_name") or "") == name]
-    if len(matches) == 1:
-        return int(matches[0]["api_id"])
-    return None
+def _normalized_name(value: Any) -> str:
+    return unicodedata.normalize("NFKC", str(value or "")).strip()
+
+
+def _resolve_ship_id(
+    node: dict, ship_utils: Start2ShipUtils
+) -> tuple[Optional[int], Optional[str], dict[str, Any]]:
+    """Validate KcWiki's API-derived ID; never infer an ID from a name."""
+    api_id = _positive_int(node.get("_api_id"))
+    kcwiki_name = _normalized_name(node.get("_japanese_name"))
+    if api_id is None:
+        return None, "ship-api-id-missing", {
+            "apiId": node.get("_api_id"),
+            "kcwikiName": kcwiki_name,
+        }
+    ship = ship_utils.get_by_id(api_id)
+    if not ship:
+        return None, "ship-api-id-not-in-start2", {
+            "apiId": api_id,
+            "kcwikiName": kcwiki_name,
+        }
+    start2_name = _normalized_name(ship.get("api_name"))
+    if not kcwiki_name or kcwiki_name != start2_name:
+        return None, "ship-api-name-conflict", {
+            "apiId": api_id,
+            "kcwikiName": kcwiki_name,
+            "start2Name": start2_name,
+        }
+    return api_id, None, {
+        "apiId": api_id,
+        "kcwikiName": kcwiki_name,
+        "start2Name": start2_name,
+    }
 
 
 def _resolve_item_id(
@@ -90,6 +114,11 @@ def _resolve_item_id(
     numeric = _positive_int(ref)
     if numeric and item_utils.find_by_id(numeric):
         return numeric
+    alias = resolve_semantic_alias(
+        SOURCE_ID, "equipment", ref, match_modes={"normalized-alias-exact"}
+    )
+    if alias is not None and item_utils.find_by_id(alias.canonical_id):
+        return alias.canonical_id
     mapped = reference_map.get(str(ref).strip())
     if mapped and item_utils.find_by_id(mapped):
         return mapped
@@ -114,17 +143,18 @@ def parse_drop_from(
     grouped: Dict[int, Dict[Tuple[int, str], dict]] = defaultdict(dict)
     ship_entry_count = 0
     relation_count = 0
+    semantic_alias_match_count = 0
 
     for node, path in _iter_ship_entries(ship_catalog):
         ship_entry_count += 1
-        ship_id = _resolve_ship_id(node, ship_utils)
+        ship_id, ship_issue, ship_evidence = _resolve_ship_id(node, ship_utils)
         ship_ref = str(node.get("_japanese_name") or "/".join(path))
         if ship_id is None:
             issues.append(DropFromIssue(
-                kind="unresolved-ship",
-                message="ship entry could not be mapped to start2",
+                kind=ship_issue or "unresolved-ship",
+                message="KcWiki _api_id failed Start2 ID/name consistency validation",
                 ship_ref=ship_ref,
-                evidence={"path": list(path), "apiId": node.get("_api_id")},
+                evidence={"path": list(path), **ship_evidence},
             ))
             continue
         ship = ship_utils.get_by_id(ship_id) or {}
@@ -140,7 +170,15 @@ def parse_drop_from(
             equipment_ref = slot.get("equipment")
             if equipment_ref in (None, False, ""):
                 continue
+            alias = resolve_semantic_alias(
+                SOURCE_ID,
+                "equipment",
+                equipment_ref,
+                match_modes={"normalized-alias-exact"},
+            )
             item_id = _resolve_item_id(equipment_ref, equipment_refs, item_utils)
+            if alias is not None and item_id == alias.canonical_id:
+                semantic_alias_match_count += 1
             if item_id is None:
                 issues.append(DropFromIssue(
                     kind="unresolved-equipment",
@@ -193,6 +231,7 @@ def parse_drop_from(
         "equipmentRecordCount": len(records),
         "relationCount": relation_count,
         "issueCount": len(issues),
+        "semanticAliasMatchCount": semantic_alias_match_count,
         "schemaVersion": 1,
     }
     return records, issues, metadata

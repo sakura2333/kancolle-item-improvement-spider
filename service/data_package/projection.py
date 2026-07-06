@@ -6,7 +6,12 @@ import shutil
 from pathlib import Path
 from typing import Iterable
 
-from service.data_package.package_paths import CACHE_IMAGE_DIR, PACKAGE_DIR, STATIC_IMAGE_DIR
+from service.data_package.package_paths import (
+    CACHE_IMAGE_DIR,
+    IMPROVEMENT2_COMPAT_DIR,
+    PACKAGE_DIR,
+    STATIC_IMAGE_DIR,
+)
 
 def _copy_file(source: Path, target: Path):
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -21,6 +26,9 @@ def _clear_regenerated():
         if path.exists():
             shutil.rmtree(path)
         path.mkdir(parents=True, exist_ok=True)
+    if IMPROVEMENT2_COMPAT_DIR.exists():
+        shutil.rmtree(IMPROVEMENT2_COMPAT_DIR)
+    IMPROVEMENT2_COMPAT_DIR.mkdir(parents=True, exist_ok=True)
     (PACKAGE_DIR / "equipment").mkdir(parents=True, exist_ok=True)
 
 def _read_nedb(path: Path) -> Iterable[dict]:

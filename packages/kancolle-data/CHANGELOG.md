@@ -12,6 +12,11 @@ All notable consumer-visible changes to `@sakura2333/kancolle-data` are document
 - Added the MAX conversion target name so consumers can render the upgrade result without a separate equipment-master lookup.
 - Added `schemas/improvement-detail.schema.json` for the schema 4 record contract.
 
+### Fixed
+
+- Restored ship-acquisition relations for Start2 equipment IDs 142 and 305 when KcWiki uses English “Kai Ni” aliases instead of its canonical equipment names.
+- Added source-scoped, Start2-validated semantic aliases so accepted upstream naming variants cannot silently disappear from the package.
+
 ### Compatibility
 
 - Improvement list schema: 2 (unchanged).

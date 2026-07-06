@@ -61,5 +61,11 @@
     "canonicalImprovement": "akashi-list",
     "validationNeverAutoOverwritesCanonical": true,
     "unsupportedCapabilitiesExcludedFromMissing": true
+  },
+  "reliability": {
+    "mode": "advisory-relative-consistency",
+    "historyMode": "one-time-baseline-then-incremental-events",
+    "applyToCanonicalElection": false,
+    "missingCoverageIsNotFalsehood": true
   }
 }

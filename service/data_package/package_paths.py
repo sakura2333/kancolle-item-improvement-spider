@@ -9,3 +9,5 @@ CACHE_IMAGE_DIR = Path(get_data_dir("raw_data")) / "site_cache" / "cache" / "ima
 STATIC_IMAGE_DIR = Path(get_data_dir("assets")) / "useitems"
 AKASHI_URL = "https://akashi-list.me/"
 AKASHI_METADATA_PATH = SOURCE_ROOT / "akashi-list" / "metadata.json"
+COMPATIBILITY_DIR = PACKAGE_DIR / "compat"
+IMPROVEMENT2_COMPAT_DIR = COMPATIBILITY_DIR / "poi-plugin-item-improvement2"

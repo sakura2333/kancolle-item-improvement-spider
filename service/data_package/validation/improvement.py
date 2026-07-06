@@ -179,3 +179,48 @@ def _validate_improvement_detail(path: Path) -> tuple[int, set[int], set[int], d
         "stepCount": step_count,
         "upgradeAvailableCount": upgrade_available_count,
     }
+
+
+def _validate_improvement2_compatibility(
+    canonical_path: Path,
+    compatibility_path: Path,
+) -> tuple[int, int, set[int]]:
+    """Verify that the legacy dataset is an exact schema-3 VO projection."""
+
+    from service.data_package.improvement_compat import project_improvement2_record
+
+    canonical_records = _read_nedb(canonical_path)
+    compatibility_records = _read_nedb(compatibility_path)
+    if len(canonical_records) != len(compatibility_records):
+        raise QualityGateError(
+            "improvement2 compatibility detail count does not match canonical detail"
+        )
+
+    ids: set[int] = set()
+    route_count = 0
+    for index, (canonical, actual) in enumerate(
+        zip(canonical_records, compatibility_records)
+    ):
+        expected = project_improvement2_record(canonical)
+        if actual != expected:
+            item_id = canonical.get("id", index)
+            raise QualityGateError(
+                f"improvement2 compatibility record {item_id} is not the schema-3 VO projection"
+            )
+        if set(actual) != {"id", "name", "improvementList"}:
+            raise QualityGateError(
+                f"improvement2 compatibility record {actual.get('id')} leaked extra fields"
+            )
+        item_id = actual["id"]
+        if item_id in ids:
+            raise QualityGateError(
+                f"duplicate improvement2 compatibility detail id {item_id}"
+            )
+        ids.add(item_id)
+        route_count += len(actual["improvementList"])
+        for route in actual["improvementList"]:
+            if "stepList" in route:
+                raise QualityGateError(
+                    f"improvement2 compatibility route for {item_id} leaked stepList"
+                )
+    return len(compatibility_records), route_count, ids

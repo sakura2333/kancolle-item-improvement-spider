@@ -1,6 +1,6 @@
 {
-  "packageVersion": "0.3.0",
-  "generatedAt": "2026-06-30T12:22:42+00:00",
+  "packageVersion": "0.5.1",
+  "generatedAt": "2026-07-06T11:25:30+00:00",
   "datasets": {
     "improvement": {
       "schemaVersion": 4,
@@ -10,6 +10,11 @@
       "listViewCount": 8,
       "listAllCount": 372,
       "detailRecordCount": 372,
+      "effectExpectationAvailableCount": 366,
+      "effectExpectationUnavailableCount": 6,
+      "routeCount": 412,
+      "stepCount": 4532,
+      "upgradeAvailableCount": 208,
       "source": "akashi-list",
       "sourceUrl": "https://akashi-list.me/",
       "status": "ok",
@@ -18,22 +23,17 @@
           "url": "https://akashi-list.me/",
           "status": "fresh",
           "statusCode": 200,
-          "validatedAt": 1782821817,
+          "validatedAt": 1783277204,
           "validatedInRun": true,
           "usedCacheFallback": false,
-          "contentSha256": "28de810f10f044b39a32d57be3e98de46749c344d654d2b6a49fee2f93aa7e64",
+          "contentSha256": "f7860ad7a743e673e382bbdddfd699cdcae821972443d5582b34fcd4279aaf33",
           "cachePath": "akashi-list.me/index.html"
         }
       ],
       "sourceScheduleCount": 2652,
       "sourceIssueCount": 0,
-      "sourceGeneratedAt": "2026-06-30T12:22:41+00:00",
-      "collectionCompletedInRun": true,
-      "effectExpectationAvailableCount": 366,
-      "effectExpectationUnavailableCount": 6,
-      "routeCount": 412,
-      "stepCount": 4532,
-      "upgradeAvailableCount": 208
+      "sourceGeneratedAt": "2026-07-06T11:25:27+00:00",
+      "collectionCompletedInRun": true
     },
     "equipmentDropFrom": {
       "schemaVersion": 1,
@@ -44,16 +44,17 @@
         "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
       ],
       "shipEntryCount": 840,
-      "equipmentRecordCount": 247,
-      "relationCount": 1645,
-      "issueCount": 2,
+      "equipmentRecordCount": 249,
+      "relationCount": 1647,
+      "issueCount": 0,
+      "semanticAliasMatchCount": 2,
       "status": "ok",
       "fetches": [
         {
           "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json",
           "status": "fresh",
-          "statusCode": 200,
-          "validatedAt": 1782821817,
+          "statusCode": 304,
+          "validatedAt": 1783277206,
           "validatedInRun": true,
           "usedCacheFallback": false,
           "contentSha256": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
@@ -62,14 +63,27 @@
         {
           "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json",
           "status": "fresh",
-          "statusCode": 200,
-          "validatedAt": 1782821816,
+          "statusCode": 304,
+          "validatedAt": 1783277204,
           "validatedInRun": true,
           "usedCacheFallback": false,
           "contentSha256": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b",
           "cachePath": "raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
         }
-      ]
+      ],
+      "inputHashes": {
+        "ship": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
+        "equipment": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b"
+      },
+      "incremental": {
+        "mode": "reuse-unchanged-inputs",
+        "parsed": false,
+        "changed": false,
+        "addedIds": [],
+        "changedIds": [],
+        "removedIds": [],
+        "unchangedCount": 249
+      }
     },
     "equipmentSpecialBonuses": {
       "schemaVersion": 2,
@@ -89,14 +103,40 @@
         {
           "url": "https://raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json",
           "status": "fresh",
-          "statusCode": 200,
-          "validatedAt": 1782821817,
+          "statusCode": 304,
+          "validatedAt": 1783277206,
           "validatedInRun": true,
           "usedCacheFallback": false,
           "contentSha256": "e19fc34ea5d0246c5d8a34a9cb272c595970118eba62409006669a4c7f9962d1",
           "cachePath": "raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json"
         }
       ]
+    },
+    "equipmentSources": {
+      "schemaVersion": 1,
+      "path": "equipment/sources.nedb",
+      "status": "ok",
+      "source": "equipment-sources",
+      "equipmentRecordCount": 571,
+      "shipRelationCount": 1586,
+      "questRelationCount": 0,
+      "improvementRecordCount": 372,
+      "improvementRouteCount": 412,
+      "upgradeRelationCount": 207,
+      "incremental": {
+        "addedIds": [],
+        "changedIds": [],
+        "removedIds": [],
+        "unchangedCount": 571,
+        "changed": false,
+        "inputHashes": {
+          "improvementDetail": "078e8dc2f15eb0e6fa96af3f7af5137b652c3b5b7d99d2f680493340e7f4317a",
+          "wikiwikiAcquisition": "3943d5e83f98c4335b8efa69751e5e072e45098cfeb4f359490645eba8aca316",
+          "kcwikiShip": "d8c1691e83e6f4a9e55e34f8139c9ad9bb21ff9b3b7066dd3d5d31e15bae7dd7",
+          "kcwikiEquipment": "284d7e32f70e67dd599ae43e1758d43568fcad3fe062548c68808988a4a27c0b"
+        },
+        "projectionSha256": "8f4bbd0471392a2825b59a91eac0fd97559f3313ed3d1af59d13ecce5d74ede7"
+      }
     },
     "useitemIcons": {
       "schemaVersion": 1,
@@ -144,20 +184,39 @@
       "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json",
       "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
     ],
+    "kcwikiQuests": {
+      "source": "kcwikizh-kcquests",
+      "sourceUrl": "https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json",
+      "status": "ok",
+      "fetches": [
+        {
+          "url": "https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json",
+          "status": "fresh",
+          "statusCode": 304,
+          "validatedAt": 1783277441,
+          "validatedInRun": true,
+          "usedCacheFallback": false,
+          "contentSha256": "5d3f87ad698c7ab4260a2ab3bfdede8a511a4fd57685a477264b9fb6351e3647",
+          "cachePath": "raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json"
+        }
+      ],
+      "questCount": 639,
+      "schemaVersion": 1
+    },
     "kc3SlotitemBonus": "https://raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json"
   },
   "files": {
     "CHANGELOG.md": {
-      "sha256": "b8d9c05731ccedce8bd43297eb1e9b04ae2c1527186e53b82c603ae713614bd8",
-      "bytes": 3794
+      "sha256": "aa1d4c826e3721f8308ebe3d88e413254fb4982f394c10fe0ccf5e77ee055fc9",
+      "bytes": 4107
     },
     "LICENSES.md": {
       "sha256": "40bddfdbcdc4b7812056e82fc5de18184097d2fdb903fab14262ea41e47c7594",
       "bytes": 412
     },
     "README.md": {
-      "sha256": "6af7c9206d99c5e268ca0d8f42d8994f792a568ce5ad3629b85102e51f113983",
-      "bytes": 1602
+      "sha256": "03d3f9f59ed7d2e6dfbf2f84f6790c27a6c6c27d5e5482177ee79a4706f5be63",
+      "bytes": 2867
     },
     "RELEASES.json": {
       "sha256": "1912cea6dc06fd71491d957bb34e68722b9a897f97ba5bc6519fed393739feda",
@@ -228,12 +287,16 @@
       "bytes": 28940
     },
     "audit/build-report.json": {
-      "sha256": "13d113ce4ee75d9e83294b2ca98e6b1b986cfabe582afdbc41dcf712117bd79e",
-      "bytes": 348
+      "sha256": "7b2d2758229bdc72573bf0f2ab0e450cc42f026372e318b97b3bc33f9389033f",
+      "bytes": 1118
     },
     "equipment/drop-from.nedb": {
-      "sha256": "bb366ee4db693e396414cf3145e583a36c0ce9fa7f56cb4a553f8cba8a5e07d3",
-      "bytes": 358778
+      "sha256": "c7acd2fda18834a9a46e30148dc91830dc28cb167f9972b62615cfb784d2d2b3",
+      "bytes": 359433
+    },
+    "equipment/sources.nedb": {
+      "sha256": "8f4bbd0471392a2825b59a91eac0fd97559f3313ed3d1af59d13ecce5d74ede7",
+      "bytes": 84224
     },
     "equipment/special-bonuses.nedb": {
       "sha256": "818fe35d9a441823f65c37e1418a4a54492dfdd63ad61a1f292427d30972720e",
@@ -244,20 +307,24 @@
       "bytes": 2946913
     },
     "improvement/list.json": {
-      "sha256": "2f9d446098ef82578bbde5f2b9b773dfbb588ac818843105f95c1b7d66cc7b24",
+      "sha256": "1039e28b077dbd093bf32af53850064a2de9e0e8ff817d526b2a29c553e12394",
       "bytes": 209473
     },
     "index.d.ts": {
-      "sha256": "9fcdb6261b21bdd0e22fd6c049f2f314b1646d57ea7846208961ac78f76c1fbc",
-      "bytes": 528
+      "sha256": "832b2677a462454af47b4583a7d4e120adf95e73bee9210ee34fb944cd8f3f21",
+      "bytes": 585
     },
     "index.js": {
-      "sha256": "8ea7e30a341edf9fccb6677aa813d6ec7f53939f3e7f81c32a050e77231de547",
-      "bytes": 1107
+      "sha256": "f7a3a9165963f5bfe8a33d93eb0432b8a16118270e3bcf288ce606512807bffc",
+      "bytes": 1249
     },
     "schemas/equipment-drop-from.schema.json": {
       "sha256": "b67bc757c8dd8523498abc0215656b7e8898485d060ddeac11577bb697a5279f",
       "bytes": 963
+    },
+    "schemas/equipment-sources.schema.json": {
+      "sha256": "d3c1dc05b4927b0759e6e51385aacd767fb0d5e4ab84474166aa7899cd637675",
+      "bytes": 1064
     },
     "schemas/equipment-special-bonus.schema.json": {
       "sha256": "e8811b953358cbb5df8c786521c68841a4c422e07d0dbc9c78088e66c4690273",

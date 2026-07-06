@@ -11,8 +11,16 @@ from service.data_package.builder import PACKAGE_DIR
 from .assets import _validate_icons
 from .common import QualityGateError, _read_json, _sha256
 from .constants import PUBLIC_DATA_PREFIXES
-from .equipment import _validate_drop_from, _validate_special_bonuses
-from .improvement import _validate_improvement_detail, _validate_improvement_list
+from .equipment import (
+    _validate_drop_from,
+    _validate_equipment_sources,
+    _validate_special_bonuses,
+)
+from .improvement import (
+    _validate_improvement2_compatibility,
+    _validate_improvement_detail,
+    _validate_improvement_list,
+)
 
 def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool = True) -> dict:
     package_dir = Path(package_dir)
@@ -20,7 +28,11 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
         package_dir / "manifest.json",
         package_dir / "improvement" / "list.json",
         package_dir / "improvement" / "detail.nedb",
+        package_dir / "compat" / "poi-plugin-item-improvement2" / "manifest.json",
+        package_dir / "compat" / "poi-plugin-item-improvement2" / "improvement" / "list.json",
+        package_dir / "compat" / "poi-plugin-item-improvement2" / "improvement" / "detail.nedb",
         package_dir / "equipment" / "drop-from.nedb",
+        package_dir / "equipment" / "sources.nedb",
         package_dir / "equipment" / "special-bonuses.nedb",
     ]
     missing = [str(path) for path in required if not path.is_file()]
@@ -33,6 +45,7 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     expected_schemas = {
         "improvement": 4,
         "equipmentDropFrom": 1,
+        "equipmentSources": 1,
         "equipmentSpecialBonuses": 2,
         "useitemIcons": 1,
     }
@@ -74,7 +87,37 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
             "improvement list/detail id mismatch: "
             f"missingInList={missing_in_list}, missingInDetail={missing_in_detail}"
         )
+    compatibility_root = package_dir / "compat" / "poi-plugin-item-improvement2"
+    compatibility_manifest = _read_json(compatibility_root / "manifest.json")
+    if not isinstance(compatibility_manifest, dict):
+        raise QualityGateError("improvement2 compatibility manifest is invalid")
+    compatibility_dataset = compatibility_manifest.get("datasets", {}).get(
+        "improvement", {}
+    )
+    if compatibility_manifest.get("consumer") != "poi-plugin-item-improvement2":
+        raise QualityGateError("improvement2 compatibility manifest has invalid consumer")
+    if compatibility_dataset.get("schemaVersion") != 3:
+        raise QualityGateError("improvement2 compatibility manifest must expose schema 3")
+    if compatibility_dataset.get("listSchemaVersion") != 2:
+        raise QualityGateError("improvement2 compatibility list schema must remain 2")
+    if compatibility_dataset.get("list") != "improvement/list.json":
+        raise QualityGateError("improvement2 compatibility manifest has invalid list path")
+    if compatibility_dataset.get("detail") != "improvement/detail.nedb":
+        raise QualityGateError("improvement2 compatibility manifest has invalid detail path")
+    if (compatibility_root / "improvement" / "list.json").read_bytes() != (
+        package_dir / "improvement" / "list.json"
+    ).read_bytes():
+        raise QualityGateError("improvement2 compatibility list must reuse the canonical schema-2 list")
+    compat_count, compat_route_count, compat_ids = _validate_improvement2_compatibility(
+        package_dir / "improvement" / "detail.nedb",
+        compatibility_root / "improvement" / "detail.nedb",
+    )
+    if compat_ids != detail_ids:
+        raise QualityGateError("improvement2 compatibility ids do not match canonical detail")
     drop_count, relation_count = _validate_drop_from(package_dir / "equipment" / "drop-from.nedb")
+    source_count, source_ship_count, source_upgrade_count, source_quest_count = (
+        _validate_equipment_sources(package_dir / "equipment" / "sources.nedb")
+    )
     bonus_count, bonus_equipment_count, bonus_type_count, rule_count = _validate_special_bonuses(
         package_dir / "equipment" / "special-bonuses.nedb"
     )
@@ -125,8 +168,14 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
             "improvement.routeCount": improvement_metrics["routeCount"],
             "improvement.stepCount": improvement_metrics["stepCount"],
             "improvement.upgradeAvailableCount": improvement_metrics["upgradeAvailableCount"],
+            "compat.poiPluginItemImprovement2.detailRecordCount": compat_count,
+            "compat.poiPluginItemImprovement2.routeCount": compat_route_count,
             "equipmentDropFrom.recordCount": drop_count,
             "equipmentDropFrom.relationCount": relation_count,
+            "equipmentSources.recordCount": source_count,
+            "equipmentSources.shipRelationCount": source_ship_count,
+            "equipmentSources.upgradeRelationCount": source_upgrade_count,
+            "equipmentSources.questRelationCount": source_quest_count,
             "equipmentSpecialBonuses.recordCount": bonus_count,
             "equipmentSpecialBonuses.equipmentRecordCount": bonus_equipment_count,
             "equipmentSpecialBonuses.equipmentTypeRecordCount": bonus_type_count,

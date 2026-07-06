@@ -8,11 +8,13 @@ export interface KancolleDataPaths {
   }
   equipment: {
     dropFromPath: string
+    sourcesPath: string
     specialBonusesPath: string
   }
   schemas: {
     improvementDetailPath: string
     equipmentDropFromPath: string
+    equipmentSourcesPath: string
     equipmentSpecialBonusesPath: string
   }
   audit: {

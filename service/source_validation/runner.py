@@ -9,11 +9,14 @@ from service.source_validation.ai_review import export_ai_review_input
 from service.source_validation.common import schedules_from_primary
 from service.source_validation.compare import compare_source
 from service.source_validation.export import export_comparison, export_source
+from service.source_validation.history import observe_source_history
 from service.source_validation.kcwiki_data import (
     EQUIPMENT_URL as KCWIKI_DATA_URL,
     collect as collect_kcwiki_data,
 )
 from service.source_validation.model import SourceResult
+from service.source_validation.reliability import export_source_reliability
+from service.source_validation.semantic_aliases import validate_semantic_alias_dictionary
 from service.source_validation.wikiwiki_jp import (
     SOURCE_URL as WIKIWIKI_JP_URL,
     collect as collect_wikiwiki_jp,
@@ -66,9 +69,16 @@ def _collect_by_site(sources: List[str], loaded_items, loaded_ships) -> Dict[str
     ]
     return run_site_tasks(tasks)
 
-def run_source_validation(items: Sequence[WeaponItemVO]):
+
+def run_source_validation(items: Sequence[WeaponItemVO], *, record_history: bool = True):
     loaded_items = start2ItemUtils.load()
     loaded_ships = ship_utils.load()
+    alias_validation = validate_semantic_alias_dictionary(loaded_items, loaded_ships)
+    simple_logger.info(
+        "[semantic aliases] "
+        f"validated={alias_validation['validatedTargetCount']}/"
+        f"{alias_validation['entryCount']} against Start2"
+    )
     baseline = SourceResult(
         source="akashi-list",
         url="https://akashi-list.me/",
@@ -104,7 +114,9 @@ def run_source_validation(items: Sequence[WeaponItemVO]):
             if strict and result.status != "ok":
                 failures.append(RuntimeError(
                     f"validation source {source} is {result.status}: "
-                    f"unresolvedShipRatio={result.metadata.get('unresolvedShipRatio')}"
+                    f"issues={len(result.issues)}, "
+                    f"unresolvedShips={result.metadata.get('unresolvedShipCount', 0)}, "
+                    f"unresolvedItems={result.metadata.get('unresolvedItemCount', 0)}"
                 ))
         candidates.append(result)
         export_source(result)
@@ -139,11 +151,34 @@ def run_source_validation(items: Sequence[WeaponItemVO]):
             f"weekdayMismatch={summary['weekdayMismatchCount']}, "
             f"missing={summary['missingInCandidateCount']}, "
             f"extra={summary['extraInCandidateCount']}, "
-            f"issues={summary['candidateIssueCount']}"
+            f"issues={summary['candidateIssueCount']}, "
+            f"unresolvedShips={candidate.metadata.get('unresolvedShipCount', 0)}, "
+            f"unresolvedItems={candidate.metadata.get('unresolvedItemCount', 0)}, "
+            f"semanticAliases={candidate.metadata.get('semanticAliasMatchCount', 0)}"
         )
 
     export_comparison(baseline, candidates, all_diffs, summaries)
     export_ai_review_input(baseline, candidates, all_diffs, summaries)
+
+    observed_results = [baseline, *[candidate for candidate in candidates if candidate.status == "ok"]]
+    if record_history:
+        history_run = observe_source_history(observed_results)
+        simple_logger.info(
+            "[source history] "
+            f"run={history_run['runNumber']}, "
+            f"changes={sum(row['changeCount'] for row in history_run['sources'])}, "
+            f"baselines={sum(1 for row in history_run['sources'] if row['initializedBaseline'])}"
+        )
+    else:
+        simple_logger.info("[source history] skipped for diagnostic-only comparison")
+    reliability = export_source_reliability(observed_results)
+    simple_logger.info(
+        "[source reliability] "
+        + ", ".join(
+            f"{row['source']}={row['relativeWeight']:.4f}/{row['confidence']}"
+            for row in reliability['sources']
+        )
+    )
     if failures and strict:
         raise RuntimeError(f"{len(failures)} validation source(s) failed quality requirements") from failures[0]
     return baseline, candidates, all_diffs, summaries

@@ -9,6 +9,7 @@ LOCAL_CACHE_TTL_SECONDS = settings.LOCAL_CACHE_TTL_SECONDS
 TEXT_REQUEST_TIMEOUT_SECONDS = settings.TEXT_REQUEST_TIMEOUT_SECONDS
 FILE_REQUEST_TIMEOUT_SECONDS = settings.FILE_REQUEST_TIMEOUT_SECONDS
 FILE_CACHE_TTL_SECONDS = settings.FILE_CACHE_TTL_SECONDS
+IMAGE_CACHE_TTL_SECONDS = settings.IMAGE_CACHE_TTL_SECONDS
 NETWORK_MAX_ATTEMPTS = settings.NETWORK_MAX_ATTEMPTS
 NETWORK_BACKOFF_BASE_SECONDS = settings.NETWORK_BACKOFF_BASE_SECONDS
 NETWORK_BACKOFF_CAP_SECONDS = settings.NETWORK_BACKOFF_CAP_SECONDS
@@ -38,6 +39,7 @@ log_cache_meta_updated = transport.log_cache_meta_updated
 log_cache_updated = transport.log_cache_updated
 fetch = client.fetch
 download_file = client.download_file
+download_pic = client.download_pic
 
 # Kept for callers that patch or inspect the transport dependencies.
 requests = transport.requests

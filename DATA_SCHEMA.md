@@ -102,23 +102,83 @@ Example: `12.7cm連装砲D型改二` has a normal route and a `玉波改二` rou
 uses `12.7cm連装高角砲 × 3` at ★0~★5 instead of the normal
 `10cm連装高角砲 × 2` recipe.
 
-## Diagnostic source data
+## `poi-plugin-item-improvement2` compatibility distribution
 
-`data/sources/` is not part of the plugin contract. Each source stores:
+The package is published through two npm distribution tags generated from the same canonical data:
 
-- `schedules.nedb`: compatibility name for normalized facts.
-- `normalized-facts.nedb`: full route-aware facts.
-- `parsed-rules.nedb`: evidence-bearing parsed rows.
-- `issues.nedb`: unresolved names and parser problems.
-- `metadata.json`: source health and counts.
+```text
+latest
+  improvement/detail.nedb: schema 4
 
-A fact is identified at full precision by:
+improvement2
+  improvement/detail.nedb: schema 3
+```
 
-`itemId + shipId + capability + updateTargetItemId + routeSignature`
+The schema-3 detail is an explicit whitelist VO projection. It writes only the original schema-3 fields, so future canonical additions do not enter the compatibility output unless the old contract is intentionally revised. The schema-2 list is copied byte-for-byte.
 
-The AI review bundle under `data/sources/ai-review/` contains the prompt, complete
-review input, route variants and conflicts. AI output is advisory and never mutates
-public data automatically.
+Both distributions keep the normal public `improvement/*` and schema paths. Existing `poi-plugin-item-improvement2` code therefore needs no path adaptation and can install the compatibility line with:
+
+```bash
+npm install @sakura2333/kancolle-data@improvement2
+```
+
+The default `latest` distribution continues to expose the canonical schema-4 dataset.
+
+## Unified equipment sources schema v1
+
+`packages/kancolle-data/equipment/sources.nedb` contains one record for every player equipment in Start2. All three arrays are required even when empty:
+
+```json
+{
+  "equipmentId": 228,
+  "equipmentName": "九六式艦戦改",
+  "source": {
+    "shipIds": [],
+    "upgradeFromItemIds": [19],
+    "questKey": []
+  }
+}
+```
+
+- `shipIds`: trusted KcWiki `_api_id` values, accepted only after Start2 ID and Japanese-name consistency checks. WikiWiki card numbers, URL numbers and image filenames are never game IDs.
+- `upgradeFromItemIds`: upstream equipment IDs reverse-projected directly from canonical `improvement/detail.nedb`; no name join is performed.
+- `questKey`: numeric top-level keys from `kcwikizh/kcQuests/quests-scn.json`. Quest code and name are matching and diagnostic evidence only.
+
+The source-side projection under `data/sources/equipment-sources/` stores the accepted structured projection together with dataset metadata and input hashes. Incremental change logs are runtime state and are not part of the public stable tree or code update identity.
+
+## Public source evidence
+
+`data/sources/` is not part of the plugin contract. Public `main` keeps only the source material needed for traceability or a clean build:
+
+- per-source `metadata.json` or `dataset-metadata.json` files with source URLs, timestamps, content hashes, record counts, schema versions and health summaries;
+- `kcwiki-data/equipment-drop-from.nedb` and its dataset issue file;
+- `kc3-slotitem-bonus/special-bonuses.nedb` and its dataset issue file;
+- `equipment-sources/equipment-sources.nedb`;
+- the validated WikiWiki equipment-acquisition snapshot described below;
+- `reliability/summary.json`, which is advisory-only and never changes dataset authority.
+
+Normalized validation facts, parser worksets, cross-source differences, AI review bundles, full history snapshots and incremental run logs are reproducible runtime outputs. They are intentionally excluded from public `main`.
+
+### WikiWiki equipment acquisition snapshot
+
+`data/sources/wikiwiki-equipment-detail/` is a validated structured snapshot generated from maintainer-only browser-session captures. Parsing performs no network I/O. A maintainer checkout with Raw Cache can rebuild the snapshot; a clean public `main` checkout validates and reuses the published snapshot because original HTML evidence is intentionally not published.
+
+The snapshot is complete only when all six files are present:
+
+- `catalog.json`;
+- `acquisition-records.nedb`;
+- `dataset-issues.nedb`;
+- `reference-issues.nedb`;
+- `unclassified-evidence.nedb`;
+- `dataset-metadata.json`.
+
+`acquisition-records.nedb` stores the Start2 equipment ID, validated page ID, source URL, evidence methods, availability classification, raw text, links, coverage status and acceptance flag. Ship evidence is resolved against Start2. Quest evidence uses `kcwikizh/kcQuests`; `questReferences[]` carries canonical numeric `questKey`, code, name and resolution status, while code and name remain matching evidence only. Accepted numeric keys are projected into the public unified source record.
+
+`configs/wikiwiki-acquisition-replacements.json` is a source-scoped parser dictionary for human-accepted exact headings, explicit context labels, literal classification aliases, classification-only blacklists, historical markers and ignored non-evidence text. Blacklist and alias replacements affect only the classification view and never rewrite captured HTML or emitted `rawText`; unmatched or unsafe evidence remains in `unclassified-evidence.nedb`.
+
+`configs/wikiwiki-page-name-aliases.json` is a separately reviewed one-way join dictionary from Start2 equipment names to Wiki-authored page names. It is consulted only after exact and conservative normalized-name matching fail; it does not modify canonical names or use Wiki card numbers as IDs.
+
+`configs/source-semantic-aliases.json` is a source-scoped parsing asset, not a consumer schema. Entries are accepted only after human review and are revalidated against current Start2 IDs and names. Strict runs reject any remaining unresolved item or ship name.
 
 ## Equipment special bonuses schema v2
 
