@@ -7,8 +7,8 @@ import re
 from collections import defaultdict
 from typing import Dict, Iterable, List, Optional, Tuple
 
-from pojo.equip_item import WeaponItem, WeaponItemVO
-from pojo.improvement import ConsumeItem, Improvement, ImprovementStage, ImprovementVO, ShipWeek
+from service.data_package.improvement_record import ImprovementVO, WeaponItemVO
+from service.improvement.model import ConsumeItem, Improvement, ImprovementStage, ShipWeek, WeaponItem
 from service.akashi_list.improvement_expectation import build_route_step_list
 from util.logger import simple_logger
 from util.start2.start2_item_utils import start2ItemUtils

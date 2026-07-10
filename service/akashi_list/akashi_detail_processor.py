@@ -2,10 +2,11 @@ from __future__ import annotations
 
 from lxml import etree
 
-from pojo.equip_item import WeaponItem
+from service.improvement.model import WeaponItem
 from service.akashi_list.akashi_list_utils import require_record
 from service.akashi_list.daily_ship_parser import process_daily_ships
 from service.akashi_list.detail_stage_parser import (
+    download_detail_equipment_image,
     process_resource,
     process_stage,
     process_upgrade,
@@ -91,6 +92,7 @@ class DetailProcessor:
         self.item.effect_source, self.item.level_expectations = parse_level_expectations(
             page_node
         )
+        download_detail_equipment_image(self.item.id, page_node)
         self.process_daily_ships(page_node)
         self.process_tr(page_node)
         self.clear()

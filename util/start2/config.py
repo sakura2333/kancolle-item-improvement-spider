@@ -1,3 +1,3 @@
-from configs.path import get_db_dir
+from configs.path import get_data_pipeline_dir
 
-start2_dir = get_db_dir("start2_data")
+start2_dir = get_data_pipeline_dir("start2_data")

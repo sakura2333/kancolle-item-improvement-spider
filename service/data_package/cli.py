@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 from service.data_package.builder import build_data_package, refresh_package_manifest
-from service.data_package.package_paths import PACKAGE_DIR
+from service.data_package.package_paths import PACKAGE_DIR, PACKAGE_SOURCE_DIR
 from service.data_package.package_history import finalize_release
 from service.operator_stop import OperatorStopError, write_operator_stop
 from service.data_package.versioning import (
@@ -35,13 +35,17 @@ def _write_version(version: str) -> str:
     clean = version.strip()
     if _SEMVER_RE.fullmatch(clean) is None:
         raise ValueError(f"invalid semantic version: {version!r}")
-    package_path = PACKAGE_DIR / "package.json"
-    package = json.loads(package_path.read_text(encoding="utf-8"))
-    package["version"] = clean
-    package_path.write_text(
-        json.dumps(package, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+
+    for package_path in (PACKAGE_SOURCE_DIR / "package.json", PACKAGE_DIR / "package.json"):
+        if not package_path.exists():
+            continue
+        package = json.loads(package_path.read_text(encoding="utf-8"))
+        package["version"] = clean
+        package_path.write_text(
+            json.dumps(package, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
     manifest_path = PACKAGE_DIR / "manifest.json"
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -115,7 +119,7 @@ def main() -> int:
     if args.command == "plan-version":
         if not args.mode or not args.published_versions:
             parser.error("plan-version requires --mode and --published-versions")
-        package = json.loads((PACKAGE_DIR / "package.json").read_text(encoding="utf-8"))
+        package = json.loads((PACKAGE_SOURCE_DIR / "package.json").read_text(encoding="utf-8"))
         repository_version = str(package["version"])
         published_versions = _read_published_versions(args.published_versions)
         try:

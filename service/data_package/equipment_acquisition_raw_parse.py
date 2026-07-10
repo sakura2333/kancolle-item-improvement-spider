@@ -3,8 +3,8 @@ from __future__ import annotations
 """Offline WikiWiki equipment-acquisition parser over the shared raw cache.
 
 The parser never performs network I/O and never reads crawler-private state.
-Captured pages are discovered through ``data/raw_data/site_cache/_meta.json``;
-this is the same raw evidence store used by the project's HTTP cache layer.
+Captured pages are discovered through ``.flow/local/source-cache/_meta.json``;
+this is the same local raw evidence store used by the project's HTTP cache layer.
 """
 
 import argparse
@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-from configs.path import PROJECT_ROOT, get_data_dir
+from configs.path import PROJECT_ROOT, get_source_cache_dir
 from service.data_package.acquisition_references import (
     QUEST_DATA_URL,
     QuestReferenceCatalog,
@@ -40,7 +40,7 @@ from service.data_package.equipment_acquisition_crawl import (
 )
 from util.logger import simple_logger
 
-DEFAULT_RAW_ROOT = Path(get_data_dir("raw_data")) / "site_cache"
+DEFAULT_RAW_ROOT = Path(get_source_cache_dir())
 CAPTURE_SOURCE = "external-browser-session-crawl"
 
 

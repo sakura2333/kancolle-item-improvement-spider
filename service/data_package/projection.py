@@ -7,9 +7,11 @@ from pathlib import Path
 from typing import Iterable
 
 from service.data_package.package_paths import (
+    CACHE_EQUIPMENT_IMAGE_DIR,
     CACHE_IMAGE_DIR,
     IMPROVEMENT2_COMPAT_DIR,
     PACKAGE_DIR,
+    STATIC_EQUIPMENT_IMAGE_DIR,
     STATIC_IMAGE_DIR,
 )
 
@@ -21,7 +23,11 @@ def _clear_regenerated():
     # Improvement projections and icons are owned locally and can always be
     # regenerated. External equipment datasets are intentionally preserved
     # until their replacement source has been fetched and parsed successfully.
-    for relative in ("improvement", "assets/useitems", "audit"):
+    for relative in ("assets/useitems", "assets/equipment"):
+        legacy_path = PACKAGE_DIR / relative
+        if legacy_path.exists():
+            shutil.rmtree(legacy_path)
+    for relative in ("improvement", "assets/useitem", "assets/equip", "audit"):
         path = PACKAGE_DIR / relative
         if path.exists():
             shutil.rmtree(path)
@@ -95,9 +101,15 @@ def _promote_cached_icons():
     """Persist newly discovered icons outside the ignored HTTP cache.
 
     Runtime cache is intentionally not committed. Promoting numeric PNGs into
-    data/assets makes the next clean checkout reproducible and lets the release
+    dist/data-pipeline/assets makes the next clean checkout reproducible and lets the release
     commit carry newly referenced use-item assets.
     """
 
     _copy_icon_directory(CACHE_IMAGE_DIR, STATIC_IMAGE_DIR)
+
+
+def _promote_cached_equipment_images():
+    """Persist AkashiList equipment images into a stable asset directory."""
+
+    _copy_icon_directory(CACHE_EQUIPMENT_IMAGE_DIR, STATIC_EQUIPMENT_IMAGE_DIR)
 

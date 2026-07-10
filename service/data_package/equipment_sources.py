@@ -98,7 +98,7 @@ def build_upgrade_reverse_index(
     records = _read_nedb_strict(
         improvement_path,
         stop_reason="canonical-improvement-nedb-invalid",
-        action="恢复或重新生成 packages/kancolle-data/improvement/detail.nedb，再从当前断点重试。",
+        action="恢复或重新生成 dist/packages/kancolle-data/improvement/detail.nedb，再从当前断点重试。",
         checkpoint=str(improvement_path),
     )
     known_ids = {

@@ -51,8 +51,12 @@ def _record_diff(previous: list[dict], current: list[dict]) -> dict:
         "changed": bool(added or changed or removed),
     }
 
-def _load_json(url: str) -> tuple[Any, dict]:
-    value = json.loads(fetch(url))
+def _load_json(
+    url: str,
+    *,
+    require_fresh: bool | None = None,
+) -> tuple[Any, dict]:
+    value = json.loads(fetch(url, require_fresh=require_fresh))
     return value, _fetch_summary(url)
 
 def _fetch_summary(url: str) -> dict:
@@ -137,9 +141,11 @@ def collect_optional_datasets(strict: bool = False) -> dict:
     )
     result: Dict[str, Any] = {}
 
+    kcwiki_raw_loaded = False
     try:
-        ship_catalog, ship_fetch = _load_json(SHIP_URL)
-        equipment_catalog, equipment_fetch = _load_json(EQUIPMENT_URL)
+        ship_catalog, ship_fetch = _load_json(SHIP_URL, require_fresh=False)
+        equipment_catalog, equipment_fetch = _load_json(EQUIPMENT_URL, require_fresh=False)
+        kcwiki_raw_loaded = True
         fetches = [ship_fetch, equipment_fetch]
         source_dir = SOURCE_ROOT / "kcwiki-data"
         record_path = source_dir / "equipment-drop-from.nedb"
@@ -217,7 +223,15 @@ def collect_optional_datasets(strict: bool = False) -> dict:
         )
         result["dropFrom"] = {"records": records, "issues": issues, "metadata": metadata}
     except Exception as exc:
-        simple_logger.error(f"[data package] equipment drop-from collection failed: {exc}")
+        if kcwiki_raw_loaded:
+            simple_logger.error(
+                f"[data package] equipment drop-from collection failed: {exc}"
+            )
+        else:
+            simple_logger.error(
+                "[KCWIKI RAW UNAVAILABLE][NON-BLOCKING] "
+                f"equipment drop-from refresh skipped: {type(exc).__name__}: {exc}"
+            )
         result["dropFrom"] = {
             "records": [],
             "issues": [],
@@ -227,7 +241,7 @@ def collect_optional_datasets(strict: bool = False) -> dict:
                 "sourceUrls": [SHIP_URL, EQUIPMENT_URL],
             },
         }
-        if strict:
+        if strict and kcwiki_raw_loaded:
             raise
 
     try:
