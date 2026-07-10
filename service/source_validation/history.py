@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Iterable, List, Mapping, Optional, Sequence
 
-from configs.path import get_data_dir
+from configs.path import get_data_pipeline_dir
 from service.source_validation.model import SourceResult, SourceSchedule, WEEKDAY_NAMES
 from util.json_utils import read_json, read_json_lines, write_json, write_json_lines
 
@@ -15,7 +15,7 @@ HISTORY_SCHEMA_VERSION = 1
 
 
 def history_root() -> Path:
-    return Path(get_data_dir("sources")) / "history"
+    return Path(get_data_pipeline_dir("sources")) / "history"
 
 
 def _now_iso() -> str:

@@ -22,6 +22,7 @@ export interface KancolleDataPaths {
   }
   assets: {
     useitemPath(id: number | string): string
+    equipmentPath(id: number | string): string
   }
 }
 

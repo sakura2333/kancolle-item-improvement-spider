@@ -1,41 +1,47 @@
-import os
+from __future__ import annotations
 
-# 项目根目录：configs 的上一级
+import os
+from pathlib import Path
+
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-# 基础目录
-DATA_DIR = os.path.join(PROJECT_ROOT, "data")
-RAW_DATA_DIR = os.path.join(DATA_DIR, "raw_data")  # 新增：原始数据目录
-LOG_DIR = os.path.join(PROJECT_ROOT, "log")
-TEMP_DIR = os.path.join(PROJECT_ROOT, "script")
+SPIDER_DIR = os.path.join(PROJECT_ROOT, ".spider")
+SPIDER_LOCAL_DIR = os.path.join(SPIDER_DIR, "local")
+SOURCE_CACHE_DIR = os.path.join(SPIDER_LOCAL_DIR, "source-cache")
+LOCAL_LOG_DIR = os.path.join(SPIDER_LOCAL_DIR, "logs", "business")
 
-# 确保目录存在
-# 将 RAW_DATA_DIR 加入循环自动创建
-for d in [DATA_DIR, RAW_DATA_DIR, LOG_DIR, TEMP_DIR]:
-    os.makedirs(d, exist_ok=True)
+DIST_DIR = os.path.join(PROJECT_ROOT, "dist")
+DIST_DATA_PIPELINE_DIR = os.path.join(DIST_DIR, "data-pipeline")
+DIST_PACKAGE_DIR = os.path.join(DIST_DIR, "packages")
 
-# --- 增加对应的获取函数 ---
 
-def get_raw_data_dir(subfolder: str = "") -> str:
-    """获取原始数据存放目录"""
-    path = os.path.join(RAW_DATA_DIR, subfolder) if subfolder else RAW_DATA_DIR
-    os.makedirs(path, exist_ok=True)
+def _child(root: str, subfolder: str = "", *, create: bool = True) -> str:
+    path = os.path.join(root, subfolder) if subfolder else root
+    if create:
+        Path(path).mkdir(parents=True, exist_ok=True)
     return path
 
-# --- 原有函数保持不变 ---
 
-def get_data_dir(subfolder: str = "") -> str:
-    path = os.path.join(DATA_DIR, subfolder) if subfolder else DATA_DIR
-    os.makedirs(path, exist_ok=True)
-    return path
+def get_spider_local_dir(subfolder: str = "") -> str:
+    return _child(SPIDER_LOCAL_DIR, subfolder)
 
-def get_db_dir(subfolder: str = "") -> str:
-    path = os.path.join(DATA_DIR, subfolder) if subfolder else DATA_DIR
-    os.makedirs(path, exist_ok=True)
-    return path
+
+def get_source_cache_dir(subfolder: str = "") -> str:
+    return _child(SOURCE_CACHE_DIR, subfolder)
+
+
+def get_dist_dir(subfolder: str = "") -> str:
+    return _child(DIST_DIR, subfolder)
+
+
+def get_data_pipeline_dir(subfolder: str = "") -> str:
+    return _child(DIST_DATA_PIPELINE_DIR, subfolder)
+
+
+def get_package_dist_dir(subfolder: str = "") -> str:
+    return _child(DIST_PACKAGE_DIR, subfolder)
+
 
 def get_log_dir(file_name: str = "") -> str:
-    return os.path.join(LOG_DIR, file_name) if file_name else LOG_DIR
-
-def get_temp_dir(file_name: str = "") -> str:
-    return os.path.join(TEMP_DIR, file_name) if file_name else TEMP_DIR
+    root = _child(LOCAL_LOG_DIR)
+    return os.path.join(root, file_name) if file_name else root

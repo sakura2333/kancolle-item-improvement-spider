@@ -12,6 +12,7 @@ console.log(data.equipment.dropFromPath)
 console.log(data.equipment.sourcesPath)
 console.log(data.equipment.specialBonusesPath)
 console.log(data.assets.useitemPath(71))
+console.log(data.assets.equipmentPath(61))
 ```
 
 Datasets:
@@ -23,7 +24,8 @@ Datasets:
 - `equipment/sources.nedb`: one unified record per equipment with required `shipIds`, `upgradeFromItemIds`, and numeric `questKey` arrays.
 - `schemas/equipment-sources.schema.json`: JSON Schema for unified source records.
 - `equipment/special-bonuses.nedb`: bonus rules targeting either concrete equipment IDs or equipment-type IDs.
-- `assets/useitems/*.png`: use-item images required by improvement recipes.
+- `assets/useitem/*.png`: use-item images required by improvement recipes.
+- `assets/equip/*.png`: equipment images discovered from AkashiList detail pages and recipe links.
 
 Special-bonus targets are discriminated by `target.kind`:
 

@@ -4,14 +4,14 @@ import os
 from datetime import datetime, timezone
 from typing import Iterable, List
 
-from configs.path import get_data_dir
+from configs.path import get_data_pipeline_dir
 from service.source_validation.compare import ScheduleDiff
 from service.source_validation.model import SourceResult
 from util.json_utils import write_json, write_json_lines
 
 
 def source_root() -> str:
-    return get_data_dir("sources")
+    return get_data_pipeline_dir("sources")
 
 
 def _safe_source_name(source: str) -> str:
@@ -106,7 +106,7 @@ def export_comparison(
         "`differences.nedb` contains the non-matching equipment/helper schedules.",
         "A missing or extra record is evidence for review, not an automatic correction.",
         "Capabilities not implemented by a candidate adapter are excluded from Missing and counted as Ignored unsupported.",
-        "The public files in `data/improvement/` remain generated only from Akashi List.",
+        "The canonical files in `dist/data-pipeline/improvement/` remain generated only from Akashi List.",
         "",
     ])
     with open(os.path.join(directory, "report.md"), "w", encoding="utf-8") as file:

@@ -12,8 +12,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from pojo.equip_item import WeaponItemVO
-from pojo.improvement import ImprovementStage, ImprovementVO, ShipWeek
+from service.data_package.improvement_record import ImprovementVO, WeaponItemVO
+from service.improvement.model import ImprovementStage, ShipWeek
 from service.source_validation.runner import run_source_validation
 from util.export_utils import get_improvement_db_dir
 

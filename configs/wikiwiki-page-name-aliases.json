@@ -66,6 +66,33 @@
       "start2Name": "5inch連装砲(副砲配置) 集中配備",
       "wikiName": "5inch連装砲(副砲配置)集中配備",
       "reason": "Wiki page omits the separating space."
+    },
+    {
+      "id": "wikiwiki-page-name.reppu-kai-ni-bo-type-ichikosen-slash",
+      "status": "accepted",
+      "start2Name": "烈風改二戊型(一航戦/熟練)",
+      "wikiName": "烈風改二戊型(一航戦／熟練)",
+      "reason": "WikiWiki page URL uses a full-width slash for the page segment."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "wikiwiki-page-name.reppu-kai-ni-ichikosen-internal-only",
+      "status": "accepted",
+      "start2Name": "烈風改二(一航戦/熟練)",
+      "reason": "Start2 exposes this internal equipment id, but WikiWiki has no dedicated equipment-detail page; exclude instead of guessing a URL or joining by id."
+    },
+    {
+      "id": "wikiwiki-page-name.quad-oxygen-torpedo-model-5-kai-3-source-pending-20260709",
+      "status": "accepted",
+      "start2Name": "61cm四連装(酸素)魚雷五型改三",
+      "reason": "Start2 exposed this new 2026 equipment before WikiWiki's equipment card catalog published a dedicated page. Do not guess a direct URL; exact Wiki catalog matches still take precedence once the page appears."
+    },
+    {
+      "id": "wikiwiki-page-name.sb2u-2-source-pending-20260709",
+      "status": "accepted",
+      "start2Name": "SB2U-2",
+      "reason": "Start2 exposed this new 2026 equipment before WikiWiki's equipment card catalog published a dedicated page. Do not guess a direct URL; exact Wiki catalog matches still take precedence once the page appears."
     }
   ]
 }

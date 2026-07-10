@@ -4,7 +4,7 @@ import os
 import re
 from typing import Any, Iterable
 
-import mojimoji
+import jaconv
 
 from util.start2.catalog import IndexedCatalog, LazyJsonCatalog
 from util.start2.config import start2_dir
@@ -27,8 +27,8 @@ class Start2UseItemUtils(IndexedCatalog):
             lambda item: re.sub(
                 r"\s+",
                 "",
-                mojimoji.zen_to_han(
-                    str(item.get("api_name", "")), kana=True
+                jaconv.z2h(
+                    str(item.get("api_name", "")), kana=True, ascii=True, digit=True
                 ).strip(),
             )
             == name
