@@ -2,8 +2,8 @@ import os
 from dataclasses import asdict, is_dataclass
 from datetime import datetime, timezone
 
-from configs.path import get_data_dir, get_db_dir
-from pojo.equip_item import WeaponItemVO
+from configs.path import get_data_pipeline_dir
+from service.data_package.improvement_record import WeaponItemVO
 from util.json_utils import write_json, write_json_lines
 from util.logger import simple_logger
 
@@ -23,7 +23,7 @@ LEGACY_FILE_NAMES = ["arsenal_all.nedb", "arsenal_weekday.nedb", "items.nedb"]
 
 
 def get_improvement_db_dir() -> str:
-    return get_db_dir("improvement")
+    return get_data_pipeline_dir("improvement")
 
 
 def serialize_clean(obj):
@@ -102,7 +102,7 @@ def build_list_projection(data_list: list[WeaponItemVO]) -> list[list[list]]:
 
 
 def _read_start2_version() -> str:
-    version_path = os.path.join(get_data_dir("start2_data"), "current_version.txt")
+    version_path = os.path.join(get_data_pipeline_dir("start2_data"), "current_version.txt")
     if not os.path.exists(version_path):
         return "unknown"
     with open(version_path, "r", encoding="utf-8") as file:

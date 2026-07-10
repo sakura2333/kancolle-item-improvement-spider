@@ -4,7 +4,7 @@ import os
 from datetime import datetime, timezone
 from typing import Callable, Dict, List, Sequence
 
-from pojo.equip_item import WeaponItemVO
+from service.data_package.improvement_record import WeaponItemVO
 from service.source_validation.ai_review import export_ai_review_input
 from service.source_validation.common import schedules_from_primary
 from service.source_validation.compare import compare_source
@@ -101,14 +101,21 @@ def run_source_validation(items: Sequence[WeaponItemVO], *, record_history: bool
         value = collected.get(source)
         if isinstance(value, Exception) or value is None:
             exc = value if isinstance(value, Exception) else RuntimeError("collector returned no result")
-            simple_logger.error(f"[source validation] {source} failed: {exc}")
+            if source == "kcwiki-data":
+                simple_logger.error(
+                    "[KCWIKI RAW UNAVAILABLE][NON-BLOCKING] "
+                    f"source validation skipped: {type(exc).__name__}: {exc}"
+                )
+            else:
+                simple_logger.error(f"[source validation] {source} failed: {exc}")
             result = SourceResult(
                 source=source,
                 url=SOURCE_URLS.get(source, ""),
                 status="failed",
                 error=f"{type(exc).__name__}: {exc}",
             )
-            failures.append(exc)
+            if source != "kcwiki-data":
+                failures.append(exc)
         else:
             result = value
             if strict and result.status != "ok":

@@ -28,7 +28,10 @@ module.exports = Object.freeze({
   }),
   assets: Object.freeze({
     useitemPath(id) {
-      return resolveData('assets', 'useitems', `${Number(id)}.png`)
+      return resolveData('assets', 'useitem', `${Number(id)}.png`)
+    },
+    equipmentPath(id) {
+      return resolveData('assets', 'equip', `${Number(id)}.png`)
     },
   }),
 })

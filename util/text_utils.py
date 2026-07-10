@@ -1,6 +1,6 @@
 import re
 
-import mojimoji
+import jaconv
 
 
 def normalize_name(name: str) -> str:
@@ -8,7 +8,7 @@ def normalize_name(name: str) -> str:
         return ""
 
     name = str(name)
-    name = mojimoji.zen_to_han(name, kana=True)
+    name = jaconv.z2h(name, kana=True, ascii=True, digit=True)
     name = name.replace("*", "")
     name = name.lower()
     name = re.sub(r"\s+", "", name)

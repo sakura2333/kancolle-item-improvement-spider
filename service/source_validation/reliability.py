@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Mapping, Optional, Sequence, Tuple
 
-from configs.path import PROJECT_ROOT, get_data_dir
+from configs.path import PROJECT_ROOT, get_data_pipeline_dir
 from service.source_validation.history import aggregate_source_facts, history_root
 from service.source_validation.model import SourceResult
 from util.json_utils import read_json_lines, write_json
@@ -16,7 +16,7 @@ DEFAULT_CONFIG_PATH = Path(PROJECT_ROOT) / "configs" / "source-reliability.json"
 
 
 def reliability_root() -> Path:
-    return Path(get_data_dir("sources")) / "reliability"
+    return Path(get_data_pipeline_dir("sources")) / "reliability"
 
 
 def _now_iso() -> str:

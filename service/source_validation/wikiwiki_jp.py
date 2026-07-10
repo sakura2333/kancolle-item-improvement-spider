@@ -7,7 +7,7 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 from lxml import etree
 
-from pojo.improvement import ShipWeek
+from service.improvement.model import ShipWeek
 from service.akashi_list.akashi_list_utils import build_assistant_ship_ids_by_day
 from service.akashi_list.ship_name_resolver import ShipNameResolver
 from service.source_validation.common import CatalogMatcher, merge_schedules, normalize_catalog_name

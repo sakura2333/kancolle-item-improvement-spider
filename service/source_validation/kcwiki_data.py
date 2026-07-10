@@ -52,25 +52,25 @@ def build_ship_reference_map(catalog: Any, ship_utils: Start2ShipUtils) -> Dict[
         if key and ship_id not in aliases[key]:
             aliases[key].append(ship_id)
 
+    def resolve_ship_by_name(raw_name: Any) -> Optional[int]:
+        if not raw_name:
+            return None
+        normalized = normalize_catalog_name(str(raw_name))
+        matches = [
+            ship for ship in ship_utils.ships
+            if normalize_catalog_name(ship.get("api_name") or "") == normalized
+        ]
+        if len(matches) == 1:
+            return int(matches[0]["api_id"])
+        return None
+
     for node, path in _walk_catalog(catalog):
         japanese_name = (
             node.get("_japanese_name")
             or node.get("_name_jp")
             or node.get("japanese_name")
         )
-        api_id = (
-            _positive_int(node.get("_api_id"))
-            or _positive_int(node.get("api_id"))
-            or _positive_int(node.get("_id"))
-        )
-        ship_id: Optional[int] = api_id if api_id and ship_utils.get_by_id(api_id) else None
-        if ship_id is None and japanese_name:
-            matches = [
-                ship for ship in ship_utils.ships
-                if normalize_catalog_name(ship.get("api_name") or "") == normalize_catalog_name(japanese_name)
-            ]
-            if len(matches) == 1:
-                ship_id = int(matches[0]["api_id"])
+        ship_id = resolve_ship_by_name(japanese_name)
         if ship_id is None:
             continue
 
@@ -152,11 +152,9 @@ def parse_kcwiki_data(
             continue
         equipment_count += 1
 
-        item_id = _positive_int(entry.get("_id"))
-        item = item_utils.find_by_id(item_id) if item_id else None
-        if item is None:
-            japanese_name = entry.get("_japanese_name") or entry_name
-            item = matcher.item(str(japanese_name))
+        source_local_item_id = _positive_int(entry.get("_id"))
+        japanese_name = entry.get("_japanese_name") or entry_name
+        item = matcher.item(str(japanese_name))
         if item is None:
             issues.append(SourceIssue(
                 source=SOURCE_ID,
@@ -210,7 +208,11 @@ def parse_kcwiki_data(
                         parser_version="kcwiki-structured-v3",
                         source_ref=source_url,
                         raw_text=str(ship_ref),
-                        evidence={"path": list(path), "wikiEquipmentName": entry_name},
+                        evidence={
+                            "path": list(path),
+                            "wikiEquipmentName": entry_name,
+                            "sourceLocalEquipmentId": source_local_item_id,
+                        },
                     ))
 
     merged_schedules = merge_schedules(schedules)
@@ -236,6 +238,6 @@ def parse_kcwiki_data(
 
 
 def collect(item_utils: Start2ItemUtils, ship_utils: Start2ShipUtils) -> SourceResult:
-    equipment_catalog = json.loads(fetch(EQUIPMENT_URL))
-    ship_catalog = json.loads(fetch(SHIP_URL))
+    equipment_catalog = json.loads(fetch(EQUIPMENT_URL, require_fresh=False))
+    ship_catalog = json.loads(fetch(SHIP_URL, require_fresh=False))
     return parse_kcwiki_data(equipment_catalog, ship_catalog, item_utils, ship_utils)
