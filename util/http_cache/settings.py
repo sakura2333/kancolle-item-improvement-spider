@@ -2,11 +2,11 @@ from __future__ import annotations
 
 import os
 
-from configs.path import RAW_DATA_DIR
+from configs.path import SOURCE_CACHE_DIR
 
-BASE_DIR = os.path.join(RAW_DATA_DIR, "site_cache")
+BASE_DIR = SOURCE_CACHE_DIR
 META_INDEX_FILE = "_meta.json"
-LOCAL_CACHE_TTL_SECONDS = 22 * 60 * 60
+LOCAL_CACHE_TTL_SECONDS = 46 * 60 * 60
 TEXT_REQUEST_TIMEOUT_SECONDS = 10
 FILE_REQUEST_TIMEOUT_SECONDS = 30
 FILE_CACHE_TTL_SECONDS = 7 * 24 * 3600

@@ -13,12 +13,16 @@ is never hidden by an older snapshot.
 """
 
 import json
+from datetime import datetime, timezone
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from service.data_package.equipment_acquisition import SOURCE_ID
-from service.data_package.equipment_acquisition_raw_parse import run_offline_parse
+from service.data_package.equipment_acquisition_raw_parse import (
+    CAPTURE_SOURCE,
+    run_offline_parse,
+)
 from util.logger import simple_logger
 
 
@@ -52,6 +56,102 @@ def _read_json(path: Path) -> Any:
         ) from exc
 
 
+def _has_acquisition_capture_entries(raw_metadata: Path) -> bool:
+    """Return whether Raw Cache contains browser-session equipment captures.
+
+    The shared Raw Cache metadata is also populated by ordinary Akashi,
+    WikiWiki table, KCWiki and KC3 requests.  Its mere presence therefore does
+    not mean that equipment-detail evidence exists.
+    """
+
+    if not raw_metadata.is_file():
+        return False
+    try:
+        payload = json.loads(raw_metadata.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise AcquisitionSnapshotError(
+            f"raw cache metadata is unreadable: {raw_metadata}: {exc}"
+        ) from exc
+    if not isinstance(payload, dict):
+        raise AcquisitionSnapshotError(
+            f"raw cache metadata must be a JSON object: {raw_metadata}"
+        )
+    return any(
+        isinstance(meta, dict)
+        and meta.get("acquisition_source") == CAPTURE_SOURCE
+        for meta in payload.values()
+    )
+
+
+def _utc_now() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def _write_json(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _write_json_lines(path: Path, values: list[dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "".join(json.dumps(value, ensure_ascii=False) + "\n" for value in values),
+        encoding="utf-8",
+    )
+
+
+def _write_missing_snapshot_placeholder(output_dir: Path) -> AcquisitionSnapshot:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    generated_at = _utc_now()
+    issue = {
+        "source": SOURCE_ID,
+        "kind": "source-snapshot-missing",
+        "message": (
+            "WikiWiki equipment-detail acquisition snapshot is absent and no "
+            "local browser-session raw captures are available; equipment source "
+            "quest evidence is intentionally omitted for this build."
+        ),
+        "action": "Run the public WikiWiki crawler, then rerun the strict data build to populate acquisition evidence.",
+    }
+    metadata: dict[str, Any] = {
+        "schemaVersion": 1,
+        "source": SOURCE_ID,
+        "mode": "missing-source-snapshot",
+        "status": "source-unavailable",
+        "generatedAt": generated_at,
+        "catalogEntryCount": 0,
+        "recordCount": 0,
+        "acceptedRecordCount": 0,
+        "issueCount": 1,
+        "referenceIssueCount": 0,
+        "unclassifiedEvidenceCount": 0,
+        "networkAccess": False,
+    }
+    _write_json(output_dir / "catalog.json", [])
+    _write_json_lines(output_dir / "acquisition-records.nedb", [])
+    _write_json_lines(output_dir / "dataset-issues.nedb", [issue])
+    _write_json_lines(output_dir / "reference-issues.nedb", [])
+    _write_json_lines(output_dir / "unclassified-evidence.nedb", [])
+    _write_json(output_dir / "reference-diagnostics.json", {
+        "schemaVersion": 1,
+        "source": SOURCE_ID,
+        "status": "source-unavailable",
+        "resolvedLinkTargetConflictCount": 0,
+        "operatorStopReferenceCount": 0,
+        "rows": [],
+    })
+    (output_dir / "reference-diagnostics.md").write_text(
+        "# WikiWiki reference diagnostics\n\n"
+        "- status: source-unavailable\n"
+        "- resolvedLinkTargetConflictCount: 0\n"
+        "- operatorStopReferenceCount: 0\n",
+        encoding="utf-8",
+    )
+    _write_json(output_dir / "dataset-metadata.json", metadata)
+    return AcquisitionSnapshot(records=[], metadata=metadata, input_mode="missing-source-snapshot")
 
 
 def _read_json_lines_strict(path: Path) -> list[Any]:
@@ -89,12 +189,50 @@ def _require_count(metadata: dict[str, Any], key: str, actual: int) -> None:
         )
 
 
-def validate_acquisition_snapshot(output_dir: Path) -> AcquisitionSnapshot:
-    output_dir = output_dir.resolve()
-    missing = [
+def _missing_required_snapshot_files(output_dir: Path) -> list[str]:
+    return [
         name for name in _REQUIRED_SNAPSHOT_FILES
         if not (output_dir / name).is_file()
     ]
+
+
+def _is_missing_snapshot_placeholder(output_dir: Path) -> bool:
+    metadata_path = output_dir / "dataset-metadata.json"
+    if not metadata_path.is_file():
+        return False
+    try:
+        metadata = _read_json(metadata_path)
+    except AcquisitionSnapshotError:
+        return False
+    return (
+        isinstance(metadata, dict)
+        and metadata.get("mode") == "missing-source-snapshot"
+        and metadata.get("status") == "source-unavailable"
+    )
+
+
+def _read_missing_snapshot_placeholder(output_dir: Path) -> AcquisitionSnapshot:
+    missing = _missing_required_snapshot_files(output_dir)
+    if missing:
+        raise AcquisitionSnapshotError(
+            "equipment acquisition missing-source placeholder is incomplete; "
+            f"missing={missing}; outputDir={output_dir}"
+        )
+    metadata = _read_json(output_dir / "dataset-metadata.json")
+    if not isinstance(metadata, dict):
+        raise AcquisitionSnapshotError(
+            "equipment acquisition missing-source placeholder metadata must be an object"
+        )
+    return AcquisitionSnapshot(
+        records=[],
+        metadata=metadata,
+        input_mode="missing-source-snapshot",
+    )
+
+
+def validate_acquisition_snapshot(output_dir: Path) -> AcquisitionSnapshot:
+    output_dir = output_dir.resolve()
+    missing = _missing_required_snapshot_files(output_dir)
     if missing:
         raise AcquisitionSnapshotError(
             "equipment acquisition public snapshot is incomplete; "
@@ -125,6 +263,10 @@ def validate_acquisition_snapshot(output_dir: Path) -> AcquisitionSnapshot:
         )
 
     records = _read_json_lines_strict(output_dir / "acquisition-records.nedb")
+    if not records:
+        raise AcquisitionSnapshotError(
+            "equipment acquisition snapshot contains no accepted records"
+        )
     dataset_issues = _read_json_lines_strict(output_dir / "dataset-issues.nedb")
     reference_issues = _read_json_lines_strict(output_dir / "reference-issues.nedb")
     unclassified = _read_json_lines_strict(output_dir / "unclassified-evidence.nedb")
@@ -192,12 +334,13 @@ def refresh_or_reuse_acquisition_snapshot(
     output_dir: Path,
     quest_catalog_text: str | None,
     allow_incomplete: bool,
+    allow_missing_snapshot: bool = False,
 ) -> AcquisitionSnapshot:
     raw_root = raw_root.resolve()
     output_dir = output_dir.resolve()
     raw_metadata = raw_root / "_meta.json"
 
-    if raw_metadata.is_file():
+    if _has_acquisition_capture_entries(raw_metadata):
         run_offline_parse(
             raw_root=raw_root,
             output_dir=output_dir,
@@ -214,6 +357,23 @@ def refresh_or_reuse_acquisition_snapshot(
             metadata=snapshot.metadata,
             input_mode="local-raw-cache",
         )
+
+    missing = _missing_required_snapshot_files(output_dir)
+    if missing and allow_missing_snapshot:
+        snapshot = _write_missing_snapshot_placeholder(output_dir)
+        simple_logger.warning(
+            "[equipment acquisition] no local raw cache and no public acquisition "
+            "snapshot are available; writing source-unavailable placeholder; "
+            "quest-based equipment source evidence is omitted"
+        )
+        return snapshot
+    if allow_missing_snapshot and _is_missing_snapshot_placeholder(output_dir):
+        snapshot = _read_missing_snapshot_placeholder(output_dir)
+        simple_logger.warning(
+            "[equipment acquisition] reusing source-unavailable placeholder; "
+            "quest-based equipment source evidence is omitted"
+        )
+        return snapshot
 
     snapshot = validate_acquisition_snapshot(output_dir)
     simple_logger.info(

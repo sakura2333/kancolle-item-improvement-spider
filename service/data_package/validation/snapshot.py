@@ -47,6 +47,7 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
         "equipmentDropFrom": 1,
         "equipmentSources": 1,
         "equipmentSpecialBonuses": 2,
+        "equipmentImages": 1,
         "useitemIcons": 1,
     }
     for key, expected in expected_schemas.items():
@@ -121,7 +122,7 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     bonus_count, bonus_equipment_count, bonus_type_count, rule_count = _validate_special_bonuses(
         package_dir / "equipment" / "special-bonuses.nedb"
     )
-    icon_ids = _validate_icons(package_dir / "assets" / "useitems")
+    icon_ids = _validate_icons(package_dir / "assets" / "useitem")
     missing_icon_ids = sorted(required_icon_ids - icon_ids)
     if missing_icon_ids:
         raise QualityGateError(f"required use-item icons are missing: {missing_icon_ids}")
@@ -133,6 +134,10 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
         raise QualityGateError("useitem icon manifest availableIds do not match packaged PNG files")
     if icon_manifest.get("missingIds") not in ([], None):
         raise QualityGateError(f"useitem icon manifest reports missing ids: {icon_manifest.get('missingIds')}")
+    equipment_image_ids = _validate_icons(package_dir / "assets" / "equip")
+    equipment_image_manifest = manifest["datasets"].get("equipmentImages", {})
+    if sorted(equipment_image_manifest.get("availableIds", [])) != sorted(equipment_image_ids):
+        raise QualityGateError("equipment image manifest availableIds do not match packaged PNG files")
 
     files: dict[str, dict[str, Any]] = {}
     digest = hashlib.sha256()
@@ -152,7 +157,11 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     total_public_bytes = sum(file_info["bytes"] for file_info in files.values())
     icon_total_bytes = sum(
         file_info["bytes"] for relative, file_info in files.items()
-        if relative.startswith("assets/useitems/")
+        if relative.startswith("assets/useitem/")
+    )
+    equipment_image_total_bytes = sum(
+        file_info["bytes"] for relative, file_info in files.items()
+        if relative.startswith("assets/equip/")
     )
 
     return {
@@ -184,6 +193,8 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
             "useitemIcons.missingCount": len(missing_icon_ids),
             "useitemIcons.count": icon_count,
             "useitemIcons.totalBytes": icon_total_bytes,
+            "equipmentImages.count": len(equipment_image_ids),
+            "equipmentImages.totalBytes": equipment_image_total_bytes,
             "publicData.totalBytes": total_public_bytes,
         },
         "files": files,

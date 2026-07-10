@@ -28,9 +28,8 @@ Akashi List
 
 WikiWiki / KcWiki
   -> 归一化后与 Akashi 比较
-  -> 生成运行期验证材料
-  -> 公开 main 只保留 metadata、正式快照与聚合摘要
-  -> 不自动改写 data/improvement/**
+  -> 只写 dist/data-pipeline/sources/**
+  -> 不自动改写 dist/data-pipeline/improvement/**
 ```
 
 正式改修数据包括：
@@ -82,7 +81,14 @@ WikiWiki 装备详情中的舰娘引用按两层严格规则处理：
 
 链接中的数字、页面内部编号和图片文件名永远不作为游戏主键。链接缺失、目标仍为裸名称、目标与显示文字冲突，或交叉验证后仍不唯一时，严格构建输出 operator stop，不写入公开 `source.shipIds`。
 
-出现上述歧义时，严格构建必须停止，且成功的公开快照不得包含任何 operator-stop 文件。
+停止信息位于：
+
+```text
+dist/data-pipeline/sources/wikiwiki-equipment-detail/operator-stop.json
+dist/data-pipeline/sources/wikiwiki-equipment-detail/operator-stops.nedb
+```
+
+前者是首要停止摘要，后者是全部去重后的机器可读停止项。终端同时输出红色 `ERROR`、`stopReason`、人工处理方法和可继续使用的 Raw Cache 断点。
 
 ## 3. 来源选举/仲裁方式
 
@@ -120,11 +126,11 @@ WikiWiki 装备详情中的舰娘引用按两层严格规则处理：
 
 这些结果只形成审计材料，不自动修改正式改修数据。
 
-### 3.3 相对一致性摘要
+### 3.3 历史观察与相对权重
 
-系统可以根据两两一致和同行共识生成聚合后的相对一致性摘要。该结果仅表示“与现有其他来源相比更一致”，不表示官方权威，也不参与正式来源切换。
+成功解析的来源会先建立一次完整基线，之后只追加事实变化。系统根据两两一致、同行共识和积累后的变化佐证输出相对权重，但该权重仅表示“与现有其他来源相比更一致”，不表示官方权威，也不参与正式来源切换。
 
-公开 `main` 只保留 `data/sources/reliability/summary.json`。逐轮历史、完整来源副本和人工报告属于运行期工作集，不进入公开稳定树。边界见 `SOURCE-EVIDENCE.md`。
+当前改修投影仍固定来自 Akashi；权重报告位于 `dist/data-pipeline/sources/reliability/`，详细结构见 `SOURCE-HISTORY.md`。
 
 ### 3.4 Akashi 内部路线选取
 
@@ -208,7 +214,7 @@ CACHE_ONLY=1
 ### 当前实际行为
 
 - 改修路线“大图”不是一张被抓取的背景图；路线节点和连线应由消费方根据数据绘制。
-- Spider 会读取 Akashi 详情页中消耗品图片的 `src` 或 `data-src`，保存到 sitecache，再提升为稳定 `data/assets/useitems/{id}.png`。
+- Spider 会读取 Akashi 详情页中消耗品图片的 `src` 或 `data-src`，保存到 sitecache，再提升为稳定 `dist/data-pipeline/assets/useitem/{id}.png`。
 - 舰船图片路径只作为舰船 ID 解析提示，不作为正式发布图片集。
 - npm 数据包当前仍包含被改修材料引用到的 use-item PNG。
 
@@ -236,3 +242,4 @@ Poi SVG 类型图标
 | start2 API | 低到中 | 30 秒超时、最多 3 次请求、失败后非严格模式保留本地版本 | 无固定 TTL；每次更新入口先检查远端版本索引，仅版本变化时下载完整数据 |
 
 “Raw HTML 无自动 TTL”表示它是带抓取时间和哈希的历史证据，不会因时间到达而被静默删除；准备 Stable 或需要最新获取方式时应显式刷新。所有风险级别都是当前实现与已观察访问行为下的运维判断，不是来源站点的可用性承诺。
+

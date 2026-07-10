@@ -3,7 +3,7 @@ from __future__ import annotations
 import copy
 import re
 
-from pojo.improvement import ImprovementStage, ImprovementStageAlternative
+from service.improvement.model import ImprovementStage, ImprovementStageAlternative
 from service.akashi_list.akashi_list_utils import (
     extract_name_and_count,
     extract_weapon_name,

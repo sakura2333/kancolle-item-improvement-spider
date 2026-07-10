@@ -4,7 +4,7 @@ import copy
 import re
 from typing import Dict
 
-from pojo.improvement import ConsumeItem, ImprovementStage
+from service.improvement.model import ConsumeItem, ImprovementStage
 from service.akashi_list.akashi_list_utils import (
     extract_name_and_count,
     extract_weapon_name,
@@ -31,10 +31,56 @@ state_dic: Dict[str, tuple[int, int]] = {
 }
 
 
-def _download_useitem_image(consumable: ConsumeItem, png_url: str) -> None:
-    if int(consumable.type) != 1:
+def _image_url(node) -> str | None:
+    values = [*node.xpath(".//@data-src"), *node.xpath(".//@src")]
+    for value in values:
+        text = str(value)
+        if text and not text.startswith("data:"):
+            return text
+    return None
+
+
+def _is_equipment_260_image(png_url: str | None) -> bool:
+    return bool(png_url and re.search(r"(?:^|/)weapon\d+_260\.png(?:$|[?#])", str(png_url)))
+
+
+def _download_useitem_image(consumable: ConsumeItem, png_url: str | None) -> None:
+    """Download recipe asset images discovered in AkashiList detail pages.
+
+    Use-item icons are kept in the historical `cache/useitem` location.
+    Equipment assets are intentionally limited to AkashiList 260px primary
+    equipment art; small recipe equipment icons such as `weapon041.png` are
+    not saved.
+    """
+
+    if not png_url:
         return
-    download_pic(url=png_url, save_path=f"cache/images/{consumable.id}.png")
+    if int(consumable.type) == 1:
+        download_pic(url=png_url, save_path=f"cache/useitem/{consumable.id}.png")
+    elif int(consumable.type) == 0:
+        download_equipment_image(consumable.id, png_url)
+
+
+def download_equipment_image(equipment_id: int, png_url: str | None) -> None:
+    if not equipment_id or not _is_equipment_260_image(png_url):
+        return
+    download_pic(url=png_url, save_path=f"cache/equip/{int(equipment_id)}.png")
+
+
+def _detail_equipment_image_url(page_node) -> str | None:
+    values = page_node.xpath(
+        "(//div[contains(concat(' ', normalize-space(@class), ' '), ' detail-image ')]"
+        "//div[contains(concat(' ', normalize-space(@class), ' '), ' weapon-imgs ')]"
+        "//img[not(starts-with(@src, 'data:')) and contains(@src, '_260.png')]/@src"
+        " | //div[contains(concat(' ', normalize-space(@class), ' '), ' detail-image ')]"
+        "//div[contains(concat(' ', normalize-space(@class), ' '), ' weapon-imgs ')]"
+        "//img[not(starts-with(@data-src, 'data:')) and contains(@data-src, '_260.png')]/@data-src)[1]"
+    )
+    return str(values[0]) if values else None
+
+
+def download_detail_equipment_image(equipment_id: int, page_node) -> None:
+    download_equipment_image(equipment_id, _detail_equipment_image_url(page_node))
 
 
 def process_stage(processor, current_node):
@@ -80,6 +126,7 @@ def process_stage(processor, current_node):
             count=int(count_str),
             type=0
         ))
+        download_equipment_image(consumable_weapon_record.get("api_id"), _image_url(current_node))
 
     if stage_html_text == stage_zero:
         star_range=(0,5)
@@ -133,8 +180,7 @@ def process_stage(processor, current_node):
             require_record(consumable, "consumable", consumable_item_name)
             consumable.count = int(count_text)
 
-            png_url = (consumable_item_node[0].xpath('.//@data-src') or consumable_item_node[0].xpath('.//@src'))[0]
-            _download_useitem_image(consumable, png_url)
+            _download_useitem_image(consumable, _image_url(consumable_item_node[0]))
             stage.consumable_list.append(consumable)
             for improvement in processor.item.improvement_list:
                 improvement.stage_list.append(stage)
@@ -174,6 +220,7 @@ def process_upgrade(processor, current_node, kind=""):
         consumable = query_consumable(consumable_weapon_name)
         require_record(consumable, "upgrade consumable", consumable_weapon_name)
         consumable.count = consumable_weapon_count
+        _download_useitem_image(consumable, _image_url(consumable_weapon_title_node[0]))
 
         upgrade.consumable_list.append(consumable)
 
@@ -184,10 +231,9 @@ def process_upgrade(processor, current_node, kind=""):
             consumable_item_record = start2ConsumeUseUtils.find_by_name(consumable_item_name)
             consumable_item_record = require_record(consumable_item_record, "upgrade use item", consumable_item_name)
             consumable_item_id = consumable_item_record.get("api_id")
-            png_url = consumable_item.xpath('./@src')[0]
             consumable_item_count = int(consumable_item.xpath('following::figcaption[1]')[0].text.split(" ")[-1])
             useitem = ConsumeItem(id=consumable_item_id, count=consumable_item_count, type=1)
-            _download_useitem_image(useitem, png_url)
+            _download_useitem_image(useitem, _image_url(consumable_item))
             upgrade.consumable_list.append(useitem)
 
         current_node, _ = next_tr(current_node)
@@ -201,6 +247,7 @@ def process_upgrade(processor, current_node, kind=""):
         upgrade.target_weapon.name = str(
             upgrade_to_weapon_record.get("api_name") or upgrade_to_weapon_name
         )
+        download_equipment_image(upgrade.target_weapon.id, _image_url(upgrade_to_weapon_node.getparent()))
         improvement.stage_list.append(upgrade)
         return next_tr(current_node=current_node)[0]
 
