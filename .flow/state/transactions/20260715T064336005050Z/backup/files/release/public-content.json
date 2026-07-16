@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 4,
+  "projectId": "kancolle-item-improvement-spider",
+  "policy": "project-content-registry-public-snapshot",
+  "channels": [
+    "beta",
+    "stable"
+  ],
+  "categories": {
+    "runtime": [
+      "configs/**",
+      "service/**",
+      "util/**"
+    ],
+    "automation": [
+      "automation/**",
+      ".github/workflows/**"
+    ],
+    "packageTemplate": [
+      "packages/kancolle-data/**"
+    ],
+    "documentation": [
+      "LICENSE",
+      "README.md",
+      "RELEASE-NOTES.md",
+      "VERSION",
+      "pyproject.toml",
+      "uv.lock",
+      "docs/public/**",
+      "PUBLIC-CONTENT-MANIFEST.json",
+      ".gitignore"
+    ]
+  },
+  "reviewRetiredPublic": [
+    "STABLE-CONTENT-MANIFEST.json",
+    "data/**",
+    "pojo/**",
+    "requirements.txt"
+  ],
+  "required": [
+    "README.md",
+    "VERSION",
+    "pyproject.toml",
+    "uv.lock",
+    "docs/public/README.md",
+    "docs/public/DATA-SCHEMA.md",
+    "RELEASE-NOTES.md",
+    ".github/workflows/source-acquire.yml",
+    ".github/workflows/data-build.yml",
+    ".github/workflows/release.yml",
+    "automation/acquire/cli.py",
+    "automation/compute/cli.py",
+    "automation/release/cli.py",
+    "PUBLIC-CONTENT-MANIFEST.json",
+    ".gitignore"
+  ],
+  "internalOnly": [
+    "flow",
+    "flow.cmd",
+    ".flow/project.json",
+    ".flow/local.example.json",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "release/**",
+    "AGENTS.md",
+    "docs/internal/**"
+  ],
+  "forbidden": [
+    ".flow/**",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "docs/internal/**",
+    "release/**",
+    "AGENTS.md",
+    "data/**",
+    "log/**",
+    ".venv/**",
+    ".idea/**",
+    ".gpt/**",
+    "**/__pycache__/**",
+    "**/*.pyc"
+  ],
+  "summary": {
+    "builder": "script.project.release_summary:build"
+  },
+  "mainReleaseGateRoot": ".flow/state/main-release",
+  "candidateBranchPrefix": "public-candidate/",
+  "betaCandidateBranchPrefix": "public-beta/",
+  "contentManifest": {
+    "path": "PUBLIC-CONTENT-MANIFEST.json"
+  },
+  "generated": [
+    "RELEASE-NOTES.md",
+    "PUBLIC-CONTENT-MANIFEST.json",
+    ".gitignore"
+  ],
+  "releaseCheckProfile": "release",
+  "generatedState": [
+    "dist/data-pipeline/improvement/**",
+    "dist/data-pipeline/start2_data/**",
+    "dist/data-pipeline/assets/**",
+    "dist/data-pipeline/sources/**",
+    "dist/packages/kancolle-data/**"
+  ],
+  "publicForbiddenText": [
+    "./flow",
+    "script/project",
+    ".flow/",
+    "docs/internal",
+    "AGENTS.md",
+    "Flow Lite",
+    "tools/wikiwiki-crawler/migrate_existing_html.py",
+    "Migration ID",
+    "main-origin",
+    "Quick Receipt",
+    "Flow Receipt",
+    "workspaceRoot",
+    "downloadRoot",
+    "/Users/",
+    "sakana"
+  ],
+  "exceptionsFile": "release/public-exceptions.json",
+  "publicReviewText": [
+    "NPM_TOKEN",
+    "AI review",
+    "AI 审计"
+  ],
+  "publicGitignore": [
+    "# Project-controlled local and generated state",
+    ".venv/",
+    ".spider/local/",
+    "dist/",
+    "configs/local/",
+    "configs/*.local.*",
+    "configs/**/*.local.*",
+    "packages/kancolle-data/node_modules/",
+    "*.tgz",
+    "# Defensive private configuration patterns",
+    "configs/*.private.*",
+    "configs/**/*.private.*",
+    "configs/*.secret.*",
+    "configs/**/*.secret.*",
+    "configs/*cookie*",
+    "configs/**/*cookie*",
+    "configs/*session*",
+    "configs/**/*session*",
+    "configs/*token*",
+    "configs/**/*token*",
+    "# Ambient tool and platform noise",
+    "__pycache__/",
+    "*.py[cod]",
+    ".DS_Store"
+  ],
+  "topLevelManaged": [
+    ".flow",
+    ".github",
+    ".gitignore",
+    "AGENTS.md",
+    "LICENSE",
+    "README.md",
+    "RELEASE-NOTES.md",
+    "VERSION",
+    "automation",
+    "configs",
+    "docs",
+    "flow",
+    "flow.cmd",
+    "packages",
+    "pyproject.toml",
+    "release",
+    "script",
+    "service",
+    "tests",
+    "tools",
+    "util",
+    "uv.lock"
+  ],
+  "topLevelExternal": [
+    ".idea",
+    ".venv",
+    ".spider",
+    "data",
+    "dist",
+    "log",
+    ".DS_Store",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".coverage"
+  ],
+  "privateCategories": {
+    "internalControlPlane": [
+      "flow",
+      "flow.cmd",
+      ".flow/project.json",
+      ".flow/local.example.json",
+      "script/**",
+      "tests/**",
+      "tools/**",
+      "release/**"
+    ],
+    "internalDocumentation": [
+      "AGENTS.md",
+      "docs/internal/**"
+    ],
+    "localRuntimeState": [
+      ".flow/local",
+      ".flow/baseline.json",
+      ".flow/local.json",
+      ".flow/local/**",
+      ".spider/**",
+      "configs/*.local.*",
+      "configs/**/*.local.*"
+    ],
+    "releaseTransactionState": [
+      ".flow/state",
+      ".flow/state/**"
+    ],
+    "generatedOutput": [
+      "data/**",
+      "dist/**",
+      "log/**"
+    ],
+    "machineWorkspace": [
+      ".idea/**",
+      ".venv/**",
+      ".gpt/**",
+      "**/__pycache__/**",
+      "**/*.pyc",
+      "**/.DS_Store",
+      "**/node_modules/**",
+      "**/.pytest_cache/**",
+      "**/.mypy_cache/**",
+      "**/.ruff_cache/**",
+      "**/*.egg-info/**",
+      "**/.coverage",
+      "**/node_modules",
+      "**/.pytest_cache",
+      "**/.mypy_cache",
+      "**/.ruff_cache",
+      "**/*.egg-info"
+    ]
+  },
+  "transactionRoot": ".flow/state/release-transactions",
+  "privateOverrides": [
+    "localRuntimeState",
+    "releaseTransactionState",
+    "generatedOutput",
+    "machineWorkspace"
+  ]
+}

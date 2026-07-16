@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-b9d070d872fa",
+  "candidateCommit": "5f039bab56cd80b6a7c12f69bebc3f6062ac1963",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Approved immutable candidate after full release-chain review. Candidate archive SHA-256 43c1cea59e6638604b68e7e2eb8250954f91af8d8b7d1fb286134e2ff6d158f7, content SHA-256 e5f6456d0d4701dbe45d1e20efadc0cf82b6bfe5d42a419bfeda2c4024b8a706, Git tree 1d0a0b1453cb0f023036bca74295e1c8e1b70429, and all 158 file identities match the frozen manifest. The delta is limited to the canonical schema registry, producer imports, validator imports, and the public content manifest. equipmentSources schema version 2 is now shared by production and validation; the npm self-check and public schema documentation are covered by cross-component contract tests. Previous checkout and source-bundle artifact-layout fixes remain present. Workflow YAML parsing, Python compile/import checks, public-isolation scans, 31 GitHub Action pipeline tests, and 21 schema/quality/npm tests passed (one environment-dependent test skipped). No blocking issue was found. External GitHub Actions and npm interactions remain subject to the normal post-publish CI gate."
+}

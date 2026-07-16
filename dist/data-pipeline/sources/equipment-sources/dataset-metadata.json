@@ -1,0 +1,38 @@
+{
+  "source": "equipment-sources",
+  "schemaVersion": 2,
+  "equipmentRecordCount": 574,
+  "shipRelationCount": 1594,
+  "questRelationCount": 10,
+  "developmentAvailableCount": 105,
+  "developmentUnavailableCount": 469,
+  "developmentCrossValidation": {
+    "kcwikiAuthority": "_buildable matched by normalized Japanese name",
+    "wikiwikiEvidence": "current equipment infobox 備考 row",
+    "matchedCount": 571,
+    "wikiwikiMissingCount": 3,
+    "conflictCount": 0,
+    "diagnosticRecordCount": 574
+  },
+  "improvementRecordCount": 372,
+  "improvementRouteCount": 412,
+  "upgradeRelationCount": 207,
+  "acquisitionInputMode": "local-raw-cache",
+  "acquisitionStatus": "ok",
+  "acquisitionRecordCount": 571,
+  "acquisitionIssueCount": 923,
+  "incremental": {
+    "addedIds": [],
+    "changedIds": [],
+    "removedIds": [],
+    "unchangedCount": 574,
+    "changed": false,
+    "inputHashes": {
+      "improvementDetail": "dc61dc22c2327377d6069124b439aabf6ca4e8be17e33f477d4c962246fb1e21",
+      "wikiwikiAcquisition": "89c3ad8097e239efc9d7625edd284ef8db5b3283e350bb9639dcc5cef76ebe36",
+      "kcwikiShip": "bc6c3ca90b542fb11e02d43abaffc5e323f038a2382909cb174c87fe5f933db6",
+      "kcwikiEquipment": "f3cd7273f62c6377e2277c6213f64f56df2ac145ef853e06417e077f08e10303"
+    },
+    "projectionSha256": "504ed9416c75e756e7617539fc5967311429d941ddd48a76a3d60a8eb136ef0f"
+  }
+}

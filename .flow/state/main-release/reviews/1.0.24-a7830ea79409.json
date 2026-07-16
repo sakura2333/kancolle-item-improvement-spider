@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-a7830ea79409",
+  "candidateCommit": "663a92fc615c4c8495a585cd3bf28332f08a16fc",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Candidate archive SHA-256 9705f76082f2bcd4a6786b5c40f5f5ad03d401e055ac0776e8aa9d391b9df94f. The archive contains exactly 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json. The byte-level difference from the prior Stable Candidate is exactly the five files declared by the Review Delta: two automation workflows and three documentation/manifest files; runtime=0, automation=2, packageTemplate=0, documentation=3, retiredPublic=0, uncategorized=0. Both actions/upload-artifact@v4 steps now set include-hidden-files=true, preserving the Source Bundle .spider/** inventory and the Build Candidate .generated-state/** inventory. The source acquisition code copies only the intended source-cache, WikiWiki crawler state, and Start2 data into the frozen Source Bundle; the browser profile directory is not copied. No unsafe archive paths, duplicate entries, symlinks, worktree metadata, local absolute paths, credentials, private network addresses, or internal Flow control-plane references were found. Workflow YAML parsing and public Python compilation passed, and the public documentation accurately describes the hidden-file artifact contract."
+}

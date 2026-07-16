@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sakura2333/kancolle-item-improvement-spider/schemas/improvement-detail-v3.schema.json",
+  "title": "KanColle improvement detail record compatibility schema 3",
+  "type": "object",
+  "required": ["id", "name", "improvementList"],
+  "properties": {
+    "id": {"type": "integer", "minimum": 1},
+    "name": {"type": "string", "minLength": 1},
+    "improvementList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/route"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "consumable": {
+      "type": "object",
+      "required": ["id", "count", "type"],
+      "properties": {
+        "id": {"type": "integer"},
+        "count": {"type": "integer", "minimum": 0},
+        "type": {"enum": [0, 1]}
+      },
+      "additionalProperties": false
+    },
+    "targetWeapon": {
+      "type": "object",
+      "required": ["id", "level"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 0},
+        "level": {"type": "integer", "minimum": 0, "maximum": 10}
+      },
+      "additionalProperties": false
+    },
+    "stage": {
+      "type": "object",
+      "required": ["stageText", "industryResource", "targetWeapon", "consumables"],
+      "properties": {
+        "stageText": {"type": "string"},
+        "industryResource": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"type": "integer", "minimum": 0}
+        },
+        "targetWeapon": {"$ref": "#/$defs/targetWeapon"},
+        "consumables": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/consumable"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "shipWeek": {
+      "type": "object",
+      "required": ["id", "text", "week", "shipIdList", "anchorShipIds", "parseStatus"],
+      "properties": {
+        "id": {"type": "array", "items": {"type": "integer"}},
+        "text": {"type": "string"},
+        "week": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "items": {"type": "boolean"}
+        },
+        "shipIdList": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "anchorShipIds": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "parseStatus": {"type": "string"},
+        "idsComplete": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "assistantDay": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "array", "items": {"type": "integer", "minimum": 1}}
+      ]
+    },
+    "route": {
+      "type": "object",
+      "required": [
+        "baseResource",
+        "stageList",
+        "shipWeekList",
+        "assistantShipIdsByDay",
+        "routeId",
+        "routeType"
+      ],
+      "properties": {
+        "baseResource": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"type": "integer", "minimum": 0}
+        },
+        "stageList": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/stage"}
+        },
+        "shipWeekList": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/shipWeek"}
+        },
+        "assistantShipIdsByDay": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "items": {"$ref": "#/$defs/assistantDay"}
+        },
+        "routeId": {"type": "string", "minLength": 1},
+        "routeType": {"enum": ["default", "assistant-specific"]},
+        "routeExcludedShipIds": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1}
+        },
+        "routeShipIds": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1}
+        },
+        "routeSourceText": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

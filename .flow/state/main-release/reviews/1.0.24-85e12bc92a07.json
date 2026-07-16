@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-85e12bc92a07",
+  "candidateCommit": "0e239a67d63f70abc9af5fdf3c8ef9721c5b16af",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Approved the immutable candidate for releaseId 1.0.24-85e12bc92a07. Verified the 157-file candidate inventory and every manifest SHA-256/size entry; candidate archive SHA-256 73884001db480cb2e629c6655c07d8783d44d4d6609cab809de51e3ae2f2acb3 and content identity f95c0808fe2799e59576c3c339e0731b8c114161688fe506e8b06ed89acf7107 match the frozen release records. The public delta is fully classified (runtime 9, automation 7, packageTemplate 4, documentation 7, retiredPublic 1, uncategorized 0). No private keys, credentials, personal identifiers, local absolute paths, local host addresses, raw caches, or internal Flow state were found in the public candidate. JSON and GitHub Workflow YAML parse successfully; all 113 public Python files parse under Python 3.10 syntax; uv.lock matches pyproject.toml when checked against its declared PyPI index. README, package README, equipment sources schema v2, package exports, validation code, and release notes consistently expose required non-null boolean developmentAvailable and document the KCWiki authority/WikiWiki cross-validation boundary. Workflow changes remove mise while preserving explicit Python/uv setup, least-privilege read permissions for acquisition/build, and scoped write permission only for publication jobs. The RELEASE-NOTES data snapshot label 'equipment acquisition records: 247' maps to the existing equipmentDropFrom.recordCount metric in RELEASES.json; it is not the unified equipment-sources record count and is accepted as a non-blocking wording ambiguity for this release."
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-5a9466259a7a",
+  "state": "stable-published",
+  "updatedAt": "2026-07-13T16:05:07.834590+00:00",
+  "previousState": "stable-approved",
+  "mainCommit": "d222683f034468e118ad5decd05124e28106df73",
+  "candidateTree": "b9feb5aa07e160dde4cb08e2ec081776f97ba475"
+}

@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "counts": {
+    "runtime": 92,
+    "automation": 29,
+    "packageTemplate": 13,
+    "documentation": 19,
+    "uncategorized": 0
+  },
+  "files": [
+    {
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "category": "automation"
+    },
+    {
+      "path": ".github/workflows/source-acquire.yml",
+      "category": "automation"
+    },
+    {
+      "path": ".gitignore",
+      "category": "documentation"
+    },
+    {
+      "path": "LICENSE",
+      "category": "documentation"
+    },
+    {
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "category": "documentation"
+    },
+    {
+      "path": "VERSION",
+      "category": "documentation"
+    },
+    {
+      "path": "automation/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/cli.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/wikiwiki/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/wikiwiki/page_catalog.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/acquire/wikiwiki/raw_cache.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/common/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/common/bundle.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/common/process.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/compute/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/compute/cli.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/cli.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/__init__.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/artifact.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/common.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/config.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/exporter.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/manifest.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/repository.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/sync.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/generated_state/verifier.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/npm_publish.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/npm_registry.py",
+      "category": "automation"
+    },
+    {
+      "path": "automation/release/npm_release_set.py",
+      "category": "automation"
+    },
+    {
+      "path": "configs/README.md",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/config.py",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/data_quality.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/generated-state.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/path.py",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/source-policy.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/source-reliability.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/source-semantic-aliases.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/wikiwiki-acquisition-replacements.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/wikiwiki-crawler.default.json",
+      "category": "runtime"
+    },
+    {
+      "path": "configs/wikiwiki-page-name-aliases.json",
+      "category": "runtime"
+    },
+    {
+      "path": "docs/public/ARCHITECTURE.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/DATA-PACKAGE.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/DATA-SCHEMA.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/GENERATED-STATE.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/README.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/ROUTE-AUDIT.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/SOURCE-EVIDENCE.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/SOURCE-HISTORY.md",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/public/SOURCE-REFERENCES.md",
+      "category": "documentation"
+    },
+    {
+      "path": "mise.toml",
+      "category": "documentation"
+    },
+    {
+      "path": "packages/kancolle-data/CHANGELOG.md",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/LICENSES.md",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/README.md",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/RELEASES.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/index.d.ts",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/index.js",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/package.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-drop-from.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-sources.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-special-bonus.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/schemas/improvement-detail-v3.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/schemas/improvement-detail.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "packages/kancolle-data/scripts/check-fresh.js",
+      "category": "packageTemplate"
+    },
+    {
+      "path": "pyproject.toml",
+      "category": "documentation"
+    },
+    {
+      "path": "service/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/akashi_detail_processor.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/akashi_list_spider.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/akashi_list_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/daily_ship_parser.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/detail_recipe_parser.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/detail_stage_parser.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/improvement_expectation.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/akashi_list/ship_name_resolver.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/acquisition_references.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/builder.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/cli.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_acquisition.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_crawl.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_raw_parse.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_replacements.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_bonus.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_drop_from.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/equipment_sources.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/improvement_assistant_reverse.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/improvement_compat.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/improvement_record.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/manifest_builder.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/package_history.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/package_paths.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/projection.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/quality_gate.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/source_collection.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/assets.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/baseline.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/cli.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/common.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/constants.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/equipment.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/improvement.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/validation/snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/data_package/versioning.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/improvement/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/improvement/model.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/operator_stop.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/ai_review.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/common.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/compare.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/export.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/history.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/kcwiki_data.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/model.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/prompts/ai_review.md",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/reliability.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/runner.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/semantic_aliases.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/source_compare.py",
+      "category": "runtime"
+    },
+    {
+      "path": "service/source_validation/wikiwiki_jp.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/cache.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/export_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/html_table_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/audit.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/client.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/settings.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/storage.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/http_cache/transport.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/json_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/logger.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/lxml_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/site_workers.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/catalog.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/config.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/start2_item_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/start2_ship_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/start2_use_item_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/start2/start2_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "util/text_utils.py",
+      "category": "runtime"
+    },
+    {
+      "path": "uv.lock",
+      "category": "documentation"
+    }
+  ],
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  }
+}

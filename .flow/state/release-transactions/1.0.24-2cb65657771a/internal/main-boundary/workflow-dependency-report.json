@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "workflowCount": 3,
+  "workflows": [
+    {
+      "path": ".github/workflows/data-build.yml",
+      "pythonModules": [
+        "automation.compute.cli",
+        "automation.compute.source_resolver",
+        "automation.release.cli",
+        "automation.release.npm_publish",
+        "automation.release.npm_release_set",
+        "service.data_package.cli",
+        "service.data_package.validation.cli"
+      ],
+      "referencedPaths": [
+        "packages/kancolle-data/",
+        "packages/kancolle-data/package.json"
+      ],
+      "forbiddenTokens": []
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "pythonModules": [
+        "automation.release.cli",
+        "automation.release.npm_publish",
+        "automation.release.npm_release_set"
+      ],
+      "referencedPaths": [],
+      "forbiddenTokens": []
+    },
+    {
+      "path": ".github/workflows/source-acquire.yml",
+      "pythonModules": [
+        "automation.acquire.cli"
+      ],
+      "referencedPaths": [],
+      "forbiddenTokens": []
+    }
+  ]
+}

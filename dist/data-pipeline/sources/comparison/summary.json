@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-15T12:07:30+00:00",
+  "baseline": "akashi-list",
+  "sources": [
+    {
+      "source": "wikiwiki-jp",
+      "status": "ok",
+      "baselineScheduleCount": 1645,
+      "candidateScheduleCount": 1692,
+      "comparableScheduleCount": 1627,
+      "matchCount": 1550,
+      "weekdayMismatchCount": 77,
+      "missingInCandidateCount": 18,
+      "extraInCandidateCount": 65,
+      "candidateIssueCount": 0,
+      "supportedCapabilities": [
+        "improve"
+      ],
+      "ignoredUnsupportedCapabilityCount": 990,
+      "agreementRate": 0.952674
+    },
+    {
+      "source": "kcwiki-data",
+      "status": "ok",
+      "baselineScheduleCount": 1645,
+      "candidateScheduleCount": 705,
+      "comparableScheduleCount": 701,
+      "matchCount": 593,
+      "weekdayMismatchCount": 108,
+      "missingInCandidateCount": 944,
+      "extraInCandidateCount": 4,
+      "candidateIssueCount": 0,
+      "supportedCapabilities": [
+        "improve"
+      ],
+      "ignoredUnsupportedCapabilityCount": 990,
+      "agreementRate": 0.845934
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 3,
+  "policy": "deny-by-default-public-isolation",
+  "scannedTextFiles": 154,
+  "forbiddenTokens": [
+    "./flow",
+    "script/project",
+    ".flow/",
+    "docs/internal",
+    "AGENTS.md",
+    "Flow Lite",
+    "tools/wikiwiki-crawler/migrate_existing_html.py",
+    "Migration ID",
+    "main-origin",
+    "Quick Receipt",
+    "Flow Receipt",
+    "workspaceRoot",
+    "downloadRoot",
+    "/Users/",
+    "sakana"
+  ],
+  "reviewTokens": [
+    "NPM_TOKEN",
+    "AI review",
+    "AI 审计"
+  ],
+  "moduleReferenceCount": 23,
+  "pathReferenceCount": 37,
+  "findingCount": 0,
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "e11a94921b70e626cc931f3f3b20b4d20779369d2ddfa5a3a56be65f49f5b993",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  },
+  "exceptionDetails": [
+    {
+      "id": "github-secret-name-npm-token",
+      "category": "public-automation-contract",
+      "owner": "automation/release",
+      "review": "mechanical-and-ai",
+      "expires": null,
+      "reviewFiles": []
+    },
+    {
+      "id": "source-validation-ai-review-feature",
+      "category": "public-runtime-feature",
+      "owner": "service/source_validation",
+      "review": "mechanical-and-ai",
+      "expires": null,
+      "reviewFiles": [
+        {
+          "path": "service/source_validation/prompts/ai_review.md",
+          "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32"
+        }
+      ]
+    }
+  ],
+  "publicCheckout": {
+    "schemaVersion": 1,
+    "policy": "fresh-public-checkout-clean",
+    "generatedProbeCount": 7,
+    "dirtyPathCount": 0
+  }
+}

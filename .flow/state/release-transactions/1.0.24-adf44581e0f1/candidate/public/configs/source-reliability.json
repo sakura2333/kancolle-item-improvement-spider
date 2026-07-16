@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "mode": "advisory-relative-consistency",
+  "currentSignals": {
+    "pairwiseAgreement": 0.65,
+    "peerConsensusAgreement": 0.35
+  },
+  "historyContribution": 0.2,
+  "minimumHistoricalEvaluableChanges": 5,
+  "relativeWeightRange": [
+    0.75,
+    1.25
+  ],
+  "minimumPairwiseEvidenceForFullConfidence": 500,
+  "minimumPeerConsensusEvidenceForFullConfidence": 200,
+  "minimumHistoricalEvidenceForFullConfidence": 20,
+  "applyToCanonicalElection": false
+}

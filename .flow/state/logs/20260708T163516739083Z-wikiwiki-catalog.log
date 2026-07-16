@@ -1,0 +1,6 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider catalog --kind all
+ERROR: WikiWiki equipment 目录无法生成：FileNotFoundError: [Errno 2] No such file or directory: '/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/data/start2_data/api_mst_slotitem.json'
+stopReason: wikiwiki-catalog-invalid
+人工处理: 检查目录原始页面、名称别名和解析规则后重试。
+可继续断点: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog
+details: {"kind": "equipment", "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7"}

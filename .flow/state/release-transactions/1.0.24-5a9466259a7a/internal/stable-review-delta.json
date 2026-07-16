@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "d222683f034468e118ad5decd05124e28106df73",
+  "counts": {
+    "runtime": 0,
+    "automation": 1,
+    "packageTemplate": 0,
+    "documentation": 2,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/npm_registry.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    }
+  ]
+}

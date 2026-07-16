@@ -1,0 +1,591 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+[32m2026-07-09 22:31:37,411 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon019_260.png -> cache/equipment-images/19.png (200)[0m
+[32m2026-07-09 22:31:38,313 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon037.png -> cache/equipment-images/37.png (200)[0m
+[32m2026-07-09 22:31:39,045 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon228.png -> cache/equipment-images/228.png (200)[0m
+[akashi] id=w019 status=saved
+[32m2026-07-09 22:31:43,268 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon020.png -> cache/equipment-images/20.png (200)[0m
+[akashi] id=w228 status=saved
+[32m2026-07-09 22:31:46,379 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon249_260.png -> cache/equipment-images/249.png (200)[0m
+[32m2026-07-09 22:31:54,732 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon250.png -> cache/equipment-images/250.png (200)[0m
+[32m2026-07-09 22:31:55,560 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon242.png -> cache/equipment-images/242.png (200)[0m
+[32m2026-07-09 22:31:57,409 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon423.png -> cache/equipment-images/423.png (200)[0m
+[akashi] id=w249 status=saved
+[32m2026-07-09 22:32:00,835 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon197_260.png -> cache/equipment-images/197.png (200)[0m
+[32m2026-07-09 22:32:02,847 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon038.png -> cache/equipment-images/38.png (200)[0m
+[32m2026-07-09 22:32:04,187 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon198.png -> cache/equipment-images/198.png (200)[0m
+[akashi] id=w197 status=saved
+[32m2026-07-09 22:32:05,574 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon181.png -> cache/equipment-images/181.png (200)[0m
+[akashi] id=w020 status=saved
+[32m2026-07-09 22:32:08,262 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon021.png -> cache/equipment-images/21.png (200)[0m
+[akashi] id=w181 status=saved
+[32m2026-07-09 22:32:09,332 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon205.png -> cache/equipment-images/205.png (200)[0m
+[akashi] id=w198 status=saved
+[32m2026-07-09 22:32:11,865 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon023.png -> cache/equipment-images/23.png (200)[0m
+[32m2026-07-09 22:32:14,038 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon060.png -> cache/equipment-images/60.png (200)[0m
+[akashi] id=w021 status=saved
+[32m2026-07-09 22:32:16,603 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon184_260.png -> cache/equipment-images/184.png (200)[0m
+[32m2026-07-09 22:32:18,441 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon316.png -> cache/equipment-images/316.png (200)[0m
+[akashi] id=w184 status=saved
+[32m2026-07-09 22:32:21,730 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon055.png -> cache/equipment-images/55.png (200)[0m
+[32m2026-07-09 22:32:23,293 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon206.png -> cache/equipment-images/206.png (200)[0m
+[akashi] id=w205 status=saved
+[32m2026-07-09 22:32:27,376 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon182_260.png -> cache/equipment-images/182.png (200)[0m
+[32m2026-07-09 22:32:32,433 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon152.png -> cache/equipment-images/152.png (200)[0m
+[akashi] id=w182 status=saved
+[32m2026-07-09 22:32:39,260 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon096_260.png -> cache/equipment-images/96.png (200)[0m
+[akashi] id=w096 status=saved
+[32m2026-07-09 22:32:41,839 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon158_260.png -> cache/equipment-images/158.png (200)[0m
+[32m2026-07-09 22:32:49,869 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon176.png -> cache/equipment-images/176.png (200)[0m
+[32m2026-07-09 22:32:55,799 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon560.png -> cache/equipment-images/560.png (200)[0m
+[akashi] id=w158 status=saved
+[32m2026-07-09 22:33:00,002 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon109_260.png -> cache/equipment-images/109.png (200)[0m
+[32m2026-07-09 22:33:04,810 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon017.png -> cache/equipment-images/17.png (200)[0m
+[akashi] id=w109 status=saved
+[akashi] id=w152 status=saved
+[32m2026-07-09 22:33:10,182 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon486_260.png -> cache/equipment-images/486.png (200)[0m
+[32m2026-07-09 22:33:14,730 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon022.png -> cache/equipment-images/22.png (200)[0m
+[32m2026-07-09 22:33:16,378 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon487.png -> cache/equipment-images/487.png (200)[0m
+[akashi] id=w486 status=saved
+[32m2026-07-09 22:33:19,917 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon153_260.png -> cache/equipment-images/153.png (200)[0m
+[akashi] id=w153 status=saved
+[32m2026-07-09 22:33:25,750 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon271.png -> cache/equipment-images/271.png (200)[0m
+[akashi] id=w055 status=saved
+[32m2026-07-09 22:33:31,187 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon252_260.png -> cache/equipment-images/252.png (200)[0m
+[akashi] id=w252 status=saved
+[32m2026-07-09 22:33:38,122 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon473_260.png -> cache/equipment-images/473.png (200)[0m
+[32m2026-07-09 22:33:41,159 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon420.png -> cache/equipment-images/420.png (200)[0m
+[32m2026-07-09 22:33:52,654 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon474.png -> cache/equipment-images/474.png (200)[0m
+[akashi] id=w473 status=saved
+[32m2026-07-09 22:33:56,800 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon053.png -> cache/equipment-images/53.png (200)[0m
+[akashi] id=w022 status=saved
+[32m2026-07-09 22:34:01,641 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon492_260.png -> cache/equipment-images/492.png (200)[0m
+[akashi] id=w492 status=saved
+[akashi] id=w271 status=saved
+[akashi] id=w206 status=saved
+[32m2026-07-09 22:34:09,198 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon110_260.png -> cache/equipment-images/110.png (200)[0m
+[akashi] id=w110 status=saved
+[32m2026-07-09 22:34:12,894 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon156_260.png -> cache/equipment-images/156.png (200)[0m
+[akashi] id=w156 status=saved
+[32m2026-07-09 22:34:18,654 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon189_260.png -> cache/equipment-images/189.png (200)[0m
+[akashi] id=w189 status=saved
+[32m2026-07-09 22:34:25,592 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon422_260.png -> cache/equipment-images/422.png (200)[0m
+[akashi] id=w422 status=saved
+[akashi] id=w053 status=saved
+[32m2026-07-09 22:34:32,158 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon157_260.png -> cache/equipment-images/157.png (200)[0m
+[akashi] id=w157 status=saved
+[32m2026-07-09 22:34:36,320 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon547_260.png -> cache/equipment-images/547.png (200)[0m
+[akashi] id=w547 status=saved
+[32m2026-07-09 22:34:39,396 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon277_260.png -> cache/equipment-images/277.png (200)[0m
+[32m2026-07-09 22:34:43,646 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon233.png -> cache/equipment-images/233.png (200)[0m
+[akashi] id=w277 status=saved
+[32m2026-07-09 22:34:48,056 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon447_260.png -> cache/equipment-images/447.png (200)[0m
+[32m2026-07-09 22:34:49,180 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon219.png -> cache/equipment-images/219.png (200)[0m
+[akashi] id=w447 status=saved
+[32m2026-07-09 22:34:53,241 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon248_260.png -> cache/equipment-images/248.png (200)[0m
+[akashi] id=w248 status=saved
+[32m2026-07-09 22:34:56,386 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon024.png -> cache/equipment-images/24.png (200)[0m
+[akashi] id=w060 status=saved
+[32m2026-07-09 22:35:03,367 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon154_260.png -> cache/equipment-images/154.png (200)[0m
+[akashi] id=w154 status=saved
+[32m2026-07-09 22:35:07,793 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon550_260.png -> cache/equipment-images/550.png (200)[0m
+[32m2026-07-09 22:35:19,660 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon551.png -> cache/equipment-images/551.png (200)[0m
+[akashi] id=w550 status=saved
+[32m2026-07-09 22:35:22,369 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon025.png -> cache/equipment-images/25.png (200)[0m
+[32m2026-07-09 22:35:27,635 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon391.png -> cache/equipment-images/391.png (200)[0m
+[akashi] id=w023 status=saved
+[33m2026-07-09 22:35:32,669 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon324.png attempt=1/4 delay=1.07s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon324.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:35:38,614 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon324.png -> cache/equipment-images/324.png (200)[0m
+[32m2026-07-09 22:35:55,812 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon552.png -> cache/equipment-images/552.png (200)[0m
+[akashi] id=w551 status=saved
+[akashi] id=w219 status=saved
+[32m2026-07-09 22:36:00,449 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon057.png -> cache/equipment-images/57.png (200)[0m
+[32m2026-07-09 22:36:05,353 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon251.png -> cache/equipment-images/251.png (200)[0m
+[akashi] id=w316 status=saved
+[akashi] id=w487 status=saved
+[32m2026-07-09 22:36:21,019 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon195_260.png -> cache/equipment-images/195.png (200)[0m
+[32m2026-07-09 22:36:40,739 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon419.png -> cache/equipment-images/419.png (200)[0m
+[akashi] id=w195 status=saved
+[32m2026-07-09 22:36:49,237 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon097.png -> cache/equipment-images/97.png (200)[0m
+[32m2026-07-09 22:37:06,145 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon392.png -> cache/equipment-images/392.png (200)[0m
+[akashi] id=w391 status=saved
+[33m2026-07-09 22:37:11,171 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon052.png attempt=1/4 delay=1.06s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon052.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 22:37:17,248 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon052.png attempt=2/4 delay=2.16s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon052.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 22:37:24,416 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon052.png attempt=3/4 delay=4.08s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon052.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:37:31,883 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon052.png -> cache/equipment-images/52.png (200)[0m
+[akashi] id=w474 status=saved
+[akashi] id=w552 status=saved
+[32m2026-07-09 22:37:37,547 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon541_260.png -> cache/equipment-images/541.png (200)[0m
+[32m2026-07-09 22:37:43,109 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon544.png -> cache/equipment-images/544.png (200)[0m
+[akashi] id=w541 status=saved
+[akashi] id=w419 status=saved
+[akashi] id=w233 status=saved
+[akashi] id=w024 status=saved
+[33m2026-07-09 22:37:48,213 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon026.png attempt=1/4 delay=1.20s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon026.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 22:37:54,433 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon026.png attempt=2/4 delay=2.20s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon026.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:38:00,270 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon026.png -> cache/equipment-images/26.png (200)[0m
+[akashi] id=w392 status=saved
+[akashi] id=w544 status=saved
+[32m2026-07-09 22:38:05,673 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon064_260.png -> cache/equipment-images/64.png (200)[0m
+[32m2026-07-09 22:38:21,204 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon559.png -> cache/equipment-images/559.png (200)[0m
+[akashi] id=w064 status=saved
+[32m2026-07-09 22:38:24,716 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon320.png -> cache/equipment-images/320.png (200)[0m
+[akashi] id=w057 status=saved
+[32m2026-07-09 22:38:28,722 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon099_260.png -> cache/equipment-images/99.png (200)[0m
+[32m2026-07-09 22:38:34,147 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon100.png -> cache/equipment-images/100.png (200)[0m
+[akashi] id=w099 status=saved
+[32m2026-07-09 22:38:39,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon018.png -> cache/equipment-images/18.png (200)[0m
+[32m2026-07-09 22:38:42,016 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon421.png -> cache/equipment-images/421.png (200)[0m
+[akashi] id=w420 status=saved
+[akashi] id=w421 status=saved
+[32m2026-07-09 22:38:45,502 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon016.png -> cache/equipment-images/16.png (200)[0m
+[32m2026-07-09 22:38:54,074 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon243.png -> cache/equipment-images/243.png (200)[0m
+[akashi] id=w242 status=saved
+[32m2026-07-09 22:38:59,953 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon098.png -> cache/equipment-images/98.png (200)[0m
+[32m2026-07-09 22:39:02,280 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon106.png -> cache/equipment-images/106.png (200)[0m
+[32m2026-07-09 22:39:08,846 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon082.png -> cache/equipment-images/82.png (200)[0m
+[akashi] id=w016 status=saved
+[32m2026-07-09 22:39:15,293 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon196_260.png -> cache/equipment-images/196.png (200)[0m
+[32m2026-07-09 22:39:19,843 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon256.png -> cache/equipment-images/256.png (200)[0m
+[akashi] id=w196 status=saved
+[akashi] id=w243 status=saved
+[32m2026-07-09 22:39:28,350 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon344.png -> cache/equipment-images/344.png (200)[0m
+[akashi] id=w082 status=saved
+[32m2026-07-09 22:39:33,736 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon425_260.png -> cache/equipment-images/425.png (200)[0m
+[akashi] id=w425 status=saved
+[32m2026-07-09 22:39:37,824 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon542_260.png -> cache/equipment-images/542.png (200)[0m
+[akashi] id=w542 status=saved
+[32m2026-07-09 22:39:46,127 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon372.png -> cache/equipment-images/372.png (200)[0m
+[akashi] id=w017 status=saved
+[32m2026-07-09 22:39:49,785 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon424_260.png -> cache/equipment-images/424.png (200)[0m
+[akashi] id=w424 status=saved
+[32m2026-07-09 22:39:52,193 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon373.png -> cache/equipment-images/373.png (200)[0m
+[akashi] id=w344 status=saved
+[32m2026-07-09 22:40:04,953 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon345.png -> cache/equipment-images/345.png (200)[0m
+[akashi] id=w098 status=saved
+[akashi] id=w372 status=saved
+[akashi] id=w256 status=saved
+[akashi] id=w018 status=saved
+[32m2026-07-09 22:40:08,338 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon093_260.png -> cache/equipment-images/93.png (200)[0m
+[32m2026-07-09 22:40:12,153 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon094.png -> cache/equipment-images/94.png (200)[0m
+[akashi] id=w093 status=saved
+[32m2026-07-09 22:40:17,280 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon466.png -> cache/equipment-images/466.png (200)[0m
+[akashi] id=w052 status=saved
+[33m2026-07-09 22:40:22,317 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon570.png attempt=1/4 delay=1.09s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon570.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:40:26,813 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon570.png -> cache/equipment-images/570.png (200)[0m
+[akashi] id=w094 status=saved
+[akashi] id=w570 status=saved
+[akashi] id=w423 status=saved
+[32m2026-07-09 22:40:28,785 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon543_260.png -> cache/equipment-images/543.png (200)[0m
+[32m2026-07-09 22:40:34,875 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon054.png -> cache/equipment-images/54.png (200)[0m
+[akashi] id=w543 status=saved
+[32m2026-07-09 22:40:40,364 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon061_260.png -> cache/equipment-images/61.png (200)[0m
+[akashi] id=w061 status=saved
+[32m2026-07-09 22:40:46,184 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon151_260.png -> cache/equipment-images/151.png (200)[0m
+[32m2026-07-09 22:40:51,553 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon199.png -> cache/equipment-images/199.png (200)[0m
+[akashi] id=w151 status=saved
+[32m2026-07-09 22:40:54,477 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon001_260.png -> cache/equipment-images/1.png (200)[0m
+[32m2026-07-09 22:40:58,513 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon028.png -> cache/equipment-images/28.png (200)[0m
+[32m2026-07-09 22:41:01,292 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon293.png -> cache/equipment-images/293.png (200)[0m
+[akashi] id=w001 status=saved
+[akashi] id=w293 status=saved
+[32m2026-07-09 22:41:05,007 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon078_260.png -> cache/equipment-images/78.png (200)[0m
+[32m2026-07-09 22:41:15,973 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon002.png -> cache/equipment-images/2.png (200)[0m
+[akashi] id=w078 status=saved
+[32m2026-07-09 22:41:20,034 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon297_260.png -> cache/equipment-images/297.png (200)[0m
+[32m2026-07-09 22:41:23,838 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon294.png -> cache/equipment-images/294.png (200)[0m
+[akashi] id=w297 status=saved
+[32m2026-07-09 22:41:29,363 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon063.png -> cache/equipment-images/63.png (200)[0m
+[akashi] id=w002 status=saved
+[33m2026-07-09 22:41:34,384 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon003.png attempt=1/4 delay=1.25s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon003.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:41:39,567 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon003.png -> cache/equipment-images/3.png (200)[0m
+[32m2026-07-09 22:41:44,161 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon455.png -> cache/equipment-images/455.png (200)[0m
+[33m2026-07-09 22:41:49,184 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon121.png attempt=1/4 delay=1.10s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon121.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 22:41:55,298 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon121.png attempt=2/4 delay=2.16s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon121.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:42:01,603 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon121.png -> cache/equipment-images/121.png (200)[0m
+[32m2026-07-09 22:42:07,613 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon295.png -> cache/equipment-images/295.png (200)[0m
+[akashi] id=w294 status=saved
+[32m2026-07-09 22:42:18,921 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon266.png -> cache/equipment-images/266.png (200)[0m
+[akashi] id=w063 status=saved
+[33m2026-07-09 22:42:23,936 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon147_260.png attempt=1/4 delay=1.11s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon147_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:42:29,793 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon147_260.png -> cache/equipment-images/147.png (200)[0m
+[32m2026-07-09 22:42:36,746 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon393.png -> cache/equipment-images/393.png (200)[0m
+[akashi] id=w147 status=saved
+[32m2026-07-09 22:42:55,332 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon267.png -> cache/equipment-images/267.png (200)[0m
+[32m2026-07-09 22:42:59,022 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon045.png -> cache/equipment-images/45.png (200)[0m
+[32m2026-07-09 22:43:03,010 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon470.png -> cache/equipment-images/470.png (200)[0m
+[akashi] id=w266 status=saved
+[32m2026-07-09 22:43:13,437 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon394.png -> cache/equipment-images/394.png (200)[0m
+[akashi] id=w393 status=saved
+[akashi] id=w394 status=saved
+[32m2026-07-09 22:43:13,462 [INFO] [service.akashi_list.akashi_list_utils] [route] conditional stage recipe: 10cm連装高角砲 × 2二番艦：玉波改二限定12.7cm連装高角砲 × 3[0m
+[akashi] id=w267 status=saved
+[32m2026-07-09 22:43:15,118 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon040.png -> cache/equipment-images/40.png (200)[0m
+[32m2026-07-09 22:43:19,187 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon529.png -> cache/equipment-images/529.png (200)[0m
+[akashi] id=w470 status=saved
+[32m2026-07-09 22:43:26,696 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon280_260.png -> cache/equipment-images/280.png (200)[0m
+[akashi] id=w280 status=saved
+[akashi] id=w529 status=saved
+[32m2026-07-09 22:43:35,174 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon534_260.png -> cache/equipment-images/534.png (200)[0m
+[32m2026-07-09 22:43:41,863 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon004.png -> cache/equipment-images/4.png (200)[0m
+[32m2026-07-09 22:43:45,454 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon535.png -> cache/equipment-images/535.png (200)[0m
+[akashi] id=w534 status=saved
+[32m2026-07-09 22:43:53,032 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon282_260.png -> cache/equipment-images/282.png (200)[0m
+[akashi] id=w282 status=saved
+[akashi] id=w455 status=saved
+[akashi] id=w535 status=saved
+[32m2026-07-09 22:43:57,456 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon382_260.png -> cache/equipment-images/382.png (200)[0m
+[32m2026-07-09 22:44:01,679 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon509.png -> cache/equipment-images/509.png (200)[0m
+[akashi] id=w382 status=saved
+[akashi] id=w509 status=saved
+[32m2026-07-09 22:44:04,067 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon229_260.png -> cache/equipment-images/229.png (200)[0m
+[32m2026-07-09 22:44:08,243 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon553.png -> cache/equipment-images/553.png (200)[0m
+[32m2026-07-09 22:44:11,730 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon379.png -> cache/equipment-images/379.png (200)[0m
+[akashi] id=w229 status=saved
+[32m2026-07-09 22:44:15,709 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon091.png -> cache/equipment-images/91.png (200)[0m
+[32m2026-07-09 22:44:22,938 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon572.png -> cache/equipment-images/572.png (200)[0m
+[akashi] id=w379 status=saved
+[32m2026-07-09 22:44:26,809 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon010.png -> cache/equipment-images/10.png (200)[0m
+[32m2026-07-09 22:44:32,577 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon380.png -> cache/equipment-images/380.png (200)[0m
+[akashi] id=w091 status=saved
+[32m2026-07-09 22:44:37,819 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon284_260.png -> cache/equipment-images/284.png (200)[0m
+[32m2026-07-09 22:44:39,648 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon313.png -> cache/equipment-images/313.png (200)[0m
+[akashi] id=w284 status=saved
+[32m2026-07-09 22:44:44,699 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon122.png -> cache/equipment-images/122.png (200)[0m
+[akashi] id=w003 status=saved
+[32m2026-07-09 22:44:50,069 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon533.png -> cache/equipment-images/533.png (200)[0m
+[akashi] id=w553 status=saved
+[akashi] id=w295 status=saved
+[32m2026-07-09 22:44:57,305 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon398_260.png -> cache/equipment-images/398.png (200)[0m
+[akashi] id=w398 status=saved
+[32m2026-07-09 22:44:59,612 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon397_260.png -> cache/equipment-images/397.png (200)[0m
+[akashi] id=w397 status=saved
+[akashi] id=w572 status=saved
+[32m2026-07-09 22:45:03,262 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon307.png -> cache/equipment-images/307.png (200)[0m
+[32m2026-07-09 22:45:06,471 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon308.png -> cache/equipment-images/308.png (200)[0m
+[akashi] id=w313 status=saved
+[32m2026-07-09 22:45:07,947 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon296_260.png -> cache/equipment-images/296.png (200)[0m
+[akashi] id=w296 status=saved
+[akashi] id=w122 status=saved
+[akashi] id=w533 status=saved
+[32m2026-07-09 22:45:09,275 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon119.png -> cache/equipment-images/119.png (200)[0m
+[akashi] id=w004 status=saved
+[32m2026-07-09 22:45:11,608 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon139.png -> cache/equipment-images/139.png (200)[0m
+[32m2026-07-09 22:45:17,044 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon310.png -> cache/equipment-images/310.png (200)[0m
+[akashi] id=w119 status=saved
+[32m2026-07-09 22:45:23,514 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon518.png -> cache/equipment-images/518.png (200)[0m
+[akashi] id=w310 status=saved
+[32m2026-07-09 22:45:29,443 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon065_260.png -> cache/equipment-images/65.png (200)[0m
+[akashi] id=w065 status=saved
+[32m2026-07-09 22:45:45,762 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon303_260.png -> cache/equipment-images/303.png (200)[0m
+[32m2026-07-09 22:45:47,697 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon011.png -> cache/equipment-images/11.png (200)[0m
+[akashi] id=w303 status=saved
+[akashi] id=w518 status=saved
+[32m2026-07-09 22:45:50,814 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon564_260.png -> cache/equipment-images/564.png (200)[0m
+[32m2026-07-09 22:45:55,426 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon006.png -> cache/equipment-images/6.png (200)[0m
+[akashi] id=w564 status=saved
+[32m2026-07-09 22:46:03,880 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon088.png -> cache/equipment-images/88.png (200)[0m
+[32m2026-07-09 22:46:06,596 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon407.png -> cache/equipment-images/407.png (200)[0m
+[akashi] id=w139 status=saved
+[akashi] id=w407 status=saved
+[32m2026-07-09 22:46:11,144 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon005_260.png -> cache/equipment-images/5.png (200)[0m
+[32m2026-07-09 22:46:15,459 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon235.png -> cache/equipment-images/235.png (200)[0m
+[akashi] id=w005 status=saved
+[32m2026-07-09 22:46:18,103 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon536_260.png -> cache/equipment-images/536.png (200)[0m
+[32m2026-07-09 22:46:21,302 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon537.png -> cache/equipment-images/537.png (200)[0m
+[akashi] id=w536 status=saved
+[32m2026-07-09 22:46:27,443 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon386_260.png -> cache/equipment-images/386.png (200)[0m
+[32m2026-07-09 22:46:31,728 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon387.png -> cache/equipment-images/387.png (200)[0m
+[akashi] id=w386 status=saved
+[33m2026-07-09 22:46:36,742 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon399_260.png attempt=1/4 delay=1.13s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon399_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:46:40,411 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon399_260.png -> cache/equipment-images/399.png (200)[0m
+[akashi] id=w399 status=saved
+[32m2026-07-09 22:46:47,150 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon012.png -> cache/equipment-images/12.png (200)[0m
+[33m2026-07-09 22:46:52,172 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon234.png attempt=1/4 delay=1.22s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon234.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:47:04,441 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon234.png -> cache/equipment-images/234.png (200)[0m
+[akashi] id=w235 status=saved
+[32m2026-07-09 22:47:08,137 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon090.png -> cache/equipment-images/90.png (200)[0m
+[akashi] id=w006 status=saved
+[32m2026-07-09 22:47:10,024 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon340_260.png -> cache/equipment-images/340.png (200)[0m
+[32m2026-07-09 22:47:13,268 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon341.png -> cache/equipment-images/341.png (200)[0m
+[akashi] id=w340 status=saved
+[akashi] id=w537 status=saved
+[akashi] id=w387 status=saved
+[32m2026-07-09 22:47:16,927 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon050.png -> cache/equipment-images/50.png (200)[0m
+[akashi] id=w090 status=saved
+[32m2026-07-09 22:47:19,826 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon555_260.png -> cache/equipment-images/555.png (200)[0m
+[akashi] id=w555 status=saved
+[akashi] id=w341 status=saved
+[32m2026-07-09 22:47:23,180 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon520.png -> cache/equipment-images/520.png (200)[0m
+[akashi] id=w050 status=saved
+[32m2026-07-09 22:47:27,859 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon123_260.png -> cache/equipment-images/123.png (200)[0m
+[akashi] id=w123 status=saved
+[akashi] id=w520 status=saved
+[32m2026-07-09 22:47:35,035 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon162_260.png -> cache/equipment-images/162.png (200)[0m
+[akashi] id=w162 status=saved
+[32m2026-07-09 22:47:40,166 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon356_260.png -> cache/equipment-images/356.png (200)[0m
+[32m2026-07-09 22:47:41,566 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon357.png -> cache/equipment-images/357.png (200)[0m
+[akashi] id=w356 status=saved
+[akashi] id=w357 status=saved
+[32m2026-07-09 22:47:46,038 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon426_260.png -> cache/equipment-images/426.png (200)[0m
+[32m2026-07-09 22:47:48,672 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon007.png -> cache/equipment-images/7.png (200)[0m
+[33m2026-07-09 22:47:53,696 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon428.png attempt=1/4 delay=1.17s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon428.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:48:02,206 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon428.png -> cache/equipment-images/428.png (200)[0m
+[akashi] id=w426 status=saved
+[32m2026-07-09 22:48:08,144 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon427_260.png -> cache/equipment-images/427.png (200)[0m
+[32m2026-07-09 22:48:10,264 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon429.png -> cache/equipment-images/429.png (200)[0m
+[akashi] id=w427 status=saved
+[32m2026-07-09 22:48:12,271 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon103.png -> cache/equipment-images/103.png (200)[0m
+[akashi] id=w007 status=saved
+[akashi] id=w428 status=saved
+[32m2026-07-09 22:48:13,535 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon104_260.png -> cache/equipment-images/104.png (200)[0m
+[32m2026-07-09 22:48:22,741 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon289.png -> cache/equipment-images/289.png (200)[0m
+[akashi] id=w104 status=saved
+[32m2026-07-09 22:48:24,130 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon076_260.png -> cache/equipment-images/76.png (200)[0m
+[32m2026-07-09 22:48:26,712 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon008.png -> cache/equipment-images/8.png (200)[0m
+[32m2026-07-09 22:48:29,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon114.png -> cache/equipment-images/114.png (200)[0m
+[akashi] id=w076 status=saved
+[32m2026-07-09 22:48:31,368 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon231_260.png -> cache/equipment-images/231.png (200)[0m
+[32m2026-07-09 22:48:36,123 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon232.png -> cache/equipment-images/232.png (200)[0m
+[akashi] id=w231 status=saved
+[32m2026-07-09 22:48:39,358 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon507_260.png -> cache/equipment-images/507.png (200)[0m
+[akashi] id=w507 status=saved
+[akashi] id=w429 status=saved
+[32m2026-07-09 22:48:41,815 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon328_260.png -> cache/equipment-images/328.png (200)[0m
+[32m2026-07-09 22:48:44,124 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon329.png -> cache/equipment-images/329.png (200)[0m
+[akashi] id=w328 status=saved
+[akashi] id=w114 status=saved
+[32m2026-07-09 22:48:45,343 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon009.png -> cache/equipment-images/9.png (200)[0m
+[akashi] id=w232 status=saved
+[akashi] id=w329 status=saved
+[32m2026-07-09 22:48:47,554 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon190_260.png -> cache/equipment-images/190.png (200)[0m
+[32m2026-07-09 22:48:48,431 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon049.png -> cache/equipment-images/49.png (200)[0m
+[32m2026-07-09 22:48:50,182 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon192.png -> cache/equipment-images/192.png (200)[0m
+[akashi] id=w190 status=saved
+[akashi] id=w103 status=saved
+[32m2026-07-09 22:48:51,918 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon508_260.png -> cache/equipment-images/508.png (200)[0m
+[akashi] id=w508 status=saved
+[akashi] id=w192 status=saved
+[32m2026-07-09 22:48:52,867 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon502.png -> cache/equipment-images/502.png (200)[0m
+[akashi] id=w289 status=saved
+[32m2026-07-09 22:48:56,829 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon133_260.png -> cache/equipment-images/133.png (200)[0m
+[32m2026-07-09 22:49:02,364 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon039.png -> cache/equipment-images/39.png (200)[0m
+[32m2026-07-09 22:49:05,079 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon137.png -> cache/equipment-images/137.png (200)[0m
+[akashi] id=w133 status=saved
+[32m2026-07-09 22:49:05,840 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon105.png -> cache/equipment-images/105.png (200)[0m
+[akashi] id=w008 status=saved
+[32m2026-07-09 22:49:07,449 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon330_260.png -> cache/equipment-images/330.png (200)[0m
+[32m2026-07-09 22:49:09,134 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon331.png -> cache/equipment-images/331.png (200)[0m
+[akashi] id=w330 status=saved
+[akashi] id=w502 status=saved
+[32m2026-07-09 22:49:10,578 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon298_260.png -> cache/equipment-images/298.png (200)[0m
+[32m2026-07-09 22:49:11,500 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon299.png -> cache/equipment-images/299.png (200)[0m
+[akashi] id=w298 status=saved
+[akashi] id=w137 status=saved
+[32m2026-07-09 22:49:16,935 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon332.png -> cache/equipment-images/332.png (200)[0m
+[akashi] id=w331 status=saved
+[akashi] id=w332 status=saved
+[32m2026-07-09 22:49:24,134 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon530_260.png -> cache/equipment-images/530.png (200)[0m
+[akashi] id=w530 status=saved
+[32m2026-07-09 22:49:29,144 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon318_260.png -> cache/equipment-images/318.png (200)[0m
+[akashi] id=w318 status=saved
+[32m2026-07-09 22:49:32,630 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon245_260.png -> cache/equipment-images/245.png (200)[0m
+[32m2026-07-09 22:49:33,354 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon246.png -> cache/equipment-images/246.png (200)[0m
+[akashi] id=w245 status=saved
+[32m2026-07-09 22:49:34,105 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon468.png -> cache/equipment-images/468.png (200)[0m
+[akashi] id=w246 status=saved
+[32m2026-07-09 22:49:36,243 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon381_260.png -> cache/equipment-images/381.png (200)[0m
+[32m2026-07-09 22:49:38,844 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon385.png -> cache/equipment-images/385.png (200)[0m
+[akashi] id=w381 status=saved
+[32m2026-07-09 22:49:39,294 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon236.png -> cache/equipment-images/236.png (200)[0m
+[akashi] id=w105 status=saved
+[32m2026-07-09 22:49:44,699 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon301.png -> cache/equipment-images/301.png (200)[0m
+[32m2026-07-09 22:49:48,585 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon300.png -> cache/equipment-images/300.png (200)[0m
+[akashi] id=w299 status=saved
+[32m2026-07-09 22:49:58,188 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon290.png -> cache/equipment-images/290.png (200)[0m
+[32m2026-07-09 22:49:59,919 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon117.png -> cache/equipment-images/117.png (200)[0m
+[akashi] id=w236 status=saved
+[akashi] id=w117 status=saved
+[akashi] id=w290 status=saved
+[akashi] id=w385 status=saved
+[akashi] id=w300 status=saved
+[32m2026-07-09 22:50:01,443 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon161_260.png -> cache/equipment-images/161.png (200)[0m
+[32m2026-07-09 22:50:02,359 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon031.png -> cache/equipment-images/31.png (200)[0m
+[32m2026-07-09 22:50:03,930 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon183.png -> cache/equipment-images/183.png (200)[0m
+[akashi] id=w161 status=saved
+[akashi] id=w468 status=saved
+[akashi] id=w183 status=saved
+[32m2026-07-09 22:50:10,047 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon276.png -> cache/equipment-images/276.png (200)[0m
+[akashi] id=w009 status=saved
+[32m2026-07-09 22:50:11,794 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon128.png -> cache/equipment-images/128.png (200)[0m
+[akashi] id=w276 status=saved
+[32m2026-07-09 22:50:12,691 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon281.png -> cache/equipment-images/281.png (200)[0m
+[akashi] id=w128 status=saved
+[akashi] id=w281 status=saved
+[32m2026-07-09 22:50:17,561 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon066.png -> cache/equipment-images/66.png (200)[0m
+[akashi] id=w010 status=saved
+[32m2026-07-09 22:50:24,114 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon524_260.png -> cache/equipment-images/524.png (200)[0m
+[32m2026-07-09 22:50:25,851 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon048.png -> cache/equipment-images/48.png (200)[0m
+[akashi] id=w524 status=saved
+[33m2026-07-09 22:50:43,673 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon220.png attempt=1/4 delay=1.04s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon220.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:51:06,928 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon220.png -> cache/equipment-images/220.png (200)[0m
+[akashi] id=w066 status=saved
+[32m2026-07-09 22:51:10,892 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon071_260.png -> cache/equipment-images/71.png (200)[0m
+[32m2026-07-09 22:51:17,855 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon275.png -> cache/equipment-images/275.png (200)[0m
+[akashi] id=w071 status=saved
+[akashi] id=w220 status=saved
+[32m2026-07-09 22:51:22,148 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon135_260.png -> cache/equipment-images/135.png (200)[0m
+[akashi] id=w135 status=saved
+[32m2026-07-09 22:51:26,256 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon130_260.png -> cache/equipment-images/130.png (200)[0m
+[32m2026-07-09 22:51:33,606 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon120.png -> cache/equipment-images/120.png (200)[0m
+[akashi] id=w130 status=saved
+[akashi] id=w275 status=saved
+[32m2026-07-09 22:51:41,739 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon464_260.png -> cache/equipment-images/464.png (200)[0m
+[akashi] id=w464 status=saved
+[32m2026-07-09 22:51:46,925 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon172_260.png -> cache/equipment-images/172.png (200)[0m
+[akashi] id=w172 status=saved
+[akashi] id=w011 status=saved
+[32m2026-07-09 22:51:49,566 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon565_260.png -> cache/equipment-images/565.png (200)[0m
+[akashi] id=w565 status=saved
+[32m2026-07-09 22:51:55,611 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon247_260.png -> cache/equipment-images/247.png (200)[0m
+[akashi] id=w247 status=saved
+[akashi] id=w012 status=saved
+[32m2026-07-09 22:52:01,127 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon463.png -> cache/equipment-images/463.png (200)[0m
+[akashi] id=w234 status=saved
+[32m2026-07-09 22:52:07,472 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon134_260.png -> cache/equipment-images/134.png (200)[0m
+[akashi] id=w134 status=saved
+[32m2026-07-09 22:52:20,378 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon174_260.png -> cache/equipment-images/174.png (200)[0m
+[32m2026-07-09 22:52:32,097 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon013.png -> cache/equipment-images/13.png (200)[0m
+[32m2026-07-09 22:52:41,268 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon015.png -> cache/equipment-images/15.png (200)[0m
+[akashi] id=w174 status=saved
+[32m2026-07-09 22:52:55,264 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon125.png -> cache/equipment-images/125.png (200)[0m
+[akashi] id=w013 status=saved
+[32m2026-07-09 22:52:57,818 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon283_260.png -> cache/equipment-images/283.png (200)[0m
+[akashi] id=w283 status=saved
+[32m2026-07-09 22:53:08,615 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon400_260.png -> cache/equipment-images/400.png (200)[0m
+[akashi] id=w400 status=saved
+[32m2026-07-09 22:53:15,573 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon014_260.png -> cache/equipment-images/14.png (200)[0m
+[akashi] id=w014 status=saved
+[32m2026-07-09 22:53:20,487 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon285.png -> cache/equipment-images/285.png (200)[0m
+[akashi] id=w125 status=saved
+[32m2026-07-09 22:53:30,521 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon314_260.png -> cache/equipment-images/314.png (200)[0m
+[32m2026-07-09 22:53:34,796 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon376.png -> cache/equipment-images/376.png (200)[0m
+[akashi] id=w314 status=saved
+[akashi] id=w285 status=saved
+[33m2026-07-09 22:53:39,876 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon058.png attempt=1/4 delay=1.09s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon058.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-09 22:53:49,381 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon058.png -> cache/equipment-images/58.png (200)[0m
+[akashi] id=w015 status=saved
+[32m2026-07-09 22:53:54,628 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon286_260.png -> cache/equipment-images/286.png (200)[0m
+[akashi] id=w286 status=saved
+[akashi] id=w058 status=saved
+[32m2026-07-09 22:54:04,485 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon179_260.png -> cache/equipment-images/179.png (200)[0m
+[akashi] id=w179 status=saved
+[32m2026-07-09 22:54:09,372 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon442_260.png -> cache/equipment-images/442.png (200)[0m
+[32m2026-07-09 22:54:12,335 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon443.png -> cache/equipment-images/443.png (200)[0m
+[akashi] id=w442 status=saved
+[32m2026-07-09 22:54:17,696 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon511_260.png -> cache/equipment-images/511.png (200)[0m
+[32m2026-07-09 22:54:21,885 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon512.png -> cache/equipment-images/512.png (200)[0m
+[akashi] id=w511 status=saved
+[32m2026-07-09 22:54:28,230 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon440_260.png -> cache/equipment-images/440.png (200)[0m
+[32m2026-07-09 22:54:33,098 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon441.png -> cache/equipment-images/441.png (200)[0m
+[akashi] id=w440 status=saved
+[akashi] id=w512 status=saved
+[32m2026-07-09 22:54:40,770 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon457_260.png -> cache/equipment-images/457.png (200)[0m
+[akashi] id=w457 status=saved
+[akashi] id=w441 status=saved
+[32m2026-07-09 22:54:46,814 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon213_260.png -> cache/equipment-images/213.png (200)[0m
+[akashi] id=w213 status=saved
+[32m2026-07-09 22:54:49,149 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon095_260.png -> cache/equipment-images/95.png (200)[0m
+[32m2026-07-09 22:54:54,221 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon383.png -> cache/equipment-images/383.png (200)[0m
+[akashi] id=w095 status=saved
+[akashi] id=w383 status=saved
+[32m2026-07-09 22:54:57,010 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon041_260.png -> cache/equipment-images/41.png (200)[0m
+[32m2026-07-09 22:55:04,150 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon309.png -> cache/equipment-images/309.png (200)[0m
+[akashi] id=w041 status=saved
+[akashi] id=w309 status=saved
+[32m2026-07-09 22:55:15,552 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon027_260.png -> cache/equipment-images/27.png (200)[0m
+[32m2026-07-09 22:55:23,014 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon030.png -> cache/equipment-images/30.png (200)[0m
+[akashi] id=w027 status=saved
+[32m2026-07-09 22:55:26,488 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon450.png -> cache/equipment-images/450.png (200)[0m
+[akashi] id=w106 status=saved
+[akashi] id=w450 status=saved
+[akashi] id=w028 status=saved
+[32m2026-07-09 22:55:30,046 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon574_260.png -> cache/equipment-images/574.png (200)[0m
+[32m2026-07-09 22:55:35,808 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon315.png -> cache/equipment-images/315.png (200)[0m
+Traceback (most recent call last):
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 185, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 163, in main
+    vo_list, metadata = _collect_akashi(daily_limit)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 87, in _collect_akashi
+    detail_processor.process_detail_page(page=detail_page)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/akashi_detail_processor.py", line 97, in process_detail_page
+    self.process_tr(page_node)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/akashi_detail_processor.py", line 74, in process_tr
+    else self.process_stage(current_node)
+         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/akashi_detail_processor.py", line 57, in process_stage
+    return process_stage(self, current_node)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 125, in process_stage
+    download_equipment_image(consumable_weapon_record.get("api_id"), _image_url(current_node))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 63, in download_equipment_image
+    download_pic(url=png_url, save_path=f"cache/equipment-images/{int(equipment_id)}.png")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 99, in download_pic
+    return download_file(
+        url=url,
+    ...<7 lines>...
+        require_fresh=require_fresh,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 71, in download_file
+    response = transport.request_with_cache_headers(url, old_meta, settings.FILE_REQUEST_TIMEOUT_SECONDS)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/transport.py", line 53, in request_with_cache_headers
+    response = requests.get(url, headers=request_headers, timeout=timeout)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 1459, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/ssl.py", line 1316, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/ssl.py", line 1150, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

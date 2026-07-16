@@ -1,0 +1,26 @@
+{
+  "source": "kc3-slotitem-bonus",
+  "sourceUrl": "https://raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json",
+  "entryCount": 327,
+  "recordCount": 350,
+  "equipmentRecordCount": 343,
+  "equipmentTypeRecordCount": 7,
+  "ruleCount": 2355,
+  "equipmentRuleCount": 2332,
+  "equipmentTypeRuleCount": 23,
+  "issueCount": 0,
+  "schemaVersion": 2,
+  "status": "ok",
+  "fetches": [
+    {
+      "url": "https://raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json",
+      "status": "fresh",
+      "statusCode": 200,
+      "validatedAt": 1784090742,
+      "validatedInRun": true,
+      "usedCacheFallback": false,
+      "contentSha256": "f2cffe5c6a2824e33823bcdc61379e6ea7c5458a3d83357c8517fcabf3e893f0",
+      "cachePath": "raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json"
+    }
+  ]
+}

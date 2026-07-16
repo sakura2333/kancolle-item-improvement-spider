@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "244349cf9bd680dc0a7f183b64577cfc527d97e3",
+  "counts": {
+    "runtime": 0,
+    "automation": 3,
+    "packageTemplate": 0,
+    "documentation": 2,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/compute/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    }
+  ]
+}

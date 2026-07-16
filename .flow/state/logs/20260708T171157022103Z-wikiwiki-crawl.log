@@ -1,0 +1,1 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider crawl --start2 dist/data-pipeline/start2_data/api_mst_slotitem.json --daily-limit 3

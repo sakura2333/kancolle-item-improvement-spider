@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Equipment drop-from record",
+  "type": "object",
+  "required": ["equipmentId", "equipmentName", "sources"],
+  "properties": {
+    "equipmentId": { "type": "integer", "minimum": 1 },
+    "equipmentName": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["shipId", "shipName", "method", "quantity"],
+        "properties": {
+          "shipId": { "type": "integer", "minimum": 1 },
+          "shipName": { "type": "string" },
+          "method": { "enum": ["initial", "remodel"] },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "remodelLevel": { "type": "integer", "minimum": 1 },
+          "slotIndices": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+          "slotSizes": { "type": "array", "items": { "type": "integer", "minimum": 0 } }
+        }
+      }
+    }
+  }
+}

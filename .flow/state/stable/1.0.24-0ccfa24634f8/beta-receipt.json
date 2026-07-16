@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "releaseId": "1.0.24-0ccfa24634f8",
+  "sourceCommit": "0ccfa24634f8ab6760d845e16a397a8d719f0925",
+  "sourceTree": "596bf881dde694eb867947f96c898025bd2f3ead",
+  "candidateSha256": "7427d698b6ce67b5661ea7b354a99e55215a3cba18dcf8c4617f91ff2c0be7a8",
+  "contentManifestSha256": "5caf7bcf63a8dda51280adebdea16edc29a611e9ef83c690f22741f4db0a5f4c",
+  "branch": "public-beta/1.0.24-0ccfa24634f8",
+  "commit": "c33d1f758714cf55b22cf6e6fd323e161bce5104",
+  "tree": "f367f7e1cb660700926b4396ee8d0c4d231fe1e8",
+  "remote": "main-origin",
+  "policy": "isolated-full-public-snapshot",
+  "formalVersionChanged": false,
+  "mainChanged": false,
+  "npmPublished": false,
+  "onlinePublished": false
+}

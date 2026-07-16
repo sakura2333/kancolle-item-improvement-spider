@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-8c705d65bc90",
+  "candidateCommit": "5a24da1df090a41662b0dd780e73e30fecfb5847",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Review the immutable candidate. If cleanup is required, reject it, fix dev, and create a new release transaction."
+}

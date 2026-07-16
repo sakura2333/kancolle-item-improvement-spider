@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-b43137fe93a7",
+  "branch": "public-candidate/1.0.24-b43137fe93a7",
+  "remote": "main-origin",
+  "commit": "09a6c9de8c49408dfdade3775ced4719410df8a8",
+  "tree": "bb99777147caf86ce73dd40ec3da2e45ae2aeba3",
+  "candidateContentSha256": "2aba1fb1cf2ef185febfddd6e136d82930b099c7f810beb27ccc7a2ad8fc4915",
+  "candidateArchiveSha256": "390088e6a37097aae43288b72dbf963de749d9483e835d40b68349830c9f95b2"
+}

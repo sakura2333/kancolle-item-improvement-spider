@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "channel": "beta",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "releaseId": "1.0.24-718ec91f3ea6",
+  "sourceCommit": "718ec91f3ea6845be525c085acb335a86a13b7cc",
+  "sourceTree": "33ad3dbf6cddb05a2b6dc847162b48bc68110595",
+  "candidateContentSha256": "9cd2dfd0457bd2b53b9ea54725e397f3f90faedb2d237651bbacf735571000fe",
+  "candidateArchiveSha256": "44830e608ee677b8b47ed3e5b3f98b9ade180a53c467393a05cbb3eb846c0999",
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  },
+  "branch": "public-beta/1.0.24-718ec91f3ea6",
+  "commit": "69db13f6515a1776706e685dfe15fa4f64db8c65",
+  "tree": "bea6efa17eef4d6ee3aaa6afeabad29bb1cbc082",
+  "remote": "main-origin",
+  "policy": "immutable-project-registry-candidate",
+  "formalVersionChanged": false,
+  "mainChanged": false,
+  "npmPublished": false,
+  "onlinePublished": false
+}

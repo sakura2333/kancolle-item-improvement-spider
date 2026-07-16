@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-718ec91f3ea6",
+  "state": "beta-prepared",
+  "updatedAt": "2026-07-10T23:44:54.149102+00:00",
+  "previousState": "candidate-frozen",
+  "betaBranch": "public-beta/1.0.24-718ec91f3ea6",
+  "betaCommit": "69db13f6515a1776706e685dfe15fa4f64db8c65",
+  "betaTree": "bea6efa17eef4d6ee3aaa6afeabad29bb1cbc082",
+  "reviewBundleSha256": "b8bb2de4faa2d1eebd05925b7858984ec3bec6b4a01e0d58a311f4781e0c08c0"
+}

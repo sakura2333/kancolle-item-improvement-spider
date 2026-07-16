@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "wikiwiki-crawler",
+  "classification": "manual-browser-session-source",
+  "architectureScope": "manual-flow-subprocess-entry",
+  "flow": {
+    "registered": true,
+    "command": "wikiwiki",
+    "execution": "manual-only"
+  },
+  "build": {
+    "ciExecution": false,
+    "defaultQualityExecution": false,
+    "npmInclusion": false
+  },
+  "update": {
+    "artifactDistribution": true,
+    "executionDuringTransaction": false
+  },
+  "dependencies": {
+    "coreToTool": "subprocess-wrapper-only",
+    "toolToCore": "exported-data-only"
+  },
+  "localStateRoot": ".flow/local/wikiwiki-crawler",
+  "localSecretConfig": "configs/wikiwiki-crawler.local.json",
+  "rawEvidenceRoot": ".flow/local/source-cache"
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "transactionId": "20260708T175257897649Z",
+  "status": "applied",
+  "rolledBack": false,
+  "projectId": "kancolle-item-improvement-spider",
+  "package": "spider-parallel-source-phase-run-fix-1.0.24-external-identity.zip",
+  "packageSha256": "3633c34e33c1f4f53b5dfb8a826b705ea05f29c7ca8aacebbf9acb8227524022",
+  "fromVersion": "1.0.24",
+  "toVersion": "1.0.24",
+  "before": {
+    "commit": "23b454389151dce5871f310ed7cdb3dcb1b7ec82",
+    "tree": "f44cf3a6028d1bfd5c4bdbbb63e051d52ef1f8d9",
+    "version": "1.0.24",
+    "protectedDirtyPaths": [],
+    "projectDirtyPaths": []
+  },
+  "targetIdentity": {
+    "scheme": "project-owned-sha256",
+    "value": "dea610556fb147847b2a49c1e95a9e377067ba2be4af3b917ed61fb11154cd2c"
+  },
+  "commit": {
+    "hash": "ff140237b1aa4393df9ef0f4cae69b40f3531b48",
+    "message": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+    "created": true
+  },
+  "protectedPathsUnstagedBeforeCommit": [],
+  "paths": [
+    {
+      "path": "script/project/akashi_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "script/project/run_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "07f76f69011ecd88c467103ea6b8d2894ef2ae78d627fcc84415ce30d3e791fa"
+    },
+    {
+      "path": "script/project/smoke_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "769bc4cfe0ee83d5da5dd8deff1aca129767cef7db2ab348a678c24c8cfc7782"
+    },
+    {
+      "path": "script/project/source_phase.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "script/project/test.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "f7463048bb2f92cbec3f47427de82a5ee097035f35f782ed54935379b1466d03"
+    },
+    {
+      "path": "script/project/wikiwiki_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "ecadd4c636238401bd8cd49f9bd54907a03bbad23b428cc3fc48534f261e5217"
+    },
+    {
+      "path": "tests/test_run_flow_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "tests/test_smoke_flow_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "e189ddcdbb63f39f87388b20a166a8260d99e44e4319e8e3249578bf16b78728"
+    },
+    {
+      "path": "tests/test_source_phase.py",
+      "existed": false,
+      "kind": "missing"
+    }
+  ],
+  "archivedPackage": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/spider-parallel-source-phase-run-fix-1.0.24-external-identity.zip",
+  "archivedSidecar": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/spider-parallel-source-phase-run-fix-1.0.24-external-identity.zip.flow.json"
+}

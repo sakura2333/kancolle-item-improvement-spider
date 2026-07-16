@@ -1,0 +1,2 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+ERROR: Akashi List source acquisition failed: FileNotFoundError: [CACHE ONLY] cache miss: https://aiacdn.contents-stg.site/img/weapon019_260.png -> cache/equip/19.png

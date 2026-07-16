@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-8a0d92cd0e1f",
+  "candidateCommit": "cebcce7e0457465919339dc4f91e5aea231b2871",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Approved immutable candidate. Candidate archive SHA-256, content SHA-256, and all 157 manifest file identities match; public-content audit reports zero findings and a clean fresh checkout. The Build Data Candidate workflow keeps exact artifact-ID selection, sets merge-multiple: true so the v4 download action extracts ID-selected artifacts into the requested bundle root, verifies bundle-manifest.json and source-bundle.lock.json before consumption, and passes that same root to automation.compute.cli prepare. Workflow YAML parsing, repository-module checkout ordering, Python compileall and imports, public isolation scanning, and all 31 GitHub Action pipeline contract tests passed."
+}

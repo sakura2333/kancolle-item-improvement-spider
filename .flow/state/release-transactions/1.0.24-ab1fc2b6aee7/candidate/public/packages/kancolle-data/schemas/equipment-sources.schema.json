@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sakura2333.dev/kancolle-data/equipment-sources.schema.json",
+  "title": "KanColle equipment source projection record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["equipmentId", "equipmentName", "source"],
+  "properties": {
+    "equipmentId": {"type": "integer", "minimum": 1},
+    "equipmentName": {"type": "string", "minLength": 1},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["shipIds", "upgradeFromItemIds", "questKey"],
+      "properties": {
+        "shipIds": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "uniqueItems": true
+        },
+        "upgradeFromItemIds": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "uniqueItems": true
+        },
+        "questKey": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

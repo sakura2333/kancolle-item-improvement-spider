@@ -1,0 +1,11401 @@
+# Improvement assistant day reverse index
+
+generatedAt: 2026-07-15T12:07:30+00:00
+expectedEquipmentCount: 3 equipments per ship per day
+recordCount: 372
+routeCount: 412
+shipDayCount: 3179
+equipmentCountMismatchShipDayCount: 2352
+underExpectedShipDayCount: 2326
+overThresholdShipDayCount: 26
+maxEquipmentCount: 6
+
+## Under expected
+
+- day=日(1) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=日(1) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=日(1) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=日(1) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=日(1) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=日(1) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=日(1) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=日(1) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=日(1) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=37:電 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=日(1) ship=50:島風 equipmentCount=1 expected=3 delta=-2
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=日(1) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=日(1) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=日(1) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=日(1) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=日(1) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=日(1) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=日(1) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=日(1) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=日(1) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=日(1) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=日(1) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=日(1) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=日(1) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=日(1) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=日(1) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=日(1) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=150:比叡改二 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=日(1) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+  - 102:九八式水上偵察機(夜偵) routes=default:all:8a8f1a334e84
+- day=日(1) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=日(1) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=日(1) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=日(1) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=日(1) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=日(1) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=日(1) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=日(1) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=日(1) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=日(1) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=日(1) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=204:深雪改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=日(1) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=日(1) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=日(1) ship=229:島風改 equipmentCount=1 expected=3 delta=-2
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=日(1) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=日(1) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=日(1) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=日(1) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=日(1) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=日(1) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=日(1) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=日(1) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=日(1) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=日(1) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=日(1) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=日(1) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=日(1) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=日(1) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=日(1) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=日(1) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=日(1) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=日(1) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=日(1) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=日(1) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=日(1) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=日(1) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=日(1) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=日(1) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=日(1) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=日(1) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=日(1) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=日(1) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=日(1) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=日(1) ship=397:Intrepid改 equipmentCount=1 expected=3 delta=-2
+  - 474:F4U-4 routes=default:all:e2de3588b9a1
+- day=日(1) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=日(1) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=日(1) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=日(1) ship=419:初霜改二 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=日(1) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=日(1) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=日(1) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=434:睦月改二 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=日(1) ship=438:Saratoga改 equipmentCount=1 expected=3 delta=-2
+  - 195:SBD routes=default:all:e5b92ccba373
+- day=日(1) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=日(1) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+- day=日(1) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=日(1) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=日(1) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=日(1) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=日(1) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=日(1) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+- day=日(1) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=日(1) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=日(1) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=日(1) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=日(1) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=日(1) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=日(1) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=日(1) ship=509:熊野航改二 equipmentCount=1 expected=3 delta=-2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=日(1) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=日(1) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=日(1) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=日(1) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=日(1) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=日(1) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=日(1) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=日(1) ship=550:Saratoga Mk.II Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 195:SBD routes=default:all:e5b92ccba373
+- day=日(1) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=日(1) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=日(1) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=日(1) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=日(1) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+  - 393:120mm/50 連装砲 mod.1936 routes=default:all:0779a6b700cb
+- day=日(1) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=日(1) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=日(1) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=日(1) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=日(1) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+- day=日(1) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=日(1) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=日(1) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=日(1) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=日(1) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=日(1) ship=654:Washington equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=日(1) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=日(1) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=日(1) ship=659:Washington改 equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=日(1) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=日(1) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=日(1) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=日(1) ship=678:日振改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=日(1) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=日(1) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=日(1) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=日(1) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=日(1) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=日(1) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=日(1) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=日(1) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=日(1) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=日(1) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=日(1) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=日(1) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=日(1) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=日(1) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=日(1) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=日(1) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=日(1) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=日(1) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=日(1) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=日(1) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=日(1) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+  - 196:TBD routes=default:all:a13c3278fdca
+- day=日(1) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+- day=日(1) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=日(1) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=日(1) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=日(1) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=日(1) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=日(1) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=日(1) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=日(1) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=日(1) ship=975:春雨改二 equipmentCount=1 expected=3 delta=-2
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+- day=日(1) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=日(1) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=日(1) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=日(1) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=日(1) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=日(1) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=日(1) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=日(1) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=日(1) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=日(1) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=日(1) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=日(1) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=日(1) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=日(1) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+- day=日(1) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=日(1) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=日(1) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=日(1) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=日(1) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=日(1) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=日(1) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=日(1) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=日(1) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=日(1) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=日(1) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=日(1) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 400:533mm 三連装魚雷(53-39型) routes=default:all:29f7924a630f
+- day=日(1) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=日(1) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=日(1) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=日(1) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=日(1) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=日(1) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=日(1) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=日(1) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=日(1) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=日(1) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 5:15.5cm三連装砲 routes=default:all:c8ed35f33782
+  - 235:15.5cm三連装砲改 routes=default:all:161a6b4c3407
+- day=日(1) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=日(1) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=日(1) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=日(1) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=日(1) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=日(1) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=日(1) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=日(1) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=日(1) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=日(1) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=日(1) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=日(1) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=日(1) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 344:九七式艦攻改 試製三号戊型(空六号電探改装備機) routes=default:all:09484d611b74
+- day=日(1) ship=319:妙高改二 equipmentCount=2 expected=3 delta=-1
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=日(1) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=日(1) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=日(1) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=日(1) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=日(1) ship=364:Warspite改 equipmentCount=2 expected=3 delta=-1
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+  - 250:Spitfire Mk.I routes=default:all:e0cd6d464867
+- day=日(1) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=日(1) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=日(1) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=日(1) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=日(1) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=日(1) ship=411:扶桑改二 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=日(1) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=日(1) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=日(1) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=日(1) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 197:F4F-3 routes=default:all:f4b546529bd9
+- day=日(1) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=日(1) ship=439:Warspite equipmentCount=2 expected=3 delta=-1
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+  - 250:Spitfire Mk.I routes=default:all:e0cd6d464867
+- day=日(1) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=日(1) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+  - 134:OTO 152mm三連装速射砲 routes=default:all:e09634c273a1
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=日(1) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=日(1) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=日(1) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=日(1) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=日(1) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 238:零式水上偵察機11型乙 routes=default:all:ab0e71712745
+- day=日(1) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+  - 240:22号対水上電探改四(後期調整型) routes=default:all:980a4c6849fa
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=日(1) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=日(1) ship=498:村雨改二 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+- day=日(1) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=日(1) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=日(1) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=日(1) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=日(1) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=日(1) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=日(1) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=日(1) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=日(1) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=日(1) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=日(1) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=日(1) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=日(1) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=日(1) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=日(1) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=日(1) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+  - 493:一式陸攻(八幡部隊) routes=default:all:bffc1859d249
+- day=日(1) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 206:F6F-5 routes=default:all:0c0b1893c292
+- day=日(1) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=日(1) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=日(1) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=日(1) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=日(1) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=日(1) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=日(1) ship=592:比叡改二丙 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 317:三式弾改 routes=default:all:9d455b034bbd
+- day=日(1) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=日(1) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=日(1) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=日(1) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=日(1) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+- day=日(1) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=日(1) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=日(1) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=日(1) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=日(1) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+  - 397:現地改装12.7cm連装高角砲 routes=default:all:2ee3c6c372e8
+  - 398:現地改装10cm連装高角砲 routes=default:all:c58b2b6d0f51
+- day=日(1) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+  - 55:紫電改二 routes=default:all:167019ca556c
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=日(1) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=日(1) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=日(1) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=日(1) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=日(1) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=日(1) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=日(1) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=日(1) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+  - 196:TBD routes=default:all:a13c3278fdca
+  - 256:TBF routes=default:all:96cbd38bc8c3
+- day=日(1) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=日(1) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 423:Fulmar(戦闘偵察/熟練) routes=default:all:6d12caa9654e
+- day=日(1) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=日(1) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=日(1) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=日(1) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=日(1) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=日(1) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=日(1) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=日(1) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+  - 535:13.8cm連装砲改 routes=default:all:47fceae2eb4f
+- day=日(1) ship=968:初月改二 equipmentCount=2 expected=3 delta=-1
+  - 122:10cm連装高角砲+高射装置 routes=default:all:d0ed9ad3be53
+  - 533:10cm連装高角砲改+高射装置改 routes=default:all:acd5ad46f83f
+- day=日(1) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=日(1) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+  - 523:零式小型水上機(熟練) routes=default:all:78f930479713
+- day=日(1) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=日(1) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=日(1) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+- day=月(2) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=月(2) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=月(2) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=月(2) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=月(2) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=月(2) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=月(2) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=月(2) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=月(2) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=月(2) ship=50:島風 equipmentCount=1 expected=3 delta=-2
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=月(2) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=月(2) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=月(2) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=月(2) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=月(2) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=月(2) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=月(2) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=月(2) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=月(2) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=月(2) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=月(2) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=月(2) ship=131:大和 equipmentCount=1 expected=3 delta=-2
+  - 117:試製46cm連装砲 routes=default:all:c70e41739dca
+- day=月(2) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=月(2) ship=137:阿賀野 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=月(2) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=月(2) ship=143:武蔵 equipmentCount=1 expected=3 delta=-2
+  - 9:46cm三連装砲 routes=default:all:492cb28d20e2
+- day=月(2) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=月(2) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+  - 102:九八式水上偵察機(夜偵) routes=default:all:8a8f1a334e84
+- day=月(2) ship=160:那珂改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=月(2) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=月(2) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=月(2) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=月(2) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=月(2) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=月(2) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=月(2) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=月(2) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=月(2) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=月(2) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=月(2) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=月(2) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=月(2) ship=229:島風改 equipmentCount=1 expected=3 delta=-2
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=月(2) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=月(2) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=月(2) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=月(2) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=月(2) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=月(2) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=月(2) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=月(2) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=月(2) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=月(2) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=月(2) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=月(2) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=月(2) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=月(2) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=月(2) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=月(2) ship=305:阿賀野改 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=月(2) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=月(2) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=月(2) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=月(2) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=月(2) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=月(2) ship=361:Pola改 equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=月(2) ship=364:Warspite改 equipmentCount=1 expected=3 delta=-2
+  - 250:Spitfire Mk.I routes=default:all:e0cd6d464867
+- day=月(2) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=月(2) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=月(2) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=月(2) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=月(2) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=月(2) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=月(2) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=月(2) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=435:如月改二 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=月(2) ship=439:Warspite equipmentCount=1 expected=3 delta=-2
+  - 250:Spitfire Mk.I routes=default:all:e0cd6d464867
+- day=月(2) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=月(2) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=月(2) ship=449:Pola equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=月(2) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=月(2) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=月(2) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=月(2) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=月(2) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=月(2) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=月(2) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=月(2) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=月(2) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=月(2) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=月(2) ship=498:村雨改二 equipmentCount=1 expected=3 delta=-2
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+- day=月(2) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+  - 217:強風改 routes=default:all:b58224783a1e
+- day=月(2) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=月(2) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=月(2) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=月(2) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=月(2) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=月(2) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=月(2) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+- day=月(2) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+  - 517:逆探(E27)+22号対水上電探改四(後期調整型) routes=default:all:bcff52efd7a2
+- day=月(2) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+  - 393:120mm/50 連装砲 mod.1936 routes=default:all:0779a6b700cb
+- day=月(2) ship=581:日進 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=月(2) ship=586:日進甲 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=月(2) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=月(2) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=月(2) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=月(2) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=月(2) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=月(2) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+  - 394:120mm/50 連装砲改 A.mod.1937 routes=default:all:51a47d25c215
+- day=月(2) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=月(2) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=月(2) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=月(2) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=月(2) ship=654:Washington equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=月(2) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=月(2) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=月(2) ship=659:Washington改 equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=月(2) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=月(2) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=月(2) ship=690:日進改 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=月(2) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=月(2) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=月(2) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=月(2) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=月(2) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=月(2) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=723:Ranger改 equipmentCount=1 expected=3 delta=-2
+  - 196:TBD routes=default:all:a13c3278fdca
+- day=月(2) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=月(2) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=月(2) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=月(2) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=月(2) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=月(2) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+  - 517:逆探(E27)+22号対水上電探改四(後期調整型) routes=default:all:bcff52efd7a2
+- day=月(2) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=月(2) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=月(2) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=月(2) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=月(2) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=月(2) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=月(2) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+  - 196:TBD routes=default:all:a13c3278fdca
+- day=月(2) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=月(2) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+  - 489:一式戦 隼II型改(20戦隊) routes=default:all:08d529984d12
+- day=月(2) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=月(2) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=月(2) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=月(2) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=月(2) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=月(2) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=月(2) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=月(2) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=月(2) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=月(2) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=月(2) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=月(2) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=月(2) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=月(2) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=月(2) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=月(2) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=69:鳥海 equipmentCount=2 expected=3 delta=-1
+  - 74:探照灯 routes=default:all:5e39651a23a7
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=月(2) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=月(2) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+- day=月(2) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=月(2) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=月(2) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=月(2) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=月(2) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=月(2) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=月(2) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=月(2) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=月(2) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 119:14cm連装砲 routes=default:all:1db1a7f6022d
+- day=月(2) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=月(2) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=月(2) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=月(2) ship=139:矢矧 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=月(2) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=月(2) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=月(2) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=月(2) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+  - 103:試製35.6cm三連装砲 routes=default:all:32a18b534b8c
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=月(2) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 289:35.6cm三連装砲改(ダズル迷彩仕様) routes=default:all:974e6a552e64
+- day=月(2) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=月(2) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=月(2) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=月(2) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=月(2) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=月(2) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 5:15.5cm三連装砲 routes=default:all:c8ed35f33782
+  - 118:紫雲 routes=default:all:4560a9a855b1
+- day=月(2) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=月(2) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=月(2) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 500:発煙装置(煙幕) routes=default:all:ec189512a315
+- day=月(2) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=月(2) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=月(2) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=月(2) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=月(2) ship=272:鳥海改 equipmentCount=2 expected=3 delta=-1
+  - 74:探照灯 routes=default:all:5e39651a23a7
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=月(2) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=月(2) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=月(2) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=月(2) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 119:14cm連装砲 routes=default:all:1db1a7f6022d
+- day=月(2) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=月(2) ship=307:矢矧改 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=月(2) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=月(2) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=月(2) ship=346:照月改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=月(2) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+  - 59:零式水上観測機 routes=default:all:ee3fd90bdc5b
+- day=月(2) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=月(2) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=月(2) ship=368:浦波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=月(2) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=月(2) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+- day=月(2) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=月(2) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=月(2) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=月(2) ship=399:伊58改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=月(2) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=月(2) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+- day=月(2) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=月(2) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=月(2) ship=422:照月 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=月(2) ship=426:吹雪改二 equipmentCount=2 expected=3 delta=-1
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=月(2) ship=427:鳥海改二 equipmentCount=2 expected=3 delta=-1
+  - 74:探照灯 routes=default:all:5e39651a23a7
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=月(2) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=月(2) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 198:F4F-4 routes=default:all:369640c32665
+- day=月(2) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=月(2) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 198:F4F-4 routes=default:all:369640c32665
+- day=月(2) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=月(2) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=月(2) ship=442:Roma equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 134:OTO 152mm三連装速射砲 routes=default:all:e09634c273a1
+- day=月(2) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=月(2) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 134:OTO 152mm三連装速射砲 routes=default:all:e09634c273a1
+- day=月(2) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+  - 59:零式水上観測機 routes=default:all:ee3fd90bdc5b
+- day=月(2) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+  - 21:零式艦戦52型 routes=default:all:c94e00540a4a
+  - 152:零式艦戦52型(熟練) routes=default:all:d92e0b01ae73
+- day=月(2) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:c69d895bc886
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=月(2) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=月(2) ship=486:浦波 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=月(2) ship=487:鬼怒改二 equipmentCount=2 expected=3 delta=-1
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+  - 193:特大発動艇 routes=default:all:a976105a86fa
+- day=月(2) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+- day=月(2) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=月(2) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=月(2) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=月(2) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=月(2) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=月(2) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=月(2) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=月(2) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=月(2) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=月(2) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=538:冬月改 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=月(2) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+  - 236:41cm三連装砲改 routes=default:all:d50f7f1a8cc7
+- day=月(2) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=月(2) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 198:F4F-4 routes=default:all:369640c32665
+- day=月(2) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=月(2) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=月(2) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=576:Nelson改 equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 300:16inch Mk.I三連装砲改+FCR type284 routes=default:all:00d2cb033e4a
+- day=月(2) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=月(2) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=月(2) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=月(2) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+  - 331:16inch Mk.V連装砲 routes=default:all:dbf09a3c5418
+- day=月(2) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=月(2) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=月(2) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=月(2) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=月(2) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=月(2) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=月(2) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=月(2) ship=668:矢矧改二乙 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=月(2) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=月(2) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+- day=月(2) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=月(2) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=月(2) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=月(2) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+  - 425:Barracuda Mk.III routes=default:all:db0d3ea05ca6
+- day=月(2) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=月(2) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=月(2) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=月(2) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=月(2) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=月(2) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=月(2) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+- day=月(2) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=月(2) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=月(2) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=月(2) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=月(2) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=月(2) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=月(2) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=月(2) ship=948:熊野丸改 equipmentCount=2 expected=3 delta=-1
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+  - 489:一式戦 隼II型改(20戦隊) routes=default:all:08d529984d12
+- day=月(2) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=月(2) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=月(2) ship=960:清霜改二丁 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=月(2) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=月(2) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=月(2) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=月(2) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=月(2) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=月(2) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+  - 523:零式小型水上機(熟練) routes=default:all:78f930479713
+- day=月(2) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=月(2) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=月(2) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=月(2) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=月(2) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=火(3) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=火(3) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=火(3) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=火(3) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=火(3) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=火(3) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=火(3) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=火(3) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=火(3) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=火(3) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=火(3) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=火(3) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=火(3) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=火(3) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+- day=火(3) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=火(3) ship=80:長門 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=火(3) ship=83:赤城 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=火(3) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=火(3) ship=87:日向 equipmentCount=1 expected=3 delta=-2
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=火(3) ship=107:千代田甲 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=火(3) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=火(3) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=火(3) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=火(3) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=火(3) ship=128:伊8 equipmentCount=1 expected=3 delta=-2
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=火(3) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=火(3) ship=131:大和 equipmentCount=1 expected=3 delta=-2
+  - 9:46cm三連装砲 routes=default:all:492cb28d20e2
+- day=火(3) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=火(3) ship=137:阿賀野 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=火(3) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=火(3) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=火(3) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=火(3) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=火(3) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=火(3) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=火(3) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=火(3) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=火(3) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=火(3) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=火(3) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=火(3) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=火(3) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=火(3) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=火(3) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=火(3) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=火(3) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=火(3) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=火(3) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=火(3) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=火(3) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=火(3) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=火(3) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=火(3) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=火(3) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=火(3) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+- day=火(3) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=火(3) ship=277:赤城改 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=火(3) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=火(3) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=火(3) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=火(3) ship=299:Scamp equipmentCount=1 expected=3 delta=-2
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=火(3) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=火(3) ship=305:阿賀野改 equipmentCount=1 expected=3 delta=-2
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=火(3) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=火(3) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=火(3) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=火(3) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=火(3) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=火(3) ship=364:Warspite改 equipmentCount=1 expected=3 delta=-2
+  - 192:38.1cm Mk.I/N連装砲改 routes=default:all:3ac44e1f0b42
+- day=火(3) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=火(3) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=火(3) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=火(3) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=火(3) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=火(3) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=火(3) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=火(3) ship=400:伊8改 equipmentCount=1 expected=3 delta=-2
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=火(3) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=火(3) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=火(3) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=火(3) ship=435:如月改二 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=火(3) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=火(3) ship=439:Warspite equipmentCount=1 expected=3 delta=-2
+  - 192:38.1cm Mk.I/N連装砲改 routes=default:all:3ac44e1f0b42
+- day=火(3) ship=442:Roma equipmentCount=1 expected=3 delta=-2
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=火(3) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=火(3) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=火(3) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=火(3) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=火(3) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=火(3) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=火(3) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=火(3) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=火(3) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=火(3) ship=487:鬼怒改二 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=火(3) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=火(3) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=火(3) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=火(3) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=火(3) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=火(3) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=火(3) ship=498:村雨改二 equipmentCount=1 expected=3 delta=-2
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+- day=火(3) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=火(3) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=火(3) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=火(3) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=火(3) ship=532:涼月 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=火(3) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=火(3) ship=537:涼月改 equipmentCount=1 expected=3 delta=-2
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=火(3) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=火(3) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=火(3) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=火(3) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=火(3) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+  - 517:逆探(E27)+22号対水上電探改四(後期調整型) routes=default:all:bcff52efd7a2
+- day=火(3) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+  - 393:120mm/50 連装砲 mod.1936 routes=default:all:0779a6b700cb
+- day=火(3) ship=581:日進 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=火(3) ship=586:日進甲 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=火(3) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=火(3) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=火(3) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=火(3) ship=594:赤城改二 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=火(3) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=火(3) ship=599:赤城改二戊 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=火(3) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=火(3) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+  - 394:120mm/50 連装砲改 A.mod.1937 routes=default:all:51a47d25c215
+- day=火(3) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=火(3) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=火(3) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=火(3) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=火(3) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=火(3) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=火(3) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=火(3) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=火(3) ship=690:日進改 equipmentCount=1 expected=3 delta=-2
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=火(3) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=火(3) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=火(3) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=火(3) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=火(3) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=火(3) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=715:Scamp改 equipmentCount=1 expected=3 delta=-2
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=火(3) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=火(3) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=火(3) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=火(3) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=火(3) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=火(3) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=火(3) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+  - 517:逆探(E27)+22号対水上電探改四(後期調整型) routes=default:all:bcff52efd7a2
+- day=火(3) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=火(3) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=火(3) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=火(3) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=火(3) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=火(3) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=火(3) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=火(3) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=火(3) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=火(3) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=火(3) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=火(3) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=火(3) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=火(3) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=火(3) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=火(3) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=火(3) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=火(3) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=火(3) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=火(3) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=火(3) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=火(3) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=火(3) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=火(3) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=火(3) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=火(3) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=火(3) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=火(3) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=火(3) ship=88:日向改 equipmentCount=2 expected=3 delta=-1
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+  - 51:12cm30連装噴進砲 routes=default:all:27986b30906c
+- day=火(3) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=火(3) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=火(3) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=火(3) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+  - 153:零戦52型丙(付岩井小隊) routes=default:all:d92e0b01ae73
+  - 154:零戦62型(爆戦/岩井隊) routes=default:all:36d8814f345f
+- day=火(3) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+  - 153:零戦52型丙(付岩井小隊) routes=default:all:d92e0b01ae73
+  - 154:零戦62型(爆戦/岩井隊) routes=default:all:36d8814f345f
+- day=火(3) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=火(3) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=火(3) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=火(3) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=火(3) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+  - 187:銀河 routes=default:all:8a78ee8557e1
+- day=火(3) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=火(3) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=火(3) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+  - 103:試製35.6cm三連装砲 routes=default:all:32a18b534b8c
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=火(3) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 289:35.6cm三連装砲改(ダズル迷彩仕様) routes=default:all:974e6a552e64
+- day=火(3) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=火(3) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=火(3) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=火(3) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=火(3) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=火(3) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=火(3) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+  - 114:38cm連装砲改 routes=default:all:3e14ecb88a3e
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=火(3) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 71:10cm連装高角砲(砲架) routes=default:all:0cf4d5081165
+  - 118:紫雲 routes=default:all:4560a9a855b1
+- day=火(3) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=火(3) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=火(3) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 500:発煙装置(煙幕) routes=default:all:ec189512a315
+- day=火(3) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=火(3) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=火(3) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=火(3) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=火(3) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=火(3) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=火(3) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=火(3) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=火(3) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=火(3) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=火(3) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+  - 187:銀河 routes=default:all:8a78ee8557e1
+- day=火(3) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=火(3) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=火(3) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=火(3) ship=346:照月改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=火(3) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=火(3) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 172:5inch連装砲 Mk.28 mod.2 routes=default:all:9f3a317b72a8
+- day=火(3) ship=361:Pola改 equipmentCount=2 expected=3 delta=-1
+  - 431:SM.79 routes=default:all:877269501cbd
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=火(3) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=火(3) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+- day=火(3) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=火(3) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=火(3) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=火(3) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=火(3) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=火(3) ship=422:照月 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=火(3) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=火(3) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 198:F4F-4 routes=default:all:369640c32665
+- day=火(3) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=火(3) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+  - 198:F4F-4 routes=default:all:369640c32665
+  - 205:F6F-3 routes=default:all:4a788c76559e
+- day=火(3) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 172:5inch連装砲 Mk.28 mod.2 routes=default:all:9f3a317b72a8
+- day=火(3) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=火(3) ship=449:Pola equipmentCount=2 expected=3 delta=-1
+  - 431:SM.79 routes=default:all:877269501cbd
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=火(3) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+  - 153:零戦52型丙(付岩井小隊) routes=default:all:d92e0b01ae73
+  - 154:零戦62型(爆戦/岩井隊) routes=default:all:36d8814f345f
+- day=火(3) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:c69d895bc886
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=火(3) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=火(3) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=火(3) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=火(3) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=火(3) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=火(3) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=火(3) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=火(3) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=火(3) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=火(3) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=火(3) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 236:41cm三連装砲改 routes=default:all:d50f7f1a8cc7
+- day=火(3) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=火(3) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=553:伊勢改二 equipmentCount=2 expected=3 delta=-1
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+  - 274:12cm30連装噴進砲改二 routes=default:all:2ecb5d02be68
+- day=火(3) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=火(3) ship=571:Nelson equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=火(3) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=火(3) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=火(3) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=591:金剛改二丙 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=火(3) ship=592:比叡改二丙 equipmentCount=2 expected=3 delta=-1
+  - 103:試製35.6cm三連装砲 routes=default:all:32a18b534b8c
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=火(3) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=火(3) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=火(3) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+  - 331:16inch Mk.V連装砲 routes=default:all:dbf09a3c5418
+- day=火(3) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=火(3) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=火(3) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=火(3) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=火(3) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=火(3) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 315:SG レーダー(初期型) routes=default:all:aed5aa004cb9
+- day=火(3) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=火(3) ship=647:浦波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=火(3) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=火(3) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=火(3) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=火(3) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=火(3) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=火(3) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=火(3) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=火(3) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+  - 425:Barracuda Mk.III routes=default:all:db0d3ea05ca6
+- day=火(3) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=火(3) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=火(3) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=火(3) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=火(3) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=火(3) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=火(3) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+- day=火(3) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=火(3) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=火(3) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=火(3) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=火(3) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=火(3) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=火(3) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=火(3) ship=943:熊野丸 equipmentCount=2 expected=3 delta=-1
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 489:一式戦 隼II型改(20戦隊) routes=default:all:08d529984d12
+- day=火(3) ship=948:熊野丸改 equipmentCount=2 expected=3 delta=-1
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 489:一式戦 隼II型改(20戦隊) routes=default:all:08d529984d12
+- day=火(3) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=火(3) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=火(3) ship=960:清霜改二丁 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=火(3) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=火(3) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=火(3) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=火(3) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=火(3) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=火(3) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+  - 523:零式小型水上機(熟練) routes=default:all:78f930479713
+- day=火(3) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=火(3) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=火(3) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=火(3) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=火(3) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=水(4) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=水(4) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=水(4) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=水(4) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=水(4) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=水(4) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=水(4) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=水(4) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=水(4) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=水(4) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=水(4) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=水(4) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=水(4) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=水(4) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=水(4) ship=83:赤城 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=水(4) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=水(4) ship=113:鬼怒 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=水(4) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=水(4) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=水(4) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=水(4) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=水(4) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=水(4) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=水(4) ship=171:Bismarck equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=水(4) ship=172:Bismarck改 equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=水(4) ship=173:Bismarck zwei equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=水(4) ship=174:Z1 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=水(4) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=水(4) ship=178:Bismarck drei equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=水(4) ship=179:Z1 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=水(4) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=水(4) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=水(4) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=水(4) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=水(4) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=水(4) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=水(4) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=水(4) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=水(4) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=水(4) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=水(4) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=水(4) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=水(4) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=水(4) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=水(4) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=水(4) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=水(4) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=水(4) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=水(4) ship=277:赤城改 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=水(4) ship=289:鬼怒改 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=水(4) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=水(4) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=水(4) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=水(4) ship=299:Scamp equipmentCount=1 expected=3 delta=-2
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=水(4) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=水(4) ship=310:Z1改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=水(4) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=水(4) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=水(4) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=水(4) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=水(4) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=水(4) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=水(4) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=水(4) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=水(4) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=水(4) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=水(4) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=水(4) ship=411:扶桑改二 equipmentCount=1 expected=3 delta=-2
+  - 103:試製35.6cm三連装砲 routes=default:all:46c7bd12484e
+- day=水(4) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+- day=水(4) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=水(4) ship=442:Roma equipmentCount=1 expected=3 delta=-2
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=水(4) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=水(4) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=水(4) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=水(4) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=水(4) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=水(4) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=水(4) ship=476:神風改 equipmentCount=1 expected=3 delta=-2
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=水(4) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=水(4) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=水(4) ship=487:鬼怒改二 equipmentCount=1 expected=3 delta=-2
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+- day=水(4) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=水(4) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+  - 194:Laté 298B routes=default:all:12ee12ace293
+- day=水(4) ship=492:Richelieu equipmentCount=1 expected=3 delta=-2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=水(4) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=水(4) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=水(4) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=水(4) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=水(4) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=水(4) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=水(4) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=水(4) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=水(4) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=水(4) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=水(4) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=水(4) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=水(4) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=水(4) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=水(4) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=水(4) ship=594:赤城改二 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=水(4) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=水(4) ship=599:赤城改二戊 equipmentCount=1 expected=3 delta=-2
+  - 201:紫電一一型 routes=default:all:7b81bee25949
+- day=水(4) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=水(4) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=水(4) ship=616:御蔵改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=水(4) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+  - 394:120mm/50 連装砲改 A.mod.1937 routes=default:all:51a47d25c215
+- day=水(4) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=水(4) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=水(4) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=水(4) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=水(4) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=水(4) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=水(4) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=水(4) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=水(4) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=水(4) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=水(4) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=水(4) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=水(4) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=715:Scamp改 equipmentCount=1 expected=3 delta=-2
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=水(4) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=水(4) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=水(4) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=水(4) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=水(4) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=水(4) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=水(4) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=水(4) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+- day=水(4) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=水(4) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=水(4) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=水(4) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=水(4) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=水(4) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=水(4) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=水(4) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=水(4) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=水(4) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=水(4) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=水(4) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=水(4) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+  - 492:零戦52型丙(八幡部隊) routes=default:all:0141b5ec0b38
+- day=水(4) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=水(4) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=水(4) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 58:61cm五連装(酸素)魚雷 routes=default:all:89d31e62d47b
+- day=水(4) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=水(4) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=水(4) ship=82:伊勢改 equipmentCount=2 expected=3 delta=-1
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+- day=水(4) ship=84:加賀 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=水(4) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=水(4) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+- day=水(4) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=水(4) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=水(4) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=水(4) ship=107:千代田甲 equipmentCount=2 expected=3 delta=-1
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=水(4) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=水(4) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=水(4) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=水(4) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=水(4) ship=131:大和 equipmentCount=2 expected=3 delta=-1
+  - 9:46cm三連装砲 routes=default:all:492cb28d20e2
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=水(4) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=水(4) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+  - 187:銀河 routes=default:all:8a78ee8557e1
+- day=水(4) ship=143:武蔵 equipmentCount=2 expected=3 delta=-1
+  - 89:21号対空電探改 routes=default:all:4b6ff4c2c44c
+  - 117:試製46cm連装砲 routes=default:all:c70e41739dca
+- day=水(4) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 175:雷電 routes=default:all:7a3610128d37
+- day=水(4) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 289:35.6cm三連装砲改(ダズル迷彩仕様) routes=default:all:974e6a552e64
+- day=水(4) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=水(4) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=水(4) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=水(4) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+- day=水(4) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 71:10cm連装高角砲(砲架) routes=default:all:0cf4d5081165
+  - 118:紫雲 routes=default:all:4560a9a855b1
+- day=水(4) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=水(4) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=水(4) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 500:発煙装置(煙幕) routes=default:all:ec189512a315
+- day=水(4) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=水(4) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 202:紫電二一型 紫電改 routes=default:all:5246a44b13c1
+- day=水(4) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=水(4) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 58:61cm五連装(酸素)魚雷 routes=default:all:89d31e62d47b
+- day=水(4) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=水(4) ship=278:加賀改 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=水(4) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=水(4) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+- day=水(4) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=水(4) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+- day=水(4) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=水(4) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=水(4) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+  - 187:銀河 routes=default:all:8a78ee8557e1
+- day=水(4) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=水(4) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=水(4) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=水(4) ship=343:香取改 equipmentCount=2 expected=3 delta=-1
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+  - 518:14cm連装砲改二 routes=default:all:1303d467a513
+- day=水(4) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=水(4) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=水(4) ship=361:Pola改 equipmentCount=2 expected=3 delta=-1
+  - 431:SM.79 routes=default:all:877269501cbd
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=水(4) ship=364:Warspite改 equipmentCount=2 expected=3 delta=-1
+  - 192:38.1cm Mk.I/N連装砲改 routes=default:all:3ac44e1f0b42
+  - 367:Swordfish(水上機型) routes=default:all:f57efd17deac
+- day=水(4) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=水(4) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+- day=水(4) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+  - 468:38cm四連装砲改 deux routes=default:all:0ca8abf41ed4
+- day=水(4) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=水(4) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=水(4) ship=397:Intrepid改 equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=水(4) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=水(4) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=水(4) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=水(4) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=水(4) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=水(4) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=水(4) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=水(4) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=水(4) ship=439:Warspite equipmentCount=2 expected=3 delta=-1
+  - 192:38.1cm Mk.I/N連装砲改 routes=default:all:3ac44e1f0b42
+  - 367:Swordfish(水上機型) routes=default:all:f57efd17deac
+- day=水(4) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=水(4) ship=449:Pola equipmentCount=2 expected=3 delta=-1
+  - 431:SM.79 routes=default:all:877269501cbd
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=水(4) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:c69d895bc886
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=水(4) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=水(4) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=水(4) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=水(4) ship=498:村雨改二 equipmentCount=2 expected=3 delta=-1
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=水(4) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+- day=水(4) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+  - 221:一式戦 隼II型 routes=default:all:f4185dce3949
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+- day=水(4) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=水(4) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=水(4) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=水(4) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=水(4) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=水(4) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=水(4) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=水(4) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:dc9b6cd4f4a1
+  - 553:10cm連装高角砲改 routes=default:all:254e1f86a390
+- day=水(4) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:dc9b6cd4f4a1
+  - 553:10cm連装高角砲改 routes=default:all:254e1f86a390
+- day=水(4) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=水(4) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=水(4) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=水(4) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+- day=水(4) ship=571:Nelson equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=水(4) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=水(4) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=水(4) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+  - 298:16inch Mk.I三連装砲 routes=default:all:c8067e7d55f0
+  - 299:16inch Mk.I三連装砲+AFCT改 routes=default:all:0edfca591130
+- day=水(4) ship=578:朝霜改二 equipmentCount=2 expected=3 delta=-1
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=水(4) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=水(4) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=水(4) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=水(4) ship=591:金剛改二丙 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 328:35.6cm連装砲改 routes=default:all:324aedb0cc67
+- day=水(4) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+  - 331:16inch Mk.V連装砲 routes=default:all:dbf09a3c5418
+- day=水(4) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=水(4) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=水(4) ship=610:加賀改二戊 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=水(4) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=水(4) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 408:装甲艇(AB艇) routes=default:all:43c5c34f78fe
+- day=水(4) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=水(4) ship=628:Fletcher改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=水(4) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e,default:all:aed5aa004cb9
+- day=水(4) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 367:Swordfish(水上機型) routes=default:all:fc69695a7e3a
+- day=水(4) ship=647:浦波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=水(4) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=水(4) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=水(4) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=水(4) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=水(4) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=水(4) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=水(4) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=水(4) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=水(4) ship=698:加賀改二 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=水(4) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+  - 425:Barracuda Mk.III routes=default:all:db0d3ea05ca6
+- day=水(4) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=水(4) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=水(4) ship=744:朝霜改二補 equipmentCount=2 expected=3 delta=-1
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=水(4) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=水(4) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=水(4) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 427:305mm/46 三連装砲 routes=default:all:12b5697a6fc3
+- day=水(4) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=水(4) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+- day=水(4) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=水(4) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+- day=水(4) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+  - 470:12.7cm連装砲C型改三 routes=default:all:d3d58991a0bb
+- day=水(4) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=水(4) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=水(4) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=水(4) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+  - 256:TBF routes=default:all:96cbd38bc8c3
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=水(4) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=水(4) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=水(4) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=水(4) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+  - 387:6inch三連装速射砲 Mk.16 mod.2 routes=default:all:9c41b80ab409
+  - 414:SOC Seagull routes=default:all:ee38aa847802
+- day=水(4) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+- day=水(4) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=水(4) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=水(4) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=水(4) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+  - 523:零式小型水上機(熟練) routes=default:all:78f930479713
+- day=水(4) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=水(4) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=水(4) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=水(4) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=水(4) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=木(5) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=木(5) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=木(5) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=木(5) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=木(5) ship=16:潮 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=26:扶桑 equipmentCount=1 expected=3 delta=-2
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=木(5) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=35:響 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=37:電 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=木(5) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=木(5) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=木(5) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=木(5) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=木(5) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=木(5) ship=80:長門 equipmentCount=1 expected=3 delta=-2
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=木(5) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=木(5) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=木(5) ship=113:鬼怒 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=木(5) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=木(5) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=木(5) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=木(5) ship=138:能代 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=木(5) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+  - 102:九八式水上偵察機(夜偵) routes=default:all:8a8f1a334e84
+- day=木(5) ship=171:Bismarck equipmentCount=1 expected=3 delta=-2
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+- day=木(5) ship=172:Bismarck改 equipmentCount=1 expected=3 delta=-2
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+- day=木(5) ship=173:Bismarck zwei equipmentCount=1 expected=3 delta=-2
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+- day=木(5) ship=174:Z1 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=木(5) ship=178:Bismarck drei equipmentCount=1 expected=3 delta=-2
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+- day=木(5) ship=179:Z1 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=木(5) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=木(5) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=木(5) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=木(5) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=木(5) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=木(5) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=木(5) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=木(5) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=木(5) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=木(5) ship=233:潮改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=木(5) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=木(5) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=木(5) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=木(5) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 40:25mm三連装機銃 routes=default:all:b40d0f115ff5
+- day=木(5) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=木(5) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=木(5) ship=286:扶桑改 equipmentCount=1 expected=3 delta=-2
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=木(5) ship=289:鬼怒改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=木(5) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=木(5) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=木(5) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=木(5) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=木(5) ship=306:能代改 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=木(5) ship=310:Z1改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=木(5) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=木(5) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=木(5) ship=348:瑞穂改 equipmentCount=1 expected=3 delta=-2
+  - 217:強風改 routes=default:all:b58224783a1e
+- day=木(5) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=木(5) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=木(5) ship=361:Pola改 equipmentCount=1 expected=3 delta=-2
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=木(5) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=木(5) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=木(5) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=木(5) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=木(5) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=木(5) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=木(5) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=木(5) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=木(5) ship=407:潮改二 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=419:初霜改二 equipmentCount=1 expected=3 delta=-2
+  - 285:61cm三連装(酸素)魚雷後期型 routes=default:all:f4c951a0a6bf
+- day=木(5) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+- day=木(5) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+  - 184:Re.2001 OR改 routes=default:all:7213e14d6436
+- day=木(5) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+  - 431:SM.79 routes=default:all:877269501cbd
+- day=木(5) ship=449:Pola equipmentCount=1 expected=3 delta=-2
+  - 432:SM.79 bis routes=default:all:cb5d57ed3265
+- day=木(5) ship=451:瑞穂 equipmentCount=1 expected=3 delta=-2
+  - 217:強風改 routes=default:all:b58224783a1e
+- day=木(5) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=木(5) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+  - 63:12.7cm連装砲B型改二 routes=default:all:c03a3bdb5e3f
+- day=木(5) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=木(5) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=木(5) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=木(5) ship=492:Richelieu equipmentCount=1 expected=3 delta=-2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=木(5) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=木(5) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=木(5) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=木(5) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=木(5) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=木(5) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=木(5) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=木(5) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+- day=木(5) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=木(5) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=木(5) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+  - 300:16inch Mk.I三連装砲改+FCR type284 routes=default:all:00d2cb033e4a
+- day=木(5) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=木(5) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=木(5) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=木(5) ship=591:金剛改二丙 equipmentCount=1 expected=3 delta=-2
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+- day=木(5) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=木(5) ship=607:伊47改 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=木(5) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=木(5) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+  - 394:120mm/50 連装砲改 A.mod.1937 routes=default:all:51a47d25c215
+- day=木(5) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=木(5) ship=636:伊47 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=木(5) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=木(5) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=木(5) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=木(5) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=木(5) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=木(5) ship=679:大東改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=木(5) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=木(5) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=木(5) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=木(5) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=木(5) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=木(5) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=木(5) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=木(5) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=木(5) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=木(5) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=木(5) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=木(5) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=木(5) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=木(5) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=木(5) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=木(5) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=木(5) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=木(5) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=木(5) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=木(5) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=木(5) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=木(5) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=木(5) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=木(5) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=木(5) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=木(5) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=木(5) ship=9:吹雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=木(5) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=木(5) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=木(5) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=木(5) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=木(5) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=木(5) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 58:61cm五連装(酸素)魚雷 routes=default:all:89d31e62d47b
+- day=木(5) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 30:21号対空電探 routes=default:all:7c30f25353a5
+- day=木(5) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+- day=木(5) ship=81:陸奥 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=木(5) ship=82:伊勢改 equipmentCount=2 expected=3 delta=-1
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+- day=木(5) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=木(5) ship=84:加賀 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=木(5) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 180:一式陸攻 二二型甲 routes=default:all:1e9cd3e8b6f5
+- day=木(5) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+- day=木(5) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=木(5) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=木(5) ship=107:千代田甲 equipmentCount=2 expected=3 delta=-1
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+- day=木(5) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 119:14cm連装砲 routes=default:all:1db1a7f6022d
+- day=木(5) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=木(5) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=木(5) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=木(5) ship=130:熊野改 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=木(5) ship=137:阿賀野 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=木(5) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=木(5) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+  - 400:533mm 三連装魚雷(53-39型) routes=default:all:29f7924a630f
+- day=木(5) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 180:一式陸攻 二二型甲 routes=default:all:1e9cd3e8b6f5
+- day=木(5) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=木(5) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=木(5) ship=177:Prinz Eugen改 equipmentCount=2 expected=3 delta=-1
+  - 123:SKC34 20.3cm連装砲 routes=default:all:60eb5ced6cb1
+  - 124:FuMO25 レーダー routes=default:all:a7a60b217bce
+- day=木(5) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 71:10cm連装高角砲(砲架) routes=default:all:0cf4d5081165
+  - 118:紫雲 routes=default:all:4560a9a855b1
+- day=木(5) ship=196:飛龍改二 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 93:九七式艦攻(友永隊) routes=default:all:218ddf22545a
+- day=木(5) ship=201:吹雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=木(5) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=木(5) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=木(5) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=木(5) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+- day=木(5) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+  - 180:一式陸攻 二二型甲 routes=default:all:1e9cd3e8b6f5
+- day=木(5) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 58:61cm五連装(酸素)魚雷 routes=default:all:89d31e62d47b
+- day=木(5) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=木(5) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=木(5) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=木(5) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=木(5) ship=278:加賀改 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=木(5) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=木(5) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 19:九六式艦戦 routes=default:all:549f463bcc56
+- day=木(5) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=木(5) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 119:14cm連装砲 routes=default:all:1db1a7f6022d
+- day=木(5) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=木(5) ship=305:阿賀野改 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=木(5) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=木(5) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 344:九七式艦攻改 試製三号戊型(空六号電探改装備機) routes=default:all:09484d611b74
+- day=木(5) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=木(5) ship=343:香取改 equipmentCount=2 expected=3 delta=-1
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+  - 518:14cm連装砲改二 routes=default:all:1303d467a513
+- day=木(5) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=木(5) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=木(5) ship=356:鹿島改 equipmentCount=2 expected=3 delta=-1
+  - 119:14cm連装砲 routes=default:all:db9ec419be15
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=木(5) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=木(5) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=木(5) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=木(5) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+- day=木(5) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+  - 468:38cm四連装砲改 deux routes=default:all:0ca8abf41ed4
+- day=木(5) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=木(5) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=木(5) ship=397:Intrepid改 equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=木(5) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=木(5) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=木(5) ship=411:扶桑改二 equipmentCount=2 expected=3 delta=-1
+  - 103:試製35.6cm三連装砲 routes=default:all:46c7bd12484e
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=木(5) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=木(5) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=木(5) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=木(5) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=木(5) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=木(5) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=木(5) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+  - 205:F6F-3 routes=default:all:4a788c76559e
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=木(5) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 136:プリエーゼ式水中防御隔壁 routes=default:all:98b7b9cd8170
+- day=木(5) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 136:プリエーゼ式水中防御隔壁 routes=default:all:98b7b9cd8170
+- day=木(5) ship=450:秋津洲改 equipmentCount=2 expected=3 delta=-1
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=木(5) ship=465:鹿島 equipmentCount=2 expected=3 delta=-1
+  - 119:14cm連装砲 routes=default:all:db9ec419be15
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=木(5) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=木(5) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+  - 68:大発動艇 routes=default:all:c69d895bc886
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=木(5) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=木(5) ship=487:鬼怒改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 68:大発動艇 routes=default:all:c69d895bc886
+- day=木(5) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 238:零式水上偵察機11型乙 routes=default:all:ab0e71712745
+- day=木(5) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=木(5) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=木(5) ship=504:熊野改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=木(5) ship=509:熊野航改二 equipmentCount=2 expected=3 delta=-1
+  - 219:零式艦戦63型(爆戦) routes=default:all:af1aa100e091
+  - 271:紫電改四 routes=default:all:12c666e9e411
+- day=木(5) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=木(5) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=木(5) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=木(5) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=木(5) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=木(5) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:dc9b6cd4f4a1
+  - 553:10cm連装高角砲改 routes=default:all:254e1f86a390
+- day=木(5) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=木(5) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=木(5) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:dc9b6cd4f4a1
+  - 553:10cm連装高角砲改 routes=default:all:254e1f86a390
+- day=木(5) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+  - 277:FM-2 routes=default:all:f0821fb8ef9b
+  - 278:SK レーダー routes=default:all:324c9faaabb1
+- day=木(5) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=木(5) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=木(5) ship=562:Johnston equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=木(5) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+- day=木(5) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=木(5) ship=578:朝霜改二 equipmentCount=2 expected=3 delta=-1
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=木(5) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=木(5) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=木(5) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=木(5) ship=593:榛名改二乙 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 289:35.6cm三連装砲改(ダズル迷彩仕様) routes=default:all:974e6a552e64
+- day=木(5) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=木(5) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=木(5) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+  - 331:16inch Mk.V連装砲 routes=default:all:dbf09a3c5418
+- day=木(5) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=木(5) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=木(5) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=木(5) ship=610:加賀改二戊 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=木(5) ship=616:御蔵改 equipmentCount=2 expected=3 delta=-1
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=木(5) ship=628:Fletcher改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e
+- day=木(5) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 315:SG レーダー(初期型) routes=default:all:96d066f2212e,default:all:aed5aa004cb9
+- day=木(5) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=木(5) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+  - 397:現地改装12.7cm連装高角砲 routes=default:all:2ee3c6c372e8
+  - 398:現地改装10cm連装高角砲 routes=default:all:c58b2b6d0f51
+- day=木(5) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=木(5) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=木(5) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=木(5) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=木(5) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=木(5) ship=689:Johnston改 equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=木(5) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=木(5) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=木(5) ship=698:加賀改二 equipmentCount=2 expected=3 delta=-1
+  - 181:零式艦戦32型 routes=default:all:b50cfe9b84e9
+  - 182:零式艦戦32型(熟練) routes=default:all:5270dec9fbc4
+- day=木(5) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+  - 442:潜水艦後部魚雷発射管4門(初期型) routes=default:all:f79e1c2b57c0
+- day=木(5) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 450:13号対空電探改(後期型) routes=default:all:476e62488961
+- day=木(5) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=744:朝霜改二補 equipmentCount=2 expected=3 delta=-1
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=木(5) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=木(5) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:26304228fedd
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=木(5) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=木(5) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 424:Barracuda Mk.II routes=default:all:5e3e3b33b2bd
+- day=木(5) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=木(5) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=木(5) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=木(5) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+- day=木(5) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+  - 470:12.7cm連装砲C型改三 routes=default:all:d3d58991a0bb
+- day=木(5) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=木(5) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=木(5) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=木(5) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+  - 256:TBF routes=default:all:96cbd38bc8c3
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=木(5) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=木(5) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 507:14inch/45 連装砲 routes=default:all:cb94dcc0f8aa
+  - 508:14inch/45 三連装砲 routes=default:all:b482f43e5727
+- day=木(5) ship=943:熊野丸 equipmentCount=2 expected=3 delta=-1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+- day=木(5) ship=954:榛名改二丙 equipmentCount=2 expected=3 delta=-1
+  - 104:35.6cm連装砲(ダズル迷彩) routes=default:all:04fc3207dedb
+  - 289:35.6cm三連装砲改(ダズル迷彩仕様) routes=default:all:974e6a552e64
+- day=木(5) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=木(5) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+  - 535:13.8cm連装砲改 routes=default:all:47fceae2eb4f
+- day=木(5) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 247:15.2cm三連装砲 routes=default:all:064b8a4c0178
+- day=木(5) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+  - 522:零式小型水上機 routes=default:all:70e92c5cde78
+- day=木(5) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=木(5) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=木(5) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=木(5) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=木(5) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=木(5) ship=1031:飛龍改三 equipmentCount=2 expected=3 delta=-1
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+  - 271:紫電改四 routes=default:all:12c666e9e411
+- day=金(6) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=金(6) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=金(6) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=金(6) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=金(6) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=金(6) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=金(6) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=金(6) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=金(6) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=35:響 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=金(6) ship=37:電 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=金(6) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=金(6) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=金(6) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=金(6) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+- day=金(6) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=73:最上改 equipmentCount=1 expected=3 delta=-2
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+- day=金(6) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=金(6) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=金(6) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=金(6) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=金(6) ship=106:千歳甲 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+- day=金(6) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=金(6) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=金(6) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=金(6) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=金(6) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=金(6) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=金(6) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=金(6) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=金(6) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=金(6) ship=155:伊401 equipmentCount=1 expected=3 delta=-2
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=金(6) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+  - 102:九八式水上偵察機(夜偵) routes=default:all:8a8f1a334e84
+- day=金(6) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=160:那珂改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=金(6) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=金(6) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=金(6) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=金(6) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=金(6) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=金(6) ship=183:大淀 equipmentCount=1 expected=3 delta=-2
+  - 235:15.5cm三連装砲改 routes=default:all:161a6b4c3407
+- day=金(6) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=金(6) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=金(6) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=金(6) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=金(6) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=金(6) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=金(6) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=金(6) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=金(6) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=金(6) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=金(6) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=金(6) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=金(6) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=金(6) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=金(6) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=金(6) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=金(6) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=金(6) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=金(6) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=金(6) ship=288:翔鶴改 equipmentCount=1 expected=3 delta=-2
+  - 24:彗星 routes=default:all:b8f555ba112c
+- day=金(6) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=金(6) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=金(6) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=金(6) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=金(6) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=金(6) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=金(6) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=金(6) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=金(6) ship=325:清霜改 equipmentCount=1 expected=3 delta=-2
+  - 365:一式徹甲弾改 routes=default:all:e5896345b3a8
+- day=金(6) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=金(6) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=金(6) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=金(6) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=金(6) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=金(6) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=金(6) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=金(6) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=金(6) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=金(6) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=金(6) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=金(6) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=金(6) ship=403:伊401改 equipmentCount=1 expected=3 delta=-2
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=金(6) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=金(6) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=金(6) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=金(6) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=金(6) ship=410:清霜 equipmentCount=1 expected=3 delta=-2
+  - 365:一式徹甲弾改 routes=default:all:e5896345b3a8
+- day=金(6) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+- day=金(6) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=金(6) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+- day=金(6) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=金(6) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=金(6) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=金(6) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=金(6) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=金(6) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=金(6) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=金(6) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 296:12.7cm連装砲B型改四(戦時改修)+高射装置 routes=default:all:ebe68b04fbe3
+- day=金(6) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=金(6) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=金(6) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=金(6) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=金(6) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=金(6) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=金(6) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=金(6) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=金(6) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=金(6) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=金(6) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=金(6) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=金(6) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=金(6) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=金(6) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=金(6) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=金(6) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=金(6) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=金(6) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+  - 300:16inch Mk.I三連装砲改+FCR type284 routes=default:all:00d2cb033e4a
+- day=金(6) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+  - 393:120mm/50 連装砲 mod.1936 routes=default:all:0779a6b700cb
+- day=金(6) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=金(6) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=金(6) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=金(6) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=金(6) ship=602:South Dakota equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=金(6) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=金(6) ship=607:伊47改 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=金(6) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=金(6) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=金(6) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=金(6) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=金(6) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=金(6) ship=636:伊47 equipmentCount=1 expected=3 delta=-2
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=金(6) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=金(6) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=金(6) ship=646:加賀改二護 equipmentCount=1 expected=3 delta=-2
+  - 546:試製 震電(局地戦闘機) routes=default:all:26f26832bbb9
+- day=金(6) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=金(6) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=金(6) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=金(6) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=金(6) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=金(6) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=金(6) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=金(6) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=金(6) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=金(6) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=金(6) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=金(6) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=金(6) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=金(6) ship=697:South Dakota改 equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=金(6) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=金(6) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=金(6) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=金(6) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=金(6) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=金(6) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=金(6) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=金(6) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=金(6) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=金(6) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=金(6) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=金(6) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=金(6) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=金(6) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=金(6) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=金(6) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=金(6) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=金(6) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=金(6) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+  - 196:TBD routes=default:all:a13c3278fdca
+- day=金(6) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+- day=金(6) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=金(6) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=金(6) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=金(6) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=金(6) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=金(6) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=金(6) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=金(6) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=金(6) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=金(6) ship=9:吹雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=金(6) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=金(6) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=金(6) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=金(6) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=金(6) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=金(6) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=金(6) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=金(6) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=金(6) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=金(6) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=金(6) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 186:一式陸攻 三四型 routes=default:all:9135491ef68f
+- day=金(6) ship=80:長門 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=金(6) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=金(6) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=金(6) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=金(6) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=金(6) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=金(6) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=金(6) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+  - 187:銀河 routes=default:all:8a78ee8557e1
+- day=金(6) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=金(6) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+  - 400:533mm 三連装魚雷(53-39型) routes=default:all:29f7924a630f
+- day=金(6) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=金(6) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=金(6) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=金(6) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=金(6) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=金(6) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=金(6) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=金(6) ship=201:吹雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+- day=金(6) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=金(6) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=金(6) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=金(6) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 186:一式陸攻 三四型 routes=default:all:9135491ef68f
+- day=金(6) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 87:新型高温高圧缶 routes=default:all:4e2241be0e50
+- day=金(6) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=金(6) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=金(6) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=金(6) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=金(6) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=金(6) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=金(6) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=金(6) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=金(6) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=金(6) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=金(6) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=金(6) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=金(6) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 344:九七式艦攻改 試製三号戊型(空六号電探改装備機) routes=default:all:09484d611b74
+- day=金(6) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=金(6) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=金(6) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=金(6) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=金(6) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=金(6) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=金(6) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=金(6) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=金(6) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=金(6) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=金(6) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+  - 210:潜水艦搭載電探&水防式望遠鏡 routes=default:all:342dbacbbfae
+- day=金(6) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=金(6) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=金(6) ship=419:初霜改二 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+  - 285:61cm三連装(酸素)魚雷後期型 routes=default:all:f4c951a0a6bf
+- day=金(6) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=金(6) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=金(6) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=金(6) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=金(6) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=金(6) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=金(6) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+- day=金(6) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+- day=金(6) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=金(6) ship=466:翔鶴改二甲 equipmentCount=2 expected=3 delta=-1
+  - 24:彗星 routes=default:all:b8f555ba112c
+  - 53:烈風 一一型 routes=default:all:fd26895442b4
+- day=金(6) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=金(6) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=金(6) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 238:零式水上偵察機11型乙 routes=default:all:ab0e71712745
+- day=金(6) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+  - 240:22号対水上電探改四(後期調整型) routes=default:all:980a4c6849fa
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=金(6) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=金(6) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=金(6) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=金(6) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+  - 80:瑞雲12型 routes=default:all:b1cc5ab68a48
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=金(6) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+  - 80:瑞雲12型 routes=default:all:b1cc5ab68a48
+- day=金(6) ship=508:鈴谷航改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 220:8cm高角砲改+増設機銃 routes=default:all:41163b19f3b5
+- day=金(6) ship=509:熊野航改二 equipmentCount=2 expected=3 delta=-1
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+  - 219:零式艦戦63型(爆戦) routes=default:all:af1aa100e091
+- day=金(6) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=金(6) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=金(6) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=金(6) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=金(6) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=金(6) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=金(6) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=金(6) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=金(6) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=金(6) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=金(6) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=金(6) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=金(6) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+- day=金(6) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=金(6) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=金(6) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=金(6) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=金(6) ship=593:榛名改二乙 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 186:一式陸攻 三四型 routes=default:all:9135491ef68f
+- day=金(6) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=金(6) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=金(6) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=金(6) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=金(6) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+- day=金(6) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=金(6) ship=616:御蔵改 equipmentCount=2 expected=3 delta=-1
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=金(6) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=金(6) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=金(6) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=金(6) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+  - 397:現地改装12.7cm連装高角砲 routes=default:all:2ee3c6c372e8
+  - 398:現地改装10cm連装高角砲 routes=default:all:c58b2b6d0f51
+- day=金(6) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=金(6) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=金(6) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+  - 55:紫電改二 routes=default:all:167019ca556c
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=金(6) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=金(6) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=金(6) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=金(6) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=金(6) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=金(6) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=金(6) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+  - 196:TBD routes=default:all:a13c3278fdca
+  - 256:TBF routes=default:all:96cbd38bc8c3
+- day=金(6) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=金(6) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 423:Fulmar(戦闘偵察/熟練) routes=default:all:6d12caa9654e
+- day=金(6) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 550:試製 明星(増加試作機) routes=default:all:7d5dcc932b18
+  - 551:明星改 routes=default:all:d753995e598a
+- day=金(6) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=金(6) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=金(6) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+- day=金(6) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+  - 470:12.7cm連装砲C型改三 routes=default:all:d3d58991a0bb
+- day=金(6) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+  - 256:TBF routes=default:all:96cbd38bc8c3
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=金(6) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=金(6) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=金(6) ship=954:榛名改二丙 equipmentCount=2 expected=3 delta=-1
+  - 35:三式弾 routes=default:all:50aafeaca4ca
+  - 186:一式陸攻 三四型 routes=default:all:9135491ef68f
+- day=金(6) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=金(6) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+  - 535:13.8cm連装砲改 routes=default:all:47fceae2eb4f
+- day=金(6) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=金(6) ship=970:Gloire改 equipmentCount=2 expected=3 delta=-1
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+  - 537:15.2cm三連装主砲改 routes=default:all:55f5f3c6a235
+- day=金(6) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+  - 529:12.7cm連装砲C型改三H routes=default:all:f1e3173dc85e
+- day=金(6) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=金(6) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=金(6) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+- day=土(7) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=土(7) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=土(7) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=土(7) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=土(7) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=土(7) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=土(7) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=土(7) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=土(7) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=土(7) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=土(7) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=37:電 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=土(7) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=土(7) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=土(7) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=土(7) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+- day=土(7) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=73:最上改 equipmentCount=1 expected=3 delta=-2
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+- day=土(7) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=土(7) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=土(7) ship=106:千歳甲 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+- day=土(7) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+- day=土(7) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=土(7) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=土(7) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=土(7) ship=128:伊8 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=土(7) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=土(7) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=土(7) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=土(7) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=土(7) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=土(7) ship=147:Верный equipmentCount=1 expected=3 delta=-2
+  - 400:533mm 三連装魚雷(53-39型) routes=default:all:29f7924a630f
+- day=土(7) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+  - 102:九八式水上偵察機(夜偵) routes=default:all:8a8f1a334e84
+- day=土(7) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=土(7) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=土(7) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+  - 115:Ar196改 routes=default:all:40508123fffb
+- day=土(7) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=土(7) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=土(7) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=土(7) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=土(7) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=土(7) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+  - 68:大発動艇 routes=default:all:d6cbec690530
+- day=土(7) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=土(7) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=土(7) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+- day=土(7) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=土(7) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+  - 38:12.7mm単装機銃 routes=default:all:de131aa91b05
+- day=土(7) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=土(7) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=土(7) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=土(7) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=土(7) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=土(7) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+  - 120:91式高射装置 routes=default:all:26e819a6a2d1
+- day=土(7) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:9c1284aa5a80
+- day=土(7) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+  - 105:試製41cm三連装砲 routes=default:all:28dfb1f9f2b7
+- day=土(7) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+  - 16:九七式艦攻 routes=default:all:a6e32f9f03b0
+- day=土(7) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=土(7) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=土(7) ship=288:翔鶴改 equipmentCount=1 expected=3 delta=-2
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=土(7) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+- day=土(7) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=土(7) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+  - 145:戦闘糧食 routes=default:all:fb428aa9eb17
+- day=土(7) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=土(7) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+- day=土(7) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+  - 34:強化型艦本式缶 routes=default:all:7aca915173bb
+- day=土(7) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+  - 88:22号対水上電探改四 routes=default:all:4bee6a5e2fe9
+- day=土(7) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+- day=土(7) ship=325:清霜改 equipmentCount=1 expected=3 delta=-2
+  - 365:一式徹甲弾改 routes=default:all:e5896345b3a8
+- day=土(7) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=土(7) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=土(7) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=土(7) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+  - 163:Ro.43水偵 routes=default:all:7be5add4a08a
+- day=土(7) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=土(7) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=土(7) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=土(7) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=土(7) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=土(7) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=土(7) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=土(7) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=土(7) ship=400:伊8改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:5a820360510e
+- day=土(7) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=土(7) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=土(7) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+  - 109:零戦52型丙(六〇一空) routes=default:all:9a6107a01064
+- day=土(7) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 60:零式艦戦62型(爆戦) routes=default:all:36d8814f345f
+- day=土(7) ship=410:清霜 equipmentCount=1 expected=3 delta=-2
+  - 365:一式徹甲弾改 routes=default:all:e5896345b3a8
+- day=土(7) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+- day=土(7) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=434:睦月改二 equipmentCount=1 expected=3 delta=-2
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+- day=土(7) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+  - 147:120mm/50 連装砲 routes=default:all:198d0a2fdddd
+- day=土(7) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+  - 25:零式水上偵察機 routes=default:all:648f2ab5d3fb
+- day=土(7) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=土(7) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=土(7) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+  - 37:7.7mm機銃 routes=default:all:10c8205c5685
+- day=土(7) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+  - 91:12.7cm連装高角砲(後期型) routes=default:all:6a5841fe9f33
+- day=土(7) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+  - 174:53cm連装魚雷 routes=default:all:c6ce1878039f
+- day=土(7) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=土(7) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+  - 213:後期型艦首魚雷(6門) routes=default:all:36011974232b
+- day=土(7) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=土(7) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=土(7) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+- day=土(7) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+  - 50:20.3cm(3号)連装砲 routes=default:all:6091634994e5
+- day=土(7) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+  - 520:試製20.3cm(4号)連装砲 routes=default:all:cb5592d5f037
+- day=土(7) ship=509:熊野航改二 equipmentCount=1 expected=3 delta=-2
+  - 66:8cm高角砲 routes=default:all:d3c7e3ff662c
+- day=土(7) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=土(7) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=土(7) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=土(7) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+- day=土(7) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=土(7) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=土(7) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+  - 176:三式戦 飛燕 routes=default:all:9a317ac7d279
+- day=土(7) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=土(7) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+- day=土(7) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+- day=土(7) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=土(7) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+  - 251:Spitfire Mk.V routes=default:all:df3bbc711be8
+- day=土(7) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+  - 300:16inch Mk.I三連装砲改+FCR type284 routes=default:all:00d2cb033e4a
+- day=土(7) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+  - 393:120mm/50 連装砲 mod.1936 routes=default:all:0779a6b700cb
+- day=土(7) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=土(7) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=土(7) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=土(7) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=602:South Dakota equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=土(7) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=土(7) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=土(7) ship=616:御蔵改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=土(7) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=土(7) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=641:松 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=土(7) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=土(7) ship=646:加賀改二護 equipmentCount=1 expected=3 delta=-2
+  - 546:試製 震電(局地戦闘機) routes=default:all:26f26832bbb9
+- day=土(7) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+  - 74:探照灯 routes=default:all:5e39651a23a7
+- day=土(7) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+  - 524:12cm単装高角砲+25mm機銃増備 routes=default:all:c621dc9341f8
+- day=土(7) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=土(7) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+  - 414:SOC Seagull routes=default:all:2095c777900c
+- day=土(7) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+  - 438:三式水中探信儀改 routes=default:all:2440df511407
+- day=土(7) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=土(7) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=土(7) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+  - 47:三式水中探信儀 routes=default:all:389b3074eea0
+- day=土(7) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+  - 341:152mm/55 三連装速射砲改 routes=default:all:983d5fdeec8e
+- day=土(7) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+  - 340:152mm/55 三連装速射砲 routes=default:all:8ed2384d64b0
+- day=土(7) ship=697:South Dakota改 equipmentCount=1 expected=3 delta=-2
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+- day=土(7) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+  - 379:12.7cm単装高角砲改二 routes=default:all:d9a3c7822f0a
+- day=土(7) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+  - 399:6inch Mk.XXIII三連装砲 routes=default:all:50f5d14991f3
+- day=土(7) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=土(7) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+  - 519:SJレーダー+潜水艦司令塔装備 routes=default:all:3bfc29537dc1
+- day=土(7) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=土(7) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=土(7) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=土(7) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=土(7) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+  - 426:305mm/46 連装砲 routes=default:all:7642ae925701
+- day=土(7) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=土(7) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+  - 457:後期型艦首魚雷(4門) routes=default:all:4461cb1ac42d
+- day=土(7) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=土(7) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+  - 261:Type144/147 ASDIC routes=default:all:49fc07d21398
+- day=土(7) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+  - 227:二式爆雷 routes=default:all:cb927a4aa37a
+- day=土(7) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+  - 266:12.7cm連装砲C型改二 routes=default:all:da989e36c07f
+- day=土(7) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+- day=土(7) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+  - 190:38.1cm Mk.I連装砲 routes=default:all:4bac8a6c3e85
+- day=土(7) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+  - 196:TBD routes=default:all:a13c3278fdca
+- day=土(7) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+- day=土(7) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+  - 496:陸軍歩兵部隊 routes=default:all:3fc57309fa96
+- day=土(7) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=土(7) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+- day=土(7) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+- day=土(7) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=土(7) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+  - 167:特二式内火艇 routes=default:all:09f789f1dd2a
+- day=土(7) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+  - 267:12.7cm連装砲D型改二 routes=default:all:cb6d6d82f602
+- day=土(7) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+  - 564:21cm単装主砲 routes=default:all:86dbb5415d20
+- day=土(7) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+  - 565:15cm単装副砲 routes=default:all:3290e0fb1b71
+- day=土(7) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=土(7) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+  - 555:18cm/57 三連装主砲 routes=default:all:0ee83b20b8f7
+- day=土(7) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=土(7) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=土(7) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=土(7) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=土(7) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=土(7) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=土(7) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=土(7) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=土(7) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+- day=土(7) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=土(7) ship=80:長門 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=土(7) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=土(7) ship=86:比叡 equipmentCount=2 expected=3 delta=-1
+  - 36:九一式徹甲弾 routes=default:all:b0091933eaab
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=土(7) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=土(7) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=土(7) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+- day=土(7) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=土(7) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+  - 32:42号対空電探 routes=default:all:188e298ebeed
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=土(7) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+  - 6:20.3cm連装砲 routes=default:all:b2df96d03ea7
+  - 90:20.3cm(2号)連装砲 routes=default:all:050396da1d26
+- day=土(7) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+  - 317:三式弾改 routes=default:all:9d455b034bbd
+- day=土(7) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+  - 36:九一式徹甲弾 routes=default:all:b0091933eaab
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=土(7) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=土(7) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+  - 370:Swordfish Mk.II改(水偵型) routes=default:all:06eb00cb4a14
+- day=土(7) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=土(7) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=土(7) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=土(7) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=土(7) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+  - 76:38cm連装砲 routes=default:all:d881e70492c2
+  - 401:Do 17 Z-2 routes=default:all:a111c45a46af
+- day=土(7) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=土(7) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+  - 5:15.5cm三連装砲 routes=default:all:c8ed35f33782
+  - 235:15.5cm三連装砲改 routes=default:all:161a6b4c3407
+- day=土(7) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=土(7) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:0c749b891cb7
+- day=土(7) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=土(7) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+  - 11:15.2cm単装砲 routes=default:all:4da5f8d474dc
+  - 116:一式徹甲弾 routes=default:all:4329615f234b
+- day=土(7) ship=210:比叡改 equipmentCount=2 expected=3 delta=-1
+  - 36:九一式徹甲弾 routes=default:all:b0091933eaab
+  - 140:96式150cm探照灯 routes=default:all:0644d96cda95
+- day=土(7) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=土(7) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=土(7) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+  - 27:13号対空電探 routes=default:all:176734ed414a
+  - 46:九三式水中聴音機 routes=default:all:78d3e82eafe3
+- day=土(7) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+  - 8:41cm連装砲 routes=default:all:1959c8e7c149
+  - 73:増設バルジ(大型艦) routes=default:all:c0fca6587022
+- day=土(7) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=土(7) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+  - 23:九九式艦爆 routes=default:all:cf7a8dd0a4d4
+  - 61:二式艦上偵察機 routes=default:all:5a0b71a34923
+- day=土(7) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+  - 7:35.6cm連装砲 routes=default:all:80efe2261048
+  - 168:九六式陸攻 routes=default:all:8d5058eb8efb
+- day=土(7) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=土(7) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=土(7) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+  - 65:15.2cm連装砲 routes=default:all:89e6e27fcec2
+  - 139:15.2cm連装砲改 routes=default:all:429ecfbf3a58
+- day=土(7) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+  - 78:12.7cm単装砲 routes=default:all:323ceedca5f2
+  - 84:2cm 四連装FlaK 38 routes=default:all:ee02d082fec4
+- day=土(7) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 344:九七式艦攻改 試製三号戊型(空六号電探改装備機) routes=default:all:09484d611b74
+- day=土(7) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+- day=土(7) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=土(7) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=土(7) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=土(7) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=土(7) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=土(7) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=土(7) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=土(7) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=土(7) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+  - 383:後期型53cm艦首魚雷(8門) routes=default:all:be5413a72623
+- day=土(7) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 395:深山 routes=default:all:ea1496dc70e9
+- day=土(7) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 169:一式陸攻 routes=default:all:b350dedff50a
+- day=土(7) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+  - 49:25mm単装機銃 routes=default:all:3b9f614afc6e
+  - 166:大発動艇(八九式中戦車&陸戦隊) routes=default:all:c2eb64cae80d
+- day=土(7) ship=419:初霜改二 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:4eaf2ffd1eff
+  - 285:61cm三連装(酸素)魚雷後期型 routes=default:all:f4c951a0a6bf
+- day=土(7) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+- day=土(7) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=土(7) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+  - 64:Ju87C改 routes=default:all:6633090c6292
+  - 158:Bf109T改 routes=default:all:5a196abbe189
+- day=土(7) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+  - 1:12cm単装砲 routes=default:all:7e5ab5da6381
+  - 293:12cm単装砲改二 routes=default:all:65e28f916a89
+- day=土(7) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+  - 161:16inch三連装砲 Mk.7 routes=default:all:459855a81d81
+  - 183:16inch三連装砲 Mk.7+GFCS routes=default:all:e8bfaac597c7
+- day=土(7) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+  - 134:OTO 152mm三連装速射砲 routes=default:all:e09634c273a1
+  - 137:381mm/50 三連装砲改 routes=default:all:8e4a3aa43f5d
+- day=土(7) ship=442:Roma equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+- day=土(7) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+  - 133:381mm/50 三連装砲 routes=default:all:470680a0aa05
+  - 135:90mm単装高角砲 routes=default:all:c43550a5a78a
+- day=土(7) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+  - 165:二式水戦改 routes=default:all:55d7998f9edc
+  - 216:二式水戦改(熟練) routes=default:all:0d8fa2a14bb9
+- day=土(7) ship=466:翔鶴改二甲 equipmentCount=2 expected=3 delta=-1
+  - 53:烈風 一一型 routes=default:all:fd26895442b4
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=土(7) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+  - 226:九五式爆雷 routes=default:all:503b4ca4c851
+  - 346:二式12cm迫撃砲改 routes=default:all:75a91cfd597a
+- day=土(7) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=土(7) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 238:零式水上偵察機11型乙 routes=default:all:ab0e71712745
+- day=土(7) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+  - 240:22号対水上電探改四(後期調整型) routes=default:all:980a4c6849fa
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+- day=土(7) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 266:12.7cm連装砲C型改二 routes=default:all:5e2920f85db4
+  - 348:艦載型 四式20cm対地噴進砲 routes=default:all:445dffbb0b1a
+- day=土(7) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=土(7) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=土(7) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+  - 370:Swordfish Mk.II改(水偵型) routes=default:all:06eb00cb4a14
+- day=土(7) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+  - 224:爆装一式戦 隼III型改(65戦隊) routes=default:all:18458cf43fca
+  - 370:Swordfish Mk.II改(水偵型) routes=default:all:06eb00cb4a14
+- day=土(7) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+  - 80:瑞雲12型 routes=default:all:b1cc5ab68a48
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=土(7) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+  - 5:15.5cm三連装砲 routes=default:all:7a2a2010191c
+  - 80:瑞雲12型 routes=default:all:b1cc5ab68a48
+- day=土(7) ship=508:鈴谷航改二 equipmentCount=2 expected=3 delta=-1
+  - 10:12.7cm連装高角砲 routes=default:all:d2aab5da2cef
+  - 220:8cm高角砲改+増設機銃 routes=default:all:41163b19f3b5
+- day=土(7) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=土(7) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=土(7) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+  - 231:30.5cm三連装砲 routes=default:all:2413b8892ff2
+  - 232:30.5cm三連装砲改 routes=default:all:76ea61c00f47
+- day=土(7) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+  - 282:130mm B-13連装砲 routes=default:all:588470d376fb
+  - 283:533mm 三連装魚雷 routes=default:all:9bc9e6c89ac9
+- day=土(7) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+  - 260:Type124 ASDIC routes=default:all:0a9e021ff141
+  - 280:QF 4.7inch砲 Mk.XII改 routes=default:all:5138c8a06d49
+- day=土(7) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=土(7) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=土(7) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+  - 3:10cm連装高角砲 routes=default:all:41f705697d84
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=土(7) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=土(7) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=土(7) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+- day=土(7) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=土(7) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+  - 420:SB2C-3 routes=default:all:908abea802d5
+  - 421:SB2C-5 routes=default:all:23d320e6eb04
+- day=土(7) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+  - 195:SBD routes=default:all:e5b92ccba373
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=土(7) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+  - 29:33号対水上電探 routes=default:all:3bba6c629346
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+- day=土(7) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=土(7) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+  - 303:Bofors 15.2cm連装砲 Model 1930 routes=default:all:107b782b0806
+  - 304:S9 Osprey routes=default:all:8fc6eb99e48a
+- day=土(7) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=土(7) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=土(7) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=土(7) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=土(7) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+  - 20:零式艦戦21型 routes=default:all:bb6c8d0a7a94
+  - 96:零式艦戦21型(熟練) routes=default:all:2ab3a232c996
+- day=土(7) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+  - 356:8inch三連装砲 Mk.9 routes=default:all:297fddfde46f
+  - 357:8inch三連装砲 Mk.9 mod.2 routes=default:all:21ef0c2f6739
+- day=土(7) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+- day=土(7) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+  - 95:潜水艦53cm艦首魚雷(8門) routes=default:all:6fd9663530f8
+  - 211:潜水艦搭載電探&逆探(E27) routes=default:all:50246b4a1bfc
+- day=土(7) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=土(7) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=土(7) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+  - 46:九三式水中聴音機 routes=default:all:12b41c8d0691
+  - 310:14cm連装砲改 routes=default:all:9c133564aba4
+- day=土(7) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+  - 72:増設バルジ(中型艦) routes=default:all:2e30e5f2b0c9
+  - 129:熟練見張員 routes=default:all:65a9bda1bc5f
+- day=土(7) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+  - 397:現地改装12.7cm連装高角砲 routes=default:all:2ee3c6c372e8
+  - 398:現地改装10cm連装高角砲 routes=default:all:c58b2b6d0f51
+- day=土(7) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=土(7) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+  - 381:16inch三連装砲 Mk.6 routes=default:all:6db549077196
+  - 385:16inch三連装砲 Mk.6 mod.2 routes=default:all:9f8a532e808b
+- day=土(7) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+  - 55:紫電改二 routes=default:all:167019ca556c
+  - 139:15.2cm連装砲改 routes=default:all:e078abf36c64
+- day=土(7) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=土(7) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+  - 229:12.7cm単装高角砲(後期型) routes=default:all:f281d7d37dcb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+  - 45:三式爆雷投射機 routes=default:all:aaa569d39229
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 40:25mm三連装機銃 routes=default:all:f67f9378c448
+- day=土(7) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+  - 41:甲標的 甲型 routes=default:all:4b0b4b91ad74
+  - 309:甲標的 丙型 routes=default:all:a9a0ed905296
+- day=土(7) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+  - 478:熟練甲板要員+航空整備員 routes=default:all:1b74301ee961
+- day=土(7) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+  - 440:21inch艦首魚雷発射管6門(初期型) routes=default:all:75f2fb6e9752
+  - 441:21inch艦首魚雷発射管6門(後期型) routes=default:all:1285e3ecfeb0
+- day=土(7) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+  - 15:61cm四連装(酸素)魚雷 routes=default:all:31bc41b74ca2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+- day=土(7) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+  - 196:TBD routes=default:all:a13c3278fdca
+  - 256:TBF routes=default:all:96cbd38bc8c3
+- day=土(7) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=土(7) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+  - 249:Fulmar routes=default:all:5ce8b8112815
+  - 423:Fulmar(戦闘偵察/熟練) routes=default:all:6d12caa9654e
+- day=土(7) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+  - 82:九七式艦攻(九三一空) routes=default:all:aff6f061162c
+  - 447:零式艦戦64型(複座KMX搭載機) routes=default:all:3773bd055c41
+- day=土(7) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=土(7) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+  - 511:21inch艦首魚雷発射管4門(初期型) routes=default:all:40b24e3b4c76
+  - 512:21inch艦首魚雷発射管4門(後期型) routes=default:all:41c2c84b8e66
+- day=土(7) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+- day=土(7) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+  - 256:TBF routes=default:all:96cbd38bc8c3
+  - 419:SBD-5 routes=default:all:93a9b5e9dc60
+- day=土(7) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+  - 287:三式爆雷投射機 集中配備 routes=default:all:02925ead93eb
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=土(7) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+  - 284:5inch単装砲 Mk.30 routes=default:all:c89c35b5065a
+  - 314:533mm五連装魚雷(初期型) routes=default:all:9d355c9a5210
+- day=土(7) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+  - 541:SBD(Yellow Wings) routes=default:all:09da097fcd18
+  - 542:TBD(Yellow Wings) routes=default:all:01cac8e7becc
+- day=土(7) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+  - 534:13.8cm連装砲 routes=default:all:db2f9ba09e82
+  - 535:13.8cm連装砲改 routes=default:all:47fceae2eb4f
+- day=土(7) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+  - 245:38cm四連装砲 routes=default:all:c5f39d4be9b2
+  - 471:Loire 130M routes=default:all:700de1ea9b45
+- day=土(7) ship=970:Gloire改 equipmentCount=2 expected=3 delta=-1
+  - 536:15.2cm三連装主砲 routes=default:all:a7cff06879ff
+  - 537:15.2cm三連装主砲改 routes=default:all:55f5f3c6a235
+- day=土(7) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+  - 470:12.7cm連装砲C型改三 routes=default:all:0b4a54e356f6
+  - 529:12.7cm連装砲C型改三H routes=default:all:f1e3173dc85e
+- day=土(7) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+  - 39:25mm連装機銃 routes=default:all:4f898534f297
+  - 382:12cm単装高角砲E型 routes=default:all:4ef49b00476c
+- day=土(7) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+  - 106:13号対空電探改 routes=default:all:93f9d23da165
+  - 379:12.7cm単装高角砲改二 routes=default:all:0848b580f1df
+- day=土(7) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+  - 171:OS2U routes=default:all:d3d8a914652b
+  - 330:16inch Mk.I連装砲 routes=default:all:c8e1bde4f7d1
+
+## Over expected
+
+- day=日(1) ship=1040:吹雪改三護(六式) equipmentCount=6 expected=3 delta=3
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+  - 288:試製15cm9連装対潜噴進砲 routes=default:all:972f6d90022d
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+- day=日(1) ship=546:武蔵改二 equipmentCount=4 expected=3 delta=1
+  - 12:15.5cm三連装副砲 routes=default:all:8f6842bff16c
+  - 234:15.5cm三連装副砲改 routes=default:all:525f5b9ee47d
+  - 276:46cm三連装砲改 routes=default:all:f8d2be0ae0d1
+  - 281:51cm連装砲 routes=default:all:089b65fedba1
+- day=日(1) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+  - 326:S-51J routes=default:all:cccc34de6328
+  - 327:S-51J改 routes=default:all:9ca9a6c72fb9
+- day=日(1) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+  - 294:12.7cm連装砲A型改二 routes=default:all:3abc55e3e92b
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+  - 455:試製 長12.7cm連装砲A型改四 routes=default:all:186f4dadd58b
+- day=月(2) ship=185:龍鳳 equipmentCount=4 expected=3 delta=1
+  - 16:九七式艦攻 routes=default:all:ff698a5a6271
+  - 17:天山 routes=default:all:bf638692951b
+  - 92:毘式40mm連装機銃 routes=default:all:f00f5c1e0291
+  - 98:九七式艦攻(熟練) routes=default:all:4c5f92b650d6
+- day=月(2) ship=501:最上改二 equipmentCount=4 expected=3 delta=1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 410:21号対空電探改二 routes=default:all:ad5f505afa71
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=月(2) ship=506:最上改二特 equipmentCount=4 expected=3 delta=1
+  - 26:瑞雲 routes=default:all:4314e5e07e47
+  - 81:瑞雲12型(六三四空) routes=default:all:d28bd8695fb6
+  - 410:21号対空電探改二 routes=default:all:ad5f505afa71
+  - 485:強風改二 routes=default:all:94e918f95e27
+- day=月(2) ship=546:武蔵改二 equipmentCount=4 expected=3 delta=1
+  - 9:46cm三連装砲 routes=default:all:492cb28d20e2
+  - 128:試製51cm連装砲 routes=default:all:97c133e5aed4
+  - 204:艦本新設計 増設バルジ(大型艦) routes=default:all:68c35f2498c4
+  - 234:15.5cm三連装副砲改 routes=default:all:525f5b9ee47d,default:all:8ba371222bbc
+- day=月(2) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 31:32号対水上電探 routes=default:all:c97206e5bab6
+  - 274:12cm30連装噴進砲改二 routes=default:all:2ecb5d02be68
+  - 324:オ号観測機改 routes=default:all:909feae4a3d4
+- day=月(2) ship=666:磯波改二 equipmentCount=4 expected=3 delta=1
+  - 13:61cm三連装魚雷 routes=default:all:2d762e61d343
+  - 125:61cm三連装(酸素)魚雷 routes=default:all:faa1ccc75477
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+- day=月(2) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+  - 286:61cm四連装(酸素)魚雷後期型 routes=default:all:4882793bc784
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 572:12.7cm単装高角砲改三 routes=default:all:d4be89a4aa46
+- day=火(3) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 572:12.7cm単装高角砲改三 routes=default:all:d4be89a4aa46
+  - 573:試製 23号電探改三 routes=default:all:b7220df07239
+- day=水(4) ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 expected=3 delta=1
+  - 197:F4F-3 routes=default:all:f4b546529bd9
+  - 205:F6F-3 routes=default:all:4a788c76559e
+  - 206:F6F-5 routes=default:all:0c0b1893c292
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=水(4) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 237:瑞雲(六三四空/熟練) routes=default:all:20a5c45d53e6
+  - 322:瑞雲改二(六三四空) routes=default:all:8969fcdf0fca
+  - 325:オ号観測機改二 routes=default:all:e21dda98f060
+- day=水(4) ship=968:初月改二 equipmentCount=4 expected=3 delta=1
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 122:10cm連装高角砲+高射装置 routes=default:all:458fce12729c
+  - 179:試製61cm六連装(酸素)魚雷 routes=default:all:507fe55b3784
+  - 553:10cm連装高角砲改 routes=default:all:254e1f86a390
+- day=水(4) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 572:12.7cm単装高角砲改三 routes=default:all:d4be89a4aa46
+  - 573:試製 23号電探改三 routes=default:all:b7220df07239
+- day=木(5) ship=1040:吹雪改三護(六式) equipmentCount=5 expected=3 delta=2
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 288:試製15cm9連装対潜噴進砲 routes=default:all:972f6d90022d
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 574:SCレーダー改(後期調整型) routes=default:all:d9e8177c99c7
+- day=木(5) ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 expected=3 delta=1
+  - 198:F4F-4 routes=default:all:369640c32665
+  - 205:F6F-3 routes=default:all:4a788c76559e
+  - 206:F6F-5 routes=default:all:0c0b1893c292
+  - 279:SK+SG レーダー routes=default:all:c5a51c376dd1
+- day=木(5) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 237:瑞雲(六三四空/熟練) routes=default:all:20a5c45d53e6
+  - 322:瑞雲改二(六三四空) routes=default:all:8969fcdf0fca
+  - 325:オ号観測機改二 routes=default:all:e21dda98f060
+- day=木(5) ship=948:熊野丸改 equipmentCount=4 expected=3 delta=1
+  - 70:三式指揮連絡機(対潜) routes=default:all:0b44270bd535
+  - 445:二式複戦 屠龍 routes=default:all:01e712b77b65
+  - 451:三式指揮連絡機改 routes=default:all:234328632a8b
+  - 549:三式指揮連絡機改二 routes=default:all:14a3c9e32f97
+- day=金(6) ship=554:日向改二 equipmentCount=5 expected=3 delta=2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+  - 237:瑞雲(六三四空/熟練) routes=default:all:20a5c45d53e6
+  - 325:オ号観測機改二 routes=default:all:e21dda98f060
+- day=金(6) ship=1040:吹雪改三護(六式) equipmentCount=5 expected=3 delta=2
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 288:試製15cm9連装対潜噴進砲 routes=default:all:972f6d90022d
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 574:SCレーダー改(後期調整型) routes=default:all:d9e8177c99c7
+- day=金(6) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+  - 68:大発動艇 routes=default:all:917dc599f8ec
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+  - 455:試製 長12.7cm連装砲A型改四 routes=default:all:186f4dadd58b
+- day=土(7) ship=1040:吹雪改三護(六式) equipmentCount=6 expected=3 delta=3
+  - 121:94式高射装置 routes=default:all:20370cbec2fe
+  - 288:試製15cm9連装対潜噴進砲 routes=default:all:972f6d90022d
+  - 294:12.7cm連装砲A型改二 routes=default:all:f03ddfce12c9
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 313:5inch単装砲 Mk.30改 routes=default:all:935a87f5e26a
+  - 574:SCレーダー改(後期調整型) routes=default:all:d9e8177c99c7
+- day=土(7) ship=554:日向改二 equipmentCount=5 expected=3 delta=2
+  - 28:22号対水上電探 routes=default:all:e6ed860bf9ff
+  - 30:21号対空電探 routes=default:all:ddbe4ae48c8a
+  - 141:32号対水上電探改 routes=default:all:726e0b84ab0a
+  - 326:S-51J routes=default:all:cccc34de6328
+  - 327:S-51J改 routes=default:all:9ca9a6c72fb9
+- day=土(7) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+  - 294:12.7cm連装砲A型改二 routes=default:all:3abc55e3e92b
+  - 295:12.7cm連装砲A型改三(戦時改修)+高射装置 routes=default:all:a2879c509337
+  - 297:12.7cm連装砲A型 routes=default:all:6e396f3d47e3
+  - 455:試製 長12.7cm連装砲A型改四 routes=default:all:186f4dadd58b
+
+## All equipment count mismatches
+
+- day=日(1) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=37:電 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=50:島風 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=150:比叡改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=204:深雪改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=229:島風改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=319:妙高改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=364:Warspite改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=397:Intrepid改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=411:扶桑改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=419:初霜改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=434:睦月改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=438:Saratoga改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=439:Warspite equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=498:村雨改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=509:熊野航改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=546:武蔵改二 equipmentCount=4 expected=3 delta=1
+- day=日(1) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=550:Saratoga Mk.II Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+- day=日(1) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=592:比叡改二丙 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+- day=日(1) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=654:Washington equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=659:Washington改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=678:日振改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=968:初月改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=975:春雨改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+- day=日(1) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+- day=日(1) ship=1040:吹雪改三護(六式) equipmentCount=6 expected=3 delta=3
+- day=日(1) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=50:島風 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=69:鳥海 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=131:大和 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=137:阿賀野 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=139:矢矧 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=143:武蔵 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=160:那珂改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=185:龍鳳 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=229:島風改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=272:鳥海改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=305:阿賀野改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=307:矢矧改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=346:照月改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=361:Pola改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=364:Warspite改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=368:浦波改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=399:伊58改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=422:照月 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=426:吹雪改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=427:鳥海改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=435:如月改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=439:Warspite equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=442:Roma equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=449:Pola equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=486:浦波 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=487:鬼怒改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=498:村雨改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=501:最上改二 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=506:最上改二特 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=538:冬月改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=546:武蔵改二 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=576:Nelson改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=581:日進 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=586:日進甲 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=654:Washington equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=659:Washington改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=666:磯波改二 equipmentCount=4 expected=3 delta=1
+- day=月(2) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=668:矢矧改二乙 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=690:日進改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=723:Ranger改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=948:熊野丸改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=960:清霜改二丁 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+- day=月(2) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+- day=月(2) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+- day=火(3) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=33:叢雲 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=62:妙高 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=80:長門 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=83:赤城 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=86:比叡 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=87:日向 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=88:日向改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=107:千代田甲 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=111:瑞鶴 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=112:瑞鶴改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=128:伊8 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=131:大和 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=137:阿賀野 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=205:叢雲改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=210:比叡改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=265:妙高改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=277:赤城改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=299:Scamp equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=305:阿賀野改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=346:照月改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=357:初月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=361:Pola改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=364:Warspite改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=400:伊8改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=422:照月 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=423:初月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=433:Saratoga equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=435:如月改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=439:Warspite equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=442:Roma equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=449:Pola equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=462:瑞鶴改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=487:鬼怒改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=490:荒潮改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=498:村雨改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=532:涼月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=537:涼月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=541:長門改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=553:伊勢改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=571:Nelson equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=578:朝霜改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=581:日進 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=586:日進甲 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=591:金剛改二丙 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=592:比叡改二丙 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=594:赤城改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=599:赤城改二戊 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=647:浦波改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=690:日進改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=715:Scamp改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=744:朝霜改二補 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=925:Langley equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=930:Langley改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=943:熊野丸 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=948:熊野丸改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=955:清霜改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=960:清霜改二丁 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=982:早波改二 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+- day=火(3) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+- day=火(3) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+- day=水(4) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=11:深雪 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=20:雪風 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=43:時雨 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=82:伊勢改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=83:赤城 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=84:加賀 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=91:飛龍 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=107:千代田甲 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=113:鬼怒 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=131:大和 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=135:長波 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=142:衣笠改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=143:武蔵 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=144:夕立改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=151:榛名改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=171:Bismarck equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=172:Bismarck改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=173:Bismarck zwei equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=174:Z1 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=178:Bismarck drei equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=179:Z1 zwei equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=197:蒼龍改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=243:時雨改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=275:長門改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=277:赤城改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=278:加賀改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=280:飛龍改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=289:鬼怒改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=299:Scamp equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=304:長波改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=310:Z1改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=330:秋月改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=343:香取改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=361:Pola改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=364:Warspite改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=372:Commandant Teste改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=375:伊14改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=397:Intrepid改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=411:扶桑改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=421:秋月 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=439:Warspite equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=442:Roma equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=449:Pola equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=476:神風改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=487:鬼怒改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=491:Commandant Teste equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=492:Richelieu equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=493:伊400 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=495:伊14 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=498:村雨改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=502:三隈改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=507:三隈改二特 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=520:Janus equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 expected=3 delta=1
+- day=水(4) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+- day=水(4) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=571:Nelson equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=572:Rodney equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=577:Rodney改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=578:朝霜改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=591:金剛改二丙 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=594:赤城改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=599:赤城改二戊 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=606:伊400改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=610:加賀改二戊 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=616:御蔵改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=621:神州丸 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=626:神州丸改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=628:Fletcher改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=630:Gotland andra equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=647:浦波改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=651:丹陽 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=656:雪風改二 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=698:加賀改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=713:Victorious改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=715:Scamp改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=734:Phoenix改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=744:朝霜改二補 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=745:涼波改二補 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=893:Janus改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=952:Phoenix equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=957:General Belgrano equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=963:秋月改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=967:Mogador改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=968:初月改二 equipmentCount=4 expected=3 delta=1
+- day=水(4) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=972:伊41 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=977:伊41改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=1003:しまね丸 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=1008:しまね丸改 equipmentCount=1 expected=3 delta=-2
+- day=水(4) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=1034:涼波改二 equipmentCount=2 expected=3 delta=-1
+- day=水(4) ship=1040:吹雪改三護(六式) equipmentCount=4 expected=3 delta=1
+- day=木(5) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=9:吹雪 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=13:綾波 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=16:潮 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=25:北上 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=26:扶桑 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=35:響 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=36:雷 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=37:電 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=58:北上改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=73:最上改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=77:伊勢 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=80:長門 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=81:陸奥 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=82:伊勢改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=84:加賀 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=85:霧島 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=87:日向 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=89:鳳翔 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=107:千代田甲 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=109:千代田航 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=113:鬼怒 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=119:北上改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=120:三隈 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=121:三隈改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=125:熊野 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=130:熊野改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=137:阿賀野 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=138:能代 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=152:霧島改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=160:那珂改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=171:Bismarck equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=172:Bismarck改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=173:Bismarck zwei equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=174:Z1 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=177:Prinz Eugen改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=178:Bismarck drei equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=179:Z1 zwei equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=196:飛龍改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=201:吹雪改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=206:磯波改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=207:綾波改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=212:霧島改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=233:潮改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=236:雷改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=278:加賀改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=285:鳳翔改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=286:扶桑改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=289:鬼怒改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=292:千代田航改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=297:千代田航改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=305:阿賀野改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=306:能代改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=310:Z1改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=316:天津風改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=343:香取改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=348:瑞穂改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=356:鹿島改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=361:Pola改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=365:Aquila改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=383:択捉改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=395:Ташкент改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=396:Gambier Bay改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=397:Intrepid改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=407:潮改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=411:扶桑改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=419:初霜改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=438:Saratoga改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=444:Aquila equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=448:Zara equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=449:Pola equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=450:秋津洲改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=451:瑞穂 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=465:鹿島 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=469:江風改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=478:龍田改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=487:鬼怒改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=489:満潮改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=492:Richelieu equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=504:熊野改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=509:熊野航改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=533:冬月 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=538:冬月改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=544:Gambier Bay equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 expected=3 delta=1
+- day=木(5) ship=551:日振 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=552:大東 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=554:日向改二 equipmentCount=4 expected=3 delta=1
+- day=木(5) ship=561:Samuel B.Roberts equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=562:Johnston equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=578:朝霜改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=591:金剛改二丙 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=593:榛名改二乙 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=602:South Dakota equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=603:Hornet equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=607:伊47改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=610:加賀改二戊 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=616:御蔵改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=619:Grecale改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=627:敷波改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=628:Fletcher改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=629:Fletcher Mk.II equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=636:伊47 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=679:大東改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=681:Samuel B.Roberts改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=689:Johnston改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=697:South Dakota改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=698:加賀改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=716:梅改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=744:朝霜改二補 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=877:Conte di Cavour equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=878:Conte di Cavour改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=918:Maryland改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=920:Samuel B.Roberts Mk.II equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=921:鵜来 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=924:Nevada equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=926:鵜来改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=929:Nevada改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=935:Jean Bart equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=936:Nevada改 Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=943:熊野丸 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=948:熊野丸改 equipmentCount=4 expected=3 delta=1
+- day=木(5) ship=954:榛名改二丙 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=970:Gloire改 equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=971:伊36 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=984:Wahoo equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=989:Wahoo改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=木(5) ship=1005:Minneapolis equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=1010:Minneapolis改 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=1031:飛龍改三 equipmentCount=2 expected=3 delta=-1
+- day=木(5) ship=1040:吹雪改三護(六式) equipmentCount=5 expected=3 delta=2
+- day=金(6) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=9:吹雪 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=27:山城 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=35:響 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=37:電 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=73:最上改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=78:金剛 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=79:榛名 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=80:長門 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=81:陸奥 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=106:千歳甲 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=128:伊8 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=147:Верный equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=155:伊401 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=160:那珂改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=183:大淀 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=201:吹雪改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=209:金剛改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=211:榛名改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=235:響改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=276:陸奥改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=287:山城改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=288:翔鶴改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=325:清霜改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=392:Richelieu改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=400:伊8改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=403:伊401改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=410:清霜 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=419:初霜改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=434:睦月改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=446:Italia equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=466:翔鶴改二甲 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=508:鈴谷航改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=509:熊野航改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=554:日向改二 equipmentCount=5 expected=3 delta=2
+- day=金(6) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=593:榛名改二乙 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=602:South Dakota equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=607:伊47改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=616:御蔵改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=636:伊47 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=646:加賀改二護 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+- day=金(6) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=697:South Dakota改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=719:伊201改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=881:伊201 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=915:早潮改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=954:榛名改二丙 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=970:Gloire改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+- day=金(6) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=金(6) ship=1040:吹雪改三護(六式) equipmentCount=5 expected=3 delta=2
+- day=金(6) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=1:睦月 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=2:如月 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=9:吹雪 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=10:白雪 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=11:深雪 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=12:磯波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=13:綾波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=14:敷波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=16:潮 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=24:大井 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=25:北上 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=26:扶桑 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=27:山城 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=28:皐月 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=29:文月 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=34:暁 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=37:電 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=43:時雨 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=50:島風 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=55:神通 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=57:大井改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=58:北上改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=61:青葉 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=68:摩耶 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=69:鳥海 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=70:最上 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=71:利根 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=72:筑摩 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=73:最上改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=77:伊勢 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=78:金剛 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=80:長門 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=83:赤城 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=86:比叡 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=90:蒼龍 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=91:飛龍 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=92:隼鷹 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=106:千歳甲 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=115:夕張 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=118:大井改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=119:北上改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=123:衣笠 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=124:鈴谷 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=127:伊58 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=128:伊8 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=129:鈴谷改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=130:熊野改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=132:秋雲 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=133:夕雲 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=135:長波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=138:能代 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=139:矢矧 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=140:酒匂 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=142:衣笠改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=147:Верный equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=149:金剛改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=150:比叡改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=155:伊401 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=158:川内改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=159:神通改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=162:神威 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=171:Bismarck equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=172:Bismarck改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=173:Bismarck zwei equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=174:Z1 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=175:Z3 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=176:Prinz Eugen equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=177:Prinz Eugen改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=178:Bismarck drei equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=179:Z1 zwei equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=180:Z3 zwei equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=181:天津風 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=183:大淀 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=184:大鯨 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=188:利根改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=189:筑摩改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=194:羽黒改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=199:大潮改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=200:阿武隈改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=201:吹雪改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=202:白雪改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=204:深雪改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=206:磯波改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=207:綾波改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=208:敷波改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=209:金剛改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=210:比叡改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=223:神通改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=228:雪風改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=229:島風改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=233:潮改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=234:暁改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=237:電改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=243:時雨改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=254:睦月改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=255:如月改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=256:皐月改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=257:文月改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=264:青葉改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=271:摩耶改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=272:鳥海改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=273:利根改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=274:筑摩改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=275:長門改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=276:陸奥改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=277:赤城改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=279:蒼龍改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=280:飛龍改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=284:隼鷹改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=286:扶桑改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=287:山城改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=288:翔鶴改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=293:夕張改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=295:衣笠改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=299:Scamp equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=301:秋雲改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=302:夕雲改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=304:長波改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=306:能代改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=307:矢矧改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=310:Z1改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=311:Z3改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=316:天津風改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=318:龍鳳改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=319:妙高改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=320:磯風改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=323:春雨改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=325:清霜改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=343:香取改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=345:高波改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=347:Libeccio改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=348:瑞穂改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=352:速吸改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=353:Graf Zeppelin改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=357:初月改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=358:Zara改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=360:Iowa改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=368:浦波改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=370:朝風改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=371:松風改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=374:伊13改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=376:占守改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=380:大鷹改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=381:神鷹改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=382:雲鷹改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=383:択捉改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=394:Jervis改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=399:伊58改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=400:伊8改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=403:伊401改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=404:雲龍 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=405:春雨 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=406:雲龍改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=407:潮改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=408:隼鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=410:清霜 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=412:山城改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=418:皐月改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=419:初霜改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=420:叢雲改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=423:初月 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=424:高波 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=427:鳥海改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=432:Graf Zeppelin equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=434:睦月改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=435:如月改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=437:暁改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=440:Iowa equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=441:Littorio equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=442:Roma equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=443:Libeccio equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=447:Roma改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=450:秋津洲改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=451:瑞穂 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=460:速吸 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=466:翔鶴改二甲 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=471:神風 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=472:朝風 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=474:松風 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=477:天龍改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=478:龍田改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=484:浜波 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=486:浦波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=488:由良改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=489:満潮改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=490:荒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=492:Richelieu equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=493:伊400 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=494:伊13 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=497:白露改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=499:神威改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=500:神威改母 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=501:最上改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=502:三隈改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=503:鈴谷改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=504:熊野改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=506:最上改二特 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=507:三隈改二特 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=508:鈴谷航改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=509:熊野航改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=511:Гангут equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=512:Октябрьская революция equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=513:Гангут два equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=514:Sheffield equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=516:Ташкент equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=517:占守 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=519:Jervis equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=521:春日丸 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=522:八幡丸 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=524:択捉 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=526:大鷹 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=528:早波 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=529:大鷹改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=532:涼月 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=533:冬月 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=534:神鷹 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=536:神鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=537:涼月改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=542:夕雲改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=545:Saratoga Mk.II equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=548:文月改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=549:Intrepid equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=551:日振 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=552:大東 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=554:日向改二 equipmentCount=5 expected=3 delta=2
+- day=土(7) ship=561:Samuel B.Roberts equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=562:Johnston equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=566:陽炎改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=568:黒潮改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=571:Nelson equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=574:Gotland equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=576:Nelson改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=577:Rodney改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=579:Gotland改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=580:Maestrale改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=581:日進 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=586:日進甲 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=588:山風改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=590:G.Garibaldi equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=594:赤城改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=595:Houston equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=596:Fletcher equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=599:赤城改二戊 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=600:Houston改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=601:Colorado equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=602:South Dakota equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=603:Hornet equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=606:伊400改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=611:御蔵 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=615:Helena equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=616:御蔵改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=617:屋代改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=620:Helena改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=622:夕張改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=623:夕張改二特 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=624:夕張改二丁 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=628:Fletcher改 Mod.2 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=629:Fletcher Mk.II equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=641:松 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=645:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=646:加賀改二護 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=647:浦波改二 equipmentCount=4 expected=3 delta=1
+- day=土(7) ship=648:秋雲改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=649:高波改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=650:宗谷 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=651:丹陽 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=654:Washington equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=655:Northampton equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=659:Washington改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=660:Northampton改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=663:矢矧改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=667:山風改二丁 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=668:矢矧改二乙 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=670:親潮改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=674:玉波 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=678:日振改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=679:大東改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=680:浜波改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=681:Samuel B.Roberts改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=688:早波改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=689:Johnston改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=690:日進改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=691:G.Garibaldi改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=692:Fletcher改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=697:South Dakota改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=702:松改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=704:Hornet改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=705:Sheffield改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=714:昭南改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=715:Scamp改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=718:玉波改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=723:Ranger改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=727:第百一号輸送艦改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=730:稲木改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=732:Drum改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=733:Valiant改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=738:Norge改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=739:Eidsvold改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=877:Conte di Cavour equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=878:Conte di Cavour改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=882:伊203 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=884:雲鷹 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=885:Victorious equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=887:伊203改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=889:雲鷹改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=891:Salmon equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=895:昭南 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=897:Salmon改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=900:山汐丸 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=901:Javelin equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=906:Javelin改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=910:倉橋改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=915:早潮改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=920:Samuel B.Roberts Mk.II equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=921:鵜来 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=922:稲木 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=925:Langley equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=926:鵜来改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=927:Valiant equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=931:Ranger equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=941:Heywood L.E. equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=942:Richard P.Leary equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=943:熊野丸 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=945:第百一号輸送艦 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=956:早霜改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=962:Mogador equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=965:Gloire equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=966:Lexington equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=967:Mogador改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=969:Richelieu Deux equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=970:Gloire改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=971:伊36 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=975:春雨改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=976:伊36改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=979:稲木改二 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=981:藤波改二 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=997:杉改 equipmentCount=2 expected=3 delta=-1
+- day=土(7) ship=998:Norge equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=999:Eidsvold equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=1001:Киров equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=1006:Киров改 equipmentCount=1 expected=3 delta=-2
+- day=土(7) ship=1040:吹雪改三護(六式) equipmentCount=6 expected=3 delta=3
+- day=土(7) ship=1496:Colorado改 equipmentCount=2 expected=3 delta=-1
+
+## Full reverse table
+
+### 日 (sunday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=1 equipmentIds=13
+- ship=10:白雪 equipmentCount=2 equipmentIds=13,297
+- ship=11:深雪 equipmentCount=1 equipmentIds=13
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=1 equipmentIds=129
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=16:潮 equipmentCount=2 equipmentIds=49,395
+- ship=20:雪風 equipmentCount=1 equipmentIds=106
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=2 equipmentIds=15,32
+- ship=26:扶桑 equipmentCount=2 equipmentIds=7,168
+- ship=27:山城 equipmentCount=1 equipmentIds=169
+- ship=28:皐月 equipmentCount=1 equipmentIds=49
+- ship=29:文月 equipmentCount=1 equipmentIds=39
+- ship=33:叢雲 equipmentCount=1 equipmentIds=13
+- ship=37:電 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=2 equipmentIds=27,46
+- ship=50:島風 equipmentCount=1 equipmentIds=179
+- ship=55:神通 equipmentCount=1 equipmentIds=74
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=2 equipmentIds=15,32
+- ship=61:青葉 equipmentCount=1 equipmentIds=6
+- ship=62:妙高 equipmentCount=1 equipmentIds=90
+- ship=68:摩耶 equipmentCount=1 equipmentIds=120
+- ship=69:鳥海 equipmentCount=1 equipmentIds=74
+- ship=71:利根 equipmentCount=1 equipmentIds=25
+- ship=77:伊勢 equipmentCount=2 equipmentIds=30,141
+- ship=78:金剛 equipmentCount=2 equipmentIds=11,116
+- ship=79:榛名 equipmentCount=3 equipmentIds=35,116,186
+- ship=81:陸奥 equipmentCount=1 equipmentIds=8
+- ship=82:伊勢改 equipmentCount=3 equipmentIds=26,51,79
+- ship=83:赤城 equipmentCount=2 equipmentIds=181,182
+- ship=84:加賀 equipmentCount=3 equipmentIds=20,96,201
+- ship=85:霧島 equipmentCount=3 equipmentIds=35,36,328
+- ship=86:比叡 equipmentCount=1 equipmentIds=140
+- ship=87:日向 equipmentCount=2 equipmentIds=28,31
+- ship=88:日向改 equipmentCount=3 equipmentIds=26,79,237
+- ship=89:鳳翔 equipmentCount=3 equipmentIds=19,98,228
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=23,61
+- ship=91:飛龍 equipmentCount=1 equipmentIds=16
+- ship=92:隼鷹 equipmentCount=1 equipmentIds=60
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=60,391,478
+- ship=111:瑞鶴 equipmentCount=2 equipmentIds=21,152
+- ship=112:瑞鶴改 equipmentCount=2 equipmentIds=21,152
+- ship=115:夕張 equipmentCount=2 equipmentIds=46,310
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=23,391,551
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=23,391,551
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=2 equipmentIds=15,32
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=124:鈴谷 equipmentCount=1 equipmentIds=10
+- ship=127:伊58 equipmentCount=1 equipmentIds=167
+- ship=129:鈴谷改 equipmentCount=1 equipmentIds=10
+- ship=130:熊野改 equipmentCount=1 equipmentIds=50
+- ship=131:大和 equipmentCount=3 equipmentIds=89,117,204
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=135:長波 equipmentCount=2 equipmentIds=72,145
+- ship=136:大和改 equipmentCount=3 equipmentIds=89,117,204
+- ship=137:阿賀野 equipmentCount=3 equipmentIds=11,66,145
+- ship=138:能代 equipmentCount=2 equipmentIds=65,66
+- ship=139:矢矧 equipmentCount=1 equipmentIds=66
+- ship=140:酒匂 equipmentCount=2 equipmentIds=32,139
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=27,39,47
+- ship=142:衣笠改二 equipmentCount=2 equipmentIds=6,90
+- ship=143:武蔵 equipmentCount=3 equipmentIds=9,12,204
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=27,46,296
+- ship=147:Верный equipmentCount=2 equipmentIds=72,400
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=204,234,276
+- ship=149:金剛改二 equipmentCount=2 equipmentIds=11,116
+- ship=150:比叡改二 equipmentCount=1 equipmentIds=140
+- ship=151:榛名改二 equipmentCount=3 equipmentIds=35,116,186
+- ship=152:霧島改二 equipmentCount=3 equipmentIds=35,36,328
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,18,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=211,383
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=18,22,52
+- ship=158:川内改二 equipmentCount=1 equipmentIds=102
+- ship=159:神通改二 equipmentCount=1 equipmentIds=74
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=68,166,176
+- ship=162:神威 equipmentCount=2 equipmentIds=221,367
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=68,166,176
+- ship=171:Bismarck equipmentCount=2 equipmentIds=114,401
+- ship=172:Bismarck改 equipmentCount=2 equipmentIds=114,401
+- ship=173:Bismarck zwei equipmentCount=2 equipmentIds=114,401
+- ship=174:Z1 equipmentCount=2 equipmentIds=78,84
+- ship=175:Z3 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=115
+- ship=177:Prinz Eugen改 equipmentCount=1 equipmentIds=115
+- ship=178:Bismarck drei equipmentCount=2 equipmentIds=114,401
+- ship=179:Z1 zwei equipmentCount=2 equipmentIds=78,84
+- ship=180:Z3 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=5,235
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=17,21,92
+- ship=188:利根改二 equipmentCount=1 equipmentIds=25
+- ship=194:羽黒改二 equipmentCount=1 equipmentIds=88
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=125,129,285
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,93,94
+- ship=197:蒼龍改二 equipmentCount=3 equipmentIds=23,61,99
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=68
+- ship=201:吹雪改 equipmentCount=1 equipmentIds=13
+- ship=202:白雪改 equipmentCount=2 equipmentIds=13,297
+- ship=204:深雪改 equipmentCount=1 equipmentIds=13
+- ship=205:叢雲改 equipmentCount=1 equipmentIds=13
+- ship=206:磯波改 equipmentCount=2 equipmentIds=13,297
+- ship=207:綾波改 equipmentCount=1 equipmentIds=129
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=2 equipmentIds=11,116
+- ship=210:比叡改 equipmentCount=1 equipmentIds=140
+- ship=211:榛名改 equipmentCount=3 equipmentIds=35,116,186
+- ship=212:霧島改 equipmentCount=3 equipmentIds=35,36,328
+- ship=223:神通改 equipmentCount=1 equipmentIds=74
+- ship=228:雪風改 equipmentCount=1 equipmentIds=106
+- ship=229:島風改 equipmentCount=1 equipmentIds=179
+- ship=233:潮改 equipmentCount=2 equipmentIds=49,395
+- ship=237:電改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=2 equipmentIds=27,46
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=256:皐月改 equipmentCount=1 equipmentIds=49
+- ship=257:文月改 equipmentCount=1 equipmentIds=39
+- ship=264:青葉改 equipmentCount=1 equipmentIds=6
+- ship=265:妙高改 equipmentCount=1 equipmentIds=90
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=120
+- ship=272:鳥海改 equipmentCount=1 equipmentIds=74
+- ship=273:利根改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=1 equipmentIds=105
+- ship=276:陸奥改 equipmentCount=1 equipmentIds=8
+- ship=277:赤城改 equipmentCount=2 equipmentIds=181,182
+- ship=278:加賀改 equipmentCount=3 equipmentIds=20,96,201
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=23,61
+- ship=280:飛龍改 equipmentCount=1 equipmentIds=16
+- ship=284:隼鷹改 equipmentCount=1 equipmentIds=60
+- ship=285:鳳翔改 equipmentCount=3 equipmentIds=19,98,228
+- ship=286:扶桑改 equipmentCount=2 equipmentIds=7,168
+- ship=287:山城改 equipmentCount=1 equipmentIds=169
+- ship=288:翔鶴改 equipmentCount=3 equipmentIds=60,391,478
+- ship=293:夕張改 equipmentCount=2 equipmentIds=46,310
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=299:Scamp equipmentCount=2 equipmentIds=440,441
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=267
+- ship=304:長波改 equipmentCount=2 equipmentIds=72,145
+- ship=305:阿賀野改 equipmentCount=3 equipmentIds=11,66,145
+- ship=306:能代改 equipmentCount=2 equipmentIds=65,66
+- ship=307:矢矧改 equipmentCount=1 equipmentIds=66
+- ship=310:Z1改 equipmentCount=2 equipmentIds=78,84
+- ship=311:Z3改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=32,55,139
+- ship=316:天津風改 equipmentCount=1 equipmentIds=34
+- ship=318:龍鳳改 equipmentCount=2 equipmentIds=92,344
+- ship=319:妙高改二 equipmentCount=2 equipmentIds=88,90
+- ship=321:大淀改 equipmentCount=3 equipmentIds=235,275,531
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=330:秋月改 equipmentCount=3 equipmentIds=120,121,149
+- ship=343:香取改 equipmentCount=1 equipmentIds=46
+- ship=346:照月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=347:Libeccio改 equipmentCount=1 equipmentIds=147
+- ship=348:瑞穂改 equipmentCount=2 equipmentIds=165,216
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=357:初月改 equipmentCount=1 equipmentIds=121
+- ship=358:Zara改 equipmentCount=1 equipmentIds=163
+- ship=360:Iowa改 equipmentCount=2 equipmentIds=161,183
+- ship=364:Warspite改 equipmentCount=2 equipmentIds=190,250
+- ship=365:Aquila改 equipmentCount=3 equipmentIds=184,189,316
+- ship=368:浦波改 equipmentCount=1 equipmentIds=297
+- ship=371:松風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=3 equipmentIds=194,367,370
+- ship=374:伊13改 equipmentCount=1 equipmentIds=213
+- ship=375:伊14改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=1 equipmentIds=176
+- ship=381:神鷹改 equipmentCount=2 equipmentIds=82,98
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=82,447
+- ship=383:択捉改 equipmentCount=1 equipmentIds=226
+- ship=392:Richelieu改 equipmentCount=3 equipmentIds=245,246,471
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=242,243,251
+- ship=394:Jervis改 equipmentCount=2 equipmentIds=260,280
+- ship=395:Ташкент改 equipmentCount=3 equipmentIds=282,283,400
+- ship=397:Intrepid改 equipmentCount=1 equipmentIds=474
+- ship=399:伊58改 equipmentCount=1 equipmentIds=167
+- ship=403:伊401改 equipmentCount=2 equipmentIds=211,383
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=407:潮改二 equipmentCount=2 equipmentIds=49,395
+- ship=408:隼鷹改二 equipmentCount=1 equipmentIds=60
+- ship=411:扶桑改二 equipmentCount=2 equipmentIds=7,168
+- ship=412:山城改二 equipmentCount=2 equipmentIds=81,169
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=49,68
+- ship=419:初霜改二 equipmentCount=1 equipmentIds=106
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=13
+- ship=421:秋月 equipmentCount=3 equipmentIds=120,121,149
+- ship=422:照月 equipmentCount=3 equipmentIds=120,121,122
+- ship=423:初月 equipmentCount=1 equipmentIds=121
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=121,294,295
+- ship=427:鳥海改二 equipmentCount=1 equipmentIds=74
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=40,120,121
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=2 equipmentIds=195,197
+- ship=434:睦月改二 equipmentCount=1 equipmentIds=1
+- ship=435:如月改二 equipmentCount=2 equipmentIds=1,293
+- ship=438:Saratoga改 equipmentCount=1 equipmentIds=195
+- ship=439:Warspite equipmentCount=2 equipmentIds=190,250
+- ship=440:Iowa equipmentCount=2 equipmentIds=161,183
+- ship=441:Littorio equipmentCount=2 equipmentIds=134,137
+- ship=442:Roma equipmentCount=3 equipmentIds=133,134,135
+- ship=443:Libeccio equipmentCount=1 equipmentIds=147
+- ship=444:Aquila equipmentCount=3 equipmentIds=184,189,316
+- ship=446:Italia equipmentCount=3 equipmentIds=134,137,163
+- ship=447:Roma改 equipmentCount=3 equipmentIds=133,134,135
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=25
+- ship=451:瑞穂 equipmentCount=2 equipmentIds=165,216
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=60,391,478
+- ship=462:瑞鶴改二 equipmentCount=2 equipmentIds=21,152
+- ship=466:翔鶴改二甲 equipmentCount=3 equipmentIds=60,391,478
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=21,151,152
+- ship=471:神風 equipmentCount=2 equipmentIds=226,346
+- ship=474:松風 equipmentCount=1 equipmentIds=37
+- ship=476:神風改 equipmentCount=3 equipmentIds=174,226,346
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=1 equipmentIds=174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=1 equipmentIds=297
+- ship=487:鬼怒改二 equipmentCount=3 equipmentIds=68,131,193
+- ship=488:由良改二 equipmentCount=2 equipmentIds=229,238
+- ship=489:満潮改二 equipmentCount=2 equipmentIds=240,266
+- ship=490:荒潮改二 equipmentCount=1 equipmentIds=348
+- ship=491:Commandant Teste equipmentCount=3 equipmentIds=194,367,370
+- ship=492:Richelieu equipmentCount=2 equipmentIds=245,471
+- ship=493:伊400 equipmentCount=1 equipmentIds=95
+- ship=494:伊13 equipmentCount=1 equipmentIds=213
+- ship=495:伊14 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=162,164,203
+- ship=497:白露改二 equipmentCount=1 equipmentIds=227
+- ship=498:村雨改二 equipmentCount=2 equipmentIds=28,470
+- ship=499:神威改 equipmentCount=2 equipmentIds=221,367
+- ship=500:神威改母 equipmentCount=2 equipmentIds=221,367
+- ship=501:最上改二 equipmentCount=2 equipmentIds=81,485
+- ship=502:三隈改二 equipmentCount=1 equipmentIds=520
+- ship=503:鈴谷改二 equipmentCount=1 equipmentIds=10
+- ship=504:熊野改二 equipmentCount=1 equipmentIds=50
+- ship=506:最上改二特 equipmentCount=2 equipmentIds=81,485
+- ship=507:三隈改二特 equipmentCount=1 equipmentIds=520
+- ship=508:鈴谷航改二 equipmentCount=3 equipmentIds=10,60,220
+- ship=509:熊野航改二 equipmentCount=1 equipmentIds=66
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=242,243,251
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=2 equipmentIds=260,280
+- ship=521:春日丸 equipmentCount=1 equipmentIds=176
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=82,447
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=1 equipmentIds=176
+- ship=529:大鷹改二 equipmentCount=1 equipmentIds=176
+- ship=532:涼月 equipmentCount=2 equipmentIds=121,122
+- ship=533:冬月 equipmentCount=2 equipmentIds=3,122
+- ship=534:神鷹 equipmentCount=2 equipmentIds=82,98
+- ship=536:神鷹改二 equipmentCount=2 equipmentIds=82,98
+- ship=537:涼月改 equipmentCount=2 equipmentIds=121,122
+- ship=538:冬月改 equipmentCount=3 equipmentIds=3,122,553
+- ship=541:長門改二 equipmentCount=2 equipmentIds=105,493
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=267
+- ship=543:長波改二 equipmentCount=3 equipmentIds=72,145,267
+- ship=545:Saratoga Mk.II equipmentCount=2 equipmentIds=195,206
+- ship=546:武蔵改二 equipmentCount=4 equipmentIds=12,234,276,281
+- ship=548:文月改二 equipmentCount=1 equipmentIds=39
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=1 equipmentIds=195
+- ship=551:日振 equipmentCount=1 equipmentIds=382
+- ship=552:大東 equipmentCount=2 equipmentIds=45,382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=30,141,274
+- ship=554:日向改二 equipmentCount=4 equipmentIds=28,31,326,327
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=23,391,551
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=23,391,551
+- ship=561:Samuel B.Roberts equipmentCount=1 equipmentIds=284
+- ship=562:Johnston equipmentCount=1 equipmentIds=284
+- ship=566:陽炎改二 equipmentCount=1 equipmentIds=286
+- ship=571:Nelson equipmentCount=1 equipmentIds=251
+- ship=572:Rodney equipmentCount=2 equipmentIds=298,299
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=8,236,318
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,304
+- ship=576:Nelson改 equipmentCount=1 equipmentIds=251
+- ship=577:Rodney改 equipmentCount=2 equipmentIds=298,299
+- ship=578:朝霜改二 equipmentCount=1 equipmentIds=450
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,304
+- ship=580:Maestrale改 equipmentCount=1 equipmentIds=393
+- ship=581:日進 equipmentCount=2 equipmentIds=41,309
+- ship=586:日進甲 equipmentCount=2 equipmentIds=41,309
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=3 equipmentIds=116,365,483
+- ship=592:比叡改二丙 equipmentCount=2 equipmentIds=140,317
+- ship=593:榛名改二乙 equipmentCount=3 equipmentIds=35,116,186
+- ship=594:赤城改二 equipmentCount=2 equipmentIds=181,182
+- ship=595:Houston equipmentCount=2 equipmentIds=356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=284
+- ship=599:赤城改二戊 equipmentCount=2 equipmentIds=181,182
+- ship=600:Houston改 equipmentCount=2 equipmentIds=356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=171,330
+- ship=602:South Dakota equipmentCount=2 equipmentIds=381,385
+- ship=603:Hornet equipmentCount=1 equipmentIds=478
+- ship=606:伊400改 equipmentCount=1 equipmentIds=95
+- ship=610:加賀改二戊 equipmentCount=3 equipmentIds=20,96,201
+- ship=617:屋代改 equipmentCount=1 equipmentIds=227
+- ship=621:神州丸 equipmentCount=3 equipmentIds=403,409,445
+- ship=622:夕張改二 equipmentCount=2 equipmentIds=46,310
+- ship=623:夕張改二特 equipmentCount=2 equipmentIds=46,310
+- ship=624:夕張改二丁 equipmentCount=2 equipmentIds=46,310
+- ship=626:神州丸改 equipmentCount=3 equipmentIds=403,409,445
+- ship=627:敷波改二 equipmentCount=3 equipmentIds=13,125,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=1 equipmentIds=284
+- ship=629:Fletcher Mk.II equipmentCount=1 equipmentIds=284
+- ship=630:Gotland andra equipmentCount=3 equipmentIds=303,304,368
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=645:宗谷 equipmentCount=1 equipmentIds=524
+- ship=646:加賀改二護 equipmentCount=3 equipmentIds=20,96,201
+- ship=647:浦波改二 equipmentCount=4 equipmentIds=294,295,297,455
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=650:宗谷 equipmentCount=1 equipmentIds=524
+- ship=651:丹陽 equipmentCount=2 equipmentIds=397,398
+- ship=654:Washington equipmentCount=1 equipmentIds=381
+- ship=655:Northampton equipmentCount=1 equipmentIds=414
+- ship=656:雪風改二 equipmentCount=1 equipmentIds=106
+- ship=659:Washington改 equipmentCount=1 equipmentIds=381
+- ship=660:Northampton改 equipmentCount=1 equipmentIds=414
+- ship=662:能代改二 equipmentCount=3 equipmentIds=55,66,407
+- ship=663:矢矧改二 equipmentCount=2 equipmentIds=55,66
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=13,295,297
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=1 equipmentIds=66
+- ship=670:親潮改二 equipmentCount=1 equipmentIds=266
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=1 equipmentIds=382
+- ship=679:大東改 equipmentCount=3 equipmentIds=45,227,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=1 equipmentIds=284
+- ship=689:Johnston改 equipmentCount=1 equipmentIds=284
+- ship=690:日進改 equipmentCount=2 equipmentIds=41,309
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=284
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=35,36,328
+- ship=697:South Dakota改 equipmentCount=2 equipmentIds=381,385
+- ship=698:加賀改二 equipmentCount=3 equipmentIds=20,96,201
+- ship=699:宗谷 equipmentCount=3 equipmentIds=175,185,524
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=2 equipmentIds=419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=233,422,473
+- ship=713:Victorious改 equipmentCount=3 equipmentIds=249,252,423
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=2 equipmentIds=440,441
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=70,346,452
+- ship=718:玉波改 equipmentCount=2 equipmentIds=15,28
+- ship=723:Ranger改 equipmentCount=2 equipmentIds=196,256
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,314,315
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=3 equipmentIds=386,414,539
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,544
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,314,315
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=72,267,517
+- ship=744:朝霜改二補 equipmentCount=1 equipmentIds=450
+- ship=745:涼波改二補 equipmentCount=3 equipmentIds=267,286,575
+- ship=877:Conte di Cavour equipmentCount=1 equipmentIds=426
+- ship=878:Conte di Cavour改 equipmentCount=1 equipmentIds=426
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=426,428,429
+- ship=882:伊203 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=344,372,552
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=82,447
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,423
+- ship=887:伊203改 equipmentCount=1 equipmentIds=457
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=344,372,552
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=82,447
+- ship=891:Salmon equipmentCount=2 equipmentIds=511,512
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=19,98,228
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=897:Salmon改 equipmentCount=2 equipmentIds=511,512
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=19,98,228
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=70,346
+- ship=901:Javelin equipmentCount=1 equipmentIds=261
+- ship=906:Javelin改 equipmentCount=1 equipmentIds=261
+- ship=911:大和改二 equipmentCount=3 equipmentIds=89,117,204
+- ship=915:早潮改二 equipmentCount=1 equipmentIds=266
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=89,117,204
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=1 equipmentIds=284
+- ship=921:鵜来 equipmentCount=2 equipmentIds=287,382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=925:Langley equipmentCount=1 equipmentIds=419
+- ship=926:鵜来改 equipmentCount=2 equipmentIds=287,382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=930:Langley改 equipmentCount=1 equipmentIds=419
+- ship=931:Ranger equipmentCount=1 equipmentIds=196
+- ship=941:Heywood L.E. equipmentCount=2 equipmentIds=284,314
+- ship=942:Richard P.Leary equipmentCount=2 equipmentIds=284,314
+- ship=943:熊野丸 equipmentCount=1 equipmentIds=70
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=3 equipmentIds=70,451,549
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,266,470
+- ship=952:Phoenix equipmentCount=3 equipmentIds=386,414,539
+- ship=954:榛名改二丙 equipmentCount=3 equipmentIds=35,116,186
+- ship=955:清霜改二 equipmentCount=1 equipmentIds=450
+- ship=956:早霜改二 equipmentCount=1 equipmentIds=267
+- ship=957:General Belgrano equipmentCount=3 equipmentIds=386,414,539
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=125,285,294
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=27,46,296
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=3 equipmentIds=120,121,149
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=2 equipmentIds=534,535
+- ship=968:初月改二 equipmentCount=2 equipmentIds=122,533
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,471
+- ship=970:Gloire改 equipmentCount=1 equipmentIds=536
+- ship=971:伊36 equipmentCount=1 equipmentIds=167
+- ship=972:伊41 equipmentCount=1 equipmentIds=522
+- ship=975:春雨改二 equipmentCount=1 equipmentIds=470
+- ship=976:伊36改 equipmentCount=1 equipmentIds=167
+- ship=977:伊41改 equipmentCount=2 equipmentIds=522,523
+- ship=979:稲木改二 equipmentCount=2 equipmentIds=39,382
+- ship=981:藤波改二 equipmentCount=1 equipmentIds=267
+- ship=982:早波改二 equipmentCount=1 equipmentIds=267
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=131,267,286
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=997:杉改 equipmentCount=2 equipmentIds=106,379
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1001:Киров equipmentCount=1 equipmentIds=555
+- ship=1006:Киров改 equipmentCount=1 equipmentIds=555
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=94,547,570
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=28,227,267
+- ship=1034:涼波改二 equipmentCount=3 equipmentIds=267,286,575
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=285,379,572
+- ship=1040:吹雪改三護(六式) equipmentCount=6 equipmentIds=121,286,288,294,295,313
+- ship=1496:Colorado改 equipmentCount=2 equipmentIds=171,330
+
+### 月 (monday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=1 equipmentIds=297
+- ship=10:白雪 equipmentCount=2 equipmentIds=13,297
+- ship=11:深雪 equipmentCount=1 equipmentIds=13
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=2 equipmentIds=13,74
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=20:雪風 equipmentCount=1 equipmentIds=106
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=1 equipmentIds=15
+- ship=27:山城 equipmentCount=1 equipmentIds=11
+- ship=28:皐月 equipmentCount=1 equipmentIds=39
+- ship=29:文月 equipmentCount=1 equipmentIds=39
+- ship=33:叢雲 equipmentCount=1 equipmentIds=13
+- ship=36:雷 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=1 equipmentIds=438
+- ship=50:島風 equipmentCount=1 equipmentIds=87
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=1 equipmentIds=15
+- ship=61:青葉 equipmentCount=1 equipmentIds=74
+- ship=62:妙高 equipmentCount=1 equipmentIds=90
+- ship=68:摩耶 equipmentCount=1 equipmentIds=120
+- ship=69:鳥海 equipmentCount=2 equipmentIds=74,129
+- ship=70:最上 equipmentCount=1 equipmentIds=30
+- ship=71:利根 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=2 equipmentIds=26,30
+- ship=77:伊勢 equipmentCount=2 equipmentIds=30,141
+- ship=78:金剛 equipmentCount=2 equipmentIds=11,35
+- ship=79:榛名 equipmentCount=2 equipmentIds=104,202
+- ship=81:陸奥 equipmentCount=1 equipmentIds=8
+- ship=82:伊勢改 equipmentCount=3 equipmentIds=30,141,274
+- ship=83:赤城 equipmentCount=3 equipmentIds=181,182,201
+- ship=84:加賀 equipmentCount=3 equipmentIds=20,96,201
+- ship=85:霧島 equipmentCount=3 equipmentIds=36,140,328
+- ship=86:比叡 equipmentCount=1 equipmentIds=140
+- ship=87:日向 equipmentCount=2 equipmentIds=28,31
+- ship=88:日向改 equipmentCount=3 equipmentIds=28,31,51
+- ship=89:鳳翔 equipmentCount=2 equipmentIds=19,98
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=16,61
+- ship=91:飛龍 equipmentCount=2 equipmentIds=16,23
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=60,391,478
+- ship=111:瑞鶴 equipmentCount=2 equipmentIds=21,152
+- ship=112:瑞鶴改 equipmentCount=2 equipmentIds=21,152
+- ship=115:夕張 equipmentCount=2 equipmentIds=29,119
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=23,391,392
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=23,391,392
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=1 equipmentIds=15
+- ship=120:三隈 equipmentCount=2 equipmentIds=10,50
+- ship=121:三隈改 equipmentCount=2 equipmentIds=10,50
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=125:熊野 equipmentCount=1 equipmentIds=10
+- ship=127:伊58 equipmentCount=1 equipmentIds=167
+- ship=130:熊野改 equipmentCount=1 equipmentIds=10
+- ship=131:大和 equipmentCount=1 equipmentIds=117
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=133:夕雲 equipmentCount=1 equipmentIds=28
+- ship=135:長波 equipmentCount=2 equipmentIds=72,145
+- ship=136:大和改 equipmentCount=3 equipmentIds=117,128,276
+- ship=137:阿賀野 equipmentCount=1 equipmentIds=11
+- ship=138:能代 equipmentCount=3 equipmentIds=65,66,187
+- ship=139:矢矧 equipmentCount=2 equipmentIds=65,66
+- ship=140:酒匂 equipmentCount=2 equipmentIds=72,139
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=27,40,46
+- ship=142:衣笠改二 equipmentCount=1 equipmentIds=6
+- ship=143:武蔵 equipmentCount=1 equipmentIds=9
+- ship=144:夕立改二 equipmentCount=1 equipmentIds=63
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=286,438,488
+- ship=147:Верный equipmentCount=2 equipmentIds=72,175
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=9,128,234
+- ship=149:金剛改二 equipmentCount=2 equipmentIds=11,35
+- ship=150:比叡改二 equipmentCount=2 equipmentIds=103,140
+- ship=151:榛名改二 equipmentCount=2 equipmentIds=104,289
+- ship=152:霧島改二 equipmentCount=3 equipmentIds=36,140,328
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,24,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=210,383
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=17,24,109
+- ship=158:川内改二 equipmentCount=1 equipmentIds=102
+- ship=160:那珂改二 equipmentCount=1 equipmentIds=91
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=166,221,222
+- ship=162:神威 equipmentCount=2 equipmentIds=221,367
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=166,221,222
+- ship=171:Bismarck equipmentCount=2 equipmentIds=114,401
+- ship=172:Bismarck改 equipmentCount=2 equipmentIds=114,401
+- ship=173:Bismarck zwei equipmentCount=2 equipmentIds=114,401
+- ship=175:Z3 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=115
+- ship=177:Prinz Eugen改 equipmentCount=3 equipmentIds=115,123,124
+- ship=178:Bismarck drei equipmentCount=2 equipmentIds=114,401
+- ship=180:Z3 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=5,118
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=4 equipmentIds=16,17,92,98
+- ship=188:利根改二 equipmentCount=1 equipmentIds=25
+- ship=194:羽黒改二 equipmentCount=1 equipmentIds=88
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=13,63,74
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,23,55
+- ship=197:蒼龍改二 equipmentCount=2 equipmentIds=16,61
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=68
+- ship=201:吹雪改 equipmentCount=1 equipmentIds=297
+- ship=202:白雪改 equipmentCount=2 equipmentIds=13,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,500
+- ship=205:叢雲改 equipmentCount=1 equipmentIds=13
+- ship=206:磯波改 equipmentCount=2 equipmentIds=13,297
+- ship=207:綾波改 equipmentCount=2 equipmentIds=13,74
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=2 equipmentIds=11,35
+- ship=210:比叡改 equipmentCount=1 equipmentIds=140
+- ship=211:榛名改 equipmentCount=2 equipmentIds=104,202
+- ship=212:霧島改 equipmentCount=3 equipmentIds=36,140,328
+- ship=228:雪風改 equipmentCount=1 equipmentIds=106
+- ship=229:島風改 equipmentCount=1 equipmentIds=87
+- ship=235:響改 equipmentCount=1 equipmentIds=175
+- ship=236:雷改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=1 equipmentIds=438
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=256:皐月改 equipmentCount=1 equipmentIds=39
+- ship=257:文月改 equipmentCount=1 equipmentIds=39
+- ship=264:青葉改 equipmentCount=1 equipmentIds=74
+- ship=265:妙高改 equipmentCount=1 equipmentIds=90
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=120
+- ship=272:鳥海改 equipmentCount=2 equipmentIds=74,129
+- ship=273:利根改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=1 equipmentIds=105
+- ship=276:陸奥改 equipmentCount=1 equipmentIds=8
+- ship=277:赤城改 equipmentCount=3 equipmentIds=181,182,201
+- ship=278:加賀改 equipmentCount=3 equipmentIds=20,96,201
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=16,61
+- ship=280:飛龍改 equipmentCount=2 equipmentIds=16,23
+- ship=285:鳳翔改 equipmentCount=2 equipmentIds=19,98
+- ship=287:山城改 equipmentCount=1 equipmentIds=11
+- ship=288:翔鶴改 equipmentCount=3 equipmentIds=60,391,478
+- ship=293:夕張改 equipmentCount=2 equipmentIds=29,119
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=28
+- ship=304:長波改 equipmentCount=2 equipmentIds=72,145
+- ship=305:阿賀野改 equipmentCount=1 equipmentIds=11
+- ship=306:能代改 equipmentCount=3 equipmentIds=65,66,187
+- ship=307:矢矧改 equipmentCount=2 equipmentIds=65,66
+- ship=311:Z3改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=55,72,139
+- ship=316:天津風改 equipmentCount=1 equipmentIds=34
+- ship=318:龍鳳改 equipmentCount=3 equipmentIds=24,57,92
+- ship=319:妙高改二 equipmentCount=1 equipmentIds=90
+- ship=321:大淀改 equipmentCount=3 equipmentIds=5,118,275
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=330:秋月改 equipmentCount=2 equipmentIds=120,121
+- ship=343:香取改 equipmentCount=3 equipmentIds=149,310,518
+- ship=346:照月改 equipmentCount=2 equipmentIds=27,121
+- ship=347:Libeccio改 equipmentCount=1 equipmentIds=147
+- ship=348:瑞穂改 equipmentCount=2 equipmentIds=25,59
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=356:鹿島改 equipmentCount=3 equipmentIds=119,310,395
+- ship=357:初月改 equipmentCount=1 equipmentIds=122
+- ship=358:Zara改 equipmentCount=1 equipmentIds=163
+- ship=360:Iowa改 equipmentCount=2 equipmentIds=161,183
+- ship=361:Pola改 equipmentCount=1 equipmentIds=431
+- ship=364:Warspite改 equipmentCount=1 equipmentIds=250
+- ship=365:Aquila改 equipmentCount=1 equipmentIds=184
+- ship=368:浦波改 equipmentCount=2 equipmentIds=13,297
+- ship=371:松風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=1 equipmentIds=194
+- ship=375:伊14改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=3 equipmentIds=82,221,222
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=82,447
+- ship=383:択捉改 equipmentCount=2 equipmentIds=226,229
+- ship=392:Richelieu改 equipmentCount=3 equipmentIds=245,246,247
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=242,249,250
+- ship=394:Jervis改 equipmentCount=2 equipmentIds=261,280
+- ship=395:Ташкент改 equipmentCount=2 equipmentIds=282,283
+- ship=396:Gambier Bay改 equipmentCount=2 equipmentIds=277,278
+- ship=399:伊58改 equipmentCount=2 equipmentIds=167,213
+- ship=403:伊401改 equipmentCount=2 equipmentIds=210,383
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=412:山城改二 equipmentCount=2 equipmentIds=11,81
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=39,68
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=13
+- ship=421:秋月 equipmentCount=2 equipmentIds=120,121
+- ship=422:照月 equipmentCount=2 equipmentIds=27,121
+- ship=423:初月 equipmentCount=1 equipmentIds=122
+- ship=426:吹雪改二 equipmentCount=2 equipmentIds=294,297
+- ship=427:鳥海改二 equipmentCount=2 equipmentIds=74,129
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=40,120,121
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=2 equipmentIds=195,198
+- ship=434:睦月改二 equipmentCount=2 equipmentIds=1,293
+- ship=435:如月改二 equipmentCount=1 equipmentIds=1
+- ship=438:Saratoga改 equipmentCount=2 equipmentIds=195,198
+- ship=439:Warspite equipmentCount=1 equipmentIds=250
+- ship=440:Iowa equipmentCount=2 equipmentIds=161,183
+- ship=441:Littorio equipmentCount=2 equipmentIds=135,137
+- ship=442:Roma equipmentCount=2 equipmentIds=133,134
+- ship=443:Libeccio equipmentCount=1 equipmentIds=147
+- ship=444:Aquila equipmentCount=1 equipmentIds=184
+- ship=446:Italia equipmentCount=2 equipmentIds=135,137
+- ship=447:Roma改 equipmentCount=2 equipmentIds=133,134
+- ship=449:Pola equipmentCount=1 equipmentIds=431
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=348
+- ship=451:瑞穂 equipmentCount=2 equipmentIds=25,59
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=60,391,478
+- ship=462:瑞鶴改二 equipmentCount=2 equipmentIds=21,152
+- ship=465:鹿島 equipmentCount=3 equipmentIds=119,310,395
+- ship=466:翔鶴改二甲 equipmentCount=3 equipmentIds=60,391,478
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=21,151,152
+- ship=469:江風改二 equipmentCount=1 equipmentIds=63
+- ship=474:松風 equipmentCount=1 equipmentIds=37
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=2 equipmentIds=68,174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=2 equipmentIds=13,297
+- ship=487:鬼怒改二 equipmentCount=2 equipmentIds=40,193
+- ship=488:由良改二 equipmentCount=2 equipmentIds=10,229
+- ship=489:満潮改二 equipmentCount=1 equipmentIds=266
+- ship=490:荒潮改二 equipmentCount=1 equipmentIds=348
+- ship=491:Commandant Teste equipmentCount=1 equipmentIds=194
+- ship=492:Richelieu equipmentCount=2 equipmentIds=245,247
+- ship=493:伊400 equipmentCount=1 equipmentIds=383
+- ship=495:伊14 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=72,162,203
+- ship=497:白露改二 equipmentCount=1 equipmentIds=296
+- ship=498:村雨改二 equipmentCount=1 equipmentIds=470
+- ship=499:神威改 equipmentCount=2 equipmentIds=221,367
+- ship=500:神威改母 equipmentCount=2 equipmentIds=221,367
+- ship=501:最上改二 equipmentCount=4 equipmentIds=26,81,410,485
+- ship=502:三隈改二 equipmentCount=2 equipmentIds=10,50
+- ship=503:鈴谷改二 equipmentCount=1 equipmentIds=217
+- ship=504:熊野改二 equipmentCount=3 equipmentIds=10,66,220
+- ship=506:最上改二特 equipmentCount=4 equipmentIds=26,81,410,485
+- ship=507:三隈改二特 equipmentCount=2 equipmentIds=10,50
+- ship=508:鈴谷航改二 equipmentCount=3 equipmentIds=55,60,219
+- ship=509:熊野航改二 equipmentCount=3 equipmentIds=10,220,271
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=242,249,250
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=2 equipmentIds=261,280
+- ship=520:Janus equipmentCount=1 equipmentIds=260
+- ship=521:春日丸 equipmentCount=3 equipmentIds=82,221,222
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=82,447
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=3 equipmentIds=82,221,222
+- ship=529:大鷹改二 equipmentCount=3 equipmentIds=82,221,222
+- ship=532:涼月 equipmentCount=2 equipmentIds=121,122
+- ship=533:冬月 equipmentCount=2 equipmentIds=3,122
+- ship=537:涼月改 equipmentCount=2 equipmentIds=121,122
+- ship=538:冬月改 equipmentCount=2 equipmentIds=3,122
+- ship=541:長門改二 equipmentCount=2 equipmentIds=105,236
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=28
+- ship=543:長波改二 equipmentCount=3 equipmentIds=72,145,267
+- ship=544:Gambier Bay equipmentCount=2 equipmentIds=277,278
+- ship=545:Saratoga Mk.II equipmentCount=3 equipmentIds=195,198,206
+- ship=546:武蔵改二 equipmentCount=4 equipmentIds=9,128,204,234
+- ship=548:文月改二 equipmentCount=1 equipmentIds=39
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 equipmentIds=195,198
+- ship=551:日振 equipmentCount=2 equipmentIds=45,382
+- ship=552:大東 equipmentCount=1 equipmentIds=382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=30,141,274
+- ship=554:日向改二 equipmentCount=4 equipmentIds=28,31,274,324
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=23,391,392
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=23,344,391
+- ship=561:Samuel B.Roberts equipmentCount=2 equipmentIds=284,314
+- ship=571:Nelson equipmentCount=1 equipmentIds=298
+- ship=572:Rodney equipmentCount=2 equipmentIds=298,299
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=8,73,365
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,367
+- ship=576:Nelson改 equipmentCount=2 equipmentIds=298,300
+- ship=577:Rodney改 equipmentCount=2 equipmentIds=298,299
+- ship=578:朝霜改二 equipmentCount=1 equipmentIds=517
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,367
+- ship=580:Maestrale改 equipmentCount=1 equipmentIds=393
+- ship=581:日進 equipmentCount=1 equipmentIds=346
+- ship=586:日進甲 equipmentCount=1 equipmentIds=346
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=3 equipmentIds=11,35,328
+- ship=592:比叡改二丙 equipmentCount=3 equipmentIds=103,140,317
+- ship=593:榛名改二乙 equipmentCount=3 equipmentIds=104,289,502
+- ship=594:赤城改二 equipmentCount=3 equipmentIds=181,182,201
+- ship=595:Houston equipmentCount=2 equipmentIds=356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=284
+- ship=599:赤城改二戊 equipmentCount=3 equipmentIds=181,182,201
+- ship=600:Houston改 equipmentCount=2 equipmentIds=356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=330,331
+- ship=602:South Dakota equipmentCount=2 equipmentIds=381,385
+- ship=603:Hornet equipmentCount=2 equipmentIds=195,478
+- ship=606:伊400改 equipmentCount=1 equipmentIds=383
+- ship=610:加賀改二戊 equipmentCount=3 equipmentIds=20,96,201
+- ship=619:Grecale改 equipmentCount=1 equipmentIds=394
+- ship=621:神州丸 equipmentCount=2 equipmentIds=68,408
+- ship=622:夕張改二 equipmentCount=3 equipmentIds=29,119,149
+- ship=623:夕張改二特 equipmentCount=3 equipmentIds=29,119,149
+- ship=624:夕張改二丁 equipmentCount=3 equipmentIds=29,119,149
+- ship=626:神州丸改 equipmentCount=2 equipmentIds=68,408
+- ship=627:敷波改二 equipmentCount=2 equipmentIds=13,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=1 equipmentIds=284
+- ship=629:Fletcher Mk.II equipmentCount=1 equipmentIds=284
+- ship=630:Gotland andra equipmentCount=2 equipmentIds=303,367
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=646:加賀改二護 equipmentCount=3 equipmentIds=20,96,201
+- ship=647:浦波改二 equipmentCount=3 equipmentIds=13,125,297
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=651:丹陽 equipmentCount=1 equipmentIds=106
+- ship=654:Washington equipmentCount=1 equipmentIds=381
+- ship=655:Northampton equipmentCount=1 equipmentIds=414
+- ship=656:雪風改二 equipmentCount=1 equipmentIds=106
+- ship=659:Washington改 equipmentCount=1 equipmentIds=381
+- ship=660:Northampton改 equipmentCount=1 equipmentIds=414
+- ship=662:能代改二 equipmentCount=3 equipmentIds=55,66,187
+- ship=663:矢矧改二 equipmentCount=2 equipmentIds=65,66
+- ship=666:磯波改二 equipmentCount=4 equipmentIds=13,125,295,297
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=2 equipmentIds=65,66
+- ship=670:親潮改二 equipmentCount=3 equipmentIds=266,286,470
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=2 equipmentIds=227,287
+- ship=679:大東改 equipmentCount=2 equipmentIds=227,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=2 equipmentIds=284,314
+- ship=690:日進改 equipmentCount=1 equipmentIds=346
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=284
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=36,140,328
+- ship=697:South Dakota改 equipmentCount=2 equipmentIds=381,385
+- ship=698:加賀改二 equipmentCount=3 equipmentIds=20,96,201
+- ship=699:宗谷 equipmentCount=3 equipmentIds=49,170,445
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=3 equipmentIds=195,419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=233,278,473
+- ship=713:Victorious改 equipmentCount=2 equipmentIds=424,425
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=716:梅改 equipmentCount=2 equipmentIds=106,450
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=70,346,446
+- ship=718:玉波改 equipmentCount=3 equipmentIds=15,28,267
+- ship=723:Ranger改 equipmentCount=1 equipmentIds=196
+- ship=724:Jean Bart改 equipmentCount=3 equipmentIds=246,468,471
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,313,314
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=2 equipmentIds=387,414
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,543
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,313,314
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=72,145,267
+- ship=744:朝霜改二補 equipmentCount=1 equipmentIds=517
+- ship=745:涼波改二補 equipmentCount=2 equipmentIds=106,286
+- ship=877:Conte di Cavour equipmentCount=2 equipmentIds=73,427
+- ship=878:Conte di Cavour改 equipmentCount=2 equipmentIds=73,427
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=73,136,427
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=24,57,92
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=82,447
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,424
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=24,57,92
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=82,447
+- ship=893:Janus改 equipmentCount=1 equipmentIds=260
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=19,98,486
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=19,98,486
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=70,346
+- ship=911:大和改二 equipmentCount=3 equipmentIds=117,128,276
+- ship=915:早潮改二 equipmentCount=1 equipmentIds=266
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=117,128,276
+- ship=918:Maryland改 equipmentCount=1 equipmentIds=315
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=2 equipmentIds=284,314
+- ship=921:鵜来 equipmentCount=1 equipmentIds=382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=924:Nevada equipmentCount=2 equipmentIds=507,508
+- ship=925:Langley equipmentCount=1 equipmentIds=419
+- ship=926:鵜来改 equipmentCount=1 equipmentIds=382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=929:Nevada改 equipmentCount=2 equipmentIds=507,508
+- ship=930:Langley改 equipmentCount=1 equipmentIds=419
+- ship=931:Ranger equipmentCount=1 equipmentIds=196
+- ship=935:Jean Bart equipmentCount=1 equipmentIds=471
+- ship=936:Nevada改 Mod.2 equipmentCount=2 equipmentIds=507,508
+- ship=941:Heywood L.E. equipmentCount=3 equipmentIds=284,313,314
+- ship=942:Richard P.Leary equipmentCount=3 equipmentIds=284,313,314
+- ship=943:熊野丸 equipmentCount=1 equipmentIds=489
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=2 equipmentIds=451,489
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,87,266
+- ship=952:Phoenix equipmentCount=2 equipmentIds=387,414
+- ship=954:榛名改二丙 equipmentCount=3 equipmentIds=104,289,502
+- ship=955:清霜改二 equipmentCount=1 equipmentIds=286
+- ship=957:General Belgrano equipmentCount=2 equipmentIds=387,414
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=125,294,500
+- ship=960:清霜改二丁 equipmentCount=2 equipmentIds=68,450
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=286,438,488
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=2 equipmentIds=120,121
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=1 equipmentIds=534
+- ship=968:初月改二 equipmentCount=3 equipmentIds=121,122,553
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,247
+- ship=970:Gloire改 equipmentCount=1 equipmentIds=536
+- ship=971:伊36 equipmentCount=2 equipmentIds=213,522
+- ship=972:伊41 equipmentCount=1 equipmentIds=522
+- ship=975:春雨改二 equipmentCount=2 equipmentIds=92,266
+- ship=976:伊36改 equipmentCount=3 equipmentIds=211,213,522
+- ship=977:伊41改 equipmentCount=2 equipmentIds=522,523
+- ship=979:稲木改二 equipmentCount=3 equipmentIds=39,382,509
+- ship=981:藤波改二 equipmentCount=3 equipmentIds=267,450,517
+- ship=982:早波改二 equipmentCount=1 equipmentIds=267
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=15,40,267
+- ship=984:Wahoo equipmentCount=2 equipmentIds=440,441
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=3,13,553
+- ship=989:Wahoo改 equipmentCount=2 equipmentIds=440,441
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1001:Киров equipmentCount=1 equipmentIds=555
+- ship=1003:しまね丸 equipmentCount=1 equipmentIds=492
+- ship=1005:Minneapolis equipmentCount=2 equipmentIds=356,357
+- ship=1006:Киров改 equipmentCount=1 equipmentIds=555
+- ship=1008:しまね丸改 equipmentCount=1 equipmentIds=492
+- ship=1010:Minneapolis改 equipmentCount=2 equipmentIds=356,357
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=16,23,55
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=15,28,267
+- ship=1034:涼波改二 equipmentCount=2 equipmentIds=106,286
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=121,285,294
+- ship=1040:吹雪改三護(六式) equipmentCount=4 equipmentIds=286,294,313,572
+- ship=1496:Colorado改 equipmentCount=3 equipmentIds=330,331,332
+
+### 火 (tuesday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=1 equipmentIds=297
+- ship=10:白雪 equipmentCount=2 equipmentIds=49,297
+- ship=11:深雪 equipmentCount=1 equipmentIds=13
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=2 equipmentIds=13,74
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=20:雪風 equipmentCount=1 equipmentIds=106
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=1 equipmentIds=15
+- ship=27:山城 equipmentCount=2 equipmentIds=7,11
+- ship=28:皐月 equipmentCount=1 equipmentIds=39
+- ship=29:文月 equipmentCount=1 equipmentIds=39
+- ship=33:叢雲 equipmentCount=1 equipmentIds=13
+- ship=34:暁 equipmentCount=1 equipmentIds=38
+- ship=36:雷 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=1 equipmentIds=438
+- ship=50:島風 equipmentCount=2 equipmentIds=34,87
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=1 equipmentIds=15
+- ship=61:青葉 equipmentCount=1 equipmentIds=74
+- ship=62:妙高 equipmentCount=1 equipmentIds=90
+- ship=68:摩耶 equipmentCount=1 equipmentIds=40
+- ship=69:鳥海 equipmentCount=1 equipmentIds=129
+- ship=70:最上 equipmentCount=1 equipmentIds=30
+- ship=71:利根 equipmentCount=1 equipmentIds=25
+- ship=72:筑摩 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=2 equipmentIds=26,30
+- ship=77:伊勢 equipmentCount=1 equipmentIds=141
+- ship=78:金剛 equipmentCount=1 equipmentIds=35
+- ship=79:榛名 equipmentCount=2 equipmentIds=104,202
+- ship=80:長門 equipmentCount=1 equipmentIds=8
+- ship=82:伊勢改 equipmentCount=3 equipmentIds=81,141,274
+- ship=83:赤城 equipmentCount=1 equipmentIds=201
+- ship=84:加賀 equipmentCount=3 equipmentIds=20,96,201
+- ship=85:霧島 equipmentCount=2 equipmentIds=140,328
+- ship=86:比叡 equipmentCount=1 equipmentIds=140
+- ship=87:日向 equipmentCount=1 equipmentIds=31
+- ship=88:日向改 equipmentCount=2 equipmentIds=31,51
+- ship=89:鳳翔 equipmentCount=2 equipmentIds=16,19
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=16,61
+- ship=91:飛龍 equipmentCount=2 equipmentIds=16,23
+- ship=107:千代田甲 equipmentCount=1 equipmentIds=41
+- ship=109:千代田航 equipmentCount=1 equipmentIds=41
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=17,21,478
+- ship=111:瑞鶴 equipmentCount=2 equipmentIds=153,154
+- ship=112:瑞鶴改 equipmentCount=2 equipmentIds=153,154
+- ship=115:夕張 equipmentCount=2 equipmentIds=29,47
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=23,57,392
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=23,57,392
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=1 equipmentIds=15
+- ship=120:三隈 equipmentCount=2 equipmentIds=10,50
+- ship=121:三隈改 equipmentCount=2 equipmentIds=10,50
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=125:熊野 equipmentCount=1 equipmentIds=10
+- ship=128:伊8 equipmentCount=1 equipmentIds=210
+- ship=130:熊野改 equipmentCount=1 equipmentIds=10
+- ship=131:大和 equipmentCount=1 equipmentIds=9
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=133:夕雲 equipmentCount=1 equipmentIds=28
+- ship=135:長波 equipmentCount=2 equipmentIds=72,145
+- ship=136:大和改 equipmentCount=3 equipmentIds=9,128,276
+- ship=137:阿賀野 equipmentCount=1 equipmentIds=11
+- ship=138:能代 equipmentCount=2 equipmentIds=139,187
+- ship=139:矢矧 equipmentCount=3 equipmentIds=65,66,220
+- ship=140:酒匂 equipmentCount=3 equipmentIds=72,139,220
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=40,47,91
+- ship=142:衣笠改二 equipmentCount=1 equipmentIds=6
+- ship=143:武蔵 equipmentCount=3 equipmentIds=89,117,204
+- ship=144:夕立改二 equipmentCount=1 equipmentIds=63
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=286,438,488
+- ship=147:Верный equipmentCount=2 equipmentIds=72,175
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=89,117,204
+- ship=149:金剛改二 equipmentCount=2 equipmentIds=35,88
+- ship=150:比叡改二 equipmentCount=2 equipmentIds=103,140
+- ship=151:榛名改二 equipmentCount=2 equipmentIds=104,289
+- ship=152:霧島改二 equipmentCount=2 equipmentIds=140,328
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,24,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=167,210
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=24,109,110
+- ship=160:那珂改二 equipmentCount=2 equipmentIds=91,226
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=193,221,222
+- ship=162:神威 equipmentCount=2 equipmentIds=221,367
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=193,221,222
+- ship=171:Bismarck equipmentCount=2 equipmentIds=114,115
+- ship=172:Bismarck改 equipmentCount=2 equipmentIds=114,115
+- ship=173:Bismarck zwei equipmentCount=2 equipmentIds=114,115
+- ship=175:Z3 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=401
+- ship=177:Prinz Eugen改 equipmentCount=3 equipmentIds=123,124,401
+- ship=178:Bismarck drei equipmentCount=2 equipmentIds=114,115
+- ship=180:Z3 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=71,118
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=16,17,92
+- ship=188:利根改二 equipmentCount=1 equipmentIds=25
+- ship=189:筑摩改二 equipmentCount=1 equipmentIds=25
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=13,63,74
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,23,55
+- ship=197:蒼龍改二 equipmentCount=2 equipmentIds=16,61
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=166
+- ship=201:吹雪改 equipmentCount=1 equipmentIds=297
+- ship=202:白雪改 equipmentCount=2 equipmentIds=49,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,500
+- ship=205:叢雲改 equipmentCount=1 equipmentIds=13
+- ship=206:磯波改 equipmentCount=1 equipmentIds=13
+- ship=207:綾波改 equipmentCount=2 equipmentIds=13,74
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=1 equipmentIds=35
+- ship=210:比叡改 equipmentCount=1 equipmentIds=140
+- ship=211:榛名改 equipmentCount=2 equipmentIds=104,202
+- ship=212:霧島改 equipmentCount=2 equipmentIds=140,328
+- ship=228:雪風改 equipmentCount=1 equipmentIds=106
+- ship=229:島風改 equipmentCount=2 equipmentIds=34,87
+- ship=234:暁改 equipmentCount=1 equipmentIds=38
+- ship=235:響改 equipmentCount=1 equipmentIds=175
+- ship=236:雷改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=1 equipmentIds=438
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=256:皐月改 equipmentCount=1 equipmentIds=39
+- ship=257:文月改 equipmentCount=1 equipmentIds=39
+- ship=264:青葉改 equipmentCount=1 equipmentIds=74
+- ship=265:妙高改 equipmentCount=1 equipmentIds=90
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=40
+- ship=272:鳥海改 equipmentCount=1 equipmentIds=129
+- ship=273:利根改 equipmentCount=1 equipmentIds=25
+- ship=274:筑摩改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=1 equipmentIds=8
+- ship=276:陸奥改 equipmentCount=1 equipmentIds=105
+- ship=277:赤城改 equipmentCount=1 equipmentIds=201
+- ship=278:加賀改 equipmentCount=3 equipmentIds=20,96,201
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=16,61
+- ship=280:飛龍改 equipmentCount=2 equipmentIds=16,23
+- ship=285:鳳翔改 equipmentCount=2 equipmentIds=16,19
+- ship=287:山城改 equipmentCount=2 equipmentIds=7,11
+- ship=288:翔鶴改 equipmentCount=3 equipmentIds=17,21,478
+- ship=292:千代田航改 equipmentCount=1 equipmentIds=41
+- ship=293:夕張改 equipmentCount=2 equipmentIds=29,47
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=297:千代田航改二 equipmentCount=1 equipmentIds=41
+- ship=299:Scamp equipmentCount=1 equipmentIds=442
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=28
+- ship=304:長波改 equipmentCount=2 equipmentIds=72,145
+- ship=305:阿賀野改 equipmentCount=1 equipmentIds=11
+- ship=306:能代改 equipmentCount=2 equipmentIds=139,187
+- ship=307:矢矧改 equipmentCount=3 equipmentIds=65,66,220
+- ship=311:Z3改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=72,139,220
+- ship=316:天津風改 equipmentCount=2 equipmentIds=34,87
+- ship=318:龍鳳改 equipmentCount=3 equipmentIds=24,57,92
+- ship=319:妙高改二 equipmentCount=1 equipmentIds=90
+- ship=321:大淀改 equipmentCount=3 equipmentIds=5,71,395
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=330:秋月改 equipmentCount=2 equipmentIds=27,121
+- ship=343:香取改 equipmentCount=3 equipmentIds=149,310,518
+- ship=346:照月改 equipmentCount=2 equipmentIds=27,121
+- ship=347:Libeccio改 equipmentCount=1 equipmentIds=147
+- ship=348:瑞穂改 equipmentCount=3 equipmentIds=25,59,217
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=356:鹿島改 equipmentCount=3 equipmentIds=119,310,395
+- ship=357:初月改 equipmentCount=1 equipmentIds=122
+- ship=358:Zara改 equipmentCount=1 equipmentIds=431
+- ship=360:Iowa改 equipmentCount=2 equipmentIds=161,172
+- ship=361:Pola改 equipmentCount=2 equipmentIds=431,432
+- ship=364:Warspite改 equipmentCount=1 equipmentIds=192
+- ship=365:Aquila改 equipmentCount=1 equipmentIds=184
+- ship=368:浦波改 equipmentCount=1 equipmentIds=13
+- ship=370:朝風改 equipmentCount=1 equipmentIds=37
+- ship=371:松風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=1 equipmentIds=194
+- ship=375:伊14改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=3 equipmentIds=82,221,222
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=82,447
+- ship=383:択捉改 equipmentCount=2 equipmentIds=226,229
+- ship=392:Richelieu改 equipmentCount=3 equipmentIds=245,247,468
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=242,249,250
+- ship=394:Jervis改 equipmentCount=3 equipmentIds=250,261,280
+- ship=395:Ташкент改 equipmentCount=2 equipmentIds=282,283
+- ship=396:Gambier Bay改 equipmentCount=2 equipmentIds=277,278
+- ship=399:伊58改 equipmentCount=1 equipmentIds=213
+- ship=400:伊8改 equipmentCount=1 equipmentIds=210
+- ship=403:伊401改 equipmentCount=2 equipmentIds=167,210
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=412:山城改二 equipmentCount=3 equipmentIds=7,11,103
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=39,68
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=13
+- ship=421:秋月 equipmentCount=2 equipmentIds=27,121
+- ship=422:照月 equipmentCount=2 equipmentIds=27,121
+- ship=423:初月 equipmentCount=1 equipmentIds=122
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=3,294,297
+- ship=427:鳥海改二 equipmentCount=1 equipmentIds=129
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=40,121,131
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=2 equipmentIds=195,198
+- ship=434:睦月改二 equipmentCount=2 equipmentIds=1,293
+- ship=435:如月改二 equipmentCount=1 equipmentIds=1
+- ship=437:暁改二 equipmentCount=1 equipmentIds=38
+- ship=438:Saratoga改 equipmentCount=2 equipmentIds=198,205
+- ship=439:Warspite equipmentCount=1 equipmentIds=192
+- ship=440:Iowa equipmentCount=2 equipmentIds=161,172
+- ship=441:Littorio equipmentCount=3 equipmentIds=133,134,136
+- ship=442:Roma equipmentCount=1 equipmentIds=137
+- ship=443:Libeccio equipmentCount=1 equipmentIds=147
+- ship=444:Aquila equipmentCount=1 equipmentIds=184
+- ship=446:Italia equipmentCount=3 equipmentIds=133,134,136
+- ship=447:Roma改 equipmentCount=2 equipmentIds=137,163
+- ship=448:Zara equipmentCount=1 equipmentIds=431
+- ship=449:Pola equipmentCount=2 equipmentIds=431,432
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=348
+- ship=451:瑞穂 equipmentCount=3 equipmentIds=25,59,217
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=17,21,478
+- ship=462:瑞鶴改二 equipmentCount=2 equipmentIds=153,154
+- ship=465:鹿島 equipmentCount=3 equipmentIds=119,310,395
+- ship=466:翔鶴改二甲 equipmentCount=3 equipmentIds=17,151,478
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=151,153,154
+- ship=469:江風改二 equipmentCount=1 equipmentIds=63
+- ship=472:朝風 equipmentCount=1 equipmentIds=37
+- ship=474:松風 equipmentCount=1 equipmentIds=37
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=2 equipmentIds=68,174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=1 equipmentIds=13
+- ship=487:鬼怒改二 equipmentCount=1 equipmentIds=40
+- ship=488:由良改二 equipmentCount=2 equipmentIds=10,91
+- ship=489:満潮改二 equipmentCount=1 equipmentIds=266
+- ship=490:荒潮改二 equipmentCount=1 equipmentIds=348
+- ship=491:Commandant Teste equipmentCount=1 equipmentIds=194
+- ship=492:Richelieu equipmentCount=2 equipmentIds=245,247
+- ship=493:伊400 equipmentCount=1 equipmentIds=383
+- ship=495:伊14 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=162,431,432
+- ship=497:白露改二 equipmentCount=1 equipmentIds=296
+- ship=498:村雨改二 equipmentCount=1 equipmentIds=470
+- ship=499:神威改 equipmentCount=2 equipmentIds=221,367
+- ship=500:神威改母 equipmentCount=2 equipmentIds=221,367
+- ship=501:最上改二 equipmentCount=3 equipmentIds=26,322,410
+- ship=502:三隈改二 equipmentCount=2 equipmentIds=10,50
+- ship=503:鈴谷改二 equipmentCount=3 equipmentIds=66,217,220
+- ship=504:熊野改二 equipmentCount=3 equipmentIds=10,66,220
+- ship=506:最上改二特 equipmentCount=3 equipmentIds=26,322,410
+- ship=507:三隈改二特 equipmentCount=2 equipmentIds=10,50
+- ship=508:鈴谷航改二 equipmentCount=3 equipmentIds=55,66,219
+- ship=509:熊野航改二 equipmentCount=3 equipmentIds=219,220,271
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=242,249,250
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=3 equipmentIds=250,261,280
+- ship=520:Janus equipmentCount=1 equipmentIds=260
+- ship=521:春日丸 equipmentCount=3 equipmentIds=82,221,222
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=82,447
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=3 equipmentIds=82,221,222
+- ship=529:大鷹改二 equipmentCount=3 equipmentIds=82,221,222
+- ship=532:涼月 equipmentCount=1 equipmentIds=122
+- ship=533:冬月 equipmentCount=1 equipmentIds=3
+- ship=537:涼月改 equipmentCount=1 equipmentIds=122
+- ship=538:冬月改 equipmentCount=1 equipmentIds=3
+- ship=541:長門改二 equipmentCount=2 equipmentIds=8,236
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=28
+- ship=543:長波改二 equipmentCount=3 equipmentIds=72,145,267
+- ship=544:Gambier Bay equipmentCount=2 equipmentIds=277,278
+- ship=545:Saratoga Mk.II equipmentCount=3 equipmentIds=197,205,206
+- ship=546:武蔵改二 equipmentCount=3 equipmentIds=117,128,234
+- ship=548:文月改二 equipmentCount=1 equipmentIds=39
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=3 equipmentIds=197,205,206
+- ship=551:日振 equipmentCount=2 equipmentIds=45,382
+- ship=552:大東 equipmentCount=1 equipmentIds=382
+- ship=553:伊勢改二 equipmentCount=2 equipmentIds=141,274
+- ship=554:日向改二 equipmentCount=3 equipmentIds=274,322,324
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=23,57,392
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=23,57,344
+- ship=561:Samuel B.Roberts equipmentCount=2 equipmentIds=284,314
+- ship=562:Johnston equipmentCount=1 equipmentIds=314
+- ship=571:Nelson equipmentCount=2 equipmentIds=298,299
+- ship=572:Rodney equipmentCount=2 equipmentIds=298,299
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=73,105,365
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,367
+- ship=576:Nelson改 equipmentCount=3 equipmentIds=298,299,300
+- ship=577:Rodney改 equipmentCount=2 equipmentIds=298,299
+- ship=578:朝霜改二 equipmentCount=1 equipmentIds=517
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,367
+- ship=580:Maestrale改 equipmentCount=1 equipmentIds=393
+- ship=581:日進 equipmentCount=1 equipmentIds=346
+- ship=586:日進甲 equipmentCount=1 equipmentIds=346
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=2 equipmentIds=35,328
+- ship=592:比叡改二丙 equipmentCount=2 equipmentIds=103,140
+- ship=593:榛名改二乙 equipmentCount=3 equipmentIds=104,289,502
+- ship=594:赤城改二 equipmentCount=1 equipmentIds=201
+- ship=595:Houston equipmentCount=2 equipmentIds=356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=284
+- ship=599:赤城改二戊 equipmentCount=1 equipmentIds=201
+- ship=600:Houston改 equipmentCount=2 equipmentIds=356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=330,331
+- ship=602:South Dakota equipmentCount=2 equipmentIds=381,385
+- ship=603:Hornet equipmentCount=2 equipmentIds=195,478
+- ship=606:伊400改 equipmentCount=1 equipmentIds=383
+- ship=610:加賀改二戊 equipmentCount=3 equipmentIds=20,96,201
+- ship=619:Grecale改 equipmentCount=1 equipmentIds=394
+- ship=621:神州丸 equipmentCount=2 equipmentIds=68,408
+- ship=622:夕張改二 equipmentCount=3 equipmentIds=47,119,518
+- ship=623:夕張改二特 equipmentCount=3 equipmentIds=47,119,518
+- ship=624:夕張改二丁 equipmentCount=3 equipmentIds=47,119,518
+- ship=626:神州丸改 equipmentCount=2 equipmentIds=68,408
+- ship=627:敷波改二 equipmentCount=2 equipmentIds=13,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=1 equipmentIds=284
+- ship=629:Fletcher Mk.II equipmentCount=2 equipmentIds=284,315
+- ship=630:Gotland andra equipmentCount=2 equipmentIds=303,367
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=646:加賀改二護 equipmentCount=3 equipmentIds=20,96,201
+- ship=647:浦波改二 equipmentCount=2 equipmentIds=13,125
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=651:丹陽 equipmentCount=1 equipmentIds=106
+- ship=654:Washington equipmentCount=2 equipmentIds=381,385
+- ship=655:Northampton equipmentCount=1 equipmentIds=414
+- ship=656:雪風改二 equipmentCount=1 equipmentIds=106
+- ship=659:Washington改 equipmentCount=2 equipmentIds=381,385
+- ship=660:Northampton改 equipmentCount=1 equipmentIds=414
+- ship=662:能代改二 equipmentCount=3 equipmentIds=55,139,187
+- ship=663:矢矧改二 equipmentCount=3 equipmentIds=65,66,220
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=13,125,285
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=3 equipmentIds=65,66,220
+- ship=670:親潮改二 equipmentCount=3 equipmentIds=266,286,470
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=2 equipmentIds=45,227
+- ship=679:大東改 equipmentCount=3 equipmentIds=227,287,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=2 equipmentIds=284,314
+- ship=689:Johnston改 equipmentCount=1 equipmentIds=314
+- ship=690:日進改 equipmentCount=1 equipmentIds=346
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=284
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=329,411,530
+- ship=697:South Dakota改 equipmentCount=2 equipmentIds=381,385
+- ship=698:加賀改二 equipmentCount=3 equipmentIds=20,96,201
+- ship=699:宗谷 equipmentCount=3 equipmentIds=49,170,445
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=3 equipmentIds=195,419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=277,278,279
+- ship=713:Victorious改 equipmentCount=2 equipmentIds=424,425
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=1 equipmentIds=442
+- ship=716:梅改 equipmentCount=2 equipmentIds=106,450
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=70,346,446
+- ship=718:玉波改 equipmentCount=3 equipmentIds=15,28,267
+- ship=719:伊201改 equipmentCount=1 equipmentIds=457
+- ship=724:Jean Bart改 equipmentCount=3 equipmentIds=246,468,471
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,313,314
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=2 equipmentIds=387,414
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,543
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,313,314
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=72,145,267
+- ship=744:朝霜改二補 equipmentCount=1 equipmentIds=517
+- ship=745:涼波改二補 equipmentCount=2 equipmentIds=106,286
+- ship=877:Conte di Cavour equipmentCount=2 equipmentIds=73,427
+- ship=878:Conte di Cavour改 equipmentCount=2 equipmentIds=73,427
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=73,136,427
+- ship=881:伊201 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=24,92,492
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=82,447
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,424
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=24,92,492
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=82,447
+- ship=893:Janus改 equipmentCount=1 equipmentIds=260
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=16,486,487
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=16,486,487
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=70,346
+- ship=911:大和改二 equipmentCount=3 equipmentIds=9,128,276
+- ship=915:早潮改二 equipmentCount=1 equipmentIds=266
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=9,128,276
+- ship=918:Maryland改 equipmentCount=1 equipmentIds=315
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=2 equipmentIds=284,314
+- ship=921:鵜来 equipmentCount=1 equipmentIds=382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=924:Nevada equipmentCount=2 equipmentIds=507,508
+- ship=925:Langley equipmentCount=1 equipmentIds=419
+- ship=926:鵜来改 equipmentCount=1 equipmentIds=382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=929:Nevada改 equipmentCount=2 equipmentIds=507,508
+- ship=930:Langley改 equipmentCount=1 equipmentIds=419
+- ship=935:Jean Bart equipmentCount=1 equipmentIds=471
+- ship=936:Nevada改 Mod.2 equipmentCount=2 equipmentIds=507,508
+- ship=941:Heywood L.E. equipmentCount=3 equipmentIds=284,313,314
+- ship=942:Richard P.Leary equipmentCount=3 equipmentIds=284,313,314
+- ship=943:熊野丸 equipmentCount=2 equipmentIds=445,489
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=2 equipmentIds=445,489
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,87,266
+- ship=952:Phoenix equipmentCount=2 equipmentIds=387,414
+- ship=954:榛名改二丙 equipmentCount=3 equipmentIds=104,289,502
+- ship=955:清霜改二 equipmentCount=1 equipmentIds=286
+- ship=957:General Belgrano equipmentCount=2 equipmentIds=387,414
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=125,294,500
+- ship=960:清霜改二丁 equipmentCount=2 equipmentIds=68,450
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=286,438,488
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=2 equipmentIds=27,121
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=1 equipmentIds=534
+- ship=968:初月改二 equipmentCount=3 equipmentIds=121,122,553
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,247
+- ship=970:Gloire改 equipmentCount=1 equipmentIds=536
+- ship=971:伊36 equipmentCount=2 equipmentIds=213,522
+- ship=972:伊41 equipmentCount=1 equipmentIds=522
+- ship=975:春雨改二 equipmentCount=2 equipmentIds=92,266
+- ship=976:伊36改 equipmentCount=3 equipmentIds=211,213,522
+- ship=977:伊41改 equipmentCount=2 equipmentIds=522,523
+- ship=979:稲木改二 equipmentCount=3 equipmentIds=39,382,509
+- ship=981:藤波改二 equipmentCount=3 equipmentIds=267,450,517
+- ship=982:早波改二 equipmentCount=1 equipmentIds=267
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=15,40,267
+- ship=984:Wahoo equipmentCount=2 equipmentIds=440,441
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=3,49,553
+- ship=989:Wahoo改 equipmentCount=2 equipmentIds=440,441
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1001:Киров equipmentCount=1 equipmentIds=555
+- ship=1003:しまね丸 equipmentCount=1 equipmentIds=492
+- ship=1005:Minneapolis equipmentCount=2 equipmentIds=356,357
+- ship=1006:Киров改 equipmentCount=1 equipmentIds=555
+- ship=1008:しまね丸改 equipmentCount=1 equipmentIds=492
+- ship=1010:Minneapolis改 equipmentCount=2 equipmentIds=356,357
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=16,23,55
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=15,28,267
+- ship=1034:涼波改二 equipmentCount=2 equipmentIds=106,286
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=121,294,295
+- ship=1040:吹雪改三護(六式) equipmentCount=4 equipmentIds=294,313,572,573
+- ship=1496:Colorado改 equipmentCount=3 equipmentIds=330,331,332
+
+### 水 (wednesday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=1 equipmentIds=297
+- ship=10:白雪 equipmentCount=2 equipmentIds=49,297
+- ship=11:深雪 equipmentCount=1 equipmentIds=13
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=2 equipmentIds=13,74
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=20:雪風 equipmentCount=1 equipmentIds=106
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=1 equipmentIds=15
+- ship=27:山城 equipmentCount=2 equipmentIds=7,11
+- ship=29:文月 equipmentCount=1 equipmentIds=49
+- ship=34:暁 equipmentCount=1 equipmentIds=38
+- ship=36:雷 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=1 equipmentIds=438
+- ship=50:島風 equipmentCount=2 equipmentIds=34,58
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=1 equipmentIds=15
+- ship=61:青葉 equipmentCount=1 equipmentIds=74
+- ship=68:摩耶 equipmentCount=1 equipmentIds=40
+- ship=69:鳥海 equipmentCount=1 equipmentIds=129
+- ship=70:最上 equipmentCount=1 equipmentIds=30
+- ship=72:筑摩 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=2 equipmentIds=26,30
+- ship=77:伊勢 equipmentCount=1 equipmentIds=31
+- ship=78:金剛 equipmentCount=1 equipmentIds=35
+- ship=79:榛名 equipmentCount=2 equipmentIds=104,202
+- ship=81:陸奥 equipmentCount=1 equipmentIds=73
+- ship=82:伊勢改 equipmentCount=2 equipmentIds=31,81
+- ship=83:赤城 equipmentCount=1 equipmentIds=201
+- ship=84:加賀 equipmentCount=2 equipmentIds=181,182
+- ship=85:霧島 equipmentCount=2 equipmentIds=140,328
+- ship=86:比叡 equipmentCount=3 equipmentIds=35,36,132
+- ship=87:日向 equipmentCount=2 equipmentIds=30,141
+- ship=88:日向改 equipmentCount=3 equipmentIds=30,141,274
+- ship=89:鳳翔 equipmentCount=2 equipmentIds=16,19
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=16,61
+- ship=91:飛龍 equipmentCount=2 equipmentIds=16,23
+- ship=107:千代田甲 equipmentCount=2 equipmentIds=25,41
+- ship=109:千代田航 equipmentCount=1 equipmentIds=41
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=17,21,478
+- ship=111:瑞鶴 equipmentCount=3 equipmentIds=17,21,152
+- ship=112:瑞鶴改 equipmentCount=3 equipmentIds=17,21,152
+- ship=113:鬼怒 equipmentCount=1 equipmentIds=39
+- ship=115:夕張 equipmentCount=2 equipmentIds=29,47
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=24,57,392
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=24,57,392
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=1 equipmentIds=15
+- ship=120:三隈 equipmentCount=2 equipmentIds=10,50
+- ship=121:三隈改 equipmentCount=2 equipmentIds=10,50
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=125:熊野 equipmentCount=1 equipmentIds=10
+- ship=128:伊8 equipmentCount=2 equipmentIds=167,210
+- ship=130:熊野改 equipmentCount=1 equipmentIds=10
+- ship=131:大和 equipmentCount=2 equipmentIds=9,73
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=135:長波 equipmentCount=2 equipmentIds=72,145
+- ship=136:大和改 equipmentCount=3 equipmentIds=9,73,276
+- ship=138:能代 equipmentCount=2 equipmentIds=139,187
+- ship=139:矢矧 equipmentCount=3 equipmentIds=65,139,220
+- ship=140:酒匂 equipmentCount=3 equipmentIds=72,187,220
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=40,47,91
+- ship=142:衣笠改二 equipmentCount=1 equipmentIds=6
+- ship=143:武蔵 equipmentCount=2 equipmentIds=89,117
+- ship=144:夕立改二 equipmentCount=1 equipmentIds=63
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=286,438,488
+- ship=147:Верный equipmentCount=2 equipmentIds=72,175
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=89,117,128
+- ship=149:金剛改二 equipmentCount=3 equipmentIds=35,103,317
+- ship=150:比叡改二 equipmentCount=3 equipmentIds=35,103,132
+- ship=151:榛名改二 equipmentCount=2 equipmentIds=104,289
+- ship=152:霧島改二 equipmentCount=2 equipmentIds=140,328
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,24,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=167,210
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=24,109,110
+- ship=160:那珂改二 equipmentCount=2 equipmentIds=91,226
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=68,193,221
+- ship=162:神威 equipmentCount=2 equipmentIds=221,224
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=68,193,221
+- ship=171:Bismarck equipmentCount=1 equipmentIds=115
+- ship=172:Bismarck改 equipmentCount=1 equipmentIds=115
+- ship=173:Bismarck zwei equipmentCount=1 equipmentIds=115
+- ship=174:Z1 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=401
+- ship=177:Prinz Eugen改 equipmentCount=3 equipmentIds=123,124,401
+- ship=178:Bismarck drei equipmentCount=1 equipmentIds=115
+- ship=179:Z1 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=71,118
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=17,92,98
+- ship=189:筑摩改二 equipmentCount=1 equipmentIds=25
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=13,63,74
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,23,55
+- ship=197:蒼龍改二 equipmentCount=2 equipmentIds=16,61
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=166
+- ship=201:吹雪改 equipmentCount=1 equipmentIds=297
+- ship=202:白雪改 equipmentCount=2 equipmentIds=49,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,500
+- ship=206:磯波改 equipmentCount=1 equipmentIds=13
+- ship=207:綾波改 equipmentCount=2 equipmentIds=13,74
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=1 equipmentIds=35
+- ship=210:比叡改 equipmentCount=3 equipmentIds=35,36,132
+- ship=211:榛名改 equipmentCount=2 equipmentIds=104,202
+- ship=212:霧島改 equipmentCount=2 equipmentIds=140,328
+- ship=228:雪風改 equipmentCount=1 equipmentIds=106
+- ship=229:島風改 equipmentCount=2 equipmentIds=34,58
+- ship=234:暁改 equipmentCount=1 equipmentIds=38
+- ship=235:響改 equipmentCount=1 equipmentIds=175
+- ship=236:雷改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=1 equipmentIds=438
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=257:文月改 equipmentCount=1 equipmentIds=49
+- ship=264:青葉改 equipmentCount=1 equipmentIds=74
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=40
+- ship=272:鳥海改 equipmentCount=1 equipmentIds=129
+- ship=274:筑摩改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=1 equipmentIds=105
+- ship=276:陸奥改 equipmentCount=2 equipmentIds=73,105
+- ship=277:赤城改 equipmentCount=1 equipmentIds=201
+- ship=278:加賀改 equipmentCount=2 equipmentIds=181,182
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=16,61
+- ship=280:飛龍改 equipmentCount=2 equipmentIds=16,23
+- ship=285:鳳翔改 equipmentCount=2 equipmentIds=16,19
+- ship=287:山城改 equipmentCount=2 equipmentIds=7,11
+- ship=288:翔鶴改 equipmentCount=3 equipmentIds=17,21,478
+- ship=289:鬼怒改 equipmentCount=1 equipmentIds=39
+- ship=292:千代田航改 equipmentCount=1 equipmentIds=41
+- ship=293:夕張改 equipmentCount=2 equipmentIds=29,47
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=297:千代田航改二 equipmentCount=1 equipmentIds=41
+- ship=299:Scamp equipmentCount=1 equipmentIds=442
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=267
+- ship=304:長波改 equipmentCount=2 equipmentIds=72,145
+- ship=306:能代改 equipmentCount=2 equipmentIds=139,187
+- ship=307:矢矧改 equipmentCount=3 equipmentIds=65,139,220
+- ship=310:Z1改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=72,187,220
+- ship=316:天津風改 equipmentCount=2 equipmentIds=34,87
+- ship=318:龍鳳改 equipmentCount=3 equipmentIds=24,57,92
+- ship=321:大淀改 equipmentCount=3 equipmentIds=71,118,395
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=330:秋月改 equipmentCount=2 equipmentIds=27,121
+- ship=343:香取改 equipmentCount=2 equipmentIds=310,518
+- ship=345:高波改 equipmentCount=2 equipmentIds=72,129
+- ship=346:照月改 equipmentCount=3 equipmentIds=27,121,149
+- ship=348:瑞穂改 equipmentCount=3 equipmentIds=25,59,217
+- ship=352:速吸改 equipmentCount=1 equipmentIds=524
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=356:鹿島改 equipmentCount=3 equipmentIds=119,310,395
+- ship=357:初月改 equipmentCount=2 equipmentIds=122,179
+- ship=358:Zara改 equipmentCount=1 equipmentIds=431
+- ship=360:Iowa改 equipmentCount=3 equipmentIds=161,171,172
+- ship=361:Pola改 equipmentCount=2 equipmentIds=431,432
+- ship=364:Warspite改 equipmentCount=2 equipmentIds=192,367
+- ship=365:Aquila改 equipmentCount=1 equipmentIds=184
+- ship=368:浦波改 equipmentCount=1 equipmentIds=13
+- ship=370:朝風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=1 equipmentIds=194
+- ship=375:伊14改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=3 equipmentIds=82,221,222
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=550,551
+- ship=383:択捉改 equipmentCount=2 equipmentIds=226,229
+- ship=392:Richelieu改 equipmentCount=2 equipmentIds=247,468
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=242,248,249
+- ship=394:Jervis改 equipmentCount=3 equipmentIds=250,261,280
+- ship=395:Ташкент改 equipmentCount=2 equipmentIds=282,283
+- ship=396:Gambier Bay改 equipmentCount=2 equipmentIds=277,278
+- ship=397:Intrepid改 equipmentCount=2 equipmentIds=420,421
+- ship=399:伊58改 equipmentCount=1 equipmentIds=213
+- ship=400:伊8改 equipmentCount=2 equipmentIds=167,210
+- ship=403:伊401改 equipmentCount=2 equipmentIds=167,210
+- ship=404:雲龍 equipmentCount=1 equipmentIds=109
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=406:雲龍改 equipmentCount=1 equipmentIds=109
+- ship=411:扶桑改二 equipmentCount=1 equipmentIds=103
+- ship=412:山城改二 equipmentCount=3 equipmentIds=7,11,103
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=40,68
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=294
+- ship=421:秋月 equipmentCount=2 equipmentIds=27,121
+- ship=422:照月 equipmentCount=3 equipmentIds=27,121,149
+- ship=423:初月 equipmentCount=2 equipmentIds=122,179
+- ship=424:高波 equipmentCount=2 equipmentIds=72,129
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=3,294,297
+- ship=427:鳥海改二 equipmentCount=1 equipmentIds=129
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=40,121,131
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=3 equipmentIds=195,197,279
+- ship=434:睦月改二 equipmentCount=2 equipmentIds=1,293
+- ship=435:如月改二 equipmentCount=2 equipmentIds=1,293
+- ship=437:暁改二 equipmentCount=1 equipmentIds=38
+- ship=438:Saratoga改 equipmentCount=3 equipmentIds=198,205,279
+- ship=439:Warspite equipmentCount=2 equipmentIds=192,367
+- ship=440:Iowa equipmentCount=3 equipmentIds=161,171,172
+- ship=441:Littorio equipmentCount=3 equipmentIds=133,134,136
+- ship=442:Roma equipmentCount=1 equipmentIds=137
+- ship=444:Aquila equipmentCount=1 equipmentIds=184
+- ship=446:Italia equipmentCount=3 equipmentIds=133,134,136
+- ship=447:Roma改 equipmentCount=2 equipmentIds=137,163
+- ship=448:Zara equipmentCount=1 equipmentIds=431
+- ship=449:Pola equipmentCount=2 equipmentIds=431,432
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=348
+- ship=451:瑞穂 equipmentCount=3 equipmentIds=25,59,217
+- ship=460:速吸 equipmentCount=1 equipmentIds=524
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=17,21,478
+- ship=462:瑞鶴改二 equipmentCount=3 equipmentIds=17,21,152
+- ship=465:鹿島 equipmentCount=3 equipmentIds=119,310,395
+- ship=466:翔鶴改二甲 equipmentCount=3 equipmentIds=17,151,478
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=17,21,152
+- ship=469:江風改二 equipmentCount=1 equipmentIds=63
+- ship=472:朝風 equipmentCount=1 equipmentIds=37
+- ship=476:神風改 equipmentCount=1 equipmentIds=174
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=2 equipmentIds=68,174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=1 equipmentIds=13
+- ship=487:鬼怒改二 equipmentCount=1 equipmentIds=39
+- ship=488:由良改二 equipmentCount=2 equipmentIds=10,91
+- ship=489:満潮改二 equipmentCount=1 equipmentIds=266
+- ship=490:荒潮改二 equipmentCount=2 equipmentIds=266,348
+- ship=491:Commandant Teste equipmentCount=1 equipmentIds=194
+- ship=492:Richelieu equipmentCount=1 equipmentIds=247
+- ship=493:伊400 equipmentCount=1 equipmentIds=383
+- ship=495:伊14 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=162,431,432
+- ship=497:白露改二 equipmentCount=1 equipmentIds=296
+- ship=498:村雨改二 equipmentCount=2 equipmentIds=40,266
+- ship=499:神威改 equipmentCount=2 equipmentIds=221,224
+- ship=500:神威改母 equipmentCount=2 equipmentIds=221,224
+- ship=501:最上改二 equipmentCount=3 equipmentIds=26,322,410
+- ship=502:三隈改二 equipmentCount=2 equipmentIds=10,50
+- ship=503:鈴谷改二 equipmentCount=3 equipmentIds=66,217,220
+- ship=504:熊野改二 equipmentCount=3 equipmentIds=10,66,220
+- ship=506:最上改二特 equipmentCount=3 equipmentIds=26,322,410
+- ship=507:三隈改二特 equipmentCount=2 equipmentIds=10,50
+- ship=508:鈴谷航改二 equipmentCount=3 equipmentIds=55,66,219
+- ship=509:熊野航改二 equipmentCount=3 equipmentIds=219,220,271
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=242,248,249
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=3 equipmentIds=250,261,280
+- ship=520:Janus equipmentCount=1 equipmentIds=260
+- ship=521:春日丸 equipmentCount=3 equipmentIds=82,221,222
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=550,551
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=3 equipmentIds=82,221,222
+- ship=528:早波 equipmentCount=1 equipmentIds=47
+- ship=529:大鷹改二 equipmentCount=3 equipmentIds=82,221,222
+- ship=532:涼月 equipmentCount=2 equipmentIds=3,553
+- ship=533:冬月 equipmentCount=1 equipmentIds=3
+- ship=537:涼月改 equipmentCount=2 equipmentIds=3,553
+- ship=538:冬月改 equipmentCount=1 equipmentIds=3
+- ship=541:長門改二 equipmentCount=3 equipmentIds=105,236,546
+- ship=543:長波改二 equipmentCount=3 equipmentIds=72,145,267
+- ship=544:Gambier Bay equipmentCount=2 equipmentIds=277,278
+- ship=545:Saratoga Mk.II equipmentCount=3 equipmentIds=197,205,279
+- ship=546:武蔵改二 equipmentCount=3 equipmentIds=89,117,128
+- ship=548:文月改二 equipmentCount=1 equipmentIds=49
+- ship=549:Intrepid equipmentCount=2 equipmentIds=420,421
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 equipmentIds=197,205,206,279
+- ship=551:日振 equipmentCount=2 equipmentIds=45,382
+- ship=552:大東 equipmentCount=1 equipmentIds=382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=31,69,290
+- ship=554:日向改二 equipmentCount=4 equipmentIds=30,237,322,325
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=24,57,392
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=24,57,392
+- ship=561:Samuel B.Roberts equipmentCount=2 equipmentIds=284,314
+- ship=562:Johnston equipmentCount=1 equipmentIds=314
+- ship=568:黒潮改二 equipmentCount=2 equipmentIds=29,45
+- ship=571:Nelson equipmentCount=2 equipmentIds=298,299
+- ship=572:Rodney equipmentCount=2 equipmentIds=298,299
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=236,317,318
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,367
+- ship=576:Nelson改 equipmentCount=3 equipmentIds=298,299,300
+- ship=577:Rodney改 equipmentCount=2 equipmentIds=298,299
+- ship=578:朝霜改二 equipmentCount=2 equipmentIds=267,286
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,367
+- ship=581:日進 equipmentCount=2 equipmentIds=41,346
+- ship=586:日進甲 equipmentCount=2 equipmentIds=41,346
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=2 equipmentIds=35,328
+- ship=592:比叡改二丙 equipmentCount=3 equipmentIds=35,103,132
+- ship=593:榛名改二乙 equipmentCount=3 equipmentIds=104,289,502
+- ship=594:赤城改二 equipmentCount=1 equipmentIds=201
+- ship=595:Houston equipmentCount=3 equipmentIds=171,356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=313
+- ship=599:赤城改二戊 equipmentCount=1 equipmentIds=201
+- ship=600:Houston改 equipmentCount=3 equipmentIds=171,356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=330,331
+- ship=602:South Dakota equipmentCount=2 equipmentIds=381,385
+- ship=603:Hornet equipmentCount=2 equipmentIds=195,478
+- ship=606:伊400改 equipmentCount=1 equipmentIds=383
+- ship=610:加賀改二戊 equipmentCount=2 equipmentIds=181,182
+- ship=615:Helena equipmentCount=1 equipmentIds=414
+- ship=616:御蔵改 equipmentCount=1 equipmentIds=227
+- ship=619:Grecale改 equipmentCount=1 equipmentIds=394
+- ship=620:Helena改 equipmentCount=1 equipmentIds=414
+- ship=621:神州丸 equipmentCount=2 equipmentIds=68,408
+- ship=622:夕張改二 equipmentCount=3 equipmentIds=47,119,518
+- ship=623:夕張改二特 equipmentCount=3 equipmentIds=47,119,518
+- ship=624:夕張改二丁 equipmentCount=3 equipmentIds=47,119,518
+- ship=626:神州丸改 equipmentCount=2 equipmentIds=68,408
+- ship=627:敷波改二 equipmentCount=2 equipmentIds=13,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=2 equipmentIds=313,315
+- ship=629:Fletcher Mk.II equipmentCount=2 equipmentIds=313,315
+- ship=630:Gotland andra equipmentCount=2 equipmentIds=303,367
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=646:加賀改二護 equipmentCount=3 equipmentIds=181,182,546
+- ship=647:浦波改二 equipmentCount=2 equipmentIds=13,125
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=649:高波改二 equipmentCount=2 equipmentIds=72,129
+- ship=651:丹陽 equipmentCount=1 equipmentIds=106
+- ship=654:Washington equipmentCount=2 equipmentIds=381,385
+- ship=656:雪風改二 equipmentCount=1 equipmentIds=106
+- ship=659:Washington改 equipmentCount=2 equipmentIds=381,385
+- ship=662:能代改二 equipmentCount=3 equipmentIds=55,139,187
+- ship=663:矢矧改二 equipmentCount=3 equipmentIds=65,139,220
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=13,125,285
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=3 equipmentIds=65,139,220
+- ship=670:親潮改二 equipmentCount=3 equipmentIds=266,286,470
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=3 equipmentIds=227,229,287
+- ship=679:大東改 equipmentCount=2 equipmentIds=287,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=2 equipmentIds=284,314
+- ship=688:早波改 equipmentCount=1 equipmentIds=47
+- ship=689:Johnston改 equipmentCount=1 equipmentIds=314
+- ship=690:日進改 equipmentCount=2 equipmentIds=41,346
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=313
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=329,411,530
+- ship=697:South Dakota改 equipmentCount=2 equipmentIds=381,385
+- ship=698:加賀改二 equipmentCount=2 equipmentIds=181,182
+- ship=699:宗谷 equipmentCount=3 equipmentIds=49,170,445
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=3 equipmentIds=195,419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=277,278,279
+- ship=713:Victorious改 equipmentCount=2 equipmentIds=424,425
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=1 equipmentIds=442
+- ship=716:梅改 equipmentCount=2 equipmentIds=106,450
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=445,446,451
+- ship=718:玉波改 equipmentCount=3 equipmentIds=15,28,267
+- ship=719:伊201改 equipmentCount=1 equipmentIds=457
+- ship=724:Jean Bart改 equipmentCount=3 equipmentIds=246,468,471
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,313,314
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=2 equipmentIds=387,414
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,544
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,313,314
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=72,145,267
+- ship=744:朝霜改二補 equipmentCount=2 equipmentIds=267,286
+- ship=745:涼波改二補 equipmentCount=2 equipmentIds=106,286
+- ship=877:Conte di Cavour equipmentCount=2 equipmentIds=73,427
+- ship=878:Conte di Cavour改 equipmentCount=2 equipmentIds=73,427
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=73,136,427
+- ship=881:伊201 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=24,92,492
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=550,551
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,424
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=24,92,492
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=550,551
+- ship=893:Janus改 equipmentCount=1 equipmentIds=260
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=16,486,487
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=16,486,487
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=445,451
+- ship=911:大和改二 equipmentCount=3 equipmentIds=142,234,464
+- ship=915:早潮改二 equipmentCount=2 equipmentIds=266,470
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=142,234,464
+- ship=918:Maryland改 equipmentCount=1 equipmentIds=315
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=2 equipmentIds=284,314
+- ship=921:鵜来 equipmentCount=1 equipmentIds=382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=924:Nevada equipmentCount=2 equipmentIds=507,508
+- ship=925:Langley equipmentCount=2 equipmentIds=256,419
+- ship=926:鵜来改 equipmentCount=1 equipmentIds=382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=929:Nevada改 equipmentCount=2 equipmentIds=507,508
+- ship=930:Langley改 equipmentCount=3 equipmentIds=256,419,474
+- ship=935:Jean Bart equipmentCount=1 equipmentIds=471
+- ship=936:Nevada改 Mod.2 equipmentCount=2 equipmentIds=507,508
+- ship=941:Heywood L.E. equipmentCount=3 equipmentIds=284,313,314
+- ship=942:Richard P.Leary equipmentCount=3 equipmentIds=284,313,314
+- ship=943:熊野丸 equipmentCount=3 equipmentIds=70,445,489
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=3 equipmentIds=70,445,489
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,87,266
+- ship=952:Phoenix equipmentCount=2 equipmentIds=387,414
+- ship=954:榛名改二丙 equipmentCount=3 equipmentIds=104,289,502
+- ship=955:清霜改二 equipmentCount=3 equipmentIds=267,286,450
+- ship=957:General Belgrano equipmentCount=2 equipmentIds=387,414
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=125,294,500
+- ship=960:清霜改二丁 equipmentCount=3 equipmentIds=68,267,450
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=266,470,488
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=2 equipmentIds=27,121
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=1 equipmentIds=534
+- ship=968:初月改二 equipmentCount=4 equipmentIds=121,122,179,553
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,247
+- ship=970:Gloire改 equipmentCount=1 equipmentIds=536
+- ship=971:伊36 equipmentCount=2 equipmentIds=213,522
+- ship=972:伊41 equipmentCount=1 equipmentIds=522
+- ship=975:春雨改二 equipmentCount=3 equipmentIds=266,470,529
+- ship=976:伊36改 equipmentCount=3 equipmentIds=211,213,522
+- ship=977:伊41改 equipmentCount=2 equipmentIds=522,523
+- ship=979:稲木改二 equipmentCount=3 equipmentIds=39,382,509
+- ship=981:藤波改二 equipmentCount=3 equipmentIds=267,450,517
+- ship=982:早波改二 equipmentCount=3 equipmentIds=45,47,438
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=15,40,267
+- ship=984:Wahoo equipmentCount=2 equipmentIds=440,441
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=3,49,553
+- ship=989:Wahoo改 equipmentCount=2 equipmentIds=440,441
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1003:しまね丸 equipmentCount=1 equipmentIds=492
+- ship=1005:Minneapolis equipmentCount=2 equipmentIds=356,357
+- ship=1008:しまね丸改 equipmentCount=1 equipmentIds=492
+- ship=1010:Minneapolis改 equipmentCount=2 equipmentIds=356,357
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=16,23,271
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=15,28,267
+- ship=1034:涼波改二 equipmentCount=2 equipmentIds=106,286
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=121,294,295
+- ship=1040:吹雪改三護(六式) equipmentCount=4 equipmentIds=294,313,572,573
+- ship=1496:Colorado改 equipmentCount=3 equipmentIds=330,331,332
+
+### 木 (thursday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=2 equipmentIds=13,125
+- ship=10:白雪 equipmentCount=2 equipmentIds=49,297
+- ship=11:深雪 equipmentCount=2 equipmentIds=13,297
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=2 equipmentIds=13,129
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=16:潮 equipmentCount=1 equipmentIds=49
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=1 equipmentIds=15
+- ship=26:扶桑 equipmentCount=1 equipmentIds=168
+- ship=27:山城 equipmentCount=2 equipmentIds=7,169
+- ship=29:文月 equipmentCount=1 equipmentIds=49
+- ship=34:暁 equipmentCount=1 equipmentIds=74
+- ship=35:響 equipmentCount=1 equipmentIds=38
+- ship=36:雷 equipmentCount=1 equipmentIds=38
+- ship=37:電 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=2 equipmentIds=46,438
+- ship=50:島風 equipmentCount=2 equipmentIds=28,58
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=1 equipmentIds=15
+- ship=61:青葉 equipmentCount=1 equipmentIds=6
+- ship=68:摩耶 equipmentCount=1 equipmentIds=40
+- ship=70:最上 equipmentCount=1 equipmentIds=30
+- ship=72:筑摩 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=2 equipmentIds=26,30
+- ship=77:伊勢 equipmentCount=1 equipmentIds=31
+- ship=78:金剛 equipmentCount=1 equipmentIds=35
+- ship=79:榛名 equipmentCount=2 equipmentIds=35,104
+- ship=80:長門 equipmentCount=1 equipmentIds=73
+- ship=81:陸奥 equipmentCount=2 equipmentIds=8,73
+- ship=82:伊勢改 equipmentCount=2 equipmentIds=31,81
+- ship=83:赤城 equipmentCount=2 equipmentIds=20,96
+- ship=84:加賀 equipmentCount=2 equipmentIds=181,182
+- ship=85:霧島 equipmentCount=2 equipmentIds=140,180
+- ship=86:比叡 equipmentCount=3 equipmentIds=35,36,132
+- ship=87:日向 equipmentCount=2 equipmentIds=30,141
+- ship=88:日向改 equipmentCount=3 equipmentIds=30,141,274
+- ship=89:鳳翔 equipmentCount=2 equipmentIds=16,19
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=23,61
+- ship=91:飛龍 equipmentCount=1 equipmentIds=16
+- ship=107:千代田甲 equipmentCount=2 equipmentIds=25,41
+- ship=109:千代田航 equipmentCount=1 equipmentIds=41
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=17,21,152
+- ship=111:瑞鶴 equipmentCount=3 equipmentIds=17,153,154
+- ship=112:瑞鶴改 equipmentCount=3 equipmentIds=17,153,154
+- ship=113:鬼怒 equipmentCount=1 equipmentIds=49
+- ship=115:夕張 equipmentCount=2 equipmentIds=29,119
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=24,550,551
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=24,550,551
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=1 equipmentIds=15
+- ship=120:三隈 equipmentCount=2 equipmentIds=10,50
+- ship=121:三隈改 equipmentCount=2 equipmentIds=10,50
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=125:熊野 equipmentCount=1 equipmentIds=10
+- ship=128:伊8 equipmentCount=2 equipmentIds=167,210
+- ship=130:熊野改 equipmentCount=2 equipmentIds=10,50
+- ship=131:大和 equipmentCount=3 equipmentIds=9,73,89
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=135:長波 equipmentCount=1 equipmentIds=145
+- ship=136:大和改 equipmentCount=3 equipmentIds=9,73,89
+- ship=137:阿賀野 equipmentCount=2 equipmentIds=65,66
+- ship=138:能代 equipmentCount=1 equipmentIds=139
+- ship=139:矢矧 equipmentCount=3 equipmentIds=65,139,220
+- ship=140:酒匂 equipmentCount=3 equipmentIds=72,187,220
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=45,46,149
+- ship=142:衣笠改二 equipmentCount=2 equipmentIds=6,90
+- ship=143:武蔵 equipmentCount=3 equipmentIds=59,73,89
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=46,240,488
+- ship=147:Верный equipmentCount=2 equipmentIds=38,400
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=59,73,89
+- ship=149:金剛改二 equipmentCount=3 equipmentIds=35,88,103
+- ship=150:比叡改二 equipmentCount=3 equipmentIds=35,36,132
+- ship=151:榛名改二 equipmentCount=3 equipmentIds=103,104,289
+- ship=152:霧島改二 equipmentCount=2 equipmentIds=140,180
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,24,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=167,210
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=17,24,109
+- ship=158:川内改二 equipmentCount=1 equipmentIds=102
+- ship=160:那珂改二 equipmentCount=2 equipmentIds=91,226
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=68,193,221
+- ship=162:神威 equipmentCount=3 equipmentIds=222,224,370
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=68,193,346
+- ship=171:Bismarck equipmentCount=1 equipmentIds=76
+- ship=172:Bismarck改 equipmentCount=1 equipmentIds=76
+- ship=173:Bismarck zwei equipmentCount=1 equipmentIds=76
+- ship=174:Z1 equipmentCount=1 equipmentIds=78
+- ship=177:Prinz Eugen改 equipmentCount=2 equipmentIds=123,124
+- ship=178:Bismarck drei equipmentCount=1 equipmentIds=76
+- ship=179:Z1 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=71,118
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=17,92,98
+- ship=189:筑摩改二 equipmentCount=1 equipmentIds=25
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=13,125,129
+- ship=196:飛龍改二 equipmentCount=2 equipmentIds=16,93
+- ship=197:蒼龍改二 equipmentCount=3 equipmentIds=23,61,99
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=166
+- ship=201:吹雪改 equipmentCount=2 equipmentIds=13,125
+- ship=202:白雪改 equipmentCount=2 equipmentIds=49,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,297
+- ship=206:磯波改 equipmentCount=1 equipmentIds=13
+- ship=207:綾波改 equipmentCount=2 equipmentIds=13,129
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=1 equipmentIds=35
+- ship=210:比叡改 equipmentCount=3 equipmentIds=35,36,132
+- ship=211:榛名改 equipmentCount=2 equipmentIds=35,104
+- ship=212:霧島改 equipmentCount=2 equipmentIds=140,180
+- ship=228:雪風改 equipmentCount=1 equipmentIds=266
+- ship=229:島風改 equipmentCount=2 equipmentIds=28,58
+- ship=233:潮改 equipmentCount=1 equipmentIds=49
+- ship=234:暁改 equipmentCount=1 equipmentIds=74
+- ship=235:響改 equipmentCount=1 equipmentIds=38
+- ship=236:雷改 equipmentCount=1 equipmentIds=38
+- ship=237:電改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=2 equipmentIds=46,438
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=257:文月改 equipmentCount=1 equipmentIds=49
+- ship=264:青葉改 equipmentCount=1 equipmentIds=6
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=40
+- ship=274:筑摩改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=2 equipmentIds=73,105
+- ship=276:陸奥改 equipmentCount=2 equipmentIds=8,73
+- ship=277:赤城改 equipmentCount=2 equipmentIds=20,96
+- ship=278:加賀改 equipmentCount=2 equipmentIds=181,182
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=23,61
+- ship=280:飛龍改 equipmentCount=1 equipmentIds=16
+- ship=285:鳳翔改 equipmentCount=2 equipmentIds=16,19
+- ship=286:扶桑改 equipmentCount=1 equipmentIds=168
+- ship=287:山城改 equipmentCount=2 equipmentIds=7,169
+- ship=288:翔鶴改 equipmentCount=3 equipmentIds=17,21,152
+- ship=289:鬼怒改 equipmentCount=1 equipmentIds=49
+- ship=292:千代田航改 equipmentCount=1 equipmentIds=41
+- ship=293:夕張改 equipmentCount=2 equipmentIds=29,119
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=297:千代田航改二 equipmentCount=1 equipmentIds=41
+- ship=299:Scamp equipmentCount=2 equipmentIds=441,442
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=267
+- ship=304:長波改 equipmentCount=1 equipmentIds=145
+- ship=305:阿賀野改 equipmentCount=2 equipmentIds=65,66
+- ship=306:能代改 equipmentCount=1 equipmentIds=139
+- ship=307:矢矧改 equipmentCount=3 equipmentIds=65,139,220
+- ship=310:Z1改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=72,187,220
+- ship=316:天津風改 equipmentCount=2 equipmentIds=34,87
+- ship=318:龍鳳改 equipmentCount=2 equipmentIds=92,344
+- ship=319:妙高改二 equipmentCount=1 equipmentIds=88
+- ship=320:磯風改 equipmentCount=1 equipmentIds=106
+- ship=321:大淀改 equipmentCount=3 equipmentIds=71,118,531
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=330:秋月改 equipmentCount=3 equipmentIds=27,121,122
+- ship=343:香取改 equipmentCount=2 equipmentIds=310,518
+- ship=345:高波改 equipmentCount=2 equipmentIds=72,129
+- ship=346:照月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=348:瑞穂改 equipmentCount=1 equipmentIds=217
+- ship=352:速吸改 equipmentCount=1 equipmentIds=524
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=356:鹿島改 equipmentCount=2 equipmentIds=119,310
+- ship=357:初月改 equipmentCount=2 equipmentIds=122,179
+- ship=358:Zara改 equipmentCount=1 equipmentIds=431
+- ship=360:Iowa改 equipmentCount=3 equipmentIds=161,171,172
+- ship=361:Pola改 equipmentCount=1 equipmentIds=432
+- ship=364:Warspite改 equipmentCount=3 equipmentIds=190,367,370
+- ship=365:Aquila改 equipmentCount=1 equipmentIds=184
+- ship=370:朝風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=3 equipmentIds=194,367,370
+- ship=374:伊13改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=3 equipmentIds=82,221,222
+- ship=381:神鷹改 equipmentCount=2 equipmentIds=82,98
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=550,551
+- ship=383:択捉改 equipmentCount=2 equipmentIds=226,229
+- ship=392:Richelieu改 equipmentCount=2 equipmentIds=247,468
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=242,248,249
+- ship=394:Jervis改 equipmentCount=3 equipmentIds=250,260,280
+- ship=395:Ташкент改 equipmentCount=2 equipmentIds=282,283
+- ship=396:Gambier Bay改 equipmentCount=2 equipmentIds=277,278
+- ship=397:Intrepid改 equipmentCount=2 equipmentIds=420,421
+- ship=399:伊58改 equipmentCount=1 equipmentIds=213
+- ship=400:伊8改 equipmentCount=2 equipmentIds=167,210
+- ship=403:伊401改 equipmentCount=2 equipmentIds=167,210
+- ship=404:雲龍 equipmentCount=1 equipmentIds=109
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=406:雲龍改 equipmentCount=1 equipmentIds=109
+- ship=407:潮改二 equipmentCount=1 equipmentIds=49
+- ship=411:扶桑改二 equipmentCount=2 equipmentIds=103,168
+- ship=412:山城改二 equipmentCount=3 equipmentIds=7,103,169
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=40,166
+- ship=419:初霜改二 equipmentCount=1 equipmentIds=285
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=294
+- ship=421:秋月 equipmentCount=3 equipmentIds=27,121,122
+- ship=422:照月 equipmentCount=3 equipmentIds=120,121,122
+- ship=423:初月 equipmentCount=2 equipmentIds=122,179
+- ship=424:高波 equipmentCount=2 equipmentIds=72,129
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=121,125,294
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=40,130,131
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=3 equipmentIds=195,197,279
+- ship=434:睦月改二 equipmentCount=2 equipmentIds=1,293
+- ship=435:如月改二 equipmentCount=2 equipmentIds=1,293
+- ship=437:暁改二 equipmentCount=1 equipmentIds=74
+- ship=438:Saratoga改 equipmentCount=2 equipmentIds=205,279
+- ship=439:Warspite equipmentCount=3 equipmentIds=190,367,370
+- ship=440:Iowa equipmentCount=3 equipmentIds=161,171,172
+- ship=441:Littorio equipmentCount=2 equipmentIds=133,136
+- ship=442:Roma equipmentCount=3 equipmentIds=134,135,137
+- ship=444:Aquila equipmentCount=1 equipmentIds=184
+- ship=446:Italia equipmentCount=2 equipmentIds=133,136
+- ship=447:Roma改 equipmentCount=3 equipmentIds=134,135,137
+- ship=448:Zara equipmentCount=1 equipmentIds=431
+- ship=449:Pola equipmentCount=1 equipmentIds=432
+- ship=450:秋津洲改 equipmentCount=2 equipmentIds=25,348
+- ship=451:瑞穂 equipmentCount=1 equipmentIds=217
+- ship=460:速吸 equipmentCount=1 equipmentIds=524
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=17,21,152
+- ship=462:瑞鶴改二 equipmentCount=3 equipmentIds=17,153,154
+- ship=465:鹿島 equipmentCount=2 equipmentIds=119,310
+- ship=466:翔鶴改二甲 equipmentCount=3 equipmentIds=17,21,152
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=17,153,154
+- ship=469:江風改二 equipmentCount=1 equipmentIds=63
+- ship=471:神風 equipmentCount=2 equipmentIds=226,346
+- ship=472:朝風 equipmentCount=1 equipmentIds=37
+- ship=476:神風改 equipmentCount=3 equipmentIds=174,226,346
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=2 equipmentIds=68,174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=487:鬼怒改二 equipmentCount=2 equipmentIds=49,68
+- ship=488:由良改二 equipmentCount=2 equipmentIds=229,238
+- ship=489:満潮改二 equipmentCount=1 equipmentIds=266
+- ship=490:荒潮改二 equipmentCount=2 equipmentIds=266,348
+- ship=491:Commandant Teste equipmentCount=3 equipmentIds=194,367,370
+- ship=492:Richelieu equipmentCount=1 equipmentIds=247
+- ship=493:伊400 equipmentCount=2 equipmentIds=95,211
+- ship=494:伊13 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=163,164,431
+- ship=497:白露改二 equipmentCount=1 equipmentIds=296
+- ship=498:村雨改二 equipmentCount=3 equipmentIds=28,40,266
+- ship=499:神威改 equipmentCount=3 equipmentIds=222,224,370
+- ship=500:神威改母 equipmentCount=3 equipmentIds=222,224,370
+- ship=501:最上改二 equipmentCount=3 equipmentIds=26,322,410
+- ship=502:三隈改二 equipmentCount=3 equipmentIds=10,50,520
+- ship=503:鈴谷改二 equipmentCount=3 equipmentIds=66,217,220
+- ship=504:熊野改二 equipmentCount=2 equipmentIds=10,50
+- ship=506:最上改二特 equipmentCount=3 equipmentIds=26,30,410
+- ship=507:三隈改二特 equipmentCount=3 equipmentIds=10,50,520
+- ship=508:鈴谷航改二 equipmentCount=3 equipmentIds=55,66,219
+- ship=509:熊野航改二 equipmentCount=2 equipmentIds=219,271
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=242,248,249
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=3 equipmentIds=250,260,280
+- ship=521:春日丸 equipmentCount=3 equipmentIds=82,221,222
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=550,551
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=3 equipmentIds=82,221,222
+- ship=528:早波 equipmentCount=1 equipmentIds=47
+- ship=529:大鷹改二 equipmentCount=3 equipmentIds=82,221,222
+- ship=532:涼月 equipmentCount=2 equipmentIds=3,553
+- ship=533:冬月 equipmentCount=1 equipmentIds=3
+- ship=534:神鷹 equipmentCount=2 equipmentIds=82,98
+- ship=536:神鷹改二 equipmentCount=2 equipmentIds=82,98
+- ship=537:涼月改 equipmentCount=2 equipmentIds=3,553
+- ship=538:冬月改 equipmentCount=1 equipmentIds=3
+- ship=541:長門改二 equipmentCount=3 equipmentIds=73,105,493
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=267
+- ship=543:長波改二 equipmentCount=3 equipmentIds=145,267,286
+- ship=544:Gambier Bay equipmentCount=2 equipmentIds=277,278
+- ship=545:Saratoga Mk.II equipmentCount=3 equipmentIds=198,205,279
+- ship=546:武蔵改二 equipmentCount=3 equipmentIds=59,128,275
+- ship=548:文月改二 equipmentCount=1 equipmentIds=49
+- ship=549:Intrepid equipmentCount=2 equipmentIds=420,421
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=4 equipmentIds=198,205,206,279
+- ship=551:日振 equipmentCount=2 equipmentIds=45,382
+- ship=552:大東 equipmentCount=1 equipmentIds=382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=31,69,290
+- ship=554:日向改二 equipmentCount=4 equipmentIds=30,237,322,325
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=24,550,551
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=24,550,551
+- ship=561:Samuel B.Roberts equipmentCount=2 equipmentIds=284,314
+- ship=562:Johnston equipmentCount=2 equipmentIds=284,314
+- ship=568:黒潮改二 equipmentCount=2 equipmentIds=29,45
+- ship=571:Nelson equipmentCount=3 equipmentIds=251,298,299
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=236,317,318
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,304
+- ship=576:Nelson改 equipmentCount=3 equipmentIds=251,298,299
+- ship=577:Rodney改 equipmentCount=1 equipmentIds=300
+- ship=578:朝霜改二 equipmentCount=2 equipmentIds=267,286
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,304
+- ship=581:日進 equipmentCount=2 equipmentIds=41,346
+- ship=586:日進甲 equipmentCount=2 equipmentIds=41,346
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=1 equipmentIds=35
+- ship=592:比叡改二丙 equipmentCount=3 equipmentIds=36,132,328
+- ship=593:榛名改二乙 equipmentCount=2 equipmentIds=104,289
+- ship=594:赤城改二 equipmentCount=2 equipmentIds=20,96
+- ship=595:Houston equipmentCount=3 equipmentIds=171,356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=313
+- ship=599:赤城改二戊 equipmentCount=2 equipmentIds=20,96
+- ship=600:Houston改 equipmentCount=3 equipmentIds=171,356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=330,331
+- ship=602:South Dakota equipmentCount=2 equipmentIds=381,385
+- ship=603:Hornet equipmentCount=2 equipmentIds=195,478
+- ship=606:伊400改 equipmentCount=2 equipmentIds=95,211
+- ship=607:伊47改 equipmentCount=1 equipmentIds=383
+- ship=610:加賀改二戊 equipmentCount=2 equipmentIds=181,182
+- ship=611:御蔵 equipmentCount=1 equipmentIds=382
+- ship=615:Helena equipmentCount=1 equipmentIds=414
+- ship=616:御蔵改 equipmentCount=2 equipmentIds=227,382
+- ship=619:Grecale改 equipmentCount=1 equipmentIds=394
+- ship=620:Helena改 equipmentCount=1 equipmentIds=414
+- ship=621:神州丸 equipmentCount=3 equipmentIds=68,403,409
+- ship=622:夕張改二 equipmentCount=3 equipmentIds=29,119,149
+- ship=623:夕張改二特 equipmentCount=3 equipmentIds=29,119,149
+- ship=624:夕張改二丁 equipmentCount=3 equipmentIds=29,119,149
+- ship=626:神州丸改 equipmentCount=3 equipmentIds=68,403,409
+- ship=627:敷波改二 equipmentCount=2 equipmentIds=13,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=2 equipmentIds=313,315
+- ship=629:Fletcher Mk.II equipmentCount=2 equipmentIds=313,315
+- ship=630:Gotland andra equipmentCount=3 equipmentIds=304,368,371
+- ship=636:伊47 equipmentCount=1 equipmentIds=383
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=645:宗谷 equipmentCount=1 equipmentIds=524
+- ship=646:加賀改二護 equipmentCount=3 equipmentIds=181,182,546
+- ship=647:浦波改二 equipmentCount=3 equipmentIds=68,295,455
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=649:高波改二 equipmentCount=2 equipmentIds=72,129
+- ship=650:宗谷 equipmentCount=1 equipmentIds=524
+- ship=651:丹陽 equipmentCount=2 equipmentIds=397,398
+- ship=654:Washington equipmentCount=2 equipmentIds=381,385
+- ship=659:Washington改 equipmentCount=2 equipmentIds=381,385
+- ship=662:能代改二 equipmentCount=3 equipmentIds=55,139,407
+- ship=663:矢矧改二 equipmentCount=3 equipmentIds=65,139,220
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=285,294,297
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=3 equipmentIds=65,139,220
+- ship=670:親潮改二 equipmentCount=3 equipmentIds=266,286,470
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=3 equipmentIds=45,229,382
+- ship=679:大東改 equipmentCount=1 equipmentIds=382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=2 equipmentIds=284,314
+- ship=688:早波改 equipmentCount=1 equipmentIds=47
+- ship=689:Johnston改 equipmentCount=2 equipmentIds=284,314
+- ship=690:日進改 equipmentCount=2 equipmentIds=41,346
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=313
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=329,411,530
+- ship=697:South Dakota改 equipmentCount=2 equipmentIds=381,385
+- ship=698:加賀改二 equipmentCount=2 equipmentIds=181,182
+- ship=699:宗谷 equipmentCount=3 equipmentIds=175,185,524
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=3 equipmentIds=195,419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=277,278,279
+- ship=713:Victorious改 equipmentCount=3 equipmentIds=252,424,425
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=2 equipmentIds=441,442
+- ship=716:梅改 equipmentCount=2 equipmentIds=106,450
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=445,446,451
+- ship=718:玉波改 equipmentCount=3 equipmentIds=15,28,267
+- ship=719:伊201改 equipmentCount=1 equipmentIds=457
+- ship=724:Jean Bart改 equipmentCount=3 equipmentIds=246,468,471
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,313,314
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=3 equipmentIds=386,414,539
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,544
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,313,314
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=145,267,286
+- ship=744:朝霜改二補 equipmentCount=2 equipmentIds=267,286
+- ship=745:涼波改二補 equipmentCount=3 equipmentIds=267,286,575
+- ship=877:Conte di Cavour equipmentCount=2 equipmentIds=73,426
+- ship=878:Conte di Cavour改 equipmentCount=2 equipmentIds=73,426
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=73,136,426
+- ship=881:伊201 equipmentCount=1 equipmentIds=457
+- ship=882:伊203 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=344,372,552
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=550,551
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,424
+- ship=887:伊203改 equipmentCount=1 equipmentIds=457
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=344,372,552
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=550,551
+- ship=891:Salmon equipmentCount=2 equipmentIds=511,512
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=16,19,486
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=897:Salmon改 equipmentCount=2 equipmentIds=511,512
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=16,19,486
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=445,451
+- ship=901:Javelin equipmentCount=1 equipmentIds=261
+- ship=906:Javelin改 equipmentCount=1 equipmentIds=261
+- ship=910:倉橋改 equipmentCount=1 equipmentIds=227
+- ship=911:大和改二 equipmentCount=3 equipmentIds=142,234,464
+- ship=915:早潮改二 equipmentCount=2 equipmentIds=266,470
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=142,234,464
+- ship=918:Maryland改 equipmentCount=1 equipmentIds=315
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=2 equipmentIds=284,314
+- ship=921:鵜来 equipmentCount=1 equipmentIds=382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=924:Nevada equipmentCount=2 equipmentIds=507,508
+- ship=925:Langley equipmentCount=2 equipmentIds=256,419
+- ship=926:鵜来改 equipmentCount=1 equipmentIds=382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=929:Nevada改 equipmentCount=2 equipmentIds=507,508
+- ship=930:Langley改 equipmentCount=3 equipmentIds=256,419,474
+- ship=935:Jean Bart equipmentCount=1 equipmentIds=471
+- ship=936:Nevada改 Mod.2 equipmentCount=2 equipmentIds=507,508
+- ship=941:Heywood L.E. equipmentCount=3 equipmentIds=284,313,314
+- ship=942:Richard P.Leary equipmentCount=3 equipmentIds=284,313,314
+- ship=943:熊野丸 equipmentCount=2 equipmentIds=70,445
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=4 equipmentIds=70,445,451,549
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,87,266
+- ship=952:Phoenix equipmentCount=3 equipmentIds=386,414,539
+- ship=954:榛名改二丙 equipmentCount=2 equipmentIds=104,289
+- ship=955:清霜改二 equipmentCount=3 equipmentIds=267,450,517
+- ship=957:General Belgrano equipmentCount=3 equipmentIds=386,414,539
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=960:清霜改二丁 equipmentCount=3 equipmentIds=267,450,517
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=240,266,470
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=3 equipmentIds=27,121,122
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=2 equipmentIds=534,535
+- ship=968:初月改二 equipmentCount=3 equipmentIds=122,179,533
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,247
+- ship=970:Gloire改 equipmentCount=1 equipmentIds=536
+- ship=971:伊36 equipmentCount=2 equipmentIds=213,522
+- ship=975:春雨改二 equipmentCount=3 equipmentIds=266,470,529
+- ship=976:伊36改 equipmentCount=3 equipmentIds=211,213,522
+- ship=979:稲木改二 equipmentCount=3 equipmentIds=39,382,509
+- ship=982:早波改二 equipmentCount=3 equipmentIds=45,47,438
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=15,40,267
+- ship=984:Wahoo equipmentCount=2 equipmentIds=440,441
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=49,297,553
+- ship=989:Wahoo改 equipmentCount=2 equipmentIds=440,441
+- ship=997:杉改 equipmentCount=2 equipmentIds=106,379
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1005:Minneapolis equipmentCount=2 equipmentIds=356,357
+- ship=1010:Minneapolis改 equipmentCount=2 equipmentIds=356,357
+- ship=1031:飛龍改三 equipmentCount=2 equipmentIds=16,271
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=15,28,267
+- ship=1034:涼波改二 equipmentCount=3 equipmentIds=267,286,575
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=379,572,573
+- ship=1040:吹雪改三護(六式) equipmentCount=5 equipmentIds=121,288,294,313,574
+- ship=1496:Colorado改 equipmentCount=3 equipmentIds=330,331,332
+
+### 金 (friday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=2 equipmentIds=13,125
+- ship=10:白雪 equipmentCount=2 equipmentIds=13,297
+- ship=11:深雪 equipmentCount=2 equipmentIds=13,297
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=1 equipmentIds=129
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=16:潮 equipmentCount=2 equipmentIds=49,395
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=2 equipmentIds=15,32
+- ship=26:扶桑 equipmentCount=2 equipmentIds=7,168
+- ship=27:山城 equipmentCount=2 equipmentIds=7,169
+- ship=28:皐月 equipmentCount=1 equipmentIds=49
+- ship=29:文月 equipmentCount=1 equipmentIds=49
+- ship=34:暁 equipmentCount=1 equipmentIds=74
+- ship=35:響 equipmentCount=1 equipmentIds=38
+- ship=37:電 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=2 equipmentIds=27,46
+- ship=50:島風 equipmentCount=2 equipmentIds=28,87
+- ship=55:神通 equipmentCount=1 equipmentIds=74
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=2 equipmentIds=15,32
+- ship=61:青葉 equipmentCount=1 equipmentIds=6
+- ship=68:摩耶 equipmentCount=1 equipmentIds=120
+- ship=69:鳥海 equipmentCount=1 equipmentIds=74
+- ship=70:最上 equipmentCount=1 equipmentIds=5
+- ship=71:利根 equipmentCount=1 equipmentIds=25
+- ship=72:筑摩 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=1 equipmentIds=5
+- ship=77:伊勢 equipmentCount=2 equipmentIds=30,31
+- ship=78:金剛 equipmentCount=1 equipmentIds=116
+- ship=79:榛名 equipmentCount=2 equipmentIds=35,186
+- ship=80:長門 equipmentCount=2 equipmentIds=8,73
+- ship=81:陸奥 equipmentCount=1 equipmentIds=73
+- ship=82:伊勢改 equipmentCount=3 equipmentIds=26,51,79
+- ship=83:赤城 equipmentCount=2 equipmentIds=20,96
+- ship=85:霧島 equipmentCount=3 equipmentIds=36,140,180
+- ship=86:比叡 equipmentCount=3 equipmentIds=35,36,132
+- ship=87:日向 equipmentCount=3 equipmentIds=28,30,141
+- ship=88:日向改 equipmentCount=3 equipmentIds=26,79,237
+- ship=89:鳳翔 equipmentCount=3 equipmentIds=19,98,228
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=23,61
+- ship=91:飛龍 equipmentCount=1 equipmentIds=16
+- ship=92:隼鷹 equipmentCount=1 equipmentIds=60
+- ship=106:千歳甲 equipmentCount=1 equipmentIds=25
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=24,152,391
+- ship=111:瑞鶴 equipmentCount=3 equipmentIds=156,157,392
+- ship=112:瑞鶴改 equipmentCount=3 equipmentIds=156,157,392
+- ship=115:夕張 equipmentCount=2 equipmentIds=46,310
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=23,550,551
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=23,550,551
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=2 equipmentIds=15,32
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=124:鈴谷 equipmentCount=1 equipmentIds=10
+- ship=127:伊58 equipmentCount=1 equipmentIds=167
+- ship=128:伊8 equipmentCount=2 equipmentIds=167,210
+- ship=129:鈴谷改 equipmentCount=1 equipmentIds=10
+- ship=130:熊野改 equipmentCount=1 equipmentIds=50
+- ship=131:大和 equipmentCount=3 equipmentIds=9,12,73
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=133:夕雲 equipmentCount=1 equipmentIds=28
+- ship=135:長波 equipmentCount=1 equipmentIds=145
+- ship=136:大和改 equipmentCount=3 equipmentIds=12,73,234
+- ship=137:阿賀野 equipmentCount=3 equipmentIds=65,66,145
+- ship=138:能代 equipmentCount=2 equipmentIds=65,139
+- ship=139:矢矧 equipmentCount=1 equipmentIds=139
+- ship=140:酒匂 equipmentCount=2 equipmentIds=32,187
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=45,46,149
+- ship=142:衣笠改二 equipmentCount=2 equipmentIds=6,90
+- ship=143:武蔵 equipmentCount=3 equipmentIds=12,59,73
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=46,240,296
+- ship=147:Верный equipmentCount=2 equipmentIds=38,400
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=12,73,276
+- ship=149:金剛改二 equipmentCount=2 equipmentIds=88,116
+- ship=150:比叡改二 equipmentCount=3 equipmentIds=35,36,132
+- ship=151:榛名改二 equipmentCount=3 equipmentIds=35,103,186
+- ship=152:霧島改二 equipmentCount=3 equipmentIds=36,140,180
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,18,109
+- ship=155:伊401 equipmentCount=1 equipmentIds=211
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=18,22,52
+- ship=158:川内改二 equipmentCount=1 equipmentIds=102
+- ship=159:神通改二 equipmentCount=1 equipmentIds=74
+- ship=160:那珂改二 equipmentCount=1 equipmentIds=91
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=68,166,176
+- ship=162:神威 equipmentCount=3 equipmentIds=222,224,370
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=68,166,346
+- ship=171:Bismarck equipmentCount=2 equipmentIds=76,401
+- ship=172:Bismarck改 equipmentCount=2 equipmentIds=76,401
+- ship=173:Bismarck zwei equipmentCount=2 equipmentIds=76,401
+- ship=174:Z1 equipmentCount=2 equipmentIds=78,84
+- ship=175:Z3 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=115
+- ship=177:Prinz Eugen改 equipmentCount=1 equipmentIds=115
+- ship=178:Bismarck drei equipmentCount=2 equipmentIds=76,401
+- ship=179:Z1 zwei equipmentCount=2 equipmentIds=78,84
+- ship=180:Z3 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=1 equipmentIds=235
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=17,21,92
+- ship=188:利根改二 equipmentCount=1 equipmentIds=25
+- ship=189:筑摩改二 equipmentCount=1 equipmentIds=25
+- ship=194:羽黒改二 equipmentCount=1 equipmentIds=88
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=125,129,285
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,93,94
+- ship=197:蒼龍改二 equipmentCount=3 equipmentIds=23,61,99
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=68
+- ship=201:吹雪改 equipmentCount=2 equipmentIds=13,125
+- ship=202:白雪改 equipmentCount=2 equipmentIds=13,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,297
+- ship=206:磯波改 equipmentCount=2 equipmentIds=13,297
+- ship=207:綾波改 equipmentCount=1 equipmentIds=129
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=1 equipmentIds=116
+- ship=210:比叡改 equipmentCount=3 equipmentIds=35,36,132
+- ship=211:榛名改 equipmentCount=2 equipmentIds=35,186
+- ship=212:霧島改 equipmentCount=3 equipmentIds=36,140,180
+- ship=223:神通改 equipmentCount=1 equipmentIds=74
+- ship=228:雪風改 equipmentCount=1 equipmentIds=266
+- ship=229:島風改 equipmentCount=2 equipmentIds=28,87
+- ship=233:潮改 equipmentCount=2 equipmentIds=49,395
+- ship=234:暁改 equipmentCount=1 equipmentIds=74
+- ship=235:響改 equipmentCount=1 equipmentIds=38
+- ship=237:電改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=2 equipmentIds=27,46
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=256:皐月改 equipmentCount=1 equipmentIds=49
+- ship=257:文月改 equipmentCount=1 equipmentIds=49
+- ship=264:青葉改 equipmentCount=1 equipmentIds=6
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=120
+- ship=272:鳥海改 equipmentCount=1 equipmentIds=74
+- ship=273:利根改 equipmentCount=1 equipmentIds=25
+- ship=274:筑摩改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=2 equipmentIds=8,73
+- ship=276:陸奥改 equipmentCount=2 equipmentIds=73,105
+- ship=277:赤城改 equipmentCount=2 equipmentIds=20,96
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=23,61
+- ship=280:飛龍改 equipmentCount=1 equipmentIds=16
+- ship=284:隼鷹改 equipmentCount=1 equipmentIds=60
+- ship=285:鳳翔改 equipmentCount=3 equipmentIds=19,98,228
+- ship=286:扶桑改 equipmentCount=2 equipmentIds=7,168
+- ship=287:山城改 equipmentCount=2 equipmentIds=7,169
+- ship=288:翔鶴改 equipmentCount=1 equipmentIds=24
+- ship=293:夕張改 equipmentCount=2 equipmentIds=46,310
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=299:Scamp equipmentCount=2 equipmentIds=440,441
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=28
+- ship=304:長波改 equipmentCount=1 equipmentIds=145
+- ship=305:阿賀野改 equipmentCount=3 equipmentIds=65,66,145
+- ship=306:能代改 equipmentCount=2 equipmentIds=65,139
+- ship=307:矢矧改 equipmentCount=1 equipmentIds=139
+- ship=310:Z1改 equipmentCount=2 equipmentIds=78,84
+- ship=311:Z3改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=32,55,187
+- ship=316:天津風改 equipmentCount=1 equipmentIds=34
+- ship=318:龍鳳改 equipmentCount=2 equipmentIds=92,344
+- ship=319:妙高改二 equipmentCount=1 equipmentIds=88
+- ship=320:磯風改 equipmentCount=1 equipmentIds=106
+- ship=321:大淀改 equipmentCount=3 equipmentIds=235,275,531
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=325:清霜改 equipmentCount=1 equipmentIds=365
+- ship=330:秋月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=343:香取改 equipmentCount=1 equipmentIds=46
+- ship=345:高波改 equipmentCount=2 equipmentIds=72,129
+- ship=346:照月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=347:Libeccio改 equipmentCount=1 equipmentIds=147
+- ship=348:瑞穂改 equipmentCount=2 equipmentIds=165,216
+- ship=352:速吸改 equipmentCount=1 equipmentIds=524
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=357:初月改 equipmentCount=2 equipmentIds=121,179
+- ship=358:Zara改 equipmentCount=1 equipmentIds=163
+- ship=360:Iowa改 equipmentCount=2 equipmentIds=161,183
+- ship=364:Warspite改 equipmentCount=3 equipmentIds=190,367,370
+- ship=365:Aquila改 equipmentCount=3 equipmentIds=184,189,316
+- ship=368:浦波改 equipmentCount=1 equipmentIds=297
+- ship=370:朝風改 equipmentCount=1 equipmentIds=37
+- ship=371:松風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=3 equipmentIds=194,367,370
+- ship=374:伊13改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=1 equipmentIds=176
+- ship=381:神鷹改 equipmentCount=2 equipmentIds=82,98
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=550,551
+- ship=383:択捉改 equipmentCount=1 equipmentIds=226
+- ship=392:Richelieu改 equipmentCount=2 equipmentIds=245,471
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=243,251,423
+- ship=394:Jervis改 equipmentCount=2 equipmentIds=260,280
+- ship=395:Ташкент改 equipmentCount=3 equipmentIds=282,283,400
+- ship=397:Intrepid改 equipmentCount=3 equipmentIds=420,421,474
+- ship=399:伊58改 equipmentCount=1 equipmentIds=167
+- ship=400:伊8改 equipmentCount=2 equipmentIds=167,210
+- ship=403:伊401改 equipmentCount=1 equipmentIds=211
+- ship=404:雲龍 equipmentCount=1 equipmentIds=109
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=406:雲龍改 equipmentCount=1 equipmentIds=109
+- ship=407:潮改二 equipmentCount=2 equipmentIds=49,395
+- ship=408:隼鷹改二 equipmentCount=1 equipmentIds=60
+- ship=410:清霜 equipmentCount=1 equipmentIds=365
+- ship=411:扶桑改二 equipmentCount=3 equipmentIds=7,103,168
+- ship=412:山城改二 equipmentCount=3 equipmentIds=7,103,169
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=49,166
+- ship=419:初霜改二 equipmentCount=2 equipmentIds=106,285
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=294
+- ship=421:秋月 equipmentCount=3 equipmentIds=120,121,122
+- ship=422:照月 equipmentCount=3 equipmentIds=120,121,122
+- ship=423:初月 equipmentCount=2 equipmentIds=121,179
+- ship=424:高波 equipmentCount=2 equipmentIds=72,129
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=121,125,294
+- ship=427:鳥海改二 equipmentCount=1 equipmentIds=74
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=10,120,130
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=3 equipmentIds=195,197,279
+- ship=434:睦月改二 equipmentCount=2 equipmentIds=1,293
+- ship=435:如月改二 equipmentCount=2 equipmentIds=1,293
+- ship=437:暁改二 equipmentCount=1 equipmentIds=74
+- ship=438:Saratoga改 equipmentCount=3 equipmentIds=195,197,279
+- ship=439:Warspite equipmentCount=3 equipmentIds=190,367,370
+- ship=440:Iowa equipmentCount=2 equipmentIds=161,183
+- ship=441:Littorio equipmentCount=2 equipmentIds=133,135
+- ship=442:Roma equipmentCount=3 equipmentIds=134,135,137
+- ship=443:Libeccio equipmentCount=1 equipmentIds=147
+- ship=444:Aquila equipmentCount=3 equipmentIds=184,189,316
+- ship=446:Italia equipmentCount=2 equipmentIds=133,135
+- ship=447:Roma改 equipmentCount=3 equipmentIds=134,135,137
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=25
+- ship=451:瑞穂 equipmentCount=2 equipmentIds=165,216
+- ship=460:速吸 equipmentCount=1 equipmentIds=524
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=22,24,53
+- ship=462:瑞鶴改二 equipmentCount=3 equipmentIds=156,157,392
+- ship=466:翔鶴改二甲 equipmentCount=2 equipmentIds=24,53
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=156,157,392
+- ship=471:神風 equipmentCount=2 equipmentIds=226,346
+- ship=472:朝風 equipmentCount=1 equipmentIds=37
+- ship=474:松風 equipmentCount=1 equipmentIds=37
+- ship=476:神風改 equipmentCount=3 equipmentIds=174,226,346
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=1 equipmentIds=174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=1 equipmentIds=297
+- ship=487:鬼怒改二 equipmentCount=3 equipmentIds=68,131,193
+- ship=488:由良改二 equipmentCount=2 equipmentIds=229,238
+- ship=489:満潮改二 equipmentCount=2 equipmentIds=240,266
+- ship=490:荒潮改二 equipmentCount=2 equipmentIds=266,348
+- ship=491:Commandant Teste equipmentCount=3 equipmentIds=194,367,370
+- ship=492:Richelieu equipmentCount=2 equipmentIds=245,471
+- ship=493:伊400 equipmentCount=2 equipmentIds=95,211
+- ship=494:伊13 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=163,164,215
+- ship=497:白露改二 equipmentCount=1 equipmentIds=296
+- ship=498:村雨改二 equipmentCount=3 equipmentIds=28,40,266
+- ship=499:神威改 equipmentCount=3 equipmentIds=222,224,370
+- ship=500:神威改母 equipmentCount=3 equipmentIds=222,224,370
+- ship=501:最上改二 equipmentCount=2 equipmentIds=80,485
+- ship=502:三隈改二 equipmentCount=1 equipmentIds=520
+- ship=503:鈴谷改二 equipmentCount=1 equipmentIds=10
+- ship=504:熊野改二 equipmentCount=1 equipmentIds=50
+- ship=506:最上改二特 equipmentCount=2 equipmentIds=5,80
+- ship=507:三隈改二特 equipmentCount=1 equipmentIds=520
+- ship=508:鈴谷航改二 equipmentCount=2 equipmentIds=10,220
+- ship=509:熊野航改二 equipmentCount=2 equipmentIds=66,219
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=243,251,423
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=2 equipmentIds=260,280
+- ship=521:春日丸 equipmentCount=1 equipmentIds=176
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=550,551
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=1 equipmentIds=176
+- ship=528:早波 equipmentCount=1 equipmentIds=47
+- ship=529:大鷹改二 equipmentCount=1 equipmentIds=176
+- ship=532:涼月 equipmentCount=3 equipmentIds=3,121,553
+- ship=533:冬月 equipmentCount=2 equipmentIds=3,122
+- ship=534:神鷹 equipmentCount=2 equipmentIds=82,98
+- ship=536:神鷹改二 equipmentCount=2 equipmentIds=82,98
+- ship=537:涼月改 equipmentCount=3 equipmentIds=3,121,553
+- ship=538:冬月改 equipmentCount=3 equipmentIds=3,122,553
+- ship=541:長門改二 equipmentCount=3 equipmentIds=8,73,493
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=267
+- ship=543:長波改二 equipmentCount=3 equipmentIds=145,267,286
+- ship=545:Saratoga Mk.II equipmentCount=2 equipmentIds=195,279
+- ship=546:武蔵改二 equipmentCount=3 equipmentIds=275,276,281
+- ship=548:文月改二 equipmentCount=1 equipmentIds=49
+- ship=549:Intrepid equipmentCount=2 equipmentIds=420,421
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 equipmentIds=195,279
+- ship=551:日振 equipmentCount=1 equipmentIds=382
+- ship=552:大東 equipmentCount=2 equipmentIds=45,382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=30,31,290
+- ship=554:日向改二 equipmentCount=5 equipmentIds=28,30,141,237,325
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=23,550,551
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=23,550,551
+- ship=561:Samuel B.Roberts equipmentCount=1 equipmentIds=284
+- ship=562:Johnston equipmentCount=1 equipmentIds=284
+- ship=566:陽炎改二 equipmentCount=1 equipmentIds=286
+- ship=568:黒潮改二 equipmentCount=2 equipmentIds=29,45
+- ship=571:Nelson equipmentCount=1 equipmentIds=251
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=105,236,318
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,304
+- ship=576:Nelson改 equipmentCount=1 equipmentIds=251
+- ship=577:Rodney改 equipmentCount=1 equipmentIds=300
+- ship=578:朝霜改二 equipmentCount=3 equipmentIds=267,286,450
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,304
+- ship=580:Maestrale改 equipmentCount=1 equipmentIds=393
+- ship=581:日進 equipmentCount=2 equipmentIds=41,309
+- ship=586:日進甲 equipmentCount=2 equipmentIds=41,309
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=3 equipmentIds=116,365,483
+- ship=592:比叡改二丙 equipmentCount=3 equipmentIds=36,132,328
+- ship=593:榛名改二乙 equipmentCount=2 equipmentIds=35,186
+- ship=594:赤城改二 equipmentCount=2 equipmentIds=20,96
+- ship=595:Houston equipmentCount=2 equipmentIds=356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=313
+- ship=599:赤城改二戊 equipmentCount=2 equipmentIds=20,96
+- ship=600:Houston改 equipmentCount=2 equipmentIds=356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=171,330
+- ship=602:South Dakota equipmentCount=1 equipmentIds=381
+- ship=603:Hornet equipmentCount=1 equipmentIds=478
+- ship=606:伊400改 equipmentCount=2 equipmentIds=95,211
+- ship=607:伊47改 equipmentCount=1 equipmentIds=383
+- ship=611:御蔵 equipmentCount=1 equipmentIds=382
+- ship=615:Helena equipmentCount=1 equipmentIds=414
+- ship=616:御蔵改 equipmentCount=2 equipmentIds=227,382
+- ship=617:屋代改 equipmentCount=1 equipmentIds=227
+- ship=620:Helena改 equipmentCount=1 equipmentIds=414
+- ship=621:神州丸 equipmentCount=3 equipmentIds=403,409,445
+- ship=622:夕張改二 equipmentCount=2 equipmentIds=46,310
+- ship=623:夕張改二特 equipmentCount=2 equipmentIds=46,310
+- ship=624:夕張改二丁 equipmentCount=2 equipmentIds=46,310
+- ship=626:神州丸改 equipmentCount=3 equipmentIds=403,409,445
+- ship=627:敷波改二 equipmentCount=3 equipmentIds=13,125,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=1 equipmentIds=313
+- ship=629:Fletcher Mk.II equipmentCount=1 equipmentIds=313
+- ship=630:Gotland andra equipmentCount=3 equipmentIds=304,368,371
+- ship=636:伊47 equipmentCount=1 equipmentIds=383
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=645:宗谷 equipmentCount=1 equipmentIds=524
+- ship=646:加賀改二護 equipmentCount=1 equipmentIds=546
+- ship=647:浦波改二 equipmentCount=4 equipmentIds=68,295,297,455
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=649:高波改二 equipmentCount=2 equipmentIds=72,129
+- ship=650:宗谷 equipmentCount=1 equipmentIds=524
+- ship=651:丹陽 equipmentCount=2 equipmentIds=397,398
+- ship=654:Washington equipmentCount=2 equipmentIds=381,385
+- ship=655:Northampton equipmentCount=1 equipmentIds=414
+- ship=659:Washington改 equipmentCount=2 equipmentIds=381,385
+- ship=660:Northampton改 equipmentCount=1 equipmentIds=414
+- ship=662:能代改二 equipmentCount=3 equipmentIds=65,139,407
+- ship=663:矢矧改二 equipmentCount=2 equipmentIds=55,139
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=294,295,297
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=1 equipmentIds=139
+- ship=670:親潮改二 equipmentCount=1 equipmentIds=266
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=2 equipmentIds=229,382
+- ship=679:大東改 equipmentCount=2 equipmentIds=45,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=1 equipmentIds=284
+- ship=688:早波改 equipmentCount=1 equipmentIds=47
+- ship=689:Johnston改 equipmentCount=1 equipmentIds=284
+- ship=690:日進改 equipmentCount=2 equipmentIds=41,309
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=313
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=36,140,180
+- ship=697:South Dakota改 equipmentCount=1 equipmentIds=381
+- ship=699:宗谷 equipmentCount=3 equipmentIds=175,185,524
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=2 equipmentIds=419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=233,422,473
+- ship=713:Victorious改 equipmentCount=3 equipmentIds=249,252,423
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=2 equipmentIds=440,441
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=445,451,452
+- ship=718:玉波改 equipmentCount=2 equipmentIds=15,28
+- ship=719:伊201改 equipmentCount=1 equipmentIds=457
+- ship=723:Ranger改 equipmentCount=2 equipmentIds=196,256
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,314,315
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=3 equipmentIds=386,414,539
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,544
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,314,315
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=267,286,517
+- ship=744:朝霜改二補 equipmentCount=3 equipmentIds=267,286,450
+- ship=745:涼波改二補 equipmentCount=3 equipmentIds=267,286,575
+- ship=877:Conte di Cavour equipmentCount=1 equipmentIds=426
+- ship=878:Conte di Cavour改 equipmentCount=1 equipmentIds=426
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=426,428,429
+- ship=881:伊201 equipmentCount=1 equipmentIds=457
+- ship=882:伊203 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=344,372,552
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=550,551
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,423
+- ship=887:伊203改 equipmentCount=1 equipmentIds=457
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=344,372,552
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=550,551
+- ship=891:Salmon equipmentCount=2 equipmentIds=511,512
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=19,98,228
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=897:Salmon改 equipmentCount=2 equipmentIds=511,512
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=19,98,228
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=445,451
+- ship=901:Javelin equipmentCount=1 equipmentIds=261
+- ship=906:Javelin改 equipmentCount=1 equipmentIds=261
+- ship=910:倉橋改 equipmentCount=1 equipmentIds=227
+- ship=911:大和改二 equipmentCount=3 equipmentIds=12,73,234
+- ship=915:早潮改二 equipmentCount=2 equipmentIds=266,470
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=12,73,234
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=1 equipmentIds=284
+- ship=921:鵜来 equipmentCount=2 equipmentIds=287,382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=925:Langley equipmentCount=2 equipmentIds=256,419
+- ship=926:鵜来改 equipmentCount=2 equipmentIds=287,382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=930:Langley改 equipmentCount=3 equipmentIds=256,419,474
+- ship=931:Ranger equipmentCount=1 equipmentIds=196
+- ship=941:Heywood L.E. equipmentCount=2 equipmentIds=284,314
+- ship=942:Richard P.Leary equipmentCount=2 equipmentIds=284,314
+- ship=943:熊野丸 equipmentCount=1 equipmentIds=70
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=3 equipmentIds=70,451,549
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,266,470
+- ship=952:Phoenix equipmentCount=3 equipmentIds=386,414,539
+- ship=954:榛名改二丙 equipmentCount=2 equipmentIds=35,186
+- ship=955:清霜改二 equipmentCount=3 equipmentIds=267,365,517
+- ship=956:早霜改二 equipmentCount=1 equipmentIds=267
+- ship=957:General Belgrano equipmentCount=3 equipmentIds=386,414,539
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=960:清霜改二丁 equipmentCount=3 equipmentIds=267,365,517
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=240,266,470
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=3 equipmentIds=120,121,122
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=2 equipmentIds=534,535
+- ship=968:初月改二 equipmentCount=3 equipmentIds=122,179,533
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,471
+- ship=970:Gloire改 equipmentCount=2 equipmentIds=536,537
+- ship=971:伊36 equipmentCount=1 equipmentIds=167
+- ship=975:春雨改二 equipmentCount=2 equipmentIds=470,529
+- ship=976:伊36改 equipmentCount=1 equipmentIds=167
+- ship=979:稲木改二 equipmentCount=2 equipmentIds=39,382
+- ship=981:藤波改二 equipmentCount=1 equipmentIds=267
+- ship=982:早波改二 equipmentCount=3 equipmentIds=45,47,438
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=15,40,267
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=997:杉改 equipmentCount=2 equipmentIds=106,379
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=94,547,570
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=28,227,267
+- ship=1034:涼波改二 equipmentCount=3 equipmentIds=267,286,575
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=379,572,573
+- ship=1040:吹雪改三護(六式) equipmentCount=5 equipmentIds=121,288,294,313,574
+- ship=1496:Colorado改 equipmentCount=2 equipmentIds=171,330
+
+### 土 (saturday)
+- ship=1:睦月 equipmentCount=1 equipmentIds=1
+- ship=2:如月 equipmentCount=1 equipmentIds=1
+- ship=9:吹雪 equipmentCount=1 equipmentIds=13
+- ship=10:白雪 equipmentCount=2 equipmentIds=13,297
+- ship=11:深雪 equipmentCount=2 equipmentIds=13,297
+- ship=12:磯波 equipmentCount=1 equipmentIds=13
+- ship=13:綾波 equipmentCount=1 equipmentIds=129
+- ship=14:敷波 equipmentCount=1 equipmentIds=13
+- ship=16:潮 equipmentCount=2 equipmentIds=49,395
+- ship=24:大井 equipmentCount=1 equipmentIds=15
+- ship=25:北上 equipmentCount=2 equipmentIds=15,32
+- ship=26:扶桑 equipmentCount=2 equipmentIds=7,168
+- ship=27:山城 equipmentCount=1 equipmentIds=169
+- ship=28:皐月 equipmentCount=1 equipmentIds=49
+- ship=29:文月 equipmentCount=1 equipmentIds=49
+- ship=34:暁 equipmentCount=1 equipmentIds=74
+- ship=37:電 equipmentCount=1 equipmentIds=38
+- ship=43:時雨 equipmentCount=2 equipmentIds=27,46
+- ship=50:島風 equipmentCount=2 equipmentIds=28,179
+- ship=55:神通 equipmentCount=1 equipmentIds=74
+- ship=57:大井改 equipmentCount=1 equipmentIds=15
+- ship=58:北上改 equipmentCount=2 equipmentIds=15,32
+- ship=61:青葉 equipmentCount=1 equipmentIds=6
+- ship=68:摩耶 equipmentCount=1 equipmentIds=120
+- ship=69:鳥海 equipmentCount=1 equipmentIds=74
+- ship=70:最上 equipmentCount=1 equipmentIds=5
+- ship=71:利根 equipmentCount=1 equipmentIds=25
+- ship=72:筑摩 equipmentCount=1 equipmentIds=25
+- ship=73:最上改 equipmentCount=1 equipmentIds=5
+- ship=77:伊勢 equipmentCount=2 equipmentIds=30,31
+- ship=78:金剛 equipmentCount=2 equipmentIds=11,116
+- ship=79:榛名 equipmentCount=3 equipmentIds=35,116,186
+- ship=80:長門 equipmentCount=2 equipmentIds=8,73
+- ship=82:伊勢改 equipmentCount=3 equipmentIds=26,51,79
+- ship=83:赤城 equipmentCount=2 equipmentIds=20,96
+- ship=85:霧島 equipmentCount=3 equipmentIds=35,36,180
+- ship=86:比叡 equipmentCount=2 equipmentIds=36,140
+- ship=87:日向 equipmentCount=3 equipmentIds=28,30,141
+- ship=88:日向改 equipmentCount=3 equipmentIds=26,79,237
+- ship=89:鳳翔 equipmentCount=3 equipmentIds=19,98,228
+- ship=90:蒼龍 equipmentCount=2 equipmentIds=23,61
+- ship=91:飛龍 equipmentCount=1 equipmentIds=16
+- ship=92:隼鷹 equipmentCount=1 equipmentIds=60
+- ship=106:千歳甲 equipmentCount=1 equipmentIds=25
+- ship=110:翔鶴 equipmentCount=3 equipmentIds=152,391,478
+- ship=111:瑞鶴 equipmentCount=3 equipmentIds=156,157,392
+- ship=112:瑞鶴改 equipmentCount=3 equipmentIds=156,157,392
+- ship=115:夕張 equipmentCount=2 equipmentIds=46,310
+- ship=116:瑞鳳 equipmentCount=3 equipmentIds=23,550,551
+- ship=117:瑞鳳改 equipmentCount=3 equipmentIds=23,550,551
+- ship=118:大井改二 equipmentCount=1 equipmentIds=15
+- ship=119:北上改二 equipmentCount=2 equipmentIds=15,32
+- ship=123:衣笠 equipmentCount=1 equipmentIds=6
+- ship=124:鈴谷 equipmentCount=1 equipmentIds=10
+- ship=127:伊58 equipmentCount=1 equipmentIds=167
+- ship=128:伊8 equipmentCount=1 equipmentIds=167
+- ship=129:鈴谷改 equipmentCount=1 equipmentIds=10
+- ship=130:熊野改 equipmentCount=1 equipmentIds=50
+- ship=131:大和 equipmentCount=3 equipmentIds=9,12,204
+- ship=132:秋雲 equipmentCount=1 equipmentIds=74
+- ship=133:夕雲 equipmentCount=1 equipmentIds=28
+- ship=135:長波 equipmentCount=1 equipmentIds=145
+- ship=136:大和改 equipmentCount=3 equipmentIds=12,204,234
+- ship=137:阿賀野 equipmentCount=3 equipmentIds=65,66,145
+- ship=138:能代 equipmentCount=2 equipmentIds=65,139
+- ship=139:矢矧 equipmentCount=1 equipmentIds=139
+- ship=140:酒匂 equipmentCount=2 equipmentIds=32,139
+- ship=141:五十鈴改二 equipmentCount=3 equipmentIds=27,39,149
+- ship=142:衣笠改二 equipmentCount=2 equipmentIds=6,90
+- ship=143:武蔵 equipmentCount=3 equipmentIds=12,59,73
+- ship=145:時雨改二 equipmentCount=3 equipmentIds=27,46,296
+- ship=147:Верный equipmentCount=1 equipmentIds=400
+- ship=148:武蔵改 equipmentCount=3 equipmentIds=12,73,276
+- ship=149:金剛改二 equipmentCount=2 equipmentIds=116,317
+- ship=150:比叡改二 equipmentCount=2 equipmentIds=36,140
+- ship=151:榛名改二 equipmentCount=3 equipmentIds=35,116,186
+- ship=152:霧島改二 equipmentCount=3 equipmentIds=35,36,180
+- ship=153:大鳳 equipmentCount=3 equipmentIds=17,18,109
+- ship=155:伊401 equipmentCount=2 equipmentIds=211,383
+- ship=156:大鳳改 equipmentCount=3 equipmentIds=18,22,52
+- ship=158:川内改二 equipmentCount=1 equipmentIds=102
+- ship=159:神通改二 equipmentCount=1 equipmentIds=74
+- ship=161:あきつ丸 equipmentCount=3 equipmentIds=68,166,176
+- ship=162:神威 equipmentCount=2 equipmentIds=224,370
+- ship=166:あきつ丸改 equipmentCount=3 equipmentIds=68,166,176
+- ship=171:Bismarck equipmentCount=2 equipmentIds=76,401
+- ship=172:Bismarck改 equipmentCount=2 equipmentIds=76,401
+- ship=173:Bismarck zwei equipmentCount=2 equipmentIds=76,401
+- ship=174:Z1 equipmentCount=2 equipmentIds=78,84
+- ship=175:Z3 equipmentCount=1 equipmentIds=78
+- ship=176:Prinz Eugen equipmentCount=1 equipmentIds=115
+- ship=177:Prinz Eugen改 equipmentCount=1 equipmentIds=115
+- ship=178:Bismarck drei equipmentCount=2 equipmentIds=76,401
+- ship=179:Z1 zwei equipmentCount=2 equipmentIds=78,84
+- ship=180:Z3 zwei equipmentCount=1 equipmentIds=78
+- ship=181:天津風 equipmentCount=1 equipmentIds=34
+- ship=183:大淀 equipmentCount=2 equipmentIds=5,235
+- ship=184:大鯨 equipmentCount=1 equipmentIds=92
+- ship=185:龍鳳 equipmentCount=3 equipmentIds=17,21,92
+- ship=188:利根改二 equipmentCount=1 equipmentIds=25
+- ship=189:筑摩改二 equipmentCount=1 equipmentIds=25
+- ship=194:羽黒改二 equipmentCount=1 equipmentIds=88
+- ship=195:綾波改二 equipmentCount=3 equipmentIds=125,129,285
+- ship=196:飛龍改二 equipmentCount=3 equipmentIds=16,93,94
+- ship=197:蒼龍改二 equipmentCount=3 equipmentIds=23,61,99
+- ship=199:大潮改二 equipmentCount=1 equipmentIds=348
+- ship=200:阿武隈改二 equipmentCount=1 equipmentIds=68
+- ship=201:吹雪改 equipmentCount=1 equipmentIds=13
+- ship=202:白雪改 equipmentCount=2 equipmentIds=13,297
+- ship=204:深雪改 equipmentCount=2 equipmentIds=13,297
+- ship=206:磯波改 equipmentCount=2 equipmentIds=13,297
+- ship=207:綾波改 equipmentCount=1 equipmentIds=129
+- ship=208:敷波改 equipmentCount=1 equipmentIds=13
+- ship=209:金剛改 equipmentCount=2 equipmentIds=11,116
+- ship=210:比叡改 equipmentCount=2 equipmentIds=36,140
+- ship=211:榛名改 equipmentCount=3 equipmentIds=35,116,186
+- ship=212:霧島改 equipmentCount=3 equipmentIds=35,36,180
+- ship=223:神通改 equipmentCount=1 equipmentIds=74
+- ship=228:雪風改 equipmentCount=1 equipmentIds=266
+- ship=229:島風改 equipmentCount=2 equipmentIds=28,179
+- ship=233:潮改 equipmentCount=2 equipmentIds=49,395
+- ship=234:暁改 equipmentCount=1 equipmentIds=74
+- ship=237:電改 equipmentCount=1 equipmentIds=38
+- ship=243:時雨改 equipmentCount=2 equipmentIds=27,46
+- ship=254:睦月改 equipmentCount=1 equipmentIds=1
+- ship=255:如月改 equipmentCount=1 equipmentIds=1
+- ship=256:皐月改 equipmentCount=1 equipmentIds=49
+- ship=257:文月改 equipmentCount=1 equipmentIds=49
+- ship=264:青葉改 equipmentCount=1 equipmentIds=6
+- ship=271:摩耶改 equipmentCount=1 equipmentIds=120
+- ship=272:鳥海改 equipmentCount=1 equipmentIds=74
+- ship=273:利根改 equipmentCount=1 equipmentIds=25
+- ship=274:筑摩改 equipmentCount=1 equipmentIds=25
+- ship=275:長門改 equipmentCount=2 equipmentIds=8,73
+- ship=276:陸奥改 equipmentCount=1 equipmentIds=105
+- ship=277:赤城改 equipmentCount=2 equipmentIds=20,96
+- ship=279:蒼龍改 equipmentCount=2 equipmentIds=23,61
+- ship=280:飛龍改 equipmentCount=1 equipmentIds=16
+- ship=284:隼鷹改 equipmentCount=1 equipmentIds=60
+- ship=285:鳳翔改 equipmentCount=3 equipmentIds=19,98,228
+- ship=286:扶桑改 equipmentCount=2 equipmentIds=7,168
+- ship=287:山城改 equipmentCount=1 equipmentIds=169
+- ship=288:翔鶴改 equipmentCount=1 equipmentIds=478
+- ship=293:夕張改 equipmentCount=2 equipmentIds=46,310
+- ship=295:衣笠改 equipmentCount=1 equipmentIds=6
+- ship=299:Scamp equipmentCount=2 equipmentIds=440,441
+- ship=301:秋雲改 equipmentCount=1 equipmentIds=74
+- ship=302:夕雲改 equipmentCount=1 equipmentIds=28
+- ship=304:長波改 equipmentCount=1 equipmentIds=145
+- ship=305:阿賀野改 equipmentCount=3 equipmentIds=65,66,145
+- ship=306:能代改 equipmentCount=2 equipmentIds=65,139
+- ship=307:矢矧改 equipmentCount=1 equipmentIds=139
+- ship=310:Z1改 equipmentCount=2 equipmentIds=78,84
+- ship=311:Z3改 equipmentCount=1 equipmentIds=78
+- ship=314:酒匂改 equipmentCount=3 equipmentIds=32,55,139
+- ship=316:天津風改 equipmentCount=1 equipmentIds=34
+- ship=318:龍鳳改 equipmentCount=2 equipmentIds=92,344
+- ship=319:妙高改二 equipmentCount=1 equipmentIds=88
+- ship=320:磯風改 equipmentCount=1 equipmentIds=106
+- ship=321:大淀改 equipmentCount=3 equipmentIds=235,275,531
+- ship=323:春雨改 equipmentCount=2 equipmentIds=15,92
+- ship=325:清霜改 equipmentCount=1 equipmentIds=365
+- ship=330:秋月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=343:香取改 equipmentCount=1 equipmentIds=46
+- ship=345:高波改 equipmentCount=2 equipmentIds=72,129
+- ship=346:照月改 equipmentCount=3 equipmentIds=120,121,122
+- ship=347:Libeccio改 equipmentCount=1 equipmentIds=147
+- ship=348:瑞穂改 equipmentCount=2 equipmentIds=165,216
+- ship=352:速吸改 equipmentCount=1 equipmentIds=524
+- ship=353:Graf Zeppelin改 equipmentCount=2 equipmentIds=64,158
+- ship=357:初月改 equipmentCount=2 equipmentIds=121,179
+- ship=358:Zara改 equipmentCount=1 equipmentIds=163
+- ship=360:Iowa改 equipmentCount=2 equipmentIds=161,183
+- ship=364:Warspite改 equipmentCount=3 equipmentIds=190,250,370
+- ship=365:Aquila改 equipmentCount=3 equipmentIds=184,189,316
+- ship=368:浦波改 equipmentCount=1 equipmentIds=297
+- ship=370:朝風改 equipmentCount=1 equipmentIds=37
+- ship=371:松風改 equipmentCount=1 equipmentIds=37
+- ship=372:Commandant Teste改 equipmentCount=3 equipmentIds=194,367,370
+- ship=374:伊13改 equipmentCount=1 equipmentIds=213
+- ship=376:占守改 equipmentCount=1 equipmentIds=226
+- ship=380:大鷹改 equipmentCount=1 equipmentIds=176
+- ship=381:神鷹改 equipmentCount=2 equipmentIds=82,98
+- ship=382:雲鷹改 equipmentCount=2 equipmentIds=82,447
+- ship=383:択捉改 equipmentCount=1 equipmentIds=226
+- ship=392:Richelieu改 equipmentCount=3 equipmentIds=245,246,471
+- ship=393:Ark Royal改 equipmentCount=3 equipmentIds=243,251,423
+- ship=394:Jervis改 equipmentCount=2 equipmentIds=260,280
+- ship=395:Ташкент改 equipmentCount=3 equipmentIds=282,283,400
+- ship=397:Intrepid改 equipmentCount=3 equipmentIds=420,421,474
+- ship=399:伊58改 equipmentCount=1 equipmentIds=167
+- ship=400:伊8改 equipmentCount=1 equipmentIds=167
+- ship=403:伊401改 equipmentCount=2 equipmentIds=211,383
+- ship=404:雲龍 equipmentCount=1 equipmentIds=109
+- ship=405:春雨 equipmentCount=1 equipmentIds=92
+- ship=406:雲龍改 equipmentCount=1 equipmentIds=109
+- ship=407:潮改二 equipmentCount=2 equipmentIds=49,395
+- ship=408:隼鷹改二 equipmentCount=1 equipmentIds=60
+- ship=410:清霜 equipmentCount=1 equipmentIds=365
+- ship=411:扶桑改二 equipmentCount=3 equipmentIds=7,103,168
+- ship=412:山城改二 equipmentCount=2 equipmentIds=81,169
+- ship=418:皐月改二 equipmentCount=2 equipmentIds=49,166
+- ship=419:初霜改二 equipmentCount=2 equipmentIds=106,285
+- ship=420:叢雲改二 equipmentCount=1 equipmentIds=294
+- ship=421:秋月 equipmentCount=3 equipmentIds=120,121,122
+- ship=422:照月 equipmentCount=3 equipmentIds=120,121,122
+- ship=423:初月 equipmentCount=2 equipmentIds=121,179
+- ship=424:高波 equipmentCount=2 equipmentIds=72,129
+- ship=426:吹雪改二 equipmentCount=3 equipmentIds=121,294,295
+- ship=427:鳥海改二 equipmentCount=1 equipmentIds=74
+- ship=428:摩耶改二 equipmentCount=3 equipmentIds=10,120,130
+- ship=432:Graf Zeppelin equipmentCount=2 equipmentIds=64,158
+- ship=433:Saratoga equipmentCount=3 equipmentIds=195,197,279
+- ship=434:睦月改二 equipmentCount=1 equipmentIds=1
+- ship=435:如月改二 equipmentCount=2 equipmentIds=1,293
+- ship=437:暁改二 equipmentCount=1 equipmentIds=74
+- ship=438:Saratoga改 equipmentCount=3 equipmentIds=195,197,279
+- ship=439:Warspite equipmentCount=3 equipmentIds=190,250,370
+- ship=440:Iowa equipmentCount=2 equipmentIds=161,183
+- ship=441:Littorio equipmentCount=2 equipmentIds=134,137
+- ship=442:Roma equipmentCount=2 equipmentIds=133,135
+- ship=443:Libeccio equipmentCount=1 equipmentIds=147
+- ship=444:Aquila equipmentCount=3 equipmentIds=184,189,316
+- ship=446:Italia equipmentCount=3 equipmentIds=134,137,163
+- ship=447:Roma改 equipmentCount=2 equipmentIds=133,135
+- ship=450:秋津洲改 equipmentCount=1 equipmentIds=25
+- ship=451:瑞穂 equipmentCount=2 equipmentIds=165,216
+- ship=460:速吸 equipmentCount=1 equipmentIds=524
+- ship=461:翔鶴改二 equipmentCount=3 equipmentIds=22,53,478
+- ship=462:瑞鶴改二 equipmentCount=3 equipmentIds=156,157,392
+- ship=466:翔鶴改二甲 equipmentCount=2 equipmentIds=53,478
+- ship=467:瑞鶴改二甲 equipmentCount=3 equipmentIds=156,157,392
+- ship=471:神風 equipmentCount=2 equipmentIds=226,346
+- ship=472:朝風 equipmentCount=1 equipmentIds=37
+- ship=474:松風 equipmentCount=1 equipmentIds=37
+- ship=476:神風改 equipmentCount=3 equipmentIds=174,226,346
+- ship=477:天龍改二 equipmentCount=1 equipmentIds=91
+- ship=478:龍田改二 equipmentCount=1 equipmentIds=174
+- ship=484:浜波 equipmentCount=2 equipmentIds=15,40
+- ship=486:浦波 equipmentCount=1 equipmentIds=297
+- ship=487:鬼怒改二 equipmentCount=3 equipmentIds=68,131,193
+- ship=488:由良改二 equipmentCount=2 equipmentIds=229,238
+- ship=489:満潮改二 equipmentCount=2 equipmentIds=240,266
+- ship=490:荒潮改二 equipmentCount=2 equipmentIds=266,348
+- ship=491:Commandant Teste equipmentCount=3 equipmentIds=194,367,370
+- ship=492:Richelieu equipmentCount=2 equipmentIds=245,471
+- ship=493:伊400 equipmentCount=2 equipmentIds=95,211
+- ship=494:伊13 equipmentCount=1 equipmentIds=213
+- ship=496:Zara due equipmentCount=3 equipmentIds=163,164,215
+- ship=497:白露改二 equipmentCount=1 equipmentIds=227
+- ship=498:村雨改二 equipmentCount=3 equipmentIds=28,40,266
+- ship=499:神威改 equipmentCount=2 equipmentIds=224,370
+- ship=500:神威改母 equipmentCount=2 equipmentIds=224,370
+- ship=501:最上改二 equipmentCount=2 equipmentIds=80,485
+- ship=502:三隈改二 equipmentCount=1 equipmentIds=520
+- ship=503:鈴谷改二 equipmentCount=1 equipmentIds=10
+- ship=504:熊野改二 equipmentCount=1 equipmentIds=50
+- ship=506:最上改二特 equipmentCount=2 equipmentIds=5,80
+- ship=507:三隈改二特 equipmentCount=1 equipmentIds=520
+- ship=508:鈴谷航改二 equipmentCount=2 equipmentIds=10,220
+- ship=509:熊野航改二 equipmentCount=1 equipmentIds=66
+- ship=511:Гангут equipmentCount=2 equipmentIds=231,232
+- ship=512:Октябрьская революция equipmentCount=2 equipmentIds=231,232
+- ship=513:Гангут два equipmentCount=2 equipmentIds=231,232
+- ship=514:Sheffield equipmentCount=1 equipmentIds=399
+- ship=515:Ark Royal equipmentCount=3 equipmentIds=243,251,423
+- ship=516:Ташкент equipmentCount=2 equipmentIds=282,283
+- ship=517:占守 equipmentCount=1 equipmentIds=226
+- ship=519:Jervis equipmentCount=2 equipmentIds=260,280
+- ship=521:春日丸 equipmentCount=1 equipmentIds=176
+- ship=522:八幡丸 equipmentCount=2 equipmentIds=82,447
+- ship=524:択捉 equipmentCount=1 equipmentIds=226
+- ship=526:大鷹 equipmentCount=1 equipmentIds=176
+- ship=528:早波 equipmentCount=1 equipmentIds=47
+- ship=529:大鷹改二 equipmentCount=1 equipmentIds=176
+- ship=532:涼月 equipmentCount=2 equipmentIds=121,122
+- ship=533:冬月 equipmentCount=2 equipmentIds=3,122
+- ship=534:神鷹 equipmentCount=2 equipmentIds=82,98
+- ship=536:神鷹改二 equipmentCount=2 equipmentIds=82,98
+- ship=537:涼月改 equipmentCount=2 equipmentIds=121,122
+- ship=538:冬月改 equipmentCount=3 equipmentIds=3,122,553
+- ship=541:長門改二 equipmentCount=3 equipmentIds=8,73,493
+- ship=542:夕雲改二 equipmentCount=1 equipmentIds=267
+- ship=543:長波改二 equipmentCount=3 equipmentIds=145,267,286
+- ship=545:Saratoga Mk.II equipmentCount=2 equipmentIds=195,279
+- ship=546:武蔵改二 equipmentCount=3 equipmentIds=275,276,281
+- ship=548:文月改二 equipmentCount=1 equipmentIds=49
+- ship=549:Intrepid equipmentCount=2 equipmentIds=420,421
+- ship=550:Saratoga Mk.II Mod.2 equipmentCount=2 equipmentIds=195,279
+- ship=551:日振 equipmentCount=1 equipmentIds=382
+- ship=552:大東 equipmentCount=2 equipmentIds=45,382
+- ship=553:伊勢改二 equipmentCount=3 equipmentIds=30,31,290
+- ship=554:日向改二 equipmentCount=5 equipmentIds=28,30,141,326,327
+- ship=555:瑞鳳改二 equipmentCount=3 equipmentIds=23,550,551
+- ship=560:瑞鳳改二乙 equipmentCount=3 equipmentIds=23,550,551
+- ship=561:Samuel B.Roberts equipmentCount=1 equipmentIds=284
+- ship=562:Johnston equipmentCount=1 equipmentIds=284
+- ship=566:陽炎改二 equipmentCount=1 equipmentIds=286
+- ship=568:黒潮改二 equipmentCount=2 equipmentIds=29,45
+- ship=571:Nelson equipmentCount=1 equipmentIds=251
+- ship=573:陸奥改二 equipmentCount=3 equipmentIds=105,236,318
+- ship=574:Gotland equipmentCount=2 equipmentIds=303,304
+- ship=576:Nelson改 equipmentCount=1 equipmentIds=251
+- ship=577:Rodney改 equipmentCount=1 equipmentIds=300
+- ship=578:朝霜改二 equipmentCount=3 equipmentIds=267,286,450
+- ship=579:Gotland改 equipmentCount=2 equipmentIds=303,304
+- ship=580:Maestrale改 equipmentCount=1 equipmentIds=393
+- ship=581:日進 equipmentCount=2 equipmentIds=41,309
+- ship=586:日進甲 equipmentCount=2 equipmentIds=41,309
+- ship=588:山風改二 equipmentCount=1 equipmentIds=438
+- ship=589:L.d.S.D.d.Abruzzi equipmentCount=1 equipmentIds=340
+- ship=590:G.Garibaldi equipmentCount=1 equipmentIds=341
+- ship=591:金剛改二丙 equipmentCount=3 equipmentIds=116,365,483
+- ship=592:比叡改二丙 equipmentCount=3 equipmentIds=36,140,328
+- ship=593:榛名改二乙 equipmentCount=3 equipmentIds=35,116,186
+- ship=594:赤城改二 equipmentCount=2 equipmentIds=20,96
+- ship=595:Houston equipmentCount=2 equipmentIds=356,357
+- ship=596:Fletcher equipmentCount=1 equipmentIds=284
+- ship=599:赤城改二戊 equipmentCount=2 equipmentIds=20,96
+- ship=600:Houston改 equipmentCount=2 equipmentIds=356,357
+- ship=601:Colorado equipmentCount=2 equipmentIds=171,330
+- ship=602:South Dakota equipmentCount=1 equipmentIds=381
+- ship=603:Hornet equipmentCount=1 equipmentIds=478
+- ship=606:伊400改 equipmentCount=2 equipmentIds=95,211
+- ship=611:御蔵 equipmentCount=1 equipmentIds=382
+- ship=615:Helena equipmentCount=1 equipmentIds=414
+- ship=616:御蔵改 equipmentCount=1 equipmentIds=382
+- ship=617:屋代改 equipmentCount=1 equipmentIds=227
+- ship=620:Helena改 equipmentCount=1 equipmentIds=414
+- ship=621:神州丸 equipmentCount=3 equipmentIds=403,409,445
+- ship=622:夕張改二 equipmentCount=2 equipmentIds=46,310
+- ship=623:夕張改二特 equipmentCount=2 equipmentIds=46,310
+- ship=624:夕張改二丁 equipmentCount=2 equipmentIds=46,310
+- ship=626:神州丸改 equipmentCount=3 equipmentIds=403,409,445
+- ship=627:敷波改二 equipmentCount=3 equipmentIds=13,125,296
+- ship=628:Fletcher改 Mod.2 equipmentCount=1 equipmentIds=284
+- ship=629:Fletcher Mk.II equipmentCount=1 equipmentIds=284
+- ship=630:Gotland andra equipmentCount=3 equipmentIds=304,368,371
+- ship=641:松 equipmentCount=1 equipmentIds=379
+- ship=645:宗谷 equipmentCount=1 equipmentIds=524
+- ship=646:加賀改二護 equipmentCount=1 equipmentIds=546
+- ship=647:浦波改二 equipmentCount=4 equipmentIds=294,295,297,455
+- ship=648:秋雲改二 equipmentCount=1 equipmentIds=74
+- ship=649:高波改二 equipmentCount=2 equipmentIds=72,129
+- ship=650:宗谷 equipmentCount=1 equipmentIds=524
+- ship=651:丹陽 equipmentCount=2 equipmentIds=397,398
+- ship=654:Washington equipmentCount=2 equipmentIds=381,385
+- ship=655:Northampton equipmentCount=1 equipmentIds=414
+- ship=659:Washington改 equipmentCount=2 equipmentIds=381,385
+- ship=660:Northampton改 equipmentCount=1 equipmentIds=414
+- ship=662:能代改二 equipmentCount=3 equipmentIds=65,139,407
+- ship=663:矢矧改二 equipmentCount=2 equipmentIds=55,139
+- ship=666:磯波改二 equipmentCount=3 equipmentIds=294,295,297
+- ship=667:山風改二丁 equipmentCount=1 equipmentIds=438
+- ship=668:矢矧改二乙 equipmentCount=1 equipmentIds=139
+- ship=670:親潮改二 equipmentCount=1 equipmentIds=266
+- ship=674:玉波 equipmentCount=2 equipmentIds=15,28
+- ship=678:日振改 equipmentCount=2 equipmentIds=229,382
+- ship=679:大東改 equipmentCount=2 equipmentIds=45,382
+- ship=680:浜波改 equipmentCount=2 equipmentIds=15,40
+- ship=681:Samuel B.Roberts改 equipmentCount=1 equipmentIds=284
+- ship=688:早波改 equipmentCount=1 equipmentIds=47
+- ship=689:Johnston改 equipmentCount=1 equipmentIds=284
+- ship=690:日進改 equipmentCount=2 equipmentIds=41,309
+- ship=691:G.Garibaldi改 equipmentCount=1 equipmentIds=341
+- ship=692:Fletcher改 equipmentCount=1 equipmentIds=284
+- ship=693:L.d.S.D.d.Abruzzi改 equipmentCount=1 equipmentIds=340
+- ship=694:霧島改二丙 equipmentCount=3 equipmentIds=35,36,180
+- ship=697:South Dakota改 equipmentCount=1 equipmentIds=381
+- ship=699:宗谷 equipmentCount=3 equipmentIds=175,185,524
+- ship=702:松改 equipmentCount=1 equipmentIds=379
+- ship=704:Hornet改 equipmentCount=2 equipmentIds=419,478
+- ship=705:Sheffield改 equipmentCount=1 equipmentIds=399
+- ship=707:Gambier Bay Mk.II equipmentCount=3 equipmentIds=233,422,473
+- ship=713:Victorious改 equipmentCount=3 equipmentIds=249,252,423
+- ship=714:昭南改 equipmentCount=1 equipmentIds=382
+- ship=715:Scamp改 equipmentCount=2 equipmentIds=440,441
+- ship=717:山汐丸改 equipmentCount=3 equipmentIds=70,451,452
+- ship=718:玉波改 equipmentCount=2 equipmentIds=15,28
+- ship=723:Ranger改 equipmentCount=2 equipmentIds=196,256
+- ship=726:Heywood L.E.改 equipmentCount=3 equipmentIds=284,314,315
+- ship=727:第百一号輸送艦改 equipmentCount=1 equipmentIds=496
+- ship=730:稲木改 equipmentCount=2 equipmentIds=39,382
+- ship=732:Drum改 equipmentCount=1 equipmentIds=519
+- ship=733:Valiant改 equipmentCount=1 equipmentIds=190
+- ship=734:Phoenix改 equipmentCount=3 equipmentIds=386,414,539
+- ship=735:Lexington改 equipmentCount=3 equipmentIds=541,542,544
+- ship=737:Richard P.Leary改 equipmentCount=3 equipmentIds=284,314,315
+- ship=738:Norge改 equipmentCount=1 equipmentIds=564
+- ship=739:Eidsvold改 equipmentCount=1 equipmentIds=565
+- ship=743:長波改二補 equipmentCount=3 equipmentIds=267,286,517
+- ship=744:朝霜改二補 equipmentCount=3 equipmentIds=267,286,450
+- ship=745:涼波改二補 equipmentCount=3 equipmentIds=267,286,575
+- ship=877:Conte di Cavour equipmentCount=1 equipmentIds=426
+- ship=878:Conte di Cavour改 equipmentCount=1 equipmentIds=426
+- ship=879:Conte di Cavour nuovo equipmentCount=3 equipmentIds=426,428,429
+- ship=882:伊203 equipmentCount=1 equipmentIds=457
+- ship=883:龍鳳改二戊 equipmentCount=3 equipmentIds=344,372,552
+- ship=884:雲鷹 equipmentCount=2 equipmentIds=82,447
+- ship=885:Victorious equipmentCount=2 equipmentIds=249,423
+- ship=887:伊203改 equipmentCount=1 equipmentIds=457
+- ship=888:龍鳳改二 equipmentCount=3 equipmentIds=344,372,552
+- ship=889:雲鷹改二 equipmentCount=2 equipmentIds=82,447
+- ship=891:Salmon equipmentCount=2 equipmentIds=511,512
+- ship=894:鳳翔改二 equipmentCount=3 equipmentIds=19,98,228
+- ship=895:昭南 equipmentCount=1 equipmentIds=382
+- ship=897:Salmon改 equipmentCount=2 equipmentIds=511,512
+- ship=899:鳳翔改二戦 equipmentCount=3 equipmentIds=19,98,228
+- ship=900:山汐丸 equipmentCount=2 equipmentIds=70,451
+- ship=901:Javelin equipmentCount=1 equipmentIds=261
+- ship=906:Javelin改 equipmentCount=1 equipmentIds=261
+- ship=910:倉橋改 equipmentCount=1 equipmentIds=227
+- ship=911:大和改二 equipmentCount=3 equipmentIds=12,204,234
+- ship=915:早潮改二 equipmentCount=1 equipmentIds=266
+- ship=916:大和改二重 equipmentCount=3 equipmentIds=12,204,234
+- ship=920:Samuel B.Roberts Mk.II equipmentCount=1 equipmentIds=284
+- ship=921:鵜来 equipmentCount=2 equipmentIds=287,382
+- ship=922:稲木 equipmentCount=2 equipmentIds=39,382
+- ship=925:Langley equipmentCount=2 equipmentIds=256,419
+- ship=926:鵜来改 equipmentCount=2 equipmentIds=287,382
+- ship=927:Valiant equipmentCount=1 equipmentIds=190
+- ship=930:Langley改 equipmentCount=3 equipmentIds=256,419,474
+- ship=931:Ranger equipmentCount=1 equipmentIds=196
+- ship=941:Heywood L.E. equipmentCount=2 equipmentIds=284,314
+- ship=942:Richard P.Leary equipmentCount=2 equipmentIds=284,314
+- ship=943:熊野丸 equipmentCount=1 equipmentIds=70
+- ship=945:第百一号輸送艦 equipmentCount=1 equipmentIds=496
+- ship=948:熊野丸改 equipmentCount=3 equipmentIds=70,451,549
+- ship=951:天津風改二 equipmentCount=3 equipmentIds=34,266,470
+- ship=952:Phoenix equipmentCount=3 equipmentIds=386,414,539
+- ship=954:榛名改二丙 equipmentCount=3 equipmentIds=35,116,186
+- ship=955:清霜改二 equipmentCount=3 equipmentIds=267,365,517
+- ship=956:早霜改二 equipmentCount=1 equipmentIds=267
+- ship=957:General Belgrano equipmentCount=3 equipmentIds=386,414,539
+- ship=959:深雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=960:清霜改二丁 equipmentCount=3 equipmentIds=267,365,517
+- ship=961:時雨改三 equipmentCount=3 equipmentIds=27,266,296
+- ship=962:Mogador equipmentCount=1 equipmentIds=534
+- ship=963:秋月改二 equipmentCount=3 equipmentIds=120,121,122
+- ship=965:Gloire equipmentCount=1 equipmentIds=536
+- ship=966:Lexington equipmentCount=2 equipmentIds=541,542
+- ship=967:Mogador改 equipmentCount=2 equipmentIds=534,535
+- ship=968:初月改二 equipmentCount=3 equipmentIds=122,179,533
+- ship=969:Richelieu Deux equipmentCount=2 equipmentIds=245,471
+- ship=970:Gloire改 equipmentCount=2 equipmentIds=536,537
+- ship=971:伊36 equipmentCount=1 equipmentIds=167
+- ship=975:春雨改二 equipmentCount=2 equipmentIds=470,529
+- ship=976:伊36改 equipmentCount=1 equipmentIds=167
+- ship=979:稲木改二 equipmentCount=2 equipmentIds=39,382
+- ship=981:藤波改二 equipmentCount=1 equipmentIds=267
+- ship=982:早波改二 equipmentCount=3 equipmentIds=45,47,438
+- ship=983:浜波改二 equipmentCount=3 equipmentIds=131,267,286
+- ship=986:白雪改二 equipmentCount=3 equipmentIds=13,285,297
+- ship=997:杉改 equipmentCount=2 equipmentIds=106,379
+- ship=998:Norge equipmentCount=1 equipmentIds=564
+- ship=999:Eidsvold equipmentCount=1 equipmentIds=565
+- ship=1001:Киров equipmentCount=1 equipmentIds=555
+- ship=1006:Киров改 equipmentCount=1 equipmentIds=555
+- ship=1031:飛龍改三 equipmentCount=3 equipmentIds=94,547,570
+- ship=1033:玉波改二 equipmentCount=3 equipmentIds=28,227,267
+- ship=1034:涼波改二 equipmentCount=3 equipmentIds=267,286,575
+- ship=1035:吹雪改三 equipmentCount=3 equipmentIds=379,572,573
+- ship=1040:吹雪改三護(六式) equipmentCount=6 equipmentIds=121,288,294,295,313,574
+- ship=1496:Colorado改 equipmentCount=2 equipmentIds=171,330

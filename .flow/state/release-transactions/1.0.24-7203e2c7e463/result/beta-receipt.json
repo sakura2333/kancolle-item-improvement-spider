@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "channel": "beta",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "releaseId": "1.0.24-7203e2c7e463",
+  "sourceCommit": "7203e2c7e463ac0da3ad8aefef56b9a330220495",
+  "sourceTree": "cab4cfd5f1db47c3a494710e9644c2912da88ba5",
+  "candidateContentSha256": "c06f0b4784b00cc659548298f6ca9bd5b7a069cce3cbb714d22ce0d28e6cf231",
+  "candidateArchiveSha256": "ecd5250f3c6ee63bc00c9ac935e377d3c7bb472e25d6099eee31c7c205d4e920",
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  },
+  "branch": "public-beta/1.0.24-7203e2c7e463",
+  "commit": "503feb1543ed398ad2d9d830dab93c9cd8cd41ed",
+  "tree": "c845bab5739dbe4d943bcce7c88f853d3f570e40",
+  "remote": "main-origin",
+  "policy": "immutable-project-registry-candidate",
+  "formalVersionChanged": false,
+  "mainChanged": false,
+  "npmPublished": false,
+  "onlinePublished": false
+}

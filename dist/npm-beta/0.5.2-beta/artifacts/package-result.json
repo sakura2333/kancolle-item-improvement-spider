@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "package": "@sakura2333/kancolle-data",
+  "version": "0.5.2-beta",
+  "tarball": "sakura2333-kancolle-data-0.5.2-beta.tgz",
+  "filename": "sakura2333-kancolle-data-0.5.2-beta.tgz",
+  "sha256": "b88765ee8c67dbb2c01f8206040c414d0e4e6ceb33ab1899f6f6ba9c373727a9",
+  "bytes": 15710498,
+  "requireFresh": true
+}

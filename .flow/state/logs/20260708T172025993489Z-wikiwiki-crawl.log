@@ -1,0 +1,91 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider crawl --start2 dist/data-pipeline/start2_data/api_mst_slotitem.json --daily-limit 10000
+[1/571] id=1 name=12cm単装砲 status=resume-skip
+[2/571] id=2 name=12.7cm連装砲 status=resume-skip
+[3/571] id=3 name=10cm連装高角砲 status=resume-skip
+[4/571] id=4 name=14cm単装砲 status=saved http=200
+[5/571] id=5 name=15.5cm三連装砲 status=saved http=200
+[6/571] id=6 name=20.3cm連装砲 status=saved http=200
+[7/571] id=7 name=35.6cm連装砲 status=saved http=200
+[8/571] id=8 name=41cm連装砲 status=saved http=200
+[9/571] id=9 HTTP 429; site cooldown 90s
+[9/571] id=9 name=46cm三連装砲 status=saved http=200
+[10/571] id=10 name=12.7cm連装高角砲 status=saved http=200
+[11/571] id=11 name=15.2cm単装砲 status=saved http=200
+[12/571] id=12 name=15.5cm三連装副砲 status=saved http=200
+[13/571] id=13 name=61cm三連装魚雷 status=saved http=200
+[14/571] id=14 name=61cm四連装魚雷 status=saved http=200
+[15/571] id=15 name=61cm四連装(酸素)魚雷 status=saved http=200
+[16/571] id=16 HTTP 429; site cooldown 90s
+[16/571] id=16 name=九七式艦攻 status=saved http=200
+[17/571] id=17 name=天山 status=saved http=200
+[18/571] id=18 name=流星 status=saved http=200
+[19/571] id=19 name=九六式艦戦 status=saved http=200
+[20/571] id=20 name=零式艦戦21型 status=saved http=200
+[21/571] id=21 name=零式艦戦52型 status=saved http=200
+[22/571] id=22 name=試製烈風 後期型 status=saved http=200
+[23/571] id=23 name=九九式艦爆 status=saved http=200
+[24/571] id=24 HTTP 429; site cooldown 90s
+[24/571] id=24 name=彗星 status=saved http=200
+[25/571] id=25 name=零式水上偵察機 status=saved http=200
+[26/571] id=26 name=瑞雲 status=saved http=200
+[27/571] id=27 name=13号対空電探 status=saved http=200
+[28/571] id=28 name=22号対水上電探 status=saved http=200
+[29/571] id=29 name=33号対水上電探 status=saved http=200
+[30/571] id=30 name=21号対空電探 status=saved http=200
+[31/571] id=31 name=32号対水上電探 status=saved http=200
+[32/571] id=32 name=42号対空電探 status=saved http=200
+[33/571] id=33 name=改良型艦本式タービン status=saved http=200
+[34/571] id=34 name=強化型艦本式缶 status=saved http=200
+[35/571] id=35 name=三式弾 status=saved http=200
+[36/571] id=36 name=九一式徹甲弾 status=saved http=200
+[37/571] id=37 name=7.7mm機銃 status=saved http=200
+[38/571] id=38 name=12.7mm単装機銃 status=saved http=200
+[39/571] id=39 name=25mm連装機銃 status=saved http=200
+[40/571] id=40 name=25mm三連装機銃 status=saved http=200
+[41/571] id=41 name=甲標的 甲型 status=saved http=200
+[42/571] id=42 name=応急修理要員 status=saved http=200
+[43/571] id=43 HTTP 429; site cooldown 90s
+[43/571] id=43 name=応急修理女神 status=saved http=200
+[44/571] id=44 name=九四式爆雷投射機 status=saved http=200
+[45/571] id=45 name=三式爆雷投射機 status=saved http=200
+[46/571] id=46 name=九三式水中聴音機 status=saved http=200
+[47/571] id=47 name=三式水中探信儀 status=saved http=200
+[48/571] id=48 HTTP 429; site cooldown 90s
+[48/571] id=48 name=12cm単装高角砲 status=saved http=200
+[49/571] id=49 name=25mm単装機銃 status=saved http=200
+[50/571] id=50 name=20.3cm(3号)連装砲 status=saved http=200
+[51/571] id=51 name=12cm30連装噴進砲 status=saved http=200
+[52/571] id=52 name=流星改 status=saved http=200
+[53/571] id=53 name=烈風 一一型 status=saved http=200
+[54/571] id=54 name=彩雲 status=saved http=200
+[55/571] id=55 name=紫電改二 status=saved http=200
+[56/571] id=56 HTTP 429; site cooldown 90s
+[56/571] id=56 name=震電改 status=saved http=200
+[57/571] id=57 name=彗星一二型甲 status=saved http=200
+[58/571] id=58 name=61cm五連装(酸素)魚雷 status=saved http=200
+[59/571] id=59 name=零式水上観測機 status=saved http=200
+[60/571] id=60 name=零式艦戦62型(爆戦) status=saved http=200
+[61/571] id=61 name=二式艦上偵察機 status=saved http=200
+[62/571] id=62 name=試製晴嵐 status=saved http=200
+[63/571] id=63 HTTP 429; site cooldown 90s
+[63/571] id=63 name=12.7cm連装砲B型改二 status=saved http=200
+[64/571] id=64 name=Ju87C改 status=saved http=200
+[65/571] id=65 name=15.2cm連装砲 status=saved http=200
+[66/571] id=66 name=8cm高角砲 status=saved http=200
+[67/571] id=67 name=53cm艦首(酸素)魚雷 status=saved http=200
+[68/571] id=68 HTTP 429; site cooldown 90s
+[68/571] id=68 name=大発動艇 status=saved http=200
+[69/571] id=69 name=カ号観測機 status=saved http=200
+[70/571] id=70 name=三式指揮連絡機(対潜) status=saved http=200
+[71/571] id=71 name=10cm連装高角砲(砲架) status=saved http=200
+[72/571] id=72 name=増設バルジ(中型艦) status=saved http=200
+[73/571] id=73 name=増設バルジ(大型艦) status=saved http=200
+[74/571] id=74 name=探照灯 status=saved http=200
+[75/571] id=75 HTTP 429; site cooldown 90s
+[75/571] id=75 name=ドラム缶(輸送用) status=saved http=200
+[76/571] id=76 name=38cm連装砲 status=saved http=200
+[77/571] id=77 name=15cm連装副砲 status=saved http=200
+[78/571] id=78 name=12.7cm単装砲 status=saved http=200
+[79/571] id=79 name=瑞雲(六三四空) status=saved http=200
+[80/571] id=80 name=瑞雲12型 status=saved http=200
+[81/571] id=81 HTTP 429; site cooldown 90s

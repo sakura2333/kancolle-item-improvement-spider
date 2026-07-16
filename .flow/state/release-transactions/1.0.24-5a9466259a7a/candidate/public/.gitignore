@@ -1,0 +1,25 @@
+# Generated public checkout ignores
+# Project-controlled local and generated state
+.venv/
+.spider/local/
+dist/
+configs/local/
+configs/*.local.*
+configs/**/*.local.*
+packages/kancolle-data/node_modules/
+*.tgz
+# Defensive private configuration patterns
+configs/*.private.*
+configs/**/*.private.*
+configs/*.secret.*
+configs/**/*.secret.*
+configs/*cookie*
+configs/**/*cookie*
+configs/*session*
+configs/**/*session*
+configs/*token*
+configs/**/*token*
+# Ambient tool and platform noise
+__pycache__/
+*.py[cod]
+.DS_Store

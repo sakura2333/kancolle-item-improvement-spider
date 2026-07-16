@@ -1,0 +1,3454 @@
+{
+  "captureSource": "raw-cache",
+  "diagnostics": {
+    "ambiguousNormalizedNames": [],
+    "anchors": 1003,
+    "candidates": 1165,
+    "cardImages": 580,
+    "displayNameUrlFallbacks": 23,
+    "entries": 572,
+    "invalid": 0
+  },
+  "entries": [
+    {
+      "normalizedName": "10.2cm三連装副砲",
+      "url": "https://wikiwiki.jp/kancolle/10.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "10.2cm三連装副砲"
+    },
+    {
+      "normalizedName": "10.5cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/10.5cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "10.5cm連装砲"
+    },
+    {
+      "normalizedName": "10cm/56 単装高角砲(集中配備)",
+      "url": "https://wikiwiki.jp/kancolle/10cm%EF%BC%8F56%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm／56 単装高角砲(集中配備)"
+    },
+    {
+      "normalizedName": "10cm連装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲"
+    },
+    {
+      "normalizedName": "10cm連装高角砲(砲架)",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E7%A0%B2%E6%9E%B6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲(砲架)"
+    },
+    {
+      "normalizedName": "10cm連装高角砲+高射装置",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲＋高射装置"
+    },
+    {
+      "normalizedName": "10cm連装高角砲改",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲改"
+    },
+    {
+      "normalizedName": "10cm連装高角砲改+増設機銃",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲改＋増設機銃"
+    },
+    {
+      "normalizedName": "10cm連装高角砲改+高射装置改",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲改＋高射装置改"
+    },
+    {
+      "normalizedName": "10cm連装高角砲群 集中配備",
+      "url": "https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "10cm連装高角砲群 集中配備"
+    },
+    {
+      "normalizedName": "12.7cm単装砲",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm単装砲"
+    },
+    {
+      "normalizedName": "12.7cm単装高角砲(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm単装高角砲(後期型)"
+    },
+    {
+      "normalizedName": "12.7cm単装高角砲改三",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm単装高角砲改三"
+    },
+    {
+      "normalizedName": "12.7cm単装高角砲改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm単装高角砲改二"
+    },
+    {
+      "normalizedName": "12.7cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲"
+    },
+    {
+      "normalizedName": "12.7cm連装砲A型",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲A型"
+    },
+    {
+      "normalizedName": "12.7cm連装砲A型改三(戦時改修)+高射装置",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%B8%89%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲A型改三(戦時改修)＋高射装置"
+    },
+    {
+      "normalizedName": "12.7cm連装砲A型改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲A型改二"
+    },
+    {
+      "normalizedName": "12.7cm連装砲B型改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲B型改二"
+    },
+    {
+      "normalizedName": "12.7cm連装砲B型改四(戦時改修)+高射装置",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E5%9B%9B%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲B型改四(戦時改修)＋高射装置"
+    },
+    {
+      "normalizedName": "12.7cm連装砲C型改三",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲C型改三"
+    },
+    {
+      "normalizedName": "12.7cm連装砲C型改三H",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89H",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲C型改三H"
+    },
+    {
+      "normalizedName": "12.7cm連装砲C型改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲C型改二"
+    },
+    {
+      "normalizedName": "12.7cm連装砲D型改三",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲D型改三"
+    },
+    {
+      "normalizedName": "12.7cm連装砲D型改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装砲D型改二"
+    },
+    {
+      "normalizedName": "12.7cm連装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装高角砲"
+    },
+    {
+      "normalizedName": "12.7cm連装高角砲(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装高角砲(後期型)"
+    },
+    {
+      "normalizedName": "12.7cm連装高角砲改二",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm連装高角砲改二"
+    },
+    {
+      "normalizedName": "12.7cm高角砲+高射装置",
+      "url": "https://wikiwiki.jp/kancolle/12.7cm%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7cm高角砲＋高射装置"
+    },
+    {
+      "normalizedName": "12.7mm単装機銃",
+      "url": "https://wikiwiki.jp/kancolle/12.7mm%E5%8D%98%E8%A3%85%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "12.7mm単装機銃"
+    },
+    {
+      "normalizedName": "120mm/50 連装砲",
+      "url": "https://wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "120mm／50 連装砲"
+    },
+    {
+      "normalizedName": "120mm/50 連装砲 mod.1936",
+      "url": "https://wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%20mod.1936",
+      "urlSource": "card-list-link",
+      "wikiName": "120mm／50 連装砲 mod.1936"
+    },
+    {
+      "normalizedName": "120mm/50 連装砲改 A.mod.1937",
+      "url": "https://wikiwiki.jp/kancolle/120mm%EF%BC%8F50%20%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20A.mod.1937",
+      "urlSource": "card-list-link",
+      "wikiName": "120mm／50 連装砲改 A.mod.1937"
+    },
+    {
+      "normalizedName": "12cm30連装噴進砲",
+      "url": "https://wikiwiki.jp/kancolle/12cm30%E9%80%A3%E8%A3%85%E5%99%B4%E9%80%B2%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm30連装噴進砲"
+    },
+    {
+      "normalizedName": "12cm30連装噴進砲改二",
+      "url": "https://wikiwiki.jp/kancolle/12cm30%E9%80%A3%E8%A3%85%E5%99%B4%E9%80%B2%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm30連装噴進砲改二"
+    },
+    {
+      "normalizedName": "12cm単装砲",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装砲"
+    },
+    {
+      "normalizedName": "12cm単装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装砲改二"
+    },
+    {
+      "normalizedName": "12cm単装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装高角砲"
+    },
+    {
+      "normalizedName": "12cm単装高角砲+25mm機銃増備",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B25mm%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装高角砲＋25mm機銃増備"
+    },
+    {
+      "normalizedName": "12cm単装高角砲E型",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装高角砲E型"
+    },
+    {
+      "normalizedName": "12cm単装高角砲E型改",
+      "url": "https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "12cm単装高角砲E型改"
+    },
+    {
+      "normalizedName": "13.8cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "13.8cm連装砲"
+    },
+    {
+      "normalizedName": "13.8cm連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "13.8cm連装砲改"
+    },
+    {
+      "normalizedName": "130mm B-13連装砲",
+      "url": "https://wikiwiki.jp/kancolle/130mm%20B-13%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "130mm B-13連装砲"
+    },
+    {
+      "normalizedName": "13号対空電探",
+      "url": "https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "13号対空電探"
+    },
+    {
+      "normalizedName": "13号対空電探改",
+      "url": "https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "13号対空電探改"
+    },
+    {
+      "normalizedName": "13号対空電探改(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "13号対空電探改(後期型)"
+    },
+    {
+      "normalizedName": "14cm単装砲",
+      "url": "https://wikiwiki.jp/kancolle/14cm%E5%8D%98%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "14cm単装砲"
+    },
+    {
+      "normalizedName": "14cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "14cm連装砲"
+    },
+    {
+      "normalizedName": "14cm連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "14cm連装砲改"
+    },
+    {
+      "normalizedName": "14cm連装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "14cm連装砲改二"
+    },
+    {
+      "normalizedName": "14inch/45 三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "14inch／45 三連装砲"
+    },
+    {
+      "normalizedName": "14inch/45 連装砲",
+      "url": "https://wikiwiki.jp/kancolle/14inch%EF%BC%8F45%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "14inch／45 連装砲"
+    },
+    {
+      "normalizedName": "15.2cm三連装主砲",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm三連装主砲"
+    },
+    {
+      "normalizedName": "15.2cm三連装主砲改",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm三連装主砲改"
+    },
+    {
+      "normalizedName": "15.2cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm三連装砲"
+    },
+    {
+      "normalizedName": "15.2cm単装砲",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E5%8D%98%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm単装砲"
+    },
+    {
+      "normalizedName": "15.2cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm連装砲"
+    },
+    {
+      "normalizedName": "15.2cm連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm連装砲改"
+    },
+    {
+      "normalizedName": "15.2cm連装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "15.2cm連装砲改二"
+    },
+    {
+      "normalizedName": "15.5cm三連装副砲",
+      "url": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.5cm三連装副砲"
+    },
+    {
+      "normalizedName": "15.5cm三連装副砲改",
+      "url": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "15.5cm三連装副砲改"
+    },
+    {
+      "normalizedName": "15.5cm三連装副砲改二",
+      "url": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "15.5cm三連装副砲改二"
+    },
+    {
+      "normalizedName": "15.5cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15.5cm三連装砲"
+    },
+    {
+      "normalizedName": "15.5cm三連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "15.5cm三連装砲改"
+    },
+    {
+      "normalizedName": "152mm/55 三連装速射砲",
+      "url": "https://wikiwiki.jp/kancolle/152mm%EF%BC%8F55%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "152mm／55 三連装速射砲"
+    },
+    {
+      "normalizedName": "152mm/55 三連装速射砲改",
+      "url": "https://wikiwiki.jp/kancolle/152mm%EF%BC%8F55%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "152mm／55 三連装速射砲改"
+    },
+    {
+      "normalizedName": "15cm単装副砲",
+      "url": "https://wikiwiki.jp/kancolle/15cm%E5%8D%98%E8%A3%85%E5%89%AF%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15cm単装副砲"
+    },
+    {
+      "normalizedName": "15cm連装副砲",
+      "url": "https://wikiwiki.jp/kancolle/15cm%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "15cm連装副砲"
+    },
+    {
+      "normalizedName": "15m二重測距儀+21号電探改二",
+      "url": "https://wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "15m二重測距儀＋21号電探改二"
+    },
+    {
+      "normalizedName": "15m二重測距儀改+21号電探改二+熟練射撃指揮所",
+      "url": "https://wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%E6%94%B9%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C%EF%BC%8B%E7%86%9F%E7%B7%B4%E5%B0%84%E6%92%83%E6%8C%87%E6%8F%AE%E6%89%80",
+      "urlSource": "card-list-link",
+      "wikiName": "15m二重測距儀改＋21号電探改二＋熟練射撃指揮所"
+    },
+    {
+      "normalizedName": "16inch Mk.I三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.I%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.I三連装砲"
+    },
+    {
+      "normalizedName": "16inch Mk.I三連装砲+AFCT改",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.I%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%EF%BC%8BAFCT%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.I三連装砲＋AFCT改"
+    },
+    {
+      "normalizedName": "16inch Mk.I三連装砲改+FCR type284",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.I%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%EF%BC%8BFCR%20type284",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.I三連装砲改＋FCR type284"
+    },
+    {
+      "normalizedName": "16inch Mk.I連装砲",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.I%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.I連装砲"
+    },
+    {
+      "normalizedName": "16inch Mk.VIII連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.VIII%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.VIII連装砲改"
+    },
+    {
+      "normalizedName": "16inch Mk.V連装砲",
+      "url": "https://wikiwiki.jp/kancolle/16inch%20Mk.V%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch Mk.V連装砲"
+    },
+    {
+      "normalizedName": "16inch三連装砲 Mk.6",
+      "url": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch三連装砲 Mk.6"
+    },
+    {
+      "normalizedName": "16inch三連装砲 Mk.6 mod.2",
+      "url": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%20mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch三連装砲 Mk.6 mod.2"
+    },
+    {
+      "normalizedName": "16inch三連装砲 Mk.6+GFCS",
+      "url": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.6%EF%BC%8BGFCS",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch三連装砲 Mk.6＋GFCS"
+    },
+    {
+      "normalizedName": "16inch三連装砲 Mk.7",
+      "url": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.7",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch三連装砲 Mk.7"
+    },
+    {
+      "normalizedName": "16inch三連装砲 Mk.7+GFCS",
+      "url": "https://wikiwiki.jp/kancolle/16inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.7%EF%BC%8BGFCS",
+      "urlSource": "card-list-link",
+      "wikiName": "16inch三連装砲 Mk.7＋GFCS"
+    },
+    {
+      "normalizedName": "18cm/57 三連装主砲",
+      "url": "https://wikiwiki.jp/kancolle/18cm%EF%BC%8F57%20%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "18cm／57 三連装主砲"
+    },
+    {
+      "normalizedName": "20.3cm(2号)連装砲",
+      "url": "https://wikiwiki.jp/kancolle/20.3cm%282%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "20.3cm(2号)連装砲"
+    },
+    {
+      "normalizedName": "20.3cm(3号)連装砲",
+      "url": "https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "20.3cm(3号)連装砲"
+    },
+    {
+      "normalizedName": "20.3cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/20.3cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "20.3cm連装砲"
+    },
+    {
+      "normalizedName": "203mm/53 連装砲",
+      "url": "https://wikiwiki.jp/kancolle/203mm%EF%BC%8F53%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "203mm／53 連装砲"
+    },
+    {
+      "normalizedName": "20連装7inch UP Rocket Launchers",
+      "url": "https://wikiwiki.jp/kancolle/20%E9%80%A3%E8%A3%857inch%20UP%20Rocket%20Launchers",
+      "urlSource": "card-list-link",
+      "wikiName": "20連装7inch UP Rocket Launchers"
+    },
+    {
+      "normalizedName": "21cm単装主砲",
+      "url": "https://wikiwiki.jp/kancolle/21cm%E5%8D%98%E8%A3%85%E4%B8%BB%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "21cm単装主砲"
+    },
+    {
+      "normalizedName": "21inch艦首魚雷発射管4門(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "21inch艦首魚雷発射管4門(初期型)"
+    },
+    {
+      "normalizedName": "21inch艦首魚雷発射管4門(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "21inch艦首魚雷発射管4門(後期型)"
+    },
+    {
+      "normalizedName": "21inch艦首魚雷発射管6門(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "21inch艦首魚雷発射管6門(初期型)"
+    },
+    {
+      "normalizedName": "21inch艦首魚雷発射管6門(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A16%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "21inch艦首魚雷発射管6門(後期型)"
+    },
+    {
+      "normalizedName": "21号対空電探",
+      "url": "https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "21号対空電探"
+    },
+    {
+      "normalizedName": "21号対空電探改",
+      "url": "https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "21号対空電探改"
+    },
+    {
+      "normalizedName": "21号対空電探改二",
+      "url": "https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "21号対空電探改二"
+    },
+    {
+      "normalizedName": "22号対水上電探",
+      "url": "https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "22号対水上電探"
+    },
+    {
+      "normalizedName": "22号対水上電探改四",
+      "url": "https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B",
+      "urlSource": "card-list-link",
+      "wikiName": "22号対水上電探改四"
+    },
+    {
+      "normalizedName": "22号対水上電探改四(後期調整型)",
+      "url": "https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "22号対水上電探改四(後期調整型)"
+    },
+    {
+      "normalizedName": "25mm三連装機銃",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E4%B8%89%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm三連装機銃"
+    },
+    {
+      "normalizedName": "25mm三連装機銃 集中配備",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E4%B8%89%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm三連装機銃 集中配備"
+    },
+    {
+      "normalizedName": "25mm単装機銃",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E5%8D%98%E8%A3%85%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm単装機銃"
+    },
+    {
+      "normalizedName": "25mm対空機銃増備",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E5%AF%BE%E7%A9%BA%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm対空機銃増備"
+    },
+    {
+      "normalizedName": "25mm連装機銃",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm連装機銃"
+    },
+    {
+      "normalizedName": "25mm連装機銃(熟練機銃員分隊)",
+      "url": "https://wikiwiki.jp/kancolle/25mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%28%E7%86%9F%E7%B7%B4%E6%A9%9F%E9%8A%83%E5%93%A1%E5%88%86%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "25mm連装機銃(熟練機銃員分隊)"
+    },
+    {
+      "normalizedName": "2cm 四連装FlaK 38",
+      "url": "https://wikiwiki.jp/kancolle/2cm%20%E5%9B%9B%E9%80%A3%E8%A3%85FlaK%2038",
+      "urlSource": "card-list-link",
+      "wikiName": "2cm 四連装FlaK 38"
+    },
+    {
+      "normalizedName": "3.7cm FlaK M42",
+      "url": "https://wikiwiki.jp/kancolle/3.7cm%20FlaK%20M42",
+      "urlSource": "card-list-link",
+      "wikiName": "3.7cm FlaK M42"
+    },
+    {
+      "normalizedName": "30.5cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/30.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "30.5cm三連装砲"
+    },
+    {
+      "normalizedName": "30.5cm三連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/30.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "30.5cm三連装砲改"
+    },
+    {
+      "normalizedName": "305mm/46 三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "305mm／46 三連装砲"
+    },
+    {
+      "normalizedName": "305mm/46 連装砲",
+      "url": "https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "305mm／46 連装砲"
+    },
+    {
+      "normalizedName": "320mm/44 三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "320mm／44 三連装砲"
+    },
+    {
+      "normalizedName": "320mm/44 連装砲",
+      "url": "https://wikiwiki.jp/kancolle/320mm%EF%BC%8F44%20%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "320mm／44 連装砲"
+    },
+    {
+      "normalizedName": "32号対水上電探",
+      "url": "https://wikiwiki.jp/kancolle/32%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "32号対水上電探"
+    },
+    {
+      "normalizedName": "32号対水上電探改",
+      "url": "https://wikiwiki.jp/kancolle/32%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "32号対水上電探改"
+    },
+    {
+      "normalizedName": "33号対水上電探",
+      "url": "https://wikiwiki.jp/kancolle/33%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "33号対水上電探"
+    },
+    {
+      "normalizedName": "35.6cm三連装砲改(ダズル迷彩仕様)",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm三連装砲改(ダズル迷彩仕様)"
+    },
+    {
+      "normalizedName": "35.6cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲"
+    },
+    {
+      "normalizedName": "35.6cm連装砲(ダズル迷彩)",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%29",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲(ダズル迷彩)"
+    },
+    {
+      "normalizedName": "35.6cm連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲改"
+    },
+    {
+      "normalizedName": "35.6cm連装砲改三(ダズル迷彩仕様)",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲改三(ダズル迷彩仕様)"
+    },
+    {
+      "normalizedName": "35.6cm連装砲改三丙",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%E4%B8%99",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲改三丙"
+    },
+    {
+      "normalizedName": "35.6cm連装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲改二"
+    },
+    {
+      "normalizedName": "35.6cm連装砲改四",
+      "url": "https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E5%9B%9B",
+      "urlSource": "card-list-link",
+      "wikiName": "35.6cm連装砲改四"
+    },
+    {
+      "normalizedName": "38.1cm Mk.I/N連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/38.1cm%20Mk.I%EF%BC%8FN%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "38.1cm Mk.I／N連装砲改"
+    },
+    {
+      "normalizedName": "38.1cm Mk.I連装砲",
+      "url": "https://wikiwiki.jp/kancolle/38.1cm%20Mk.I%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "38.1cm Mk.I連装砲"
+    },
+    {
+      "normalizedName": "381mm/50 三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/381mm%EF%BC%8F50%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "381mm／50 三連装砲"
+    },
+    {
+      "normalizedName": "381mm/50 三連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/381mm%EF%BC%8F50%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "381mm／50 三連装砲改"
+    },
+    {
+      "normalizedName": "38cm四連装砲",
+      "url": "https://wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "38cm四連装砲"
+    },
+    {
+      "normalizedName": "38cm四連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "38cm四連装砲改"
+    },
+    {
+      "normalizedName": "38cm四連装砲改 deux",
+      "url": "https://wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20deux",
+      "urlSource": "card-list-link",
+      "wikiName": "38cm四連装砲改 deux"
+    },
+    {
+      "normalizedName": "38cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/38cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "38cm連装砲"
+    },
+    {
+      "normalizedName": "38cm連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/38cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "38cm連装砲改"
+    },
+    {
+      "normalizedName": "41cm三連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "41cm三連装砲改"
+    },
+    {
+      "normalizedName": "41cm三連装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "41cm三連装砲改二"
+    },
+    {
+      "normalizedName": "41cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/41cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "41cm連装砲"
+    },
+    {
+      "normalizedName": "41cm連装砲改二",
+      "url": "https://wikiwiki.jp/kancolle/41cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "41cm連装砲改二"
+    },
+    {
+      "normalizedName": "42号対空電探",
+      "url": "https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "42号対空電探"
+    },
+    {
+      "normalizedName": "42号対空電探改二",
+      "url": "https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "42号対空電探改二"
+    },
+    {
+      "normalizedName": "46cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/46cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "46cm三連装砲"
+    },
+    {
+      "normalizedName": "46cm三連装砲改",
+      "url": "https://wikiwiki.jp/kancolle/46cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "46cm三連装砲改"
+    },
+    {
+      "normalizedName": "51cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/51cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "51cm連装砲"
+    },
+    {
+      "normalizedName": "533mm 三連装魚雷",
+      "url": "https://wikiwiki.jp/kancolle/533mm%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "533mm 三連装魚雷"
+    },
+    {
+      "normalizedName": "533mm 三連装魚雷(53-39型)",
+      "url": "https://wikiwiki.jp/kancolle/533mm%20%E4%B8%89%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%2853-39%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "533mm 三連装魚雷(53-39型)"
+    },
+    {
+      "normalizedName": "533mm五連装魚雷(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/533mm%E4%BA%94%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "533mm五連装魚雷(初期型)"
+    },
+    {
+      "normalizedName": "533mm五連装魚雷(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/533mm%E4%BA%94%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "533mm五連装魚雷(後期型)"
+    },
+    {
+      "normalizedName": "53cm艦首(酸素)魚雷",
+      "url": "https://wikiwiki.jp/kancolle/53cm%E8%89%A6%E9%A6%96%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "53cm艦首(酸素)魚雷"
+    },
+    {
+      "normalizedName": "53cm連装魚雷",
+      "url": "https://wikiwiki.jp/kancolle/53cm%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "53cm連装魚雷"
+    },
+    {
+      "normalizedName": "53cm連装魚雷改(酸素魚雷)",
+      "url": "https://wikiwiki.jp/kancolle/53cm%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%E6%94%B9%28%E9%85%B8%E7%B4%A0%E9%AD%9A%E9%9B%B7%29",
+      "urlSource": "card-list-link",
+      "wikiName": "53cm連装魚雷改(酸素魚雷)"
+    },
+    {
+      "normalizedName": "5inch 単装高角砲群",
+      "url": "https://wikiwiki.jp/kancolle/5inch%20%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch 単装高角砲群"
+    },
+    {
+      "normalizedName": "5inch単装砲 Mk.30",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch単装砲 Mk.30"
+    },
+    {
+      "normalizedName": "5inch単装砲 Mk.30 改",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30%20%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch単装砲 Mk.30 改"
+    },
+    {
+      "normalizedName": "5inch単装砲 Mk.30改+GFCS Mk.37",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30%E6%94%B9%EF%BC%8BGFCS%20Mk.37",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch単装砲 Mk.30改＋GFCS Mk.37"
+    },
+    {
+      "normalizedName": "5inch連装両用砲(集中配備)",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch連装両用砲(集中配備)"
+    },
+    {
+      "normalizedName": "5inch連装砲 Mk.28 mod.2",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.28%20mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch連装砲 Mk.28 mod.2"
+    },
+    {
+      "normalizedName": "5inch連装砲(副砲配置)集中配備",
+      "url": "https://wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E7%A0%B2%28%E5%89%AF%E7%A0%B2%E9%85%8D%E7%BD%AE%29%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "5inch連装砲(副砲配置)集中配備"
+    },
+    {
+      "normalizedName": "61cm三連装(酸素)魚雷",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm三連装(酸素)魚雷"
+    },
+    {
+      "normalizedName": "61cm三連装(酸素)魚雷後期型",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm三連装(酸素)魚雷後期型"
+    },
+    {
+      "normalizedName": "61cm三連装魚雷",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm三連装魚雷"
+    },
+    {
+      "normalizedName": "61cm五連装(酸素)魚雷",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E4%BA%94%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm五連装(酸素)魚雷"
+    },
+    {
+      "normalizedName": "61cm四連装(酸素)魚雷",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm四連装(酸素)魚雷"
+    },
+    {
+      "normalizedName": "61cm四連装(酸素)魚雷後期型",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm四連装(酸素)魚雷後期型"
+    },
+    {
+      "normalizedName": "61cm四連装魚雷",
+      "url": "https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "61cm四連装魚雷"
+    },
+    {
+      "normalizedName": "65mm/64 単装速射砲改",
+      "url": "https://wikiwiki.jp/kancolle/65mm%EF%BC%8F64%20%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "65mm／64 単装速射砲改"
+    },
+    {
+      "normalizedName": "6inch Mk.XXIII三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/6inch%20Mk.XXIII%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "6inch Mk.XXIII三連装砲"
+    },
+    {
+      "normalizedName": "6inch 連装速射砲 Mk.XXI",
+      "url": "https://wikiwiki.jp/kancolle/6inch%20%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.XXI",
+      "urlSource": "card-list-link",
+      "wikiName": "6inch 連装速射砲 Mk.XXI"
+    },
+    {
+      "normalizedName": "6inch三連装速射砲 Mk.16",
+      "url": "https://wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16",
+      "urlSource": "card-list-link",
+      "wikiName": "6inch三連装速射砲 Mk.16"
+    },
+    {
+      "normalizedName": "6inch三連装速射砲 Mk.16 mod.2",
+      "url": "https://wikiwiki.jp/kancolle/6inch%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.16%20mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "6inch三連装速射砲 Mk.16 mod.2"
+    },
+    {
+      "normalizedName": "7.7mm機銃",
+      "url": "https://wikiwiki.jp/kancolle/7.7mm%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "7.7mm機銃"
+    },
+    {
+      "normalizedName": "8cm高角砲",
+      "url": "https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "8cm高角砲"
+    },
+    {
+      "normalizedName": "8cm高角砲改+増設機銃",
+      "url": "https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "8cm高角砲改＋増設機銃"
+    },
+    {
+      "normalizedName": "8inch三連装砲 Mk.9",
+      "url": "https://wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9",
+      "urlSource": "card-list-link",
+      "wikiName": "8inch三連装砲 Mk.9"
+    },
+    {
+      "normalizedName": "8inch三連装砲 Mk.9 mod.2",
+      "url": "https://wikiwiki.jp/kancolle/8inch%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%20Mk.9%20mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "8inch三連装砲 Mk.9 mod.2"
+    },
+    {
+      "normalizedName": "90mm単装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/90mm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "90mm単装高角砲"
+    },
+    {
+      "normalizedName": "91式高射装置",
+      "url": "https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "91式高射装置"
+    },
+    {
+      "normalizedName": "94式高射装置",
+      "url": "https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "94式高射装置"
+    },
+    {
+      "normalizedName": "96式150cm探照灯",
+      "url": "https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF",
+      "urlSource": "card-list-link",
+      "wikiName": "96式150cm探照灯"
+    },
+    {
+      "normalizedName": "AU-1",
+      "url": "https://wikiwiki.jp/kancolle/AU-1",
+      "urlSource": "card-list-link",
+      "wikiName": "AU-1"
+    },
+    {
+      "normalizedName": "Ar196改",
+      "url": "https://wikiwiki.jp/kancolle/Ar196%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Ar196改"
+    },
+    {
+      "normalizedName": "B-25",
+      "url": "https://wikiwiki.jp/kancolle/B-25",
+      "urlSource": "card-list-link",
+      "wikiName": "B-25"
+    },
+    {
+      "normalizedName": "Barracuda Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Barracuda%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Barracuda Mk.II"
+    },
+    {
+      "normalizedName": "Barracuda Mk.III",
+      "url": "https://wikiwiki.jp/kancolle/Barracuda%20Mk.III",
+      "urlSource": "card-list-link",
+      "wikiName": "Barracuda Mk.III"
+    },
+    {
+      "normalizedName": "Bf109 T-3(G)",
+      "url": "https://wikiwiki.jp/kancolle/Bf109%20T-3%28G%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Bf109 T-3(G)"
+    },
+    {
+      "normalizedName": "Bf109T改",
+      "url": "https://wikiwiki.jp/kancolle/Bf109T%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Bf109T改"
+    },
+    {
+      "normalizedName": "Bofors 15cm連装速射砲 Mk.9 Model 1938",
+      "url": "https://wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%20Model%201938",
+      "urlSource": "card-list-link",
+      "wikiName": "Bofors 15cm連装速射砲 Mk.9 Model 1938"
+    },
+    {
+      "normalizedName": "Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938",
+      "url": "https://wikiwiki.jp/kancolle/Bofors%2015cm%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.9%E6%94%B9%EF%BC%8B%E5%8D%98%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2%20Mk.10%E6%94%B9%20Model%201938",
+      "urlSource": "card-list-link",
+      "wikiName": "Bofors 15cm連装速射砲 Mk.9改＋単装速射砲 Mk.10改 Model 1938"
+    },
+    {
+      "normalizedName": "Bofors 40mm四連装機関砲",
+      "url": "https://wikiwiki.jp/kancolle/Bofors%2040mm%E5%9B%9B%E9%80%A3%E8%A3%85%E6%A9%9F%E9%96%A2%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "Bofors 40mm四連装機関砲"
+    },
+    {
+      "normalizedName": "Bofors15.2cm連装砲 Model1930",
+      "url": "https://wikiwiki.jp/kancolle/Bofors15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%20Model1930",
+      "urlSource": "card-list-link",
+      "wikiName": "Bofors15.2cm連装砲 Model1930"
+    },
+    {
+      "normalizedName": "Corsair Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Corsair%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Corsair Mk.II"
+    },
+    {
+      "normalizedName": "Corsair Mk.II(Ace)",
+      "url": "https://wikiwiki.jp/kancolle/Corsair%20Mk.II%28Ace%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Corsair Mk.II(Ace)"
+    },
+    {
+      "normalizedName": "Do 17 Z-2",
+      "url": "https://wikiwiki.jp/kancolle/Do%2017%20Z-2",
+      "urlSource": "card-list-link",
+      "wikiName": "Do 17 Z-2"
+    },
+    {
+      "normalizedName": "Do 217 E-5+Hs293初期型",
+      "url": "https://wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BHs293%E5%88%9D%E6%9C%9F%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "Do 217 E-5＋Hs293初期型"
+    },
+    {
+      "normalizedName": "Do 217 E-5+TV誘導型 Hs293D",
+      "url": "https://wikiwiki.jp/kancolle/Do%20217%20E-5%EF%BC%8BTV%E8%AA%98%E5%B0%8E%E5%9E%8B%20Hs293D",
+      "urlSource": "card-list-link",
+      "wikiName": "Do 217 E-5＋TV誘導型 Hs293D"
+    },
+    {
+      "normalizedName": "Do 217 K-2+Fritz-X",
+      "url": "https://wikiwiki.jp/kancolle/Do%20217%20K-2%EF%BC%8BFritz-X",
+      "urlSource": "card-list-link",
+      "wikiName": "Do 217 K-2＋Fritz-X"
+    },
+    {
+      "normalizedName": "F4F-3",
+      "url": "https://wikiwiki.jp/kancolle/F4F-3",
+      "urlSource": "card-list-link",
+      "wikiName": "F4F-3"
+    },
+    {
+      "normalizedName": "F4F-4",
+      "url": "https://wikiwiki.jp/kancolle/F4F-4",
+      "urlSource": "card-list-link",
+      "wikiName": "F4F-4"
+    },
+    {
+      "normalizedName": "F4U-1D",
+      "url": "https://wikiwiki.jp/kancolle/F4U-1D",
+      "urlSource": "card-list-link",
+      "wikiName": "F4U-1D"
+    },
+    {
+      "normalizedName": "F4U-2 Night Corsair",
+      "url": "https://wikiwiki.jp/kancolle/F4U-2%20Night%20Corsair",
+      "urlSource": "card-list-link",
+      "wikiName": "F4U-2 Night Corsair"
+    },
+    {
+      "normalizedName": "F4U-4",
+      "url": "https://wikiwiki.jp/kancolle/F4U-4",
+      "urlSource": "card-list-link",
+      "wikiName": "F4U-4"
+    },
+    {
+      "normalizedName": "F4U-7",
+      "url": "https://wikiwiki.jp/kancolle/F4U-7",
+      "urlSource": "card-list-link",
+      "wikiName": "F4U-7"
+    },
+    {
+      "normalizedName": "F6F-3",
+      "url": "https://wikiwiki.jp/kancolle/F6F-3",
+      "urlSource": "card-list-link",
+      "wikiName": "F6F-3"
+    },
+    {
+      "normalizedName": "F6F-3N",
+      "url": "https://wikiwiki.jp/kancolle/F6F-3N",
+      "urlSource": "card-list-link",
+      "wikiName": "F6F-3N"
+    },
+    {
+      "normalizedName": "F6F-5",
+      "url": "https://wikiwiki.jp/kancolle/F6F-5",
+      "urlSource": "card-list-link",
+      "wikiName": "F6F-5"
+    },
+    {
+      "normalizedName": "F6F-5N",
+      "url": "https://wikiwiki.jp/kancolle/F6F-5N",
+      "urlSource": "card-list-link",
+      "wikiName": "F6F-5N"
+    },
+    {
+      "normalizedName": "FM-2",
+      "url": "https://wikiwiki.jp/kancolle/FM-2",
+      "urlSource": "card-list-link",
+      "wikiName": "FM-2"
+    },
+    {
+      "normalizedName": "FR-1 Fireball",
+      "url": "https://wikiwiki.jp/kancolle/FR-1%20Fireball",
+      "urlSource": "card-list-link",
+      "wikiName": "FR-1 Fireball"
+    },
+    {
+      "normalizedName": "Fairey Seafox改",
+      "url": "https://wikiwiki.jp/kancolle/Fairey%20Seafox%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Fairey Seafox改"
+    },
+    {
+      "normalizedName": "FuMO25 レーダー",
+      "url": "https://wikiwiki.jp/kancolle/FuMO25%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "FuMO25 レーダー"
+    },
+    {
+      "normalizedName": "Fulmar",
+      "url": "https://wikiwiki.jp/kancolle/Fulmar",
+      "urlSource": "card-list-link",
+      "wikiName": "Fulmar"
+    },
+    {
+      "normalizedName": "Fulmar(戦闘偵察/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Fulmar%28%E6%88%A6%E9%97%98%E5%81%B5%E5%AF%9F%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Fulmar(戦闘偵察／熟練)"
+    },
+    {
+      "normalizedName": "Fw190 A-5改(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Fw190%20A-5%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Fw190 A-5改(熟練)"
+    },
+    {
+      "normalizedName": "Fw190 D-9",
+      "url": "https://wikiwiki.jp/kancolle/Fw190%20D-9",
+      "urlSource": "card-list-link",
+      "wikiName": "Fw190 D-9"
+    },
+    {
+      "normalizedName": "Fw190T改",
+      "url": "https://wikiwiki.jp/kancolle/Fw190T%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Fw190T改"
+    },
+    {
+      "normalizedName": "GFCS Mk.37",
+      "url": "https://wikiwiki.jp/kancolle/GFCS%20Mk.37",
+      "urlSource": "card-list-link",
+      "wikiName": "GFCS Mk.37"
+    },
+    {
+      "normalizedName": "GFCS Mk.37+5inch連装両用砲(集中配備)",
+      "url": "https://wikiwiki.jp/kancolle/GFCS%20Mk.37%EF%BC%8B5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "GFCS Mk.37＋5inch連装両用砲(集中配備)"
+    },
+    {
+      "normalizedName": "HF/DF+Type144/147 ASDIC",
+      "url": "https://wikiwiki.jp/kancolle/HF%EF%BC%8FDF%EF%BC%8BType144%EF%BC%8F147%20ASDIC",
+      "urlSource": "card-list-link",
+      "wikiName": "HF／DF＋Type144／147 ASDIC"
+    },
+    {
+      "normalizedName": "Hedgehog(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/Hedgehog%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Hedgehog(初期型)"
+    },
+    {
+      "normalizedName": "Ho229",
+      "url": "https://wikiwiki.jp/kancolle/Ho229",
+      "urlSource": "card-list-link",
+      "wikiName": "Ho229"
+    },
+    {
+      "normalizedName": "Ju87 D-4(Fliegerass)",
+      "url": "https://wikiwiki.jp/kancolle/Ju87%20D-4%28Fliegerass%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Ju87 D-4(Fliegerass)"
+    },
+    {
+      "normalizedName": "Ju87C改",
+      "url": "https://wikiwiki.jp/kancolle/Ju87C%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Ju87C改"
+    },
+    {
+      "normalizedName": "Ju87C改二(KMX搭載機)",
+      "url": "https://wikiwiki.jp/kancolle/Ju87C%E6%94%B9%E4%BA%8C%28KMX%E6%90%AD%E8%BC%89%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Ju87C改二(KMX搭載機)"
+    },
+    {
+      "normalizedName": "Ju87C改二(KMX搭載機/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Ju87C%E6%94%B9%E4%BA%8C%28KMX%E6%90%AD%E8%BC%89%E6%A9%9F%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Ju87C改二(KMX搭載機／熟練)"
+    },
+    {
+      "normalizedName": "Late 298B",
+      "url": "https://wikiwiki.jp/kancolle/Late%20298B",
+      "urlSource": "card-list-link",
+      "wikiName": "Late 298B"
+    },
+    {
+      "normalizedName": "Loire 130M",
+      "url": "https://wikiwiki.jp/kancolle/Loire%20130M",
+      "urlSource": "card-list-link",
+      "wikiName": "Loire 130M"
+    },
+    {
+      "normalizedName": "Loire 130M改(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Loire%20130M%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Loire 130M改(熟練)"
+    },
+    {
+      "normalizedName": "M4A1 DD",
+      "url": "https://wikiwiki.jp/kancolle/M4A1%20DD",
+      "urlSource": "card-list-link",
+      "wikiName": "M4A1 DD"
+    },
+    {
+      "normalizedName": "Me 262 A-1a/R1",
+      "url": "https://wikiwiki.jp/kancolle/Me%20262%20A-1a%EF%BC%8FR1",
+      "urlSource": "card-list-link",
+      "wikiName": "Me 262 A-1a／R1"
+    },
+    {
+      "normalizedName": "Me163B",
+      "url": "https://wikiwiki.jp/kancolle/Me163B",
+      "urlSource": "card-list-link",
+      "wikiName": "Me163B"
+    },
+    {
+      "normalizedName": "Mk.32 対潜魚雷(Mk.2落射機)",
+      "url": "https://wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Mk.32 対潜魚雷(Mk.2落射機)"
+    },
+    {
+      "normalizedName": "Mosquito FB Mk.VI",
+      "url": "https://wikiwiki.jp/kancolle/Mosquito%20FB%20Mk.VI",
+      "urlSource": "card-list-link",
+      "wikiName": "Mosquito FB Mk.VI"
+    },
+    {
+      "normalizedName": "Mosquito PR Mk.IV",
+      "url": "https://wikiwiki.jp/kancolle/Mosquito%20PR%20Mk.IV",
+      "urlSource": "card-list-link",
+      "wikiName": "Mosquito PR Mk.IV"
+    },
+    {
+      "normalizedName": "Mosquito TR Mk.33",
+      "url": "https://wikiwiki.jp/kancolle/Mosquito%20TR%20Mk.33",
+      "urlSource": "card-list-link",
+      "wikiName": "Mosquito TR Mk.33"
+    },
+    {
+      "normalizedName": "OS2U",
+      "url": "https://wikiwiki.jp/kancolle/OS2U",
+      "urlSource": "card-list-link",
+      "wikiName": "OS2U"
+    },
+    {
+      "normalizedName": "OTO 152mm三連装速射砲",
+      "url": "https://wikiwiki.jp/kancolle/OTO%20152mm%E4%B8%89%E9%80%A3%E8%A3%85%E9%80%9F%E5%B0%84%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "OTO 152mm三連装速射砲"
+    },
+    {
+      "normalizedName": "PBY-5A Catalina",
+      "url": "https://wikiwiki.jp/kancolle/PBY-5A%20Catalina",
+      "urlSource": "card-list-link",
+      "wikiName": "PBY-5A Catalina"
+    },
+    {
+      "normalizedName": "QF 2ポンド8連装ポンポン砲",
+      "url": "https://wikiwiki.jp/kancolle/QF%202%E3%83%9D%E3%83%B3%E3%83%898%E9%80%A3%E8%A3%85%E3%83%9D%E3%83%B3%E3%83%9D%E3%83%B3%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "QF 2ポンド8連装ポンポン砲"
+    },
+    {
+      "normalizedName": "QF 4.7inch砲 Mk.XII改",
+      "url": "https://wikiwiki.jp/kancolle/QF%204.7inch%E7%A0%B2%20Mk.XII%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "QF 4.7inch砲 Mk.XII改"
+    },
+    {
+      "normalizedName": "RUR-4A Weapon Alpha改",
+      "url": "https://wikiwiki.jp/kancolle/RUR-4A%20Weapon%20Alpha%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "RUR-4A Weapon Alpha改"
+    },
+    {
+      "normalizedName": "Re.2001 CB改",
+      "url": "https://wikiwiki.jp/kancolle/Re.2001%20CB%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Re.2001 CB改"
+    },
+    {
+      "normalizedName": "Re.2001 G改",
+      "url": "https://wikiwiki.jp/kancolle/Re.2001%20G%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Re.2001 G改"
+    },
+    {
+      "normalizedName": "Re.2001 OR改",
+      "url": "https://wikiwiki.jp/kancolle/Re.2001%20OR%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Re.2001 OR改"
+    },
+    {
+      "normalizedName": "Re.2005 改",
+      "url": "https://wikiwiki.jp/kancolle/Re.2005%20%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Re.2005 改"
+    },
+    {
+      "normalizedName": "Ro.43水偵",
+      "url": "https://wikiwiki.jp/kancolle/Ro.43%E6%B0%B4%E5%81%B5",
+      "urlSource": "card-list-link",
+      "wikiName": "Ro.43水偵"
+    },
+    {
+      "normalizedName": "Ro.44水上戦闘機",
+      "url": "https://wikiwiki.jp/kancolle/Ro.44%E6%B0%B4%E4%B8%8A%E6%88%A6%E9%97%98%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "Ro.44水上戦闘機"
+    },
+    {
+      "normalizedName": "Ro.44水上戦闘機bis",
+      "url": "https://wikiwiki.jp/kancolle/Ro.44%E6%B0%B4%E4%B8%8A%E6%88%A6%E9%97%98%E6%A9%9Fbis",
+      "urlSource": "card-list-link",
+      "wikiName": "Ro.44水上戦闘機bis"
+    },
+    {
+      "normalizedName": "S-51J",
+      "url": "https://wikiwiki.jp/kancolle/S-51J",
+      "urlSource": "card-list-link",
+      "wikiName": "S-51J"
+    },
+    {
+      "normalizedName": "S-51J改",
+      "url": "https://wikiwiki.jp/kancolle/S-51J%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "S-51J改"
+    },
+    {
+      "normalizedName": "S9 Osprey",
+      "url": "https://wikiwiki.jp/kancolle/S9%20Osprey",
+      "urlSource": "card-list-link",
+      "wikiName": "S9 Osprey"
+    },
+    {
+      "normalizedName": "SB2C-3",
+      "url": "https://wikiwiki.jp/kancolle/SB2C-3",
+      "urlSource": "card-list-link",
+      "wikiName": "SB2C-3"
+    },
+    {
+      "normalizedName": "SB2C-5",
+      "url": "https://wikiwiki.jp/kancolle/SB2C-5",
+      "urlSource": "card-list-link",
+      "wikiName": "SB2C-5"
+    },
+    {
+      "normalizedName": "SBD",
+      "url": "https://wikiwiki.jp/kancolle/SBD",
+      "urlSource": "card-list-link",
+      "wikiName": "SBD"
+    },
+    {
+      "normalizedName": "SBD VB-2(爆撃飛行隊)",
+      "url": "https://wikiwiki.jp/kancolle/SBD%20VB-2%28%E7%88%86%E6%92%83%E9%A3%9B%E8%A1%8C%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SBD VB-2(爆撃飛行隊)"
+    },
+    {
+      "normalizedName": "SBD VS-2(偵察飛行隊)",
+      "url": "https://wikiwiki.jp/kancolle/SBD%20VS-2%28%E5%81%B5%E5%AF%9F%E9%A3%9B%E8%A1%8C%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SBD VS-2(偵察飛行隊)"
+    },
+    {
+      "normalizedName": "SBD(Yellow Wings)",
+      "url": "https://wikiwiki.jp/kancolle/SBD%28Yellow%20Wings%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SBD(Yellow Wings)"
+    },
+    {
+      "normalizedName": "SBD-5",
+      "url": "https://wikiwiki.jp/kancolle/SBD-5",
+      "urlSource": "card-list-link",
+      "wikiName": "SBD-5"
+    },
+    {
+      "normalizedName": "SCレーダー改(後期調整型)",
+      "url": "https://wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SCレーダー改(後期調整型)"
+    },
+    {
+      "normalizedName": "SG レーダー(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/SG%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SG レーダー(初期型)"
+    },
+    {
+      "normalizedName": "SG レーダー(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/SG%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SG レーダー(後期型)"
+    },
+    {
+      "normalizedName": "SJレーダー+潜水艦司令塔装備",
+      "url": "https://wikiwiki.jp/kancolle/SJ%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%8F%B8%E4%BB%A4%E5%A1%94%E8%A3%85%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "SJレーダー＋潜水艦司令塔装備"
+    },
+    {
+      "normalizedName": "SK+SGレーダー",
+      "url": "https://wikiwiki.jp/kancolle/SK%EF%BC%8BSG%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "SK＋SGレーダー"
+    },
+    {
+      "normalizedName": "SKC34 20.3cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/SKC34%2020.3cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "SKC34 20.3cm連装砲"
+    },
+    {
+      "normalizedName": "SKレーダー",
+      "url": "https://wikiwiki.jp/kancolle/SK%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "SKレーダー"
+    },
+    {
+      "normalizedName": "SM.79",
+      "url": "https://wikiwiki.jp/kancolle/SM.79",
+      "urlSource": "card-list-link",
+      "wikiName": "SM.79"
+    },
+    {
+      "normalizedName": "SM.79 bis",
+      "url": "https://wikiwiki.jp/kancolle/SM.79%20bis",
+      "urlSource": "card-list-link",
+      "wikiName": "SM.79 bis"
+    },
+    {
+      "normalizedName": "SM.79 bis(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/SM.79%20bis%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SM.79 bis(熟練)"
+    },
+    {
+      "normalizedName": "SO3C Seamew改",
+      "url": "https://wikiwiki.jp/kancolle/SO3C%20Seamew%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "SO3C Seamew改"
+    },
+    {
+      "normalizedName": "SOC Seagull",
+      "url": "https://wikiwiki.jp/kancolle/SOC%20Seagull",
+      "urlSource": "card-list-link",
+      "wikiName": "SOC Seagull"
+    },
+    {
+      "normalizedName": "SOC Seagull 後期型(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/SOC%20Seagull%20%E5%BE%8C%E6%9C%9F%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "SOC Seagull 後期型(熟練)"
+    },
+    {
+      "normalizedName": "Sea Gladiator",
+      "url": "https://wikiwiki.jp/kancolle/Sea%20Gladiator",
+      "urlSource": "card-list-link",
+      "wikiName": "Sea Gladiator"
+    },
+    {
+      "normalizedName": "Sea Otter",
+      "url": "https://wikiwiki.jp/kancolle/Sea%20Otter",
+      "urlSource": "card-list-link",
+      "wikiName": "Sea Otter"
+    },
+    {
+      "normalizedName": "Seafire Mk.III改",
+      "url": "https://wikiwiki.jp/kancolle/Seafire%20Mk.III%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Seafire Mk.III改"
+    },
+    {
+      "normalizedName": "Skua",
+      "url": "https://wikiwiki.jp/kancolle/Skua",
+      "urlSource": "card-list-link",
+      "wikiName": "Skua"
+    },
+    {
+      "normalizedName": "Spitfire Mk.I",
+      "url": "https://wikiwiki.jp/kancolle/Spitfire%20Mk.I",
+      "urlSource": "card-list-link",
+      "wikiName": "Spitfire Mk.I"
+    },
+    {
+      "normalizedName": "Spitfire Mk.IX(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Spitfire%20Mk.IX%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Spitfire Mk.IX(熟練)"
+    },
+    {
+      "normalizedName": "Spitfire Mk.V",
+      "url": "https://wikiwiki.jp/kancolle/Spitfire%20Mk.V",
+      "urlSource": "card-list-link",
+      "wikiName": "Spitfire Mk.V"
+    },
+    {
+      "normalizedName": "Swordfish",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish"
+    },
+    {
+      "normalizedName": "Swordfish Mk.II(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.II%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish Mk.II(熟練)"
+    },
+    {
+      "normalizedName": "Swordfish Mk.III(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish Mk.III(熟練)"
+    },
+    {
+      "normalizedName": "Swordfish Mk.III改(水上機型)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish Mk.III改(水上機型)"
+    },
+    {
+      "normalizedName": "Swordfish Mk.III改(水上機型/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish Mk.III改(水上機型／熟練)"
+    },
+    {
+      "normalizedName": "Swordfish Mk.II改(水偵型)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%20Mk.II%E6%94%B9%28%E6%B0%B4%E5%81%B5%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish Mk.II改(水偵型)"
+    },
+    {
+      "normalizedName": "Swordfish(水上機型)",
+      "url": "https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Swordfish(水上機型)"
+    },
+    {
+      "normalizedName": "TBD",
+      "url": "https://wikiwiki.jp/kancolle/TBD",
+      "urlSource": "card-list-link",
+      "wikiName": "TBD"
+    },
+    {
+      "normalizedName": "TBD(Yellow Wings)",
+      "url": "https://wikiwiki.jp/kancolle/TBD%28Yellow%20Wings%29",
+      "urlSource": "card-list-link",
+      "wikiName": "TBD(Yellow Wings)"
+    },
+    {
+      "normalizedName": "TBF",
+      "url": "https://wikiwiki.jp/kancolle/TBF",
+      "urlSource": "card-list-link",
+      "wikiName": "TBF"
+    },
+    {
+      "normalizedName": "TBM-3D",
+      "url": "https://wikiwiki.jp/kancolle/TBM-3D",
+      "urlSource": "card-list-link",
+      "wikiName": "TBM-3D"
+    },
+    {
+      "normalizedName": "TBM-3W + 3S",
+      "url": "https://wikiwiki.jp/kancolle/TBM-3W%20%EF%BC%8B%203S",
+      "urlSource": "card-list-link",
+      "wikiName": "TBM-3W ＋ 3S"
+    },
+    {
+      "normalizedName": "Type124 ASDIC",
+      "url": "https://wikiwiki.jp/kancolle/Type124%20ASDIC",
+      "urlSource": "card-list-link",
+      "wikiName": "Type124 ASDIC"
+    },
+    {
+      "normalizedName": "Type144/147 ASDIC",
+      "url": "https://wikiwiki.jp/kancolle/Type144%EF%BC%8F147%20ASDIC",
+      "urlSource": "card-list-link",
+      "wikiName": "Type144／147 ASDIC"
+    },
+    {
+      "normalizedName": "Type274 射撃管制レーダー",
+      "url": "https://wikiwiki.jp/kancolle/Type274%20%E5%B0%84%E6%92%83%E7%AE%A1%E5%88%B6%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "Type274 射撃管制レーダー"
+    },
+    {
+      "normalizedName": "Type281 レーダー",
+      "url": "https://wikiwiki.jp/kancolle/Type281%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "Type281 レーダー"
+    },
+    {
+      "normalizedName": "WG42 (Wurfgerat 42)",
+      "url": "https://wikiwiki.jp/kancolle/WG42%20%28Wurfgerat%2042%29",
+      "urlSource": "card-list-link",
+      "wikiName": "WG42 (Wurfgerat 42)"
+    },
+    {
+      "normalizedName": "Walrus",
+      "url": "https://wikiwiki.jp/kancolle/Walrus",
+      "urlSource": "card-list-link",
+      "wikiName": "Walrus"
+    },
+    {
+      "normalizedName": "XF5U",
+      "url": "https://wikiwiki.jp/kancolle/XF5U",
+      "urlSource": "card-list-link",
+      "wikiName": "XF5U"
+    },
+    {
+      "normalizedName": "オ号観測機改",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AA%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "オ号観測機改"
+    },
+    {
+      "normalizedName": "オ号観測機改二",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AA%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "オ号観測機改二"
+    },
+    {
+      "normalizedName": "カ号観測機",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AB%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "カ号観測機"
+    },
+    {
+      "normalizedName": "キ102乙",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "キ102乙"
+    },
+    {
+      "normalizedName": "キ102乙改+イ号一型乙 誘導弾",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99%E6%94%B9%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E4%B9%99%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "キ102乙改＋イ号一型乙 誘導弾"
+    },
+    {
+      "normalizedName": "キ96",
+      "url": "https://wikiwiki.jp/kancolle/%E3%82%AD96",
+      "urlSource": "card-list-link",
+      "wikiName": "キ96"
+    },
+    {
+      "normalizedName": "ドラム缶(輸送用)",
+      "url": "https://wikiwiki.jp/kancolle/%E3%83%89%E3%83%A9%E3%83%A0%E7%BC%B6%28%E8%BC%B8%E9%80%81%E7%94%A8%29",
+      "urlSource": "card-list-link",
+      "wikiName": "ドラム缶(輸送用)"
+    },
+    {
+      "normalizedName": "プリエーゼ式水中防御隔壁",
+      "url": "https://wikiwiki.jp/kancolle/%E3%83%97%E3%83%AA%E3%82%A8%E3%83%BC%E3%82%BC%E5%BC%8F%E6%B0%B4%E4%B8%AD%E9%98%B2%E5%BE%A1%E9%9A%94%E5%A3%81",
+      "urlSource": "card-list-link",
+      "wikiName": "プリエーゼ式水中防御隔壁"
+    },
+    {
+      "normalizedName": "一式徹甲弾",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "一式徹甲弾"
+    },
+    {
+      "normalizedName": "一式徹甲弾改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "一式徹甲弾改"
+    },
+    {
+      "normalizedName": "一式戦 隼III型改(熟練/20戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F20%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼III型改(熟練／20戦隊)"
+    },
+    {
+      "normalizedName": "一式戦 隼III型甲",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼III型甲"
+    },
+    {
+      "normalizedName": "一式戦 隼III型甲(54戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E7%94%B2%2854%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼III型甲(54戦隊)"
+    },
+    {
+      "normalizedName": "一式戦 隼II型",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼II型"
+    },
+    {
+      "normalizedName": "一式戦 隼II型(64戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B%2864%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼II型(64戦隊)"
+    },
+    {
+      "normalizedName": "一式戦 隼II型改(20戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B%E6%94%B9%2820%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式戦 隼II型改(20戦隊)"
+    },
+    {
+      "normalizedName": "一式陸攻",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB",
+      "urlSource": "card-list-link",
+      "wikiName": "一式陸攻"
+    },
+    {
+      "normalizedName": "一式陸攻 三四型",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%B8%89%E5%9B%9B%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "一式陸攻 三四型"
+    },
+    {
+      "normalizedName": "一式陸攻 二二型甲",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%BA%8C%E4%BA%8C%E5%9E%8B%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "一式陸攻 二二型甲"
+    },
+    {
+      "normalizedName": "一式陸攻(八幡部隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式陸攻(八幡部隊)"
+    },
+    {
+      "normalizedName": "一式陸攻(野中隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E9%87%8E%E4%B8%AD%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "一式陸攻(野中隊)"
+    },
+    {
+      "normalizedName": "三式弾",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "三式弾"
+    },
+    {
+      "normalizedName": "三式弾改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三式弾改"
+    },
+    {
+      "normalizedName": "三式弾改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "三式弾改二"
+    },
+    {
+      "normalizedName": "三式戦 飛燕",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95",
+      "urlSource": "card-list-link",
+      "wikiName": "三式戦 飛燕"
+    },
+    {
+      "normalizedName": "三式戦 飛燕(飛行第244戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95%28%E9%A3%9B%E8%A1%8C%E7%AC%AC244%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "三式戦 飛燕(飛行第244戦隊)"
+    },
+    {
+      "normalizedName": "三式戦 飛燕一型丁",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95%E4%B8%80%E5%9E%8B%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "三式戦 飛燕一型丁"
+    },
+    {
+      "normalizedName": "三式指揮連絡機(対潜)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%28%E5%AF%BE%E6%BD%9C%29",
+      "urlSource": "card-list-link",
+      "wikiName": "三式指揮連絡機(対潜)"
+    },
+    {
+      "normalizedName": "三式指揮連絡機改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三式指揮連絡機改"
+    },
+    {
+      "normalizedName": "三式指揮連絡機改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "三式指揮連絡機改二"
+    },
+    {
+      "normalizedName": "三式水中探信儀",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80",
+      "urlSource": "card-list-link",
+      "wikiName": "三式水中探信儀"
+    },
+    {
+      "normalizedName": "三式水中探信儀改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三式水中探信儀改"
+    },
+    {
+      "normalizedName": "三式爆雷投射機",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "三式爆雷投射機"
+    },
+    {
+      "normalizedName": "三式爆雷投射機 集中配備",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "三式爆雷投射機 集中配備"
+    },
+    {
+      "normalizedName": "三式爆雷投射機改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三式爆雷投射機改"
+    },
+    {
+      "normalizedName": "九一式徹甲弾",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "九一式徹甲弾"
+    },
+    {
+      "normalizedName": "九七式中戦車 新砲塔(チハ改)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%20%E6%96%B0%E7%A0%B2%E5%A1%94%28%E3%83%81%E3%83%8F%E6%94%B9%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式中戦車 新砲塔(チハ改)"
+    },
+    {
+      "normalizedName": "九七式中戦車(チハ)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%28%E3%83%81%E3%83%8F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式中戦車(チハ)"
+    },
+    {
+      "normalizedName": "九七式艦攻",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻"
+    },
+    {
+      "normalizedName": "九七式艦攻(九三一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E4%B9%9D%E4%B8%89%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻(九三一空)"
+    },
+    {
+      "normalizedName": "九七式艦攻(九三一空/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E4%B9%9D%E4%B8%89%E4%B8%80%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻(九三一空／熟練)"
+    },
+    {
+      "normalizedName": "九七式艦攻(友永隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻(友永隊)"
+    },
+    {
+      "normalizedName": "九七式艦攻(村田隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E6%9D%91%E7%94%B0%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻(村田隊)"
+    },
+    {
+      "normalizedName": "九七式艦攻(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻(熟練)"
+    },
+    {
+      "normalizedName": "九七式艦攻改 試製三号戊型(空六号電探改装備機)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%20%E8%A9%A6%E8%A3%BD%E4%B8%89%E5%8F%B7%E6%88%8A%E5%9E%8B%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻改 試製三号戊型(空六号電探改装備機)"
+    },
+    {
+      "normalizedName": "九七式艦攻改(北東海軍航空隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%28%E5%8C%97%E6%9D%B1%E6%B5%B7%E8%BB%8D%E8%88%AA%E7%A9%BA%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻改(北東海軍航空隊)"
+    },
+    {
+      "normalizedName": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%28%E7%86%9F%E7%B7%B4%29%20%E8%A9%A6%E8%A3%BD%E4%B8%89%E5%8F%B7%E6%88%8A%E5%9E%8B%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)"
+    },
+    {
+      "normalizedName": "九三式水中聴音機",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "九三式水中聴音機"
+    },
+    {
+      "normalizedName": "九九式練爆二二型改(夜間装備実験機)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E7%B7%B4%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E8%A3%85%E5%82%99%E5%AE%9F%E9%A8%93%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式練爆二二型改(夜間装備実験機)"
+    },
+    {
+      "normalizedName": "九九式艦爆",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式艦爆"
+    },
+    {
+      "normalizedName": "九九式艦爆(江草隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式艦爆(江草隊)"
+    },
+    {
+      "normalizedName": "九九式艦爆(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式艦爆(熟練)"
+    },
+    {
+      "normalizedName": "九九式艦爆二二型",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式艦爆二二型"
+    },
+    {
+      "normalizedName": "九九式艦爆二二型(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九九式艦爆二二型(熟練)"
+    },
+    {
+      "normalizedName": "九五式爆雷",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "九五式爆雷"
+    },
+    {
+      "normalizedName": "九八式水上偵察機(夜偵)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AB%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F%28%E5%A4%9C%E5%81%B5%29",
+      "urlSource": "card-list-link",
+      "wikiName": "九八式水上偵察機(夜偵)"
+    },
+    {
+      "normalizedName": "九六式艦戦",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E8%89%A6%E6%88%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "九六式艦戦"
+    },
+    {
+      "normalizedName": "九六式艦戦改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E8%89%A6%E6%88%A6%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "九六式艦戦改"
+    },
+    {
+      "normalizedName": "九六式陸攻",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB",
+      "urlSource": "card-list-link",
+      "wikiName": "九六式陸攻"
+    },
+    {
+      "normalizedName": "九四式爆雷投射機",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%9B%9B%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "九四式爆雷投射機"
+    },
+    {
+      "normalizedName": "二式12cm迫撃砲改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "二式12cm迫撃砲改"
+    },
+    {
+      "normalizedName": "二式12cm迫撃砲改 集中配備",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "二式12cm迫撃砲改 集中配備"
+    },
+    {
+      "normalizedName": "二式大艇",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E5%A4%A7%E8%89%87",
+      "urlSource": "card-list-link",
+      "wikiName": "二式大艇"
+    },
+    {
+      "normalizedName": "二式水戦改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "二式水戦改"
+    },
+    {
+      "normalizedName": "二式水戦改(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "二式水戦改(熟練)"
+    },
+    {
+      "normalizedName": "二式爆雷",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "二式爆雷"
+    },
+    {
+      "normalizedName": "二式爆雷改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "二式爆雷改二"
+    },
+    {
+      "normalizedName": "二式艦上偵察機",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%89%A6%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "二式艦上偵察機"
+    },
+    {
+      "normalizedName": "二式複戦 屠龍",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "二式複戦 屠龍"
+    },
+    {
+      "normalizedName": "二式複戦 屠龍 丙型",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D%20%E4%B8%99%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "二式複戦 屠龍 丙型"
+    },
+    {
+      "normalizedName": "二式陸上偵察機",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E9%99%B8%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "二式陸上偵察機"
+    },
+    {
+      "normalizedName": "二式陸上偵察機(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E9%99%B8%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "二式陸上偵察機(熟練)"
+    },
+    {
+      "normalizedName": "北方迷彩(+北方装備)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8C%97%E6%96%B9%E8%BF%B7%E5%BD%A9%28%EF%BC%8B%E5%8C%97%E6%96%B9%E8%A3%85%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "北方迷彩(＋北方装備)"
+    },
+    {
+      "normalizedName": "噴式景雲改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%99%B4%E5%BC%8F%E6%99%AF%E9%9B%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "噴式景雲改"
+    },
+    {
+      "normalizedName": "四式20cm対地噴進砲 集中配備",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F20cm%E5%AF%BE%E5%9C%B0%E5%99%B4%E9%80%B2%E7%A0%B2%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "四式20cm対地噴進砲 集中配備"
+    },
+    {
+      "normalizedName": "四式戦 疾風",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E6%88%A6%20%E7%96%BE%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "四式戦 疾風"
+    },
+    {
+      "normalizedName": "四式水中聴音機",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "四式水中聴音機"
+    },
+    {
+      "normalizedName": "四式重爆 飛龍",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "四式重爆 飛龍"
+    },
+    {
+      "normalizedName": "四式重爆 飛龍(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "四式重爆 飛龍(熟練)"
+    },
+    {
+      "normalizedName": "四式重爆 飛龍(熟練)+イ号一型甲 誘導弾",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "四式重爆 飛龍(熟練)＋イ号一型甲 誘導弾"
+    },
+    {
+      "normalizedName": "四式重爆 飛龍+イ号一型甲 誘導弾",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "四式重爆 飛龍＋イ号一型甲 誘導弾"
+    },
+    {
+      "normalizedName": "増設バルジ(中型艦)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "増設バルジ(中型艦)"
+    },
+    {
+      "normalizedName": "増設バルジ(大型艦)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "増設バルジ(大型艦)"
+    },
+    {
+      "normalizedName": "夜間作戦航空要員",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "夜間作戦航空要員"
+    },
+    {
+      "normalizedName": "夜間作戦航空要員+熟練甲板員",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1%EF%BC%8B%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "夜間作戦航空要員＋熟練甲板員"
+    },
+    {
+      "normalizedName": "大発動艇",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87",
+      "urlSource": "card-list-link",
+      "wikiName": "大発動艇"
+    },
+    {
+      "normalizedName": "大発動艇(II号戦車/北アフリカ仕様)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28II%E5%8F%B7%E6%88%A6%E8%BB%8A%EF%BC%8F%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29",
+      "urlSource": "card-list-link",
+      "wikiName": "大発動艇(II号戦車／北アフリカ仕様)"
+    },
+    {
+      "normalizedName": "大発動艇(R35&フランス兵)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28R35%EF%BC%86%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E5%85%B5%29",
+      "urlSource": "card-list-link",
+      "wikiName": "大発動艇(R35＆フランス兵)"
+    },
+    {
+      "normalizedName": "大発動艇(八九式中戦車&陸戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28%E5%85%AB%E4%B9%9D%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%EF%BC%86%E9%99%B8%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "大発動艇(八九式中戦車＆陸戦隊)"
+    },
+    {
+      "normalizedName": "天山",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1",
+      "urlSource": "card-list-link",
+      "wikiName": "天山"
+    },
+    {
+      "normalizedName": "天山(九三一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%28%E4%B9%9D%E4%B8%89%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山(九三一空)"
+    },
+    {
+      "normalizedName": "天山(六〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山(六〇一空)"
+    },
+    {
+      "normalizedName": "天山一二型(友永隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型(友永隊)"
+    },
+    {
+      "normalizedName": "天山一二型(村田隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型(村田隊)"
+    },
+    {
+      "normalizedName": "天山一二型甲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型甲"
+    },
+    {
+      "normalizedName": "天山一二型甲改(熟練/空六号電探改装備機)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型甲改(熟練／空六号電探改装備機)"
+    },
+    {
+      "normalizedName": "天山一二型甲改(空六号電探改装備機)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型甲改(空六号電探改装備機)"
+    },
+    {
+      "normalizedName": "天山一二型甲改二(村田隊/電探装備)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "天山一二型甲改二(村田隊／電探装備)"
+    },
+    {
+      "normalizedName": "寒冷地装備&甲板要員",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AF%92%E5%86%B7%E5%9C%B0%E8%A3%85%E5%82%99%EF%BC%86%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "寒冷地装備＆甲板要員"
+    },
+    {
+      "normalizedName": "対潜短魚雷(試作初期型)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AF%BE%E6%BD%9C%E7%9F%AD%E9%AD%9A%E9%9B%B7%28%E8%A9%A6%E4%BD%9C%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "対潜短魚雷(試作初期型)"
+    },
+    {
+      "normalizedName": "強化型艦本式缶",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E5%8C%96%E5%9E%8B%E8%89%A6%E6%9C%AC%E5%BC%8F%E7%BC%B6",
+      "urlSource": "card-list-link",
+      "wikiName": "強化型艦本式缶"
+    },
+    {
+      "normalizedName": "強風改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "強風改"
+    },
+    {
+      "normalizedName": "強風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "強風改二"
+    },
+    {
+      "normalizedName": "強風改二(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9%E4%BA%8C%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "強風改二(熟練)"
+    },
+    {
+      "normalizedName": "彗星",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星"
+    },
+    {
+      "normalizedName": "彗星(六〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星(六〇一空)"
+    },
+    {
+      "normalizedName": "彗星(江草隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星(江草隊)"
+    },
+    {
+      "normalizedName": "彗星一二型(三一号光電管爆弾搭載機)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E4%B8%89%E4%B8%80%E5%8F%B7%E5%85%89%E9%9B%BB%E7%AE%A1%E7%88%86%E5%BC%BE%E6%90%AD%E8%BC%89%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星一二型(三一号光電管爆弾搭載機)"
+    },
+    {
+      "normalizedName": "彗星一二型(六三四空/三号爆弾搭載機)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E4%B8%89%E5%8F%B7%E7%88%86%E5%BC%BE%E6%90%AD%E8%BC%89%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星一二型(六三四空／三号爆弾搭載機)"
+    },
+    {
+      "normalizedName": "彗星一二型甲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星一二型甲"
+    },
+    {
+      "normalizedName": "彗星二二型(六三四空)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星二二型(六三四空)"
+    },
+    {
+      "normalizedName": "彗星二二型(六三四空/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彗星二二型(六三四空／熟練)"
+    },
+    {
+      "normalizedName": "彩雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "彩雲"
+    },
+    {
+      "normalizedName": "彩雲(偵四)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2%28%E5%81%B5%E5%9B%9B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彩雲(偵四)"
+    },
+    {
+      "normalizedName": "彩雲(東カロリン空)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2%28%E6%9D%B1%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%B3%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彩雲(東カロリン空)"
+    },
+    {
+      "normalizedName": "彩雲(輸送用分解済)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2%28%E8%BC%B8%E9%80%81%E7%94%A8%E5%88%86%E8%A7%A3%E6%B8%88%29",
+      "urlSource": "card-list-link",
+      "wikiName": "彩雲(輸送用分解済)"
+    },
+    {
+      "normalizedName": "後期型53cm艦首魚雷(8門)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B53cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "後期型53cm艦首魚雷(8門)"
+    },
+    {
+      "normalizedName": "後期型潜水艦搭載電探&逆探",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "後期型潜水艦搭載電探＆逆探"
+    },
+    {
+      "normalizedName": "後期型艦首魚雷(4門)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "後期型艦首魚雷(4門)"
+    },
+    {
+      "normalizedName": "後期型艦首魚雷(6門)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "後期型艦首魚雷(6門)"
+    },
+    {
+      "normalizedName": "後期型電探&逆探+シュノーケル装備",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2%EF%BC%8B%E3%82%B7%E3%83%A5%E3%83%8E%E3%83%BC%E3%82%B1%E3%83%AB%E8%A3%85%E5%82%99",
+      "urlSource": "card-list-link",
+      "wikiName": "後期型電探＆逆探＋シュノーケル装備"
+    },
+    {
+      "normalizedName": "応急修理女神",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E",
+      "urlSource": "card-list-link",
+      "wikiName": "応急修理女神"
+    },
+    {
+      "normalizedName": "応急修理要員",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E8%A6%81%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "応急修理要員"
+    },
+    {
+      "normalizedName": "戦闘糧食",
+      "url": "https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "戦闘糧食"
+    },
+    {
+      "normalizedName": "戦闘糧食(特別なおにぎり)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F%28%E7%89%B9%E5%88%A5%E3%81%AA%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "戦闘糧食(特別なおにぎり)"
+    },
+    {
+      "normalizedName": "探照灯",
+      "url": "https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF",
+      "urlSource": "card-list-link",
+      "wikiName": "探照灯"
+    },
+    {
+      "normalizedName": "改良型艦本式タービン",
+      "url": "https://wikiwiki.jp/kancolle/%E6%94%B9%E8%89%AF%E5%9E%8B%E8%89%A6%E6%9C%AC%E5%BC%8F%E3%82%BF%E3%83%BC%E3%83%93%E3%83%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "改良型艦本式タービン"
+    },
+    {
+      "normalizedName": "新型高温高圧缶",
+      "url": "https://wikiwiki.jp/kancolle/%E6%96%B0%E5%9E%8B%E9%AB%98%E6%B8%A9%E9%AB%98%E5%9C%A7%E7%BC%B6",
+      "urlSource": "card-list-link",
+      "wikiName": "新型高温高圧缶"
+    },
+    {
+      "normalizedName": "明星改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%8E%E6%98%9F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "明星改"
+    },
+    {
+      "normalizedName": "晴嵐(六三一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%99%B4%E5%B5%90%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "晴嵐(六三一空)"
+    },
+    {
+      "normalizedName": "未実装",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%AA%E5%AE%9F%E8%A3%85",
+      "urlSource": "card-list-display-name",
+      "wikiName": "未実装"
+    },
+    {
+      "normalizedName": "東海(九〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%B1%E6%B5%B7%28%E4%B9%9D%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "東海(九〇一空)"
+    },
+    {
+      "normalizedName": "橘花改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A9%98%E8%8A%B1%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "橘花改"
+    },
+    {
+      "normalizedName": "武装大発",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AD%A6%E8%A3%85%E5%A4%A7%E7%99%BA",
+      "urlSource": "card-list-link",
+      "wikiName": "武装大発"
+    },
+    {
+      "normalizedName": "毘式40mm連装機銃",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AF%98%E5%BC%8F40mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83",
+      "urlSource": "card-list-link",
+      "wikiName": "毘式40mm連装機銃"
+    },
+    {
+      "normalizedName": "水雷戦隊 熟練見張員",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "水雷戦隊 熟練見張員"
+    },
+    {
+      "normalizedName": "洋上補給",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B4%8B%E4%B8%8A%E8%A3%9C%E7%B5%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "洋上補給"
+    },
+    {
+      "normalizedName": "流星",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "流星"
+    },
+    {
+      "normalizedName": "流星(六〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "流星(六〇一空)"
+    },
+    {
+      "normalizedName": "流星改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "流星改"
+    },
+    {
+      "normalizedName": "流星改(一航戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "流星改(一航戦)"
+    },
+    {
+      "normalizedName": "流星改(一航戦/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "流星改(一航戦／熟練)"
+    },
+    {
+      "normalizedName": "流星改(友永隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "流星改(友永隊)"
+    },
+    {
+      "normalizedName": "流星改(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "流星改(熟練)"
+    },
+    {
+      "normalizedName": "深山",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1",
+      "urlSource": "card-list-link",
+      "wikiName": "深山"
+    },
+    {
+      "normalizedName": "深山改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "深山改"
+    },
+    {
+      "normalizedName": "潜水艦53cm艦首魚雷(8門)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A653cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "潜水艦53cm艦首魚雷(8門)"
+    },
+    {
+      "normalizedName": "潜水艦後部魚雷発射管4門(初期型)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "潜水艦後部魚雷発射管4門(初期型)"
+    },
+    {
+      "normalizedName": "潜水艦後部魚雷発射管4門(後期型)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%BE%8C%E9%83%A8%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "潜水艦後部魚雷発射管4門(後期型)"
+    },
+    {
+      "normalizedName": "潜水艦搭載電探&水防式望遠鏡",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E6%B0%B4%E9%98%B2%E5%BC%8F%E6%9C%9B%E9%81%A0%E9%8F%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "潜水艦搭載電探＆水防式望遠鏡"
+    },
+    {
+      "normalizedName": "潜水艦搭載電探&逆探(E27)",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E9%80%86%E6%8E%A2%28E27%29",
+      "urlSource": "card-list-link",
+      "wikiName": "潜水艦搭載電探＆逆探(E27)"
+    },
+    {
+      "normalizedName": "烈風 一一型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%20%E4%B8%80%E4%B8%80%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風 一一型"
+    },
+    {
+      "normalizedName": "烈風(六〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風(六〇一空)"
+    },
+    {
+      "normalizedName": "烈風改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改"
+    },
+    {
+      "normalizedName": "烈風改(三五二空/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%28%E4%B8%89%E4%BA%94%E4%BA%8C%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改(三五二空／熟練)"
+    },
+    {
+      "normalizedName": "烈風改(試製艦載型)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%28%E8%A9%A6%E8%A3%BD%E8%89%A6%E8%BC%89%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改(試製艦載型)"
+    },
+    {
+      "normalizedName": "烈風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改二"
+    },
+    {
+      "normalizedName": "烈風改二戊型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%E4%BA%8C%E6%88%8A%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改二戊型"
+    },
+    {
+      "normalizedName": "烈風改二戊型(一航戦/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%E4%BA%8C%E6%88%8A%E5%9E%8B%28%E4%B8%80%E8%88%AA%E6%88%A6%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "烈風改二戊型(一航戦／熟練)"
+    },
+    {
+      "normalizedName": "照明弾",
+      "url": "https://wikiwiki.jp/kancolle/%E7%85%A7%E6%98%8E%E5%BC%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "照明弾"
+    },
+    {
+      "normalizedName": "熟練甲板要員",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練甲板要員"
+    },
+    {
+      "normalizedName": "熟練甲板要員+航空整備員",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1%EF%BC%8B%E8%88%AA%E7%A9%BA%E6%95%B4%E5%82%99%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練甲板要員＋航空整備員"
+    },
+    {
+      "normalizedName": "熟練聴音員+後期型艦首魚雷(4門)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%81%B4%E9%9F%B3%E5%93%A1%EF%BC%8B%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%284%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練聴音員＋後期型艦首魚雷(4門)"
+    },
+    {
+      "normalizedName": "熟練聴音員+後期型艦首魚雷(6門)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%81%B4%E9%9F%B3%E5%93%A1%EF%BC%8B%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練聴音員＋後期型艦首魚雷(6門)"
+    },
+    {
+      "normalizedName": "熟練艦載機整備員",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%89%A6%E8%BC%89%E6%A9%9F%E6%95%B4%E5%82%99%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練艦載機整備員"
+    },
+    {
+      "normalizedName": "熟練見張員",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "熟練見張員"
+    },
+    {
+      "normalizedName": "爆装一式戦 隼III型改(65戦隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%88%86%E8%A3%85%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E6%94%B9%2865%E6%88%A6%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "爆装一式戦 隼III型改(65戦隊)"
+    },
+    {
+      "normalizedName": "特二式内火艇",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E4%BA%8C%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87",
+      "urlSource": "card-list-link",
+      "wikiName": "特二式内火艇"
+    },
+    {
+      "normalizedName": "特四式内火艇",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87",
+      "urlSource": "card-list-link",
+      "wikiName": "特四式内火艇"
+    },
+    {
+      "normalizedName": "特四式内火艇改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%9B%9B%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "特四式内火艇改"
+    },
+    {
+      "normalizedName": "特大発動艇",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇"
+    },
+    {
+      "normalizedName": "特大発動艇+III号戦車(北アフリカ仕様)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8A%28%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋III号戦車(北アフリカ仕様)"
+    },
+    {
+      "normalizedName": "特大発動艇+III号戦車J型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8BIII%E5%8F%B7%E6%88%A6%E8%BB%8AJ%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋III号戦車J型"
+    },
+    {
+      "normalizedName": "特大発動艇+チハ",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋チハ"
+    },
+    {
+      "normalizedName": "特大発動艇+チハ改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋チハ改"
+    },
+    {
+      "normalizedName": "特大発動艇+一式砲戦車",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E4%B8%80%E5%BC%8F%E7%A0%B2%E6%88%A6%E8%BB%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋一式砲戦車"
+    },
+    {
+      "normalizedName": "特大発動艇+戦車第11連隊",
+      "url": "https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E6%88%A6%E8%BB%8A%E7%AC%AC11%E9%80%A3%E9%9A%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "特大発動艇＋戦車第11連隊"
+    },
+    {
+      "normalizedName": "現地改装10cm連装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8510cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "現地改装10cm連装高角砲"
+    },
+    {
+      "normalizedName": "現地改装12.7cm連装高角砲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8512.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "現地改装12.7cm連装高角砲"
+    },
+    {
+      "normalizedName": "瑞雲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲"
+    },
+    {
+      "normalizedName": "瑞雲(六三一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲(六三一空)"
+    },
+    {
+      "normalizedName": "瑞雲(六三四空)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲(六三四空)"
+    },
+    {
+      "normalizedName": "瑞雲(六三四空/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲(六三四空／熟練)"
+    },
+    {
+      "normalizedName": "瑞雲12型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲12型"
+    },
+    {
+      "normalizedName": "瑞雲12型(六三四空)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲12型(六三四空)"
+    },
+    {
+      "normalizedName": "瑞雲改二(六三四空)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲改二(六三四空)"
+    },
+    {
+      "normalizedName": "瑞雲改二(六三四空/熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞雲改二(六三四空／熟練)"
+    },
+    {
+      "normalizedName": "甲標的 丁型改(蛟龍改)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%81%E5%9E%8B%E6%94%B9%28%E8%9B%9F%E9%BE%8D%E6%94%B9%29",
+      "urlSource": "card-list-link",
+      "wikiName": "甲標的 丁型改(蛟龍改)"
+    },
+    {
+      "normalizedName": "甲標的 丙型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%99%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "甲標的 丙型"
+    },
+    {
+      "normalizedName": "甲標的 甲型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E7%94%B2%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "甲標的 甲型"
+    },
+    {
+      "normalizedName": "発煙装置(煙幕)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%28%E7%85%99%E5%B9%95%29",
+      "urlSource": "card-list-link",
+      "wikiName": "発煙装置(煙幕)"
+    },
+    {
+      "normalizedName": "発煙装置改(煙幕)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%E6%94%B9%28%E7%85%99%E5%B9%95%29",
+      "urlSource": "card-list-link",
+      "wikiName": "発煙装置改(煙幕)"
+    },
+    {
+      "normalizedName": "秋刀魚の缶詰",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E5%88%80%E9%AD%9A%E3%81%AE%E7%BC%B6%E8%A9%B0",
+      "urlSource": "card-list-link",
+      "wikiName": "秋刀魚の缶詰"
+    },
+    {
+      "normalizedName": "秋水",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E6%B0%B4",
+      "urlSource": "card-list-link",
+      "wikiName": "秋水"
+    },
+    {
+      "normalizedName": "精鋭水雷戦隊 司令部",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B2%BE%E9%8B%AD%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E5%8F%B8%E4%BB%A4%E9%83%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "精鋭水雷戦隊 司令部"
+    },
+    {
+      "normalizedName": "紫雲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "紫雲"
+    },
+    {
+      "normalizedName": "紫雲(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "紫雲(熟練)"
+    },
+    {
+      "normalizedName": "紫電一一型",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%B8%80%E4%B8%80%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電一一型"
+    },
+    {
+      "normalizedName": "紫電二一型 紫電改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%BA%8C%E4%B8%80%E5%9E%8B%20%E7%B4%AB%E9%9B%BB%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電二一型 紫電改"
+    },
+    {
+      "normalizedName": "紫電改(三四三空) 戦闘301",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%28%E4%B8%89%E5%9B%9B%E4%B8%89%E7%A9%BA%29%20%E6%88%A6%E9%97%98301",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電改(三四三空) 戦闘301"
+    },
+    {
+      "normalizedName": "紫電改(三四三空) 戦闘407",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%28%E4%B8%89%E5%9B%9B%E4%B8%89%E7%A9%BA%29%20%E6%88%A6%E9%97%98407",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電改(三四三空) 戦闘407"
+    },
+    {
+      "normalizedName": "紫電改(三四三空) 戦闘701",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%28%E4%B8%89%E5%9B%9B%E4%B8%89%E7%A9%BA%29%20%E6%88%A6%E9%97%98701",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電改(三四三空) 戦闘701"
+    },
+    {
+      "normalizedName": "紫電改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電改二"
+    },
+    {
+      "normalizedName": "紫電改四",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E5%9B%9B",
+      "urlSource": "card-list-link",
+      "wikiName": "紫電改四"
+    },
+    {
+      "normalizedName": "艦本新設計 増設バルジ(中型艦)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "艦本新設計 増設バルジ(中型艦)"
+    },
+    {
+      "normalizedName": "艦本新設計 増設バルジ(大型艦)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "艦本新設計 増設バルジ(大型艦)"
+    },
+    {
+      "normalizedName": "艦艇修理施設",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E8%89%87%E4%BF%AE%E7%90%86%E6%96%BD%E8%A8%AD",
+      "urlSource": "card-list-link",
+      "wikiName": "艦艇修理施設"
+    },
+    {
+      "normalizedName": "艦載型 四式20cm対地噴進砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E8%BC%89%E5%9E%8B%20%E5%9B%9B%E5%BC%8F20cm%E5%AF%BE%E5%9C%B0%E5%99%B4%E9%80%B2%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "艦載型 四式20cm対地噴進砲"
+    },
+    {
+      "normalizedName": "艦隊司令部施設",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E9%9A%8A%E5%8F%B8%E4%BB%A4%E9%83%A8%E6%96%BD%E8%A8%AD",
+      "urlSource": "card-list-link",
+      "wikiName": "艦隊司令部施設"
+    },
+    {
+      "normalizedName": "艦隊通信アンテナ",
+      "url": "https://wikiwiki.jp/kancolle/%E8%89%A6%E9%9A%8A%E9%80%9A%E4%BF%A1%E3%82%A2%E3%83%B3%E3%83%86%E3%83%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "艦隊通信アンテナ"
+    },
+    {
+      "normalizedName": "装甲艇(AB艇)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29",
+      "urlSource": "card-list-link",
+      "wikiName": "装甲艇(AB艇)"
+    },
+    {
+      "normalizedName": "試製 23号電探改三",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%2023%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 23号電探改三"
+    },
+    {
+      "normalizedName": "試製 夜間瑞雲(攻撃装備)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 夜間瑞雲(攻撃装備)"
+    },
+    {
+      "normalizedName": "試製 明星(増加試作機)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E6%98%8E%E6%98%9F%28%E5%A2%97%E5%8A%A0%E8%A9%A6%E4%BD%9C%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 明星(増加試作機)"
+    },
+    {
+      "normalizedName": "試製 秋水",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E7%A7%8B%E6%B0%B4",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 秋水"
+    },
+    {
+      "normalizedName": "試製 長12.7cm連装砲A型改四",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%95%B712.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E5%9B%9B",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 長12.7cm連装砲A型改四"
+    },
+    {
+      "normalizedName": "試製 陣風",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%99%A3%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 陣風"
+    },
+    {
+      "normalizedName": "試製 震電(局地戦闘機)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "試製 震電(局地戦闘機)"
+    },
+    {
+      "normalizedName": "試製15cm9連装対潜噴進砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製15cm9連装対潜噴進砲"
+    },
+    {
+      "normalizedName": "試製20.3cm(4号)連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製20.3cm(4号)連装砲"
+    },
+    {
+      "normalizedName": "試製35.6cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製35.6cm三連装砲"
+    },
+    {
+      "normalizedName": "試製41cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製41cm三連装砲"
+    },
+    {
+      "normalizedName": "試製46cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD46cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製46cm連装砲"
+    },
+    {
+      "normalizedName": "試製51cm三連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製51cm三連装砲"
+    },
+    {
+      "normalizedName": "試製51cm連装砲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E9%80%A3%E8%A3%85%E7%A0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "試製51cm連装砲"
+    },
+    {
+      "normalizedName": "試製61cm六連装(酸素)魚雷",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "試製61cm六連装(酸素)魚雷"
+    },
+    {
+      "normalizedName": "試製FaT仕様九五式酸素魚雷改",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BDFaT%E4%BB%95%E6%A7%98%E4%B9%9D%E4%BA%94%E5%BC%8F%E9%85%B8%E7%B4%A0%E9%AD%9A%E9%9B%B7%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "試製FaT仕様九五式酸素魚雷改"
+    },
+    {
+      "normalizedName": "試製南山",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E5%8D%97%E5%B1%B1",
+      "urlSource": "card-list-link",
+      "wikiName": "試製南山"
+    },
+    {
+      "normalizedName": "試製景雲(艦偵型)",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "試製景雲(艦偵型)"
+    },
+    {
+      "normalizedName": "試製晴嵐",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%B4%E5%B5%90",
+      "urlSource": "card-list-link",
+      "wikiName": "試製晴嵐"
+    },
+    {
+      "normalizedName": "試製東海",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "試製東海"
+    },
+    {
+      "normalizedName": "試製烈風 後期型",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E7%83%88%E9%A2%A8%20%E5%BE%8C%E6%9C%9F%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "試製烈風 後期型"
+    },
+    {
+      "normalizedName": "逆探(E27)+22号対水上電探改四(後期調整型)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "逆探(E27)＋22号対水上電探改四(後期調整型)"
+    },
+    {
+      "normalizedName": "通信装置&要員",
+      "url": "https://wikiwiki.jp/kancolle/%E9%80%9A%E4%BF%A1%E8%A3%85%E7%BD%AE%EF%BC%86%E8%A6%81%E5%93%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "通信装置＆要員"
+    },
+    {
+      "normalizedName": "遊撃部隊 艦隊司令部",
+      "url": "https://wikiwiki.jp/kancolle/%E9%81%8A%E6%92%83%E9%83%A8%E9%9A%8A%20%E8%89%A6%E9%9A%8A%E5%8F%B8%E4%BB%A4%E9%83%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "遊撃部隊 艦隊司令部"
+    },
+    {
+      "normalizedName": "銀河",
+      "url": "https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "銀河"
+    },
+    {
+      "normalizedName": "銀河(江草隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "銀河(江草隊)"
+    },
+    {
+      "normalizedName": "銀河(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "銀河(熟練)"
+    },
+    {
+      "normalizedName": "阻塞気球",
+      "url": "https://wikiwiki.jp/kancolle/%E9%98%BB%E5%A1%9E%E6%B0%97%E7%90%83",
+      "urlSource": "card-list-link",
+      "wikiName": "阻塞気球"
+    },
+    {
+      "normalizedName": "陸軍歩兵部隊",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "陸軍歩兵部隊"
+    },
+    {
+      "normalizedName": "陸軍歩兵部隊+チハ改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A%EF%BC%8B%E3%83%81%E3%83%8F%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "陸軍歩兵部隊＋チハ改"
+    },
+    {
+      "normalizedName": "零式小型水上機",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "零式小型水上機"
+    },
+    {
+      "normalizedName": "零式小型水上機(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式小型水上機(熟練)"
+    },
+    {
+      "normalizedName": "零式水上偵察機",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上偵察機"
+    },
+    {
+      "normalizedName": "零式水上偵察機11型乙",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上偵察機11型乙"
+    },
+    {
+      "normalizedName": "零式水上偵察機11型乙(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上偵察機11型乙(熟練)"
+    },
+    {
+      "normalizedName": "零式水上偵察機11型乙改(夜偵)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上偵察機11型乙改(夜偵)"
+    },
+    {
+      "normalizedName": "零式水上偵察機11型甲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上偵察機11型甲改二"
+    },
+    {
+      "normalizedName": "零式水上観測機",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E8%A6%B3%E6%B8%AC%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水上観測機"
+    },
+    {
+      "normalizedName": "零式水中聴音機",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "零式水中聴音機"
+    },
+    {
+      "normalizedName": "零式艦戦21型",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦21型"
+    },
+    {
+      "normalizedName": "零式艦戦21型(台南空)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦21型(台南空)"
+    },
+    {
+      "normalizedName": "零式艦戦21型(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦21型(熟練)"
+    },
+    {
+      "normalizedName": "零式艦戦22型(251空)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A622%E5%9E%8B%28251%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦22型(251空)"
+    },
+    {
+      "normalizedName": "零式艦戦32型",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦32型"
+    },
+    {
+      "normalizedName": "零式艦戦32型(台南空)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E5%8F%B0%E5%8D%97%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦32型(台南空)"
+    },
+    {
+      "normalizedName": "零式艦戦32型(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦32型(熟練)"
+    },
+    {
+      "normalizedName": "零式艦戦52型",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦52型"
+    },
+    {
+      "normalizedName": "零式艦戦52型(熟練)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦52型(熟練)"
+    },
+    {
+      "normalizedName": "零式艦戦53型(岩本隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A653%E5%9E%8B%28%E5%B2%A9%E6%9C%AC%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦53型(岩本隊)"
+    },
+    {
+      "normalizedName": "零式艦戦62型(爆戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%28%E7%88%86%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦62型(爆戦)"
+    },
+    {
+      "normalizedName": "零式艦戦62型改(夜間爆戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦62型改(夜間爆戦)"
+    },
+    {
+      "normalizedName": "零式艦戦62型改(熟練/夜間爆戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E7%86%9F%E7%B7%B4%EF%BC%8F%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦62型改(熟練／夜間爆戦)"
+    },
+    {
+      "normalizedName": "零式艦戦63型(爆戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦63型(爆戦)"
+    },
+    {
+      "normalizedName": "零式艦戦64型(制空戦闘機仕様)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E5%88%B6%E7%A9%BA%E6%88%A6%E9%97%98%E6%A9%9F%E4%BB%95%E6%A7%98%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦64型(制空戦闘機仕様)"
+    },
+    {
+      "normalizedName": "零式艦戦64型(熟練爆戦)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E7%86%9F%E7%B7%B4%E7%88%86%E6%88%A6%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦64型(熟練爆戦)"
+    },
+    {
+      "normalizedName": "零式艦戦64型(複座KMX搭載機)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E8%A4%87%E5%BA%A7KMX%E6%90%AD%E8%BC%89%E6%A9%9F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零式艦戦64型(複座KMX搭載機)"
+    },
+    {
+      "normalizedName": "零戦21型(付岩本小隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A621%E5%9E%8B%28%E4%BB%98%E5%B2%A9%E6%9C%AC%E5%B0%8F%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦21型(付岩本小隊)"
+    },
+    {
+      "normalizedName": "零戦52型丙(付岩井小隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E4%BB%98%E5%B2%A9%E4%BA%95%E5%B0%8F%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦52型丙(付岩井小隊)"
+    },
+    {
+      "normalizedName": "零戦52型丙(八幡部隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E5%85%AB%E5%B9%A1%E9%83%A8%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦52型丙(八幡部隊)"
+    },
+    {
+      "normalizedName": "零戦52型丙(六〇一空)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦52型丙(六〇一空)"
+    },
+    {
+      "normalizedName": "零戦52型甲(付岩本小隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E7%94%B2%28%E4%BB%98%E5%B2%A9%E6%9C%AC%E5%B0%8F%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦52型甲(付岩本小隊)"
+    },
+    {
+      "normalizedName": "零戦62型(爆戦/岩井隊)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A662%E5%9E%8B%28%E7%88%86%E6%88%A6%EF%BC%8F%E5%B2%A9%E4%BA%95%E9%9A%8A%29",
+      "urlSource": "card-list-link",
+      "wikiName": "零戦62型(爆戦／岩井隊)"
+    },
+    {
+      "normalizedName": "雷電",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB",
+      "urlSource": "card-list-link",
+      "wikiName": "雷電"
+    },
+    {
+      "normalizedName": "電探装備マスト(13号改+22号電探改四)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%E3%83%9E%E3%82%B9%E3%83%88%2813%E5%8F%B7%E6%94%B9%EF%BC%8B22%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%29",
+      "urlSource": "card-list-link",
+      "wikiName": "電探装備マスト(13号改＋22号電探改四)"
+    },
+    {
+      "normalizedName": "震電改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "震電改"
+    },
+    {
+      "normalizedName": "震電改三(試製 噴式震電)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29",
+      "urlSource": "card-list-link",
+      "wikiName": "震電改三(試製 噴式震電)"
+    },
+    {
+      "normalizedName": "震電改二(艦戦型改二)",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29",
+      "urlSource": "card-list-link",
+      "wikiName": "震電改二(艦戦型改二)"
+    }
+  ],
+  "generatedAt": "2026-07-09T04:16:00+00:00",
+  "joinKey": "normalized-name",
+  "kind": "equipment",
+  "rawCacheKey": "wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+  "rawPath": ".flow/local/source-cache/wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+  "role": "locator-index",
+  "schemaVersion": 1,
+  "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7"
+}

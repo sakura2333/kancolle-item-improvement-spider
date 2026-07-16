@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "dictionaryId": "kancolle-item-improvement-spider-wikiwiki-page-name-aliases",
+  "reviewStatus": "accepted",
+  "joinPolicy": "start2-name-to-wiki-authored-name",
+  "aliases": [
+    {
+      "id": "wikiwiki-page-name.wg42-diacritic",
+      "status": "accepted",
+      "start2Name": "WG42 (Wurfgerät 42)",
+      "wikiName": "WG42 (Wurfgerat 42)",
+      "reason": "Wiki page omits the German umlaut."
+    },
+    {
+      "id": "wikiwiki-page-name.late-diacritic",
+      "status": "accepted",
+      "start2Name": "Laté 298B",
+      "wikiName": "Late 298B",
+      "reason": "Wiki page omits the acute accent."
+    },
+    {
+      "id": "wikiwiki-page-name.hfdf-punctuation",
+      "status": "accepted",
+      "start2Name": "HF/DF + Type144/147 ASDIC",
+      "wikiName": "HF／DF＋Type144／147 ASDIC",
+      "reason": "Wiki page uses full-width separators."
+    },
+    {
+      "id": "wikiwiki-page-name.sk-space",
+      "status": "accepted",
+      "start2Name": "SK レーダー",
+      "wikiName": "SKレーダー",
+      "reason": "Wiki page omits the separating space."
+    },
+    {
+      "id": "wikiwiki-page-name.sksg-punctuation",
+      "status": "accepted",
+      "start2Name": "SK+SG レーダー",
+      "wikiName": "SK＋SGレーダー",
+      "reason": "Wiki page uses a full-width plus and omits the separating space."
+    },
+    {
+      "id": "wikiwiki-page-name.bofors-spacing",
+      "status": "accepted",
+      "start2Name": "Bofors 15.2cm連装砲 Model 1930",
+      "wikiName": "Bofors15.2cm連装砲 Model1930",
+      "reason": "Wiki page omits two presentation spaces."
+    },
+    {
+      "id": "wikiwiki-page-name.mk30-remodel-space",
+      "status": "accepted",
+      "start2Name": "5inch単装砲 Mk.30改",
+      "wikiName": "5inch単装砲 Mk.30 改",
+      "reason": "Wiki page separates the remodel suffix."
+    },
+    {
+      "id": "wikiwiki-page-name.tbm3w3s-punctuation",
+      "status": "accepted",
+      "start2Name": "TBM-3W+3S",
+      "wikiName": "TBM-3W ＋ 3S",
+      "reason": "Wiki page uses spaced full-width plus punctuation."
+    },
+    {
+      "id": "wikiwiki-page-name.concentrated-secondary-spacing",
+      "status": "accepted",
+      "start2Name": "5inch連装砲(副砲配置) 集中配備",
+      "wikiName": "5inch連装砲(副砲配置)集中配備",
+      "reason": "Wiki page omits the separating space."
+    },
+    {
+      "id": "wikiwiki-page-name.reppu-kai-ni-bo-type-ichikosen-slash",
+      "status": "accepted",
+      "start2Name": "烈風改二戊型(一航戦/熟練)",
+      "wikiName": "烈風改二戊型(一航戦／熟練)",
+      "reason": "WikiWiki page URL uses a full-width slash for the page segment."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "wikiwiki-page-name.reppu-kai-ni-ichikosen-internal-only",
+      "status": "accepted",
+      "start2Name": "烈風改二(一航戦/熟練)",
+      "reason": "Start2 exposes this internal equipment id, but WikiWiki has no dedicated equipment-detail page; exclude instead of guessing a URL or joining by id."
+    },
+    {
+      "id": "wikiwiki-page-name.quad-oxygen-torpedo-model-5-kai-3-source-pending-20260709",
+      "status": "accepted",
+      "start2Name": "61cm四連装(酸素)魚雷五型改三",
+      "reason": "Start2 exposed this new 2026 equipment before WikiWiki's equipment card catalog published a dedicated page. Do not guess a direct URL; exact Wiki catalog matches still take precedence once the page appears."
+    },
+    {
+      "id": "wikiwiki-page-name.sb2u-2-source-pending-20260709",
+      "status": "accepted",
+      "start2Name": "SB2U-2",
+      "reason": "Start2 exposed this new 2026 equipment before WikiWiki's equipment card catalog published a dedicated page. Do not guess a direct URL; exact Wiki catalog matches still take precedence once the page appears."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: Acquire Spider Sources
+
+on:
+  schedule:
+    - cron: '17 3 */15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kancolle-source-acquire
+  cancel-in-progress: false
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+    steps:
+      - name: Checkout public main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Sync locked acquisition environment
+        run: |
+          set -euo pipefail
+          mise exec -- uv sync --locked
+          mise exec -- uv run --locked playwright install --with-deps chromium
+
+      - name: Acquire immutable source bundle
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.acquire.cli \
+            --output "$RUNNER_TEMP/source-bundle"
+
+      - name: Upload source bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-source-bundle
+          path: ${{ runner.temp }}/source-bundle
+          if-no-files-found: error
+          retention-days: 30

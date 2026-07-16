@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "moduleCount": 28,
+  "modules": [
+    {
+      "path": "automation/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/acquire/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/acquire/cli.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "json",
+        "pathlib",
+        "service",
+        "shutil",
+        "subprocess",
+        "sys",
+        "util"
+      ]
+    },
+    {
+      "path": "automation/acquire/wikiwiki/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "page_catalog",
+        "pathlib",
+        "playwright",
+        "random",
+        "raw_cache",
+        "re",
+        "shutil",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "time",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/acquire/wikiwiki/page_catalog.py",
+      "importRoots": [
+        "__future__",
+        "collections",
+        "html",
+        "json",
+        "pathlib",
+        "re",
+        "typing",
+        "unicodedata",
+        "urllib"
+      ]
+    },
+    {
+      "path": "automation/acquire/wikiwiki/raw_cache.py",
+      "importRoots": [
+        "__future__",
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shutil",
+        "tempfile",
+        "typing",
+        "urllib"
+      ]
+    },
+    {
+      "path": "automation/common/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/common/bundle.py",
+      "importRoots": [
+        "__future__",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "re",
+        "shutil"
+      ]
+    },
+    {
+      "path": "automation/common/process.py",
+      "importRoots": [
+        "__future__",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shlex",
+        "subprocess",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/compute/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/compute/cli.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "json",
+        "os",
+        "pathlib",
+        "service",
+        "shutil",
+        "subprocess",
+        "util"
+      ]
+    },
+    {
+      "path": "automation/release/__init__.py",
+      "importRoots": []
+    },
+    {
+      "path": "automation/release/cli.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "json",
+        "pathlib",
+        "subprocess"
+      ]
+    },
+    {
+      "path": "automation/release/consumer_identity.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "hashlib",
+        "json",
+        "pathlib",
+        "tarfile",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/__init__.py",
+      "importRoots": [
+        "artifact",
+        "config",
+        "manifest"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/artifact.py",
+      "importRoots": [
+        "__future__",
+        "automation",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shutil",
+        "stat",
+        "tempfile",
+        "typing",
+        "zipfile"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/common.py",
+      "importRoots": [
+        "__future__",
+        "datetime",
+        "fnmatch",
+        "hashlib",
+        "pathlib",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/config.py",
+      "importRoots": [
+        "__future__",
+        "configs",
+        "dataclasses",
+        "json",
+        "pathlib",
+        "re"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/exporter.py",
+      "importRoots": [
+        "__future__",
+        "automation",
+        "configs",
+        "json",
+        "pathlib",
+        "shutil",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/manifest.py",
+      "importRoots": [
+        "__future__",
+        "automation"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/repository.py",
+      "importRoots": [
+        "__future__",
+        "automation",
+        "pathlib",
+        "subprocess"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/sync.py",
+      "importRoots": [
+        "__future__",
+        "automation",
+        "hashlib",
+        "pathlib",
+        "shutil",
+        "tempfile",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/generated_state/verifier.py",
+      "importRoots": [
+        "__future__",
+        "automation",
+        "json",
+        "pathlib",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/npm_business_identity.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "hashlib",
+        "json",
+        "pathlib",
+        "tarfile",
+        "typing"
+      ]
+    },
+    {
+      "path": "automation/release/npm_publish.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "json",
+        "pathlib"
+      ]
+    },
+    {
+      "path": "automation/release/npm_registry.py",
+      "importRoots": [
+        "__future__",
+        "base64",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "re",
+        "subprocess",
+        "tarfile",
+        "time",
+        "typing",
+        "urllib",
+        "uuid"
+      ]
+    },
+    {
+      "path": "automation/release/npm_release_set.py",
+      "importRoots": [
+        "__future__",
+        "argparse",
+        "automation",
+        "copy",
+        "json",
+        "pathlib",
+        "shutil",
+        "subprocess",
+        "tarfile",
+        "tempfile",
+        "typing"
+      ]
+    }
+  ]
+}

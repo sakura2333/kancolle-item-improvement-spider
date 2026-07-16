@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "reviewedAt": "2026-07-13T05:42:19-07:00",
+  "releaseId": "1.0.24-6263b8c45445",
+  "candidateBranch": "public-candidate/1.0.24-6263b8c45445",
+  "candidateCommit": "fa73d2038fc0d5fb65cac28e93eab65274392e72",
+  "candidateTree": "82765534102e2c001f8d365f354c9e26644b48fe",
+  "candidateZipSha256": "3a13d3e00b15607268733f9754c0f1d4dbd907551c389995d10f2e23936ea438",
+  "changeCounts": {
+    "runtime": 11,
+    "automation": 8,
+    "packageTemplate": 3,
+    "documentation": 9,
+    "uncategorized": 0,
+    "total": 31
+  },
+  "reviewedAreas": [
+    "candidate identity and public manifest consistency",
+    "Akashi image-acquisition removal boundary",
+    "official KanColle equip/useitem acquisition and cache isolation",
+    "180-day image cache policy and retired cache pruning",
+    "canonical WebP quality-93 projection",
+    "minimal improvement2 schema-3 and useitem-PNG projection",
+    "Source Acquire to Build frozen-bundle boundary",
+    "npm business identity and two-variant reconciliation",
+    "workflow syntax, public boundary and sensitive-information scan"
+  ],
+  "verification": {
+    "candidateFileCount": 156,
+    "publicManifestMatchesCandidate": true,
+    "candidateTreeRecomputed": true,
+    "pythonCompile": "passed",
+    "workflowYamlParse": "passed: 3",
+    "workflowBashRunBlocks": "passed: 30",
+    "relevantRegressionTests": {
+      "passed": 98,
+      "skipped": 1,
+      "failed": 0,
+      "skipReason": "the repository fixture lacks a complete generated dist/packages/kancolle-data dataset for the full dual-package integration test"
+    },
+    "syntheticDualPackageIntegration": {
+      "canonicalNpmCheck": "passed",
+      "canonicalPack": "passed",
+      "improvement2NpmCheck": "passed",
+      "improvement2Pack": "passed",
+      "releaseSetVerify": "passed",
+      "canonicalContents": "equipment datasets + equip WebP + useitem WebP; no useitem PNG",
+      "improvement2Contents": "schema-3 improvement + useitem PNG; no equipment datasets/images and no useitem WebP"
+    },
+    "userRuntimeSmokeEvidence": {
+      "equipment": "HTTP 200; WEBP 390x390; 45242 bytes",
+      "useitem": "HTTP 200; PNG 270x270; 136630 bytes"
+    },
+    "unsafeZipPaths": 0,
+    "zipSymlinks": 0,
+    "duplicateZipEntries": 0,
+    "sensitiveFindings": 0
+  },
+  "blockingIssues": [],
+  "nonBlockingObservations": [
+    "The first full GitHub Actions Source Acquire using this Stable commit is still required as operational validation. Build Data Candidate must use that new Acquire run ID rather than an older Source Bundle.",
+    "The package README and public architecture/data documents describe the PNG-to-WebP migration, but the current package CHANGELOG and top-level RELEASE-NOTES do not explicitly summarize that consumer-visible path change.",
+    "Generated manifest, README, changelog, release history, license summary and audit output remain deliberately excluded from npm patch allocation; this is consistent with the documented business identity rule."
+  ],
+  "notes": "The candidate removes Akashi from image acquisition, isolates new official source caches from retired cache/equip and cache/useitem paths, acquires official assets during Source Acquire, publishes latest with equip/useitem WebP quality 93, and keeps improvement2 minimal with schema-3 improvement data plus official useitem PNG only. No blocking defect was found."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "project": "kancolle-item-improvement-spider",
+  "context_id": "20260701-135634-034962-46f5d14d1a49",
+  "previous_context_id": "20260701-030257-799921-0739e280273e",
+  "mode": "restore",
+  "branch": "dev",
+  "commit": "46f5d14d1a4925fe78bb5531035bd1a431a873a2",
+  "version": "1.0.0",
+  "devops_version": "0.7.2",
+  "generated_at": "2026-07-01T05:56:34+00:00",
+  "archive": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/gpt-context/kancolle-item-improvement-spider-gpt-context-20260701-135634-034962-46f5d14d1a49.zip",
+  "sha256": "50ecc4089e85ce791d51ca72d6ed573afd751618925c70ae0c0dd3bbc6f4670e"
+}

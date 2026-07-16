@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "reviewedAt": "2026-07-13T21:34:40+08:00",
+  "releaseId": "1.0.24-0beac3248a98",
+  "candidateBranch": "public-candidate/1.0.24-0beac3248a98",
+  "candidateCommit": "05f68970b07727600ac9e8f183c5b759aece68c6",
+  "candidateTree": "923e5f550bdc5523277437ba267cfd8f96f361bd",
+  "candidateZipSha256": "e52fcaf3daba85d381cf8346cfdbb8e321df85e049d7293d8992f1cb1fc0ecfe",
+  "changeCounts": {
+    "runtime": 1,
+    "automation": 0,
+    "packageTemplate": 0,
+    "documentation": 1,
+    "uncategorized": 0,
+    "total": 2
+  },
+  "reviewedAreas": [
+    "candidate identity and public manifest consistency",
+    "useitem WebP byte-size regression gate removal",
+    "retention of useitem image count regression gate",
+    "retention of WebP format, dimensions, decode and ID coverage validation",
+    "retention of other dataset relative and file-size quality gates",
+    "public boundary and sensitive-information scan"
+  ],
+  "verification": {
+    "candidateFileCount": 156,
+    "publicManifestMatchesCandidate": true,
+    "candidateTreeRecomputed": true,
+    "pythonCompile": "passed",
+    "workflowYamlParse": "passed: 3",
+    "qualityConfigSemanticChecks": {
+      "webpByteReductionDoesNotBlock": "passed",
+      "useitemCountRegressionStillBlocks": "passed",
+      "otherRelativeMinimumRatiosPreserved": "passed",
+      "fileSizeMinimumPathsPreserved": "passed"
+    },
+    "assetValidationPreserved": {
+      "canonicalUseitemFormat": "WebP",
+      "canonicalUseitemExpectedSize": "270x270",
+      "equipmentExpectedSize": "390x390",
+      "imageDecodeVerification": "preserved",
+      "requiredIdCoverage": "preserved",
+      "legacyImprovement2PngValidation": "preserved"
+    },
+    "unsafeZipPaths": 0,
+    "zipSymlinks": 0,
+    "duplicateZipEntries": 0,
+    "sensitiveFindings": 0
+  },
+  "blockingIssues": [],
+  "nonBlockingObservations": [
+    "useitemIcons.totalBytes remains in the generated snapshot for observation and audit, but no longer participates in release blocking.",
+    "The failed Build Data Candidate #12 should be rerun only after this exact candidate reaches main and a new Source Acquire is produced for that main commit."
+  ],
+  "notes": "The candidate removes only the useitemIcons.totalBytes relative regression threshold. Image count, required-ID coverage, WebP format, fixed dimensions and decode validation remain active, and all unrelated data-size quality gates are unchanged."
+}

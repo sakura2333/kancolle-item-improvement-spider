@@ -1,0 +1,8 @@
+WikiWiki local config materialized
+
+source: configs/wikiwiki-crawler.default.json
+sourceKind: default
+local: configs/wikiwiki-crawler.local.json
+local config is ignored by Git and is the only user-editable WikiWiki config entry
+runtime cache/receipt/browser profile remain under .flow/local
+review browserHeadless/browserProfileDir/cookie/headers before the first full acquisition

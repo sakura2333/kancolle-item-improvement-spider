@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "1.0.24-6263b8c45445",
+  "version": "1.0.24",
+  "sourceDevCommit": "6263b8c45445f302320138e7e86839dc66f4b683",
+  "reviewedCandidateCommit": "fa73d2038fc0d5fb65cac28e93eab65274392e72",
+  "mainCommit": "fa73d2038fc0d5fb65cac28e93eab65274392e72",
+  "candidateSha256": "e5041cab1833e008107ee5bd8628d0ac6b3623cbab82c42743ed202cf99f9063",
+  "candidateContentSha256": "e5041cab1833e008107ee5bd8628d0ac6b3623cbab82c42743ed202cf99f9063",
+  "candidateArchiveSha256": "3a13d3e00b15607268733f9754c0f1d4dbd907551c389995d10f2e23936ea438",
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "e11a94921b70e626cc931f3f3b20b4d20779369d2ddfa5a3a56be65f49f5b993",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  },
+  "completedAt": "2026-07-13T12:51:07.055871+00:00"
+}

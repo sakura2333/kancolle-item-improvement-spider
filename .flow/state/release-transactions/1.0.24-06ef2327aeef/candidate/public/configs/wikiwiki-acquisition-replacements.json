@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "dictionaryId": "kancolle-item-improvement-spider-wikiwiki-acquisition-replacements",
+  "reviewStatus": "accepted",
+  "rules": [
+    "Only accepted entries participate in parsing.",
+    "Raw HTML evidence and emitted rawText are never rewritten.",
+    "Heading exceptions are equipment-scoped and exact-match only.",
+    "Context labels are exact-match only; difficult variants must be added here instead of widening parser regexes.",
+    "Classification replacements are literal and source-scoped to WikiWiki equipment acquisition parsing."
+  ],
+  "entries": [
+    {
+      "id": "wikiwiki-equipment.drum-can.custom-heading",
+      "status": "accepted",
+      "scope": "heading-exact",
+      "equipmentName": "ドラム缶(輸送用)",
+      "raw": "ドラム缶の入手方法",
+      "replacement": "入手方法",
+      "reason": "This page uses an equipment-specific acquisition heading instead of the shared heading."
+    },
+    {
+      "id": "wikiwiki-equipment.context.development",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "開発",
+      "replacement": "開発",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.construction",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "建造",
+      "replacement": "建造",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.improvement-arsenal",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "改修工廠",
+      "replacement": "改修更新",
+      "reason": "WikiWiki uses the arsenal label for equipment obtained through an improvement update."
+    },
+    {
+      "id": "wikiwiki-equipment.context.improvement-update",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "改修更新",
+      "replacement": "改修更新",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備",
+      "replacement": "初期装備",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-ships",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備艦",
+      "replacement": "初期装備",
+      "reason": "Plural ship-table label for initial equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.context.remodel-initial-equipment",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "改装時の初期装備",
+      "replacement": "初期装備",
+      "reason": "Exact WikiWiki label for equipment carried after remodeling."
+    },
+    {
+      "id": "wikiwiki-equipment.context.quest",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "任務",
+      "replacement": "任務",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.quest-reward",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "任務報酬",
+      "replacement": "任務",
+      "reason": "Exact WikiWiki quest reward label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.quest-introduction",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "任務報酬：以下の任務で入手可能。",
+      "replacement": "任務",
+      "reason": "Exact introduction used by the drum-can page."
+    },
+    {
+      "id": "wikiwiki-equipment.context.available-quests",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "入手可能な任務",
+      "replacement": "任務",
+      "reason": "Exact WikiWiki label for a following quest list."
+    },
+    {
+      "id": "wikiwiki-equipment.context.limited-quest",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "期間限定任務",
+      "replacement": "任務",
+      "reason": "The label describes quest acquisition, not a generic event source."
+    },
+    {
+      "id": "wikiwiki-equipment.context.ranking",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "ランキング報酬",
+      "replacement": "ランキング報酬",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.operation-reward",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "作戦報酬",
+      "replacement": "作戦報酬",
+      "reason": "Canonical WikiWiki ranking reward label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.event",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "イベント",
+      "replacement": "イベント",
+      "reason": "Canonical acquisition context label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.event-reward",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "イベント報酬",
+      "replacement": "イベント",
+      "reason": "Exact WikiWiki event reward label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.event-area-clear-reward",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "イベント海域 突破報酬",
+      "replacement": "イベント",
+      "reason": "Exact label introducing an event reward table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-ship-table",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備艦一覧表",
+      "replacement": "初期装備",
+      "reason": "Exact label introducing the initial-equipment ship table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-following-table",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備艦は下表の通り",
+      "replacement": "初期装備",
+      "reason": "Exact label introducing the following initial-equipment table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-following-table-period",
+      "status": "accepted",
+      "scope": "context-label-prefix",
+      "raw": "初期装備艦は下表の通り。",
+      "replacement": "初期装備",
+      "reason": "Punctuated variant of the exact initial-equipment table label."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-following-table-hiragana",
+      "status": "accepted",
+      "scope": "context-label-prefix",
+      "raw": "初期装備艦は下表のとおり。",
+      "replacement": "初期装備",
+      "reason": "Exact orthographic variant introducing a following initial-equipment table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-ship-table-short",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備艦表",
+      "replacement": "初期装備",
+      "reason": "Short exact label introducing an initial-equipment ship table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.ranking-history-zuiun634",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "長らくランカー月次作戦報酬としてのみ配布されていた。",
+      "replacement": "ランキング報酬",
+      "reason": "Exact introduction for the nested historical ranking reward list."
+    },
+    {
+      "id": "wikiwiki-equipment.context.ranking-history-prototype356",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "2014年「6月作戦」以降、数度に渡ってランカー褒賞として配信されている。",
+      "replacement": "ランキング報酬",
+      "reason": "Exact introduction for the nested ranking reward history."
+    },
+    {
+      "id": "wikiwiki-equipment.marker.past-acquisition-list",
+      "status": "accepted",
+      "scope": "historical-marker-exact",
+      "raw": "過去の入手方法一覧",
+      "replacement": "過去の入手方法",
+      "reason": "Exact marker variant; it changes availability context but is not acquisition evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.current-method-count",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "現在の入手方法は2つ。",
+      "replacement": "現在の入手方法は2つ。",
+      "reason": "Section introduction with no standalone acquisition fact."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.quest-word",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "クエスト",
+      "replacement": "任務",
+      "reason": "Normalize the alternate Japanese loanword before method classification."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.ranking-word",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "戦果報酬",
+      "replacement": "ランキング報酬",
+      "reason": "Normalize an exact ranking reward synonym before classification."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.remodel-word",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "改装時",
+      "replacement": "初期装備",
+      "reason": "WikiWiki uses remodel timing to describe carried initial equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-carried-ships",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備として持参する艦娘",
+      "replacement": "初期装備",
+      "reason": "Exact label introducing a carried-initial-equipment ship table."
+    },
+    {
+      "id": "wikiwiki-equipment.context.initial-equipment-below",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "初期装備艦は以下の通り。",
+      "replacement": "初期装備",
+      "reason": "Exact label introducing the initial-equipment table below."
+    },
+    {
+      "id": "wikiwiki-equipment.context.update-acquisition-notes",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "更新による入手の注意点",
+      "replacement": "改修更新",
+      "reason": "Exact subsection label for update-based acquisition cautions."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.ranking-merit-reward",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "戦果褒賞",
+      "replacement": "ランキング報酬",
+      "reason": "Normalize the historical ranking-reward synonym."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.equipment-update",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "装備更新",
+      "replacement": "改修更新",
+      "reason": "Normalize the exact equipment-update phrase used for acquisition."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.xmas-gift-box",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "Xmas Select Gift Box",
+      "replacement": "イベント 選択報酬",
+      "reason": "Treat the named seasonal gift box as event selection evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.saury-festival",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "秋刀魚祭り",
+      "replacement": "イベント",
+      "reason": "Treat the named seasonal festival as event evidence; explicit 任務 wording remains responsible for quest classification."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.carried-colloquial",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "持ってくる",
+      "replacement": "持参",
+      "reason": "Normalize the colloquial carried-equipment wording."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.drop-line",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "恒常ドロップでは3-5、7-4、7-5\n期間限定ドロップ（2021/03/01～）として2-2、2-3でドロップ。",
+      "replacement": "初期装備",
+      "reason": "This exact line describes acquisition through ships obtained from drops."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.current-methods-follow",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "現在の入手方法は以下の通り。",
+      "replacement": "現在の入手方法は以下の通り。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.hosho-alternate-result",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "鳳翔だと 九七式艦攻(熟練)になる。",
+      "replacement": "鳳翔だと 九七式艦攻(熟練)になる。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.reppu-conversion-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "試製烈風 後期型や紫電改二の所持数が十分でなく、零式艦戦52型等で制空を補っているような状態であれば、艦隊全体での制空値が下がる可能性があるため無理に機種転換すべきではない。",
+      "replacement": "試製烈風 後期型や紫電改二の所持数が十分でなく、零式艦戦52型等で制空を補っているような状態であれば、艦隊全体での制空値が下がる可能性があるため無理に機種転換すべきではない。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.unryu-remodel-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "「雲龍」を改にするには改造レベルが50且つ設計図を必要とするのが難点。\n2015年8月10日アップデートの艦載機熟練度システム実装以降、それまでに比べ艦戦ひとつひとつの制空値の影響は減少した。\nそのため本装備を目的として雲龍を改造する必要性も以前よりは低いので、設計図の数が少ないのであれば艦隊状況に合わせて各提督で判断されたい。",
+      "replacement": "「雲龍」を改にするには改造レベルが50且つ設計図を必要とするのが難点。\n2015年8月10日アップデートの艦載機熟練度システム実装以降、それまでに比べ艦戦ひとつひとつの制空値の影響は減少した。\nそのため本装備を目的として雲龍を改造する必要性も以前よりは低いので、設計図の数が少ないのであれば艦隊状況に合わせて各提督で判断されたい。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.shiun-choice-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "他の二択と違い他の入手手段が無いため、基本的には本装備の選択を推奨。",
+      "replacement": "他の二択と違い他の入手手段が無いため、基本的には本装備の選択を推奨。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.shiun-os2u-choice-history",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "OS2Uも希少装備ではあったものの紫雲より性能は劣り他の入手手段もあったため、紫雲を選ぶ提督が殆どだった模様。",
+      "replacement": "OS2Uも希少装備ではあったものの紫雲より性能は劣り他の入手手段もあったため、紫雲を選ぶ提督が殆どだった模様。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.fcf-loss-warning",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "ただし通常の使い方ならば旗艦装備確定のため、ロストする可能性は非常に低い。",
+      "replacement": "ただし通常の使い方ならば旗艦装備確定のため、ロストする可能性は非常に低い。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.fcf-conversion-warning",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "1つの場合転換してしまうと連合艦隊で退避できなくなるため、注意。",
+      "replacement": "1つの場合転換してしまうと連合艦隊で退避できなくなるため、注意。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.six-torpedo-cost",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "いずれも本装備の入手と引き替えに消失する。\n改修資材の消費量もさることながら、61cm五連装(酸素)魚雷が最低でも5つ必要。",
+      "replacement": "いずれも本装備の入手と引き替えに消失する。\n改修資材の消費量もさることながら、61cm五連装(酸素)魚雷が最低でも5つ必要。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.six-torpedo-helper-cost",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "地味に三連装酸素魚雷の改修担当である吹雪改二・磯波改二・綾波改二・敷波改二のどれか、五連装酸素魚雷の改修担当の島風も必要である。",
+      "replacement": "地味に三連装酸素魚雷の改修担当である吹雪改二・磯波改二・綾波改二・敷波改二のどれか、五連装酸素魚雷の改修担当の島風も必要である。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.zero32-improvement-performance",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "改修★maxにすると対空+10相当になり、回避+4持ちの試製烈風 後期型と化す。",
+      "replacement": "改修★maxにすると対空+10相当になり、回避+4持ちの試製烈風 後期型と化す。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.zero63-consumption-64",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "「零式艦戦64型(複座KMX搭載機)★+6」以降の改修素材として消費する。",
+      "replacement": "「零式艦戦64型(複座KMX搭載機)★+6」以降の改修素材として消費する。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.zero63-consumption-ki96",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "「キ96」を「キ102乙」に更新する際に1つ消費する。",
+      "replacement": "「キ96」を「キ102乙」に更新する際に1つ消費する。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.mk7gfcs-bauxite-cost",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "また主砲系にしては珍しく改修でボーキサイトを大量に消費する(1回につき500、Mk.7は100)。\n消費装備といい、主砲そのものではなく射撃レーダーを改修しているということか。",
+      "replacement": "また主砲系にしては珍しく改修でボーキサイトを大量に消費する(1回につき500、Mk.7は100)。\n消費装備といい、主砲そのものではなく射撃レーダーを改修しているということか。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.f6f3-material-cost",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "消費装備は初期から零式艦戦52型を2個ずつ消費し、★+6→7からは紫電改二を1個ずつ消費する。",
+      "replacement": "消費装備は初期から零式艦戦52型を2個ずつ消費し、★+6→7からは紫電改二を1個ずつ消費する。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.re2005-material-cost",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "しかしRe.2001 CB改とSpitfire Mk.Vはそれぞれ下位装備から新型航空兵装資材を1個ずつ消費して作る必要があるため、新型航空兵装資材は実質5個必要。",
+      "replacement": "しかしRe.2001 CB改とSpitfire Mk.Vはそれぞれ下位装備から新型航空兵装資材を1個ずつ消費して作る必要があるため、新型航空兵装資材は実質5個必要。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.re2005-source-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "加えて片方の下位装備であるRe.2001 OR改もCB改もAquilaからしか入手・改修ができない。",
+      "replacement": "加えて片方の下位装備であるRe.2001 OR改もCB改もAquilaからしか入手・改修ができない。",
+      "reason": "Accepted non-evidence prose; keep it out of acquisition methods without changing raw HTML."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.zero-fighter-32-skilled-radius-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "また21型(熟練)と比較して戦闘行動半径が2下がるため、基地航空隊での運用面では劣る。21型(熟練)から更新する際はその点を考慮されたい。",
+      "replacement": "また21型(熟練)と比較して戦闘行動半径が2下がるため、基地航空隊での運用面では劣る。21型(熟練)から更新する際はその点を考慮されたい。",
+      "reason": "Accepted performance advice; it mentions an update but is not standalone acquisition evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.high-angle-gun-update-line",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "10cm連装高角砲からの更新でも入手可能。こちらの改修担当は冬月/改と吹雪改二のみ。",
+      "replacement": "改修更新で入手可能。こちらの改修担当は冬月/改と吹雪改二のみ。",
+      "reason": "Exact accepted acquisition sentence; classify its generic 更新 wording as an improvement update without widening parser rules."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.prototype-tokai-alternate-candidate",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "現在は雷電の代替候補となる機体が改修で入手可能である、詳細は雷電のページにて。",
+      "replacement": "現在は雷電の代替候補となる機体が改修で入手可能である、詳細は雷電のページにて。",
+      "reason": "Advice about an alternative aircraft, not acquisition evidence for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.prototype-tokai-choice-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "図鑑埋めを気にしないのであれば雷電の代用が出来るので、本装備を選択する意味が強くなった。",
+      "replacement": "図鑑埋めを気にしないのであれば雷電の代用が出来るので、本装備を選択する意味が強くなった。",
+      "reason": "Selection advice, not a standalone acquisition fact."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.late-torpedo-encouragement-easy",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "見た目よりも簡単なので安心してほしい。",
+      "replacement": "見た目よりも簡単なので安心してほしい。",
+      "reason": "Encouragement prose, not acquisition evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.late-torpedo-encouragement-order",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "こなせそうなものからこなしていこう。",
+      "replacement": "こなせそうなものからこなしていこう。",
+      "reason": "Encouragement prose, not acquisition evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.dazzle-triple-update-cost-comparison",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "このため、総合的には35.6cm連装砲(ダズル迷彩)からの方が安く更新できる。そもそも試製35.6cm三連装砲の入手に35.6cm連装砲の改修が必要だし。\n試製35.6cm三連装砲★MAXが既にあるならこちらからの更新も一考の余地があるが、試製35.6cm三連装砲は素材需要の高い35.6cm連装砲改にも更新可能。こちらに更新して本当に良いか事前に比較検討を推奨する。",
+      "replacement": "このため、総合的には35.6cm連装砲(ダズル迷彩)からの方が安く更新できる。そもそも試製35.6cm三連装砲の入手に35.6cm連装砲の改修が必要だし。\n試製35.6cm三連装砲★MAXが既にあるならこちらからの更新も一考の余地があるが、試製35.6cm三連装砲は素材需要の高い35.6cm連装砲改にも更新可能。こちらに更新して本当に良いか事前に比較検討を推奨する。",
+      "reason": "Cost and route comparison advice; concrete acquisition routes are captured elsewhere."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.prototype-shusui-choice-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "現在では陸攻、カ号ともに量産手段が確立されているため、よほどの理由がなければ本装備を選択したい。",
+      "replacement": "現在では陸攻、カ号ともに量産手段が確立されているため、よほどの理由がなければ本装備を選択したい。",
+      "reason": "Selection advice attached to a quest reward; the reward sentence is captured separately."
+    },
+    {
+      "id": "wikiwiki-equipment.context.event-area-difficulty-count-table",
+      "status": "accepted",
+      "scope": "context-label-exact",
+      "raw": "海域 | 難易度 | 入手数",
+      "replacement": "イベント報酬",
+      "reason": "Accepted table header context; following rows are historical event reward evidence."
+    },
+    {
+      "id": "wikiwiki-equipment.classification.ranking-merit-reward-word",
+      "status": "accepted",
+      "scope": "classification-literal",
+      "raw": "武勲褒賞",
+      "replacement": "ランキング報酬",
+      "reason": "Accepted Wiki synonym for monthly ranking rewards."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-6-material-demand-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "上記の通り入手は容易だが、3号砲から4号砲への更新および、4号砲の改修で本装備が異常な数を要求される*2ので、更新および改修の目途が立ったら意識して集めておくとよい。",
+      "replacement": "上記の通り入手は容易だが、3号砲から4号砲への更新および、4号砲の改修で本装備が異常な数を要求される*2ので、更新および改修の目途が立ったら意識して集めておくとよい。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-11-update-cost-change",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "2026/04/07のアップデートで改修後半と装備更新時に必要な資材の数が修正された。",
+      "replacement": "2026/04/07のアップデートで改修後半と装備更新時に必要な資材の数が修正された。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-38-material-retention-warning",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "一部の装備改修や任務で一定数必要なので廃棄し過ぎに注意。",
+      "replacement": "一部の装備改修や任務で一定数必要なので廃棄し過ぎに注意。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-67-negative-development-status",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "そのため現在、開発不可。",
+      "replacement": "そのため現在、開発不可。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-85-other-equipment-update",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "2020/9/17アップデートで毘式40mm連装機銃から改修更新でポンポン砲★+1が入手可能になったが、こちらは新型兵装資材を1個消費する。",
+      "replacement": "2020/9/17アップデートで毘式40mm連装機銃から改修更新でポンポン砲★+1が入手可能になったが、こちらは新型兵装資材を1個消費する。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-92-material-count",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "改修更新までに本装備が最低11個必要。",
+      "replacement": "改修更新までに本装備が最低11個必要。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-92-route-opinion",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "毘式にしても25mm三連装にしても改修はともかくわざわざ更新するかというと微妙なところだが...",
+      "replacement": "毘式にしても25mm三連装にしても改修はともかくわざわざ更新するかというと微妙なところだが...",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-93-performance-comparison",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "持参装備3種の中では一番使える。",
+      "replacement": "持参装備3種の中では一番使える。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-127-other-equipment-comparison",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "現在は雷装で上回る後期型艦首魚雷(6門)が開発・改修可能となっており命中も★+4で抜かれる、また後期型専用カットインの対象外のためFat魚雷を装備する意味はあまりない。",
+      "replacement": "現在は雷装で上回る後期型艦首魚雷(6門)が開発・改修可能となっており命中も★+4で抜かれる、また後期型専用カットインの対象外のためFat魚雷を装備する意味はあまりない。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-133-incomplete-route-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "どちらかと言えば、本装備を改修して性能を補ったり更新するよりも、",
+      "replacement": "どちらかと言えば、本装備を改修して性能を補ったり更新するよりも、",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-153-other-equipment-acquisition",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "同じ半径6の基地航空隊の陸戦としてはクォータリー任務の選択報酬の改修更新で入手可能な出撃時対空13.5相当の一式戦 隼III型甲★max*1がある。",
+      "replacement": "同じ半径6の基地航空隊の陸戦としてはクォータリー任務の選択報酬の改修更新で入手可能な出撃時対空13.5相当の一式戦 隼III型甲★max*1がある。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-272-operational-event-context",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "一部の期間限定海域において運用可能な「遊撃部隊」(7隻編成)において有効な装備。",
+      "replacement": "一部の期間限定海域において運用可能な「遊撃部隊」(7隻編成)において有効な装備。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-272-operational-history",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "2回きりの出番と思われていた遊撃部隊がまさかの復活を遂げた2021年春イベント以降、本装備も毎回出番が回ってくるようになったため、",
+      "replacement": "2回きりの出番と思われていた遊撃部隊がまさかの復活を遂げた2021年春イベント以降、本装備も毎回出番が回ってくるようになったため、",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-272-collection-advice",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "出来れば両方とも確保しておきたいところだが、司令部施設（を持参する大淀）の確保が非常に大変である点は覚悟しておきたい。",
+      "replacement": "出来れば両方とも確保しておきたいところだが、司令部施設（を持参する大淀）の確保が非常に大変である点は覚悟しておきたい。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    },
+    {
+      "id": "wikiwiki-equipment.ignore.audit-434-other-equipment-event-reward",
+      "status": "accepted",
+      "scope": "ignore-exact",
+      "raw": "同日にはイベント報酬として熟練版も実装されている。",
+      "replacement": "同日にはイベント報酬として熟練版も実装されている。",
+      "reason": "Accepted audit false-positive: commentary about costs, usage, another equipment, or negative availability; not an acquisition method for the current equipment."
+    }
+  ],
+  "classificationBlacklists": [
+    {
+      "id": "wikiwiki-equipment.blacklist.event-aliases",
+      "status": "accepted",
+      "replacement": "イベント",
+      "values": [
+        "早春イベ",
+        "梅雨イベ",
+        "初秋イベ",
+        "欧州イベ",
+        "春イベ",
+        "夏イベ",
+        "秋イベ",
+        "冬イベ"
+      ],
+      "reason": "Normalize seasonal event abbreviations only in the classification view; rawText remains unchanged."
+    },
+    {
+      "id": "wikiwiki-equipment.blacklist.event-named-aliases",
+      "status": "accepted",
+      "replacement": "イベント",
+      "values": [
+        "Halloween Party"
+      ],
+      "reason": "Normalize named seasonal event labels only in the classification view; rawText remains unchanged."
+    }
+  ]
+}

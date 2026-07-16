@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "migration": "flow-local-to-spider-v1",
+  "legacyRoot": ".flow/local",
+  "publicRoot": ".spider/local",
+  "migratedFileCount": 2,
+  "copiedFileCount": 0,
+  "archivedConflictCount": 1,
+  "archivedConflicts": [
+    "source-receipts/akashi-list.json"
+  ],
+  "conflictArchive": ".spider/local/migrations/flow-local-to-spider-v1-conflicts/20260712T014821717114Z",
+  "completedAt": "2026-07-12T01:48:21.719789+00:00",
+  "files": [
+    {
+      "path": "source-cache/akashi-list/vo.json",
+      "sha256": "6c1512929da5cc62822857eb9547cfe3057101e47681ca419729cf3231caf76e"
+    },
+    {
+      "path": "source-receipts/akashi-list.json",
+      "sha256": "08b4e8580ddfa253abd84db5faa4daf3ce58f0b032fd9deb6968a52b2446df15"
+    }
+  ]
+}

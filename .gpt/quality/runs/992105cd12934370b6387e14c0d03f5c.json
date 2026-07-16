@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "runId": "992105cd12934370b6387e14c0d03f5c",
+  "profile": "quick",
+  "status": "passed",
+  "source": {
+    "commit": "33926d37a3c41af3255fbcab24b7f73565334b16"
+  },
+  "projectContractSha256": "3055503b4a818a5b7c1dd35eaa17ed729d9003d965ed9d13605ddbb168a7efc4",
+  "suiteCatalogSha256": "905fa3605322910bc4e2afbf4e1988693a34bd3dde5e9a6ff1b4d62bc09904b6",
+  "startedAt": "2026-06-30T19:47:03+00:00",
+  "finishedAt": "2026-06-30T19:47:05+00:00",
+  "durationMilliseconds": 2699,
+  "completeness": "declared-complete",
+  "compatibilityMode": false,
+  "incompleteReasons": [],
+  "failures": [],
+  "suites": [
+    {
+      "id": "devops.conformance.quick",
+      "authority": "central",
+      "layer": "contract",
+      "status": "passed",
+      "durationMilliseconds": 11,
+      "counts": {
+        "executed": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "skippedReasons": []
+    },
+    {
+      "id": "project.check-1",
+      "authority": "project",
+      "layer": "contract",
+      "status": "passed",
+      "durationMilliseconds": 116,
+      "counts": {
+        "executed": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "skippedReasons": []
+    },
+    {
+      "id": "project.test-1",
+      "authority": "project",
+      "layer": "unit",
+      "status": "passed",
+      "durationMilliseconds": 642,
+      "counts": {
+        "executed": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "skippedReasons": []
+    }
+  ],
+  "summary": {
+    "executed": 3,
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}

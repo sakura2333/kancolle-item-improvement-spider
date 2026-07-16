@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sakura2333/kancolle-item-improvement-spider/schemas/improvement-detail.schema.json",
+  "title": "KanColle improvement detail record (schema 4)",
+  "type": "object",
+  "required": ["id", "name", "improvementList", "effectSource", "levelExpectations"],
+  "properties": {
+    "id": {"type": "integer", "minimum": 1},
+    "name": {"type": "string", "minLength": 1},
+    "effectSource": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["ok", "unavailable"]},
+        "profile": {"type": "string"},
+        "title": {"type": "string"},
+        "source": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "levelExpectations": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "prefixItems": [
+        {"$ref": "#/$defs/level0"},
+        {"$ref": "#/$defs/level1"},
+        {"$ref": "#/$defs/level2"},
+        {"$ref": "#/$defs/level3"},
+        {"$ref": "#/$defs/level4"},
+        {"$ref": "#/$defs/level5"},
+        {"$ref": "#/$defs/level6"},
+        {"$ref": "#/$defs/level7"},
+        {"$ref": "#/$defs/level8"},
+        {"$ref": "#/$defs/level9"},
+        {"$ref": "#/$defs/level10"}
+      ],
+      "items": false
+    },
+    "improvementList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/route"}
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "effect": {
+      "type": "object",
+      "required": ["name", "valueText", "sourceRow"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "valueText": {"type": "string", "minLength": 1},
+        "sourceRow": {"type": "integer", "minimum": 0},
+        "conditional": {"type": "boolean"},
+        "value": {"type": "number"},
+        "unit": {"enum": ["%"]}
+      },
+      "additionalProperties": false
+    },
+    "levelBase": {
+      "type": "object",
+      "required": ["level", "label", "effects"],
+      "properties": {
+        "level": {"type": "integer", "minimum": 0, "maximum": 10},
+        "label": {"type": "string"},
+        "effects": {"type": "array", "items": {"$ref": "#/$defs/effect"}}
+      },
+      "additionalProperties": false
+    },
+    "level0": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 0}, "label": {"const": "★0"}}}]},
+    "level1": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 1}, "label": {"const": "★1"}}}]},
+    "level2": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 2}, "label": {"const": "★2"}}}]},
+    "level3": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 3}, "label": {"const": "★3"}}}]},
+    "level4": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 4}, "label": {"const": "★4"}}}]},
+    "level5": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 5}, "label": {"const": "★5"}}}]},
+    "level6": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 6}, "label": {"const": "★6"}}}]},
+    "level7": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 7}, "label": {"const": "★7"}}}]},
+    "level8": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 8}, "label": {"const": "★8"}}}]},
+    "level9": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 9}, "label": {"const": "★9"}}}]},
+    "level10": {"allOf": [{"$ref": "#/$defs/levelBase"}, {"properties": {"level": {"const": 10}, "label": {"const": "★MAX"}}}]},
+    "consumable": {
+      "type": "object",
+      "required": ["id", "count", "type"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 1},
+        "count": {"type": "integer", "minimum": 0},
+        "type": {"enum": [0, 1]}
+      },
+      "additionalProperties": false
+    },
+    "recipe": {
+      "type": "object",
+      "required": ["sourceStageText", "industryResource", "consumables"],
+      "properties": {
+        "sourceStageText": {"type": "string"},
+        "industryResource": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"type": "integer", "minimum": 0}
+        },
+        "consumables": {"type": "array", "items": {"$ref": "#/$defs/consumable"}}
+      }
+    },
+    "levelResult": {
+      "type": "object",
+      "required": ["kind", "level", "label"],
+      "properties": {
+        "kind": {"const": "level"},
+        "level": {"type": "integer", "minimum": 1, "maximum": 10},
+        "label": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "weaponResult": {
+      "type": "object",
+      "required": ["kind", "targetWeapon"],
+      "properties": {
+        "kind": {"const": "weapon"},
+        "targetWeapon": {
+          "type": "object",
+          "required": ["id", "level", "name"],
+          "properties": {
+            "id": {"type": "integer", "minimum": 1},
+            "level": {"type": "integer", "minimum": 0, "maximum": 10},
+            "name": {"type": "string", "minLength": 1}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "improveStep": {
+      "allOf": [
+        {"$ref": "#/$defs/recipe"},
+        {
+          "type": "object",
+          "required": ["fromLevel", "fromLabel", "action", "available", "expectedResult", "effectExpectationLevel"],
+          "properties": {
+            "fromLevel": {"type": "integer", "minimum": 0, "maximum": 9},
+            "fromLabel": {"type": "string"},
+            "action": {"const": "improve"},
+            "available": {"const": true},
+            "expectedResult": {"$ref": "#/$defs/levelResult"},
+            "effectExpectationLevel": {"type": "integer", "minimum": 1, "maximum": 10}
+          }
+        }
+      ]
+    },
+    "upgradeStep": {
+      "type": "object",
+      "required": ["fromLevel", "fromLabel", "action", "available"],
+      "properties": {
+        "fromLevel": {"const": 10},
+        "fromLabel": {"const": "★MAX"},
+        "action": {"const": "upgrade"},
+        "available": {"type": "boolean"},
+        "sourceStageText": {"type": "string"},
+        "industryResource": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"type": "integer", "minimum": 0}
+        },
+        "consumables": {"type": "array", "items": {"$ref": "#/$defs/consumable"}},
+        "expectedResult": {"$ref": "#/$defs/weaponResult"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"available": {"const": true}}},
+          "then": {"required": ["sourceStageText", "industryResource", "consumables", "expectedResult"]},
+          "else": {"not": {"required": ["expectedResult"]}}
+        }
+      ],
+      "additionalProperties": false
+    },
+    "route": {
+      "type": "object",
+      "required": ["routeId", "routeType", "stageList", "stepList"],
+      "properties": {
+        "routeId": {"type": "string", "minLength": 1},
+        "routeType": {"enum": ["default", "assistant-specific"]},
+        "stageList": {"type": "array", "minItems": 1},
+        "stepList": {
+          "type": "array",
+          "minItems": 11,
+          "maxItems": 11,
+          "prefixItems": [
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/improveStep"},
+            {"$ref": "#/$defs/upgradeStep"}
+          ],
+          "items": false
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

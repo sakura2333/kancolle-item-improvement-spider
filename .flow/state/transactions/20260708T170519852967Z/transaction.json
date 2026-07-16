@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "transactionId": "20260708T170519852967Z",
+  "status": "applied",
+  "rolledBack": false,
+  "projectId": "kancolle-item-improvement-spider",
+  "package": "spider-full-smoke-start2-wikiwiki-fix-1.0.24.zip",
+  "packageSha256": "5187b9a19e6bc5fe02cbc1c39622d9886d6485c6f3cda73fc1d360b90bdb6c7a",
+  "fromVersion": "1.0.24",
+  "toVersion": "1.0.24",
+  "before": {
+    "commit": "e6b712e8aaa3eae40e909600abec74077ea4b32b",
+    "tree": "9b5d20047d6ee087070e045bd9a03a61690fe52f",
+    "version": "1.0.24",
+    "protectedDirtyPaths": [],
+    "projectDirtyPaths": []
+  },
+  "targetIdentity": {
+    "scheme": "project-owned-sha256",
+    "value": "6b67a5295f31d5fa87eeb9ae0b4e2cba62b72429db21d350e3723627d0632f38"
+  },
+  "commit": {
+    "hash": "53cf4e66a1b2d289a1f75b149b00b854cb676c40",
+    "message": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+    "created": true
+  },
+  "protectedPathsUnstagedBeforeCommit": [],
+  "paths": [
+    {
+      "path": "README.md",
+      "existed": true,
+      "kind": "file",
+      "sha256": "eb64316e159090aafe311bc1e0900f98dbfa3ac8cb3893cf5587d9d5df75e711"
+    },
+    {
+      "path": "script/flow/cli.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "dde3c3afbfa356ed8cb08d08235f0e1d9c51d4e6d9e5756961d813b02fc1d994"
+    },
+    {
+      "path": "script/flow_adapter.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "b20335c4e055c286e83bcb6e359553606fbb0718225ad83e50849591a3abae9e"
+    },
+    {
+      "path": "script/project/cli.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "70e324ca2662de489cd791ae8e7d93da7080bb22474adb26edf84e4e4aca3d2a"
+    },
+    {
+      "path": "script/project/smoke_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "script/project/start2_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "script/project/wikiwiki_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "2d0595435e0469c44bfbde23c3fe7eae1356de363ed961958486a53fea49d821"
+    },
+    {
+      "path": "tests/test_smoke_flow_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "tests/test_wikiwiki_flow_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "da056f6a74acacfe7e8634779e2b72e1db83ec74266acefbc0a3c4e56e1e7af4"
+    },
+    {
+      "path": "tools/wikiwiki-crawler/crawler.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "878a095c6845d6eee8d3b04d6f0a3a377def464aa83560bd1a30bb3f99105cea"
+    },
+    {
+      "path": "tools/wikiwiki-crawler/tests/test_crawler.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "b26816d7b67aec4bb071e3bd5cb75e5bbb3e37ae90b90d9d8ebe228a555a8387"
+    }
+  ],
+  "archivedPackage": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/spider-full-smoke-start2-wikiwiki-fix-1.0.24.zip",
+  "archivedSidecar": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/spider-full-smoke-start2-wikiwiki-fix-1.0.24.zip.flow.json"
+}

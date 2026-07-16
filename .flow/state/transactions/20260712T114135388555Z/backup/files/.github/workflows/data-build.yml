@@ -1,0 +1,283 @@
+name: Build Data Candidate
+
+on:
+  schedule:
+    # 15:17 JST / 14:17 China Standard Time: CPU-only build runs 12 hours after acquisition.
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'Optional successful Acquire run ID; empty uses the latest ready snapshot'
+        required: false
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: kancolle-data-build
+  cancel-in-progress: false
+
+jobs:
+  resolve-source:
+    runs-on: ubuntu-latest
+    outputs:
+      run_id: ${{ steps.resolve.outputs.run_id }}
+      skip: ${{ steps.resolve.outputs.skip }}
+      reason: ${{ steps.resolve.outputs.reason }}
+    steps:
+      - name: Wait for global source-acquire lock and resolve ready snapshot
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          repository = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          requested = os.environ.get("REQUESTED_RUN_ID", "").strip()
+          url = (
+              f"https://api.github.com/repos/{repository}/actions/workflows/"
+              "source-acquire.yml/runs?branch=main&per_page=20"
+          )
+
+          def load_runs():
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response).get("workflow_runs") or []
+
+          runs = []
+          for attempt in range(21):
+              runs = load_runs()
+              active = [run for run in runs if run.get("status") != "completed"]
+              if not active:
+                  break
+              if attempt == 20:
+                  with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                      output.write("run_id=\n")
+                      output.write("skip=true\n")
+                      output.write("reason=source-acquire-lock-timeout\n")
+                  raise SystemExit(0)
+              time.sleep(15)
+
+          if requested:
+              run_id = requested
+          else:
+              successful = [
+                  run for run in runs
+                  if run.get("status") == "completed" and run.get("conclusion") == "success"
+              ]
+              run_id = str(successful[0]["id"]) if successful else ""
+
+          skip = not bool(run_id)
+          reason = "no-ready-source-snapshot" if skip else "ready"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"run_id={run_id}\n")
+              output.write(f"skip={str(skip).lower()}\n")
+              output.write(f"reason={reason}\n")
+          PY
+
+      - name: Record deferred build
+        if: steps.resolve.outputs.skip == 'true'
+        run: |
+          printf 'Build deferred: %s. The next daily run will retry.\n' '${{ steps.resolve.outputs.reason }}' \
+            >> "$GITHUB_STEP_SUMMARY"
+
+  build:
+    needs: resolve-source
+    if: needs.resolve-source.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+      SOURCE_RUN_ID: ${{ needs.resolve-source.outputs.run_id }}
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen source bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-source-bundle
+          path: ${{ runner.temp }}/source-bundle
+          run-id: ${{ env.SOURCE_RUN_ID }}
+          github-token: ${{ github.token }}
+
+      - name: Checkout source bundle commit
+        run: |
+          set -euo pipefail
+          SOURCE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/source-bundle/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$SOURCE_COMMIT"
+
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked build environment
+        run: mise exec -- uv sync --locked
+
+      - name: Load previous online baseline
+        id: baseline
+        run: |
+          set -euo pipefail
+          BASELINE="$RUNNER_TEMP/kancolle-data-baseline.json"
+          ONLINE_MANIFEST="$RUNNER_TEMP/online-package-manifest.json"
+          if git fetch --no-tags origin refs/heads/online:refs/remotes/origin/online 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' 2>/dev/null; then
+            git show 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' > "$BASELINE"
+            git show 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' > "$ONLINE_MANIFEST"
+            for RELEASE_FILE in CHANGELOG.md RELEASES.json; do
+              if git cat-file -e "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" 2>/dev/null; then
+                git show "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" \
+                  > "packages/kancolle-data/$RELEASE_FILE"
+              fi
+            done
+            ONLINE_VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["packageVersion"])' "$ONLINE_MANIFEST")"
+            mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$ONLINE_VERSION"
+          else
+            cat > "$BASELINE" <<'JSON'
+          {
+            "schemaVersion": 1,
+            "contentDigest": null,
+            "metrics": {},
+            "files": {}
+          }
+          JSON
+          fi
+          echo "path=$BASELINE" >> "$GITHUB_OUTPUT"
+
+      - name: Build from frozen source bundle
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.compute.cli prepare \
+            --source-bundle "$RUNNER_TEMP/source-bundle"
+
+      - name: Validate data quality and detect changes
+        id: quality
+        run: |
+          set -euo pipefail
+          CURRENT="$RUNNER_TEMP/kancolle-data-current.json"
+          RESULT="$RUNNER_TEMP/kancolle-data-validation.json"
+          mise exec -- uv run --locked python -m service.data_package.validation.cli validate \
+            --baseline '${{ steps.baseline.outputs.path }}' \
+            --output "$CURRENT" > "$RESULT"
+          CHANGED="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["changed"]).lower())' "$RESULT")"
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "snapshot=$CURRENT" >> "$GITHUB_OUTPUT"
+
+      - name: Read npm registry versions
+        id: registry
+        run: |
+          set -euo pipefail
+          PACKAGE_NAME="$(node -p "require('./packages/kancolle-data/package.json').name")"
+          VERSIONS="$RUNNER_TEMP/npm-published-versions.json"
+          set +e
+          OUTPUT="$(npm view "$PACKAGE_NAME" versions --json 2>&1)"
+          STATUS=$?
+          set -e
+          if [ "$STATUS" -eq 0 ]; then
+            printf '%s\n' "$OUTPUT" > "$VERSIONS"
+          elif printf '%s' "$OUTPUT" | grep -Eq 'E404|404 Not Found'; then
+            printf '[]\n' > "$VERSIONS"
+          else
+            printf '%s\n' "$OUTPUT" >&2
+            exit "$STATUS"
+          fi
+          echo "path=$VERSIONS" >> "$GITHUB_OUTPUT"
+
+      - name: Plan package version
+        id: plan
+        run: |
+          set -euo pipefail
+          PLAN="$RUNNER_TEMP/npm-version-plan.json"
+          mise exec -- uv run --locked python -m service.data_package.cli plan-version \
+            --mode scheduled \
+            --published-versions '${{ steps.registry.outputs.path }}' \
+            --data-changed '${{ steps.quality.outputs.changed }}' \
+            --output "$PLAN" >/dev/null
+          SHOULD_PUBLISH="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$PLAN")"
+          VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["version"] or "")' "$PLAN")"
+          echo "should_publish=$SHOULD_PUBLISH" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "path=$PLAN" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare frozen release projection
+        if: steps.plan.outputs.should_publish == 'true'
+        run: |
+          set -euo pipefail
+          VERSION='${{ steps.plan.outputs.version }}'
+          mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$VERSION"
+          mise exec -- uv run --locked python -m service.data_package.cli finalize-release \
+            --version "$VERSION" \
+            --snapshot '${{ steps.quality.outputs.snapshot }}' >/dev/null
+          mise exec -- uv run --locked python -m service.data_package.cli refresh-manifest >/dev/null
+          mise exec -- uv run --locked python -m automation.release.npm_release_set build \
+            --package-dir dist/packages/kancolle-data \
+            --output "$RUNNER_TEMP/npm-release-set"
+          mise exec -- uv run --locked python - '${{ steps.quality.outputs.snapshot }}' "$RUNNER_TEMP/online-state" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+          from automation.release.generated_state import export_generated_state
+
+          commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          result = export_generated_state(
+              output_dir=Path(sys.argv[2]),
+              base_ref="main",
+              base_commit=commit,
+              verification_report=Path(sys.argv[1]),
+              replace=True,
+          )
+          print(json.dumps(result, ensure_ascii=False))
+          PY
+
+      - name: Freeze immutable build candidate
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ steps.plan.outputs.should_publish }}' = 'true' ]; then
+            EXTRA+=(--npm-release-set "$RUNNER_TEMP/npm-release-set")
+            EXTRA+=(--online-state "$RUNNER_TEMP/online-state")
+          fi
+          mise exec -- uv run --locked python -m automation.compute.cli freeze \
+            --source-bundle "$RUNNER_TEMP/source-bundle" \
+            --release-plan '${{ steps.plan.outputs.path }}' \
+            --verification-report '${{ steps.quality.outputs.snapshot }}' \
+            --output "$RUNNER_TEMP/build-candidate" \
+            "${EXTRA[@]}"
+
+      - name: Upload build candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30

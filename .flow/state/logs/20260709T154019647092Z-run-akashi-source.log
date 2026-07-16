@@ -1,0 +1,11 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+Traceback (most recent call last):
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 185, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 163, in main
+    vo_list, metadata = _collect_akashi(daily_limit)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 72, in _collect_akashi
+    page_node = etree.HTML(page)
+KeyboardInterrupt

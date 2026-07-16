@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": 8,
+  "releaseId": "1.0.24-876bed8a9982",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "sourceCommit": "876bed8a9982ff59143db6556cd73ba0172846ac",
+  "sourceTree": "009f15fc1bfbb4627708698e8f24271a3bb397b0",
+  "stableConfigSha256": "02345315076d6022c372b91f8ee3ee37944afd707641b97cd6a82bb89f98b765",
+  "sourceState": {
+    "generatedDirtyCount": 0,
+    "localPreservedDirtyCount": 0
+  },
+  "candidateSha256": "d56c6fbf0ab298d176f489b774084a3310eef9568874aabdf6de1c98b53a0268",
+  "candidateContentSha256": "d56c6fbf0ab298d176f489b774084a3310eef9568874aabdf6de1c98b53a0268",
+  "candidateArchiveSha256": "46db14f4ed651e2b65cfd516e12f73f5ce82aea5ee16f2f5f7c26fc4e474f4a7",
+  "createdAt": "2026-07-12T14:27:34.686208+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/data-build.yml",
+      "sha256": "4dcf3ff2ab568e1663fb5b7bda3a8e7a74990a21d8620c5e842ae8a28131643f",
+      "sizeBytes": 29147
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "1086fd5ff2cd191ac1df96b085d0b83f21ede8fc96b234d700a5deef1ee54331",
+      "sizeBytes": 4365
+    },
+    {
+      "path": ".github/workflows/source-acquire.yml",
+      "sha256": "118d7f0c18445bfd7c436e73ef06b71acc51c51875892c7266ef802029a3b8c5",
+      "sizeBytes": 3232
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e0cef6de40e3b5404d068e63d9be2707e178830876251fd1698dd219c39d2614",
+      "sizeBytes": 513
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3a8f10fe02aae3792bfb15ce44b795a14b5239f1e00bd95d163a63e1ed04f338",
+      "sizeBytes": 1066
+    },
+    {
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "sha256": "f5708f490964fac3c7707cf16a79dee688efc7169ae7d6f099fc9010b2dd41d5",
+      "sizeBytes": 6640
+    },
+    {
+      "path": "README.md",
+      "sha256": "3b4f8b1731029cbd839e6fc6c306e9b7848973039612e26324fb19829ceeea6e",
+      "sizeBytes": 9364
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "sha256": "5ca8d4899e45a08b1a371522ce1a4d9f685db2c93c0bdbaa44cfb1a5ce405eb4",
+      "sizeBytes": 1673
+    },
+    {
+      "path": "VERSION",
+      "sha256": "5bc492603bd0397497c6e6471fed4bff5fb6542fce5e1a8683133a9a825cdea7",
+      "sizeBytes": 7
+    },
+    {
+      "path": "automation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/acquire/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/acquire/cli.py",
+      "sha256": "20683399468ab321baf53752209e0f7b070ff4e6a6632d5835ddcc49b9e68390",
+      "sizeBytes": 6257
+    },
+    {
+      "path": "automation/acquire/wikiwiki/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "sha256": "e8671fbd384f6f2d382212319f968d3ff89c57dc3ccc02f0052e589ed022aa42",
+      "sizeBytes": 66146
+    },
+    {
+      "path": "automation/acquire/wikiwiki/page_catalog.py",
+      "sha256": "bd464245394d080a3ebe19f2d604e7896c9907ebc9cde1fc5b47ba2d22f35309",
+      "sizeBytes": 11499
+    },
+    {
+      "path": "automation/acquire/wikiwiki/raw_cache.py",
+      "sha256": "62c525156598269ec58e72dacd83089c98ebcbfa2ea8562e0d68c9f9c0b4fe74",
+      "sizeBytes": 6347
+    },
+    {
+      "path": "automation/common/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/common/bundle.py",
+      "sha256": "5c1342523b73447da00b688130ef085e85beb8ef369ff1f36fb34faf7ef3008e",
+      "sizeBytes": 6825
+    },
+    {
+      "path": "automation/common/process.py",
+      "sha256": "f7f38014d8abacb2affc985adc471a823123440b89db6bf378e3b4d1adb74884",
+      "sizeBytes": 2236
+    },
+    {
+      "path": "automation/compute/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/compute/cli.py",
+      "sha256": "bc1451d3b9c1f9f1bdf0230f7a25f1c2634e99e41053903744f93430bdebde4e",
+      "sizeBytes": 6345
+    },
+    {
+      "path": "automation/release/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "automation/release/cli.py",
+      "sha256": "c5f7956a9ae0f3cf08ce2b9758b540c2cb8e9af4d43e33abf991bb83ce7809f2",
+      "sizeBytes": 4374
+    },
+    {
+      "path": "automation/release/generated_state/__init__.py",
+      "sha256": "e40d8ef7dbfcb7c3ab556f8074f7c28cdc2eeaa5949fb9276b04c86b1b2f9c8c",
+      "sizeBytes": 718
+    },
+    {
+      "path": "automation/release/generated_state/artifact.py",
+      "sha256": "1cda940aa1647dae1f40be17804aaae7e4cee52f82649594b1c505e5a4d6ed62",
+      "sizeBytes": 11530
+    },
+    {
+      "path": "automation/release/generated_state/common.py",
+      "sha256": "a4eac7e54b587010f9492542dbd548d770c989c368224197c1e9963fed7c2692",
+      "sizeBytes": 3102
+    },
+    {
+      "path": "automation/release/generated_state/config.py",
+      "sha256": "e8e1d2725ef318532da0a96f029e4ab13efccaedb46481dde5db858633e8f3f3",
+      "sizeBytes": 6573
+    },
+    {
+      "path": "automation/release/generated_state/exporter.py",
+      "sha256": "9645a1899d16d87409437a88e72b6b0fe47779e02883e51780a45a2b9cfebfeb",
+      "sizeBytes": 7723
+    },
+    {
+      "path": "automation/release/generated_state/manifest.py",
+      "sha256": "6b5ee91f34e4e4b01041087f687d03c3309f915c6f4b641df55e68f2002fb34c",
+      "sizeBytes": 683
+    },
+    {
+      "path": "automation/release/generated_state/repository.py",
+      "sha256": "9c4f72c5df7f842175e8dfb0baf37a0e9f08a30473f25594d335e4b2a7f54e99",
+      "sizeBytes": 719
+    },
+    {
+      "path": "automation/release/generated_state/sync.py",
+      "sha256": "3eaf1195ee5f7852759601cb86fdcbbcba88217c0ce3cca5cd9cfa98a3b01212",
+      "sizeBytes": 7711
+    },
+    {
+      "path": "automation/release/generated_state/verifier.py",
+      "sha256": "65569a34e9d8c1d79b1119599107112305d2c149238c3cad0c53aea620d07406",
+      "sizeBytes": 6029
+    },
+    {
+      "path": "automation/release/npm_publish.py",
+      "sha256": "0da5a1177ea6fc682864f25f5c2fe2e546056ae49cb81e526fbe02acad7659c7",
+      "sizeBytes": 1417
+    },
+    {
+      "path": "automation/release/npm_registry.py",
+      "sha256": "efc723487435090b5e94d2417fdcc2de29d50f6ad8d6f7779fc687d0afdb3449",
+      "sizeBytes": 16331
+    },
+    {
+      "path": "automation/release/npm_release_set.py",
+      "sha256": "e7de1a663bf94fd1fafc04d102d3f941788dd3055d62a7c4936ccf70ceea4171",
+      "sizeBytes": 16395
+    },
+    {
+      "path": "configs/README.md",
+      "sha256": "eea677c586786f5bd5956b4ed641122612437369b5af29e0f6b15dfea35586a0",
+      "sizeBytes": 2039
+    },
+    {
+      "path": "configs/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sizeBytes": 1
+    },
+    {
+      "path": "configs/config.py",
+      "sha256": "d7c0e005b9d4856277aa268ccf32e0d54a8848507db01771e480158340913fb9",
+      "sizeBytes": 1014
+    },
+    {
+      "path": "configs/data_quality.json",
+      "sha256": "0c54c9d1ad949c77493fa92fa5c4bceb7338ad7b2b4ef4053d09327195a59973",
+      "sizeBytes": 1009
+    },
+    {
+      "path": "configs/generated-state.json",
+      "sha256": "0de2b67837d887b0631779afd9d6c5130f6fe8f8af6ee88c753e216645530a2f",
+      "sizeBytes": 1598
+    },
+    {
+      "path": "configs/path.py",
+      "sha256": "e84c5288d81df807b2c854c53835fb8d6d19932e1727f7b2964eaccd4f16786e",
+      "sizeBytes": 1430
+    },
+    {
+      "path": "configs/source-policy.json",
+      "sha256": "2cd61af3110213710393fef51215c3c8ad8643c3d2bacec7746e033dba90b34b",
+      "sizeBytes": 1622
+    },
+    {
+      "path": "configs/source-reliability.json",
+      "sha256": "857841f1190d1d844df9b7058dbf1d705263b8d312c301b83e780cc7bc441618",
+      "sizeBytes": 480
+    },
+    {
+      "path": "configs/source-semantic-aliases.json",
+      "sha256": "8c110f9ec00ecf9e2d3e9282b8c3a9d84e6c61de9bfea2edb3390df72a7bfe73",
+      "sizeBytes": 3464
+    },
+    {
+      "path": "configs/wikiwiki-acquisition-replacements.json",
+      "sha256": "be2fb55753eaf5f1d6906b102715a9cafc55d23e4d1a65aa3a31e3ad230e3b6c",
+      "sizeBytes": 38071
+    },
+    {
+      "path": "configs/wikiwiki-crawler.default.json",
+      "sha256": "a31a2586a25e1cb071b492a93e2407537a1dc940232092b49ce7cd7836188e25",
+      "sizeBytes": 844
+    },
+    {
+      "path": "configs/wikiwiki-page-name-aliases.json",
+      "sha256": "bf53647b6c0b580859647fa7d9f6a397a722517a9c0607ffa769588062b504b3",
+      "sizeBytes": 3839
+    },
+    {
+      "path": "docs/public/ARCHITECTURE.md",
+      "sha256": "1051c6fd122439660daf4508919b7c24ba0e08686ba25a41d4d725a94f323335",
+      "sizeBytes": 2630
+    },
+    {
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "sha256": "bccbefefbcca7f5f99048a1bfc2ad6bee614af5a09000a4fee2a7b77fc256cda",
+      "sizeBytes": 3156
+    },
+    {
+      "path": "docs/public/DATA-PACKAGE.md",
+      "sha256": "12705b491527192d4fc9ea433476828c0b65770b25fc50bf9d43753f422ea943",
+      "sizeBytes": 1471
+    },
+    {
+      "path": "docs/public/DATA-SCHEMA.md",
+      "sha256": "640da91522164088f5398df356b25a5b69e520887e50738e69ff93cf5eded514",
+      "sizeBytes": 11466
+    },
+    {
+      "path": "docs/public/GENERATED-STATE.md",
+      "sha256": "e10161cfe74718472853928ffaf008d5d3b6d44b2a5daa7293b603bbebae58f0",
+      "sizeBytes": 605
+    },
+    {
+      "path": "docs/public/README.md",
+      "sha256": "f60b94dce2ec61500207bfde84e4c53ac1149b06a4822c08768c0768cae9a087",
+      "sizeBytes": 574
+    },
+    {
+      "path": "docs/public/ROUTE-AUDIT.md",
+      "sha256": "e5a77ed16079df864fc17543cbfcdf1bbcd13a01c5f02480cf04f253f0c090fb",
+      "sizeBytes": 727
+    },
+    {
+      "path": "docs/public/SOURCE-EVIDENCE.md",
+      "sha256": "a3f6fadd57c3a397b61a60866e501ee5c51d42b4647aa13faba72a92fc65b144",
+      "sizeBytes": 852
+    },
+    {
+      "path": "docs/public/SOURCE-HISTORY.md",
+      "sha256": "056ed1049f2785b39936182e7aa77c6301f3d34d5f55d501214c0b6ad266a061",
+      "sizeBytes": 3071
+    },
+    {
+      "path": "docs/public/SOURCE-REFERENCES.md",
+      "sha256": "032b8d0fd90ba24b2dc02bb418a59740e62bc7ec75ab14d1294cd4221cb3e02e",
+      "sizeBytes": 12620
+    },
+    {
+      "path": "mise.toml",
+      "sha256": "cc3ea7e787e8cfba0f32fd3604ae7aa4ac8b17eb453db6aa6dcca42a4950b7a3",
+      "sizeBytes": 107
+    },
+    {
+      "path": "packages/kancolle-data/CHANGELOG.md",
+      "sha256": "aa1d4c826e3721f8308ebe3d88e413254fb4982f394c10fe0ccf5e77ee055fc9",
+      "sizeBytes": 4107
+    },
+    {
+      "path": "packages/kancolle-data/LICENSES.md",
+      "sha256": "40bddfdbcdc4b7812056e82fc5de18184097d2fdb903fab14262ea41e47c7594",
+      "sizeBytes": 412
+    },
+    {
+      "path": "packages/kancolle-data/README.md",
+      "sha256": "24bd5885e9faeac194abf810d15b6ad625824c1d0cccebf86dcd848ce668b8a9",
+      "sizeBytes": 3008
+    },
+    {
+      "path": "packages/kancolle-data/RELEASES.json",
+      "sha256": "1912cea6dc06fd71491d957bb34e68722b9a897f97ba5bc6519fed393739feda",
+      "sizeBytes": 795
+    },
+    {
+      "path": "packages/kancolle-data/index.d.ts",
+      "sha256": "5e2e1eae1fb6a3afd85a568a8d1ea2b1307f26429ea55d9c6dd9fbfe8dba64a5",
+      "sizeBytes": 632
+    },
+    {
+      "path": "packages/kancolle-data/index.js",
+      "sha256": "5815419c33303b1468b75ffab5bb5b571face0495ed1a345723229d6ba2dc79e",
+      "sizeBytes": 1344
+    },
+    {
+      "path": "packages/kancolle-data/package.json",
+      "sha256": "9e5a973097491118b4cbfb79e17ad37f38a60d95a7affc5b129059058316ff41",
+      "sizeBytes": 2205
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-drop-from.schema.json",
+      "sha256": "b67bc757c8dd8523498abc0215656b7e8898485d060ddeac11577bb697a5279f",
+      "sizeBytes": 963
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-sources.schema.json",
+      "sha256": "d3c1dc05b4927b0759e6e51385aacd767fb0d5e4ab84474166aa7899cd637675",
+      "sizeBytes": 1064
+    },
+    {
+      "path": "packages/kancolle-data/schemas/equipment-special-bonus.schema.json",
+      "sha256": "e8811b953358cbb5df8c786521c68841a4c422e07d0dbc9c78088e66c4690273",
+      "sizeBytes": 1591
+    },
+    {
+      "path": "packages/kancolle-data/schemas/improvement-detail-v3.schema.json",
+      "sha256": "cd7ba87c9cad2dccc8c6043a05d9cdd032985d892656cdd89b52ab6b061388af",
+      "sizeBytes": 3868
+    },
+    {
+      "path": "packages/kancolle-data/schemas/improvement-detail.schema.json",
+      "sha256": "1905a2d94aaf60a6122e9390230c1e538d9f0cb73be73e81809836c021cf04db",
+      "sizeBytes": 7957
+    },
+    {
+      "path": "packages/kancolle-data/scripts/check-fresh.js",
+      "sha256": "f2f1d583f347114ddb81929241fbf870cd94ee55e9cd18614ea90cd444e4eed6",
+      "sizeBytes": 1124
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "4ba04f6c1666e1053cd1b356acad663df7ba066e7dc7877ffd9dfb2bb7f8ad23",
+      "sizeBytes": 334
+    },
+    {
+      "path": "service/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sizeBytes": 1
+    },
+    {
+      "path": "service/akashi_list/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sizeBytes": 1
+    },
+    {
+      "path": "service/akashi_list/akashi_detail_processor.py",
+      "sha256": "aa2eb77687e63acef1531e1a3a2978629b6fb0d3b1998d627b39e4f3d6848fb4",
+      "sizeBytes": 3695
+    },
+    {
+      "path": "service/akashi_list/akashi_list_spider.py",
+      "sha256": "0d985d5435f0f429f58068b59dd493ee887efbd9df0c59eb046184b311eecdd2",
+      "sizeBytes": 5007
+    },
+    {
+      "path": "service/akashi_list/akashi_list_utils.py",
+      "sha256": "1784ce89cb6a6293ae3bb5a38e63c89dcccfebfd778427eb829921444d4f2004",
+      "sizeBytes": 13494
+    },
+    {
+      "path": "service/akashi_list/daily_ship_parser.py",
+      "sha256": "929e7902d45b168a6b9d68889820e1eb9922b2731b460cb6f445524ae32c29b1",
+      "sizeBytes": 1969
+    },
+    {
+      "path": "service/akashi_list/detail_recipe_parser.py",
+      "sha256": "cd25d35b8ef805c8b64913301cce96807349a3372d92e0b0ee31320f839dc375",
+      "sizeBytes": 2811
+    },
+    {
+      "path": "service/akashi_list/detail_stage_parser.py",
+      "sha256": "5852cf8aeda32e2689d5a955861962bdfbf904a47c8f09ced7878beb849b4ffb",
+      "sizeBytes": 12287
+    },
+    {
+      "path": "service/akashi_list/improvement_expectation.py",
+      "sha256": "3821448f221fed92301ae7173b2acdaec7c3027899c86beae418ebdff09c836a",
+      "sizeBytes": 8489
+    },
+    {
+      "path": "service/akashi_list/ship_name_resolver.py",
+      "sha256": "8fcd5b1296b059a71898257e37c088ed9af54c1269e49ee28abc0567988b8087",
+      "sizeBytes": 13792
+    },
+    {
+      "path": "service/data_package/__init__.py",
+      "sha256": "79b1d29ed907e416b5a284189b305f5cdf627b91df52c9f39c304afa34b2d499",
+      "sizeBytes": 70
+    },
+    {
+      "path": "service/data_package/acquisition_references.py",
+      "sha256": "199b173ad8d819e08eaeb4726981f0c0c7fbe3ff7c247b1e209941bd7efb7598",
+      "sizeBytes": 34898
+    },
+    {
+      "path": "service/data_package/builder.py",
+      "sha256": "3176e05418f85d0f662199f8149a0c17fc1cf76487e95bb19e8132afbb1711de",
+      "sizeBytes": 15445
+    },
+    {
+      "path": "service/data_package/cli.py",
+      "sha256": "338f934aa90642ee6d00603e1cd9fae05991c9d8b20238f6061ed35be0d40d08",
+      "sizeBytes": 5795
+    },
+    {
+      "path": "service/data_package/equipment_acquisition.py",
+      "sha256": "e1df80a06913095db7078cde67b0912b87871213f7ad7fb016b01812bbdee425",
+      "sizeBytes": 39452
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_crawl.py",
+      "sha256": "90d3ea78cb4c1c287b012b6f4ad09c3f5fbab4aad6e87a7a9f67436584cd6f85",
+      "sizeBytes": 24689
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_raw_parse.py",
+      "sha256": "02224522878e54c40177394076b13000b92519e00902681f735b93d7163807fe",
+      "sizeBytes": 18782
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_replacements.py",
+      "sha256": "12e677b4c9abfd0f708d1a284aaa2eec88e110ad550f2303ff4a3061455d3b3b",
+      "sizeBytes": 9337
+    },
+    {
+      "path": "service/data_package/equipment_acquisition_snapshot.py",
+      "sha256": "a584b489b9500c02f5c15055ba876e656f04504b467657ea39c39e63523c2663",
+      "sizeBytes": 14192
+    },
+    {
+      "path": "service/data_package/equipment_bonus.py",
+      "sha256": "18336d0836c34ac01679a67632944efa56513256227b3f01b697d9d54b57adad",
+      "sizeBytes": 9066
+    },
+    {
+      "path": "service/data_package/equipment_drop_from.py",
+      "sha256": "30b00f6677f7e22c68a1e441a84a32d9c776130a2e88d47ab21171633fccdf35",
+      "sizeBytes": 8975
+    },
+    {
+      "path": "service/data_package/equipment_sources.py",
+      "sha256": "a73ad3f53c67ed76a0ac365e6b87772364ea007bad4b68aed9cb5c8faf1679c1",
+      "sizeBytes": 11903
+    },
+    {
+      "path": "service/data_package/improvement_assistant_reverse.py",
+      "sha256": "be5b3dfb74e6de2f42d31acf317e9e5e8bf616da342adc73eddb568e0386da38",
+      "sizeBytes": 15409
+    },
+    {
+      "path": "service/data_package/improvement_compat.py",
+      "sha256": "4bc2005865ae30c263370f82122ff6c154517c53871ee85c8f0d9ddeb8726b89",
+      "sizeBytes": 11488
+    },
+    {
+      "path": "service/data_package/improvement_record.py",
+      "sha256": "94a6a17b5f773c8ac720e5e112363ae18bf6f13dab9c679a885cb786893cf420",
+      "sizeBytes": 2551
+    },
+    {
+      "path": "service/data_package/manifest_builder.py",
+      "sha256": "c98da69cd8132ac5edd8dcf660b5059fae6415e8a9091662e3d4754ad9dbef4f",
+      "sizeBytes": 1626
+    },
+    {
+      "path": "service/data_package/package_history.py",
+      "sha256": "73a94294f79fdaa5f5ad586dfc734b1112c062f4fd69f1950f4484e4b2c9498b",
+      "sizeBytes": 3158
+    },
+    {
+      "path": "service/data_package/package_paths.py",
+      "sha256": "371a7f660e805cd058771d29167f6e93f32ce0d2f0f403e62c364e75d98a7629",
+      "sizeBytes": 875
+    },
+    {
+      "path": "service/data_package/projection.py",
+      "sha256": "7b2679452ab902900a4a1629524f02e546488b34f2b5d8c88f2742ab2c0c2dd8",
+      "sizeBytes": 4126
+    },
+    {
+      "path": "service/data_package/quality_gate.py",
+      "sha256": "1304d3dfffe63f9d74af19a7dc636964af927a97e116332ccb620cbcf9148560",
+      "sizeBytes": 763
+    },
+    {
+      "path": "service/data_package/source_collection.py",
+      "sha256": "6e33996bebb340a7bc0819524383f828655360cc4912503e5102b28e7de8f373",
+      "sizeBytes": 12825
+    },
+    {
+      "path": "service/data_package/validation/__init__.py",
+      "sha256": "ffeb9e8a7334eaf9c07b6de80e6cb92ce1c6cad52b9a9c0bb6fda983a3ede369",
+      "sizeBytes": 298
+    },
+    {
+      "path": "service/data_package/validation/assets.py",
+      "sha256": "612fb5c49f5168f6728461bd3fe4eaa10e6f43e7c673f0dfbc1cc68943d23a6f",
+      "sizeBytes": 768
+    },
+    {
+      "path": "service/data_package/validation/baseline.py",
+      "sha256": "937c5601ea4712da84b5228ecbf592e1d6411097c562671afd473e6d5958816b",
+      "sizeBytes": 2996
+    },
+    {
+      "path": "service/data_package/validation/cli.py",
+      "sha256": "f6dd2476ad9b33f388b89d2604fa1ec98be89c41d11307522ecafb526ac5074b",
+      "sizeBytes": 1665
+    },
+    {
+      "path": "service/data_package/validation/common.py",
+      "sha256": "fdffefaf49d86ca222d70c748df8cd4bdaf9d6fb05b63877945bfb9be3094bdd",
+      "sizeBytes": 1536
+    },
+    {
+      "path": "service/data_package/validation/constants.py",
+      "sha256": "40f09b4d96647d0086a29dfe7cda225ec0d91de0b44cc68ed07f7a34d5a885fb",
+      "sizeBytes": 264
+    },
+    {
+      "path": "service/data_package/validation/equipment.py",
+      "sha256": "ca15e3580e49eb45d544f41bba4fef379c1cc44f8a7b81cb9b0e908a23394538",
+      "sizeBytes": 7371
+    },
+    {
+      "path": "service/data_package/validation/improvement.py",
+      "sha256": "f1ec6e5e7b6ff4cce6aa2e951b5bd5423974534b5f819a30a6365de53a4725cc",
+      "sizeBytes": 13689
+    },
+    {
+      "path": "service/data_package/validation/snapshot.py",
+      "sha256": "55fd531694e3251d98b4052b48bb1816d4ce2e2721e8942760d365aac3b13f96",
+      "sizeBytes": 11143
+    },
+    {
+      "path": "service/data_package/versioning.py",
+      "sha256": "b65cde36a3782814ececc583b2c8d912ddc8e29b39285427f556c5ef1394387c",
+      "sizeBytes": 4100
+    },
+    {
+      "path": "service/improvement/__init__.py",
+      "sha256": "050c77bf3e4c997b1c63e07b5d331465cc20d78424beb0700bf7143b962853d7",
+      "sizeBytes": 43
+    },
+    {
+      "path": "service/improvement/model.py",
+      "sha256": "c3a85198effcb9de208bc1999dbe915c5e4404dc2ab9afc302bbd249137408f8",
+      "sizeBytes": 4355
+    },
+    {
+      "path": "service/operator_stop.py",
+      "sha256": "e5cb5be3b9a87f33b2c67670c682270f9616b2ce49c2390cde1ec4bc55b16e02",
+      "sizeBytes": 7905
+    },
+    {
+      "path": "service/source_validation/__init__.py",
+      "sha256": "ae065456c294a4ac80925a813d05b59ee2dd6c115fa5f588ed0887469fa39f8c",
+      "sizeBytes": 250
+    },
+    {
+      "path": "service/source_validation/ai_review.py",
+      "sha256": "0ab2f3d64e33e31a0a0ef256e86d71e860616d21530a02e09b883c2dc0e23968",
+      "sizeBytes": 6123
+    },
+    {
+      "path": "service/source_validation/common.py",
+      "sha256": "7036586572f2582f6cf79d3ccc1edc75ab11b27d6853fcc2a9381c600649229d",
+      "sizeBytes": 6377
+    },
+    {
+      "path": "service/source_validation/compare.py",
+      "sha256": "f04fb7f23ec02127c96f814d177f899200d21b702e5131634142360b687bb777",
+      "sizeBytes": 5599
+    },
+    {
+      "path": "service/source_validation/export.py",
+      "sha256": "b3e9b8c566f44f05b6d68f5048366aad4c46313f95bf720171d86aecdb28eb7e",
+      "sizeBytes": 4036
+    },
+    {
+      "path": "service/source_validation/history.py",
+      "sha256": "ac01ccaafdf69a6626bf818b3e54fe3f89dac54a5a11e043e387a995656e417e",
+      "sizeBytes": 14269
+    },
+    {
+      "path": "service/source_validation/kcwiki_data.py",
+      "sha256": "3263db1857f007574ae21e7f368e0a904352d55f0c422f5b51de25ad3a80b7ec",
+      "sizeBytes": 9864
+    },
+    {
+      "path": "service/source_validation/model.py",
+      "sha256": "b603d3a502d1d2d7fee2e1c3bef5a69001bbdcaa4cb352f1d377be4fa304cd4c",
+      "sizeBytes": 4543
+    },
+    {
+      "path": "service/source_validation/prompts/ai_review.md",
+      "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32",
+      "sizeBytes": 4599
+    },
+    {
+      "path": "service/source_validation/reliability.py",
+      "sha256": "5939c7ab81a16dadbaf5c1bd2422628649569c9ed7b010a2c86b7b3d728758a3",
+      "sizeBytes": 11399
+    },
+    {
+      "path": "service/source_validation/runner.py",
+      "sha256": "5f6b696195e6c979bc972bb80fe8f610bfca68f1f3212c294143f489bd81ccb0",
+      "sizeBytes": 7915
+    },
+    {
+      "path": "service/source_validation/semantic_aliases.py",
+      "sha256": "31da6d99cf12ab8f26f222d4445e91eee59ec4efe5711465bb66faab03c045a0",
+      "sizeBytes": 8358
+    },
+    {
+      "path": "service/source_validation/source_compare.py",
+      "sha256": "5ea19cb0dd47c4c29c029e2896aa8ad4e9eb96be7f274c674798abdf32c9926e",
+      "sizeBytes": 1565
+    },
+    {
+      "path": "service/source_validation/wikiwiki_jp.py",
+      "sha256": "06c4cf80265909467581fb332af340f965db831ac9496e44618d45b538cd6e80",
+      "sizeBytes": 12296
+    },
+    {
+      "path": "util/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sizeBytes": 1
+    },
+    {
+      "path": "util/cache.py",
+      "sha256": "73f4ae837a06650cea12f106ddd8eda2d16002b65147fd31a2c5b61d813be794",
+      "sizeBytes": 2108
+    },
+    {
+      "path": "util/export_utils.py",
+      "sha256": "5fc7ed7b5298820ce3152da7e5869a5e814d7c9b209521e0f82672243e745214",
+      "sizeBytes": 5199
+    },
+    {
+      "path": "util/html_table_utils.py",
+      "sha256": "3217c4905cdce68bf8ed3127170f4277e1d4c604af9dea1cf2c782c5d18b1d09",
+      "sizeBytes": 1139
+    },
+    {
+      "path": "util/http_cache/__init__.py",
+      "sha256": "bd8ac171fc57d5466531152cbf688099be9273e1b892fcde6645c65a16177595",
+      "sizeBytes": 542
+    },
+    {
+      "path": "util/http_cache/audit.py",
+      "sha256": "afbf0d528cfc853c222ddcfdc03cac9c0812ee2e9b3e211ab1752aaefee9a557",
+      "sizeBytes": 887
+    },
+    {
+      "path": "util/http_cache/client.py",
+      "sha256": "b80c3ded294fed9089f2f8191689839cce8cdcbbc3db0afb86d0317b50773701",
+      "sizeBytes": 4812
+    },
+    {
+      "path": "util/http_cache/settings.py",
+      "sha256": "1993c4ba4d1871802b3f2f73a9931d5a3f8b8f0dd0105730ca914c2f231ca988",
+      "sizeBytes": 753
+    },
+    {
+      "path": "util/http_cache/storage.py",
+      "sha256": "0e1c3da09bcf40e85210ea9e0a5b90d10c0510cdc548ff91b6f337768afa864e",
+      "sizeBytes": 4561
+    },
+    {
+      "path": "util/http_cache/transport.py",
+      "sha256": "4592830670580426d9396fcd22e5d91129d765d9224cdd94341b42501f0f8ada",
+      "sizeBytes": 2853
+    },
+    {
+      "path": "util/json_utils.py",
+      "sha256": "b1a364e1550d64aa6190ebf9c93aa1ff841e2675886c7ac3693a3d09d922fa64",
+      "sizeBytes": 2834
+    },
+    {
+      "path": "util/logger.py",
+      "sha256": "3ba68d2dd4f5ed734efc11022c2d378bdc429a3aa53740e1e427f019b484036f",
+      "sizeBytes": 4809
+    },
+    {
+      "path": "util/lxml_utils.py",
+      "sha256": "dd7c547cf84c1d6e162dba627820f3ad2937427a87f24037ad8a9df7a6e4c6f6",
+      "sizeBytes": 132
+    },
+    {
+      "path": "util/site_workers.py",
+      "sha256": "ab38a5e56d91e3f936306dca857dde08a3965e17be7c512acd09ffaeb3668193",
+      "sizeBytes": 2128
+    },
+    {
+      "path": "util/start2/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sizeBytes": 1
+    },
+    {
+      "path": "util/start2/catalog.py",
+      "sha256": "6bdcbc384f5860f59c146e0c56c8f242a9e2cbec1e6cc4465d793cf7267e1e38",
+      "sizeBytes": 4471
+    },
+    {
+      "path": "util/start2/config.py",
+      "sha256": "9f5af2cbcce827e0dac64412b2f4113e5105dc6bf8d8a1586195cb82414930df",
+      "sizeBytes": 98
+    },
+    {
+      "path": "util/start2/start2_item_utils.py",
+      "sha256": "21a9f2dfbf27718a860a7d89aad0ad6fd31c9ea7d6e81ce2c761fb2a91a7477d",
+      "sizeBytes": 810
+    },
+    {
+      "path": "util/start2/start2_ship_utils.py",
+      "sha256": "1f26b6506205628c51748caeecb639aea088c53845efc26c0bff07ba9633de7a",
+      "sizeBytes": 4144
+    },
+    {
+      "path": "util/start2/start2_use_item_utils.py",
+      "sha256": "d6fcc888907692937410769a1a43454f0c6f2d465b1c2933229a4f2eb055112e",
+      "sizeBytes": 1192
+    },
+    {
+      "path": "util/start2/start2_utils.py",
+      "sha256": "c918e6989ed6be3bc520b91ee018286e7563fbe96cb2ceee55d92e1d6a3330a7",
+      "sizeBytes": 7888
+    },
+    {
+      "path": "util/text_utils.py",
+      "sha256": "094aadccba28b5a505714304b012d312b13a9ff754f0f6e878fb7f1a57ee0b57",
+      "sizeBytes": 337
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "85e189e1c1ad17e32b1cf518e15199773446f8e23a76fcf119393f23d0fdc895",
+      "sizeBytes": 36260
+    }
+  ],
+  "contentManifest": {
+    "schemaVersion": 2,
+    "project": "kancolle-item-improvement-spider",
+    "version": "1.0.24",
+    "sourceCommit": "876bed8a9982ff59143db6556cd73ba0172846ac",
+    "generatedAt": "2026-07-12T14:27:34.269395+00:00",
+    "managedFiles": [
+      ".github/workflows/data-build.yml",
+      ".github/workflows/release.yml",
+      ".github/workflows/source-acquire.yml",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "RELEASE-NOTES.md",
+      "VERSION",
+      "automation/__init__.py",
+      "automation/acquire/__init__.py",
+      "automation/acquire/cli.py",
+      "automation/acquire/wikiwiki/__init__.py",
+      "automation/acquire/wikiwiki/crawler.py",
+      "automation/acquire/wikiwiki/page_catalog.py",
+      "automation/acquire/wikiwiki/raw_cache.py",
+      "automation/common/__init__.py",
+      "automation/common/bundle.py",
+      "automation/common/process.py",
+      "automation/compute/__init__.py",
+      "automation/compute/cli.py",
+      "automation/release/__init__.py",
+      "automation/release/cli.py",
+      "automation/release/generated_state/__init__.py",
+      "automation/release/generated_state/artifact.py",
+      "automation/release/generated_state/common.py",
+      "automation/release/generated_state/config.py",
+      "automation/release/generated_state/exporter.py",
+      "automation/release/generated_state/manifest.py",
+      "automation/release/generated_state/repository.py",
+      "automation/release/generated_state/sync.py",
+      "automation/release/generated_state/verifier.py",
+      "automation/release/npm_publish.py",
+      "automation/release/npm_registry.py",
+      "automation/release/npm_release_set.py",
+      "configs/README.md",
+      "configs/__init__.py",
+      "configs/config.py",
+      "configs/data_quality.json",
+      "configs/generated-state.json",
+      "configs/path.py",
+      "configs/source-policy.json",
+      "configs/source-reliability.json",
+      "configs/source-semantic-aliases.json",
+      "configs/wikiwiki-acquisition-replacements.json",
+      "configs/wikiwiki-crawler.default.json",
+      "configs/wikiwiki-page-name-aliases.json",
+      "docs/public/ARCHITECTURE.md",
+      "docs/public/DATA-LIFECYCLE.md",
+      "docs/public/DATA-PACKAGE.md",
+      "docs/public/DATA-SCHEMA.md",
+      "docs/public/GENERATED-STATE.md",
+      "docs/public/README.md",
+      "docs/public/ROUTE-AUDIT.md",
+      "docs/public/SOURCE-EVIDENCE.md",
+      "docs/public/SOURCE-HISTORY.md",
+      "docs/public/SOURCE-REFERENCES.md",
+      "mise.toml",
+      "packages/kancolle-data/CHANGELOG.md",
+      "packages/kancolle-data/LICENSES.md",
+      "packages/kancolle-data/README.md",
+      "packages/kancolle-data/RELEASES.json",
+      "packages/kancolle-data/index.d.ts",
+      "packages/kancolle-data/index.js",
+      "packages/kancolle-data/package.json",
+      "packages/kancolle-data/schemas/equipment-drop-from.schema.json",
+      "packages/kancolle-data/schemas/equipment-sources.schema.json",
+      "packages/kancolle-data/schemas/equipment-special-bonus.schema.json",
+      "packages/kancolle-data/schemas/improvement-detail-v3.schema.json",
+      "packages/kancolle-data/schemas/improvement-detail.schema.json",
+      "packages/kancolle-data/scripts/check-fresh.js",
+      "pyproject.toml",
+      "service/__init__.py",
+      "service/akashi_list/__init__.py",
+      "service/akashi_list/akashi_detail_processor.py",
+      "service/akashi_list/akashi_list_spider.py",
+      "service/akashi_list/akashi_list_utils.py",
+      "service/akashi_list/daily_ship_parser.py",
+      "service/akashi_list/detail_recipe_parser.py",
+      "service/akashi_list/detail_stage_parser.py",
+      "service/akashi_list/improvement_expectation.py",
+      "service/akashi_list/ship_name_resolver.py",
+      "service/data_package/__init__.py",
+      "service/data_package/acquisition_references.py",
+      "service/data_package/builder.py",
+      "service/data_package/cli.py",
+      "service/data_package/equipment_acquisition.py",
+      "service/data_package/equipment_acquisition_crawl.py",
+      "service/data_package/equipment_acquisition_raw_parse.py",
+      "service/data_package/equipment_acquisition_replacements.py",
+      "service/data_package/equipment_acquisition_snapshot.py",
+      "service/data_package/equipment_bonus.py",
+      "service/data_package/equipment_drop_from.py",
+      "service/data_package/equipment_sources.py",
+      "service/data_package/improvement_assistant_reverse.py",
+      "service/data_package/improvement_compat.py",
+      "service/data_package/improvement_record.py",
+      "service/data_package/manifest_builder.py",
+      "service/data_package/package_history.py",
+      "service/data_package/package_paths.py",
+      "service/data_package/projection.py",
+      "service/data_package/quality_gate.py",
+      "service/data_package/source_collection.py",
+      "service/data_package/validation/__init__.py",
+      "service/data_package/validation/assets.py",
+      "service/data_package/validation/baseline.py",
+      "service/data_package/validation/cli.py",
+      "service/data_package/validation/common.py",
+      "service/data_package/validation/constants.py",
+      "service/data_package/validation/equipment.py",
+      "service/data_package/validation/improvement.py",
+      "service/data_package/validation/snapshot.py",
+      "service/data_package/versioning.py",
+      "service/improvement/__init__.py",
+      "service/improvement/model.py",
+      "service/operator_stop.py",
+      "service/source_validation/__init__.py",
+      "service/source_validation/ai_review.py",
+      "service/source_validation/common.py",
+      "service/source_validation/compare.py",
+      "service/source_validation/export.py",
+      "service/source_validation/history.py",
+      "service/source_validation/kcwiki_data.py",
+      "service/source_validation/model.py",
+      "service/source_validation/prompts/ai_review.md",
+      "service/source_validation/reliability.py",
+      "service/source_validation/runner.py",
+      "service/source_validation/semantic_aliases.py",
+      "service/source_validation/source_compare.py",
+      "service/source_validation/wikiwiki_jp.py",
+      "util/__init__.py",
+      "util/cache.py",
+      "util/export_utils.py",
+      "util/html_table_utils.py",
+      "util/http_cache/__init__.py",
+      "util/http_cache/audit.py",
+      "util/http_cache/client.py",
+      "util/http_cache/settings.py",
+      "util/http_cache/storage.py",
+      "util/http_cache/transport.py",
+      "util/json_utils.py",
+      "util/logger.py",
+      "util/lxml_utils.py",
+      "util/site_workers.py",
+      "util/start2/__init__.py",
+      "util/start2/catalog.py",
+      "util/start2/config.py",
+      "util/start2/start2_item_utils.py",
+      "util/start2/start2_ship_utils.py",
+      "util/start2/start2_use_item_utils.py",
+      "util/start2/start2_utils.py",
+      "util/text_utils.py",
+      "uv.lock",
+      "PUBLIC-CONTENT-MANIFEST.json"
+    ]
+  },
+  "publicContentAudit": {
+    "schemaVersion": 3,
+    "policy": "deny-by-default-public-isolation",
+    "scannedTextFiles": 153,
+    "forbiddenTokens": [
+      "./flow",
+      "script/project",
+      ".flow/",
+      "docs/internal",
+      "AGENTS.md",
+      "Flow Lite",
+      "tools/wikiwiki-crawler/migrate_existing_html.py",
+      "Migration ID",
+      "main-origin",
+      "Quick Receipt",
+      "Flow Receipt",
+      "workspaceRoot",
+      "downloadRoot",
+      "/Users/",
+      "sakana"
+    ],
+    "reviewTokens": [
+      "NPM_TOKEN",
+      "AI review",
+      "AI 审计"
+    ],
+    "moduleReferenceCount": 22,
+    "pathReferenceCount": 37,
+    "findingCount": 0,
+    "publicIsolation": {
+      "internalPathCount": 0,
+      "internalReferenceCount": 0,
+      "absolutePathCount": 0,
+      "exceptionCount": 2,
+      "exceptionManifestSha256": "e11a94921b70e626cc931f3f3b20b4d20779369d2ddfa5a3a56be65f49f5b993",
+      "exceptions": [
+        "github-secret-name-npm-token",
+        "source-validation-ai-review-feature"
+      ]
+    },
+    "exceptionDetails": [
+      {
+        "id": "github-secret-name-npm-token",
+        "category": "public-automation-contract",
+        "owner": "automation/release",
+        "review": "mechanical-and-ai",
+        "expires": null,
+        "reviewFiles": []
+      },
+      {
+        "id": "source-validation-ai-review-feature",
+        "category": "public-runtime-feature",
+        "owner": "service/source_validation",
+        "review": "mechanical-and-ai",
+        "expires": null,
+        "reviewFiles": [
+          {
+            "path": "service/source_validation/prompts/ai_review.md",
+            "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32"
+          }
+        ]
+      }
+    ],
+    "publicCheckout": {
+      "schemaVersion": 1,
+      "policy": "fresh-public-checkout-clean",
+      "generatedProbeCount": 7,
+      "dirtyPathCount": 0
+    }
+  },
+  "publicContentPolicy": "project-content-registry-public-snapshot",
+  "stage": "candidate-frozen",
+  "immutable": true,
+  "remoteWrites": false
+}

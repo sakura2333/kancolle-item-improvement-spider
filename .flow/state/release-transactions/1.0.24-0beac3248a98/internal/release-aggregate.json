@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": 2,
+  "projectVersion": "1.0.24",
+  "packageVersion": "0.5.1",
+  "sources": [
+    {
+      "path": "packages/kancolle-data/CHANGELOG.md",
+      "sha256": "aa1d4c826e3721f8308ebe3d88e413254fb4982f394c10fe0ccf5e77ee055fc9",
+      "sizeBytes": 4107
+    },
+    {
+      "path": "packages/kancolle-data/RELEASES.json",
+      "sha256": "1912cea6dc06fd71491d957bb34e68722b9a897f97ba5bc6519fed393739feda",
+      "sizeBytes": 795
+    },
+    {
+      "path": "git log",
+      "head": "0beac3248a981e9711093928c54f5114ec184c0d"
+    }
+  ],
+  "changelogEntries": [
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Added",
+      "text": "Added improvement detail schema 4 with source-faithful ★0..★MAX `levelExpectations`。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Added",
+      "text": "Added fixed 11-row route `stepList` data for every normal improvement level and optional MAX conversion。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Added",
+      "text": "Preserved conditional effect text separately from simple numeric values so consumers do not apply context-specific bonuses globally。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Added",
+      "text": "Added the MAX conversion target name so consumers can render the upgrade result without a separate equipment-master lookup。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Added",
+      "text": "Added `schemas/improvement-detail.schema.json` for the schema 4 record contract。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Fixed",
+      "text": "Restored ship-acquisition relations for Start2 equipment IDs 142 and 305 when KcWiki uses English “Kai Ni” aliases instead of its canonical equipment names。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Fixed",
+      "text": "Added source-scoped, Start2-validated semantic aliases so accepted upstream naming variants cannot silently disappear from the package。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Compatibility",
+      "text": "Improvement list schema: 2 (unchanged)。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Compatibility",
+      "text": "Improvement detail schema: 4。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Compatibility",
+      "text": "Consumers that only read existing detail fields remain compatible; schema-aware validators must accept version 4。",
+      "public": true
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Planned",
+      "text": "Add quest, development, exchange, ranking, and event acquisition methods。",
+      "public": false
+    },
+    {
+      "source": "packages/kancolle-data/CHANGELOG.md",
+      "version": "Unreleased",
+      "section": "Planned",
+      "text": "Add additional ship, map, and quest projections when stable schemas are available。",
+      "public": false
+    }
+  ],
+  "gitCommits": [
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "同步 Flow baseline 1043",
+      "public": false
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "同步 Flow baseline 1035",
+      "public": false
+    },
+    {
+      "subject": "同步 Flow baseline 1035",
+      "public": false
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "同步 Flow baseline 1033",
+      "public": false
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "同步 Flow baseline 1007",
+      "public": false
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "同步 Flow baseline 1004",
+      "public": false
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "修正 Flow update 提交过滤并处理 NeEngine 图标",
+      "public": false
+    },
+    {
+      "subject": "修正 Flow update 忽略路径提交过滤",
+      "public": false
+    },
+    {
+      "subject": "迁移 source validation 输出到 dist 数据管线",
+      "public": false
+    },
+    {
+      "subject": "重整 Flow before/after 检查管线",
+      "public": false
+    },
+    {
+      "subject": "拆分 Flow 契约并规范生成输出路径",
+      "public": false
+    },
+    {
+      "subject": "规范本地缓存与生成输出路径",
+      "public": true
+    },
+    {
+      "subject": "停止追踪本地缓存与生成数据",
+      "public": true
+    },
+    {
+      "subject": "规范配置治理校验边界",
+      "public": false
+    },
+    {
+      "subject": "规范配置模板与本地配置边界",
+      "public": true
+    },
+    {
+      "subject": "容错 WikiWiki 名称匹配报告状态",
+      "public": true
+    },
+    {
+      "subject": "排除 WikiWiki 缺失的内部装备详情页",
+      "public": false
+    },
+    {
+      "subject": "修复缺失装备来源快照时的数据流程顺序",
+      "public": true
+    },
+    {
+      "subject": "修正 Source Identity Lockdown 后的测试契约",
+      "public": true
+    },
+    {
+      "subject": "锁定来源 ID 身份边界并更新 Flow package 契约",
+      "public": false
+    },
+    {
+      "subject": "将 WikiWiki 浏览器会话抓取纳入正式 Flow",
+      "public": false
+    },
+    {
+      "subject": "增加 WikiWiki 持久浏览器抓取实验",
+      "public": true
+    },
+    {
+      "subject": "修复 WikiWiki 装备详情快照误覆盖",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.23 → 1.0.24",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.22 → 1.0.23",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.21 → 1.0.22",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.19 → 1.0.21",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.18 → 1.0.19",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.17 → 1.0.18",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.14 → 1.0.17",
+      "public": true
+    },
+    {
+      "subject": "更新 kancolle-item-improvement-spider 1.0.13 → 1.0.14",
+      "public": true
+    },
+    {
+      "subject": "收口 kancolle-item-improvement-spider 1.0.13 更新状态",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 至 1.0.12",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "更新 Spider 项目",
+      "public": true
+    },
+    {
+      "subject": "修复 Python 环境触达并封装离线验收",
+      "public": true
+    },
+    {
+      "subject": "重构 Spider 控制面并接入 Flow 公约",
+      "public": false
+    },
+    {
+      "subject": "升级 Spider 至 1.0.3",
+      "public": true
+    },
+    {
+      "subject": "完善 Spider 一键更新与维护闭环",
+      "public": true
+    },
+    {
+      "subject": "修复数据流水线并增加本地 Flow 验证",
+      "public": false
+    },
+    {
+      "subject": "重建 GitHub 数据流水线",
+      "public": true
+    },
+    {
+      "subject": "收紧公网单一 root 发布事务",
+      "public": true
+    },
+    {
+      "subject": "补全 Legacy 发布文件分类",
+      "public": true
+    },
+    {
+      "subject": "收敛 Spider 自动化并重构数据处理模块",
+      "public": true
+    },
+    {
+      "subject": "统一 Spider 文档与 DevOps 0.7.2 Exact 发布说明",
+      "public": false
+    },
+    {
+      "subject": "升级 DevOps 0.7.2 并增加今日改修逐级期望",
+      "public": false
+    },
+    {
+      "subject": "关闭稳定基线阻断并确认 1.0.0 发布投影",
+      "public": true
+    },
+    {
+      "subject": "生成 1.0.0 严格联网稳定基线",
+      "public": true
+    },
+    {
+      "subject": "固定发布质量门禁使用项目虚拟环境",
+      "public": false
+    },
+    {
+      "subject": "增加严格联网重试并完善发布续跑",
+      "public": true
+    },
+    {
+      "subject": "完善稳定基线与来源比较发布闭环",
+      "public": true
+    },
+    {
+      "subject": "迁移开发远端并确立内网开发权威",
+      "public": false
+    },
+    {
+      "subject": "接入 DevOps 0.5.4 连续性与质量契约",
+      "public": false
+    },
+    {
+      "subject": "确认 main 稳定发布定义",
+      "public": true
+    },
+    {
+      "subject": "落地 DevOps 0.4.2 项目契约并修复 macOS README 检查",
+      "public": false
+    },
+    {
+      "subject": "修复根 README 文件",
+      "public": true
+    },
+    {
+      "subject": "更新到 0.1.5",
+      "public": true
+    },
+    {
+      "subject": "更新到 0.1.4",
+      "public": true
+    },
+    {
+      "subject": "y",
+      "public": true
+    },
+    {
+      "subject": "y",
+      "public": true
+    },
+    {
+      "subject": "y",
+      "public": true
+    },
+    {
+      "subject": "y",
+      "public": true
+    },
+    {
+      "subject": "y",
+      "public": true
+    },
+    {
+      "subject": "更新到 0.1.0",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "feat(data): harden validated multi-site releases",
+      "public": true
+    },
+    {
+      "subject": "chore(data): publish @sakura2333/kancolle-data@0.1.1 [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "fix(data): normalize KC3 range bonuses",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "feat(data): auto-publish validated scrape updates",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "feat: publish reusable KanColle data package",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "chore: update nedb data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "更新数据格式 兼容舰娘id解析",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "chore: update nedb data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "chore: update nedb data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "nedb本项目更新",
+      "public": true
+    },
+    {
+      "subject": "chore: update spider data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "chore: update spider data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "chore: update spider data and cache [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "review action",
+      "public": true
+    },
+    {
+      "subject": "review action",
+      "public": true
+    },
+    {
+      "subject": "review action",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "Update site cache from CI [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "修复材料显示错误，以及优化cache行为，增加debug开关",
+      "public": true
+    },
+    {
+      "subject": "修复材料显示错误，以及优化cache行为，增加debug开关",
+      "public": true
+    },
+    {
+      "subject": "Update site cache from CI [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "Update site cache from CI [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "Merge branch 'main' of github.com:sakura2333/kancolle-item-improvement-spider",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "Update site cache from CI [skip ci]",
+      "public": true
+    },
+    {
+      "subject": "update action cron",
+      "public": true
+    },
+    {
+      "subject": "review print",
+      "public": true
+    },
+    {
+      "subject": "review print",
+      "public": true
+    },
+    {
+      "subject": "review",
+      "public": true
+    },
+    {
+      "subject": "Enable push and schedule triggers for workflow",
+      "public": true
+    },
+    {
+      "subject": "Update CI cache persistence",
+      "public": true
+    },
+    {
+      "subject": "Initial public release",
+      "public": true
+    }
+  ],
+  "machineReleaseRecord": {
+    "version": "0.2.0",
+    "date": "2026-06-28",
+    "contentDigest": "1c43f3ba5ab5fddf6ddd183bbea51f4be9f06688782a920f73476a7382884a92",
+    "metrics": {
+      "improvement.listViewCount": 8,
+      "improvement.listAllCount": 372,
+      "improvement.detailRecordCount": 372,
+      "equipmentDropFrom.recordCount": 247,
+      "equipmentDropFrom.relationCount": 1645,
+      "equipmentSpecialBonuses.recordCount": 348,
+      "equipmentSpecialBonuses.equipmentRecordCount": 341,
+      "equipmentSpecialBonuses.equipmentTypeRecordCount": 7,
+      "equipmentSpecialBonuses.ruleCount": 2320,
+      "useitemIcons.requiredCount": 13,
+      "useitemIcons.missingCount": 0,
+      "useitemIcons.count": 16,
+      "useitemIcons.totalBytes": 711604,
+      "publicData.totalBytes": 2028838
+    }
+  },
+  "structuredEvidence": [
+    {
+      "path": ".flow/state/checks/before.json",
+      "exists": true,
+      "sha256": "65633c9dbff6202ee6dce44dc80bc827864b235be2944dd0fbde7ff8d9c67e87",
+      "value": {
+        "schemaVersion": 2,
+        "profile": "before",
+        "commit": "0beac3248a981e9711093928c54f5114ec184c0d",
+        "tree": "347638d8bf14f8207abc736481a7df120d671795",
+        "contentIdentity": {
+          "scheme": "flow-content-sha256",
+          "value": "91c6896ea67821c6f19ab56396ef23eeba2c0d534528656645d3c2153b91457b"
+        },
+        "contentHash": "sha256:91c6896ea67821c6f19ab56396ef23eeba2c0d534528656645d3c2153b91457b",
+        "lockHash": "sha256:42fd9e190f148542bcb769f1233f816b7383b7e82fe0ad6db02b245a3835c71e",
+        "generatedAt": "2026-07-13T13:17:03.573070+00:00",
+        "python": [
+          3,
+          14
+        ],
+        "uv": "0.11.28",
+        "dependencies": {
+          "jaconv": "0.5.0",
+          "lxml": "6.0.2",
+          "playwright": "1.61.0",
+          "requests": "2.32.5"
+        },
+        "logs": [
+          ".flow/state/logs/20260713T131655080414Z-quality-before-1.log",
+          ".flow/state/logs/20260713T131655358959Z-quality-before-2.log"
+        ]
+      }
+    },
+    {
+      "path": ".flow/state/checks/after.json",
+      "exists": false
+    },
+    {
+      "path": "dist/packages/kancolle-data/audit/build-report.json",
+      "exists": true,
+      "sha256": "b56bcf4e3a402114b5a0f0e8e168e972f6902d27f98c6c4c8c87b2221e3ea662",
+      "value": {
+        "generatedAt": "2026-07-10T10:44:21+00:00",
+        "strict": true,
+        "improvementSourceStatus": "ok",
+        "dropFromIssueCount": 0,
+        "specialBonusIssueCount": 0,
+        "equipmentSourceRecordCount": 574,
+        "improvementAssistantReverseIndex": {
+          "schemaVersion": 1,
+          "path": "assistant-day-reverse-index.json",
+          "markdown": "assistant-day-reverse-index.md",
+          "threshold": 3,
+          "expectedEquipmentCount": 3,
+          "equipmentCountMismatchShipDayCount": 2352,
+          "underExpectedShipDayCount": 2326,
+          "overThresholdShipDayCount": 26,
+          "maxEquipmentCount": 6,
+          "shipDayCount": 3179
+        },
+        "equipmentAcquisitionInputMode": "validated-public-snapshot",
+        "equipmentAcquisitionSnapshotGeneratedAt": "2026-07-09T16:10:28+00:00",
+        "equipmentSourceIncremental": {
+          "addedIds": [],
+          "changedIds": [],
+          "removedIds": [],
+          "unchangedCount": 574,
+          "changed": false,
+          "inputHashes": {
+            "improvementDetail": "078e8dc2f15eb0e6fa96af3f7af5137b652c3b5b7d99d2f680493340e7f4317a",
+            "wikiwikiAcquisition": "b63959299e6bb1b6fd6491c2b9559509318f02f44dc16feae7955ca07b94a808",
+            "kcwikiShip": "e7064aadaa4fdbd2f9800220c074f5156d99f3c2b3a85febee77bc3092bfb11a",
+            "kcwikiEquipment": "f3cd7273f62c6377e2277c6213f64f56df2ac145ef853e06417e077f08e10303"
+          },
+          "projectionSha256": "caab06cb757f96a41560ee48d2e0d3ead562ba12d6381f4eb1903ae287eeb57b"
+        },
+        "improvement2Compatibility": {
+          "detailRecordCount": 372,
+          "routeCount": 412
+        },
+        "assistantDailyReverseIndex": {
+          "schemaVersion": 1,
+          "path": "assistant-day-reverse-index.json",
+          "markdown": "assistant-day-reverse-index.md",
+          "threshold": 3,
+          "expectedEquipmentCount": 3,
+          "equipmentCountMismatchShipDayCount": 2352,
+          "underExpectedShipDayCount": 2326,
+          "overThresholdShipDayCount": 26,
+          "maxEquipmentCount": 6,
+          "shipDayCount": 3179
+        },
+        "iconCount": 13,
+        "equipmentImageCount": 372,
+        "requiredUseitemIconIds": [
+          2,
+          57,
+          70,
+          71,
+          75,
+          77,
+          78,
+          91,
+          92,
+          94,
+          95,
+          100,
+          104
+        ],
+        "missingUseitemIconIds": []
+      }
+    },
+    {
+      "path": "dist/data-pipeline/sources/comparison/summary.json",
+      "exists": true,
+      "sha256": "5635d9e98c4dbcf28fc6007af3e6eba66c778814b87e71c15c05febbd0635b63",
+      "value": {
+        "schemaVersion": 1,
+        "generatedAt": "2026-07-10T10:44:20+00:00",
+        "baseline": "akashi-list",
+        "sources": [
+          {
+            "source": "wikiwiki-jp",
+            "status": "ok",
+            "baselineScheduleCount": 1645,
+            "candidateScheduleCount": 1692,
+            "comparableScheduleCount": 1627,
+            "matchCount": 1550,
+            "weekdayMismatchCount": 77,
+            "missingInCandidateCount": 18,
+            "extraInCandidateCount": 65,
+            "candidateIssueCount": 0,
+            "supportedCapabilities": [
+              "improve"
+            ],
+            "ignoredUnsupportedCapabilityCount": 990,
+            "agreementRate": 0.952674
+          },
+          {
+            "source": "kcwiki-data",
+            "status": "ok",
+            "baselineScheduleCount": 1645,
+            "candidateScheduleCount": 705,
+            "comparableScheduleCount": 701,
+            "matchCount": 593,
+            "weekdayMismatchCount": 108,
+            "missingInCandidateCount": 944,
+            "extraInCandidateCount": 4,
+            "candidateIssueCount": 0,
+            "supportedCapabilities": [
+              "improve"
+            ],
+            "ignoredUnsupportedCapabilityCount": 990,
+            "agreementRate": 0.845934
+          }
+        ]
+      }
+    }
+  ],
+  "aggregationPolicy": {
+    "internal": "保留 Changelog、数据包发布记录、Git 变更、质量结果和数据审计摘要",
+    "public": "只输出用户与数据消费方面向的 RELEASE-NOTES.md"
+  },
+  "summary": {
+    "publicNoteCount": 10,
+    "changelogEntryCount": 12,
+    "gitCommitCount": 185,
+    "publicCommitCount": 162,
+    "omittedInternalCommitCount": 23,
+    "output": "RELEASE-NOTES.md",
+    "outputSha256": "e7f43af16c837a69ff78b0255bb159e40ae279743dd6bacd867d99fd0b5283db"
+  }
+}

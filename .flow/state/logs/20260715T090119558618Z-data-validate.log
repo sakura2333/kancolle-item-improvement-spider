@@ -1,0 +1,2895 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/data_pipeline.py --report dist/data-pipeline/local-validation.json
+[wikiwiki source gate] ready=true indexes=ship,equipment,improvement
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m service.data_package.cli build --strict
+[32m2026-07-15 17:01:21,349 [INFO] [util.start2.start2_utils] [start2] local=2026070902, remote=2026070902[0m
+[32m2026-07-15 17:01:21,349 [INFO] [util.start2.start2_utils] [start2] no update needed[0m
+[32m2026-07-15 17:01:21,374 [INFO] [util.site_workers] [site workers] running 5 task(s) with 3 website worker(s)[0m
+[32m2026-07-15 17:01:21,813 [INFO] [service.akashi_list.akashi_list_utils] [route] conditional stage recipe: 10cm連装高角砲 × 2二番艦：玉波改二限定12.7cm連装高角砲 × 3[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/improvement/improvement-list.json (mode=w)
+[32m2026-07-15 17:01:24,735 [INFO] [service.source_validation.runner] [semantic aliases] validated=6/6 against Start2[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/akashi-list/metadata.json (mode=w)
+[32m2026-07-15 17:01:24,822 [INFO] [util.site_workers] [site workers] running 2 task(s) with 2 website worker(s)[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/wikiwiki-jp/metadata.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kcwiki-data/metadata.json (mode=w)
+[32m2026-07-15 17:01:26,776 [INFO] [service.source_validation.runner] [source validation] wikiwiki-jp: status=ok, match=1550, weekdayMismatch=77, missing=18, extra=65, issues=0, unresolvedShips=0, unresolvedItems=0, semanticAliases=14[0m
+[32m2026-07-15 17:01:26,795 [INFO] [service.source_validation.runner] [source validation] kcwiki-data: status=ok, match=593, weekdayMismatch=108, missing=944, extra=4, issues=0, unresolvedShips=0, unresolvedItems=0, semanticAliases=0[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/comparison/summary.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/ai-review/input.json (mode=w)
+[32m2026-07-15 17:01:27,114 [INFO] [service.source_validation.runner] [source history] run=16, changes=0, baselines=0[0m
+[32m2026-07-15 17:01:27,149 [INFO] [service.source_validation.runner] [source reliability] akashi-list=1.0267/medium, kcwiki-data=0.9387/medium, wikiwiki-jp=1.0346/medium[0m
+[32m2026-07-15 17:01:27,197 [INFO] [service.data_package.source_collection] [semantic aliases] validated=6/6 against Start2[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kcwiki-equipment-development/dataset-metadata.json (mode=w)
+[32m2026-07-15 17:01:27,233 [INFO] [service.data_package.source_collection] [data source] kcwiki-equipment-development: status=ok, records=574, available=105, unavailable=469, issues=0[0m
+[32m2026-07-15 17:01:27,237 [INFO] [service.data_package.source_collection] [data source] kcwiki-data: status=ok, relations=1656, issues=0, incremental=reuse-unchanged-inputs, semanticAliases=2[0m
+[32m2026-07-15 17:01:27,250 [INFO] [service.data_package.source_collection] [data source] kcwikizh-kcquests: status=ok, quests=639[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kc3-slotitem-bonus/dataset-metadata.json (mode=w)
+[32m2026-07-15 17:01:27,437 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 1/574 id=1 name=12cm単装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,449 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 2/574 id=2 name=12.7cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,458 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 3/574 id=3 name=10cm連装高角砲 status=parsed[0m
+[32m2026-07-15 17:01:27,465 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 4/574 id=4 name=14cm単装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,472 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 5/574 id=5 name=15.5cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:27,483 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 6/574 id=6 name=20.3cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,494 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 7/574 id=7 name=35.6cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,505 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 8/574 id=8 name=41cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,516 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 9/574 id=9 name=46cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:27,525 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 10/574 id=10 name=12.7cm連装高角砲 status=fallback[0m
+[32m2026-07-15 17:01:27,532 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 11/574 id=11 name=15.2cm単装砲 status=fallback[0m
+[32m2026-07-15 17:01:27,540 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 12/574 id=12 name=15.5cm三連装副砲 status=parsed[0m
+[32m2026-07-15 17:01:27,547 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 13/574 id=13 name=61cm三連装魚雷 status=parsed[0m
+[32m2026-07-15 17:01:27,553 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 14/574 id=14 name=61cm四連装魚雷 status=fallback[0m
+[32m2026-07-15 17:01:27,567 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 15/574 id=15 name=61cm四連装(酸素)魚雷 status=parsed[0m
+[32m2026-07-15 17:01:27,575 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 16/574 id=16 name=九七式艦攻 status=fallback[0m
+[32m2026-07-15 17:01:27,581 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 17/574 id=17 name=天山 status=parsed[0m
+[32m2026-07-15 17:01:27,590 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 18/574 id=18 name=流星 status=parsed[0m
+[32m2026-07-15 17:01:27,614 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 19/574 id=19 name=九六式艦戦 status=fallback[0m
+[32m2026-07-15 17:01:27,624 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 20/574 id=20 name=零式艦戦21型 status=fallback[0m
+[32m2026-07-15 17:01:27,631 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 21/574 id=21 name=零式艦戦52型 status=parsed[0m
+[32m2026-07-15 17:01:27,642 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 22/574 id=22 name=試製烈風 後期型 status=parsed[0m
+[32m2026-07-15 17:01:27,650 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 23/574 id=23 name=九九式艦爆 status=fallback[0m
+[32m2026-07-15 17:01:27,659 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 24/574 id=24 name=彗星 status=parsed[0m
+[32m2026-07-15 17:01:27,670 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 25/574 id=25 name=零式水上偵察機 status=fallback[0m
+[32m2026-07-15 17:01:27,681 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 26/574 id=26 name=瑞雲 status=parsed[0m
+[32m2026-07-15 17:01:27,692 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 27/574 id=27 name=13号対空電探 status=parsed[0m
+[32m2026-07-15 17:01:27,706 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 28/574 id=28 name=22号対水上電探 status=parsed[0m
+[32m2026-07-15 17:01:27,714 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 29/574 id=29 name=33号対水上電探 status=parsed[0m
+[32m2026-07-15 17:01:27,724 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 30/574 id=30 name=21号対空電探 status=parsed[0m
+[32m2026-07-15 17:01:27,733 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 31/574 id=31 name=32号対水上電探 status=parsed[0m
+[32m2026-07-15 17:01:27,742 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 32/574 id=32 name=42号対空電探 status=parsed[0m
+[32m2026-07-15 17:01:27,749 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 33/574 id=33 name=改良型艦本式タービン status=parsed[0m
+[32m2026-07-15 17:01:27,757 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 34/574 id=34 name=強化型艦本式缶 status=parsed[0m
+[32m2026-07-15 17:01:27,765 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 35/574 id=35 name=三式弾 status=parsed[0m
+[32m2026-07-15 17:01:27,773 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 36/574 id=36 name=九一式徹甲弾 status=parsed[0m
+[32m2026-07-15 17:01:27,780 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 37/574 id=37 name=7.7mm機銃 status=parsed[0m
+[32m2026-07-15 17:01:27,787 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 38/574 id=38 name=12.7mm単装機銃 status=fallback[0m
+[32m2026-07-15 17:01:27,794 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 39/574 id=39 name=25mm連装機銃 status=fallback[0m
+[32m2026-07-15 17:01:27,804 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 40/574 id=40 name=25mm三連装機銃 status=parsed[0m
+[32m2026-07-15 17:01:27,811 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 41/574 id=41 name=甲標的 甲型 status=parsed[0m
+[32m2026-07-15 17:01:27,819 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 42/574 id=42 name=応急修理要員 status=fallback[0m
+[32m2026-07-15 17:01:27,830 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 43/574 id=43 name=応急修理女神 status=parsed[0m
+[32m2026-07-15 17:01:27,841 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 44/574 id=44 name=九四式爆雷投射機 status=parsed[0m
+[32m2026-07-15 17:01:27,852 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 45/574 id=45 name=三式爆雷投射機 status=parsed[0m
+[32m2026-07-15 17:01:27,863 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 46/574 id=46 name=九三式水中聴音機 status=parsed[0m
+[32m2026-07-15 17:01:27,875 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 47/574 id=47 name=三式水中探信儀 status=parsed[0m
+[32m2026-07-15 17:01:27,881 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 48/574 id=48 name=12cm単装高角砲 status=parsed[0m
+[32m2026-07-15 17:01:27,889 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 49/574 id=49 name=25mm単装機銃 status=parsed[0m
+[32m2026-07-15 17:01:27,899 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 50/574 id=50 name=20.3cm(3号)連装砲 status=parsed[0m
+[32m2026-07-15 17:01:27,909 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 51/574 id=51 name=12cm30連装噴進砲 status=parsed[0m
+[32m2026-07-15 17:01:27,917 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 52/574 id=52 name=流星改 status=parsed[0m
+[32m2026-07-15 17:01:27,925 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 53/574 id=53 name=烈風 一一型 status=parsed[0m
+[32m2026-07-15 17:01:27,933 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 54/574 id=54 name=彩雲 status=parsed[0m
+[32m2026-07-15 17:01:27,943 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 55/574 id=55 name=紫電改二 status=parsed[0m
+[32m2026-07-15 17:01:27,952 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 56/574 id=56 name=震電改 status=parsed[0m
+[32m2026-07-15 17:01:27,962 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 57/574 id=57 name=彗星一二型甲 status=parsed[0m
+[32m2026-07-15 17:01:27,971 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 58/574 id=58 name=61cm五連装(酸素)魚雷 status=parsed[0m
+[32m2026-07-15 17:01:27,980 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 59/574 id=59 name=零式水上観測機 status=parsed[0m
+[32m2026-07-15 17:01:27,990 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 60/574 id=60 name=零式艦戦62型(爆戦) status=parsed[0m
+[32m2026-07-15 17:01:27,998 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 61/574 id=61 name=二式艦上偵察機 status=parsed[0m
+[32m2026-07-15 17:01:28,006 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 62/574 id=62 name=試製晴嵐 status=parsed[0m
+[32m2026-07-15 17:01:28,017 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 63/574 id=63 name=12.7cm連装砲B型改二 status=parsed[0m
+[32m2026-07-15 17:01:28,025 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 64/574 id=64 name=Ju87C改 status=parsed[0m
+[32m2026-07-15 17:01:28,035 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 65/574 id=65 name=15.2cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,043 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 66/574 id=66 name=8cm高角砲 status=parsed[0m
+[32m2026-07-15 17:01:28,050 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 67/574 id=67 name=53cm艦首(酸素)魚雷 status=parsed[0m
+[32m2026-07-15 17:01:28,071 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 68/574 id=68 name=大発動艇 status=parsed[0m
+[32m2026-07-15 17:01:28,080 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 69/574 id=69 name=カ号観測機 status=parsed[0m
+[32m2026-07-15 17:01:28,088 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 70/574 id=70 name=三式指揮連絡機(対潜) status=parsed[0m
+[32m2026-07-15 17:01:28,095 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 71/574 id=71 name=10cm連装高角砲(砲架) status=parsed[0m
+[32m2026-07-15 17:01:28,103 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 72/574 id=72 name=増設バルジ(中型艦) status=parsed[0m
+[32m2026-07-15 17:01:28,110 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 73/574 id=73 name=増設バルジ(大型艦) status=parsed[0m
+[32m2026-07-15 17:01:28,120 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 74/574 id=74 name=探照灯 status=parsed[0m
+[32m2026-07-15 17:01:28,128 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 75/574 id=75 name=ドラム缶(輸送用) status=parsed[0m
+[32m2026-07-15 17:01:28,135 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 76/574 id=76 name=38cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,142 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 77/574 id=77 name=15cm連装副砲 status=fallback[0m
+[32m2026-07-15 17:01:28,152 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 78/574 id=78 name=12.7cm単装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,160 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 79/574 id=79 name=瑞雲(六三四空) status=parsed[0m
+[32m2026-07-15 17:01:28,168 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 80/574 id=80 name=瑞雲12型 status=parsed[0m
+[32m2026-07-15 17:01:28,177 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 81/574 id=81 name=瑞雲12型(六三四空) status=parsed[0m
+[32m2026-07-15 17:01:28,186 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 82/574 id=82 name=九七式艦攻(九三一空) status=parsed[0m
+[32m2026-07-15 17:01:28,193 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 83/574 id=83 name=天山(九三一空) status=parsed[0m
+[32m2026-07-15 17:01:28,201 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 84/574 id=84 name=2cm 四連装FlaK 38 status=parsed[0m
+[32m2026-07-15 17:01:28,209 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 85/574 id=85 name=3.7cm FlaK M42 status=fallback[0m
+[32m2026-07-15 17:01:28,216 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 86/574 id=86 name=艦艇修理施設 status=parsed[0m
+[32m2026-07-15 17:01:28,224 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 87/574 id=87 name=新型高温高圧缶 status=parsed[0m
+[32m2026-07-15 17:01:28,235 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 88/574 id=88 name=22号対水上電探改四 status=parsed[0m
+[32m2026-07-15 17:01:28,244 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 89/574 id=89 name=21号対空電探改 status=parsed[0m
+[32m2026-07-15 17:01:28,252 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 90/574 id=90 name=20.3cm(2号)連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,262 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 91/574 id=91 name=12.7cm連装高角砲(後期型) status=parsed[0m
+[32m2026-07-15 17:01:28,269 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 92/574 id=92 name=毘式40mm連装機銃 status=fallback[0m
+[32m2026-07-15 17:01:28,281 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 93/574 id=93 name=九七式艦攻(友永隊) status=fallback[0m
+[32m2026-07-15 17:01:28,292 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 94/574 id=94 name=天山一二型(友永隊) status=parsed[0m
+[32m2026-07-15 17:01:28,299 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 95/574 id=95 name=潜水艦53cm艦首魚雷(8門) status=parsed[0m
+[32m2026-07-15 17:01:28,309 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 96/574 id=96 name=零式艦戦21型(熟練) status=parsed[0m
+[32m2026-07-15 17:01:28,320 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 97/574 id=97 name=九九式艦爆(熟練) status=fallback[0m
+[32m2026-07-15 17:01:28,328 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 98/574 id=98 name=九七式艦攻(熟練) status=parsed[0m
+[32m2026-07-15 17:01:28,340 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 99/574 id=99 name=九九式艦爆(江草隊) status=fallback[0m
+[32m2026-07-15 17:01:28,350 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 100/574 id=100 name=彗星(江草隊) status=parsed[0m
+[32m2026-07-15 17:01:28,357 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 101/574 id=101 name=照明弾 status=parsed[0m
+[32m2026-07-15 17:01:28,366 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 102/574 id=102 name=九八式水上偵察機(夜偵) status=parsed[0m
+[32m2026-07-15 17:01:28,376 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 103/574 id=103 name=試製35.6cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,387 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 104/574 id=104 name=35.6cm連装砲(ダズル迷彩) status=fallback[0m
+[32m2026-07-15 17:01:28,397 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 105/574 id=105 name=試製41cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,413 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 106/574 id=106 name=13号対空電探改 status=parsed[0m
+[32m2026-07-15 17:01:28,421 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 107/574 id=107 name=艦隊司令部施設 status=parsed[0m
+[32m2026-07-15 17:01:28,428 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 108/574 id=108 name=熟練艦載機整備員 status=parsed[0m
+[32m2026-07-15 17:01:28,436 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 109/574 id=109 name=零戦52型丙(六〇一空) status=parsed[0m
+[32m2026-07-15 17:01:28,445 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 110/574 id=110 name=烈風(六〇一空) status=parsed[0m
+[32m2026-07-15 17:01:28,456 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 111/574 id=111 name=彗星(六〇一空) status=fallback[0m
+[32m2026-07-15 17:01:28,464 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 112/574 id=112 name=天山(六〇一空) status=parsed[0m
+[32m2026-07-15 17:01:28,471 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 113/574 id=113 name=流星(六〇一空) status=parsed[0m
+[32m2026-07-15 17:01:28,481 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 114/574 id=114 name=38cm連装砲改 status=fallback[0m
+[32m2026-07-15 17:01:28,492 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 115/574 id=115 name=Ar196改 status=fallback[0m
+[32m2026-07-15 17:01:28,499 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 116/574 id=116 name=一式徹甲弾 status=parsed[0m
+[32m2026-07-15 17:01:28,508 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 117/574 id=117 name=試製46cm連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,517 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 118/574 id=118 name=紫雲 status=parsed[0m
+[32m2026-07-15 17:01:28,524 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 119/574 id=119 name=14cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,531 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 120/574 id=120 name=91式高射装置 status=parsed[0m
+[32m2026-07-15 17:01:28,540 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 121/574 id=121 name=94式高射装置 status=parsed[0m
+[32m2026-07-15 17:01:28,550 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 122/574 id=122 name=10cm連装高角砲+高射装置 status=parsed[0m
+[32m2026-07-15 17:01:28,558 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 123/574 id=123 name=SKC34 20.3cm連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,567 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 124/574 id=124 name=FuMO25 レーダー status=parsed[0m
+[32m2026-07-15 17:01:28,576 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 125/574 id=125 name=61cm三連装(酸素)魚雷 status=parsed[0m
+[32m2026-07-15 17:01:28,583 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 126/574 id=126 name=WG42 (Wurfgerät 42) status=parsed[0m
+[32m2026-07-15 17:01:28,592 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 127/574 id=127 name=試製FaT仕様九五式酸素魚雷改 status=fallback[0m
+[32m2026-07-15 17:01:28,602 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 128/574 id=128 name=試製51cm連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,613 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 129/574 id=129 name=熟練見張員 status=parsed[0m
+[32m2026-07-15 17:01:28,622 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 130/574 id=130 name=12.7cm高角砲+高射装置 status=fallback[0m
+[32m2026-07-15 17:01:28,630 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 131/574 id=131 name=25mm三連装機銃 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:28,639 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 132/574 id=132 name=零式水中聴音機 status=parsed[0m
+[32m2026-07-15 17:01:28,645 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 133/574 id=133 name=381mm/50 三連装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,652 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 134/574 id=134 name=OTO 152mm三連装速射砲 status=fallback[0m
+[32m2026-07-15 17:01:28,660 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 135/574 id=135 name=90mm単装高角砲 status=fallback[0m
+[32m2026-07-15 17:01:28,667 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 136/574 id=136 name=プリエーゼ式水中防御隔壁 status=parsed[0m
+[32m2026-07-15 17:01:28,674 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 137/574 id=137 name=381mm/50 三連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:28,683 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 138/574 id=138 name=二式大艇 status=parsed[0m
+[32m2026-07-15 17:01:28,691 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 139/574 id=139 name=15.2cm連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:28,699 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 140/574 id=140 name=96式150cm探照灯 status=parsed[0m
+[32m2026-07-15 17:01:28,707 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 141/574 id=141 name=32号対水上電探改 status=parsed[0m
+[32m2026-07-15 17:01:28,716 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 142/574 id=142 name=15m二重測距儀+21号電探改二 status=parsed[0m
+[32m2026-07-15 17:01:28,725 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 143/574 id=143 name=九七式艦攻(村田隊) status=parsed[0m
+[32m2026-07-15 17:01:28,735 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 144/574 id=144 name=天山一二型(村田隊) status=parsed[0m
+[32m2026-07-15 17:01:28,743 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 145/574 id=145 name=戦闘糧食 status=parsed[0m
+[32m2026-07-15 17:01:28,750 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 146/574 id=146 name=洋上補給 status=parsed[0m
+[32m2026-07-15 17:01:28,758 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 147/574 id=147 name=120mm/50 連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,767 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 148/574 id=148 name=試製南山 status=parsed[0m
+[32m2026-07-15 17:01:28,776 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 149/574 id=149 name=四式水中聴音機 status=parsed[0m
+[32m2026-07-15 17:01:28,784 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 150/574 id=150 name=秋刀魚の缶詰 status=parsed[0m
+[32m2026-07-15 17:01:28,792 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 151/574 id=151 name=試製景雲(艦偵型) status=parsed[0m
+[32m2026-07-15 17:01:28,800 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 152/574 id=152 name=零式艦戦52型(熟練) status=parsed[0m
+[32m2026-07-15 17:01:28,811 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 153/574 id=153 name=零戦52型丙(付岩井小隊) status=fallback[0m
+[32m2026-07-15 17:01:28,824 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 154/574 id=154 name=零戦62型(爆戦/岩井隊) status=fallback[0m
+[32m2026-07-15 17:01:28,831 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 155/574 id=155 name=零戦21型(付岩本小隊) status=fallback[0m
+[32m2026-07-15 17:01:28,837 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 156/574 id=156 name=零戦52型甲(付岩本小隊) status=fallback[0m
+[32m2026-07-15 17:01:28,849 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 157/574 id=157 name=零式艦戦53型(岩本隊) status=fallback[0m
+[32m2026-07-15 17:01:28,858 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 158/574 id=158 name=Bf109T改 status=parsed[0m
+[32m2026-07-15 17:01:28,869 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 159/574 id=159 name=Fw190T改 status=fallback[0m
+[32m2026-07-15 17:01:28,878 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 160/574 id=160 name=10.5cm連装砲 status=fallback[0m
+[32m2026-07-15 17:01:28,888 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 161/574 id=161 name=16inch三連装砲 Mk.7 status=parsed[0m
+[32m2026-07-15 17:01:28,895 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 162/574 id=162 name=203mm/53 連装砲 status=parsed[0m
+[32m2026-07-15 17:01:28,903 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 163/574 id=163 name=Ro.43水偵 status=parsed[0m
+[32m2026-07-15 17:01:28,910 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 164/574 id=164 name=Ro.44水上戦闘機 status=parsed[0m
+[32m2026-07-15 17:01:28,919 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 165/574 id=165 name=二式水戦改 status=parsed[0m
+[32m2026-07-15 17:01:28,946 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 166/574 id=166 name=大発動艇(八九式中戦車&陸戦隊) status=parsed[0m
+[32m2026-07-15 17:01:28,958 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 167/574 id=167 name=特二式内火艇 status=parsed[0m
+[32m2026-07-15 17:01:28,969 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 168/574 id=168 name=九六式陸攻 status=parsed[0m
+[32m2026-07-15 17:01:28,981 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 169/574 id=169 name=一式陸攻 status=parsed[0m
+[32m2026-07-15 17:01:28,989 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 170/574 id=170 name=一式陸攻(野中隊) status=parsed[0m
+[32m2026-07-15 17:01:28,997 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 171/574 id=171 name=OS2U status=parsed[0m
+[32m2026-07-15 17:01:29,006 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 172/574 id=172 name=5inch連装砲 Mk.28 mod.2 status=fallback[0m
+[32m2026-07-15 17:01:29,014 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 173/574 id=173 name=Bofors 40mm四連装機関砲 status=parsed[0m
+[32m2026-07-15 17:01:29,023 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 174/574 id=174 name=53cm連装魚雷 status=parsed[0m
+[32m2026-07-15 17:01:29,033 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 175/574 id=175 name=雷電 status=parsed[0m
+[32m2026-07-15 17:01:29,041 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 176/574 id=176 name=三式戦 飛燕 status=parsed[0m
+[32m2026-07-15 17:01:29,051 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 177/574 id=177 name=三式戦 飛燕(飛行第244戦隊) status=parsed[0m
+[32m2026-07-15 17:01:29,060 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 178/574 id=178 name=PBY-5A Catalina status=parsed[0m
+[32m2026-07-15 17:01:29,069 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 179/574 id=179 name=試製61cm六連装(酸素)魚雷 status=parsed[0m
+[32m2026-07-15 17:01:29,080 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 180/574 id=180 name=一式陸攻 二二型甲 status=parsed[0m
+[32m2026-07-15 17:01:29,087 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 181/574 id=181 name=零式艦戦32型 status=parsed[0m
+[32m2026-07-15 17:01:29,095 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 182/574 id=182 name=零式艦戦32型(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,104 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 183/574 id=183 name=16inch三連装砲 Mk.7+GFCS status=parsed[0m
+[32m2026-07-15 17:01:29,112 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 184/574 id=184 name=Re.2001 OR改 status=parsed[0m
+[32m2026-07-15 17:01:29,121 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 185/574 id=185 name=三式戦 飛燕一型丁 status=parsed[0m
+[32m2026-07-15 17:01:29,131 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 186/574 id=186 name=一式陸攻 三四型 status=parsed[0m
+[32m2026-07-15 17:01:29,142 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 187/574 id=187 name=銀河 status=partial[0m
+[32m2026-07-15 17:01:29,155 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 188/574 id=188 name=Re.2001 G改 status=parsed[0m
+[32m2026-07-15 17:01:29,164 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 189/574 id=189 name=Re.2005 改 status=parsed[0m
+[32m2026-07-15 17:01:29,172 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 190/574 id=190 name=38.1cm Mk.I連装砲 status=parsed[0m
+[32m2026-07-15 17:01:29,179 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 191/574 id=191 name=QF 2ポンド8連装ポンポン砲 status=parsed[0m
+[32m2026-07-15 17:01:29,187 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 192/574 id=192 name=38.1cm Mk.I/N連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:29,198 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 193/574 id=193 name=特大発動艇 status=parsed[0m
+[32m2026-07-15 17:01:29,208 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 194/574 id=194 name=Laté 298B status=fallback[0m
+[32m2026-07-15 17:01:29,217 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 195/574 id=195 name=SBD status=parsed[0m
+[32m2026-07-15 17:01:29,226 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 196/574 id=196 name=TBD status=parsed[0m
+[32m2026-07-15 17:01:29,233 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 197/574 id=197 name=F4F-3 status=parsed[0m
+[32m2026-07-15 17:01:29,241 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 198/574 id=198 name=F4F-4 status=parsed[0m
+[32m2026-07-15 17:01:29,254 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 199/574 id=199 name=噴式景雲改 status=fallback[0m
+[32m2026-07-15 17:01:29,264 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 200/574 id=200 name=橘花改 status=parsed[0m
+[32m2026-07-15 17:01:29,273 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 201/574 id=201 name=紫電一一型 status=parsed[0m
+[32m2026-07-15 17:01:29,282 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 202/574 id=202 name=紫電二一型 紫電改 status=parsed[0m
+[32m2026-07-15 17:01:29,289 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 203/574 id=203 name=艦本新設計 増設バルジ(中型艦) status=fallback[0m
+[32m2026-07-15 17:01:29,296 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 204/574 id=204 name=艦本新設計 増設バルジ(大型艦) status=parsed[0m
+[32m2026-07-15 17:01:29,308 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 205/574 id=205 name=F6F-3 status=parsed[0m
+[32m2026-07-15 17:01:29,317 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 206/574 id=206 name=F6F-5 status=parsed[0m
+[32m2026-07-15 17:01:29,324 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 207/574 id=207 name=瑞雲(六三一空) status=parsed[0m
+[32m2026-07-15 17:01:29,333 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 208/574 id=208 name=晴嵐(六三一空) status=parsed[0m
+[32m2026-07-15 17:01:29,340 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 209/574 id=209 name=彩雲(輸送用分解済) status=fallback[0m
+[32m2026-07-15 17:01:29,355 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 210/574 id=210 name=潜水艦搭載電探&水防式望遠鏡 status=parsed[0m
+[32m2026-07-15 17:01:29,372 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 211/574 id=211 name=潜水艦搭載電探&逆探(E27) status=parsed[0m
+[32m2026-07-15 17:01:29,388 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 212/574 id=212 name=彩雲(東カロリン空) status=parsed[0m
+[32m2026-07-15 17:01:29,413 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 213/574 id=213 name=後期型艦首魚雷(6門) status=parsed[0m
+[32m2026-07-15 17:01:29,430 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 214/574 id=214 name=熟練聴音員+後期型艦首魚雷(6門) status=parsed[0m
+[32m2026-07-15 17:01:29,443 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 215/574 id=215 name=Ro.44水上戦闘機bis status=parsed[0m
+[32m2026-07-15 17:01:29,455 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 216/574 id=216 name=二式水戦改(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,466 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 217/574 id=217 name=強風改 status=parsed[0m
+[32m2026-07-15 17:01:29,478 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 218/574 id=218 name=四式戦 疾風 status=parsed[0m
+[32m2026-07-15 17:01:29,491 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 219/574 id=219 name=零式艦戦63型(爆戦) status=parsed[0m
+[32m2026-07-15 17:01:29,500 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 220/574 id=220 name=8cm高角砲改+増設機銃 status=parsed[0m
+[32m2026-07-15 17:01:29,514 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 221/574 id=221 name=一式戦 隼II型 status=parsed[0m
+[32m2026-07-15 17:01:29,524 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 222/574 id=222 name=一式戦 隼III型甲 status=parsed[0m
+[32m2026-07-15 17:01:29,531 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 223/574 id=223 name=一式戦 隼III型甲(54戦隊) status=parsed[0m
+[32m2026-07-15 17:01:29,543 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 224/574 id=224 name=爆装一式戦 隼III型改(65戦隊) status=parsed[0m
+[32m2026-07-15 17:01:29,553 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 225/574 id=225 name=一式戦 隼II型(64戦隊) status=partial[0m
+[32m2026-07-15 17:01:29,569 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 226/574 id=226 name=九五式爆雷 status=parsed[0m
+[32m2026-07-15 17:01:29,585 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 227/574 id=227 name=二式爆雷 status=parsed[0m
+[32m2026-07-15 17:01:29,592 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 228/574 id=228 name=九六式艦戦改 status=fallback[0m
+[32m2026-07-15 17:01:29,602 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 229/574 id=229 name=12.7cm単装高角砲(後期型) status=parsed[0m
+[32m2026-07-15 17:01:29,615 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 230/574 id=230 name=特大発動艇+戦車第11連隊 status=parsed[0m
+[32m2026-07-15 17:01:29,621 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 231/574 id=231 name=30.5cm三連装砲 status=fallback[0m
+[32m2026-07-15 17:01:29,631 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 232/574 id=232 name=30.5cm三連装砲改 status=fallback[0m
+[32m2026-07-15 17:01:29,643 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 233/574 id=233 name=F4U-1D status=parsed[0m
+[32m2026-07-15 17:01:29,650 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 234/574 id=234 name=15.5cm三連装副砲改 status=parsed[0m
+[32m2026-07-15 17:01:29,657 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 235/574 id=235 name=15.5cm三連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:29,664 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 236/574 id=236 name=41cm三連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:29,672 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 237/574 id=237 name=瑞雲(六三四空/熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,681 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 238/574 id=238 name=零式水上偵察機11型乙 status=parsed[0m
+[32m2026-07-15 17:01:29,689 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 239/574 id=239 name=零式水上偵察機11型乙(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,698 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 240/574 id=240 name=22号対水上電探改四(後期調整型) status=parsed[0m
+[32m2026-07-15 17:01:29,704 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 241/574 id=241 name=戦闘糧食(特別なおにぎり) status=fallback[0m
+[32m2026-07-15 17:01:29,712 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 242/574 id=242 name=Swordfish status=parsed[0m
+[32m2026-07-15 17:01:29,721 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 243/574 id=243 name=Swordfish Mk.II(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,730 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 244/574 id=244 name=Swordfish Mk.III(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,738 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 245/574 id=245 name=38cm四連装砲 status=parsed[0m
+[32m2026-07-15 17:01:29,747 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 246/574 id=246 name=38cm四連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:29,753 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 247/574 id=247 name=15.2cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:29,765 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 248/574 id=248 name=Skua status=fallback[0m
+[32m2026-07-15 17:01:29,771 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 249/574 id=249 name=Fulmar status=parsed[0m
+[32m2026-07-15 17:01:29,780 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 250/574 id=250 name=Spitfire Mk.I status=parsed[0m
+[32m2026-07-15 17:01:29,788 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 251/574 id=251 name=Spitfire Mk.V status=parsed[0m
+[32m2026-07-15 17:01:29,796 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 252/574 id=252 name=Seafire Mk.III改 status=parsed[0m
+[32m2026-07-15 17:01:29,804 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 253/574 id=253 name=Spitfire Mk.IX(熟練) status=parsed[0m
+[32m2026-07-15 17:01:29,812 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 254/574 id=254 name=F6F-3N status=parsed[0m
+[32m2026-07-15 17:01:29,820 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 255/574 id=255 name=F6F-5N status=parsed[0m
+[32m2026-07-15 17:01:29,831 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 256/574 id=256 name=TBF status=parsed[0m
+[32m2026-07-15 17:01:29,839 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 257/574 id=257 name=TBM-3D status=parsed[0m
+[32m2026-07-15 17:01:29,847 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 258/574 id=258 name=夜間作戦航空要員 status=parsed[0m
+[32m2026-07-15 17:01:29,854 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 259/574 id=259 name=夜間作戦航空要員+熟練甲板員 status=parsed[0m
+[32m2026-07-15 17:01:29,862 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 260/574 id=260 name=Type124 ASDIC status=parsed[0m
+[32m2026-07-15 17:01:29,871 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 261/574 id=261 name=Type144/147 ASDIC status=parsed[0m
+[32m2026-07-15 17:01:29,879 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 262/574 id=262 name=HF/DF + Type144/147 ASDIC status=fallback[0m
+[32m2026-07-15 17:01:29,888 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 263/574 id=263 name=紫電改(三四三空) 戦闘301 status=parsed[0m
+[32m2026-07-15 17:01:29,896 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 264/574 id=264 name=紫電改(三四三空) 戦闘701 status=parsed[0m
+[32m2026-07-15 17:01:29,903 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 265/574 id=265 name=紫電改(三四三空) 戦闘407 status=parsed[0m
+[32m2026-07-15 17:01:29,914 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 266/574 id=266 name=12.7cm連装砲C型改二 status=parsed[0m
+[32m2026-07-15 17:01:29,925 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 267/574 id=267 name=12.7cm連装砲D型改二 status=parsed[0m
+[32m2026-07-15 17:01:29,932 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 268/574 id=268 name=北方迷彩(+北方装備) status=parsed[0m
+[32m2026-07-15 17:01:29,943 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 269/574 id=269 name=試製東海 status=parsed[0m
+[32m2026-07-15 17:01:29,952 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 270/574 id=270 name=東海(九〇一空) status=parsed[0m
+[32m2026-07-15 17:01:29,960 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 271/574 id=271 name=紫電改四 status=parsed[0m
+[32m2026-07-15 17:01:29,968 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 272/574 id=272 name=遊撃部隊 艦隊司令部 status=fallback[0m
+[32m2026-07-15 17:01:29,975 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 273/574 id=273 name=彩雲(偵四) status=parsed[0m
+[32m2026-07-15 17:01:29,982 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 274/574 id=274 name=12cm30連装噴進砲改二 status=parsed[0m
+[32m2026-07-15 17:01:29,990 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 275/574 id=275 name=10cm連装高角砲改+増設機銃 status=parsed[0m
+[32m2026-07-15 17:01:29,997 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 276/574 id=276 name=46cm三連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,006 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 277/574 id=277 name=FM-2 status=parsed[0m
+[32m2026-07-15 17:01:30,015 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 278/574 id=278 name=SK レーダー status=parsed[0m
+[32m2026-07-15 17:01:30,023 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 279/574 id=279 name=SK+SG レーダー status=parsed[0m
+[32m2026-07-15 17:01:30,032 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 280/574 id=280 name=QF 4.7inch砲 Mk.XII改 status=fallback[0m
+[32m2026-07-15 17:01:30,040 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 281/574 id=281 name=51cm連装砲 status=parsed[0m
+[32m2026-07-15 17:01:30,048 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 282/574 id=282 name=130mm B-13連装砲 status=parsed[0m
+[32m2026-07-15 17:01:30,055 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 283/574 id=283 name=533mm 三連装魚雷 status=parsed[0m
+[32m2026-07-15 17:01:30,063 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 284/574 id=284 name=5inch単装砲 Mk.30 status=parsed[0m
+[32m2026-07-15 17:01:30,072 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 285/574 id=285 name=61cm三連装(酸素)魚雷後期型 status=parsed[0m
+[32m2026-07-15 17:01:30,084 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 286/574 id=286 name=61cm四連装(酸素)魚雷後期型 status=parsed[0m
+[32m2026-07-15 17:01:30,093 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 287/574 id=287 name=三式爆雷投射機 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:30,102 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 288/574 id=288 name=試製15cm9連装対潜噴進砲 status=parsed[0m
+[32m2026-07-15 17:01:30,110 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 289/574 id=289 name=35.6cm三連装砲改(ダズル迷彩仕様) status=parsed[0m
+[32m2026-07-15 17:01:30,118 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 290/574 id=290 name=41cm三連装砲改二 status=parsed[0m
+[32m2026-07-15 17:01:30,127 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 291/574 id=291 name=彗星二二型(六三四空) status=parsed[0m
+[32m2026-07-15 17:01:30,135 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 292/574 id=292 name=彗星二二型(六三四空/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,144 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 293/574 id=293 name=12cm単装砲改二 status=fallback[0m
+[32m2026-07-15 17:01:30,153 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 294/574 id=294 name=12.7cm連装砲A型改二 status=parsed[0m
+[32m2026-07-15 17:01:30,163 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 295/574 id=295 name=12.7cm連装砲A型改三(戦時改修)+高射装置 status=parsed[0m
+[32m2026-07-15 17:01:30,171 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 296/574 id=296 name=12.7cm連装砲B型改四(戦時改修)+高射装置 status=parsed[0m
+[32m2026-07-15 17:01:30,180 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 297/574 id=297 name=12.7cm連装砲A型 status=fallback[0m
+[32m2026-07-15 17:01:30,188 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 298/574 id=298 name=16inch Mk.I三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:30,196 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 299/574 id=299 name=16inch Mk.I三連装砲+AFCT改 status=parsed[0m
+[32m2026-07-15 17:01:30,203 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 300/574 id=300 name=16inch Mk.I三連装砲改+FCR type284 status=parsed[0m
+[32m2026-07-15 17:01:30,210 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 301/574 id=301 name=20連装7inch UP Rocket Launchers status=parsed[0m
+[32m2026-07-15 17:01:30,218 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 302/574 id=302 name=九七式艦攻(九三一空/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,228 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 303/574 id=303 name=Bofors 15.2cm連装砲 Model 1930 status=fallback[0m
+[32m2026-07-15 17:01:30,237 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 304/574 id=304 name=S9 Osprey status=parsed[0m
+[32m2026-07-15 17:01:30,246 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 305/574 id=305 name=Ju87C改二(KMX搭載機) status=parsed[0m
+[32m2026-07-15 17:01:30,254 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 306/574 id=306 name=Ju87C改二(KMX搭載機/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,264 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 307/574 id=307 name=GFCS Mk.37 status=parsed[0m
+[32m2026-07-15 17:01:30,272 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 308/574 id=308 name=5inch単装砲 Mk.30改+GFCS Mk.37 status=parsed[0m
+[32m2026-07-15 17:01:30,280 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 309/574 id=309 name=甲標的 丙型 status=parsed[0m
+[32m2026-07-15 17:01:30,293 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 310/574 id=310 name=14cm連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,301 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 311/574 id=311 name=二式陸上偵察機 status=parsed[0m
+[32m2026-07-15 17:01:30,307 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 312/574 id=312 name=二式陸上偵察機(熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,315 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 313/574 id=313 name=5inch単装砲 Mk.30改 status=parsed[0m
+[32m2026-07-15 17:01:30,322 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 314/574 id=314 name=533mm五連装魚雷(初期型) status=parsed[0m
+[32m2026-07-15 17:01:30,331 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 315/574 id=315 name=SG レーダー(初期型) status=parsed[0m
+[32m2026-07-15 17:01:30,339 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 316/574 id=316 name=Re.2001 CB改 status=parsed[0m
+[32m2026-07-15 17:01:30,346 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 317/574 id=317 name=三式弾改 status=parsed[0m
+[32m2026-07-15 17:01:30,354 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 318/574 id=318 name=41cm連装砲改二 status=parsed[0m
+[32m2026-07-15 17:01:30,362 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 319/574 id=319 name=彗星一二型(六三四空/三号爆弾搭載機) status=parsed[0m
+[32m2026-07-15 17:01:30,371 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 320/574 id=320 name=彗星一二型(三一号光電管爆弾搭載機) status=parsed[0m
+[32m2026-07-15 17:01:30,379 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 321/574 id=322 name=瑞雲改二(六三四空) status=parsed[0m
+[32m2026-07-15 17:01:30,387 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 322/574 id=323 name=瑞雲改二(六三四空/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,394 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 323/574 id=324 name=オ号観測機改 status=parsed[0m
+[32m2026-07-15 17:01:30,401 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 324/574 id=325 name=オ号観測機改二 status=fallback[0m
+[32m2026-07-15 17:01:30,410 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 325/574 id=326 name=S-51J status=fallback[0m
+[32m2026-07-15 17:01:30,417 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 326/574 id=327 name=S-51J改 status=fallback[0m
+[32m2026-07-15 17:01:30,426 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 327/574 id=328 name=35.6cm連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,434 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 328/574 id=329 name=35.6cm連装砲改二 status=parsed[0m
+[32m2026-07-15 17:01:30,441 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 329/574 id=330 name=16inch Mk.I連装砲 status=parsed[0m
+[32m2026-07-15 17:01:30,449 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 330/574 id=331 name=16inch Mk.V連装砲 status=parsed[0m
+[32m2026-07-15 17:01:30,456 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 331/574 id=332 name=16inch Mk.VIII連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,466 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 332/574 id=333 name=烈風改 status=parsed[0m
+[32m2026-07-15 17:01:30,473 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 333/574 id=334 name=烈風改(三五二空/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,482 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 334/574 id=335 name=烈風改(試製艦載型) status=parsed[0m
+[32m2026-07-15 17:01:30,490 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 335/574 id=336 name=烈風改二 status=parsed[0m
+[32m2026-07-15 17:01:30,498 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 337/574 id=338 name=烈風改二戊型 status=parsed[0m
+[32m2026-07-15 17:01:30,506 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 338/574 id=339 name=烈風改二戊型(一航戦/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,513 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 339/574 id=340 name=152mm/55 三連装速射砲 status=parsed[0m
+[32m2026-07-15 17:01:30,520 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 340/574 id=341 name=152mm/55 三連装速射砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,530 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 341/574 id=342 name=流星改(一航戦) status=parsed[0m
+[32m2026-07-15 17:01:30,539 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 342/574 id=343 name=流星改(一航戦/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,549 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 343/574 id=344 name=九七式艦攻改 試製三号戊型(空六号電探改装備機) status=parsed[0m
+[32m2026-07-15 17:01:30,559 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 344/574 id=345 name=九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機) status=parsed[0m
+[32m2026-07-15 17:01:30,570 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 345/574 id=346 name=二式12cm迫撃砲改 status=parsed[0m
+[32m2026-07-15 17:01:30,578 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 346/574 id=347 name=二式12cm迫撃砲改 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:30,587 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 347/574 id=348 name=艦載型 四式20cm対地噴進砲 status=parsed[0m
+[32m2026-07-15 17:01:30,596 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 348/574 id=349 name=四式20cm対地噴進砲 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:30,610 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 349/574 id=350 name=Me163B status=parsed[0m
+[32m2026-07-15 17:01:30,630 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 350/574 id=351 name=試製 秋水 status=parsed[0m
+[32m2026-07-15 17:01:30,645 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 351/574 id=352 name=秋水 status=parsed[0m
+[32m2026-07-15 17:01:30,655 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 352/574 id=353 name=Fw190 A-5改(熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,664 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 353/574 id=354 name=Fw190 D-9 status=parsed[0m
+[32m2026-07-15 17:01:30,677 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 354/574 id=355 name=M4A1 DD status=parsed[0m
+[32m2026-07-15 17:01:30,724 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 355/574 id=356 name=8inch三連装砲 Mk.9 status=parsed[0m
+[32m2026-07-15 17:01:30,733 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 356/574 id=357 name=8inch三連装砲 Mk.9 mod.2 status=parsed[0m
+[32m2026-07-15 17:01:30,741 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 357/574 id=358 name=5inch 単装高角砲群 status=parsed[0m
+[32m2026-07-15 17:01:30,752 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 358/574 id=359 name=6inch 連装速射砲 Mk.XXI status=fallback[0m
+[32m2026-07-15 17:01:30,762 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 359/574 id=360 name=Bofors 15cm連装速射砲 Mk.9 Model 1938 status=parsed[0m
+[32m2026-07-15 17:01:30,770 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 360/574 id=361 name=Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938 status=parsed[0m
+[32m2026-07-15 17:01:30,779 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 361/574 id=362 name=5inch連装両用砲(集中配備) status=parsed[0m
+[32m2026-07-15 17:01:30,788 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 362/574 id=363 name=GFCS Mk.37+5inch連装両用砲(集中配備) status=parsed[0m
+[32m2026-07-15 17:01:30,795 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 363/574 id=364 name=甲標的 丁型改(蛟龍改) status=parsed[0m
+[32m2026-07-15 17:01:30,803 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 364/574 id=365 name=一式徹甲弾改 status=parsed[0m
+[32m2026-07-15 17:01:30,816 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 365/574 id=366 name=12.7cm連装砲D型改三 status=parsed[0m
+[32m2026-07-15 17:01:30,826 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 366/574 id=367 name=Swordfish(水上機型) status=parsed[0m
+[32m2026-07-15 17:01:30,835 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 367/574 id=368 name=Swordfish Mk.III改(水上機型) status=parsed[0m
+[32m2026-07-15 17:01:30,843 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 368/574 id=369 name=Swordfish Mk.III改(水上機型/熟練) status=parsed[0m
+[32m2026-07-15 17:01:30,853 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 369/574 id=370 name=Swordfish Mk.II改(水偵型) status=parsed[0m
+[32m2026-07-15 17:01:30,861 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 370/574 id=371 name=Fairey Seafox改 status=parsed[0m
+[32m2026-07-15 17:01:30,873 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 371/574 id=372 name=天山一二型甲 status=parsed[0m
+[32m2026-07-15 17:01:30,885 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 372/574 id=373 name=天山一二型甲改(空六号電探改装備機) status=parsed[0m
+[32m2026-07-15 17:01:30,898 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 373/574 id=374 name=天山一二型甲改(熟練/空六号電探改装備機) status=parsed[0m
+[32m2026-07-15 17:01:30,908 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 374/574 id=375 name=XF5U status=parsed[0m
+[32m2026-07-15 17:01:30,918 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 375/574 id=376 name=533mm五連装魚雷(後期型) status=parsed[0m
+[32m2026-07-15 17:01:30,929 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 376/574 id=377 name=RUR-4A Weapon Alpha改 status=parsed[0m
+[32m2026-07-15 17:01:30,948 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 377/574 id=378 name=対潜短魚雷(試作初期型) status=fallback[0m
+[32m2026-07-15 17:01:30,964 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 378/574 id=379 name=12.7cm単装高角砲改二 status=parsed[0m
+[32m2026-07-15 17:01:30,977 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 379/574 id=380 name=12.7cm連装高角砲改二 status=parsed[0m
+[32m2026-07-15 17:01:30,988 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 380/574 id=381 name=16inch三連装砲 Mk.6 status=parsed[0m
+[32m2026-07-15 17:01:31,000 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 381/574 id=382 name=12cm単装高角砲E型 status=parsed[0m
+[32m2026-07-15 17:01:31,009 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 382/574 id=383 name=後期型53cm艦首魚雷(8門) status=parsed[0m
+[32m2026-07-15 17:01:31,021 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 383/574 id=384 name=後期型潜水艦搭載電探&逆探 status=parsed[0m
+[32m2026-07-15 17:01:31,036 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 384/574 id=385 name=16inch三連装砲 Mk.6 mod.2 status=parsed[0m
+[32m2026-07-15 17:01:31,047 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 385/574 id=386 name=6inch三連装速射砲 Mk.16 status=parsed[0m
+[32m2026-07-15 17:01:31,058 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 386/574 id=387 name=6inch三連装速射砲 Mk.16 mod.2 status=parsed[0m
+[32m2026-07-15 17:01:31,072 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 387/574 id=388 name=銀河(江草隊) status=parsed[0m
+[32m2026-07-15 17:01:31,085 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 388/574 id=389 name=TBM-3W+3S status=parsed[0m
+[32m2026-07-15 17:01:31,094 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 389/574 id=390 name=16inch三連装砲 Mk.6+GFCS status=parsed[0m
+[32m2026-07-15 17:01:31,102 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 390/574 id=391 name=九九式艦爆二二型 status=parsed[0m
+[32m2026-07-15 17:01:31,111 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 391/574 id=392 name=九九式艦爆二二型(熟練) status=parsed[0m
+[32m2026-07-15 17:01:31,119 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 392/574 id=393 name=120mm/50 連装砲 mod.1936 status=parsed[0m
+[32m2026-07-15 17:01:31,127 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 393/574 id=394 name=120mm/50 連装砲改 A.mod.1937 status=parsed[0m
+[32m2026-07-15 17:01:31,137 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 394/574 id=395 name=深山 status=parsed[0m
+[32m2026-07-15 17:01:31,146 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 395/574 id=396 name=深山改 status=parsed[0m
+[32m2026-07-15 17:01:31,154 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 396/574 id=397 name=現地改装12.7cm連装高角砲 status=parsed[0m
+[32m2026-07-15 17:01:31,164 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 397/574 id=398 name=現地改装10cm連装高角砲 status=parsed[0m
+[32m2026-07-15 17:01:31,176 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 398/574 id=399 name=6inch Mk.XXIII三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:31,186 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 399/574 id=400 name=533mm 三連装魚雷(53-39型) status=parsed[0m
+[32m2026-07-15 17:01:31,196 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 400/574 id=401 name=Do 17 Z-2 status=parsed[0m
+[32m2026-07-15 17:01:31,204 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 401/574 id=402 name=寒冷地装備&甲板要員 status=parsed[0m
+[32m2026-07-15 17:01:31,214 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 402/574 id=403 name=四式重爆 飛龍 status=parsed[0m
+[32m2026-07-15 17:01:31,222 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 403/574 id=404 name=四式重爆 飛龍(熟練) status=parsed[0m
+[32m2026-07-15 17:01:31,232 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 404/574 id=405 name=Do 217 E-5+Hs293初期型 status=parsed[0m
+[32m2026-07-15 17:01:31,242 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 405/574 id=406 name=Do 217 K-2+Fritz-X status=parsed[0m
+[32m2026-07-15 17:01:31,251 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 406/574 id=407 name=15.2cm連装砲改二 status=parsed[0m
+[32m2026-07-15 17:01:31,264 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 407/574 id=408 name=装甲艇(AB艇) status=parsed[0m
+[32m2026-07-15 17:01:31,274 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 408/574 id=409 name=武装大発 status=parsed[0m
+[32m2026-07-15 17:01:31,284 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 409/574 id=410 name=21号対空電探改二 status=parsed[0m
+[32m2026-07-15 17:01:31,295 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 410/574 id=411 name=42号対空電探改二 status=parsed[0m
+[32m2026-07-15 17:01:31,305 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 411/574 id=412 name=水雷戦隊 熟練見張員 status=parsed[0m
+[32m2026-07-15 17:01:31,316 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 412/574 id=413 name=精鋭水雷戦隊 司令部 status=parsed[0m
+[32m2026-07-15 17:01:31,326 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 413/574 id=414 name=SOC Seagull status=parsed[0m
+[32m2026-07-15 17:01:31,334 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 414/574 id=415 name=SO3C Seamew改 status=parsed[0m
+[32m2026-07-15 17:01:31,343 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 415/574 id=416 name=零式艦戦21型(台南空) status=parsed[0m
+[32m2026-07-15 17:01:31,351 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 416/574 id=417 name=零式艦戦32型(台南空) status=parsed[0m
+[32m2026-07-15 17:01:31,358 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 417/574 id=418 name=零式艦戦22型(251空) status=parsed[0m
+[32m2026-07-15 17:01:31,368 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 418/574 id=419 name=SBD-5 status=parsed[0m
+[32m2026-07-15 17:01:31,387 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 419/574 id=420 name=SB2C-3 status=parsed[0m
+[32m2026-07-15 17:01:31,398 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 420/574 id=421 name=SB2C-5 status=parsed[0m
+[32m2026-07-15 17:01:31,408 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 421/574 id=422 name=FR-1 Fireball status=parsed[0m
+[32m2026-07-15 17:01:31,416 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 422/574 id=423 name=Fulmar(戦闘偵察/熟練) status=parsed[0m
+[32m2026-07-15 17:01:31,425 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 423/574 id=424 name=Barracuda Mk.II status=parsed[0m
+[32m2026-07-15 17:01:31,433 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 424/574 id=425 name=Barracuda Mk.III status=parsed[0m
+[32m2026-07-15 17:01:31,440 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 425/574 id=426 name=305mm/46 連装砲 status=parsed[0m
+[32m2026-07-15 17:01:31,447 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 426/574 id=427 name=305mm/46 三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:31,455 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 427/574 id=428 name=320mm/44 連装砲 status=parsed[0m
+[32m2026-07-15 17:01:31,465 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 428/574 id=429 name=320mm/44 三連装砲 status=fallback[0m
+[32m2026-07-15 17:01:31,473 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 429/574 id=430 name=65mm/64 単装速射砲改 status=fallback[0m
+[32m2026-07-15 17:01:31,481 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 430/574 id=431 name=SM.79 status=parsed[0m
+[32m2026-07-15 17:01:31,489 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 431/574 id=432 name=SM.79 bis status=parsed[0m
+[32m2026-07-15 17:01:31,496 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 432/574 id=433 name=SM.79 bis(熟練) status=parsed[0m
+[32m2026-07-15 17:01:31,507 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 433/574 id=434 name=Corsair Mk.II status=fallback[0m
+[32m2026-07-15 17:01:31,518 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 434/574 id=435 name=Corsair Mk.II(Ace) status=fallback[0m
+[32m2026-07-15 17:01:31,528 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 435/574 id=436 name=大発動艇(II号戦車/北アフリカ仕様) status=parsed[0m
+[32m2026-07-15 17:01:31,537 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 436/574 id=437 name=試製 陣風 status=parsed[0m
+[32m2026-07-15 17:01:31,546 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 437/574 id=438 name=三式水中探信儀改 status=parsed[0m
+[32m2026-07-15 17:01:31,555 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 438/574 id=439 name=Hedgehog(初期型) status=parsed[0m
+[32m2026-07-15 17:01:31,563 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 439/574 id=440 name=21inch艦首魚雷発射管6門(初期型) status=parsed[0m
+[32m2026-07-15 17:01:31,571 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 440/574 id=441 name=21inch艦首魚雷発射管6門(後期型) status=parsed[0m
+[32m2026-07-15 17:01:31,578 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 441/574 id=442 name=潜水艦後部魚雷発射管4門(初期型) status=parsed[0m
+[32m2026-07-15 17:01:31,586 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 442/574 id=443 name=潜水艦後部魚雷発射管4門(後期型) status=parsed[0m
+[32m2026-07-15 17:01:31,595 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 443/574 id=444 name=四式重爆 飛龍+イ号一型甲 誘導弾 status=parsed[0m
+[32m2026-07-15 17:01:31,604 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 444/574 id=445 name=二式複戦 屠龍 status=parsed[0m
+[32m2026-07-15 17:01:31,613 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 445/574 id=446 name=二式複戦 屠龍 丙型 status=parsed[0m
+[32m2026-07-15 17:01:31,621 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 446/574 id=447 name=零式艦戦64型(複座KMX搭載機) status=parsed[0m
+[32m2026-07-15 17:01:31,632 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 447/574 id=449 name=特大発動艇+一式砲戦車 status=parsed[0m
+[32m2026-07-15 17:01:31,642 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 448/574 id=450 name=13号対空電探改(後期型) status=parsed[0m
+[32m2026-07-15 17:01:31,650 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 449/574 id=451 name=三式指揮連絡機改 status=parsed[0m
+[32m2026-07-15 17:01:31,659 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 450/574 id=452 name=キ96 status=parsed[0m
+[32m2026-07-15 17:01:31,667 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 451/574 id=453 name=キ102乙 status=parsed[0m
+[32m2026-07-15 17:01:31,675 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 452/574 id=454 name=キ102乙改+イ号一型乙 誘導弾 status=parsed[0m
+[32m2026-07-15 17:01:31,684 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 453/574 id=455 name=試製 長12.7cm連装砲A型改四 status=parsed[0m
+[32m2026-07-15 17:01:31,692 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 454/574 id=456 name=SG レーダー(後期型) status=parsed[0m
+[32m2026-07-15 17:01:31,700 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 455/574 id=457 name=後期型艦首魚雷(4門) status=parsed[0m
+[32m2026-07-15 17:01:31,709 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 456/574 id=458 name=後期型電探&逆探+シュノーケル装備 status=parsed[0m
+[32m2026-07-15 17:01:31,718 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 457/574 id=459 name=B-25 status=parsed[0m
+[32m2026-07-15 17:01:31,728 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 458/574 id=460 name=15m二重測距儀改+21号電探改二+熟練射撃指揮所 status=parsed[0m
+[32m2026-07-15 17:01:31,738 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 459/574 id=461 name=熟練聴音員+後期型艦首魚雷(4門) status=parsed[0m
+[32m2026-07-15 17:01:31,749 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 460/574 id=463 name=15.5cm三連装副砲改二 status=parsed[0m
+[32m2026-07-15 17:01:31,759 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 461/574 id=464 name=10cm連装高角砲群 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:31,770 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 462/574 id=465 name=試製51cm三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:31,786 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 463/574 id=466 name=流星改(熟練) status=parsed[0m
+[32m2026-07-15 17:01:31,794 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 464/574 id=467 name=5inch連装砲(副砲配置) 集中配備 status=parsed[0m
+[32m2026-07-15 17:01:31,804 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 465/574 id=468 name=38cm四連装砲改 deux status=parsed[0m
+[32m2026-07-15 17:01:31,818 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 466/574 id=469 name=零式水上偵察機11型乙改(夜偵) status=parsed[0m
+[32m2026-07-15 17:01:31,830 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 467/574 id=470 name=12.7cm連装砲C型改三 status=parsed[0m
+[32m2026-07-15 17:01:31,840 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 468/574 id=471 name=Loire 130M status=parsed[0m
+[32m2026-07-15 17:01:31,851 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 469/574 id=472 name=Mk.32 対潜魚雷(Mk.2落射機) status=parsed[0m
+[32m2026-07-15 17:01:31,861 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 470/574 id=473 name=F4U-2 Night Corsair status=parsed[0m
+[32m2026-07-15 17:01:31,876 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 471/574 id=474 name=F4U-4 status=parsed[0m
+[32m2026-07-15 17:01:31,895 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 472/574 id=475 name=AU-1 status=parsed[0m
+[32m2026-07-15 17:01:31,909 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 473/574 id=476 name=F4U-7 status=parsed[0m
+[32m2026-07-15 17:01:31,924 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 474/574 id=477 name=熟練甲板要員 status=parsed[0m
+[32m2026-07-15 17:01:31,934 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 475/574 id=478 name=熟練甲板要員+航空整備員 status=parsed[0m
+[32m2026-07-15 17:01:31,946 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 476/574 id=479 name=Mosquito FB Mk.VI status=parsed[0m
+[32m2026-07-15 17:01:31,952 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 477/574 id=480 name=Mosquito PR Mk.IV status=parsed[0m
+[32m2026-07-15 17:01:31,963 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 478/574 id=481 name=Mosquito TR Mk.33 status=parsed[0m
+[32m2026-07-15 17:01:31,985 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 479/574 id=482 name=特大発動艇+Ⅲ号戦車(北アフリカ仕様) status=parsed[0m
+[32m2026-07-15 17:01:32,007 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 480/574 id=483 name=三式弾改二 status=parsed[0m
+[32m2026-07-15 17:01:32,058 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 481/574 id=484 name=四式重爆 飛龍(熟練)+イ号一型甲 誘導弾 status=parsed[0m
+[32m2026-07-15 17:01:32,070 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 482/574 id=485 name=強風改二 status=parsed[0m
+[32m2026-07-15 17:01:32,079 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 483/574 id=486 name=零式艦戦64型(制空戦闘機仕様) status=parsed[0m
+[32m2026-07-15 17:01:32,123 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 484/574 id=487 name=零式艦戦64型(熟練爆戦) status=parsed[0m
+[32m2026-07-15 17:01:32,149 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 485/574 id=488 name=二式爆雷改二 status=parsed[0m
+[32m2026-07-15 17:01:32,159 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 486/574 id=489 name=一式戦 隼II型改(20戦隊) status=parsed[0m
+[32m2026-07-15 17:01:32,203 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 487/574 id=490 name=試製 夜間瑞雲(攻撃装備) status=parsed[0m
+[32m2026-07-15 17:01:32,213 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 488/574 id=491 name=一式戦 隼III型改(熟練/20戦隊) status=parsed[0m
+[32m2026-07-15 17:01:32,222 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 489/574 id=492 name=零戦52型丙(八幡部隊) status=parsed[0m
+[32m2026-07-15 17:01:32,235 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 490/574 id=493 name=一式陸攻(八幡部隊) status=parsed[0m
+[32m2026-07-15 17:01:32,256 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 491/574 id=494 name=特大発動艇+チハ status=parsed[0m
+[32m2026-07-15 17:01:32,271 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 492/574 id=495 name=特大発動艇+チハ改 status=parsed[0m
+[32m2026-07-15 17:01:32,281 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 493/574 id=496 name=陸軍歩兵部隊 status=parsed[0m
+[32m2026-07-15 17:01:32,306 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 494/574 id=497 name=九七式中戦車(チハ) status=parsed[0m
+[32m2026-07-15 17:01:32,314 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 495/574 id=498 name=九七式中戦車 新砲塔(チハ改) status=parsed[0m
+[32m2026-07-15 17:01:32,324 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 496/574 id=499 name=陸軍歩兵部隊+チハ改 status=parsed[0m
+[32m2026-07-15 17:01:32,337 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 497/574 id=500 name=発煙装置(煙幕) status=parsed[0m
+[32m2026-07-15 17:01:32,349 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 498/574 id=501 name=発煙装置改(煙幕) status=parsed[0m
+[32m2026-07-15 17:01:32,367 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 499/574 id=502 name=35.6cm連装砲改三(ダズル迷彩仕様) status=parsed[0m
+[32m2026-07-15 17:01:32,377 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 500/574 id=503 name=35.6cm連装砲改四 status=parsed[0m
+[32m2026-07-15 17:01:32,415 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 501/574 id=504 name=銀河(熟練) status=parsed[0m
+[32m2026-07-15 17:01:32,458 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 502/574 id=505 name=25mm対空機銃増備 status=parsed[0m
+[32m2026-07-15 17:01:32,467 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 503/574 id=506 name=電探装備マスト(13号改+22号電探改四) status=parsed[0m
+[32m2026-07-15 17:01:32,476 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 504/574 id=507 name=14inch/45 連装砲 status=parsed[0m
+[32m2026-07-15 17:01:32,485 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 505/574 id=508 name=14inch/45 三連装砲 status=parsed[0m
+[32m2026-07-15 17:01:32,495 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 506/574 id=509 name=12cm単装高角砲E型改 status=parsed[0m
+[32m2026-07-15 17:01:32,504 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 507/574 id=510 name=Walrus status=parsed[0m
+[32m2026-07-15 17:01:32,515 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 508/574 id=511 name=21inch艦首魚雷発射管4門(初期型) status=parsed[0m
+[32m2026-07-15 17:01:32,523 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 509/574 id=512 name=21inch艦首魚雷発射管4門(後期型) status=parsed[0m
+[32m2026-07-15 17:01:32,530 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 510/574 id=513 name=阻塞気球 status=parsed[0m
+[32m2026-07-15 17:01:32,542 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 511/574 id=514 name=特大発動艇+Ⅲ号戦車J型 status=parsed[0m
+[32m2026-07-15 17:01:32,549 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 512/574 id=515 name=Sea Otter status=parsed[0m
+[32m2026-07-15 17:01:32,559 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 513/574 id=516 name=Me 262 A-1a/R1 status=parsed[0m
+[32m2026-07-15 17:01:32,568 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 514/574 id=517 name=逆探(E27)+22号対水上電探改四(後期調整型) status=parsed[0m
+[32m2026-07-15 17:01:32,577 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 515/574 id=518 name=14cm連装砲改二 status=parsed[0m
+[32m2026-07-15 17:01:32,586 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 516/574 id=519 name=SJレーダー+潜水艦司令塔装備 status=parsed[0m
+[32m2026-07-15 17:01:32,596 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 517/574 id=520 name=試製20.3cm(4号)連装砲 status=parsed[0m
+[32m2026-07-15 17:01:32,604 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 518/574 id=521 name=紫雲(熟練) status=parsed[0m
+[32m2026-07-15 17:01:32,614 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 519/574 id=522 name=零式小型水上機 status=parsed[0m
+[32m2026-07-15 17:01:32,623 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 520/574 id=523 name=零式小型水上機(熟練) status=parsed[0m
+[32m2026-07-15 17:01:32,632 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 521/574 id=524 name=12cm単装高角砲+25mm機銃増備 status=parsed[0m
+[32m2026-07-15 17:01:32,644 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 522/574 id=525 name=特四式内火艇 status=parsed[0m
+[32m2026-07-15 17:01:32,655 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 523/574 id=526 name=特四式内火艇改 status=parsed[0m
+[32m2026-07-15 17:01:32,665 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 524/574 id=527 name=Type281 レーダー status=parsed[0m
+[32m2026-07-15 17:01:32,673 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 525/574 id=528 name=Type274 射撃管制レーダー status=parsed[0m
+[32m2026-07-15 17:01:32,685 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 526/574 id=529 name=12.7cm連装砲C型改三H status=parsed[0m
+[32m2026-07-15 17:01:32,696 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 527/574 id=530 name=35.6cm連装砲改三丙 status=parsed[0m
+[32m2026-07-15 17:01:32,704 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 528/574 id=531 name=艦隊通信アンテナ status=parsed[0m
+[32m2026-07-15 17:01:32,712 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 529/574 id=532 name=通信装置&要員 status=parsed[0m
+[32m2026-07-15 17:01:32,723 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 530/574 id=533 name=10cm連装高角砲改+高射装置改 status=parsed[0m
+[32m2026-07-15 17:01:32,734 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 531/574 id=534 name=13.8cm連装砲 status=parsed[0m
+[32m2026-07-15 17:01:32,742 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 532/574 id=535 name=13.8cm連装砲改 status=parsed[0m
+[32m2026-07-15 17:01:32,751 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 533/574 id=536 name=15.2cm三連装主砲 status=parsed[0m
+[32m2026-07-15 17:01:32,759 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 534/574 id=537 name=15.2cm三連装主砲改 status=parsed[0m
+[32m2026-07-15 17:01:32,768 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 535/574 id=538 name=Loire 130M改(熟練) status=parsed[0m
+[32m2026-07-15 17:01:32,777 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 536/574 id=539 name=SOC Seagull 後期型(熟練) status=parsed[0m
+[32m2026-07-15 17:01:32,787 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 537/574 id=540 name=零式水上偵察機11型甲改二 status=parsed[0m
+[32m2026-07-15 17:01:32,795 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 538/574 id=541 name=SBD(Yellow Wings) status=parsed[0m
+[32m2026-07-15 17:01:32,805 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 539/574 id=542 name=TBD(Yellow Wings) status=parsed[0m
+[32m2026-07-15 17:01:32,814 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 540/574 id=543 name=SBD VS-2(偵察飛行隊) status=parsed[0m
+[32m2026-07-15 17:01:32,823 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 541/574 id=544 name=SBD VB-2(爆撃飛行隊) status=parsed[0m
+[32m2026-07-15 17:01:32,834 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 542/574 id=545 name=天山一二型甲改二(村田隊/電探装備) status=parsed[0m
+[32m2026-07-15 17:01:32,846 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 543/574 id=546 name=試製 震電(局地戦闘機) status=parsed[0m
+[32m2026-07-15 17:01:32,856 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 544/574 id=547 name=震電改二(艦戦型改二) status=parsed[0m
+[32m2026-07-15 17:01:32,867 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 545/574 id=548 name=震電改三(試製 噴式震電) status=parsed[0m
+[32m2026-07-15 17:01:32,920 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 546/574 id=549 name=三式指揮連絡機改二 status=parsed[0m
+[32m2026-07-15 17:01:32,930 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 547/574 id=550 name=試製 明星(増加試作機) status=parsed[0m
+[32m2026-07-15 17:01:32,939 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 548/574 id=551 name=明星改 status=parsed[0m
+[32m2026-07-15 17:01:32,949 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 549/574 id=552 name=九九式練爆二二型改(夜間装備実験機) status=parsed[0m
+[32m2026-07-15 17:01:32,959 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 550/574 id=553 name=10cm連装高角砲改 status=parsed[0m
+[32m2026-07-15 17:01:32,969 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 551/574 id=554 name=九七式艦攻改(北東海軍航空隊) status=parsed[0m
+[32m2026-07-15 17:01:32,977 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 552/574 id=555 name=18cm/57 三連装主砲 status=parsed[0m
+[32m2026-07-15 17:01:32,984 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 553/574 id=556 name=10cm/56 単装高角砲(集中配備) status=parsed[0m
+[32m2026-07-15 17:01:32,995 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 554/574 id=557 name=零式艦戦62型改(夜間爆戦) status=parsed[0m
+[32m2026-07-15 17:01:33,004 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 555/574 id=558 name=零式艦戦62型改(熟練/夜間爆戦) status=parsed[0m
+[32m2026-07-15 17:01:33,019 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 556/574 id=559 name=Ju87 D-4(Fliegerass) status=parsed[0m
+[32m2026-07-15 17:01:33,028 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 557/574 id=560 name=Bf109 T-3(G) status=parsed[0m
+[32m2026-07-15 17:01:33,038 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 558/574 id=561 name=Ho229 status=parsed[0m
+[32m2026-07-15 17:01:33,047 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 559/574 id=562 name=Do 217 E-5+TV誘導型 Hs293D status=parsed[0m
+[32m2026-07-15 17:01:33,055 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 560/574 id=564 name=21cm単装主砲 status=parsed[0m
+[32m2026-07-15 17:01:33,062 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 561/574 id=565 name=15cm単装副砲 status=parsed[0m
+[32m2026-07-15 17:01:33,069 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 562/574 id=566 name=10.2cm三連装副砲 status=parsed[0m
+[32m2026-07-15 17:01:33,076 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 563/574 id=567 name=Sea Gladiator status=parsed[0m
+[32m2026-07-15 17:01:33,083 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 564/574 id=568 name=強風改二(熟練) status=parsed[0m
+[32m2026-07-15 17:01:33,090 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 565/574 id=569 name=三式爆雷投射機改 status=parsed[0m
+[32m2026-07-15 17:01:33,103 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 566/574 id=570 name=流星改(友永隊) status=parsed[0m
+[32m2026-07-15 17:01:33,111 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 567/574 id=571 name=53cm連装魚雷改(酸素魚雷) status=parsed[0m
+[32m2026-07-15 17:01:33,129 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 568/574 id=572 name=12.7cm単装高角砲改三 status=parsed[0m
+[32m2026-07-15 17:01:33,139 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 569/574 id=573 name=試製 23号電探改三 status=parsed[0m
+[32m2026-07-15 17:01:33,150 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 570/574 id=574 name=SCレーダー改(後期調整型) status=parsed[0m
+[32m2026-07-15 17:01:33,158 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 571/574 id=575 name=25mm連装機銃(熟練機銃員分隊) status=parsed[0m
+[32m2026-07-15 17:01:33,172 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] 572/574 id=576 name=大発動艇(R35&フランス兵) status=parsed[0m
+[32m2026-07-15 17:01:33,172 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] page parsing complete; records=571 issues=923 referenceIssues=852[0m
+[32m2026-07-15 17:01:33,172 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] building metadata and output datasets[0m
+[32m2026-07-15 17:01:33,175 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] writing acquisition records, diagnostics, and metadata[0m
+[32m2026-07-15 17:01:33,244 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] output write complete; operatorStops=0[0m
+[32m2026-07-15 17:01:33,244 [INFO] [service.data_package.equipment_acquisition_raw_parse] [equipment acquisition offline] strict reference gate passed[0m
+[32m2026-07-15 17:01:33,288 [INFO] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] rebuilt from local raw cache and validated; records=571[0m
+[33m2026-07-15 17:01:33,353 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/audit/build-report.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/manifest.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/manifest.json (mode=w)
+[32m2026-07-15 17:01:33,914 [INFO] [service.data_package.builder] [data package] built /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data[0m
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm run check
+
+> @sakura2333/kancolle-data@0.5.1 check
+> node -e "const d=require('./');const fs=require('fs');const m=JSON.parse(fs.readFileSync(d.manifestPath));for(const p of [d.manifestPath,d.releasesPath,d.improvement.listPath,d.improvement.detailPath,d.equipment.dropFromPath,d.equipment.sourcesPath,d.equipment.specialBonusesPath,d.schemas.improvementDetailPath,d.schemas.equipmentSourcesPath])if(!fs.existsSync(p))throw new Error('missing '+p);if(m.datasets.improvement.schemaVersion!==4)throw new Error('unexpected improvement schema');if(m.datasets.equipmentSources.schemaVersion!==2)throw new Error('unexpected equipment sources schema');if(m.datasets.equipmentSpecialBonuses.schemaVersion!==2)throw new Error('unexpected special bonus schema');if(!m.datasets.useitemIcons||m.datasets.useitemIcons.schemaVersion!==2||m.datasets.useitemIcons.format!=='webp'||m.datasets.useitemIcons.quality!==93)throw new Error('unexpected useitem image manifest');if((m.datasets.useitemIcons.missingIds||[]).length)throw new Error('missing useitem images');for(const id of m.datasets.useitemIcons.requiredIds||[])if(!fs.existsSync(d.assets.useitemPath(id)))throw new Error('missing useitem image '+id);if(!m.datasets.equipmentImages||m.datasets.equipmentImages.schemaVersion!==2)throw new Error('missing equipment image manifest');for(const id of m.datasets.equipmentImages.availableIds||[])if(!fs.existsSync(d.assets.equipmentPath(id)))throw new Error('missing equipment image '+id)"
+
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm run check:fresh
+
+> @sakura2333/kancolle-data@0.5.1 check:fresh
+> node scripts/check-fresh.js
+
+source freshness checks passed
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/check.py after
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m compileall -q automation configs service util script
+[完成] 项目 after 检查通过
+$ git status --short
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm pack --dry-run --json
+[source reliability] advisory-only; canonical election unchanged
+[source reliability] source=akashi-list, weight=1.0267, confidence=medium, currentConsistency=0.940207, historyEvents=0, historyApplied=false
+[source reliability] source=kcwiki-data, weight=0.9387, confidence=medium, currentConsistency=0.859560, historyEvents=0, historyApplied=false
+[source reliability] source=wikiwiki-jp, weight=1.0346, confidence=medium, currentConsistency=0.947413, historyEvents=0, historyApplied=false
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "generatedAt": "2026-07-15T09:01:36+00:00",
+  "mode": "local-strict-validation",
+  "packageVersion": "0.5.1",
+  "datasetCount": 7,
+  "npmPack": {
+    "id": "@sakura2333/kancolle-data@0.5.1",
+    "name": "@sakura2333/kancolle-data",
+    "version": "0.5.1",
+    "size": 24993290,
+    "unpackedSize": 28738065,
+    "shasum": "b0a1a28454bd0da873a4b1f0c1fd60d2a5ec775d",
+    "integrity": "sha512-/hCGRSOiSnOH1PBUorfNMj4gFd3pwZWdjp6fPXN/AoNl9Uc2oCv7vPoUVW8p9fwASCB7uU90GHaGjDSoYyyjSg==",
+    "filename": "sakura2333-kancolle-data-0.5.1.tgz",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "size": 4590,
+        "mode": 420
+      },
+      {
+        "path": "LICENSES.md",
+        "size": 412,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 3199,
+        "mode": 420
+      },
+      {
+        "path": "RELEASES.json",
+        "size": 795,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/1.webp",
+        "size": 39506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/2.webp",
+        "size": 46324,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/3.webp",
+        "size": 65612,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/4.webp",
+        "size": 40496,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/5.webp",
+        "size": 63258,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/6.webp",
+        "size": 64868,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/7.webp",
+        "size": 44026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/8.webp",
+        "size": 65966,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/9.webp",
+        "size": 52420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/10.webp",
+        "size": 49018,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/11.webp",
+        "size": 45720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/12.webp",
+        "size": 65924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/13.webp",
+        "size": 48258,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/14.webp",
+        "size": 47720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/15.webp",
+        "size": 65952,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/16.webp",
+        "size": 44150,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/17.webp",
+        "size": 62002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/18.webp",
+        "size": 50574,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/19.webp",
+        "size": 47048,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/20.webp",
+        "size": 47522,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/21.webp",
+        "size": 66512,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/22.webp",
+        "size": 52886,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/23.webp",
+        "size": 45002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/24.webp",
+        "size": 64070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/25.webp",
+        "size": 48858,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/26.webp",
+        "size": 66176,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/27.webp",
+        "size": 65756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/28.webp",
+        "size": 65884,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/29.webp",
+        "size": 46512,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/30.webp",
+        "size": 66148,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/31.webp",
+        "size": 46300,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/32.webp",
+        "size": 61414,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/33.webp",
+        "size": 48728,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/34.webp",
+        "size": 62344,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/35.webp",
+        "size": 60566,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/36.webp",
+        "size": 47954,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/37.webp",
+        "size": 45004,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/38.webp",
+        "size": 47800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/39.webp",
+        "size": 69006,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/40.webp",
+        "size": 68760,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/41.webp",
+        "size": 45890,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/44.webp",
+        "size": 46888,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/45.webp",
+        "size": 49464,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/46.webp",
+        "size": 53096,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/47.webp",
+        "size": 58250,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/48.webp",
+        "size": 44888,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/49.webp",
+        "size": 65660,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/50.webp",
+        "size": 61848,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/51.webp",
+        "size": 67948,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/52.webp",
+        "size": 52002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/53.webp",
+        "size": 52586,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/54.webp",
+        "size": 46134,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/55.webp",
+        "size": 49140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/57.webp",
+        "size": 52766,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/58.webp",
+        "size": 54696,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/59.webp",
+        "size": 68800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/60.webp",
+        "size": 61440,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/61.webp",
+        "size": 66386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/63.webp",
+        "size": 47330,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/64.webp",
+        "size": 47454,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/65.webp",
+        "size": 66322,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/66.webp",
+        "size": 52122,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/68.webp",
+        "size": 53002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/69.webp",
+        "size": 53654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/70.webp",
+        "size": 68114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/71.webp",
+        "size": 54184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/72.webp",
+        "size": 64500,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/73.webp",
+        "size": 66446,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/74.webp",
+        "size": 44756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/75.webp",
+        "size": 52214,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/76.webp",
+        "size": 46982,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/78.webp",
+        "size": 43782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/79.webp",
+        "size": 70244,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/80.webp",
+        "size": 55782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/81.webp",
+        "size": 58838,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/82.webp",
+        "size": 65902,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/84.webp",
+        "size": 54306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/87.webp",
+        "size": 59876,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/88.webp",
+        "size": 56260,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/89.webp",
+        "size": 60232,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/90.webp",
+        "size": 69592,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/91.webp",
+        "size": 65420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/92.webp",
+        "size": 53964,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/93.webp",
+        "size": 57330,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/94.webp",
+        "size": 87306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/95.webp",
+        "size": 62974,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/96.webp",
+        "size": 55406,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/97.webp",
+        "size": 55270,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/98.webp",
+        "size": 57536,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/99.webp",
+        "size": 58366,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/100.webp",
+        "size": 85532,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/102.webp",
+        "size": 52156,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/103.webp",
+        "size": 58774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/104.webp",
+        "size": 58892,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/105.webp",
+        "size": 87756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/106.webp",
+        "size": 64364,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/109.webp",
+        "size": 58444,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/110.webp",
+        "size": 78608,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/114.webp",
+        "size": 66514,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/115.webp",
+        "size": 67682,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/116.webp",
+        "size": 48164,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/117.webp",
+        "size": 82424,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/118.webp",
+        "size": 84568,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/119.webp",
+        "size": 50438,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/120.webp",
+        "size": 51456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/121.webp",
+        "size": 68668,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/122.webp",
+        "size": 55280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/123.webp",
+        "size": 50104,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/124.webp",
+        "size": 59654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/125.webp",
+        "size": 65976,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/128.webp",
+        "size": 83782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/129.webp",
+        "size": 55910,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/130.webp",
+        "size": 58632,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/131.webp",
+        "size": 54080,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/132.webp",
+        "size": 62666,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/133.webp",
+        "size": 54770,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/134.webp",
+        "size": 55108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/135.webp",
+        "size": 51816,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/136.webp",
+        "size": 60622,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/137.webp",
+        "size": 83670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/139.webp",
+        "size": 53118,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/140.webp",
+        "size": 58844,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/141.webp",
+        "size": 56170,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/142.webp",
+        "size": 61530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/145.webp",
+        "size": 52098,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/147.webp",
+        "size": 63520,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/149.webp",
+        "size": 57518,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/150.webp",
+        "size": 66070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/151.webp",
+        "size": 82784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/152.webp",
+        "size": 52594,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/153.webp",
+        "size": 53110,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/154.webp",
+        "size": 84824,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/156.webp",
+        "size": 53016,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/157.webp",
+        "size": 84836,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/158.webp",
+        "size": 47652,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/161.webp",
+        "size": 79540,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/162.webp",
+        "size": 45590,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/163.webp",
+        "size": 52114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/164.webp",
+        "size": 59648,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/165.webp",
+        "size": 66422,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/166.webp",
+        "size": 68434,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/167.webp",
+        "size": 51320,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/168.webp",
+        "size": 47072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/169.webp",
+        "size": 66672,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/170.webp",
+        "size": 57202,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/171.webp",
+        "size": 55868,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/172.webp",
+        "size": 54812,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/174.webp",
+        "size": 45094,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/175.webp",
+        "size": 51360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/176.webp",
+        "size": 52992,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/177.webp",
+        "size": 87712,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/179.webp",
+        "size": 54940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/180.webp",
+        "size": 56814,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/181.webp",
+        "size": 66570,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/182.webp",
+        "size": 57068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/183.webp",
+        "size": 81418,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/184.webp",
+        "size": 53702,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/185.webp",
+        "size": 55068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/186.webp",
+        "size": 56184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/187.webp",
+        "size": 54208,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/189.webp",
+        "size": 84132,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/190.webp",
+        "size": 52806,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/191.webp",
+        "size": 61102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/192.webp",
+        "size": 54924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/193.webp",
+        "size": 67610,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/194.webp",
+        "size": 56044,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/195.webp",
+        "size": 63228,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/196.webp",
+        "size": 64894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/197.webp",
+        "size": 65428,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/198.webp",
+        "size": 52302,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/199.webp",
+        "size": 83634,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/201.webp",
+        "size": 50730,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/202.webp",
+        "size": 68924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/203.webp",
+        "size": 56612,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/204.webp",
+        "size": 56786,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/205.webp",
+        "size": 53598,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/206.webp",
+        "size": 80398,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/210.webp",
+        "size": 61064,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/211.webp",
+        "size": 61430,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/213.webp",
+        "size": 55746,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/215.webp",
+        "size": 78906,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/216.webp",
+        "size": 80408,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/217.webp",
+        "size": 56504,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/219.webp",
+        "size": 58108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/220.webp",
+        "size": 56914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/221.webp",
+        "size": 67440,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/222.webp",
+        "size": 55274,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/224.webp",
+        "size": 59684,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/226.webp",
+        "size": 47166,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/227.webp",
+        "size": 67360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/228.webp",
+        "size": 65912,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/229.webp",
+        "size": 66618,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/231.webp",
+        "size": 64946,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/232.webp",
+        "size": 55832,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/233.webp",
+        "size": 84200,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/234.webp",
+        "size": 55914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/235.webp",
+        "size": 54928,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/236.webp",
+        "size": 78990,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/237.webp",
+        "size": 85226,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/238.webp",
+        "size": 54370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/240.webp",
+        "size": 63674,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/241.webp",
+        "size": 66506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/242.webp",
+        "size": 65486,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/243.webp",
+        "size": 56102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/245.webp",
+        "size": 52982,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/246.webp",
+        "size": 80788,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/247.webp",
+        "size": 53166,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/248.webp",
+        "size": 63856,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/249.webp",
+        "size": 61398,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/250.webp",
+        "size": 50358,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/251.webp",
+        "size": 51540,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/252.webp",
+        "size": 50206,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/256.webp",
+        "size": 49108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/260.webp",
+        "size": 56168,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/261.webp",
+        "size": 57068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/263.webp",
+        "size": 59146,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/266.webp",
+        "size": 66534,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/267.webp",
+        "size": 56886,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/271.webp",
+        "size": 49086,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/274.webp",
+        "size": 56936,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/275.webp",
+        "size": 58708,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/276.webp",
+        "size": 54488,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/277.webp",
+        "size": 50102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/278.webp",
+        "size": 56008,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/279.webp",
+        "size": 59712,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/280.webp",
+        "size": 54184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/281.webp",
+        "size": 78280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/282.webp",
+        "size": 52606,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/283.webp",
+        "size": 66180,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/284.webp",
+        "size": 79462,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/285.webp",
+        "size": 61270,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/286.webp",
+        "size": 60918,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/287.webp",
+        "size": 80222,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/288.webp",
+        "size": 54186,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/289.webp",
+        "size": 77508,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/290.webp",
+        "size": 92882,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/293.webp",
+        "size": 63894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/294.webp",
+        "size": 64170,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/295.webp",
+        "size": 59592,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/296.webp",
+        "size": 59366,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/297.webp",
+        "size": 44384,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/298.webp",
+        "size": 52210,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/299.webp",
+        "size": 55530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/300.webp",
+        "size": 83232,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/301.webp",
+        "size": 57620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/303.webp",
+        "size": 55096,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/304.webp",
+        "size": 66698,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/307.webp",
+        "size": 54050,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/308.webp",
+        "size": 83070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/309.webp",
+        "size": 48286,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/310.webp",
+        "size": 64368,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/313.webp",
+        "size": 54104,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/314.webp",
+        "size": 69244,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/315.webp",
+        "size": 53644,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/316.webp",
+        "size": 52784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/317.webp",
+        "size": 47692,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/318.webp",
+        "size": 81182,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/320.webp",
+        "size": 52386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/322.webp",
+        "size": 83516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/324.webp",
+        "size": 50936,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/325.webp",
+        "size": 84480,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/326.webp",
+        "size": 82022,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/327.webp",
+        "size": 82336,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/328.webp",
+        "size": 51322,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/329.webp",
+        "size": 52730,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/330.webp",
+        "size": 60884,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/331.webp",
+        "size": 48100,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/332.webp",
+        "size": 52636,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/340.webp",
+        "size": 49826,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/341.webp",
+        "size": 50786,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/344.webp",
+        "size": 54504,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/345.webp",
+        "size": 63024,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/346.webp",
+        "size": 50670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/347.webp",
+        "size": 58088,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/348.webp",
+        "size": 56690,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/349.webp",
+        "size": 84854,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/356.webp",
+        "size": 64234,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/357.webp",
+        "size": 48774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/365.webp",
+        "size": 47600,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/367.webp",
+        "size": 54194,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/368.webp",
+        "size": 56468,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/370.webp",
+        "size": 54780,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/371.webp",
+        "size": 52424,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/372.webp",
+        "size": 45940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/373.webp",
+        "size": 53134,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/376.webp",
+        "size": 54122,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/379.webp",
+        "size": 48972,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/380.webp",
+        "size": 53164,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/381.webp",
+        "size": 50676,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/382.webp",
+        "size": 63640,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/383.webp",
+        "size": 51736,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/385.webp",
+        "size": 52456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/386.webp",
+        "size": 43914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/387.webp",
+        "size": 42996,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/391.webp",
+        "size": 64744,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/392.webp",
+        "size": 53250,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/393.webp",
+        "size": 48162,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/394.webp",
+        "size": 48554,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/395.webp",
+        "size": 45004,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/397.webp",
+        "size": 48428,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/398.webp",
+        "size": 48606,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/399.webp",
+        "size": 62722,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/400.webp",
+        "size": 55958,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/401.webp",
+        "size": 61390,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/403.webp",
+        "size": 49902,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/404.webp",
+        "size": 84744,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/405.webp",
+        "size": 53068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/407.webp",
+        "size": 49926,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/408.webp",
+        "size": 62582,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/409.webp",
+        "size": 66414,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/410.webp",
+        "size": 56026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/411.webp",
+        "size": 56534,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/414.webp",
+        "size": 51178,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/415.webp",
+        "size": 50780,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/419.webp",
+        "size": 46066,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/420.webp",
+        "size": 50372,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/421.webp",
+        "size": 78242,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/422.webp",
+        "size": 78484,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/423.webp",
+        "size": 51162,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/424.webp",
+        "size": 66654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/425.webp",
+        "size": 51180,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/426.webp",
+        "size": 63816,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/427.webp",
+        "size": 49370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/428.webp",
+        "size": 46990,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/429.webp",
+        "size": 49252,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/431.webp",
+        "size": 66246,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/432.webp",
+        "size": 47158,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/438.webp",
+        "size": 55940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/440.webp",
+        "size": 63516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/441.webp",
+        "size": 55386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/442.webp",
+        "size": 64038,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/443.webp",
+        "size": 58402,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/445.webp",
+        "size": 67628,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/446.webp",
+        "size": 52140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/447.webp",
+        "size": 49658,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/450.webp",
+        "size": 58860,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/451.webp",
+        "size": 50456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/452.webp",
+        "size": 51392,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/453.webp",
+        "size": 51072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/455.webp",
+        "size": 51168,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/456.webp",
+        "size": 79890,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/457.webp",
+        "size": 52280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/460.webp",
+        "size": 63354,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/463.webp",
+        "size": 52516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/464.webp",
+        "size": 82064,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/466.webp",
+        "size": 83920,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/468.webp",
+        "size": 78732,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/470.webp",
+        "size": 56370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/471.webp",
+        "size": 53620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/473.webp",
+        "size": 82962,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/474.webp",
+        "size": 81792,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/477.webp",
+        "size": 53852,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/478.webp",
+        "size": 61448,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/483.webp",
+        "size": 77068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/485.webp",
+        "size": 54932,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/486.webp",
+        "size": 50782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/487.webp",
+        "size": 52412,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/488.webp",
+        "size": 50158,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/489.webp",
+        "size": 52026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/490.webp",
+        "size": 55442,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/492.webp",
+        "size": 50784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/493.webp",
+        "size": 52146,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/496.webp",
+        "size": 58894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/500.webp",
+        "size": 45510,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/502.webp",
+        "size": 84696,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/504.webp",
+        "size": 83556,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/507.webp",
+        "size": 44092,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/508.webp",
+        "size": 64708,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/509.webp",
+        "size": 50070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/511.webp",
+        "size": 63842,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/512.webp",
+        "size": 55360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/517.webp",
+        "size": 87178,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/518.webp",
+        "size": 53072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/519.webp",
+        "size": 55774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/520.webp",
+        "size": 51610,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/522.webp",
+        "size": 47252,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/523.webp",
+        "size": 52530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/524.webp",
+        "size": 70582,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/525.webp",
+        "size": 46108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/529.webp",
+        "size": 54420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/530.webp",
+        "size": 80422,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/531.webp",
+        "size": 58576,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/532.webp",
+        "size": 68018,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/533.webp",
+        "size": 54958,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/534.webp",
+        "size": 45654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/535.webp",
+        "size": 52490,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/536.webp",
+        "size": 65390,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/537.webp",
+        "size": 53460,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/539.webp",
+        "size": 55720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/541.webp",
+        "size": 67468,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/542.webp",
+        "size": 67802,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/543.webp",
+        "size": 52616,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/544.webp",
+        "size": 52794,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/546.webp",
+        "size": 83438,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/547.webp",
+        "size": 82418,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/549.webp",
+        "size": 53340,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/550.webp",
+        "size": 65306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/551.webp",
+        "size": 45918,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/552.webp",
+        "size": 50472,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/553.webp",
+        "size": 52828,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/555.webp",
+        "size": 48416,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/559.webp",
+        "size": 49302,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/560.webp",
+        "size": 48086,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/564.webp",
+        "size": 43904,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/565.webp",
+        "size": 43506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/570.webp",
+        "size": 83678,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/572.webp",
+        "size": 51114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/573.webp",
+        "size": 86674,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/574.webp",
+        "size": 89140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/575.webp",
+        "size": 59390,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/2.webp",
+        "size": 21004,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/57.webp",
+        "size": 21436,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/70.webp",
+        "size": 29180,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/71.webp",
+        "size": 29336,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/75.webp",
+        "size": 26838,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/77.webp",
+        "size": 26598,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/78.webp",
+        "size": 27868,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/91.webp",
+        "size": 28922,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/92.webp",
+        "size": 27462,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/94.webp",
+        "size": 30414,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/95.webp",
+        "size": 26970,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/100.webp",
+        "size": 28940,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/104.webp",
+        "size": 27800,
+        "mode": 420
+      },
+      {
+        "path": "audit/build-report.json",
+        "size": 2141,
+        "mode": 420
+      },
+      {
+        "path": "equipment/drop-from.nedb",
+        "size": 360883,
+        "mode": 420
+      },
+      {
+        "path": "equipment/sources.nedb",
+        "size": 102414,
+        "mode": 420
+      },
+      {
+        "path": "equipment/special-bonuses.nedb",
+        "size": 286276,
+        "mode": 420
+      },
+      {
+        "path": "improvement/detail.nedb",
+        "size": 2951488,
+        "mode": 420
+      },
+      {
+        "path": "improvement/list.json",
+        "size": 209473,
+        "mode": 420
+      },
+      {
+        "path": "index.d.ts",
+        "size": 632,
+        "mode": 420
+      },
+      {
+        "path": "index.js",
+        "size": 1346,
+        "mode": 420
+      },
+      {
+        "path": "manifest.json",
+        "size": 76975,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2418,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-drop-from.schema.json",
+        "size": 963,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-sources.schema.json",
+        "size": 1456,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-special-bonus.schema.json",
+        "size": 1591,
+        "mode": 420
+      },
+      {
+        "path": "schemas/improvement-detail.schema.json",
+        "size": 7957,
+        "mode": 420
+      },
+      {
+        "path": "scripts/check-fresh.js",
+        "size": 1124,
+        "mode": 420
+      }
+    ],
+    "entryCount": 442,
+    "bundled": []
+  },
+  "sourceReliability": {
+    "mode": "advisory-relative-consistency",
+    "generatedAt": "2026-07-15T09:01:27+00:00",
+    "applyToCanonicalElection": false,
+    "canonicalElectionUnchanged": true,
+    "sources": [
+      {
+        "source": "akashi-list",
+        "relativeWeight": 1.0267,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.940207,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "kcwiki-data",
+        "relativeWeight": 0.9387,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.85956,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "wikiwiki-jp",
+        "relativeWeight": 1.0346,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.947413,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      }
+    ]
+  }
+}

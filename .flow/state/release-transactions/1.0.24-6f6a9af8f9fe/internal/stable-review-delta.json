@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "4a9f82b1f7c509eb1806a9baee1b2fa1a540dce0",
+  "counts": {
+    "runtime": 0,
+    "automation": 1,
+    "packageTemplate": 0,
+    "documentation": 6,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/ARCHITECTURE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-PACKAGE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-SCHEMA.md",
+      "category": "documentation"
+    }
+  ]
+}

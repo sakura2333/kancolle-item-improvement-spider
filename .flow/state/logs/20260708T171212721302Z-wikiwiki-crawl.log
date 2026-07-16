@@ -1,0 +1,28 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider crawl --start2 dist/data-pipeline/start2_data/api_mst_slotitem.json --daily-limit 3
+[1/571] id=1 name=12cm単装砲 status=saved http=200
+[2/571] id=2 name=12.7cm連装砲 status=saved http=200
+[3/571] id=3 name=10cm連装高角砲 status=saved http=200
+[source-receipt] ready=false equipmentDetails=incomplete output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/source-receipt.json
+WikiWiki external crawl summary
+- selected: 571
+- dailyLimit: 3
+- cycleDays: 191
+- attempted: 3
+- completed: 3
+- saved: 3
+- skipped: 0
+- newPages: 3
+- changedPages: 0
+- unchangedPages: 0
+- failed: 0
+- rateLimited: 0
+- remaining: 417
+- nextEquipmentId: 4
+- sourceExcluded: 0
+- pageNumberMismatch: 0
+- pageNumberMissing: 0
+- idMismatch: 0
+- idMissing: 0
+- stopReason: none
+- state output: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler
+- raw cache: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/source-cache

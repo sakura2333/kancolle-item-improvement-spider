@@ -1,0 +1,2 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/start2_command.py ensure
+ERROR: [start2] strict mode could not validate remote index: failed to fetch: https://api.kcwiki.moe/start2/archives

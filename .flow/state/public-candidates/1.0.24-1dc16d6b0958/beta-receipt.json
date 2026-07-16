@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 3,
+  "channel": "beta",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "releaseId": "1.0.24-1dc16d6b0958",
+  "sourceCommit": "1dc16d6b09584b8fec5ac08b893cb8217cc8e740",
+  "sourceTree": "ec598e2669a437d1a34513092c586e1816023ba3",
+  "candidateSha256": "bbed7c187c23feb7759435b7a4ee4c89ab19175a005860ca2ae636ddfa698830",
+  "candidateContentSha256": "bbed7c187c23feb7759435b7a4ee4c89ab19175a005860ca2ae636ddfa698830",
+  "candidateArchiveSha256": "772ff15c9ef8ca101df8368ca504fbaa4e8f8ce85a4add91bba724a0c287526c",
+  "candidateArchive": "candidate.zip",
+  "contentManifestSha256": "3e494573e557c31ef2bd1b90991bd5c490f0c03fefc23204c40bd6ea0a41c306",
+  "publicTextAudit": {
+    "schemaVersion": 3,
+    "policy": "deny-by-default-public-isolation",
+    "scannedTextFiles": 153,
+    "forbiddenTokens": [
+      "./flow",
+      "script/project",
+      ".flow/",
+      "docs/internal",
+      "AGENTS.md",
+      "Flow Lite",
+      "tools/wikiwiki-crawler/migrate_existing_html.py",
+      "Migration ID",
+      "main-origin",
+      "Quick Receipt",
+      "Flow Receipt",
+      "workspaceRoot",
+      "downloadRoot",
+      "/Users/",
+      "sakana"
+    ],
+    "reviewTokens": [
+      "NPM_TOKEN",
+      "AI review",
+      "AI 审计"
+    ],
+    "moduleReferenceCount": 18,
+    "pathReferenceCount": 36,
+    "findingCount": 0,
+    "publicIsolation": {
+      "internalPathCount": 0,
+      "internalReferenceCount": 0,
+      "absolutePathCount": 0,
+      "exceptionCount": 2,
+      "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+      "exceptions": [
+        "github-secret-name-npm-token",
+        "source-validation-ai-review-feature"
+      ]
+    },
+    "exceptionDetails": [
+      {
+        "id": "github-secret-name-npm-token",
+        "category": "public-automation-contract",
+        "owner": "automation/release",
+        "review": "mechanical-and-ai",
+        "expires": null,
+        "reviewFiles": []
+      },
+      {
+        "id": "source-validation-ai-review-feature",
+        "category": "public-runtime-feature",
+        "owner": "service/source_validation",
+        "review": "mechanical-and-ai",
+        "expires": null,
+        "reviewFiles": [
+          {
+            "path": "service/source_validation/prompts/ai_review.md",
+            "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32"
+          }
+        ]
+      }
+    ],
+    "publicCheckout": {
+      "schemaVersion": 1,
+      "policy": "fresh-public-checkout-clean",
+      "generatedProbeCount": 7,
+      "dirtyPathCount": 0
+    }
+  },
+  "publicIsolation": {
+    "internalPathCount": 0,
+    "internalReferenceCount": 0,
+    "absolutePathCount": 0,
+    "exceptionCount": 2,
+    "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+    "exceptions": [
+      "github-secret-name-npm-token",
+      "source-validation-ai-review-feature"
+    ]
+  },
+  "branch": "public-beta/1.0.24-1dc16d6b0958",
+  "commit": "7beae2a6fe8fb47a23419ae9c4e04c982bf3c6eb",
+  "tree": "c34c35a8c6f2dbf3eceac2c84e96fb234fa5f901",
+  "remote": "main-origin",
+  "policy": "shared-whitelist-public-snapshot",
+  "formalVersionChanged": false,
+  "mainChanged": false,
+  "npmPublished": false,
+  "onlinePublished": false
+}

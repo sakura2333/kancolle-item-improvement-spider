@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "closed",
+  "releaseId": "1.0.24-06ef2327aeef",
+  "version": "1.0.24",
+  "sourceDevCommit": "06ef2327aeef81458238595065b6dcbb2c42cec9",
+  "candidateBranch": "public-candidate/1.0.24-06ef2327aeef",
+  "candidateCommit": "d3d3007335a319fc65fda3a38e7989e2134fe34b",
+  "candidateTree": "1d33eb660ba2a0fd1bfc478f6fda63d777076e44",
+  "candidateSha256": "f5529009bb5970124439d73d869f6bba863383564a3eb4b60bff983481718e7c",
+  "candidateManifestSha256": "51ceac740b5404e9a2d3080636a7d6bbab4384a54b938861cd11aa2d8a332025",
+  "reviewReport": ".flow/state/main-release/reviews/1.0.24-06ef2327aeef.json",
+  "reviewReportSha256": "e0246b1a8d91b1cd58ff6465a432140f19757bf312967d77e23bfdf31c24cf83",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "openedAt": "2026-07-11T16:08:45.121194+00:00",
+  "closedAt": "2026-07-11T17:19:54.887492+00:00",
+  "releaseReceipt": {
+    "schemaVersion": 2,
+    "releaseId": "1.0.24-06ef2327aeef",
+    "version": "1.0.24",
+    "sourceDevCommit": "06ef2327aeef81458238595065b6dcbb2c42cec9",
+    "reviewedCandidateCommit": "d3d3007335a319fc65fda3a38e7989e2134fe34b",
+    "mainCommit": "d3d3007335a319fc65fda3a38e7989e2134fe34b",
+    "candidateSha256": "f5529009bb5970124439d73d869f6bba863383564a3eb4b60bff983481718e7c",
+    "candidateContentSha256": "f5529009bb5970124439d73d869f6bba863383564a3eb4b60bff983481718e7c",
+    "candidateArchiveSha256": "26951e0a3b8db1f67c2b4918a970904ba445e55e698dbc4ea3aafdb9d687a0cc",
+    "publicIsolation": {
+      "internalPathCount": 0,
+      "internalReferenceCount": 0,
+      "absolutePathCount": 0,
+      "exceptionCount": 2,
+      "exceptionManifestSha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+      "exceptions": [
+        "github-secret-name-npm-token",
+        "source-validation-ai-review-feature"
+      ]
+    },
+    "completedAt": "2026-07-11T17:19:54.885598+00:00"
+  }
+}

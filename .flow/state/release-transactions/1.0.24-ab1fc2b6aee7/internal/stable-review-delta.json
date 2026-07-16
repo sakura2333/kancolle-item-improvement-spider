@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "d7c947af304c8dc266d1a5d30af82614c98b4fab",
+  "counts": {
+    "runtime": 0,
+    "automation": 1,
+    "packageTemplate": 0,
+    "documentation": 3,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/acquire/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    }
+  ]
+}

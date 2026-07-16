@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "05f68970b07727600ac9e8f183c5b759aece68c6",
+  "counts": {
+    "runtime": 1,
+    "automation": 0,
+    "packageTemplate": 0,
+    "documentation": 1,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "configs/data_quality.json",
+      "category": "runtime"
+    }
+  ]
+}

@@ -1,0 +1,2267 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "generatedAt": "2026-07-15T12:07:39+00:00",
+  "mode": "local-strict-validation",
+  "packageVersion": "0.5.1",
+  "datasetCount": 7,
+  "npmPack": {
+    "id": "@sakura2333/kancolle-data@0.5.1",
+    "name": "@sakura2333/kancolle-data",
+    "version": "0.5.1",
+    "size": 24993288,
+    "unpackedSize": 28738065,
+    "shasum": "25f08dc384aa507d76aa2efd82493085582dd2ad",
+    "integrity": "sha512-pI3nrfL8hLSh90aFqvsfrstzGmzeUNpPTpmgn5k0eTlsvDYuAqxQqFCAV3syPbB8ivwMISOgc8jJDQI+M0gDaw==",
+    "filename": "sakura2333-kancolle-data-0.5.1.tgz",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "size": 4590,
+        "mode": 420
+      },
+      {
+        "path": "LICENSES.md",
+        "size": 412,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 3199,
+        "mode": 420
+      },
+      {
+        "path": "RELEASES.json",
+        "size": 795,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/1.webp",
+        "size": 39506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/2.webp",
+        "size": 46324,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/3.webp",
+        "size": 65612,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/4.webp",
+        "size": 40496,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/5.webp",
+        "size": 63258,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/6.webp",
+        "size": 64868,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/7.webp",
+        "size": 44026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/8.webp",
+        "size": 65966,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/9.webp",
+        "size": 52420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/10.webp",
+        "size": 49018,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/11.webp",
+        "size": 45720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/12.webp",
+        "size": 65924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/13.webp",
+        "size": 48258,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/14.webp",
+        "size": 47720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/15.webp",
+        "size": 65952,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/16.webp",
+        "size": 44150,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/17.webp",
+        "size": 62002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/18.webp",
+        "size": 50574,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/19.webp",
+        "size": 47048,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/20.webp",
+        "size": 47522,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/21.webp",
+        "size": 66512,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/22.webp",
+        "size": 52886,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/23.webp",
+        "size": 45002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/24.webp",
+        "size": 64070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/25.webp",
+        "size": 48858,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/26.webp",
+        "size": 66176,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/27.webp",
+        "size": 65756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/28.webp",
+        "size": 65884,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/29.webp",
+        "size": 46512,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/30.webp",
+        "size": 66148,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/31.webp",
+        "size": 46300,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/32.webp",
+        "size": 61414,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/33.webp",
+        "size": 48728,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/34.webp",
+        "size": 62344,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/35.webp",
+        "size": 60566,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/36.webp",
+        "size": 47954,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/37.webp",
+        "size": 45004,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/38.webp",
+        "size": 47800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/39.webp",
+        "size": 69006,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/40.webp",
+        "size": 68760,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/41.webp",
+        "size": 45890,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/44.webp",
+        "size": 46888,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/45.webp",
+        "size": 49464,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/46.webp",
+        "size": 53096,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/47.webp",
+        "size": 58250,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/48.webp",
+        "size": 44888,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/49.webp",
+        "size": 65660,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/50.webp",
+        "size": 61848,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/51.webp",
+        "size": 67948,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/52.webp",
+        "size": 52002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/53.webp",
+        "size": 52586,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/54.webp",
+        "size": 46134,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/55.webp",
+        "size": 49140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/57.webp",
+        "size": 52766,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/58.webp",
+        "size": 54696,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/59.webp",
+        "size": 68800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/60.webp",
+        "size": 61440,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/61.webp",
+        "size": 66386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/63.webp",
+        "size": 47330,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/64.webp",
+        "size": 47454,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/65.webp",
+        "size": 66322,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/66.webp",
+        "size": 52122,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/68.webp",
+        "size": 53002,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/69.webp",
+        "size": 53654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/70.webp",
+        "size": 68114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/71.webp",
+        "size": 54184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/72.webp",
+        "size": 64500,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/73.webp",
+        "size": 66446,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/74.webp",
+        "size": 44756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/75.webp",
+        "size": 52214,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/76.webp",
+        "size": 46982,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/78.webp",
+        "size": 43782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/79.webp",
+        "size": 70244,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/80.webp",
+        "size": 55782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/81.webp",
+        "size": 58838,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/82.webp",
+        "size": 65902,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/84.webp",
+        "size": 54306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/87.webp",
+        "size": 59876,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/88.webp",
+        "size": 56260,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/89.webp",
+        "size": 60232,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/90.webp",
+        "size": 69592,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/91.webp",
+        "size": 65420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/92.webp",
+        "size": 53964,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/93.webp",
+        "size": 57330,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/94.webp",
+        "size": 87306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/95.webp",
+        "size": 62974,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/96.webp",
+        "size": 55406,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/97.webp",
+        "size": 55270,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/98.webp",
+        "size": 57536,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/99.webp",
+        "size": 58366,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/100.webp",
+        "size": 85532,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/102.webp",
+        "size": 52156,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/103.webp",
+        "size": 58774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/104.webp",
+        "size": 58892,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/105.webp",
+        "size": 87756,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/106.webp",
+        "size": 64364,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/109.webp",
+        "size": 58444,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/110.webp",
+        "size": 78608,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/114.webp",
+        "size": 66514,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/115.webp",
+        "size": 67682,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/116.webp",
+        "size": 48164,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/117.webp",
+        "size": 82424,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/118.webp",
+        "size": 84568,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/119.webp",
+        "size": 50438,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/120.webp",
+        "size": 51456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/121.webp",
+        "size": 68668,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/122.webp",
+        "size": 55280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/123.webp",
+        "size": 50104,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/124.webp",
+        "size": 59654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/125.webp",
+        "size": 65976,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/128.webp",
+        "size": 83782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/129.webp",
+        "size": 55910,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/130.webp",
+        "size": 58632,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/131.webp",
+        "size": 54080,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/132.webp",
+        "size": 62666,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/133.webp",
+        "size": 54770,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/134.webp",
+        "size": 55108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/135.webp",
+        "size": 51816,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/136.webp",
+        "size": 60622,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/137.webp",
+        "size": 83670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/139.webp",
+        "size": 53118,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/140.webp",
+        "size": 58844,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/141.webp",
+        "size": 56170,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/142.webp",
+        "size": 61530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/145.webp",
+        "size": 52098,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/147.webp",
+        "size": 63520,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/149.webp",
+        "size": 57518,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/150.webp",
+        "size": 66070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/151.webp",
+        "size": 82784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/152.webp",
+        "size": 52594,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/153.webp",
+        "size": 53110,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/154.webp",
+        "size": 84824,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/156.webp",
+        "size": 53016,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/157.webp",
+        "size": 84836,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/158.webp",
+        "size": 47652,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/161.webp",
+        "size": 79540,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/162.webp",
+        "size": 45590,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/163.webp",
+        "size": 52114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/164.webp",
+        "size": 59648,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/165.webp",
+        "size": 66422,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/166.webp",
+        "size": 68434,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/167.webp",
+        "size": 51320,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/168.webp",
+        "size": 47072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/169.webp",
+        "size": 66672,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/170.webp",
+        "size": 57202,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/171.webp",
+        "size": 55868,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/172.webp",
+        "size": 54812,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/174.webp",
+        "size": 45094,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/175.webp",
+        "size": 51360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/176.webp",
+        "size": 52992,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/177.webp",
+        "size": 87712,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/179.webp",
+        "size": 54940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/180.webp",
+        "size": 56814,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/181.webp",
+        "size": 66570,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/182.webp",
+        "size": 57068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/183.webp",
+        "size": 81418,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/184.webp",
+        "size": 53702,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/185.webp",
+        "size": 55068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/186.webp",
+        "size": 56184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/187.webp",
+        "size": 54208,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/189.webp",
+        "size": 84132,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/190.webp",
+        "size": 52806,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/191.webp",
+        "size": 61102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/192.webp",
+        "size": 54924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/193.webp",
+        "size": 67610,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/194.webp",
+        "size": 56044,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/195.webp",
+        "size": 63228,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/196.webp",
+        "size": 64894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/197.webp",
+        "size": 65428,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/198.webp",
+        "size": 52302,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/199.webp",
+        "size": 83634,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/201.webp",
+        "size": 50730,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/202.webp",
+        "size": 68924,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/203.webp",
+        "size": 56612,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/204.webp",
+        "size": 56786,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/205.webp",
+        "size": 53598,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/206.webp",
+        "size": 80398,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/210.webp",
+        "size": 61064,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/211.webp",
+        "size": 61430,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/213.webp",
+        "size": 55746,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/215.webp",
+        "size": 78906,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/216.webp",
+        "size": 80408,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/217.webp",
+        "size": 56504,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/219.webp",
+        "size": 58108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/220.webp",
+        "size": 56914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/221.webp",
+        "size": 67440,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/222.webp",
+        "size": 55274,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/224.webp",
+        "size": 59684,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/226.webp",
+        "size": 47166,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/227.webp",
+        "size": 67360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/228.webp",
+        "size": 65912,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/229.webp",
+        "size": 66618,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/231.webp",
+        "size": 64946,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/232.webp",
+        "size": 55832,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/233.webp",
+        "size": 84200,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/234.webp",
+        "size": 55914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/235.webp",
+        "size": 54928,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/236.webp",
+        "size": 78990,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/237.webp",
+        "size": 85226,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/238.webp",
+        "size": 54370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/240.webp",
+        "size": 63674,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/241.webp",
+        "size": 66506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/242.webp",
+        "size": 65486,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/243.webp",
+        "size": 56102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/245.webp",
+        "size": 52982,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/246.webp",
+        "size": 80788,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/247.webp",
+        "size": 53166,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/248.webp",
+        "size": 63856,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/249.webp",
+        "size": 61398,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/250.webp",
+        "size": 50358,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/251.webp",
+        "size": 51540,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/252.webp",
+        "size": 50206,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/256.webp",
+        "size": 49108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/260.webp",
+        "size": 56168,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/261.webp",
+        "size": 57068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/263.webp",
+        "size": 59146,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/266.webp",
+        "size": 66534,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/267.webp",
+        "size": 56886,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/271.webp",
+        "size": 49086,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/274.webp",
+        "size": 56936,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/275.webp",
+        "size": 58708,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/276.webp",
+        "size": 54488,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/277.webp",
+        "size": 50102,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/278.webp",
+        "size": 56008,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/279.webp",
+        "size": 59712,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/280.webp",
+        "size": 54184,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/281.webp",
+        "size": 78280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/282.webp",
+        "size": 52606,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/283.webp",
+        "size": 66180,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/284.webp",
+        "size": 79462,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/285.webp",
+        "size": 61270,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/286.webp",
+        "size": 60918,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/287.webp",
+        "size": 80222,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/288.webp",
+        "size": 54186,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/289.webp",
+        "size": 77508,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/290.webp",
+        "size": 92882,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/293.webp",
+        "size": 63894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/294.webp",
+        "size": 64170,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/295.webp",
+        "size": 59592,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/296.webp",
+        "size": 59366,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/297.webp",
+        "size": 44384,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/298.webp",
+        "size": 52210,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/299.webp",
+        "size": 55530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/300.webp",
+        "size": 83232,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/301.webp",
+        "size": 57620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/303.webp",
+        "size": 55096,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/304.webp",
+        "size": 66698,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/307.webp",
+        "size": 54050,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/308.webp",
+        "size": 83070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/309.webp",
+        "size": 48286,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/310.webp",
+        "size": 64368,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/313.webp",
+        "size": 54104,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/314.webp",
+        "size": 69244,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/315.webp",
+        "size": 53644,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/316.webp",
+        "size": 52784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/317.webp",
+        "size": 47692,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/318.webp",
+        "size": 81182,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/320.webp",
+        "size": 52386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/322.webp",
+        "size": 83516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/324.webp",
+        "size": 50936,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/325.webp",
+        "size": 84480,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/326.webp",
+        "size": 82022,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/327.webp",
+        "size": 82336,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/328.webp",
+        "size": 51322,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/329.webp",
+        "size": 52730,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/330.webp",
+        "size": 60884,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/331.webp",
+        "size": 48100,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/332.webp",
+        "size": 52636,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/340.webp",
+        "size": 49826,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/341.webp",
+        "size": 50786,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/344.webp",
+        "size": 54504,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/345.webp",
+        "size": 63024,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/346.webp",
+        "size": 50670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/347.webp",
+        "size": 58088,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/348.webp",
+        "size": 56690,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/349.webp",
+        "size": 84854,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/356.webp",
+        "size": 64234,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/357.webp",
+        "size": 48774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/365.webp",
+        "size": 47600,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/367.webp",
+        "size": 54194,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/368.webp",
+        "size": 56468,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/370.webp",
+        "size": 54780,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/371.webp",
+        "size": 52424,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/372.webp",
+        "size": 45940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/373.webp",
+        "size": 53134,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/376.webp",
+        "size": 54122,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/379.webp",
+        "size": 48972,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/380.webp",
+        "size": 53164,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/381.webp",
+        "size": 50676,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/382.webp",
+        "size": 63640,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/383.webp",
+        "size": 51736,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/385.webp",
+        "size": 52456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/386.webp",
+        "size": 43914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/387.webp",
+        "size": 42996,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/391.webp",
+        "size": 64744,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/392.webp",
+        "size": 53250,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/393.webp",
+        "size": 48162,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/394.webp",
+        "size": 48554,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/395.webp",
+        "size": 45004,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/397.webp",
+        "size": 48428,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/398.webp",
+        "size": 48606,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/399.webp",
+        "size": 62722,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/400.webp",
+        "size": 55958,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/401.webp",
+        "size": 61390,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/403.webp",
+        "size": 49902,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/404.webp",
+        "size": 84744,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/405.webp",
+        "size": 53068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/407.webp",
+        "size": 49926,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/408.webp",
+        "size": 62582,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/409.webp",
+        "size": 66414,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/410.webp",
+        "size": 56026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/411.webp",
+        "size": 56534,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/414.webp",
+        "size": 51178,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/415.webp",
+        "size": 50780,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/419.webp",
+        "size": 46066,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/420.webp",
+        "size": 50372,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/421.webp",
+        "size": 78242,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/422.webp",
+        "size": 78484,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/423.webp",
+        "size": 51162,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/424.webp",
+        "size": 66654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/425.webp",
+        "size": 51180,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/426.webp",
+        "size": 63816,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/427.webp",
+        "size": 49370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/428.webp",
+        "size": 46990,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/429.webp",
+        "size": 49252,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/431.webp",
+        "size": 66246,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/432.webp",
+        "size": 47158,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/438.webp",
+        "size": 55940,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/440.webp",
+        "size": 63516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/441.webp",
+        "size": 55386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/442.webp",
+        "size": 64038,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/443.webp",
+        "size": 58402,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/445.webp",
+        "size": 67628,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/446.webp",
+        "size": 52140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/447.webp",
+        "size": 49658,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/450.webp",
+        "size": 58860,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/451.webp",
+        "size": 50456,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/452.webp",
+        "size": 51392,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/453.webp",
+        "size": 51072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/455.webp",
+        "size": 51168,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/456.webp",
+        "size": 79890,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/457.webp",
+        "size": 52280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/460.webp",
+        "size": 63354,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/463.webp",
+        "size": 52516,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/464.webp",
+        "size": 82064,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/466.webp",
+        "size": 83920,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/468.webp",
+        "size": 78732,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/470.webp",
+        "size": 56370,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/471.webp",
+        "size": 53620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/473.webp",
+        "size": 82962,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/474.webp",
+        "size": 81792,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/477.webp",
+        "size": 53852,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/478.webp",
+        "size": 61448,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/483.webp",
+        "size": 77068,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/485.webp",
+        "size": 54932,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/486.webp",
+        "size": 50782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/487.webp",
+        "size": 52412,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/488.webp",
+        "size": 50158,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/489.webp",
+        "size": 52026,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/490.webp",
+        "size": 55442,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/492.webp",
+        "size": 50784,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/493.webp",
+        "size": 52146,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/496.webp",
+        "size": 58894,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/500.webp",
+        "size": 45510,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/502.webp",
+        "size": 84696,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/504.webp",
+        "size": 83556,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/507.webp",
+        "size": 44092,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/508.webp",
+        "size": 64708,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/509.webp",
+        "size": 50070,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/511.webp",
+        "size": 63842,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/512.webp",
+        "size": 55360,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/517.webp",
+        "size": 87178,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/518.webp",
+        "size": 53072,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/519.webp",
+        "size": 55774,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/520.webp",
+        "size": 51610,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/522.webp",
+        "size": 47252,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/523.webp",
+        "size": 52530,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/524.webp",
+        "size": 70582,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/525.webp",
+        "size": 46108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/529.webp",
+        "size": 54420,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/530.webp",
+        "size": 80422,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/531.webp",
+        "size": 58576,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/532.webp",
+        "size": 68018,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/533.webp",
+        "size": 54958,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/534.webp",
+        "size": 45654,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/535.webp",
+        "size": 52490,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/536.webp",
+        "size": 65390,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/537.webp",
+        "size": 53460,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/539.webp",
+        "size": 55720,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/541.webp",
+        "size": 67468,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/542.webp",
+        "size": 67802,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/543.webp",
+        "size": 52616,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/544.webp",
+        "size": 52794,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/546.webp",
+        "size": 83438,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/547.webp",
+        "size": 82418,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/549.webp",
+        "size": 53340,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/550.webp",
+        "size": 65306,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/551.webp",
+        "size": 45918,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/552.webp",
+        "size": 50472,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/553.webp",
+        "size": 52828,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/555.webp",
+        "size": 48416,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/559.webp",
+        "size": 49302,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/560.webp",
+        "size": 48086,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/564.webp",
+        "size": 43904,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/565.webp",
+        "size": 43506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/570.webp",
+        "size": 83678,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/572.webp",
+        "size": 51114,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/573.webp",
+        "size": 86674,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/574.webp",
+        "size": 89140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equip/575.webp",
+        "size": 59390,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/2.webp",
+        "size": 21004,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/57.webp",
+        "size": 21436,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/70.webp",
+        "size": 29180,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/71.webp",
+        "size": 29336,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/75.webp",
+        "size": 26838,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/77.webp",
+        "size": 26598,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/78.webp",
+        "size": 27868,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/91.webp",
+        "size": 28922,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/92.webp",
+        "size": 27462,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/94.webp",
+        "size": 30414,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/95.webp",
+        "size": 26970,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/100.webp",
+        "size": 28940,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/104.webp",
+        "size": 27800,
+        "mode": 420
+      },
+      {
+        "path": "audit/build-report.json",
+        "size": 2141,
+        "mode": 420
+      },
+      {
+        "path": "equipment/drop-from.nedb",
+        "size": 360883,
+        "mode": 420
+      },
+      {
+        "path": "equipment/sources.nedb",
+        "size": 102414,
+        "mode": 420
+      },
+      {
+        "path": "equipment/special-bonuses.nedb",
+        "size": 286276,
+        "mode": 420
+      },
+      {
+        "path": "improvement/detail.nedb",
+        "size": 2951488,
+        "mode": 420
+      },
+      {
+        "path": "improvement/list.json",
+        "size": 209473,
+        "mode": 420
+      },
+      {
+        "path": "index.d.ts",
+        "size": 632,
+        "mode": 420
+      },
+      {
+        "path": "index.js",
+        "size": 1346,
+        "mode": 420
+      },
+      {
+        "path": "manifest.json",
+        "size": 76975,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2418,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-drop-from.schema.json",
+        "size": 963,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-sources.schema.json",
+        "size": 1456,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-special-bonus.schema.json",
+        "size": 1591,
+        "mode": 420
+      },
+      {
+        "path": "schemas/improvement-detail.schema.json",
+        "size": 7957,
+        "mode": 420
+      },
+      {
+        "path": "scripts/check-fresh.js",
+        "size": 1124,
+        "mode": 420
+      }
+    ],
+    "entryCount": 442,
+    "bundled": []
+  },
+  "sourceReliability": {
+    "mode": "advisory-relative-consistency",
+    "generatedAt": "2026-07-15T12:07:30+00:00",
+    "applyToCanonicalElection": false,
+    "canonicalElectionUnchanged": true,
+    "sources": [
+      {
+        "source": "akashi-list",
+        "relativeWeight": 1.0267,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.940207,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "kcwiki-data",
+        "relativeWeight": 0.9387,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.85956,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "wikiwiki-jp",
+        "relativeWeight": 1.0346,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.947413,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      }
+    ]
+  }
+}

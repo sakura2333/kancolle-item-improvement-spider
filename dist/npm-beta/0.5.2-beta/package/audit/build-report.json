@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-07-10T10:44:21+00:00",
+  "strict": true,
+  "improvementSourceStatus": "ok",
+  "dropFromIssueCount": 0,
+  "specialBonusIssueCount": 0,
+  "equipmentSourceRecordCount": 574,
+  "improvementAssistantReverseIndex": {
+    "schemaVersion": 1,
+    "path": "assistant-day-reverse-index.json",
+    "markdown": "assistant-day-reverse-index.md",
+    "threshold": 3,
+    "expectedEquipmentCount": 3,
+    "equipmentCountMismatchShipDayCount": 2352,
+    "underExpectedShipDayCount": 2326,
+    "overThresholdShipDayCount": 26,
+    "maxEquipmentCount": 6,
+    "shipDayCount": 3179
+  },
+  "equipmentAcquisitionInputMode": "validated-public-snapshot",
+  "equipmentAcquisitionSnapshotGeneratedAt": "2026-07-09T16:10:28+00:00",
+  "equipmentSourceIncremental": {
+    "addedIds": [],
+    "changedIds": [],
+    "removedIds": [],
+    "unchangedCount": 574,
+    "changed": false,
+    "inputHashes": {
+      "improvementDetail": "078e8dc2f15eb0e6fa96af3f7af5137b652c3b5b7d99d2f680493340e7f4317a",
+      "wikiwikiAcquisition": "b63959299e6bb1b6fd6491c2b9559509318f02f44dc16feae7955ca07b94a808",
+      "kcwikiShip": "e7064aadaa4fdbd2f9800220c074f5156d99f3c2b3a85febee77bc3092bfb11a",
+      "kcwikiEquipment": "f3cd7273f62c6377e2277c6213f64f56df2ac145ef853e06417e077f08e10303"
+    },
+    "projectionSha256": "caab06cb757f96a41560ee48d2e0d3ead562ba12d6381f4eb1903ae287eeb57b"
+  },
+  "improvement2Compatibility": {
+    "detailRecordCount": 372,
+    "routeCount": 412
+  },
+  "assistantDailyReverseIndex": {
+    "schemaVersion": 1,
+    "path": "assistant-day-reverse-index.json",
+    "markdown": "assistant-day-reverse-index.md",
+    "threshold": 3,
+    "expectedEquipmentCount": 3,
+    "equipmentCountMismatchShipDayCount": 2352,
+    "underExpectedShipDayCount": 2326,
+    "overThresholdShipDayCount": 26,
+    "maxEquipmentCount": 6,
+    "shipDayCount": 3179
+  },
+  "iconCount": 13,
+  "equipmentImageCount": 372,
+  "requiredUseitemIconIds": [
+    2,
+    57,
+    70,
+    71,
+    75,
+    77,
+    78,
+    91,
+    92,
+    94,
+    95,
+    100,
+    104
+  ],
+  "missingUseitemIconIds": []
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "channel": "beta",
+  "project": "kancolle-item-improvement-spider",
+  "version": "1.0.24",
+  "releaseId": "1.0.24-dafe6fb1f548",
+  "sourceCommit": "dafe6fb1f5489fcec61396bc1a61c616bfcc0e24",
+  "sourceTree": "862058653cd5ddb9b9d8065ce67e8d6ae6fead40",
+  "candidateSha256": "628548dffffff084a9660f33c601e6578bbebbef08f86c2d72b2736f02295d2d",
+  "contentManifestSha256": "16100c1023be8c551d512d1ec792692dceb3827bfca665a502071f683baa4483",
+  "publicTextAudit": {
+    "schemaVersion": 2,
+    "policy": "mechanical-public-boundary",
+    "scannedTextFiles": 152,
+    "forbiddenTokens": [
+      "./flow",
+      "script/project",
+      ".flow/state",
+      "docs/internal",
+      "AGENTS.md",
+      "Flow Lite",
+      "tools/wikiwiki-crawler/migrate_existing_html.py"
+    ],
+    "moduleReferenceCount": 18,
+    "pathReferenceCount": 36,
+    "findingCount": 0
+  },
+  "branch": "public-beta/1.0.24-dafe6fb1f548",
+  "commit": "18eb3ad6fae654bd27e5657d58590a2e47081b5f",
+  "tree": "ded84235a1779b0b19ce3bb8478dfdeaf9ce45f4",
+  "remote": "main-origin",
+  "policy": "shared-whitelist-public-snapshot",
+  "formalVersionChanged": false,
+  "mainChanged": false,
+  "npmPublished": false,
+  "onlinePublished": false
+}

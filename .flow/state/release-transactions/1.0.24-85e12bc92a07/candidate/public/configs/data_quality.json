@@ -1,0 +1,30 @@
+{
+  "minimums": {
+    "improvement.listAllCount": 250,
+    "improvement.detailRecordCount": 250,
+    "equipmentDropFrom.recordCount": 100,
+    "equipmentDropFrom.relationCount": 200,
+    "equipmentSpecialBonuses.recordCount": 20,
+    "equipmentSpecialBonuses.ruleCount": 20,
+    "useitemIcons.count": 10,
+    "equipmentSpecialBonuses.equipmentTypeRecordCount": 1
+  },
+  "relativeMinimumRatios": {
+    "improvement.listAllCount": 0.8,
+    "improvement.detailRecordCount": 0.8,
+    "equipmentDropFrom.recordCount": 0.8,
+    "equipmentDropFrom.relationCount": 0.8,
+    "equipmentSpecialBonuses.recordCount": 0.8,
+    "equipmentSpecialBonuses.ruleCount": 0.8,
+    "useitemIcons.count": 0.8,
+    "publicData.totalBytes": 0.7,
+    "equipmentSpecialBonuses.equipmentTypeRecordCount": 0.8
+  },
+  "fileSizeMinimumRatio": 0.7,
+  "fileSizePaths": [
+    "improvement/list.json",
+    "improvement/detail.nedb",
+    "equipment/drop-from.nedb",
+    "equipment/special-bonuses.nedb"
+  ]
+}

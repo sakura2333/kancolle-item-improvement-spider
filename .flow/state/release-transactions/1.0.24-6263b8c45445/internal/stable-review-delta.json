@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "fa73d2038fc0d5fb65cac28e93eab65274392e72",
+  "counts": {
+    "runtime": 11,
+    "automation": 8,
+    "packageTemplate": 3,
+    "documentation": 9,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".github/workflows/release.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/acquire/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/consumer_identity.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/npm_business_identity.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/npm_registry.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/npm_release_set.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/ARCHITECTURE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-PACKAGE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-SCHEMA.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/SOURCE-REFERENCES.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/README.md",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/index.js",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/package.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "pyproject.toml",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/akashi_detail_processor.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/akashi_list_spider.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/detail_stage_parser.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/builder.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/data_package/official_assets.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/package_history.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/package_paths.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/projection.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/assets.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/http_cache/settings.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "uv.lock",
+      "category": "documentation"
+    }
+  ]
+}

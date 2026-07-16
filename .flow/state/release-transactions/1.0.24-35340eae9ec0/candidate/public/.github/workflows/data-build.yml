@@ -1,0 +1,909 @@
+name: Build Data Candidate
+
+on:
+  schedule:
+    # 15:17 JST / 14:17 China Standard Time: CPU-only build runs 12 hours after acquisition.
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'Optional successful Acquire run ID; empty uses the latest ready snapshot'
+        required: false
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: kancolle-data-publication
+  cancel-in-progress: false
+
+jobs:
+  resolve-source:
+    runs-on: ubuntu-latest
+    outputs:
+      run_id: ${{ steps.resolve.outputs.run_id }}
+      skip: ${{ steps.resolve.outputs.skip }}
+      reason: ${{ steps.resolve.outputs.reason }}
+    steps:
+      - name: Wait for global source-acquire lock and resolve ready snapshot
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          repository = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          requested = os.environ.get("REQUESTED_RUN_ID", "").strip()
+          url = (
+              f"https://api.github.com/repos/{repository}/actions/workflows/"
+              "source-acquire.yml/runs?branch=main&per_page=20"
+          )
+
+          def load_runs():
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response).get("workflow_runs") or []
+
+          runs = []
+          for attempt in range(21):
+              runs = load_runs()
+              active = [run for run in runs if run.get("status") != "completed"]
+              if not active:
+                  break
+              if attempt == 20:
+                  with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                      output.write("run_id=\n")
+                      output.write("skip=true\n")
+                      output.write("reason=source-acquire-lock-timeout\n")
+                  raise SystemExit(0)
+              time.sleep(15)
+
+          successful = [
+              run for run in runs
+              if run.get("status") == "completed" and run.get("conclusion") == "success"
+          ]
+          if requested:
+              selected = next(
+                  (run for run in successful if str(run.get("id")) == requested),
+                  None,
+              )
+              if selected is None:
+                  raise SystemExit(
+                      "requested source_run_id is not a recent successful main run of source-acquire.yml"
+                  )
+              run_id = requested
+          else:
+              run_id = str(successful[0]["id"]) if successful else ""
+
+          skip = not bool(run_id)
+          reason = "no-ready-source-snapshot" if skip else "ready"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"run_id={run_id}\n")
+              output.write(f"skip={str(skip).lower()}\n")
+              output.write(f"reason={reason}\n")
+          PY
+
+      - name: Record deferred build
+        if: steps.resolve.outputs.skip == 'true'
+        run: |
+          printf 'Build deferred: %s. The next daily run will retry.\n' '${{ steps.resolve.outputs.reason }}' \
+            >> "$GITHUB_STEP_SUMMARY"
+
+  build:
+    needs: resolve-source
+    if: needs.resolve-source.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      should_publish: ${{ steps.plan.outputs.should_publish }}
+    timeout-minutes: 120
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+      SOURCE_RUN_ID: ${{ needs.resolve-source.outputs.run_id }}
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen source bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-source-bundle
+          path: ${{ runner.temp }}/source-bundle
+          run-id: ${{ env.SOURCE_RUN_ID }}
+          github-token: ${{ github.token }}
+
+      - name: Checkout source bundle commit
+        run: |
+          set -euo pipefail
+          SOURCE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/source-bundle/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$SOURCE_COMMIT"
+
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked build environment
+        run: mise exec -- uv sync --locked
+
+      - name: Load previous online baseline
+        id: baseline
+        run: |
+          set -euo pipefail
+          BASELINE="$RUNNER_TEMP/kancolle-data-baseline.json"
+          ONLINE_MANIFEST="$RUNNER_TEMP/online-package-manifest.json"
+          if git fetch --no-tags origin refs/heads/online:refs/remotes/origin/online 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' 2>/dev/null; then
+            git show 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' > "$BASELINE"
+            git show 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' > "$ONLINE_MANIFEST"
+            ONLINE_VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["packageVersion"])' "$ONLINE_MANIFEST")"
+            mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$ONLINE_VERSION"
+            echo "version=$ONLINE_VERSION" >> "$GITHUB_OUTPUT"
+          else
+            cat > "$BASELINE" <<'JSON'
+          {
+            "schemaVersion": 1,
+            "contentDigest": null,
+            "metrics": {},
+            "files": {}
+          }
+          JSON
+            echo "version=" >> "$GITHUB_OUTPUT"
+          fi
+          echo "path=$BASELINE" >> "$GITHUB_OUTPUT"
+
+      - name: Build from frozen source bundle
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.compute.cli prepare \
+            --source-bundle "$RUNNER_TEMP/source-bundle"
+
+      - name: Validate data quality and detect changes
+        id: quality
+        run: |
+          set -euo pipefail
+          CURRENT="$RUNNER_TEMP/kancolle-data-current.json"
+          RESULT="$RUNNER_TEMP/kancolle-data-validation.json"
+          mise exec -- uv run --locked python -m service.data_package.validation.cli validate \
+            --baseline '${{ steps.baseline.outputs.path }}' \
+            --output "$CURRENT" > "$RESULT"
+          CHANGED="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["changed"]).lower())' "$RESULT")"
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "snapshot=$CURRENT" >> "$GITHUB_OUTPUT"
+
+      - name: Read authoritative npm data state
+        id: registry
+        run: |
+          set -euo pipefail
+          PACKAGE_NAME="$(node -p "require('./packages/kancolle-data/package.json').name")"
+          VERSIONS="$RUNNER_TEMP/npm-published-versions.json"
+          STATE="$RUNNER_TEMP/npm-data-state.json"
+          PACK_DIR="$RUNNER_TEMP/npm-registry-head-package"
+          COMPAT_PACK_DIR="$RUNNER_TEMP/npm-registry-improvement2-package"
+          HISTORY_DIR="$RUNNER_TEMP/npm-registry-history"
+          rm -rf "$PACK_DIR" "$COMPAT_PACK_DIR" "$HISTORY_DIR"
+          mkdir -p "$PACK_DIR" "$COMPAT_PACK_DIR" "$HISTORY_DIR"
+          export PACKAGE_NAME VERSIONS STATE PACK_DIR COMPAT_PACK_DIR HISTORY_DIR
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          import subprocess
+          import tarfile
+          import time
+          from pathlib import Path
+
+          stable = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+          digest_pattern = re.compile(r"^[0-9a-f]{64}$")
+          package = os.environ["PACKAGE_NAME"]
+          versions_path = Path(os.environ["VERSIONS"])
+          state_path = Path(os.environ["STATE"])
+          pack_dir = Path(os.environ["PACK_DIR"]).resolve()
+          compat_pack_dir = Path(os.environ["COMPAT_PACK_DIR"]).resolve()
+          history_dir = Path(os.environ["HISTORY_DIR"]).resolve()
+
+          def npm_json(*args):
+              completed = subprocess.run(
+                  ["npm", *args],
+                  text=True,
+                  capture_output=True,
+                  check=False,
+              )
+              combined = "\n".join(
+                  part.strip() for part in (completed.stdout, completed.stderr) if part.strip()
+              )
+              if completed.returncode:
+                  if "E404" in combined or "404 Not Found" in combined:
+                      return None
+                  raise SystemExit(combined or f"npm {' '.join(args)} failed")
+              try:
+                  return json.loads(completed.stdout)
+              except json.JSONDecodeError as exc:
+                  raise SystemExit(f"npm {' '.join(args)} returned invalid JSON: {exc}") from exc
+
+          observed = set()
+          tags = {}
+          for attempt in range(3):
+              payload = npm_json("view", package, "versions", "--json")
+              if isinstance(payload, str):
+                  observed.add(payload)
+              elif isinstance(payload, list):
+                  observed.update(str(value) for value in payload)
+              elif payload is not None:
+                  raise SystemExit("npm registry versions response must be a string or JSON array")
+
+              tag_payload = npm_json("view", package, "dist-tags", "--json")
+              if isinstance(tag_payload, dict):
+                  tags.update({str(key): str(value) for key, value in tag_payload.items()})
+              elif tag_payload is not None:
+                  raise SystemExit("npm registry dist-tags response must be a JSON object")
+              if attempt < 2:
+                  time.sleep(5)
+
+          stable_versions = []
+          for raw in observed:
+              match = stable.fullmatch(str(raw).strip())
+              if match:
+                  stable_versions.append((tuple(int(part) for part in match.groups()), str(raw).strip()))
+
+          state = {
+              "schemaVersion": 1,
+              "package": package,
+              "versions": [],
+              "distTags": tags,
+              "head": None,
+          }
+          if stable_versions:
+              _, version = max(stable_versions)
+              completed = subprocess.run(
+                  [
+                      "npm",
+                      "pack",
+                      f"{package}@{version}",
+                      "--ignore-scripts",
+                      "--json",
+                      "--pack-destination",
+                      str(pack_dir),
+                  ],
+                  text=True,
+                  capture_output=True,
+                  check=False,
+              )
+              combined = "\n".join(
+                  part.strip() for part in (completed.stdout, completed.stderr) if part.strip()
+              )
+              if completed.returncode:
+                  raise SystemExit(combined or f"npm pack {package}@{version} failed")
+              try:
+                  packed = json.loads(completed.stdout)
+                  filename = str(packed[0]["filename"])
+              except (json.JSONDecodeError, IndexError, KeyError, TypeError) as exc:
+                  raise SystemExit(f"npm pack returned invalid JSON: {exc}") from exc
+              tarball = Path(filename)
+              if not tarball.is_absolute():
+                  tarball = pack_dir / tarball
+              tarball = tarball.resolve()
+              if tarball.parent != pack_dir or not tarball.is_file() or tarball.is_symlink():
+                  raise SystemExit("npm pack produced an unsafe or missing tarball")
+
+              with tarfile.open(tarball, "r:gz") as archive:
+                  package_stream = archive.extractfile("package/package.json")
+                  releases_stream = archive.extractfile("package/RELEASES.json")
+                  changelog_stream = archive.extractfile("package/CHANGELOG.md")
+                  if package_stream is None or releases_stream is None or changelog_stream is None:
+                      raise SystemExit(
+                          "published npm package lacks package.json, RELEASES.json, or CHANGELOG.md"
+                      )
+                  package_json = json.loads(package_stream.read().decode("utf-8"))
+                  releases_bytes = releases_stream.read()
+                  changelog_bytes = changelog_stream.read()
+                  releases = json.loads(releases_bytes.decode("utf-8"))
+              if package_json.get("name") != package or package_json.get("version") != version:
+                  raise SystemExit("published npm package identity does not match registry head")
+              if not isinstance(releases, list):
+                  raise SystemExit("published RELEASES.json must contain an array")
+              entry = next(
+                  (item for item in releases if isinstance(item, dict) and item.get("version") == version),
+                  None,
+              )
+              digest = str((entry or {}).get("contentDigest") or "").strip().lower()
+              if not digest_pattern.fullmatch(digest):
+                  raise SystemExit(
+                      f"published npm registry head {version} lacks a valid consumer contentDigest"
+                  )
+              (history_dir / "RELEASES.json").write_bytes(releases_bytes)
+              (history_dir / "CHANGELOG.md").write_bytes(changelog_bytes)
+              sha256 = hashlib.sha256()
+              with tarball.open("rb") as stream:
+                  for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                      sha256.update(chunk)
+              improvement2_version = f"{version}-improvement2"
+              compatibility = npm_json(
+                  "view",
+                  f"{package}@{improvement2_version}",
+                  "version",
+                  "--json",
+              )
+              improvement2_exists = str(compatibility or "").strip() == improvement2_version
+              improvement2_digest = None
+              improvement2_sha256 = None
+              if improvement2_exists:
+                  observed.add(improvement2_version)
+                  completed = subprocess.run(
+                      [
+                          "npm",
+                          "pack",
+                          f"{package}@{improvement2_version}",
+                          "--ignore-scripts",
+                          "--json",
+                          "--pack-destination",
+                          str(compat_pack_dir),
+                      ],
+                      text=True,
+                      capture_output=True,
+                      check=False,
+                  )
+                  combined = "\n".join(
+                      part.strip()
+                      for part in (completed.stdout, completed.stderr)
+                      if part.strip()
+                  )
+                  if completed.returncode:
+                      raise SystemExit(
+                          combined or f"npm pack {package}@{improvement2_version} failed"
+                      )
+                  try:
+                      packed = json.loads(completed.stdout)
+                      compatibility_filename = str(packed[0]["filename"])
+                  except (json.JSONDecodeError, IndexError, KeyError, TypeError) as exc:
+                      raise SystemExit(
+                          f"npm pack returned invalid improvement2 JSON: {exc}"
+                      ) from exc
+                  compatibility_tarball = Path(compatibility_filename)
+                  if not compatibility_tarball.is_absolute():
+                      compatibility_tarball = compat_pack_dir / compatibility_tarball
+                  compatibility_tarball = compatibility_tarball.resolve()
+                  if (
+                      compatibility_tarball.parent != compat_pack_dir
+                      or not compatibility_tarball.is_file()
+                      or compatibility_tarball.is_symlink()
+                  ):
+                      raise SystemExit(
+                          "npm pack produced an unsafe or missing improvement2 tarball"
+                      )
+                  with tarfile.open(compatibility_tarball, "r:gz") as archive:
+                      compatibility_package_stream = archive.extractfile("package/package.json")
+                      compatibility_releases_stream = archive.extractfile("package/RELEASES.json")
+                      if (
+                          compatibility_package_stream is None
+                          or compatibility_releases_stream is None
+                      ):
+                          raise SystemExit(
+                              "published improvement2 package lacks package.json or RELEASES.json"
+                          )
+                      compatibility_package_json = json.loads(
+                          compatibility_package_stream.read().decode("utf-8")
+                      )
+                      compatibility_releases = json.loads(
+                          compatibility_releases_stream.read().decode("utf-8")
+                      )
+                  if (
+                      compatibility_package_json.get("name") != package
+                      or compatibility_package_json.get("version") != improvement2_version
+                  ):
+                      raise SystemExit(
+                          "published npm improvement2 identity does not match registry head"
+                      )
+                  if not isinstance(compatibility_releases, list):
+                      raise SystemExit(
+                          "published improvement2 RELEASES.json must contain an array"
+                      )
+                  compatibility_entry = next(
+                      (
+                          item
+                          for item in compatibility_releases
+                          if isinstance(item, dict) and item.get("version") == version
+                      ),
+                      None,
+                  )
+                  improvement2_digest = str(
+                      (compatibility_entry or {}).get("contentDigest") or ""
+                  ).strip().lower()
+                  if not digest_pattern.fullmatch(improvement2_digest):
+                      raise SystemExit(
+                          f"published npm improvement2 {improvement2_version} lacks a valid "
+                          f"consumer contentDigest for release {version}"
+                      )
+                  if improvement2_digest != digest:
+                      raise SystemExit(
+                          f"immutable npm registry conflict: {version} consumer contentDigest "
+                          f"{digest} does not match {improvement2_version} digest "
+                          f"{improvement2_digest}"
+                      )
+                  compatibility_hash = hashlib.sha256()
+                  with compatibility_tarball.open("rb") as stream:
+                      for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                          compatibility_hash.update(chunk)
+                  improvement2_sha256 = compatibility_hash.hexdigest()
+              state["head"] = {
+                  "version": version,
+                  "contentDigest": digest,
+                  "tarballSha256": sha256.hexdigest(),
+                  "latestTag": tags.get("latest"),
+                  "improvement2Version": improvement2_version,
+                  "improvement2Exists": improvement2_exists,
+                  "improvement2ContentDigest": improvement2_digest,
+                  "improvement2TarballSha256": improvement2_sha256,
+                  "improvement2Tag": tags.get("improvement2"),
+              }
+
+          versions = sorted(observed)
+          state["versions"] = versions
+          versions_path.write_text(
+              json.dumps(versions, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          state_path.write_text(
+              json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+          echo "versions=$VERSIONS" >> "$GITHUB_OUTPUT"
+          echo "state=$STATE" >> "$GITHUB_OUTPUT"
+          echo "history=$HISTORY_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Plan stateless publication target
+        id: plan
+        env:
+          CURRENT_SNAPSHOT: ${{ steps.quality.outputs.snapshot }}
+          ONLINE_SNAPSHOT: ${{ steps.baseline.outputs.path }}
+          ONLINE_VERSION: ${{ steps.baseline.outputs.version }}
+          REGISTRY_STATE: ${{ steps.registry.outputs.state }}
+          PUBLISHED_VERSIONS: ${{ steps.registry.outputs.versions }}
+        run: |
+          set -euo pipefail
+          PLAN="$RUNNER_TEMP/npm-version-plan.json"
+          export PLAN
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          from pathlib import Path
+
+          stable = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+          digest_pattern = re.compile(r"^[0-9a-f]{64}$")
+
+          def parse_version(value):
+              match = stable.fullmatch(str(value or "").strip())
+              if match is None:
+                  raise SystemExit(f"unsupported stable semantic version: {value!r}")
+              return tuple(int(part) for part in match.groups())
+
+          def format_version(value):
+              return ".".join(str(part) for part in value)
+
+          current = json.load(open(os.environ["CURRENT_SNAPSHOT"], encoding="utf-8"))
+          online = json.load(open(os.environ["ONLINE_SNAPSHOT"], encoding="utf-8"))
+          registry = json.load(open(os.environ["REGISTRY_STATE"], encoding="utf-8"))
+          versions = json.load(open(os.environ["PUBLISHED_VERSIONS"], encoding="utf-8"))
+          repository = json.load(open("packages/kancolle-data/package.json", encoding="utf-8"))
+
+          current_digest = str(current.get("contentDigest") or "").strip().lower()
+          online_digest = str(online.get("contentDigest") or "").strip().lower()
+          online_version = os.environ.get("ONLINE_VERSION", "").strip()
+          if not digest_pattern.fullmatch(current_digest):
+              raise SystemExit("current verification snapshot lacks a valid consumer contentDigest")
+          if online_digest and not digest_pattern.fullmatch(online_digest):
+              raise SystemExit("online verification snapshot has an invalid consumer contentDigest")
+
+          head = registry.get("head")
+          if head is not None and not isinstance(head, dict):
+              raise SystemExit("npm registry state head must be an object or null")
+
+          if head and str(head.get("contentDigest") or "").strip().lower() == current_digest:
+              version = str(head["version"])
+              improvement2_version = str(head["improvement2Version"])
+              improvement2_exists = bool(head.get("improvement2Exists"))
+              improvement2_digest = str(
+                  head.get("improvement2ContentDigest") or ""
+              ).strip().lower()
+              if improvement2_exists:
+                  if not digest_pattern.fullmatch(improvement2_digest):
+                      raise SystemExit(
+                          "existing improvement2 registry version lacks a valid consumer contentDigest"
+                      )
+                  if improvement2_digest != current_digest:
+                      raise SystemExit(
+                          "immutable npm registry conflict: canonical and improvement2 "
+                          "consumer contentDigest values differ"
+                      )
+              aligned = (
+                  online_version == version
+                  and online_digest == current_digest
+                  and head.get("latestTag") == version
+                  and improvement2_exists
+                  and improvement2_digest == current_digest
+                  and head.get("improvement2Tag") == improvement2_version
+              )
+              mode = "noop" if aligned else "reconcile-existing-content"
+              plan = {
+                  "schemaVersion": 1,
+                  "shouldPublish": not aligned,
+                  "version": version,
+                  "reason": (
+                      "consumer-data-unchanged"
+                      if aligned
+                      else "reconcile-already-published-consumer-data"
+                  ),
+                  "mode": mode,
+                  "allocatedNewVersion": False,
+              }
+          else:
+              repository_version = str(repository.get("version") or "")
+              repository_tuple = parse_version(repository_version)
+              published = []
+              for raw in versions:
+                  if stable.fullmatch(str(raw).strip()):
+                      published.append(parse_version(str(raw)))
+              latest_tuple = max(published) if published else None
+              published_text = {format_version(value) for value in published}
+              if repository_version not in published_text and (
+                  latest_tuple is None or repository_tuple > latest_tuple
+              ):
+                  version = repository_version
+              else:
+                  base = repository_tuple
+                  if latest_tuple is not None and latest_tuple > base:
+                      base = latest_tuple
+                  version = format_version((base[0], base[1], base[2] + 1))
+              plan = {
+                  "schemaVersion": 1,
+                  "shouldPublish": True,
+                  "version": version,
+                  "reason": "publish-new-consumer-data",
+                  "mode": "publish-new-content",
+                  "allocatedNewVersion": True,
+              }
+
+          plan["consumerContentDigest"] = current_digest
+          plan["registryState"] = registry
+          plan["onlineBaseline"] = {
+              "version": online_version or None,
+              "contentDigest": online_digest or None,
+          }
+          plan["onlineChanged"] = current_digest != online_digest
+          Path(os.environ["PLAN"]).write_text(
+              json.dumps(plan, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+          SHOULD_PUBLISH="$(python3 -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$PLAN")"
+          VERSION="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["version"] or "")' "$PLAN")"
+          MODE="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["mode"])' "$PLAN")"
+          echo "should_publish=$SHOULD_PUBLISH" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "path=$PLAN" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare frozen release projection
+        if: steps.plan.outputs.should_publish == 'true'
+        env:
+          TARGET_VERSION: ${{ steps.plan.outputs.version }}
+          PUBLICATION_MODE: ${{ steps.plan.outputs.mode }}
+          REGISTRY_HISTORY: ${{ steps.registry.outputs.history }}
+          PUBLISHED_VERSIONS: ${{ steps.registry.outputs.versions }}
+        run: |
+          set -euo pipefail
+          for RELEASE_FILE in CHANGELOG.md RELEASES.json; do
+            if [ -f "$REGISTRY_HISTORY/$RELEASE_FILE" ]; then
+              cp "$REGISTRY_HISTORY/$RELEASE_FILE" "packages/kancolle-data/$RELEASE_FILE"
+              cp "$REGISTRY_HISTORY/$RELEASE_FILE" "dist/packages/kancolle-data/$RELEASE_FILE"
+            fi
+          done
+          mise exec -- uv run --locked python -m service.data_package.cli set-version \
+            --version "$TARGET_VERSION"
+          if [ "$PUBLICATION_MODE" = 'publish-new-content' ]; then
+            mise exec -- uv run --locked python -m service.data_package.cli finalize-release \
+              --version "$TARGET_VERSION" \
+              --snapshot '${{ steps.quality.outputs.snapshot }}' >/dev/null
+          fi
+          mise exec -- uv run --locked python -m service.data_package.cli refresh-manifest >/dev/null
+          mise exec -- uv run --locked python -m automation.release.npm_release_set build \
+            --package-dir dist/packages/kancolle-data \
+            --output "$RUNNER_TEMP/npm-release-set"
+
+          if [ "$PUBLICATION_MODE" = 'reconcile-existing-content' ]; then
+            export RELEASE_SET_DIR="$RUNNER_TEMP/npm-release-set"
+            python3 - <<'PY'
+            import hashlib
+            import json
+            import os
+            import shutil
+            import subprocess
+            import tarfile
+            import tempfile
+            from pathlib import Path
+
+            release_dir = Path(os.environ["RELEASE_SET_DIR"]).resolve()
+            versions = set(json.load(open(os.environ["PUBLISHED_VERSIONS"], encoding="utf-8")))
+            manifest_path = release_dir / "release-set.json"
+            release_set = json.load(open(manifest_path, encoding="utf-8"))
+
+            def sha256_file(path):
+                digest = hashlib.sha256()
+                with path.open("rb") as stream:
+                    for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                        digest.update(chunk)
+                return digest.hexdigest()
+
+            for artifact in release_set["artifacts"]:
+                version = str(artifact["version"])
+                if version not in versions:
+                    continue
+                with tempfile.TemporaryDirectory(prefix="npm-registry-artifact-") as temp_name:
+                    temp = Path(temp_name).resolve()
+                    completed = subprocess.run(
+                        [
+                            "npm",
+                            "pack",
+                            f"{artifact['package']}@{version}",
+                            "--ignore-scripts",
+                            "--json",
+                            "--pack-destination",
+                            str(temp),
+                        ],
+                        text=True,
+                        capture_output=True,
+                        check=False,
+                    )
+                    combined = "\n".join(
+                        part.strip() for part in (completed.stdout, completed.stderr) if part.strip()
+                    )
+                    if completed.returncode:
+                        raise SystemExit(combined or f"npm pack failed for {version}")
+                    try:
+                        packed = json.loads(completed.stdout)
+                        filename = str(packed[0]["filename"])
+                    except (json.JSONDecodeError, IndexError, KeyError, TypeError) as exc:
+                        raise SystemExit(f"npm pack returned invalid JSON for {version}: {exc}") from exc
+                    source = Path(filename)
+                    if not source.is_absolute():
+                        source = temp / source
+                    source = source.resolve()
+                    if source.parent != temp or not source.is_file() or source.is_symlink():
+                        raise SystemExit(f"npm pack produced an unsafe tarball for {version}")
+                    with tarfile.open(source, "r:gz") as archive:
+                        stream = archive.extractfile("package/package.json")
+                        if stream is None:
+                            raise SystemExit(f"registry tarball {version} lacks package.json")
+                        package_json = json.loads(stream.read().decode("utf-8"))
+                    if (
+                        package_json.get("name") != artifact["package"]
+                        or package_json.get("version") != version
+                    ):
+                        raise SystemExit(f"registry tarball identity mismatch for {version}")
+                    target = release_dir / source.name
+                    shutil.copy2(source, target)
+
+                artifact.update(
+                    {
+                        "tarball": target.name,
+                        "filename": target.name,
+                        "sha256": sha256_file(target),
+                        "bytes": target.stat().st_size,
+                    }
+                )
+                result_path = release_dir / str(artifact["packageResult"])
+                result = json.load(open(result_path, encoding="utf-8"))
+                result.update(
+                    {
+                        "tarball": target.name,
+                        "filename": target.name,
+                        "sha256": artifact["sha256"],
+                        "bytes": artifact["bytes"],
+                    }
+                )
+                result_path.write_text(
+                    json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+
+            manifest_path.write_text(
+                json.dumps(release_set, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            PY
+          fi
+
+          mise exec -- uv run --locked python -m automation.release.npm_release_set verify \
+            "$RUNNER_TEMP/npm-release-set/release-set.json"
+          mise exec -- uv run --locked python - '${{ steps.quality.outputs.snapshot }}' "$RUNNER_TEMP/online-state" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+          from automation.release.generated_state import export_generated_state
+
+          commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          result = export_generated_state(
+              output_dir=Path(sys.argv[2]),
+              base_ref="main",
+              base_commit=commit,
+              verification_report=Path(sys.argv[1]),
+              replace=True,
+          )
+          print(json.dumps(result, ensure_ascii=False))
+          PY
+
+      - name: Freeze immutable build candidate
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ steps.plan.outputs.should_publish }}' = 'true' ]; then
+            EXTRA+=(--npm-release-set "$RUNNER_TEMP/npm-release-set")
+            EXTRA+=(--online-state "$RUNNER_TEMP/online-state")
+          fi
+          mise exec -- uv run --locked python -m automation.compute.cli freeze \
+            --source-bundle "$RUNNER_TEMP/source-bundle" \
+            --release-plan '${{ steps.plan.outputs.path }}' \
+            --verification-report '${{ steps.quality.outputs.snapshot }}' \
+            --output "$RUNNER_TEMP/build-candidate" \
+            "${EXTRA[@]}"
+
+      - name: Verify frozen build candidate
+        run: |
+          set -euo pipefail
+          CANDIDATE="$RUNNER_TEMP/build-candidate"
+          mise exec -- uv run --locked python -m automation.release.cli --candidate "$CANDIDATE"
+
+      - name: Upload build candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Record unchanged consumer data
+        if: steps.plan.outputs.should_publish != 'true'
+        run: |
+          printf 'Consumer data already matches authoritative npm state; no publication or reconciliation was required.\n' \
+            >> "$GITHUB_STEP_SUMMARY"
+
+
+  publish:
+    needs: build
+    if: needs.build.outputs.should_publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: read
+      contents: write
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+    steps:
+      - name: Checkout public main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen build candidate
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+
+      - name: Checkout candidate commit
+        run: |
+          set -euo pipefail
+          CANDIDATE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/build-candidate/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$CANDIDATE_COMMIT"
+
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked release environment
+        run: mise exec -- uv sync --locked
+
+      - name: Verify frozen candidate and release set
+        run: |
+          set -euo pipefail
+          CANDIDATE="$RUNNER_TEMP/build-candidate"
+          mise exec -- uv run --locked python -m automation.release.cli --candidate "$CANDIDATE"
+          test "$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$CANDIDATE/release-plan.json")" = true
+          mise exec -- uv run --locked python -m automation.release.npm_release_set verify \
+            "$CANDIDATE/npm-release-set/release-set.json"
+          mise exec -- uv run --locked python -c 'from pathlib import Path; from automation.release.generated_state import verify_generated_state; verify_generated_state(Path("'"$CANDIDATE"'/online-state"))'
+
+      - name: Validate npm credentials
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "${NODE_AUTH_TOKEN:-}" || {
+            echo 'Repository secret NPM_TOKEN is required before automatic data publishing.' >&2
+            exit 1
+          }
+
+      - name: Publish or reconcile frozen npm variants
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.release.npm_publish \
+            "$RUNNER_TEMP/build-candidate/npm-release-set/release-set.json" \
+            --audit-dir "$RUNNER_TEMP/npm-publish-audit"
+
+      - name: Upload npm publication audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-npm-publish-audit
+          path: ${{ runner.temp }}/npm-publish-audit
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Push frozen online state
+        run: |
+          set -euo pipefail
+          STATE_DIR="$RUNNER_TEMP/build-candidate/online-state"
+          INDEX="$RUNNER_TEMP/online-state.index"
+          rm -f "$INDEX"
+          export GIT_INDEX_FILE="$INDEX"
+          git read-tree --empty
+          git --work-tree="$STATE_DIR" add -A
+          TREE="$(git write-tree)"
+          VERSION="$(mise exec -- uv run --locked python -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/build-candidate/dist/packages/kancolle-data/package.json", encoding="utf-8"))["version"])')"
+          REMOTE_SHA="$(git ls-remote --heads origin refs/heads/online | awk '{print $1}')"
+          PARENT=()
+          if [ -n "$REMOTE_SHA" ]; then
+            PARENT=(-p "$REMOTE_SHA")
+          fi
+          COMMIT="$(printf 'Publish generated data %s\n' "$VERSION" | \
+            GIT_AUTHOR_NAME='github-actions[bot]' \
+            GIT_AUTHOR_EMAIL='41898282+github-actions[bot]@users.noreply.github.com' \
+            GIT_COMMITTER_NAME='github-actions[bot]' \
+            GIT_COMMITTER_EMAIL='41898282+github-actions[bot]@users.noreply.github.com' \
+            git commit-tree "$TREE" "${PARENT[@]}")"
+          git push "--force-with-lease=refs/heads/online:${REMOTE_SHA}" \
+            origin "$COMMIT:refs/heads/online"
+          printf 'Published @sakura2333/kancolle-data@%s and updated online.\n' "$VERSION" \
+            >> "$GITHUB_STEP_SUMMARY"

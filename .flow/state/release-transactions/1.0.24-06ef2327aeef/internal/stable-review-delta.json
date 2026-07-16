@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "d3d3007335a319fc65fda3a38e7989e2134fe34b",
+  "counts": {
+    "runtime": 46,
+    "automation": 30,
+    "packageTemplate": 30,
+    "documentation": 17,
+    "retiredPublic": 63,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "A",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "D",
+      "path": ".github/workflows/data-pipeline.yml",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": ".github/workflows/release.yml",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": ".github/workflows/source-acquire.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".gitignore",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "RELEASE-NOTES.md",
+      "category": "documentation"
+    },
+    {
+      "status": "D",
+      "path": "STABLE-CONTENT-MANIFEST.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "A",
+      "path": "automation/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/wikiwiki/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/wikiwiki/page_catalog.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/acquire/wikiwiki/raw_cache.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/common/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/common/bundle.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/common/process.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/compute/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/compute/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "R100",
+      "path": "automation/release/generated_state/__init__.py",
+      "category": "automation"
+    },
+    {
+      "status": "R098",
+      "path": "automation/release/generated_state/artifact.py",
+      "category": "automation"
+    },
+    {
+      "status": "R100",
+      "path": "automation/release/generated_state/common.py",
+      "category": "automation"
+    },
+    {
+      "status": "R100",
+      "path": "automation/release/generated_state/config.py",
+      "category": "automation"
+    },
+    {
+      "status": "R090",
+      "path": "automation/release/generated_state/exporter.py",
+      "category": "automation"
+    },
+    {
+      "status": "R069",
+      "path": "automation/release/generated_state/manifest.py",
+      "category": "automation"
+    },
+    {
+      "status": "R087",
+      "path": "automation/release/generated_state/repository.py",
+      "category": "automation"
+    },
+    {
+      "status": "R097",
+      "path": "automation/release/generated_state/sync.py",
+      "category": "automation"
+    },
+    {
+      "status": "R097",
+      "path": "automation/release/generated_state/verifier.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/npm_publish.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/npm_registry.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/release/npm_release_set.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "configs/README.md",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "configs/generated-state.json",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "configs/path.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "configs/wikiwiki-crawler.default.json",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "configs/wikiwiki-page-name-aliases.json",
+      "category": "runtime"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/100.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/104.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/145.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/150.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/2.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/241.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/57.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/70.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/71.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/75.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/77.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/78.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/91.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/92.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/94.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/assets/useitems/95.png",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/improvement/improvement-detail.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/improvement/improvement-list.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/README.md",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/akashi-list/metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/equipment-sources/dataset-metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/equipment-sources/equipment-sources.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kc3-slotitem-bonus/dataset-issues.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kc3-slotitem-bonus/dataset-metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kc3-slotitem-bonus/special-bonuses.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kcwiki-data/dataset-issues.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kcwiki-data/dataset-metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kcwiki-data/equipment-drop-from.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/kcwiki-data/metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/reliability/summary.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/acquisition-records.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/catalog.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/dataset-issues.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/dataset-metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/reference-issues.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-equipment-detail/unclassified-evidence.nedb",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/sources/wikiwiki-jp/metadata.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_bgm.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_const.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_equip_exslot.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_equip_exslot_ship.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_equip_limit_exslot.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_equip_ship.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_furniture.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_item_shop.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_maparea.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_mapbgm.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_mapinfo.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_mission.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_payitem.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_ship.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_shipgraph.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_shipupgrade.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_slotitem.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_slotitem_equiptype.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_stype.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/api_mst_useitem.json",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "data/start2_data/current_version.txt",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/ARCHITECTURE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "docs/public/DATA-PACKAGE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "R058",
+      "path": "docs/public/DATA-SCHEMA.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "docs/public/GENERATED-STATE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "docs/public/ROUTE-AUDIT.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/SOURCE-EVIDENCE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "docs/public/SOURCE-HISTORY.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/SOURCE-REFERENCES.md",
+      "category": "documentation"
+    },
+    {
+      "status": "A",
+      "path": "mise.toml",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/README.md",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/100.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/104.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/145.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/150.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/2.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/241.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/57.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/70.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/71.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/75.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/77.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/78.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/91.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/92.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/94.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/assets/useitems/95.png",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/audit/build-report.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/detail.nedb",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/list.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/equipment/drop-from.nedb",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/equipment/sources.nedb",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/equipment/special-bonuses.nedb",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/improvement/detail.nedb",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/improvement/list.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/index.d.ts",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/index.js",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "packages/kancolle-data/manifest.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/package.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "D",
+      "path": "pojo/__init__.py",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "pojo/equip_item.py",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "D",
+      "path": "pojo/improvement.py",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "A",
+      "path": "pyproject.toml",
+      "category": "documentation"
+    },
+    {
+      "status": "D",
+      "path": "requirements.txt",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/akashi_detail_processor.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/akashi_list_spider.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/akashi_list_utils.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/daily_ship_parser.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/detail_recipe_parser.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/detail_stage_parser.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/akashi_list/improvement_expectation.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/acquisition_references.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/builder.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/cli.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition_crawl.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition_raw_parse.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition_snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "status": "D",
+      "path": "service/data_package/equipment_acquisition_trial.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_sources.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/data_package/improvement_assistant_reverse.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/data_package/improvement_record.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/package_paths.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/projection.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/source_collection.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/constants.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/improvement/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/improvement/model.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/operator_stop.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/__init__.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/common.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/export.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/history.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/kcwiki_data.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/reliability.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/runner.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/source_compare.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/source_validation/wikiwiki_jp.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/export_utils.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/http_cache/settings.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/logger.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/start2/config.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/start2/start2_use_item_utils.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/start2/start2_utils.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "util/text_utils.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "uv.lock",
+      "category": "documentation"
+    }
+  ]
+}

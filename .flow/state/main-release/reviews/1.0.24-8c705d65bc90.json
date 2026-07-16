@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-8c705d65bc90",
+  "candidateCommit": "5a24da1df090a41662b0dd780e73e30fecfb5847",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Candidate ZIP SHA-256 4153796698d2b9d0080b17c77a14e143318c9a1a291824308a8b7140d8b32059. The archive contains exactly 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json. Its byte-level difference from the prior Stable Candidate is exactly the four paths declared by the Review Delta: PUBLIC-CONTENT-MANIFEST.json, README.md, automation/acquire/cli.py, and docs/public/DATA-LIFECYCLE.md. Acquire now treats kcQuests quests-scn.json as a required prefetch input, verifies the fixed strict-Build cache closure before writing the ready lock, and rejects missing, stale, or fallback-backed required cache entries. KcWiki ship/equipment inputs remain explicitly optional and non-blocking. Build remains CACHE_ONLY and consumes the frozen Source Bundle. No unsafe archive paths, duplicate entries, symlinks, worktree metadata, local absolute paths, credentials, private network addresses, or internal Flow control-plane references were found. Public Python compilation and all workflow YAML parsing passed. Content-level semantic validation of kcQuests and KC3 remains in the Build stage; future source-specific Artifact decomposition is recommended but is not a blocker for this cache-miss hotfix."
+}

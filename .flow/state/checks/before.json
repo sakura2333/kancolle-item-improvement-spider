@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "profile": "before",
+  "commit": "78f9eaa55dd7ac83fd6243b67c4a577a9e02d270",
+  "tree": "83c949bb8aa07ab420afce2452bc81001b36447e",
+  "contentIdentity": {
+    "scheme": "flow-content-sha256",
+    "value": "8e8853e4d37279a776945859f186a0d1c05d6d3c0c5b6d5c462af839a4d5c8bb"
+  },
+  "contentHash": "sha256:8e8853e4d37279a776945859f186a0d1c05d6d3c0c5b6d5c462af839a4d5c8bb",
+  "lockHash": "sha256:42fd9e190f148542bcb769f1233f816b7383b7e82fe0ad6db02b245a3835c71e",
+  "generatedAt": "2026-07-13T17:36:36.823821+00:00",
+  "python": [
+    3,
+    14
+  ],
+  "uv": "0.11.28",
+  "dependencies": {
+    "jaconv": "0.5.0",
+    "lxml": "6.0.2",
+    "playwright": "1.61.0",
+    "requests": "2.32.5"
+  },
+  "logs": [
+    ".flow/state/logs/20260713T173626334511Z-quality-before-1.log",
+    ".flow/state/logs/20260713T173626687547Z-quality-before-2.log"
+  ]
+}

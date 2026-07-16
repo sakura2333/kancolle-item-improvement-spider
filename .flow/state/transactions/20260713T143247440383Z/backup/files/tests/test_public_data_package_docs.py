@@ -1,0 +1,61 @@
+from __future__ import annotations
+
+from pathlib import Path
+import unittest
+
+
+ROOT = Path(__file__).resolve().parents[1]
+README = ROOT / "README.md"
+DATA_SCHEMA = ROOT / "docs/public/DATA-SCHEMA.md"
+DATA_LIFECYCLE = ROOT / "docs/public/DATA-LIFECYCLE.md"
+ARCHITECTURE = ROOT / "docs/public/ARCHITECTURE.md"
+RELEASE_NOTES = ROOT / "RELEASE-NOTES.md"
+NPM_BETA = ROOT / "script/project/npm_beta.py"
+
+
+class PublicDataPackageDocumentationTest(unittest.TestCase):
+    def test_root_readme_distinguishes_template_candidate_and_artifact(self) -> None:
+        text = README.read_text(encoding="utf-8")
+        self.assertIn("`packages/kancolle-data/` 是受 Git 管理的 npm 源码模板", text)
+        self.assertIn("`dist/packages/kancolle-data/`", text)
+        self.assertIn("`dist/npm/kancolle-data/<version>/`", text)
+        self.assertIn("cd dist/packages/kancolle-data", text)
+        self.assertIn("require('./dist/packages/kancolle-data')", text)
+        self.assertNotIn("数据包位于 `packages/kancolle-data/`", text)
+        self.assertNotIn("cd packages/kancolle-data", text)
+        self.assertNotIn("require('./packages/kancolle-data')", text)
+
+    def test_schema_document_uses_generated_package_paths(self) -> None:
+        text = DATA_SCHEMA.read_text(encoding="utf-8")
+        self.assertIn(
+            "`dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/`",
+            text,
+        )
+        self.assertIn("`dist/packages/kancolle-data/equipment/sources.nedb`", text)
+        self.assertNotIn(
+            "`packages/kancolle-data/compat/poi-plugin-item-improvement2/`",
+            text,
+        )
+        self.assertNotIn("`packages/kancolle-data/equipment/sources.nedb`", text)
+
+    def test_lifecycle_and_beta_builder_share_unified_npm_output_root(self) -> None:
+        lifecycle = DATA_LIFECYCLE.read_text(encoding="utf-8")
+        implementation = NPM_BETA.read_text(encoding="utf-8")
+        self.assertIn("dist/npm/kancolle-data/<version>/", lifecycle)
+        self.assertIn(
+            'DEFAULT_OUTPUT_ROOT = PROJECT_ROOT / "dist" / "npm" / "kancolle-data"',
+            implementation,
+        )
+        self.assertNotIn('PROJECT_ROOT / "dist" / "npm-beta"', implementation)
+
+    def test_architecture_and_release_notes_use_the_same_three_stage_contract(self) -> None:
+        architecture = ARCHITECTURE.read_text(encoding="utf-8")
+        notes = RELEASE_NOTES.read_text(encoding="utf-8")
+        for text in (architecture, notes):
+            self.assertIn("packages/kancolle-data/", text)
+            self.assertIn("dist/packages/kancolle-data/", text)
+            self.assertIn("dist/npm/kancolle-data/<version>/", text)
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "attemptId": "47146e92-edf1-4449-82b6-aa3c6fd07f39",
+  "checkedAt": "2026-07-11T03:24:23Z",
+  "package": "@sakura2333/kancolle-data",
+  "version": "0.5.2-beta",
+  "tag": "beta",
+  "registry": "https://registry.npmjs.org/",
+  "tarball": {
+    "path": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/npm-beta/0.5.2-beta/artifacts/sakura2333-kancolle-data-0.5.2-beta.tgz",
+    "sha256": "b88765ee8c67dbb2c01f8206040c414d0e4e6ceb33ab1899f6f6ba9c373727a9",
+    "sha1": "01d10035d60646ebaea894fe9944c12aefdd5976",
+    "integrity": "sha512-nhPfC3cKWHlk0o6FSQ8zM1MC2V+5q9dOH3tbDdlWv4Kk/IxMrwJvDyP5HIst1URIJWNU2UH4EpUuPbrUuK96Yg==",
+    "bytes": 15710498
+  },
+  "provenance": null,
+  "publishRequested": true,
+  "publishAttempt": {
+    "attemptedAt": "2026-07-11T03:24:33Z",
+    "returnCode": 0,
+    "message": "npm notice\nnpm notice 📦  @sakura2333/kancolle-data@0.5.2-beta\nnpm notice Tarball Contents\nnpm notice 4.1kB CHANGELOG.md\nnpm notice 412B LICENSES.md\nnpm notice 3.0kB README.md\nnpm notice 795B RELEASES.json\nnpm notice 27.9kB assets/equip/1.png\nnpm notice 32.8kB assets/equip/2.png\nnpm notice 39.6kB assets/equip/3.png\nnpm notice 33.6kB assets/equip/4.png\nnpm notice 45.1kB assets/equip/5.png\nnpm notice 45.8kB assets/equip/6.png\nnpm notice 30.2kB assets/equip/7.png\nnpm notice 42.7kB assets/equip/8.png\nnpm notice 32.9kB assets/equip/9.png\nnpm notice 33.5kB assets/equip/10.png\nnpm notice 28.4kB assets/equip/11.png\nnpm notice 41.6kB assets/equip/12.png\nnpm notice 31.4kB assets/equip/13.png\nnpm notice 31.5kB assets/equip/14.png\nnpm notice 42.4kB assets/equip/15.png\nnpm notice 30.7kB assets/equip/16.png\nnpm notice 41.6kB assets/equip/17.png\nnpm notice 31.6kB assets/equip/18.png\nnpm notice 31.6kB assets/equip/19.png\nnpm notice 30.9kB assets/equip/20.png\nnpm notice 44.7kB assets/equip/21.png\nnpm notice 31.7kB assets/equip/22.png\nnpm notice 32.2kB assets/equip/23.png\nnpm notice 41.8kB assets/equip/24.png\nnpm notice 30.9kB assets/equip/25.png\nnpm notice 40.2kB assets/equip/26.png\nnpm notice 45.9kB assets/equip/27.png\nnpm notice 46.4kB assets/equip/28.png\nnpm notice 32.9kB assets/equip/29.png\nnpm notice 46.6kB assets/equip/30.png\nnpm notice 33.1kB assets/equip/31.png\nnpm notice 33.9kB assets/equip/32.png\nnpm notice 46.3kB assets/equip/34.png\nnpm notice 48.2kB assets/equip/35.png\nnpm notice 38.8kB assets/equip/36.png\nnpm notice 35.9kB assets/equip/37.png\nnpm notice 36.5kB assets/equip/38.png\nnpm notice 46.5kB assets/equip/39.png\nnpm notice 46.8kB assets/equip/40.png\nnpm notice 29.6kB assets/equip/41.png\nnpm notice 35.7kB assets/equip/44.png\nnpm notice 33.7kB assets/equip/45.png\nnpm notice 30.4kB assets/equip/46.png\nnpm notice 32.6kB assets/equip/47.png\nnpm notice 45.7kB assets/equip/49.png\nnpm notice 37.9kB assets/equip/50.png\nnpm notice 42.6kB assets/equip/51.png\nnpm notice 31.9kB "
+  },
+  "registryRelease": {
+    "package": "@sakura2333/kancolle-data",
+    "version": "0.5.2-beta",
+    "registry": "https://registry.npmjs.org/",
+    "shasum": "01d10035d60646ebaea894fe9944c12aefdd5976",
+    "integrity": "sha512-nhPfC3cKWHlk0o6FSQ8zM1MC2V+5q9dOH3tbDdlWv4Kk/IxMrwJvDyP5HIst1URIJWNU2UH4EpUuPbrUuK96Yg==",
+    "tarball": "https://registry.npmjs.org/@sakura2333/kancolle-data/-/kancolle-data-0.5.2-beta.tgz"
+  },
+  "comparison": {
+    "matches": true,
+    "localSha1": "01d10035d60646ebaea894fe9944c12aefdd5976",
+    "remoteSha1": "01d10035d60646ebaea894fe9944c12aefdd5976",
+    "localIntegrity": "sha512-nhPfC3cKWHlk0o6FSQ8zM1MC2V+5q9dOH3tbDdlWv4Kk/IxMrwJvDyP5HIst1URIJWNU2UH4EpUuPbrUuK96Yg==",
+    "remoteIntegrity": "sha512-nhPfC3cKWHlk0o6FSQ8zM1MC2V+5q9dOH3tbDdlWv4Kk/IxMrwJvDyP5HIst1URIJWNU2UH4EpUuPbrUuK96Yg=="
+  },
+  "distTag": {
+    "tag": "beta",
+    "before": "0.5.2-beta",
+    "after": "0.5.2-beta",
+    "changed": false
+  },
+  "status": "published",
+  "reconciledAt": "2026-07-11T03:24:46Z"
+}

@@ -1,0 +1,37 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/test.py all
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m unittest discover -s tests -p 'test*.py' -v
+test_akashi_html_image_urls_are_not_parsed (test_akashi_image_downloads.AkashiImageDownloadBoundaryTest.test_akashi_html_image_urls_are_not_parsed) ... ok
+test_akashi_parsers_do_not_acquire_images (test_akashi_image_downloads.AkashiImageDownloadBoundaryTest.test_akashi_parsers_do_not_acquire_images) ... ok
+test_official_asset_stage_runs_after_canonical_route_conversion (test_akashi_image_downloads.AkashiImageDownloadBoundaryTest.test_official_asset_stage_runs_after_canonical_route_conversion) ... ok
+test_source_bundle_acquire_runs_official_assets_after_akashi_records (test_akashi_image_downloads.AkashiImageDownloadBoundaryTest.test_source_bundle_acquire_runs_official_assets_after_akashi_records) ... ok
+test_architecture_references_real_boundaries (test_architecture_docs.ArchitectureDocumentationTest.test_architecture_references_real_boundaries) ... ok
+test_four_layers_and_dependency_direction_are_explicit (test_architecture_docs.ArchitectureDocumentationTest.test_four_layers_and_dependency_direction_are_explicit) ... ok
+test_old_nine_layer_control_plane_docs_are_removed (test_architecture_docs.ArchitectureDocumentationTest.test_old_nine_layer_control_plane_docs_are_removed) ... ok
+test_cached_icons_are_promoted_to_stable_assets (test_asset_projection.AssetProjectionTest.test_cached_icons_are_promoted_to_stable_assets) ... ok
+test_equipment_promotion_replaces_legacy_png_with_webp (test_asset_projection.AssetProjectionTest.test_equipment_promotion_replaces_legacy_png_with_webp) ... ok
+test_collection_completion_marker_is_process_local_and_resettable (test_cache.CacheFreshnessTest.test_collection_completion_marker_is_process_local_and_resettable) ... ok
+test_download_pic_uses_half_year_cache_ttl (test_cache.CacheFreshnessTest.test_download_pic_uses_half_year_cache_ttl) ... ok
+test_exhausted_transient_retries_raise_without_cache_fallback (test_cache.CacheFreshnessTest.test_exhausted_transient_retries_raise_without_cache_fallback) ... [33m2026-07-15 20:08:39,339 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof[0m
+[33m2026-07-15 20:08:39,340 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof[0m
+[33m2026-07-15 20:08:39,340 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof[0m
+ok
+test_json_url_keeps_json_extension (test_cache.CacheFreshnessTest.test_json_url_keeps_json_extension) ... ok
+test_non_strict_fetch_can_fall_back (test_cache.CacheFreshnessTest.test_non_strict_fetch_can_fall_back) ... [31m2026-07-15 20:08:39,342 [ERROR] [util.http_cache.client] [FETCH FAILED][CACHE FALLBACK] https://example.test/data.json: offline[0m
+ok
+test_retryable_http_status_is_retried (test_cache.CacheFreshnessTest.test_retryable_http_status_is_retried) ... [33m2026-07-15 20:08:39,343 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503[0m
+ok
+test_strict_304_revalidates_expired_cached_content (test_cache.CacheFreshnessTest.test_strict_304_revalidates_expired_cached_content) ... [32m2026-07-15 20:08:39,344 [INFO] [util.http_cache.transport] [CACHE META UPDATED] https://example.test/data.json -> example.test/data.json (304)[0m
+ok
+test_strict_download_pic_reuses_cache_within_half_year_without_network (test_cache.CacheFreshnessTest.test_strict_download_pic_reuses_cache_within_half_year_without_network) ... ok
+test_strict_fetch_rejects_cache_fallback_after_ttl_expires (test_cache.CacheFreshnessTest.test_strict_fetch_rejects_cache_fallback_after_ttl_expires) ... ok
+test_strict_fetch_reuses_cache_within_48_hours_without_network (test_cache.CacheFreshnessTest.test_strict_fetch_reuses_cache_within_48_hours_without_network) ... ok
+test_strict_fetch_revalidates_once_48_hour_ttl_expires (test_cache.CacheFreshnessTest.test_strict_fetch_revalidates_once_48_hour_ttl_expires) ... [32m2026-07-15 20:08:39,348 [INFO] [util.http_cache.transport] [CACHE META UPDATED] https://example.test/data.json -> example.test/data.json (304)[0m
+ok
+test_text_cache_ttl_is_48_hours (test_cache.CacheFreshnessTest.test_text_cache_ttl_is_48_hours) ... ok
+test_transient_ssl_error_is_retried_and_then_succeeds (test_cache.CacheFreshnessTest.test_transient_ssl_error_is_retried_and_then_succeeds) ... [33m2026-07-15 20:08:39,348 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof[0m
+ok
+test_run_logged_does_not_pollute_json_stdout (test_command_support.CommandSupportTest.test_run_logged_does_not_pollute_json_stdout) ... ok
+test_run_logged_failure_reports_log_tail (test_command_support.CommandSupportTest.test_run_logged_failure_reports_log_tail) ... ok
+test_run_logged_prints_log_path_and_streams_output_to_stderr (test_command_support.CommandSupportTest.test_run_logged_prints_log_path_and_streams_output_to_stderr) ... ok
+test_committed_default_configs_are_allowed (test_config_guard.ConfigGovernanceTest.test_committed_default_configs_are_allowed) ... ok
+test_configs_readme_is_required_but_not_json_contract (test_config_guard.ConfigGovernanceTest.test_configs_readme_is_required_but_not_json_contract) ... ok

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "663a92fc615c4c8495a585cd3bf28332f08a16fc",
+  "counts": {
+    "runtime": 0,
+    "automation": 2,
+    "packageTemplate": 0,
+    "documentation": 3,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".github/workflows/source-acquire.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "projectId": "kancolle-item-improvement-spider",
+  "categories": {
+    "runtime": [
+      "configs/**",
+      "service/**",
+      "util/**"
+    ],
+    "automation": [
+      "automation/**",
+      ".github/workflows/**"
+    ],
+    "packageTemplate": [
+      "packages/kancolle-data/**"
+    ],
+    "documentation": [
+      "LICENSE",
+      "README.md",
+      "RELEASE-NOTES.md",
+      "VERSION",
+      "mise.toml",
+      "pyproject.toml",
+      "uv.lock",
+      "docs/public/**"
+    ]
+  },
+  "required": [
+    "README.md",
+    "VERSION",
+    "mise.toml",
+    "pyproject.toml",
+    "uv.lock",
+    "docs/public/README.md",
+    "docs/public/DATA-SCHEMA.md",
+    "RELEASE-NOTES.md",
+    ".github/workflows/source-acquire.yml",
+    ".github/workflows/data-build.yml",
+    ".github/workflows/release.yml",
+    "automation/acquire/cli.py",
+    "automation/compute/cli.py",
+    "automation/release/cli.py",
+    "STABLE-CONTENT-MANIFEST.json"
+  ],
+  "internalOnly": [
+    ".flow/**",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "docs/internal/**",
+    "release/**",
+    "AGENTS.md",
+    "GPT-START.md",
+    "SPIDER-HARD-RULES.md",
+    "SPIDER-AUTHORITY-MAP.md"
+  ],
+  "forbidden": [
+    ".flow/**",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "docs/internal/**",
+    "release/**",
+    "data/**",
+    "log/**",
+    ".venv/**",
+    ".idea/**",
+    ".gpt/**",
+    "**/__pycache__/**",
+    "**/*.pyc"
+  ],
+  "summary": {
+    "builder": "script.project.release_summary:build"
+  },
+  "previewRoot": ".flow/state/stable",
+  "mainReleaseGateRoot": ".flow/state/main-release",
+  "candidateBranchPrefix": "public-candidate/",
+  "contentManifest": {
+    "path": "STABLE-CONTENT-MANIFEST.json",
+    "migrationId": "spider-flow-public-1.0.6",
+    "mode": "one-time-full-then-managed",
+    "allowedLegacyTrees": [
+      "4065dfa2cc3732c2c2ca70d60ec889dc24d738fe"
+    ]
+  },
+  "generated": [
+    "RELEASE-NOTES.md",
+    "STABLE-CONTENT-MANIFEST.json"
+  ],
+  "releaseCheckProfile": "release",
+  "generatedState": [
+    "dist/data-pipeline/improvement/**",
+    "dist/data-pipeline/start2_data/**",
+    "dist/data-pipeline/assets/**",
+    "dist/data-pipeline/sources/**",
+    "dist/packages/kancolle-data/**"
+  ]
+}

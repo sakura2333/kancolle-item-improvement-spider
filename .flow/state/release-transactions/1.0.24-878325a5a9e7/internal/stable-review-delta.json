@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "0d0ab41ace92308f076bda53d0f6420b225607dd",
+  "counts": {
+    "runtime": 9,
+    "automation": 7,
+    "packageTemplate": 4,
+    "documentation": 7,
+    "retiredPublic": 1,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".github/workflows/release.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".github/workflows/source-acquire.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "RELEASE-NOTES.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/compute/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "A",
+      "path": "automation/compute/source_resolver.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/release/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "configs/generated-state.json",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-SCHEMA.md",
+      "category": "documentation"
+    },
+    {
+      "status": "D",
+      "path": "mise.toml",
+      "category": "retiredPublic"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/CHANGELOG.md",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/README.md",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/package.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "packages/kancolle-data/schemas/equipment-sources.schema.json",
+      "category": "packageTemplate"
+    },
+    {
+      "status": "M",
+      "path": "pyproject.toml",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/builder.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition_raw_parse.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_acquisition_snapshot.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/data_package/equipment_development.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_sources.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/source_collection.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/equipment.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "uv.lock",
+      "category": "documentation"
+    }
+  ]
+}

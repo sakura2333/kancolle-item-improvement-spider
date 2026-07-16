@@ -1,0 +1,1185 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+[32m2026-07-15 12:19:40,937 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w019.html -> akashi-list.me/detail/w019.html (200)[0m
+[akashi] id=w019 status=saved
+[32m2026-07-15 12:19:42,501 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w228.html -> akashi-list.me/detail/w228.html (200)[0m
+[akashi] id=w228 status=saved
+[32m2026-07-15 12:19:43,418 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w249.html -> akashi-list.me/detail/w249.html (200)[0m
+[akashi] id=w249 status=saved
+[32m2026-07-15 12:19:44,427 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w197.html -> akashi-list.me/detail/w197.html (200)[0m
+[akashi] id=w197 status=saved
+[32m2026-07-15 12:19:46,114 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w020.html -> akashi-list.me/detail/w020.html (200)[0m
+[akashi] id=w020 status=saved
+[32m2026-07-15 12:19:47,054 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w181.html -> akashi-list.me/detail/w181.html (200)[0m
+[akashi] id=w181 status=saved
+[32m2026-07-15 12:19:48,157 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w198.html -> akashi-list.me/detail/w198.html (200)[0m
+[akashi] id=w198 status=saved
+[32m2026-07-15 12:19:49,146 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w021.html -> akashi-list.me/detail/w021.html (200)[0m
+[akashi] id=w021 status=saved
+[32m2026-07-15 12:19:50,060 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w184.html -> akashi-list.me/detail/w184.html (200)[0m
+[akashi] id=w184 status=saved
+[32m2026-07-15 12:19:51,916 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w205.html -> akashi-list.me/detail/w205.html (200)[0m
+[akashi] id=w205 status=saved
+[32m2026-07-15 12:19:53,094 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w182.html -> akashi-list.me/detail/w182.html (200)[0m
+[akashi] id=w182 status=saved
+[32m2026-07-15 12:19:53,951 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w096.html -> akashi-list.me/detail/w096.html (200)[0m
+[akashi] id=w096 status=saved
+[32m2026-07-15 12:19:54,917 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w158.html -> akashi-list.me/detail/w158.html (200)[0m
+[akashi] id=w158 status=saved
+[32m2026-07-15 12:19:55,981 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w109.html -> akashi-list.me/detail/w109.html (200)[0m
+[akashi] id=w109 status=saved
+[32m2026-07-15 12:19:56,885 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w152.html -> akashi-list.me/detail/w152.html (200)[0m
+[akashi] id=w152 status=saved
+[32m2026-07-15 12:19:58,603 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w486.html -> akashi-list.me/detail/w486.html (200)[0m
+[akashi] id=w486 status=saved
+[32m2026-07-15 12:20:00,179 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w153.html -> akashi-list.me/detail/w153.html (200)[0m
+[akashi] id=w153 status=saved
+[32m2026-07-15 12:20:01,208 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w055.html -> akashi-list.me/detail/w055.html (200)[0m
+[akashi] id=w055 status=saved
+[32m2026-07-15 12:20:02,147 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w252.html -> akashi-list.me/detail/w252.html (200)[0m
+[akashi] id=w252 status=saved
+[32m2026-07-15 12:20:03,179 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w473.html -> akashi-list.me/detail/w473.html (200)[0m
+[akashi] id=w473 status=saved
+[32m2026-07-15 12:20:04,352 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w022.html -> akashi-list.me/detail/w022.html (200)[0m
+[akashi] id=w022 status=saved
+[32m2026-07-15 12:20:05,274 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w492.html -> akashi-list.me/detail/w492.html (200)[0m
+[akashi] id=w492 status=saved
+[32m2026-07-15 12:20:06,642 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w271.html -> akashi-list.me/detail/w271.html (200)[0m
+[akashi] id=w271 status=saved
+[32m2026-07-15 12:20:07,326 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w206.html -> akashi-list.me/detail/w206.html (200)[0m
+[akashi] id=w206 status=saved
+[32m2026-07-15 12:20:08,951 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w110.html -> akashi-list.me/detail/w110.html (200)[0m
+[akashi] id=w110 status=saved
+[32m2026-07-15 12:20:09,990 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w156.html -> akashi-list.me/detail/w156.html (200)[0m
+[akashi] id=w156 status=saved
+[32m2026-07-15 12:20:11,215 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w189.html -> akashi-list.me/detail/w189.html (200)[0m
+[akashi] id=w189 status=saved
+[32m2026-07-15 12:20:12,214 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w422.html -> akashi-list.me/detail/w422.html (200)[0m
+[akashi] id=w422 status=saved
+[32m2026-07-15 12:20:14,154 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w053.html -> akashi-list.me/detail/w053.html (200)[0m
+[akashi] id=w053 status=saved
+[32m2026-07-15 12:20:15,082 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w157.html -> akashi-list.me/detail/w157.html (200)[0m
+[akashi] id=w157 status=saved
+[32m2026-07-15 12:20:16,748 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w547.html -> akashi-list.me/detail/w547.html (200)[0m
+[akashi] id=w547 status=saved
+[32m2026-07-15 12:20:17,677 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w277.html -> akashi-list.me/detail/w277.html (200)[0m
+[akashi] id=w277 status=saved
+[32m2026-07-15 12:20:18,771 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w447.html -> akashi-list.me/detail/w447.html (200)[0m
+[akashi] id=w447 status=saved
+[32m2026-07-15 12:20:19,714 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w248.html -> akashi-list.me/detail/w248.html (200)[0m
+[akashi] id=w248 status=saved
+[32m2026-07-15 12:20:21,700 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w060.html -> akashi-list.me/detail/w060.html (200)[0m
+[akashi] id=w060 status=saved
+[32m2026-07-15 12:20:24,161 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w154.html -> akashi-list.me/detail/w154.html (200)[0m
+[akashi] id=w154 status=saved
+[32m2026-07-15 12:20:26,372 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w550.html -> akashi-list.me/detail/w550.html (200)[0m
+[akashi] id=w550 status=saved
+[32m2026-07-15 12:20:27,787 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w023.html -> akashi-list.me/detail/w023.html (200)[0m
+[akashi] id=w023 status=saved
+[32m2026-07-15 12:20:28,635 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w551.html -> akashi-list.me/detail/w551.html (200)[0m
+[akashi] id=w551 status=saved
+[32m2026-07-15 12:20:29,577 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w219.html -> akashi-list.me/detail/w219.html (200)[0m
+[akashi] id=w219 status=saved
+[32m2026-07-15 12:20:30,566 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w316.html -> akashi-list.me/detail/w316.html (200)[0m
+[akashi] id=w316 status=saved
+[32m2026-07-15 12:20:31,440 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w487.html -> akashi-list.me/detail/w487.html (200)[0m
+[akashi] id=w487 status=saved
+[32m2026-07-15 12:20:33,233 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w195.html -> akashi-list.me/detail/w195.html (200)[0m
+[akashi] id=w195 status=saved
+[32m2026-07-15 12:20:34,108 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w391.html -> akashi-list.me/detail/w391.html (200)[0m
+[akashi] id=w391 status=saved
+[32m2026-07-15 12:20:35,186 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w474.html -> akashi-list.me/detail/w474.html (200)[0m
+[akashi] id=w474 status=saved
+[32m2026-07-15 12:20:36,205 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w552.html -> akashi-list.me/detail/w552.html (200)[0m
+[akashi] id=w552 status=saved
+[32m2026-07-15 12:20:37,225 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w541.html -> akashi-list.me/detail/w541.html (200)[0m
+[akashi] id=w541 status=saved
+[32m2026-07-15 12:20:38,262 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w419.html -> akashi-list.me/detail/w419.html (200)[0m
+[akashi] id=w419 status=saved
+[32m2026-07-15 12:20:40,005 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w233.html -> akashi-list.me/detail/w233.html (200)[0m
+[akashi] id=w233 status=saved
+[32m2026-07-15 12:20:41,365 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w024.html -> akashi-list.me/detail/w024.html (200)[0m
+[akashi] id=w024 status=saved
+[32m2026-07-15 12:20:42,291 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w392.html -> akashi-list.me/detail/w392.html (200)[0m
+[akashi] id=w392 status=saved
+[32m2026-07-15 12:20:43,220 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w544.html -> akashi-list.me/detail/w544.html (200)[0m
+[akashi] id=w544 status=saved
+[32m2026-07-15 12:20:44,198 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w064.html -> akashi-list.me/detail/w064.html (200)[0m
+[akashi] id=w064 status=saved
+[32m2026-07-15 12:20:45,678 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w057.html -> akashi-list.me/detail/w057.html (200)[0m
+[akashi] id=w057 status=saved
+[32m2026-07-15 12:20:47,869 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w099.html -> akashi-list.me/detail/w099.html (200)[0m
+[akashi] id=w099 status=saved
+[32m2026-07-15 12:20:49,080 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w420.html -> akashi-list.me/detail/w420.html (200)[0m
+[akashi] id=w420 status=saved
+[32m2026-07-15 12:20:49,968 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w421.html -> akashi-list.me/detail/w421.html (200)[0m
+[akashi] id=w421 status=saved
+[32m2026-07-15 12:20:51,202 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w242.html -> akashi-list.me/detail/w242.html (200)[0m
+[akashi] id=w242 status=saved
+[32m2026-07-15 12:20:51,964 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w016.html -> akashi-list.me/detail/w016.html (200)[0m
+[akashi] id=w016 status=saved
+[32m2026-07-15 12:20:52,947 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w196.html -> akashi-list.me/detail/w196.html (200)[0m
+[akashi] id=w196 status=saved
+[32m2026-07-15 12:20:53,779 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w243.html -> akashi-list.me/detail/w243.html (200)[0m
+[akashi] id=w243 status=saved
+[32m2026-07-15 12:20:54,921 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w082.html -> akashi-list.me/detail/w082.html (200)[0m
+[akashi] id=w082 status=saved
+[32m2026-07-15 12:20:56,524 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w425.html -> akashi-list.me/detail/w425.html (200)[0m
+[akashi] id=w425 status=saved
+[32m2026-07-15 12:20:57,661 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w542.html -> akashi-list.me/detail/w542.html (200)[0m
+[akashi] id=w542 status=saved
+[33m2026-07-15 12:21:07,696 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w017.html attempt=1/4 delay=1.18s reason=ReadTimeout: HTTPSConnectionPool(host='akashi-list.me', port=443): Read timed out. (read timeout=10)[0m
+[32m2026-07-15 12:21:09,619 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w017.html -> akashi-list.me/detail/w017.html (200)[0m
+[akashi] id=w017 status=saved
+[32m2026-07-15 12:21:10,816 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w424.html -> akashi-list.me/detail/w424.html (200)[0m
+[akashi] id=w424 status=saved
+[32m2026-07-15 12:21:12,066 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w344.html -> akashi-list.me/detail/w344.html (200)[0m
+[akashi] id=w344 status=saved
+[32m2026-07-15 12:21:14,141 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w098.html -> akashi-list.me/detail/w098.html (200)[0m
+[akashi] id=w098 status=saved
+[32m2026-07-15 12:21:14,836 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w372.html -> akashi-list.me/detail/w372.html (200)[0m
+[akashi] id=w372 status=saved
+[32m2026-07-15 12:21:16,017 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w256.html -> akashi-list.me/detail/w256.html (200)[0m
+[akashi] id=w256 status=saved
+[32m2026-07-15 12:21:17,829 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w018.html -> akashi-list.me/detail/w018.html (200)[0m
+[akashi] id=w018 status=saved
+[32m2026-07-15 12:21:18,798 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w093.html -> akashi-list.me/detail/w093.html (200)[0m
+[akashi] id=w093 status=saved
+[32m2026-07-15 12:21:19,754 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w052.html -> akashi-list.me/detail/w052.html (200)[0m
+[akashi] id=w052 status=saved
+[32m2026-07-15 12:21:20,730 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w094.html -> akashi-list.me/detail/w094.html (200)[0m
+[akashi] id=w094 status=saved
+[32m2026-07-15 12:21:21,633 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w570.html -> akashi-list.me/detail/w570.html (200)[0m
+[akashi] id=w570 status=saved
+[32m2026-07-15 12:21:22,855 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w423.html -> akashi-list.me/detail/w423.html (200)[0m
+[akashi] id=w423 status=saved
+[32m2026-07-15 12:21:23,737 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w543.html -> akashi-list.me/detail/w543.html (200)[0m
+[akashi] id=w543 status=saved
+[32m2026-07-15 12:21:25,618 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w061.html -> akashi-list.me/detail/w061.html (200)[0m
+[akashi] id=w061 status=saved
+[32m2026-07-15 12:21:27,208 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w151.html -> akashi-list.me/detail/w151.html (200)[0m
+[akashi] id=w151 status=saved
+[32m2026-07-15 12:21:28,288 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w001.html -> akashi-list.me/detail/w001.html (200)[0m
+[akashi] id=w001 status=saved
+[32m2026-07-15 12:21:29,295 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w293.html -> akashi-list.me/detail/w293.html (200)[0m
+[akashi] id=w293 status=saved
+[32m2026-07-15 12:21:30,169 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w078.html -> akashi-list.me/detail/w078.html (200)[0m
+[akashi] id=w078 status=saved
+[32m2026-07-15 12:21:31,607 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w297.html -> akashi-list.me/detail/w297.html (200)[0m
+[akashi] id=w297 status=saved
+[32m2026-07-15 12:21:32,532 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w002.html -> akashi-list.me/detail/w002.html (200)[0m
+[akashi] id=w002 status=saved
+[32m2026-07-15 12:21:33,877 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w294.html -> akashi-list.me/detail/w294.html (200)[0m
+[akashi] id=w294 status=saved
+[32m2026-07-15 12:21:35,407 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w063.html -> akashi-list.me/detail/w063.html (200)[0m
+[akashi] id=w063 status=saved
+[32m2026-07-15 12:21:36,474 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w147.html -> akashi-list.me/detail/w147.html (200)[0m
+[akashi] id=w147 status=saved
+[32m2026-07-15 12:21:37,675 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w266.html -> akashi-list.me/detail/w266.html (200)[0m
+[akashi] id=w266 status=saved
+[32m2026-07-15 12:21:40,710 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w393.html -> akashi-list.me/detail/w393.html (200)[0m
+[akashi] id=w393 status=saved
+[32m2026-07-15 12:21:41,946 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w394.html -> akashi-list.me/detail/w394.html (200)[0m
+[akashi] id=w394 status=saved
+[32m2026-07-15 12:21:43,152 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w267.html -> akashi-list.me/detail/w267.html (200)[0m
+[32m2026-07-15 12:21:43,156 [INFO] [service.akashi_list.akashi_list_utils] [route] conditional stage recipe: 10cm連装高角砲 × 2二番艦：玉波改二限定12.7cm連装高角砲 × 3[0m
+[akashi] id=w267 status=saved
+[32m2026-07-15 12:21:44,716 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w470.html -> akashi-list.me/detail/w470.html (200)[0m
+[akashi] id=w470 status=saved
+[32m2026-07-15 12:21:45,613 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w280.html -> akashi-list.me/detail/w280.html (200)[0m
+[akashi] id=w280 status=saved
+[32m2026-07-15 12:21:46,293 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w529.html -> akashi-list.me/detail/w529.html (200)[0m
+[akashi] id=w529 status=saved
+[32m2026-07-15 12:21:47,407 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w534.html -> akashi-list.me/detail/w534.html (200)[0m
+[akashi] id=w534 status=saved
+[32m2026-07-15 12:21:48,490 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w282.html -> akashi-list.me/detail/w282.html (200)[0m
+[akashi] id=w282 status=saved
+[32m2026-07-15 12:21:49,546 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w455.html -> akashi-list.me/detail/w455.html (200)[0m
+[akashi] id=w455 status=saved
+[32m2026-07-15 12:21:50,454 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w535.html -> akashi-list.me/detail/w535.html (200)[0m
+[akashi] id=w535 status=saved
+[32m2026-07-15 12:21:52,206 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w382.html -> akashi-list.me/detail/w382.html (200)[0m
+[akashi] id=w382 status=saved
+[32m2026-07-15 12:21:53,129 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w509.html -> akashi-list.me/detail/w509.html (200)[0m
+[akashi] id=w509 status=saved
+[32m2026-07-15 12:21:53,930 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w229.html -> akashi-list.me/detail/w229.html (200)[0m
+[akashi] id=w229 status=saved
+[32m2026-07-15 12:21:55,003 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w379.html -> akashi-list.me/detail/w379.html (200)[0m
+[akashi] id=w379 status=saved
+[32m2026-07-15 12:21:56,590 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w091.html -> akashi-list.me/detail/w091.html (200)[0m
+[akashi] id=w091 status=saved
+[32m2026-07-15 12:21:57,778 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w284.html -> akashi-list.me/detail/w284.html (200)[0m
+[akashi] id=w284 status=saved
+[32m2026-07-15 12:22:00,503 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w003.html -> akashi-list.me/detail/w003.html (200)[0m
+[akashi] id=w003 status=saved
+[32m2026-07-15 12:22:01,273 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w553.html -> akashi-list.me/detail/w553.html (200)[0m
+[akashi] id=w553 status=saved
+[32m2026-07-15 12:22:02,425 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w295.html -> akashi-list.me/detail/w295.html (200)[0m
+[akashi] id=w295 status=saved
+[32m2026-07-15 12:22:03,396 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w398.html -> akashi-list.me/detail/w398.html (200)[0m
+[akashi] id=w398 status=saved
+[32m2026-07-15 12:22:04,413 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w397.html -> akashi-list.me/detail/w397.html (200)[0m
+[akashi] id=w397 status=saved
+[32m2026-07-15 12:22:05,172 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w572.html -> akashi-list.me/detail/w572.html (200)[0m
+[akashi] id=w572 status=saved
+[32m2026-07-15 12:22:06,123 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w313.html -> akashi-list.me/detail/w313.html (200)[0m
+[akashi] id=w313 status=saved
+[32m2026-07-15 12:22:07,328 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w296.html -> akashi-list.me/detail/w296.html (200)[0m
+[akashi] id=w296 status=saved
+[32m2026-07-15 12:22:08,086 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w122.html -> akashi-list.me/detail/w122.html (200)[0m
+[akashi] id=w122 status=saved
+[32m2026-07-15 12:22:09,146 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w533.html -> akashi-list.me/detail/w533.html (200)[0m
+[akashi] id=w533 status=saved
+[32m2026-07-15 12:22:10,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w004.html -> akashi-list.me/detail/w004.html (200)[0m
+[akashi] id=w004 status=saved
+[32m2026-07-15 12:22:11,365 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w119.html -> akashi-list.me/detail/w119.html (200)[0m
+[akashi] id=w119 status=saved
+[32m2026-07-15 12:22:12,309 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w310.html -> akashi-list.me/detail/w310.html (200)[0m
+[akashi] id=w310 status=saved
+[32m2026-07-15 12:22:13,178 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w065.html -> akashi-list.me/detail/w065.html (200)[0m
+[akashi] id=w065 status=saved
+[32m2026-07-15 12:22:14,089 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w303.html -> akashi-list.me/detail/w303.html (200)[0m
+[akashi] id=w303 status=saved
+[32m2026-07-15 12:22:15,280 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w518.html -> akashi-list.me/detail/w518.html (200)[0m
+[akashi] id=w518 status=saved
+[32m2026-07-15 12:22:16,343 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w564.html -> akashi-list.me/detail/w564.html (200)[0m
+[akashi] id=w564 status=saved
+[32m2026-07-15 12:22:17,211 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w139.html -> akashi-list.me/detail/w139.html (200)[0m
+[akashi] id=w139 status=saved
+[32m2026-07-15 12:22:18,572 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w407.html -> akashi-list.me/detail/w407.html (200)[0m
+[akashi] id=w407 status=saved
+[32m2026-07-15 12:22:19,620 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w005.html -> akashi-list.me/detail/w005.html (200)[0m
+[akashi] id=w005 status=saved
+[32m2026-07-15 12:22:21,390 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w536.html -> akashi-list.me/detail/w536.html (200)[0m
+[akashi] id=w536 status=saved
+[32m2026-07-15 12:22:23,970 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w386.html -> akashi-list.me/detail/w386.html (200)[0m
+[akashi] id=w386 status=saved
+[32m2026-07-15 12:22:25,031 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w399.html -> akashi-list.me/detail/w399.html (200)[0m
+[akashi] id=w399 status=saved
+[32m2026-07-15 12:22:26,184 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w235.html -> akashi-list.me/detail/w235.html (200)[0m
+[akashi] id=w235 status=saved
+[32m2026-07-15 12:22:27,348 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w006.html -> akashi-list.me/detail/w006.html (200)[0m
+[akashi] id=w006 status=saved
+[32m2026-07-15 12:22:28,383 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w340.html -> akashi-list.me/detail/w340.html (200)[0m
+[akashi] id=w340 status=saved
+[32m2026-07-15 12:22:29,306 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w537.html -> akashi-list.me/detail/w537.html (200)[0m
+[akashi] id=w537 status=saved
+[32m2026-07-15 12:22:30,199 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w387.html -> akashi-list.me/detail/w387.html (200)[0m
+[akashi] id=w387 status=saved
+[32m2026-07-15 12:22:31,330 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w090.html -> akashi-list.me/detail/w090.html (200)[0m
+[akashi] id=w090 status=saved
+[32m2026-07-15 12:22:32,552 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w555.html -> akashi-list.me/detail/w555.html (200)[0m
+[akashi] id=w555 status=saved
+[32m2026-07-15 12:22:33,603 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w341.html -> akashi-list.me/detail/w341.html (200)[0m
+[akashi] id=w341 status=saved
+[32m2026-07-15 12:22:34,533 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w050.html -> akashi-list.me/detail/w050.html (200)[0m
+[akashi] id=w050 status=saved
+[32m2026-07-15 12:22:35,392 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w123.html -> akashi-list.me/detail/w123.html (200)[0m
+[akashi] id=w123 status=saved
+[32m2026-07-15 12:22:36,430 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w520.html -> akashi-list.me/detail/w520.html (200)[0m
+[akashi] id=w520 status=saved
+[32m2026-07-15 12:22:37,348 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w162.html -> akashi-list.me/detail/w162.html (200)[0m
+[akashi] id=w162 status=saved
+[32m2026-07-15 12:22:38,540 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w356.html -> akashi-list.me/detail/w356.html (200)[0m
+[akashi] id=w356 status=saved
+[32m2026-07-15 12:22:39,400 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w357.html -> akashi-list.me/detail/w357.html (200)[0m
+[akashi] id=w357 status=saved
+[32m2026-07-15 12:22:40,835 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w426.html -> akashi-list.me/detail/w426.html (200)[0m
+[akashi] id=w426 status=saved
+[32m2026-07-15 12:22:42,004 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w427.html -> akashi-list.me/detail/w427.html (200)[0m
+[akashi] id=w427 status=saved
+[32m2026-07-15 12:22:43,218 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w007.html -> akashi-list.me/detail/w007.html (200)[0m
+[akashi] id=w007 status=saved
+[32m2026-07-15 12:22:44,354 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w428.html -> akashi-list.me/detail/w428.html (200)[0m
+[akashi] id=w428 status=saved
+[32m2026-07-15 12:22:45,310 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w104.html -> akashi-list.me/detail/w104.html (200)[0m
+[akashi] id=w104 status=saved
+[32m2026-07-15 12:22:46,716 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w076.html -> akashi-list.me/detail/w076.html (200)[0m
+[akashi] id=w076 status=saved
+[32m2026-07-15 12:22:49,022 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w231.html -> akashi-list.me/detail/w231.html (200)[0m
+[akashi] id=w231 status=saved
+[32m2026-07-15 12:22:50,035 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w507.html -> akashi-list.me/detail/w507.html (200)[0m
+[akashi] id=w507 status=saved
+[32m2026-07-15 12:22:50,977 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w429.html -> akashi-list.me/detail/w429.html (200)[0m
+[akashi] id=w429 status=saved
+[32m2026-07-15 12:22:51,988 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w328.html -> akashi-list.me/detail/w328.html (200)[0m
+[akashi] id=w328 status=saved
+[32m2026-07-15 12:22:52,860 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w114.html -> akashi-list.me/detail/w114.html (200)[0m
+[akashi] id=w114 status=saved
+[32m2026-07-15 12:22:54,091 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w232.html -> akashi-list.me/detail/w232.html (200)[0m
+[akashi] id=w232 status=saved
+[32m2026-07-15 12:22:55,110 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w329.html -> akashi-list.me/detail/w329.html (200)[0m
+[akashi] id=w329 status=saved
+[32m2026-07-15 12:22:56,216 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w190.html -> akashi-list.me/detail/w190.html (200)[0m
+[akashi] id=w190 status=saved
+[32m2026-07-15 12:22:57,925 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w103.html -> akashi-list.me/detail/w103.html (200)[0m
+[akashi] id=w103 status=saved
+[32m2026-07-15 12:22:59,051 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w508.html -> akashi-list.me/detail/w508.html (200)[0m
+[akashi] id=w508 status=saved
+[32m2026-07-15 12:23:00,874 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w192.html -> akashi-list.me/detail/w192.html (200)[0m
+[akashi] id=w192 status=saved
+[32m2026-07-15 12:23:02,080 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w289.html -> akashi-list.me/detail/w289.html (200)[0m
+[akashi] id=w289 status=saved
+[32m2026-07-15 12:23:03,002 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w133.html -> akashi-list.me/detail/w133.html (200)[0m
+[akashi] id=w133 status=saved
+[32m2026-07-15 12:23:03,920 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w008.html -> akashi-list.me/detail/w008.html (200)[0m
+[akashi] id=w008 status=saved
+[32m2026-07-15 12:23:05,757 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w330.html -> akashi-list.me/detail/w330.html (200)[0m
+[akashi] id=w330 status=saved
+[32m2026-07-15 12:23:06,628 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w502.html -> akashi-list.me/detail/w502.html (200)[0m
+[akashi] id=w502 status=saved
+[32m2026-07-15 12:23:07,484 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w298.html -> akashi-list.me/detail/w298.html (200)[0m
+[akashi] id=w298 status=saved
+[32m2026-07-15 12:23:09,089 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w137.html -> akashi-list.me/detail/w137.html (200)[0m
+[akashi] id=w137 status=saved
+[32m2026-07-15 12:23:10,001 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w331.html -> akashi-list.me/detail/w331.html (200)[0m
+[akashi] id=w331 status=saved
+[32m2026-07-15 12:23:11,000 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w332.html -> akashi-list.me/detail/w332.html (200)[0m
+[akashi] id=w332 status=saved
+[32m2026-07-15 12:23:11,917 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w530.html -> akashi-list.me/detail/w530.html (200)[0m
+[akashi] id=w530 status=saved
+[32m2026-07-15 12:23:13,172 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w318.html -> akashi-list.me/detail/w318.html (200)[0m
+[akashi] id=w318 status=saved
+[32m2026-07-15 12:23:14,876 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w245.html -> akashi-list.me/detail/w245.html (200)[0m
+[akashi] id=w245 status=saved
+[32m2026-07-15 12:23:15,733 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w246.html -> akashi-list.me/detail/w246.html (200)[0m
+[akashi] id=w246 status=saved
+[32m2026-07-15 12:23:17,065 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w381.html -> akashi-list.me/detail/w381.html (200)[0m
+[akashi] id=w381 status=saved
+[32m2026-07-15 12:23:18,003 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w105.html -> akashi-list.me/detail/w105.html (200)[0m
+[akashi] id=w105 status=saved
+[32m2026-07-15 12:23:18,974 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w299.html -> akashi-list.me/detail/w299.html (200)[0m
+[akashi] id=w299 status=saved
+[32m2026-07-15 12:23:19,941 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w236.html -> akashi-list.me/detail/w236.html (200)[0m
+[akashi] id=w236 status=saved
+[32m2026-07-15 12:23:20,846 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w117.html -> akashi-list.me/detail/w117.html (200)[0m
+[akashi] id=w117 status=saved
+[32m2026-07-15 12:23:22,534 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w290.html -> akashi-list.me/detail/w290.html (200)[0m
+[akashi] id=w290 status=saved
+[32m2026-07-15 12:23:23,467 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w385.html -> akashi-list.me/detail/w385.html (200)[0m
+[akashi] id=w385 status=saved
+[32m2026-07-15 12:23:24,319 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w300.html -> akashi-list.me/detail/w300.html (200)[0m
+[akashi] id=w300 status=saved
+[32m2026-07-15 12:23:25,177 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w161.html -> akashi-list.me/detail/w161.html (200)[0m
+[akashi] id=w161 status=saved
+[32m2026-07-15 12:23:26,577 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w468.html -> akashi-list.me/detail/w468.html (200)[0m
+[akashi] id=w468 status=saved
+[32m2026-07-15 12:23:27,496 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w183.html -> akashi-list.me/detail/w183.html (200)[0m
+[akashi] id=w183 status=saved
+[32m2026-07-15 12:23:28,362 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w009.html -> akashi-list.me/detail/w009.html (200)[0m
+[akashi] id=w009 status=saved
+[32m2026-07-15 12:23:29,352 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w276.html -> akashi-list.me/detail/w276.html (200)[0m
+[akashi] id=w276 status=saved
+[32m2026-07-15 12:23:30,289 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w128.html -> akashi-list.me/detail/w128.html (200)[0m
+[akashi] id=w128 status=saved
+[32m2026-07-15 12:23:31,445 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w281.html -> akashi-list.me/detail/w281.html (200)[0m
+[akashi] id=w281 status=saved
+[32m2026-07-15 12:23:32,383 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w010.html -> akashi-list.me/detail/w010.html (200)[0m
+[akashi] id=w010 status=saved
+[32m2026-07-15 12:23:34,070 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w524.html -> akashi-list.me/detail/w524.html (200)[0m
+[akashi] id=w524 status=saved
+[32m2026-07-15 12:23:35,009 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w066.html -> akashi-list.me/detail/w066.html (200)[0m
+[akashi] id=w066 status=saved
+[32m2026-07-15 12:23:36,002 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w071.html -> akashi-list.me/detail/w071.html (200)[0m
+[akashi] id=w071 status=saved
+[32m2026-07-15 12:23:37,552 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w220.html -> akashi-list.me/detail/w220.html (200)[0m
+[akashi] id=w220 status=saved
+[32m2026-07-15 12:23:38,458 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w135.html -> akashi-list.me/detail/w135.html (200)[0m
+[akashi] id=w135 status=saved
+[32m2026-07-15 12:23:39,496 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w130.html -> akashi-list.me/detail/w130.html (200)[0m
+[akashi] id=w130 status=saved
+[32m2026-07-15 12:23:42,506 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w275.html -> akashi-list.me/detail/w275.html (200)[0m
+[akashi] id=w275 status=saved
+[32m2026-07-15 12:23:43,504 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w464.html -> akashi-list.me/detail/w464.html (200)[0m
+[akashi] id=w464 status=saved
+[32m2026-07-15 12:23:45,604 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w172.html -> akashi-list.me/detail/w172.html (200)[0m
+[akashi] id=w172 status=saved
+[32m2026-07-15 12:23:46,747 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w011.html -> akashi-list.me/detail/w011.html (200)[0m
+[akashi] id=w011 status=saved
+[32m2026-07-15 12:23:48,114 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w565.html -> akashi-list.me/detail/w565.html (200)[0m
+[akashi] id=w565 status=saved
+[32m2026-07-15 12:23:49,130 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w247.html -> akashi-list.me/detail/w247.html (200)[0m
+[akashi] id=w247 status=saved
+[32m2026-07-15 12:23:50,371 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w012.html -> akashi-list.me/detail/w012.html (200)[0m
+[akashi] id=w012 status=saved
+[32m2026-07-15 12:23:51,550 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w234.html -> akashi-list.me/detail/w234.html (200)[0m
+[akashi] id=w234 status=saved
+[32m2026-07-15 12:23:52,627 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w134.html -> akashi-list.me/detail/w134.html (200)[0m
+[akashi] id=w134 status=saved
+[32m2026-07-15 12:23:53,819 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w174.html -> akashi-list.me/detail/w174.html (200)[0m
+[akashi] id=w174 status=saved
+[32m2026-07-15 12:23:56,092 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w013.html -> akashi-list.me/detail/w013.html (200)[0m
+[akashi] id=w013 status=saved
+[32m2026-07-15 12:23:58,026 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w283.html -> akashi-list.me/detail/w283.html (200)[0m
+[akashi] id=w283 status=saved
+[32m2026-07-15 12:23:58,868 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w400.html -> akashi-list.me/detail/w400.html (200)[0m
+[akashi] id=w400 status=saved
+[32m2026-07-15 12:24:00,288 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w014.html -> akashi-list.me/detail/w014.html (200)[0m
+[akashi] id=w014 status=saved
+[32m2026-07-15 12:24:04,122 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w125.html -> akashi-list.me/detail/w125.html (200)[0m
+[akashi] id=w125 status=saved
+[32m2026-07-15 12:24:07,093 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w314.html -> akashi-list.me/detail/w314.html (200)[0m
+[akashi] id=w314 status=saved
+[32m2026-07-15 12:24:07,989 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w285.html -> akashi-list.me/detail/w285.html (200)[0m
+[akashi] id=w285 status=saved
+[32m2026-07-15 12:24:09,352 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w015.html -> akashi-list.me/detail/w015.html (200)[0m
+[akashi] id=w015 status=saved
+[32m2026-07-15 12:24:10,952 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w286.html -> akashi-list.me/detail/w286.html (200)[0m
+[akashi] id=w286 status=saved
+[33m2026-07-15 12:24:15,501 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w058.html attempt=1/4 delay=1.13s reason=SSLError: HTTPSConnectionPool(host='akashi-list.me', port=443): Max retries exceeded with url: /detail/w058.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:24:18,148 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w058.html -> akashi-list.me/detail/w058.html (200)[0m
+[akashi] id=w058 status=saved
+[32m2026-07-15 12:24:19,220 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w179.html -> akashi-list.me/detail/w179.html (200)[0m
+[akashi] id=w179 status=saved
+[32m2026-07-15 12:24:20,550 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w442.html -> akashi-list.me/detail/w442.html (200)[0m
+[akashi] id=w442 status=saved
+[32m2026-07-15 12:24:21,930 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w511.html -> akashi-list.me/detail/w511.html (200)[0m
+[akashi] id=w511 status=saved
+[32m2026-07-15 12:24:23,056 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w440.html -> akashi-list.me/detail/w440.html (200)[0m
+[akashi] id=w440 status=saved
+[32m2026-07-15 12:24:24,028 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w512.html -> akashi-list.me/detail/w512.html (200)[0m
+[akashi] id=w512 status=saved
+[32m2026-07-15 12:24:26,077 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w457.html -> akashi-list.me/detail/w457.html (200)[0m
+[akashi] id=w457 status=saved
+[32m2026-07-15 12:24:27,382 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w441.html -> akashi-list.me/detail/w441.html (200)[0m
+[akashi] id=w441 status=saved
+[32m2026-07-15 12:24:28,585 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w213.html -> akashi-list.me/detail/w213.html (200)[0m
+[akashi] id=w213 status=saved
+[32m2026-07-15 12:24:29,507 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w095.html -> akashi-list.me/detail/w095.html (200)[0m
+[akashi] id=w095 status=saved
+[32m2026-07-15 12:24:30,677 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w383.html -> akashi-list.me/detail/w383.html (200)[0m
+[akashi] id=w383 status=saved
+[32m2026-07-15 12:24:33,453 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w041.html -> akashi-list.me/detail/w041.html (200)[0m
+[akashi] id=w041 status=saved
+[32m2026-07-15 12:24:34,345 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w309.html -> akashi-list.me/detail/w309.html (200)[0m
+[akashi] id=w309 status=saved
+[32m2026-07-15 12:24:35,405 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w027.html -> akashi-list.me/detail/w027.html (200)[0m
+[akashi] id=w027 status=saved
+[32m2026-07-15 12:24:37,615 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w106.html -> akashi-list.me/detail/w106.html (200)[0m
+[akashi] id=w106 status=saved
+[32m2026-07-15 12:24:39,441 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w450.html -> akashi-list.me/detail/w450.html (200)[0m
+[akashi] id=w450 status=saved
+[32m2026-07-15 12:24:40,513 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w028.html -> akashi-list.me/detail/w028.html (200)[0m
+[akashi] id=w028 status=saved
+[32m2026-07-15 12:24:41,838 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w574.html -> akashi-list.me/detail/w574.html (200)[0m
+[akashi] id=w574 status=saved
+[32m2026-07-15 12:24:42,737 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w029.html -> akashi-list.me/detail/w029.html (200)[0m
+[akashi] id=w029 status=saved
+[32m2026-07-15 12:24:43,927 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w088.html -> akashi-list.me/detail/w088.html (200)[0m
+[akashi] id=w088 status=saved
+[32m2026-07-15 12:24:44,865 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w315.html -> akashi-list.me/detail/w315.html (200)[0m
+[akashi] id=w315 status=saved
+[32m2026-07-15 12:24:45,991 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w030.html -> akashi-list.me/detail/w030.html (200)[0m
+[akashi] id=w030 status=saved
+[32m2026-07-15 12:24:47,148 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w089.html -> akashi-list.me/detail/w089.html (200)[0m
+[akashi] id=w089 status=saved
+[32m2026-07-15 12:24:47,984 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w410.html -> akashi-list.me/detail/w410.html (200)[0m
+[akashi] id=w410 status=saved
+[32m2026-07-15 12:24:48,894 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w411.html -> akashi-list.me/detail/w411.html (200)[0m
+[akashi] id=w411 status=saved
+[32m2026-07-15 12:24:50,068 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w032.html -> akashi-list.me/detail/w032.html (200)[0m
+[akashi] id=w032 status=saved
+[32m2026-07-15 12:24:50,992 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w278.html -> akashi-list.me/detail/w278.html (200)[0m
+[akashi] id=w278 status=saved
+[32m2026-07-15 12:24:52,185 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w279.html -> akashi-list.me/detail/w279.html (200)[0m
+[akashi] id=w279 status=saved
+[32m2026-07-15 12:24:53,085 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w031.html -> akashi-list.me/detail/w031.html (200)[0m
+[akashi] id=w031 status=saved
+[32m2026-07-15 12:24:54,096 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w141.html -> akashi-list.me/detail/w141.html (200)[0m
+[akashi] id=w141 status=saved
+[32m2026-07-15 12:24:55,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w240.html -> akashi-list.me/detail/w240.html (200)[0m
+[akashi] id=w240 status=saved
+[32m2026-07-15 12:24:56,367 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w517.html -> akashi-list.me/detail/w517.html (200)[0m
+[akashi] id=w517 status=saved
+[32m2026-07-15 12:24:57,942 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w142.html -> akashi-list.me/detail/w142.html (200)[0m
+[akashi] id=w142 status=saved
+[32m2026-07-15 12:24:58,856 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w573.html -> akashi-list.me/detail/w573.html (200)[0m
+[akashi] id=w573 status=saved
+[32m2026-07-15 12:25:00,116 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w124.html -> akashi-list.me/detail/w124.html (200)[0m
+[akashi] id=w124 status=saved
+[32m2026-07-15 12:25:01,257 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w210.html -> akashi-list.me/detail/w210.html (200)[0m
+[akashi] id=w210 status=saved
+[32m2026-07-15 12:25:02,773 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w211.html -> akashi-list.me/detail/w211.html (200)[0m
+[akashi] id=w211 status=saved
+[32m2026-07-15 12:25:03,885 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w519.html -> akashi-list.me/detail/w519.html (200)[0m
+[akashi] id=w519 status=saved
+[32m2026-07-15 12:25:04,824 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w046.html -> akashi-list.me/detail/w046.html (200)[0m
+[akashi] id=w046 status=saved
+[32m2026-07-15 12:25:05,795 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w047.html -> akashi-list.me/detail/w047.html (200)[0m
+[akashi] id=w047 status=saved
+[32m2026-07-15 12:25:07,370 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w260.html -> akashi-list.me/detail/w260.html (200)[0m
+[akashi] id=w260 status=saved
+[32m2026-07-15 12:25:08,480 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w438.html -> akashi-list.me/detail/w438.html (200)[0m
+[akashi] id=w438 status=saved
+[32m2026-07-15 12:25:10,069 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w149.html -> akashi-list.me/detail/w149.html (200)[0m
+[akashi] id=w149 status=saved
+[32m2026-07-15 12:25:11,203 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w261.html -> akashi-list.me/detail/w261.html (200)[0m
+[akashi] id=w261 status=saved
+[32m2026-07-15 12:25:12,311 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w132.html -> akashi-list.me/detail/w132.html (200)[0m
+[akashi] id=w132 status=saved
+[32m2026-07-15 12:25:14,022 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w346.html -> akashi-list.me/detail/w346.html (200)[0m
+[akashi] id=w346 status=saved
+[32m2026-07-15 12:25:15,792 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w226.html -> akashi-list.me/detail/w226.html (200)[0m
+[akashi] id=w226 status=saved
+[32m2026-07-15 12:25:17,374 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w044.html -> akashi-list.me/detail/w044.html (200)[0m
+[akashi] id=w044 status=saved
+[32m2026-07-15 12:25:18,383 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w227.html -> akashi-list.me/detail/w227.html (200)[0m
+[akashi] id=w227 status=saved
+[32m2026-07-15 12:25:19,320 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w045.html -> akashi-list.me/detail/w045.html (200)[0m
+[akashi] id=w045 status=saved
+[32m2026-07-15 12:25:20,305 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w488.html -> akashi-list.me/detail/w488.html (200)[0m
+[akashi] id=w488 status=saved
+[32m2026-07-15 12:25:22,150 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w287.html -> akashi-list.me/detail/w287.html (200)[0m
+[akashi] id=w287 status=saved
+[32m2026-07-15 12:25:23,189 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w288.html -> akashi-list.me/detail/w288.html (200)[0m
+[akashi] id=w288 status=saved
+[32m2026-07-15 12:25:23,945 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w036.html -> akashi-list.me/detail/w036.html (200)[0m
+[akashi] id=w036 status=saved
+[32m2026-07-15 12:25:24,669 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w116.html -> akashi-list.me/detail/w116.html (200)[0m
+[akashi] id=w116 status=saved
+[32m2026-07-15 12:25:26,380 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w365.html -> akashi-list.me/detail/w365.html (200)[0m
+[akashi] id=w365 status=saved
+[32m2026-07-15 12:25:27,495 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w035.html -> akashi-list.me/detail/w035.html (200)[0m
+[akashi] id=w035 status=saved
+[32m2026-07-15 12:25:29,089 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w317.html -> akashi-list.me/detail/w317.html (200)[0m
+[akashi] id=w317 status=saved
+[32m2026-07-15 12:25:29,998 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w483.html -> akashi-list.me/detail/w483.html (200)[0m
+[akashi] id=w483 status=saved
+[32m2026-07-15 12:25:30,969 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w037.html -> akashi-list.me/detail/w037.html (200)[0m
+[akashi] id=w037 status=saved
+[32m2026-07-15 12:25:32,119 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w038.html -> akashi-list.me/detail/w038.html (200)[0m
+[akashi] id=w038 status=saved
+[32m2026-07-15 12:25:33,964 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w049.html -> akashi-list.me/detail/w049.html (200)[0m
+[akashi] id=w049 status=saved
+[32m2026-07-15 12:25:34,860 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w039.html -> akashi-list.me/detail/w039.html (200)[0m
+[akashi] id=w039 status=saved
+[32m2026-07-15 12:25:35,996 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w040.html -> akashi-list.me/detail/w040.html (200)[0m
+[akashi] id=w040 status=saved
+[32m2026-07-15 12:25:36,962 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w092.html -> akashi-list.me/detail/w092.html (200)[0m
+[akashi] id=w092 status=saved
+[32m2026-07-15 12:25:37,978 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w084.html -> akashi-list.me/detail/w084.html (200)[0m
+[akashi] id=w084 status=saved
+[32m2026-07-15 12:25:39,378 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w051.html -> akashi-list.me/detail/w051.html (200)[0m
+[akashi] id=w051 status=saved
+[32m2026-07-15 12:25:40,304 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w274.html -> akashi-list.me/detail/w274.html (200)[0m
+[akashi] id=w274 status=saved
+[32m2026-07-15 12:25:41,327 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w131.html -> akashi-list.me/detail/w131.html (200)[0m
+[akashi] id=w131 status=saved
+[32m2026-07-15 12:25:44,135 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w575.html -> akashi-list.me/detail/w575.html (200)[0m
+[akashi] id=w575 status=saved
+[32m2026-07-15 12:25:45,692 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w120.html -> akashi-list.me/detail/w120.html (200)[0m
+[akashi] id=w120 status=saved
+[32m2026-07-15 12:25:46,716 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w121.html -> akashi-list.me/detail/w121.html (200)[0m
+[akashi] id=w121 status=saved
+[32m2026-07-15 12:25:47,909 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w034.html -> akashi-list.me/detail/w034.html (200)[0m
+[akashi] id=w034 status=saved
+[32m2026-07-15 12:25:49,554 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w087.html -> akashi-list.me/detail/w087.html (200)[0m
+[akashi] id=w087 status=saved
+[32m2026-07-15 12:25:51,102 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w072.html -> akashi-list.me/detail/w072.html (200)[0m
+[akashi] id=w072 status=saved
+[32m2026-07-15 12:25:52,020 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w136.html -> akashi-list.me/detail/w136.html (200)[0m
+[akashi] id=w136 status=saved
+[32m2026-07-15 12:25:53,161 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w203.html -> akashi-list.me/detail/w203.html (200)[0m
+[akashi] id=w203 status=saved
+[32m2026-07-15 12:25:54,307 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w073.html -> akashi-list.me/detail/w073.html (200)[0m
+[akashi] id=w073 status=saved
+[32m2026-07-15 12:25:55,432 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w204.html -> akashi-list.me/detail/w204.html (200)[0m
+[akashi] id=w204 status=saved
+[32m2026-07-15 12:25:56,381 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w074.html -> akashi-list.me/detail/w074.html (200)[0m
+[akashi] id=w074 status=saved
+[32m2026-07-15 12:25:57,312 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w140.html -> akashi-list.me/detail/w140.html (200)[0m
+[akashi] id=w140 status=saved
+[32m2026-07-15 12:25:59,124 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w102.html -> akashi-list.me/detail/w102.html (200)[0m
+[akashi] id=w102 status=saved
+[33m2026-07-15 12:26:04,202 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w522.html attempt=1/4 delay=1.03s reason=SSLError: HTTPSConnectionPool(host='akashi-list.me', port=443): Max retries exceeded with url: /detail/w522.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:26:07,857 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w522.html -> akashi-list.me/detail/w522.html (200)[0m
+[akashi] id=w522 status=saved
+[32m2026-07-15 12:26:11,149 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w471.html -> akashi-list.me/detail/w471.html (200)[0m
+[akashi] id=w471 status=saved
+[32m2026-07-15 12:26:12,449 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w523.html -> akashi-list.me/detail/w523.html (200)[0m
+[akashi] id=w523 status=saved
+[32m2026-07-15 12:26:13,324 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w304.html -> akashi-list.me/detail/w304.html (200)[0m
+[akashi] id=w304 status=saved
+[32m2026-07-15 12:26:15,331 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w414.html -> akashi-list.me/detail/w414.html (200)[0m
+[akashi] id=w414 status=saved
+[32m2026-07-15 12:26:16,092 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w163.html -> akashi-list.me/detail/w163.html (200)[0m
+[akashi] id=w163 status=saved
+[32m2026-07-15 12:26:17,127 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w025.html -> akashi-list.me/detail/w025.html (200)[0m
+[akashi] id=w025 status=saved
+[32m2026-07-15 12:26:18,261 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w115.html -> akashi-list.me/detail/w115.html (200)[0m
+[akashi] id=w115 status=saved
+[32m2026-07-15 12:26:19,228 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w370.html -> akashi-list.me/detail/w370.html (200)[0m
+[akashi] id=w370 status=saved
+[32m2026-07-15 12:26:20,300 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w171.html -> akashi-list.me/detail/w171.html (200)[0m
+[akashi] id=w171 status=saved
+[32m2026-07-15 12:26:22,183 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w059.html -> akashi-list.me/detail/w059.html (200)[0m
+[akashi] id=w059 status=saved
+[32m2026-07-15 12:26:23,056 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w238.html -> akashi-list.me/detail/w238.html (200)[0m
+[akashi] id=w238 status=saved
+[32m2026-07-15 12:26:23,925 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w371.html -> akashi-list.me/detail/w371.html (200)[0m
+[akashi] id=w371 status=saved
+[32m2026-07-15 12:26:24,615 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w539.html -> akashi-list.me/detail/w539.html (200)[0m
+[akashi] id=w539 status=saved
+[32m2026-07-15 12:26:25,487 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w118.html -> akashi-list.me/detail/w118.html (200)[0m
+[akashi] id=w118 status=saved
+[32m2026-07-15 12:26:26,416 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w164.html -> akashi-list.me/detail/w164.html (200)[0m
+[akashi] id=w164 status=saved
+[32m2026-07-15 12:26:27,415 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w215.html -> akashi-list.me/detail/w215.html (200)[0m
+[akashi] id=w215 status=saved
+[32m2026-07-15 12:26:28,341 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w165.html -> akashi-list.me/detail/w165.html (200)[0m
+[akashi] id=w165 status=saved
+[32m2026-07-15 12:26:29,513 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w216.html -> akashi-list.me/detail/w216.html (200)[0m
+[akashi] id=w216 status=saved
+[32m2026-07-15 12:26:30,423 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w217.html -> akashi-list.me/detail/w217.html (200)[0m
+[akashi] id=w217 status=saved
+[32m2026-07-15 12:26:31,901 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w485.html -> akashi-list.me/detail/w485.html (200)[0m
+[akashi] id=w485 status=saved
+[32m2026-07-15 12:26:32,832 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w026.html -> akashi-list.me/detail/w026.html (200)[0m
+[akashi] id=w026 status=saved
+[32m2026-07-15 12:26:34,448 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w194.html -> akashi-list.me/detail/w194.html (200)[0m
+[akashi] id=w194 status=saved
+[32m2026-07-15 12:26:35,978 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w367.html -> akashi-list.me/detail/w367.html (200)[0m
+[akashi] id=w367 status=saved
+[32m2026-07-15 12:26:37,655 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w079.html -> akashi-list.me/detail/w079.html (200)[0m
+[akashi] id=w079 status=saved
+[32m2026-07-15 12:26:38,626 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w080.html -> akashi-list.me/detail/w080.html (200)[0m
+[akashi] id=w080 status=saved
+[32m2026-07-15 12:26:39,497 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w368.html -> akashi-list.me/detail/w368.html (200)[0m
+[akashi] id=w368 status=saved
+[32m2026-07-15 12:26:41,504 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w081.html -> akashi-list.me/detail/w081.html (200)[0m
+[akashi] id=w081 status=saved
+[32m2026-07-15 12:26:42,614 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w237.html -> akashi-list.me/detail/w237.html (200)[0m
+[akashi] id=w237 status=saved
+[32m2026-07-15 12:26:43,890 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w322.html -> akashi-list.me/detail/w322.html (200)[0m
+[akashi] id=w322 status=saved
+[32m2026-07-15 12:26:44,890 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w069.html -> akashi-list.me/detail/w069.html (200)[0m
+[akashi] id=w069 status=saved
+[32m2026-07-15 12:26:46,494 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w324.html -> akashi-list.me/detail/w324.html (200)[0m
+[akashi] id=w324 status=saved
+[32m2026-07-15 12:26:47,511 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w325.html -> akashi-list.me/detail/w325.html (200)[0m
+[akashi] id=w325 status=saved
+[32m2026-07-15 12:26:48,407 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w326.html -> akashi-list.me/detail/w326.html (200)[0m
+[akashi] id=w326 status=saved
+[32m2026-07-15 12:26:49,255 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w327.html -> akashi-list.me/detail/w327.html (200)[0m
+[akashi] id=w327 status=saved
+[32m2026-07-15 12:26:50,192 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w070.html -> akashi-list.me/detail/w070.html (200)[0m
+[akashi] id=w070 status=saved
+[32m2026-07-15 12:26:51,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w489.html -> akashi-list.me/detail/w489.html (200)[0m
+[akashi] id=w489 status=saved
+[32m2026-07-15 12:26:52,293 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w451.html -> akashi-list.me/detail/w451.html (200)[0m
+[akashi] id=w451 status=saved
+[32m2026-07-15 12:26:53,421 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w549.html -> akashi-list.me/detail/w549.html (200)[0m
+[akashi] id=w549 status=saved
+[32m2026-07-15 12:26:54,546 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w068.html -> akashi-list.me/detail/w068.html (200)[0m
+[akashi] id=w068 status=saved
+[32m2026-07-15 12:26:56,184 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w166.html -> akashi-list.me/detail/w166.html (200)[0m
+[akashi] id=w166 status=saved
+[32m2026-07-15 12:26:57,279 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w167.html -> akashi-list.me/detail/w167.html (200)[0m
+[akashi] id=w167 status=saved
+[32m2026-07-15 12:26:58,141 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w193.html -> akashi-list.me/detail/w193.html (200)[0m
+[akashi] id=w193 status=saved
+[32m2026-07-15 12:27:00,853 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w408.html -> akashi-list.me/detail/w408.html (200)[0m
+[akashi] id=w408 status=saved
+[32m2026-07-15 12:27:02,367 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w409.html -> akashi-list.me/detail/w409.html (200)[0m
+[akashi] id=w409 status=saved
+[33m2026-07-15 12:27:13,842 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w496.html attempt=1/4 delay=1.22s reason=ReadTimeout: HTTPSConnectionPool(host='akashi-list.me', port=443): Read timed out. (read timeout=10)[0m
+[32m2026-07-15 12:27:17,072 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w496.html -> akashi-list.me/detail/w496.html (200)[0m
+[akashi] id=w496 status=saved
+[32m2026-07-15 12:27:22,002 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w445.html -> akashi-list.me/detail/w445.html (200)[0m
+[akashi] id=w445 status=saved
+[32m2026-07-15 12:27:23,009 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w446.html -> akashi-list.me/detail/w446.html (200)[0m
+[akashi] id=w446 status=saved
+[32m2026-07-15 12:27:23,943 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w452.html -> akashi-list.me/detail/w452.html (200)[0m
+[akashi] id=w452 status=saved
+[32m2026-07-15 12:27:24,854 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w221.html -> akashi-list.me/detail/w221.html (200)[0m
+[akashi] id=w221 status=saved
+[32m2026-07-15 12:27:26,639 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w175.html -> akashi-list.me/detail/w175.html (200)[0m
+[akashi] id=w175 status=saved
+[32m2026-07-15 12:27:27,565 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w250.html -> akashi-list.me/detail/w250.html (200)[0m
+[akashi] id=w250 status=saved
+[32m2026-07-15 12:27:28,762 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w222.html -> akashi-list.me/detail/w222.html (200)[0m
+[akashi] id=w222 status=saved
+[32m2026-07-15 12:27:29,634 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w176.html -> akashi-list.me/detail/w176.html (200)[0m
+[akashi] id=w176 status=saved
+[32m2026-07-15 12:27:30,869 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w201.html -> akashi-list.me/detail/w201.html (200)[0m
+[akashi] id=w201 status=saved
+[32m2026-07-15 12:27:31,796 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w202.html -> akashi-list.me/detail/w202.html (200)[0m
+[akashi] id=w202 status=saved
+[32m2026-07-15 12:27:33,245 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w185.html -> akashi-list.me/detail/w185.html (200)[0m
+[akashi] id=w185 status=saved
+[32m2026-07-15 12:27:35,102 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w251.html -> akashi-list.me/detail/w251.html (200)[0m
+[akashi] id=w251 status=saved
+[32m2026-07-15 12:27:36,181 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w546.html -> akashi-list.me/detail/w546.html (200)[0m
+[akashi] id=w546 status=saved
+[32m2026-07-15 12:27:37,881 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w224.html -> akashi-list.me/detail/w224.html (200)[0m
+[akashi] id=w224 status=saved
+[32m2026-07-15 12:27:38,744 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w401.html -> akashi-list.me/detail/w401.html (200)[0m
+[akashi] id=w401 status=saved
+[32m2026-07-15 12:27:39,952 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w168.html -> akashi-list.me/detail/w168.html (200)[0m
+[akashi] id=w168 status=saved
+[32m2026-07-15 12:27:40,805 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w431.html -> akashi-list.me/detail/w431.html (200)[0m
+[akashi] id=w431 status=saved
+[32m2026-07-15 12:27:41,671 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w169.html -> akashi-list.me/detail/w169.html (200)[0m
+[akashi] id=w169 status=saved
+[32m2026-07-15 12:27:42,951 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w180.html -> akashi-list.me/detail/w180.html (200)[0m
+[akashi] id=w180 status=saved
+[32m2026-07-15 12:27:44,665 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w186.html -> akashi-list.me/detail/w186.html (200)[0m
+[akashi] id=w186 status=saved
+[32m2026-07-15 12:27:46,047 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w493.html -> akashi-list.me/detail/w493.html (200)[0m
+[akashi] id=w493 status=saved
+[32m2026-07-15 12:27:46,757 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w432.html -> akashi-list.me/detail/w432.html (200)[0m
+[akashi] id=w432 status=saved
+[32m2026-07-15 12:27:47,449 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w170.html -> akashi-list.me/detail/w170.html (200)[0m
+[akashi] id=w170 status=saved
+[32m2026-07-15 12:27:48,152 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w187.html -> akashi-list.me/detail/w187.html (200)[0m
+[akashi] id=w187 status=saved
+[32m2026-07-15 12:27:49,208 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w403.html -> akashi-list.me/detail/w403.html (200)[0m
+[akashi] id=w403 status=saved
+[32m2026-07-15 12:27:50,191 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w395.html -> akashi-list.me/detail/w395.html (200)[0m
+[akashi] id=w395 status=saved
+[32m2026-07-15 12:27:51,847 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w145.html -> akashi-list.me/detail/w145.html (200)[0m
+[akashi] id=w145 status=saved
+[32m2026-07-15 12:27:52,717 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w348.html -> akashi-list.me/detail/w348.html (200)[0m
+[akashi] id=w348 status=saved
+[32m2026-07-15 12:27:53,827 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w478.html -> akashi-list.me/detail/w478.html (200)[0m
+[akashi] id=w478 status=saved
+[32m2026-07-15 12:27:54,620 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w500.html -> akashi-list.me/detail/w500.html (200)[0m
+[akashi] id=w500 status=saved
+[32m2026-07-15 12:27:55,320 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w531.html -> akashi-list.me/detail/w531.html (200)[0m
+[akashi] id=w531 status=saved
+[32m2026-07-15 12:27:56,196 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w129.html -> akashi-list.me/detail/w129.html (200)[0m
+[akashi] id=w129 status=saved
+[32m2026-07-15 12:27:57,031 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0001_4111.png?version=2 -> cache/official/equip/1/2.png (200)[0m
+[32m2026-07-15 12:27:59,409 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0002_7732.png?version=2 -> cache/official/equip/2/2.png (200)[0m
+[32m2026-07-15 12:28:01,658 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0003_1543.png -> cache/official/equip/3/unversioned.png (200)[0m
+[32m2026-07-15 12:28:03,910 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0004_1188.png -> cache/official/equip/4/unversioned.png (200)[0m
+[32m2026-07-15 12:28:06,158 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0005_4105.png -> cache/official/equip/5/unversioned.png (200)[0m
+[32m2026-07-15 12:28:10,103 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0006_5366.png -> cache/official/equip/6/unversioned.png (200)[0m
+[32m2026-07-15 12:28:12,453 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0007_2389.png -> cache/official/equip/7/unversioned.png (200)[0m
+[32m2026-07-15 12:28:14,691 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0008_5314.png -> cache/official/equip/8/unversioned.png (200)[0m
+[32m2026-07-15 12:28:16,921 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0009_8435.png -> cache/official/equip/9/unversioned.png (200)[0m
+[32m2026-07-15 12:28:19,274 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0010_3991.png?version=3 -> cache/official/equip/10/3.png (200)[0m
+[32m2026-07-15 12:28:21,536 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0011_1306.png?version=2 -> cache/official/equip/11/2.png (200)[0m
+[32m2026-07-15 12:28:23,986 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0012_3056.png -> cache/official/equip/12/unversioned.png (200)[0m
+[32m2026-07-15 12:28:26,284 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0013_5775.png?version=2 -> cache/official/equip/13/2.png (200)[0m
+[32m2026-07-15 12:28:28,474 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0014_3949.png?version=2 -> cache/official/equip/14/2.png (200)[0m
+[32m2026-07-15 12:28:30,816 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0015_5140.png?version=2 -> cache/official/equip/15/2.png (200)[0m
+[32m2026-07-15 12:28:33,193 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0016_3820.png?version=2 -> cache/official/equip/16/2.png (200)[0m
+[32m2026-07-15 12:28:35,523 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0017_8341.png?version=3 -> cache/official/equip/17/3.png (200)[0m
+[32m2026-07-15 12:28:37,841 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0018_4001.png?version=3 -> cache/official/equip/18/3.png (200)[0m
+[33m2026-07-15 12:28:44,411 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0019_8715.png?version=2 attempt=1/4 delay=1.14s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0019_8715.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:28:46,264 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0019_8715.png?version=2 -> cache/official/equip/19/2.png (200)[0m
+[32m2026-07-15 12:28:48,662 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0020_7102.png -> cache/official/equip/20/unversioned.png (200)[0m
+[32m2026-07-15 12:28:50,828 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0021_9454.png -> cache/official/equip/21/unversioned.png (200)[0m
+[32m2026-07-15 12:28:53,129 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0022_3974.png?version=3 -> cache/official/equip/22/3.png (200)[0m
+[32m2026-07-15 12:28:55,678 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0023_2563.png?version=3 -> cache/official/equip/23/3.png (200)[0m
+[32m2026-07-15 12:28:58,319 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0024_1867.png?version=3 -> cache/official/equip/24/3.png (200)[0m
+[32m2026-07-15 12:29:00,688 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0025_3858.png?version=2 -> cache/official/equip/25/2.png (200)[0m
+[32m2026-07-15 12:29:02,941 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0026_6391.png?version=2 -> cache/official/equip/26/2.png (200)[0m
+[32m2026-07-15 12:29:05,147 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0027_1377.png?version=2 -> cache/official/equip/27/2.png (200)[0m
+[32m2026-07-15 12:29:07,523 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0028_7104.png?version=2 -> cache/official/equip/28/2.png (200)[0m
+[32m2026-07-15 12:29:09,766 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0029_5986.png?version=2 -> cache/official/equip/29/2.png (200)[0m
+[33m2026-07-15 12:29:16,392 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0030_7605.png?version=2 attempt=1/4 delay=1.17s reason=ConnectionError: ('Connection aborted.', OSError(50, 'Network is down'))[0m
+[32m2026-07-15 12:29:18,261 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0030_7605.png?version=2 -> cache/official/equip/30/2.png (200)[0m
+[32m2026-07-15 12:29:20,634 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0031_4519.png?version=2 -> cache/official/equip/31/2.png (200)[0m
+[32m2026-07-15 12:29:22,857 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0032_7939.png?version=3 -> cache/official/equip/32/3.png (200)[0m
+[32m2026-07-15 12:29:25,338 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0033_4888.png -> cache/official/equip/33/unversioned.png (200)[0m
+[32m2026-07-15 12:29:27,652 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0034_6143.png -> cache/official/equip/34/unversioned.png (200)[0m
+[32m2026-07-15 12:29:29,840 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0035_5011.png?version=2 -> cache/official/equip/35/2.png (200)[0m
+[32m2026-07-15 12:29:32,165 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0036_2488.png?version=2 -> cache/official/equip/36/2.png (200)[0m
+[32m2026-07-15 12:29:34,479 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0037_9906.png?version=2 -> cache/official/equip/37/2.png (200)[0m
+[32m2026-07-15 12:29:36,878 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0038_1774.png?version=2 -> cache/official/equip/38/2.png (200)[0m
+[32m2026-07-15 12:29:39,098 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0039_8916.png -> cache/official/equip/39/unversioned.png (200)[0m
+[32m2026-07-15 12:29:42,388 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0040_7782.png -> cache/official/equip/40/unversioned.png (200)[0m
+[32m2026-07-15 12:29:44,729 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0041_3268.png?version=2 -> cache/official/equip/41/2.png (200)[0m
+[32m2026-07-15 12:29:47,065 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0044_1936.png -> cache/official/equip/44/unversioned.png (200)[0m
+[32m2026-07-15 12:29:49,274 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0045_1733.png -> cache/official/equip/45/unversioned.png (200)[0m
+[32m2026-07-15 12:29:51,686 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0046_3761.png -> cache/official/equip/46/unversioned.png (200)[0m
+[32m2026-07-15 12:29:53,993 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0047_9874.png -> cache/official/equip/47/unversioned.png (200)[0m
+[32m2026-07-15 12:29:56,597 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0048_1640.png?version=2 -> cache/official/equip/48/2.png (200)[0m
+[32m2026-07-15 12:29:59,142 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0049_2013.png -> cache/official/equip/49/unversioned.png (200)[0m
+[32m2026-07-15 12:30:01,527 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0050_7045.png -> cache/official/equip/50/unversioned.png (200)[0m
+[32m2026-07-15 12:30:03,843 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0051_8452.png -> cache/official/equip/51/unversioned.png (200)[0m
+[32m2026-07-15 12:30:06,457 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0052_5683.png?version=3 -> cache/official/equip/52/3.png (200)[0m
+[32m2026-07-15 12:30:08,844 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0053_3067.png?version=3 -> cache/official/equip/53/3.png (200)[0m
+[32m2026-07-15 12:30:11,265 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0054_7798.png -> cache/official/equip/54/unversioned.png (200)[0m
+[32m2026-07-15 12:30:13,556 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0055_8448.png -> cache/official/equip/55/unversioned.png (200)[0m
+[32m2026-07-15 12:30:15,972 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0057_3935.png?version=4 -> cache/official/equip/57/4.png (200)[0m
+[32m2026-07-15 12:30:18,298 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0058_8732.png?version=2 -> cache/official/equip/58/2.png (200)[0m
+[32m2026-07-15 12:30:20,599 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0059_6136.png -> cache/official/equip/59/unversioned.png (200)[0m
+[32m2026-07-15 12:30:23,018 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0060_9639.png?version=2 -> cache/official/equip/60/2.png (200)[0m
+[32m2026-07-15 12:30:25,727 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0061_5002.png -> cache/official/equip/61/unversioned.png (200)[0m
+[32m2026-07-15 12:30:27,991 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0063_7745.png?version=2 -> cache/official/equip/63/2.png (200)[0m
+[32m2026-07-15 12:30:30,352 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0064_5861.png?version=2 -> cache/official/equip/64/2.png (200)[0m
+[32m2026-07-15 12:30:33,037 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0065_5167.png -> cache/official/equip/65/unversioned.png (200)[0m
+[32m2026-07-15 12:30:35,183 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0066_8580.png?version=2 -> cache/official/equip/66/2.png (200)[0m
+[32m2026-07-15 12:30:37,687 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0068_4981.png -> cache/official/equip/68/unversioned.png (200)[0m
+[32m2026-07-15 12:30:40,308 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0069_6283.png -> cache/official/equip/69/unversioned.png (200)[0m
+[32m2026-07-15 12:30:42,670 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0070_7615.png -> cache/official/equip/70/unversioned.png (200)[0m
+[32m2026-07-15 12:30:45,029 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0071_2596.png?version=2 -> cache/official/equip/71/2.png (200)[0m
+[32m2026-07-15 12:30:47,303 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0072_4778.png -> cache/official/equip/72/unversioned.png (200)[0m
+[32m2026-07-15 12:30:49,759 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0073_6247.png -> cache/official/equip/73/unversioned.png (200)[0m
+[32m2026-07-15 12:30:52,413 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0074_8173.png -> cache/official/equip/74/unversioned.png (200)[0m
+[32m2026-07-15 12:30:54,783 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0075_1736.png?version=2 -> cache/official/equip/75/2.png (200)[0m
+[32m2026-07-15 12:30:57,965 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0076_9788.png -> cache/official/equip/76/unversioned.png (200)[0m
+[32m2026-07-15 12:31:00,238 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0078_6178.png -> cache/official/equip/78/unversioned.png (200)[0m
+[32m2026-07-15 12:31:02,480 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0079_9328.png -> cache/official/equip/79/unversioned.png (200)[0m
+[32m2026-07-15 12:31:04,760 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0080_5677.png -> cache/official/equip/80/unversioned.png (200)[0m
+[32m2026-07-15 12:31:07,059 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0081_6081.png -> cache/official/equip/81/unversioned.png (200)[0m
+[32m2026-07-15 12:31:09,285 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0082_2272.png?version=2 -> cache/official/equip/82/2.png (200)[0m
+[32m2026-07-15 12:31:11,928 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0084_6855.png -> cache/official/equip/84/unversioned.png (200)[0m
+[33m2026-07-15 12:31:18,573 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0087_3845.png attempt=1/4 delay=1.14s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0087_3845.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:31:20,508 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0087_3845.png -> cache/official/equip/87/unversioned.png (200)[0m
+[32m2026-07-15 12:31:22,785 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0088_9884.png?version=2 -> cache/official/equip/88/2.png (200)[0m
+[32m2026-07-15 12:31:25,564 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0089_4954.png?version=2 -> cache/official/equip/89/2.png (200)[0m
+[32m2026-07-15 12:31:27,835 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0090_2830.png -> cache/official/equip/90/unversioned.png (200)[0m
+[32m2026-07-15 12:31:30,146 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0091_8004.png?version=2 -> cache/official/equip/91/2.png (200)[0m
+[32m2026-07-15 12:31:32,317 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0092_9172.png -> cache/official/equip/92/unversioned.png (200)[0m
+[32m2026-07-15 12:31:34,899 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0093_5597.png?version=2 -> cache/official/equip/93/2.png (200)[0m
+[32m2026-07-15 12:31:37,346 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0094_5613.png -> cache/official/equip/94/unversioned.png (200)[0m
+[32m2026-07-15 12:31:39,691 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0095_3526.png?version=2 -> cache/official/equip/95/2.png (200)[0m
+[32m2026-07-15 12:31:41,983 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0096_4379.png -> cache/official/equip/96/unversioned.png (200)[0m
+[32m2026-07-15 12:31:44,417 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0097_7984.png?version=2 -> cache/official/equip/97/2.png (200)[0m
+[32m2026-07-15 12:31:46,652 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0098_2458.png -> cache/official/equip/98/unversioned.png (200)[0m
+[32m2026-07-15 12:31:48,989 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0099_9781.png -> cache/official/equip/99/unversioned.png (200)[0m
+[32m2026-07-15 12:31:51,654 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0100_5910.png -> cache/official/equip/100/unversioned.png (200)[0m
+[32m2026-07-15 12:31:54,518 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0102_3769.png?version=3 -> cache/official/equip/102/3.png (200)[0m
+[32m2026-07-15 12:31:56,859 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0103_6973.png -> cache/official/equip/103/unversioned.png (200)[0m
+[32m2026-07-15 12:31:59,096 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0104_6160.png -> cache/official/equip/104/unversioned.png (200)[0m
+[32m2026-07-15 12:32:01,772 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0105_6052.png -> cache/official/equip/105/unversioned.png (200)[0m
+[32m2026-07-15 12:32:04,205 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0106_7200.png?version=2 -> cache/official/equip/106/2.png (200)[0m
+[32m2026-07-15 12:32:06,520 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0109_3309.png -> cache/official/equip/109/unversioned.png (200)[0m
+[32m2026-07-15 12:32:08,949 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0110_1000.png?version=2 -> cache/official/equip/110/2.png (200)[0m
+[32m2026-07-15 12:32:11,544 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0114_1755.png -> cache/official/equip/114/unversioned.png (200)[0m
+[32m2026-07-15 12:32:13,921 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0115_3565.png -> cache/official/equip/115/unversioned.png (200)[0m
+[32m2026-07-15 12:32:16,625 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0116_7498.png?version=2 -> cache/official/equip/116/2.png (200)[0m
+[32m2026-07-15 12:32:18,969 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0117_7523.png -> cache/official/equip/117/unversioned.png (200)[0m
+[32m2026-07-15 12:32:21,174 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0118_7032.png -> cache/official/equip/118/unversioned.png (200)[0m
+[32m2026-07-15 12:32:23,400 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0119_5257.png -> cache/official/equip/119/unversioned.png (200)[0m
+[32m2026-07-15 12:32:25,950 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0120_2783.png -> cache/official/equip/120/unversioned.png (200)[0m
+[32m2026-07-15 12:32:28,353 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0121_2473.png -> cache/official/equip/121/unversioned.png (200)[0m
+[32m2026-07-15 12:32:30,626 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0122_5875.png?version=2 -> cache/official/equip/122/2.png (200)[0m
+[32m2026-07-15 12:32:33,033 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0123_4782.png -> cache/official/equip/123/unversioned.png (200)[0m
+[32m2026-07-15 12:32:35,314 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0124_9295.png?version=2 -> cache/official/equip/124/2.png (200)[0m
+[32m2026-07-15 12:32:37,618 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0125_1573.png?version=2 -> cache/official/equip/125/2.png (200)[0m
+[32m2026-07-15 12:32:40,009 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0128_6598.png -> cache/official/equip/128/unversioned.png (200)[0m
+[32m2026-07-15 12:32:42,324 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0129_1890.png -> cache/official/equip/129/unversioned.png (200)[0m
+[32m2026-07-15 12:32:44,684 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0130_1205.png?version=2 -> cache/official/equip/130/2.png (200)[0m
+[32m2026-07-15 12:32:46,844 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0131_3862.png -> cache/official/equip/131/unversioned.png (200)[0m
+[32m2026-07-15 12:32:49,536 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0132_9856.png -> cache/official/equip/132/unversioned.png (200)[0m
+[32m2026-07-15 12:32:51,905 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0133_5635.png -> cache/official/equip/133/unversioned.png (200)[0m
+[33m2026-07-15 12:32:58,713 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0134_3586.png attempt=1/4 delay=1.07s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0134_3586.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-15 12:33:04,816 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0134_3586.png attempt=2/4 delay=2.17s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0134_3586.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:33:07,871 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0134_3586.png -> cache/official/equip/134/unversioned.png (200)[0m
+[32m2026-07-15 12:33:10,262 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0135_5588.png -> cache/official/equip/135/unversioned.png (200)[0m
+[32m2026-07-15 12:33:12,489 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0136_2401.png -> cache/official/equip/136/unversioned.png (200)[0m
+[32m2026-07-15 12:33:15,035 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0137_8938.png -> cache/official/equip/137/unversioned.png (200)[0m
+[32m2026-07-15 12:33:17,600 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0139_3107.png -> cache/official/equip/139/unversioned.png (200)[0m
+[32m2026-07-15 12:33:20,013 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0140_8275.png -> cache/official/equip/140/unversioned.png (200)[0m
+[32m2026-07-15 12:33:22,412 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0141_2011.png?version=2 -> cache/official/equip/141/2.png (200)[0m
+[32m2026-07-15 12:33:24,929 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0142_6497.png?version=3 -> cache/official/equip/142/3.png (200)[0m
+[32m2026-07-15 12:33:27,560 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0145_7284.png -> cache/official/equip/145/unversioned.png (200)[0m
+[32m2026-07-15 12:33:29,837 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0147_8029.png?version=2 -> cache/official/equip/147/2.png (200)[0m
+[32m2026-07-15 12:33:32,289 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0149_3181.png -> cache/official/equip/149/unversioned.png (200)[0m
+[32m2026-07-15 12:33:34,519 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0150_8205.png -> cache/official/equip/150/unversioned.png (200)[0m
+[32m2026-07-15 12:33:36,877 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0151_6139.png -> cache/official/equip/151/unversioned.png (200)[0m
+[32m2026-07-15 12:33:39,333 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0152_9514.png -> cache/official/equip/152/unversioned.png (200)[0m
+[32m2026-07-15 12:33:41,518 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0153_6512.png -> cache/official/equip/153/unversioned.png (200)[0m
+[32m2026-07-15 12:33:43,948 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0154_6586.png?version=2 -> cache/official/equip/154/2.png (200)[0m
+[32m2026-07-15 12:33:46,424 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0156_5180.png -> cache/official/equip/156/unversioned.png (200)[0m
+[32m2026-07-15 12:33:48,859 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0157_2352.png -> cache/official/equip/157/unversioned.png (200)[0m
+[32m2026-07-15 12:33:51,228 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0158_7513.png -> cache/official/equip/158/unversioned.png (200)[0m
+[32m2026-07-15 12:33:53,609 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0161_8776.png -> cache/official/equip/161/unversioned.png (200)[0m
+[32m2026-07-15 12:33:55,887 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0162_3810.png -> cache/official/equip/162/unversioned.png (200)[0m
+[32m2026-07-15 12:33:58,198 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0163_5844.png?version=2 -> cache/official/equip/163/2.png (200)[0m
+[32m2026-07-15 12:34:00,593 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0164_4240.png?version=2 -> cache/official/equip/164/2.png (200)[0m
+[33m2026-07-15 12:34:07,225 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0165_3477.png?version=2 attempt=1/4 delay=1.10s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0165_3477.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:34:09,194 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0165_3477.png?version=2 -> cache/official/equip/165/2.png (200)[0m
+[32m2026-07-15 12:34:11,399 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0166_3353.png -> cache/official/equip/166/unversioned.png (200)[0m
+[32m2026-07-15 12:34:13,739 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0167_2314.png -> cache/official/equip/167/unversioned.png (200)[0m
+[32m2026-07-15 12:34:15,940 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0168_1316.png -> cache/official/equip/168/unversioned.png (200)[0m
+[32m2026-07-15 12:34:18,423 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0169_1900.png -> cache/official/equip/169/unversioned.png (200)[0m
+[32m2026-07-15 12:34:20,761 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0170_3970.png -> cache/official/equip/170/unversioned.png (200)[0m
+[32m2026-07-15 12:34:23,127 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0171_7173.png?version=2 -> cache/official/equip/171/2.png (200)[0m
+[32m2026-07-15 12:34:25,766 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0172_3654.png -> cache/official/equip/172/unversioned.png (200)[0m
+[32m2026-07-15 12:34:28,245 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0174_2849.png?version=2 -> cache/official/equip/174/2.png (200)[0m
+[32m2026-07-15 12:34:30,563 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0175_1977.png -> cache/official/equip/175/unversioned.png (200)[0m
+[32m2026-07-15 12:34:32,886 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0176_9457.png?version=2 -> cache/official/equip/176/2.png (200)[0m
+[32m2026-07-15 12:34:35,234 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0177_4460.png?version=2 -> cache/official/equip/177/2.png (200)[0m
+[32m2026-07-15 12:34:37,629 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0179_8578.png?version=2 -> cache/official/equip/179/2.png (200)[0m
+[32m2026-07-15 12:34:39,903 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0180_8165.png?version=2 -> cache/official/equip/180/2.png (200)[0m
+[32m2026-07-15 12:34:42,150 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0181_2474.png -> cache/official/equip/181/unversioned.png (200)[0m
+[32m2026-07-15 12:34:44,643 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0182_6625.png -> cache/official/equip/182/unversioned.png (200)[0m
+[32m2026-07-15 12:34:47,074 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0183_5081.png -> cache/official/equip/183/unversioned.png (200)[0m
+[32m2026-07-15 12:34:49,356 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0184_2837.png -> cache/official/equip/184/unversioned.png (200)[0m
+[32m2026-07-15 12:34:52,050 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0185_9457.png?version=2 -> cache/official/equip/185/2.png (200)[0m
+[32m2026-07-15 12:34:54,236 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0186_9608.png -> cache/official/equip/186/unversioned.png (200)[0m
+[32m2026-07-15 12:34:56,581 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0187_8208.png -> cache/official/equip/187/unversioned.png (200)[0m
+[32m2026-07-15 12:34:59,933 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0189_8325.png -> cache/official/equip/189/unversioned.png (200)[0m
+[32m2026-07-15 12:35:02,855 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0190_2959.png -> cache/official/equip/190/unversioned.png (200)[0m
+[32m2026-07-15 12:35:05,157 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0191_1783.png -> cache/official/equip/191/unversioned.png (200)[0m
+[32m2026-07-15 12:35:07,360 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0192_2109.png -> cache/official/equip/192/unversioned.png (200)[0m
+[32m2026-07-15 12:35:09,604 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0193_1221.png -> cache/official/equip/193/unversioned.png (200)[0m
+[32m2026-07-15 12:35:12,015 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0194_3073.png -> cache/official/equip/194/unversioned.png (200)[0m
+[32m2026-07-15 12:35:14,364 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0195_7410.png?version=3 -> cache/official/equip/195/3.png (200)[0m
+[32m2026-07-15 12:35:16,970 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0196_7224.png -> cache/official/equip/196/unversioned.png (200)[0m
+[32m2026-07-15 12:35:19,297 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0197_1585.png -> cache/official/equip/197/unversioned.png (200)[0m
+[32m2026-07-15 12:35:22,554 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0198_2992.png -> cache/official/equip/198/unversioned.png (200)[0m
+[32m2026-07-15 12:35:24,864 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0199_3505.png -> cache/official/equip/199/unversioned.png (200)[0m
+[32m2026-07-15 12:35:27,172 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0201_1129.png -> cache/official/equip/201/unversioned.png (200)[0m
+[32m2026-07-15 12:35:29,441 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0202_8779.png -> cache/official/equip/202/unversioned.png (200)[0m
+[32m2026-07-15 12:35:31,832 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0203_3430.png -> cache/official/equip/203/unversioned.png (200)[0m
+[32m2026-07-15 12:35:34,561 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0204_2159.png -> cache/official/equip/204/unversioned.png (200)[0m
+[32m2026-07-15 12:35:36,706 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0205_7999.png -> cache/official/equip/205/unversioned.png (200)[0m
+[32m2026-07-15 12:35:39,523 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0206_9034.png -> cache/official/equip/206/unversioned.png (200)[0m
+[32m2026-07-15 12:35:41,788 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0210_6982.png?version=2 -> cache/official/equip/210/2.png (200)[0m
+[32m2026-07-15 12:35:44,940 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0211_1715.png?version=2 -> cache/official/equip/211/2.png (200)[0m
+[32m2026-07-15 12:35:47,295 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0213_8660.png?version=2 -> cache/official/equip/213/2.png (200)[0m
+[32m2026-07-15 12:35:49,685 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0215_1990.png -> cache/official/equip/215/unversioned.png (200)[0m
+[32m2026-07-15 12:35:52,268 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0216_2203.png -> cache/official/equip/216/unversioned.png (200)[0m
+[32m2026-07-15 12:35:54,601 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0217_6705.png -> cache/official/equip/217/unversioned.png (200)[0m
+[32m2026-07-15 12:35:57,879 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0219_1799.png -> cache/official/equip/219/unversioned.png (200)[0m
+[32m2026-07-15 12:36:00,129 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0220_7437.png?version=2 -> cache/official/equip/220/2.png (200)[0m
+[32m2026-07-15 12:36:02,474 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0221_4465.png -> cache/official/equip/221/unversioned.png (200)[0m
+[32m2026-07-15 12:36:04,856 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0222_7776.png -> cache/official/equip/222/unversioned.png (200)[0m
+[32m2026-07-15 12:36:07,243 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0224_7750.png?version=2 -> cache/official/equip/224/2.png (200)[0m
+[32m2026-07-15 12:36:09,559 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0226_8338.png -> cache/official/equip/226/unversioned.png (200)[0m
+[32m2026-07-15 12:36:11,912 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0227_2539.png -> cache/official/equip/227/unversioned.png (200)[0m
+[32m2026-07-15 12:36:14,289 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0228_6092.png -> cache/official/equip/228/unversioned.png (200)[0m
+[32m2026-07-15 12:36:16,624 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0229_6767.png -> cache/official/equip/229/unversioned.png (200)[0m
+[32m2026-07-15 12:36:19,087 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0231_3205.png -> cache/official/equip/231/unversioned.png (200)[0m
+[32m2026-07-15 12:36:21,364 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0232_2800.png -> cache/official/equip/232/unversioned.png (200)[0m
+[32m2026-07-15 12:36:23,756 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0233_6382.png -> cache/official/equip/233/unversioned.png (200)[0m
+[32m2026-07-15 12:36:26,148 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0234_1029.png -> cache/official/equip/234/unversioned.png (200)[0m
+[32m2026-07-15 12:36:28,439 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0235_6165.png -> cache/official/equip/235/unversioned.png (200)[0m
+[32m2026-07-15 12:36:30,815 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0236_2314.png -> cache/official/equip/236/unversioned.png (200)[0m
+[32m2026-07-15 12:36:33,180 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0237_7970.png -> cache/official/equip/237/unversioned.png (200)[0m
+[32m2026-07-15 12:36:35,539 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0238_1226.png?version=2 -> cache/official/equip/238/2.png (200)[0m
+[32m2026-07-15 12:36:37,879 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0240_8768.png?version=2 -> cache/official/equip/240/2.png (200)[0m
+[32m2026-07-15 12:36:40,080 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0241_9727.png -> cache/official/equip/241/unversioned.png (200)[0m
+[32m2026-07-15 12:36:42,249 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0242_4405.png -> cache/official/equip/242/unversioned.png (200)[0m
+[32m2026-07-15 12:36:44,577 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0243_9612.png -> cache/official/equip/243/unversioned.png (200)[0m
+[32m2026-07-15 12:36:46,784 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0245_3862.png -> cache/official/equip/245/unversioned.png (200)[0m
+[32m2026-07-15 12:36:49,196 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0246_8085.png -> cache/official/equip/246/unversioned.png (200)[0m
+[32m2026-07-15 12:36:51,513 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0247_6184.png -> cache/official/equip/247/unversioned.png (200)[0m
+[32m2026-07-15 12:36:53,892 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0248_4783.png -> cache/official/equip/248/unversioned.png (200)[0m
+[32m2026-07-15 12:36:56,476 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0249_4349.png -> cache/official/equip/249/unversioned.png (200)[0m
+[32m2026-07-15 12:36:58,854 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0250_9365.png -> cache/official/equip/250/unversioned.png (200)[0m
+[32m2026-07-15 12:37:01,171 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0251_3826.png -> cache/official/equip/251/unversioned.png (200)[0m
+[32m2026-07-15 12:37:03,376 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0252_4372.png -> cache/official/equip/252/unversioned.png (200)[0m
+[32m2026-07-15 12:37:05,673 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0256_2790.png -> cache/official/equip/256/unversioned.png (200)[0m
+[32m2026-07-15 12:37:08,009 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0260_5026.png -> cache/official/equip/260/unversioned.png (200)[0m
+[32m2026-07-15 12:37:10,385 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0261_3577.png -> cache/official/equip/261/unversioned.png (200)[0m
+[32m2026-07-15 12:37:12,755 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0263_3943.png -> cache/official/equip/263/unversioned.png (200)[0m
+[32m2026-07-15 12:37:15,103 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0266_7099.png -> cache/official/equip/266/unversioned.png (200)[0m
+[32m2026-07-15 12:37:17,326 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0267_6679.png -> cache/official/equip/267/unversioned.png (200)[0m
+[32m2026-07-15 12:37:19,518 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0271_2777.png -> cache/official/equip/271/unversioned.png (200)[0m
+[32m2026-07-15 12:37:21,914 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0274_6498.png -> cache/official/equip/274/unversioned.png (200)[0m
+[32m2026-07-15 12:37:24,274 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0275_2218.png?version=2 -> cache/official/equip/275/2.png (200)[0m
+[32m2026-07-15 12:37:26,631 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0276_9126.png -> cache/official/equip/276/unversioned.png (200)[0m
+[32m2026-07-15 12:37:28,935 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0277_2049.png -> cache/official/equip/277/unversioned.png (200)[0m
+[32m2026-07-15 12:37:31,110 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0278_1999.png -> cache/official/equip/278/unversioned.png (200)[0m
+[32m2026-07-15 12:37:33,473 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0279_7828.png -> cache/official/equip/279/unversioned.png (200)[0m
+[32m2026-07-15 12:37:35,796 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0280_1680.png -> cache/official/equip/280/unversioned.png (200)[0m
+[32m2026-07-15 12:37:37,991 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0281_7840.png -> cache/official/equip/281/unversioned.png (200)[0m
+[32m2026-07-15 12:37:40,281 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0282_2005.png -> cache/official/equip/282/unversioned.png (200)[0m
+[32m2026-07-15 12:37:42,620 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0283_2034.png?version=2 -> cache/official/equip/283/2.png (200)[0m
+[32m2026-07-15 12:37:45,016 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0284_7792.png -> cache/official/equip/284/unversioned.png (200)[0m
+[32m2026-07-15 12:37:47,362 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0285_6945.png?version=2 -> cache/official/equip/285/2.png (200)[0m
+[32m2026-07-15 12:37:49,688 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0286_2724.png?version=2 -> cache/official/equip/286/2.png (200)[0m
+[32m2026-07-15 12:37:52,195 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0287_3598.png -> cache/official/equip/287/unversioned.png (200)[0m
+[32m2026-07-15 12:37:54,535 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0288_4974.png -> cache/official/equip/288/unversioned.png (200)[0m
+[32m2026-07-15 12:37:57,277 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0289_2723.png -> cache/official/equip/289/unversioned.png (200)[0m
+[32m2026-07-15 12:37:59,471 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0290_3088.png -> cache/official/equip/290/unversioned.png (200)[0m
+[32m2026-07-15 12:38:01,804 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0293_5818.png -> cache/official/equip/293/unversioned.png (200)[0m
+[32m2026-07-15 12:38:04,269 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0294_9506.png -> cache/official/equip/294/unversioned.png (200)[0m
+[32m2026-07-15 12:38:07,019 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0295_2321.png -> cache/official/equip/295/unversioned.png (200)[0m
+[32m2026-07-15 12:38:09,227 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0296_1096.png -> cache/official/equip/296/unversioned.png (200)[0m
+[32m2026-07-15 12:38:11,448 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0297_4159.png -> cache/official/equip/297/unversioned.png (200)[0m
+[32m2026-07-15 12:38:13,825 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0298_3526.png -> cache/official/equip/298/unversioned.png (200)[0m
+[32m2026-07-15 12:38:16,051 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0299_6202.png -> cache/official/equip/299/unversioned.png (200)[0m
+[32m2026-07-15 12:38:18,378 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0300_1670.png -> cache/official/equip/300/unversioned.png (200)[0m
+[32m2026-07-15 12:38:21,018 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0301_8611.png -> cache/official/equip/301/unversioned.png (200)[0m
+[32m2026-07-15 12:38:23,252 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0303_8860.png -> cache/official/equip/303/unversioned.png (200)[0m
+[32m2026-07-15 12:38:25,779 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0304_7131.png -> cache/official/equip/304/unversioned.png (200)[0m
+[32m2026-07-15 12:38:28,008 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0307_7798.png -> cache/official/equip/307/unversioned.png (200)[0m
+[32m2026-07-15 12:38:30,342 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0308_1864.png -> cache/official/equip/308/unversioned.png (200)[0m
+[32m2026-07-15 12:38:32,696 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0309_2030.png -> cache/official/equip/309/unversioned.png (200)[0m
+[32m2026-07-15 12:38:34,947 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0310_3991.png -> cache/official/equip/310/unversioned.png (200)[0m
+[32m2026-07-15 12:38:37,235 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0313_5616.png -> cache/official/equip/313/unversioned.png (200)[0m
+[32m2026-07-15 12:38:39,562 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0314_6340.png -> cache/official/equip/314/unversioned.png (200)[0m
+[32m2026-07-15 12:38:41,853 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0315_9388.png -> cache/official/equip/315/unversioned.png (200)[0m
+[32m2026-07-15 12:38:44,269 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0316_5881.png -> cache/official/equip/316/unversioned.png (200)[0m
+[32m2026-07-15 12:38:46,493 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0317_5887.png?version=2 -> cache/official/equip/317/2.png (200)[0m
+[32m2026-07-15 12:38:48,725 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0318_4121.png -> cache/official/equip/318/unversioned.png (200)[0m
+[32m2026-07-15 12:38:51,067 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0320_3118.png?version=2 -> cache/official/equip/320/2.png (200)[0m
+[32m2026-07-15 12:38:53,329 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0322_9677.png -> cache/official/equip/322/unversioned.png (200)[0m
+[32m2026-07-15 12:38:55,772 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0324_6205.png -> cache/official/equip/324/unversioned.png (200)[0m
+[32m2026-07-15 12:38:58,052 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0325_5976.png -> cache/official/equip/325/unversioned.png (200)[0m
+[32m2026-07-15 12:39:00,366 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0326_4825.png -> cache/official/equip/326/unversioned.png (200)[0m
+[32m2026-07-15 12:39:02,748 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0327_3120.png -> cache/official/equip/327/unversioned.png (200)[0m
+[32m2026-07-15 12:39:05,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0328_5586.png -> cache/official/equip/328/unversioned.png (200)[0m
+[32m2026-07-15 12:39:07,552 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0329_2671.png -> cache/official/equip/329/unversioned.png (200)[0m
+[32m2026-07-15 12:39:09,938 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0330_6351.png -> cache/official/equip/330/unversioned.png (200)[0m
+[32m2026-07-15 12:39:12,140 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0331_2548.png -> cache/official/equip/331/unversioned.png (200)[0m
+[32m2026-07-15 12:39:14,357 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0332_4717.png -> cache/official/equip/332/unversioned.png (200)[0m
+[32m2026-07-15 12:39:16,750 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0340_9261.png -> cache/official/equip/340/unversioned.png (200)[0m
+[32m2026-07-15 12:39:19,059 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0341_8470.png -> cache/official/equip/341/unversioned.png (200)[0m
+[32m2026-07-15 12:39:21,461 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0344_1108.png?version=2 -> cache/official/equip/344/2.png (200)[0m
+[32m2026-07-15 12:39:23,828 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0345_9413.png -> cache/official/equip/345/unversioned.png (200)[0m
+[32m2026-07-15 12:39:26,177 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0346_1274.png -> cache/official/equip/346/unversioned.png (200)[0m
+[32m2026-07-15 12:39:28,526 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0347_4339.png -> cache/official/equip/347/unversioned.png (200)[0m
+[32m2026-07-15 12:39:30,912 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0348_1868.png -> cache/official/equip/348/unversioned.png (200)[0m
+[32m2026-07-15 12:39:33,184 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0349_5517.png -> cache/official/equip/349/unversioned.png (200)[0m
+[32m2026-07-15 12:39:35,404 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0356_9373.png -> cache/official/equip/356/unversioned.png (200)[0m
+[32m2026-07-15 12:39:37,722 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0357_8159.png -> cache/official/equip/357/unversioned.png (200)[0m
+[32m2026-07-15 12:39:40,064 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0365_9070.png?version=2 -> cache/official/equip/365/2.png (200)[0m
+[32m2026-07-15 12:39:42,436 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0367_2071.png -> cache/official/equip/367/unversioned.png (200)[0m
+[32m2026-07-15 12:39:44,662 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0368_2959.png -> cache/official/equip/368/unversioned.png (200)[0m
+[32m2026-07-15 12:39:46,876 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0370_5653.png -> cache/official/equip/370/unversioned.png (200)[0m
+[32m2026-07-15 12:39:49,239 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0371_7354.png -> cache/official/equip/371/unversioned.png (200)[0m
+[32m2026-07-15 12:39:51,610 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0372_1406.png -> cache/official/equip/372/unversioned.png (200)[0m
+[32m2026-07-15 12:39:53,960 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0373_5734.png -> cache/official/equip/373/unversioned.png (200)[0m
+[32m2026-07-15 12:39:56,189 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0376_8795.png -> cache/official/equip/376/unversioned.png (200)[0m
+[32m2026-07-15 12:39:58,564 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0379_7078.png -> cache/official/equip/379/unversioned.png (200)[0m
+[32m2026-07-15 12:40:00,870 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0380_4168.png -> cache/official/equip/380/unversioned.png (200)[0m
+[32m2026-07-15 12:40:03,150 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0381_4233.png -> cache/official/equip/381/unversioned.png (200)[0m
+[32m2026-07-15 12:40:05,728 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0382_6358.png -> cache/official/equip/382/unversioned.png (200)[0m
+[32m2026-07-15 12:40:08,112 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0383_7960.png -> cache/official/equip/383/unversioned.png (200)[0m
+[32m2026-07-15 12:40:10,452 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0385_4433.png -> cache/official/equip/385/unversioned.png (200)[0m
+[32m2026-07-15 12:40:12,845 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0386_4813.png?version=2 -> cache/official/equip/386/2.png (200)[0m
+[32m2026-07-15 12:40:15,220 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0387_7961.png?version=2 -> cache/official/equip/387/2.png (200)[0m
+[32m2026-07-15 12:40:17,551 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0391_7287.png -> cache/official/equip/391/unversioned.png (200)[0m
+[32m2026-07-15 12:40:19,898 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0392_5929.png -> cache/official/equip/392/unversioned.png (200)[0m
+[32m2026-07-15 12:40:22,078 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0393_1442.png -> cache/official/equip/393/unversioned.png (200)[0m
+[32m2026-07-15 12:40:24,392 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0394_6966.png -> cache/official/equip/394/unversioned.png (200)[0m
+[32m2026-07-15 12:40:26,788 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0395_6205.png -> cache/official/equip/395/unversioned.png (200)[0m
+[32m2026-07-15 12:40:29,101 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0397_6733.png -> cache/official/equip/397/unversioned.png (200)[0m
+[32m2026-07-15 12:40:31,348 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0398_4060.png -> cache/official/equip/398/unversioned.png (200)[0m
+[32m2026-07-15 12:40:33,676 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0399_8899.png -> cache/official/equip/399/unversioned.png (200)[0m
+[32m2026-07-15 12:40:36,054 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0400_8523.png -> cache/official/equip/400/unversioned.png (200)[0m
+[32m2026-07-15 12:40:38,357 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0401_7120.png -> cache/official/equip/401/unversioned.png (200)[0m
+[32m2026-07-15 12:40:40,757 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0403_5317.png -> cache/official/equip/403/unversioned.png (200)[0m
+[32m2026-07-15 12:40:43,299 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0404_3130.png -> cache/official/equip/404/unversioned.png (200)[0m
+[32m2026-07-15 12:40:45,865 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0405_2920.png -> cache/official/equip/405/unversioned.png (200)[0m
+[32m2026-07-15 12:40:48,110 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0407_3619.png -> cache/official/equip/407/unversioned.png (200)[0m
+[32m2026-07-15 12:40:50,693 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0408_6696.png -> cache/official/equip/408/unversioned.png (200)[0m
+[32m2026-07-15 12:40:52,955 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0409_5877.png -> cache/official/equip/409/unversioned.png (200)[0m
+[32m2026-07-15 12:40:55,315 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0410_1000.png -> cache/official/equip/410/unversioned.png (200)[0m
+[32m2026-07-15 12:40:57,661 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0411_2124.png -> cache/official/equip/411/unversioned.png (200)[0m
+[32m2026-07-15 12:41:00,022 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0414_4146.png -> cache/official/equip/414/unversioned.png (200)[0m
+[32m2026-07-15 12:41:02,461 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0415_7813.png -> cache/official/equip/415/unversioned.png (200)[0m
+[32m2026-07-15 12:41:04,788 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0419_3856.png -> cache/official/equip/419/unversioned.png (200)[0m
+[32m2026-07-15 12:41:07,080 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0420_7772.png -> cache/official/equip/420/unversioned.png (200)[0m
+[32m2026-07-15 12:41:09,458 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0421_8449.png -> cache/official/equip/421/unversioned.png (200)[0m
+[32m2026-07-15 12:41:11,690 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0422_2605.png -> cache/official/equip/422/unversioned.png (200)[0m
+[32m2026-07-15 12:41:14,010 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0423_2466.png -> cache/official/equip/423/unversioned.png (200)[0m
+[32m2026-07-15 12:41:16,358 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0424_4660.png -> cache/official/equip/424/unversioned.png (200)[0m
+[32m2026-07-15 12:41:18,642 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0425_3691.png -> cache/official/equip/425/unversioned.png (200)[0m
+[32m2026-07-15 12:41:21,007 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0426_1312.png -> cache/official/equip/426/unversioned.png (200)[0m
+[32m2026-07-15 12:41:23,358 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0427_3701.png -> cache/official/equip/427/unversioned.png (200)[0m
+[32m2026-07-15 12:41:25,712 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0428_5080.png -> cache/official/equip/428/unversioned.png (200)[0m
+[32m2026-07-15 12:41:28,044 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0429_7548.png -> cache/official/equip/429/unversioned.png (200)[0m
+[32m2026-07-15 12:41:30,703 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0431_1891.png -> cache/official/equip/431/unversioned.png (200)[0m
+[32m2026-07-15 12:41:33,055 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0432_6634.png -> cache/official/equip/432/unversioned.png (200)[0m
+[32m2026-07-15 12:41:35,402 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0438_9651.png -> cache/official/equip/438/unversioned.png (200)[0m
+[32m2026-07-15 12:41:37,789 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0440_9754.png -> cache/official/equip/440/unversioned.png (200)[0m
+[32m2026-07-15 12:41:40,006 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0441_7213.png -> cache/official/equip/441/unversioned.png (200)[0m
+[32m2026-07-15 12:41:42,349 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0442_9194.png -> cache/official/equip/442/unversioned.png (200)[0m
+[32m2026-07-15 12:41:44,614 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0443_5734.png -> cache/official/equip/443/unversioned.png (200)[0m
+[32m2026-07-15 12:41:46,933 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0445_5991.png -> cache/official/equip/445/unversioned.png (200)[0m
+[32m2026-07-15 12:41:49,335 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0446_3436.png -> cache/official/equip/446/unversioned.png (200)[0m
+[32m2026-07-15 12:41:51,640 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0447_2494.png -> cache/official/equip/447/unversioned.png (200)[0m
+[32m2026-07-15 12:41:54,035 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0450_2712.png -> cache/official/equip/450/unversioned.png (200)[0m
+[32m2026-07-15 12:41:56,411 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0451_8173.png -> cache/official/equip/451/unversioned.png (200)[0m
+[32m2026-07-15 12:41:58,765 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0452_3061.png -> cache/official/equip/452/unversioned.png (200)[0m
+[32m2026-07-15 12:42:01,183 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0453_7874.png?version=2 -> cache/official/equip/453/2.png (200)[0m
+[32m2026-07-15 12:42:03,482 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0455_9319.png -> cache/official/equip/455/unversioned.png (200)[0m
+[32m2026-07-15 12:42:05,797 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0456_6983.png -> cache/official/equip/456/unversioned.png (200)[0m
+[32m2026-07-15 12:42:08,197 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0457_6576.png -> cache/official/equip/457/unversioned.png (200)[0m
+[32m2026-07-15 12:42:10,427 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0460_9386.png -> cache/official/equip/460/unversioned.png (200)[0m
+[32m2026-07-15 12:42:12,624 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0463_9114.png -> cache/official/equip/463/unversioned.png (200)[0m
+[32m2026-07-15 12:42:15,004 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0464_8350.png -> cache/official/equip/464/unversioned.png (200)[0m
+[32m2026-07-15 12:42:17,423 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0466_5618.png -> cache/official/equip/466/unversioned.png (200)[0m
+[32m2026-07-15 12:42:19,780 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0468_8267.png -> cache/official/equip/468/unversioned.png (200)[0m
+[32m2026-07-15 12:42:21,999 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0470_2008.png -> cache/official/equip/470/unversioned.png (200)[0m
+[32m2026-07-15 12:42:24,189 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0471_2958.png -> cache/official/equip/471/unversioned.png (200)[0m
+[32m2026-07-15 12:42:26,564 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0473_5563.png -> cache/official/equip/473/unversioned.png (200)[0m
+[32m2026-07-15 12:42:28,866 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0474_4823.png -> cache/official/equip/474/unversioned.png (200)[0m
+[32m2026-07-15 12:42:31,260 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0477_6200.png -> cache/official/equip/477/unversioned.png (200)[0m
+[32m2026-07-15 12:42:33,607 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0478_6793.png -> cache/official/equip/478/unversioned.png (200)[0m
+[32m2026-07-15 12:42:35,986 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0483_4913.png?version=2 -> cache/official/equip/483/2.png (200)[0m
+[32m2026-07-15 12:42:38,231 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0485_1921.png -> cache/official/equip/485/unversioned.png (200)[0m
+[32m2026-07-15 12:42:40,379 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0486_6902.png -> cache/official/equip/486/unversioned.png (200)[0m
+[33m2026-07-15 12:42:46,960 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0487_3351.png attempt=1/4 delay=1.02s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0487_3351.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:42:48,713 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0487_3351.png -> cache/official/equip/487/unversioned.png (200)[0m
+[32m2026-07-15 12:42:51,024 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0488_9037.png -> cache/official/equip/488/unversioned.png (200)[0m
+[32m2026-07-15 12:42:53,333 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0489_9465.png -> cache/official/equip/489/unversioned.png (200)[0m
+[32m2026-07-15 12:42:55,594 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0490_3346.png -> cache/official/equip/490/unversioned.png (200)[0m
+[32m2026-07-15 12:42:58,005 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0492_7839.png -> cache/official/equip/492/unversioned.png (200)[0m
+[32m2026-07-15 12:43:00,210 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0493_6039.png -> cache/official/equip/493/unversioned.png (200)[0m
+[32m2026-07-15 12:43:02,404 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0496_6786.png -> cache/official/equip/496/unversioned.png (200)[0m
+[32m2026-07-15 12:43:04,807 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0500_6403.png -> cache/official/equip/500/unversioned.png (200)[0m
+[32m2026-07-15 12:43:07,281 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0502_5863.png?version=2 -> cache/official/equip/502/2.png (200)[0m
+[32m2026-07-15 12:43:09,666 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0504_8102.png?version=2 -> cache/official/equip/504/2.png (200)[0m
+[32m2026-07-15 12:43:11,835 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0507_8413.png?version=2 -> cache/official/equip/507/2.png (200)[0m
+[32m2026-07-15 12:43:14,274 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0508_2555.png?version=2 -> cache/official/equip/508/2.png (200)[0m
+[32m2026-07-15 12:43:16,593 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0509_9724.png?version=2 -> cache/official/equip/509/2.png (200)[0m
+[32m2026-07-15 12:43:18,955 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0511_6815.png?version=2 -> cache/official/equip/511/2.png (200)[0m
+[32m2026-07-15 12:43:21,227 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0512_2851.png?version=2 -> cache/official/equip/512/2.png (200)[0m
+[32m2026-07-15 12:43:23,526 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0517_4251.png?version=2 -> cache/official/equip/517/2.png (200)[0m
+[32m2026-07-15 12:43:25,781 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0518_1210.png?version=2 -> cache/official/equip/518/2.png (200)[0m
+[32m2026-07-15 12:43:28,135 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0519_9371.png?version=2 -> cache/official/equip/519/2.png (200)[0m
+[33m2026-07-15 12:43:34,668 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0520_3453.png?version=2 attempt=1/4 delay=1.02s reason=ConnectionError: ('Connection aborted.', OSError(50, 'Network is down'))[0m
+[32m2026-07-15 12:43:36,523 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0520_3453.png?version=2 -> cache/official/equip/520/2.png (200)[0m
+[32m2026-07-15 12:43:38,890 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0522_4506.png?version=2 -> cache/official/equip/522/2.png (200)[0m
+[32m2026-07-15 12:43:41,124 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0523_4685.png?version=2 -> cache/official/equip/523/2.png (200)[0m
+[32m2026-07-15 12:43:43,341 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0524_3115.png?version=2 -> cache/official/equip/524/2.png (200)[0m
+[32m2026-07-15 12:43:45,753 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0525_1406.png?version=2 -> cache/official/equip/525/2.png (200)[0m
+[32m2026-07-15 12:43:48,054 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0529_3452.png?version=2 -> cache/official/equip/529/2.png (200)[0m
+[32m2026-07-15 12:43:50,430 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0530_2524.png?version=2 -> cache/official/equip/530/2.png (200)[0m
+[32m2026-07-15 12:43:52,791 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0531_1234.png?version=2 -> cache/official/equip/531/2.png (200)[0m
+[32m2026-07-15 12:43:55,149 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0532_8551.png?version=2 -> cache/official/equip/532/2.png (200)[0m
+[32m2026-07-15 12:43:57,482 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0533_8623.png?version=3 -> cache/official/equip/533/3.png (200)[0m
+[32m2026-07-15 12:43:59,857 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0534_2331.png?version=2 -> cache/official/equip/534/2.png (200)[0m
+[32m2026-07-15 12:44:02,260 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0535_7896.png?version=2 -> cache/official/equip/535/2.png (200)[0m
+[32m2026-07-15 12:44:04,589 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0536_2053.png?version=2 -> cache/official/equip/536/2.png (200)[0m
+[32m2026-07-15 12:44:06,951 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0537_5066.png?version=2 -> cache/official/equip/537/2.png (200)[0m
+[32m2026-07-15 12:44:09,300 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0539_6790.png?version=2 -> cache/official/equip/539/2.png (200)[0m
+[32m2026-07-15 12:44:11,636 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0541_5956.png?version=2 -> cache/official/equip/541/2.png (200)[0m
+[32m2026-07-15 12:44:13,845 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0542_7102.png?version=2 -> cache/official/equip/542/2.png (200)[0m
+[33m2026-07-15 12:44:20,452 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0543_3795.png?version=2 attempt=1/4 delay=1.25s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0543_3795.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:44:22,543 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0543_3795.png?version=2 -> cache/official/equip/543/2.png (200)[0m
+[32m2026-07-15 12:44:24,831 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0544_6538.png?version=2 -> cache/official/equip/544/2.png (200)[0m
+[33m2026-07-15 12:44:31,335 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0546_5598.png?version=2 attempt=1/4 delay=1.12s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0546_5598.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:44:33,403 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0546_5598.png?version=2 -> cache/official/equip/546/2.png (200)[0m
+[32m2026-07-15 12:44:35,911 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0547_9622.png?version=2 -> cache/official/equip/547/2.png (200)[0m
+[32m2026-07-15 12:44:38,148 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0549_7853.png?version=2 -> cache/official/equip/549/2.png (200)[0m
+[32m2026-07-15 12:44:40,465 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0550_3872.png?version=2 -> cache/official/equip/550/2.png (200)[0m
+[32m2026-07-15 12:44:42,849 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0551_5860.png?version=2 -> cache/official/equip/551/2.png (200)[0m
+[32m2026-07-15 12:44:45,175 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0552_6892.png?version=2 -> cache/official/equip/552/2.png (200)[0m
+[32m2026-07-15 12:44:47,570 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0553_2346.png?version=2 -> cache/official/equip/553/2.png (200)[0m
+[32m2026-07-15 12:44:49,952 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0555_2807.png?version=2 -> cache/official/equip/555/2.png (200)[0m
+[32m2026-07-15 12:44:52,291 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0559_6434.png?version=2 -> cache/official/equip/559/2.png (200)[0m
+[32m2026-07-15 12:44:54,594 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0560_2593.png?version=2 -> cache/official/equip/560/2.png (200)[0m
+[32m2026-07-15 12:44:57,010 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0564_6729.png?version=2 -> cache/official/equip/564/2.png (200)[0m
+[32m2026-07-15 12:44:59,385 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0565_5690.png?version=2 -> cache/official/equip/565/2.png (200)[0m
+[32m2026-07-15 12:45:01,813 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0570_7336.png?version=2 -> cache/official/equip/570/2.png (200)[0m
+[32m2026-07-15 12:45:04,007 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0572_8131.png?version=2 -> cache/official/equip/572/2.png (200)[0m
+[32m2026-07-15 12:45:06,492 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0573_5392.png?version=2 -> cache/official/equip/573/2.png (200)[0m
+[32m2026-07-15 12:45:08,914 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0574_8472.png?version=2 -> cache/official/equip/574/2.png (200)[0m
+[32m2026-07-15 12:45:11,407 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0575_2941.png?version=2 -> cache/official/equip/575/2.png (200)[0m
+[32m2026-07-15 12:45:13,459 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card_/002.png -> cache/official/useitem/2.png (200)[0m
+[32m2026-07-15 12:45:14,839 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/057.png -> cache/official/useitem/57.png (200)[0m
+[32m2026-07-15 12:45:16,208 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/070.png -> cache/official/useitem/70.png (200)[0m
+[32m2026-07-15 12:45:17,829 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/071.png -> cache/official/useitem/71.png (200)[0m
+[32m2026-07-15 12:45:19,243 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/075.png -> cache/official/useitem/75.png (200)[0m
+[33m2026-07-15 12:45:25,058 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/077.png attempt=1/4 delay=1.10s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/useitem/card/077.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[32m2026-07-15 12:45:26,892 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/077.png -> cache/official/useitem/77.png (200)[0m
+[32m2026-07-15 12:45:28,262 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/078.png -> cache/official/useitem/78.png (200)[0m
+[32m2026-07-15 12:45:29,694 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/091.png -> cache/official/useitem/91.png (200)[0m
+[32m2026-07-15 12:45:31,189 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/092.png -> cache/official/useitem/92.png (200)[0m
+[32m2026-07-15 12:45:32,656 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/094.png -> cache/official/useitem/94.png (200)[0m
+[32m2026-07-15 12:45:33,905 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/095.png -> cache/official/useitem/95.png (200)[0m
+[32m2026-07-15 12:45:34,838 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/100.png -> cache/official/useitem/100.png (200)[0m
+[32m2026-07-15 12:45:36,226 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/104.png -> cache/official/useitem/104.png (200)[0m
+[akashi receipt] ready=true mode=full items=372 output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.spider/local/source-receipts/akashi-list.json

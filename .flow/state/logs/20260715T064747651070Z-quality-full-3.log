@@ -1,0 +1,9 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/verify.py
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m compileall -q automation configs service util script
+$ npm run check
+
+> @sakura2333/kancolle-data@0.5.1 check
+> node -e "const d=require('./');const fs=require('fs');const m=JSON.parse(fs.readFileSync(d.manifestPath));for(const p of [d.manifestPath,d.releasesPath,d.improvement.listPath,d.improvement.detailPath,d.equipment.dropFromPath,d.equipment.sourcesPath,d.equipment.specialBonusesPath,d.schemas.improvementDetailPath,d.schemas.equipmentSourcesPath])if(!fs.existsSync(p))throw new Error('missing '+p);if(m.datasets.improvement.schemaVersion!==4)throw new Error('unexpected improvement schema');if(m.datasets.equipmentSources.schemaVersion!==2)throw new Error('unexpected equipment sources schema');if(m.datasets.equipmentSpecialBonuses.schemaVersion!==2)throw new Error('unexpected special bonus schema');if(!m.datasets.useitemIcons||m.datasets.useitemIcons.schemaVersion!==2||m.datasets.useitemIcons.format!=='webp'||m.datasets.useitemIcons.quality!==93)throw new Error('unexpected useitem image manifest');if((m.datasets.useitemIcons.missingIds||[]).length)throw new Error('missing useitem images');for(const id of m.datasets.useitemIcons.requiredIds||[])if(!fs.existsSync(d.assets.useitemPath(id)))throw new Error('missing useitem image '+id);if(!m.datasets.equipmentImages||m.datasets.equipmentImages.schemaVersion!==2)throw new Error('missing equipment image manifest');for(const id of m.datasets.equipmentImages.availableIds||[])if(!fs.existsSync(d.assets.equipmentPath(id)))throw new Error('missing equipment image '+id)"
+
+$ npm pack --dry-run --json --ignore-scripts
+[完成] 项目离线验证通过

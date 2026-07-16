@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-718ec91f3ea6",
+  "files": [
+    {
+      "name": "PUBLIC-CONTENT-MANIFEST.json",
+      "sha256": "bec3929f2153e18b7b6f5a9f5e3535ff0f1fdf427101253f1078ffffd8cd6c67",
+      "sizeBytes": 6640
+    },
+    {
+      "name": "candidate-files.txt",
+      "sha256": "490849e950b79872353874595ea6be24cfbb898b98d5117dfac7cc5fc906de08",
+      "sizeBytes": 16000
+    },
+    {
+      "name": "candidate-inventory.json",
+      "sha256": "65c87264517005c66735e0ddc7fd4c040d511db5b05929ff8d1e27ad47b100c7",
+      "sizeBytes": 15038
+    },
+    {
+      "name": "candidate.zip",
+      "sha256": "44830e608ee677b8b47ed3e5b3f98b9ade180a53c467393a05cbb3eb846c0999",
+      "sizeBytes": 273198
+    },
+    {
+      "name": "public-exceptions.json",
+      "sha256": "8aaeb835dad11c0ce2b38c680ec8914483a86aa0c6adf6272c2c87b99aa4bd4d",
+      "sizeBytes": 2103
+    },
+    {
+      "name": "public-isolation-summary.json",
+      "sha256": "8edbdaff44c64cd42d1883325d4106b781d6df2717d2863ea79376dba50a5dfb",
+      "sizeBytes": 451
+    },
+    {
+      "name": "review-identity.json",
+      "sha256": "19b0bbbd7b28a5ee295a5115f26bc70ef0bfedeff20957bc70b3c9b5aa0f8070",
+      "sizeBytes": 627
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# 来源诊断数据
+
+`dist/data-pipeline/sources/` 随公开稳定分支提供，用于复核来源解析和差异，不属于 npm 消费 API。
+
+内容包括：
+
+- 各来源 metadata；
+- 解析后的规则与星期计划；
+- 归一化事实；
+- 缺失、额外和星期差异；
+- 路线变体与冲突；
+- AI 审计输入和建议。
+
+AI 审计只提供辅助判断，不会自动修改正式数据。正式数据仍按数据集预先声明的权威来源生成。
+## 历史与相对权重
+
+首次启用时，当前成功解析结果会在 `dist/data-pipeline/sources/history/baseline/` 建立一次完整存量；之后只在 `changes/*.nedb` 追加语义变化。`dist/data-pipeline/sources/reliability/` 根据横向一致性和后续历史佐证输出建议权重，但不会参与正式数据选举。详细结构见 `SOURCE-HISTORY.md`。

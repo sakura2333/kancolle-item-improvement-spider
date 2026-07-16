@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "reviewedAt": "2026-07-13T22:39:05+08:00",
+  "releaseId": "1.0.24-975a83b802cd",
+  "candidateBranch": "public-candidate/1.0.24-975a83b802cd",
+  "candidateCommit": "244349cf9bd680dc0a7f183b64577cfc527d97e3",
+  "candidateTree": "fd86f87748ae7c3b416cdcd180b3b9a7daa8c191",
+  "candidateZipSha256": "fee47253006f52ecd355defe48d7164f81dea2475ee465dc52f5966dec8c84ba",
+  "changeCounts": {
+    "runtime": 0,
+    "automation": 3,
+    "packageTemplate": 0,
+    "documentation": 2,
+    "uncategorized": 0,
+    "total": 5
+  },
+  "reviewedAreas": [
+    "candidate identity and public manifest consistency",
+    "current-main consumption of frozen source bundles",
+    "source bundle manifest, ready-lock and content-hash verification",
+    "removal of source-commit equality from build and release verification",
+    "candidate binding to source bundle content identity",
+    "public data lifecycle documentation consistency",
+    "workflow YAML and shell syntax",
+    "public boundary and sensitive-information scan"
+  ],
+  "verification": {
+    "candidateFileCount": 156,
+    "publicManifestMatchesCandidate": true,
+    "candidateTreeRecomputed": true,
+    "pythonCompile": "passed",
+    "workflowYamlParse": "passed: 3",
+    "workflowShellSyntax": "passed: 28 run blocks",
+    "unsafeZipPaths": 0,
+    "zipSymlinks": 0,
+    "duplicateZipEntries": 0,
+    "sensitiveFindings": 0,
+    "implementationChecks": {
+      "buildUsesCurrentMainCode": true,
+      "sourceCommitUsedOnlyForTraceability": true,
+      "sourceManifestValidated": true,
+      "sourceReadyLockValidated": true,
+      "sourceContentHashBoundIntoCandidate": true,
+      "releaseNoLongerRequiresSourceCommitEquality": true,
+      "candidateStillRequiresCheckedOutMainCommit": true,
+      "documentationMatchesImplementation": true
+    }
+  },
+  "blockingIssues": [],
+  "nonBlockingObservations": [
+    "Compatibility is intentionally determined by running the current code against the frozen bundle under CACHE_ONLY/DATA_PACKAGE_STRICT/VALIDATION_STRICT. No explicit source-contract version is introduced in this candidate."
+  ],
+  "notes": "The previous documentation blocker is closed. Data Build is now documented and implemented as consuming a verified frozen Source Bundle with the current main code; the acquisition commit is retained only for traceability and no longer participates in checkout or commit-equality gates."
+}

@@ -1,0 +1,13 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+[akashi] id=w019 status=saved
+[akashi] id=w228 status=saved
+[akashi] id=w249 status=saved
+[akashi] id=w197 status=saved
+[akashi] id=w020 status=saved
+[akashi] id=w181 status=saved
+[akashi] id=w198 status=saved
+[akashi] id=w021 status=saved
+[33m2026-07-09 23:57:38,936 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=1/4 delay=1.18s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 23:57:45,131 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=2/4 delay=2.05s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 23:57:52,212 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=3/4 delay=4.21s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+ERROR: Akashi List source acquisition failed: RuntimeError: fresh download required for https://aiacdn.contents-stg.site/img/weapon184_260.png: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))

@@ -1,0 +1,18 @@
+{
+  "captureSource": "raw-cache",
+  "diagnostics": {
+    "anchors": 2137,
+    "bytes": 1401072,
+    "tables": 37,
+    "validationOnly": true
+  },
+  "entries": [],
+  "generatedAt": "2026-07-09T04:16:01+00:00",
+  "joinKey": "none-validation-only",
+  "kind": "improvement",
+  "rawCacheKey": "wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8.html",
+  "rawPath": ".flow/local/source-cache/wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8.html",
+  "role": "validation-index",
+  "schemaVersion": 1,
+  "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8"
+}

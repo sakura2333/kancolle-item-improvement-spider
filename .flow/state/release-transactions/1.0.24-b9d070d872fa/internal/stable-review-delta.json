@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "5f039bab56cd80b6a7c12f69bebc3f6062ac1963",
+  "counts": {
+    "runtime": 5,
+    "automation": 0,
+    "packageTemplate": 0,
+    "documentation": 1,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/builder.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/equipment_sources.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/improvement_compat.py",
+      "category": "runtime"
+    },
+    {
+      "status": "A",
+      "path": "service/data_package/schema_contract.py",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "service/data_package/validation/snapshot.py",
+      "category": "runtime"
+    }
+  ]
+}

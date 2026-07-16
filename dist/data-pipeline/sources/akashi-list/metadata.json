@@ -1,0 +1,13 @@
+{
+  "source": "akashi-list",
+  "url": "https://akashi-list.me/",
+  "status": "ok",
+  "scheduleCount": 2652,
+  "issueCount": 0,
+  "role": "canonical-output-source",
+  "supportedCapabilities": [
+    "improve",
+    "upgrade"
+  ],
+  "generatedAt": "2026-07-15T12:07:27+00:00"
+}

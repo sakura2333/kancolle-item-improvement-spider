@@ -1,0 +1,43 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+[akashi] id=w019 status=saved
+[akashi] id=w228 status=saved
+[akashi] id=w249 status=saved
+[akashi] id=w197 status=saved
+[akashi] id=w020 status=saved
+[akashi] id=w181 status=saved
+[akashi] id=w198 status=saved
+[akashi] id=w021 status=saved
+[33m2026-07-09 23:58:44,092 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=1/4 delay=1.03s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 23:58:50,139 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=2/4 delay=2.14s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+[33m2026-07-09 23:58:57,310 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://aiacdn.contents-stg.site/img/weapon184_260.png attempt=3/4 delay=4.15s reason=SSLError: HTTPSConnectionPool(host='aiacdn.contents-stg.site', port=443): Max retries exceeded with url: /img/weapon184_260.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))[0m
+Traceback (most recent call last):
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 185, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 163, in main
+    vo_list, metadata = _collect_akashi(daily_limit)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 87, in _collect_akashi
+    detail_processor.process_detail_page(page=detail_page)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/akashi_detail_processor.py", line 95, in process_detail_page
+    download_detail_equipment_image(self.item.id, page_node)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 83, in download_detail_equipment_image
+    download_equipment_image(equipment_id, _detail_equipment_image_url(page_node))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 67, in download_equipment_image
+    download_pic(url=png_url, save_path=f"cache/equip/{int(equipment_id)}.png")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 99, in download_pic
+    return download_file(
+        url=url,
+    ...<7 lines>...
+        require_fresh=require_fresh,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 71, in download_file
+    response = transport.request_with_cache_headers(url, old_meta, settings.FILE_REQUEST_TIMEOUT_SECONDS)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/transport.py", line 71, in request_with_cache_headers
+    time.sleep(delay)
+    ~~~~~~~~~~^^^^^^^
+KeyboardInterrupt

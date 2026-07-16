@@ -1,0 +1,3604 @@
+{
+  "captureSource": "raw-cache",
+  "diagnostics": {
+    "ambiguousNormalizedNames": [],
+    "anchors": 824,
+    "candidates": 1280,
+    "cardImages": 640,
+    "displayNameUrlFallbacks": 88,
+    "entries": 597,
+    "invalid": 0
+  },
+  "entries": [
+    {
+      "normalizedName": "Aquila",
+      "url": "https://wikiwiki.jp/kancolle/Aquila",
+      "urlSource": "card-list-link",
+      "wikiName": "Aquila"
+    },
+    {
+      "normalizedName": "Ark Royal",
+      "url": "https://wikiwiki.jp/kancolle/Ark%20Royal",
+      "urlSource": "card-list-link",
+      "wikiName": "Ark Royal"
+    },
+    {
+      "normalizedName": "Atlanta",
+      "url": "https://wikiwiki.jp/kancolle/Atlanta",
+      "urlSource": "card-list-link",
+      "wikiName": "Atlanta"
+    },
+    {
+      "normalizedName": "Bismarck",
+      "url": "https://wikiwiki.jp/kancolle/Bismarck",
+      "urlSource": "card-list-link",
+      "wikiName": "Bismarck"
+    },
+    {
+      "normalizedName": "Bismarck drei",
+      "url": "https://wikiwiki.jp/kancolle/Bismarck%20drei",
+      "urlSource": "card-list-link",
+      "wikiName": "Bismarck drei"
+    },
+    {
+      "normalizedName": "Bismarck zwei",
+      "url": "https://wikiwiki.jp/kancolle/Bismarck%20zwei",
+      "urlSource": "card-list-link",
+      "wikiName": "Bismarck zwei"
+    },
+    {
+      "normalizedName": "Bismarck改",
+      "url": "https://wikiwiki.jp/kancolle/Bismarck%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Bismarck改"
+    },
+    {
+      "normalizedName": "Brooklyn",
+      "url": "https://wikiwiki.jp/kancolle/Brooklyn",
+      "urlSource": "card-list-link",
+      "wikiName": "Brooklyn"
+    },
+    {
+      "normalizedName": "C.Cappellini",
+      "url": "https://wikiwiki.jp/kancolle/C.Cappellini",
+      "urlSource": "card-list-link",
+      "wikiName": "C.Cappellini"
+    },
+    {
+      "normalizedName": "Colorado",
+      "url": "https://wikiwiki.jp/kancolle/Colorado",
+      "urlSource": "card-list-link",
+      "wikiName": "Colorado"
+    },
+    {
+      "normalizedName": "Colorado改",
+      "url": "https://wikiwiki.jp/kancolle/Colorado%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Colorado改"
+    },
+    {
+      "normalizedName": "Commandant Teste",
+      "url": "https://wikiwiki.jp/kancolle/Commandant%20Teste",
+      "urlSource": "card-list-link",
+      "wikiName": "Commandant Teste"
+    },
+    {
+      "normalizedName": "Conte di Cavour",
+      "url": "https://wikiwiki.jp/kancolle/Conte%20di%20Cavour",
+      "urlSource": "card-list-link",
+      "wikiName": "Conte di Cavour"
+    },
+    {
+      "normalizedName": "Conte di Cavour nuovo",
+      "url": "https://wikiwiki.jp/kancolle/Conte%20di%20Cavour%20nuovo",
+      "urlSource": "card-list-link",
+      "wikiName": "Conte di Cavour nuovo"
+    },
+    {
+      "normalizedName": "Conte di Cavour改",
+      "url": "https://wikiwiki.jp/kancolle/Conte%20di%20Cavour%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Conte di Cavour改"
+    },
+    {
+      "normalizedName": "Dace",
+      "url": "https://wikiwiki.jp/kancolle/Dace",
+      "urlSource": "card-list-link",
+      "wikiName": "Dace"
+    },
+    {
+      "normalizedName": "Dace改",
+      "url": "https://wikiwiki.jp/kancolle/Dace%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Dace改"
+    },
+    {
+      "normalizedName": "De Ruyter",
+      "url": "https://wikiwiki.jp/kancolle/De%20Ruyter",
+      "urlSource": "card-list-link",
+      "wikiName": "De Ruyter"
+    },
+    {
+      "normalizedName": "Drum",
+      "url": "https://wikiwiki.jp/kancolle/Drum",
+      "urlSource": "card-list-link",
+      "wikiName": "Drum"
+    },
+    {
+      "normalizedName": "Eidsvold",
+      "url": "https://wikiwiki.jp/kancolle/Eidsvold",
+      "urlSource": "card-list-link",
+      "wikiName": "Eidsvold"
+    },
+    {
+      "normalizedName": "Fletcher",
+      "url": "https://wikiwiki.jp/kancolle/Fletcher",
+      "urlSource": "card-list-link",
+      "wikiName": "Fletcher"
+    },
+    {
+      "normalizedName": "Fletcher Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Fletcher%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Fletcher Mk.II"
+    },
+    {
+      "normalizedName": "Fletcher改 Mod.2",
+      "url": "https://wikiwiki.jp/kancolle/Fletcher%E6%94%B9%20Mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "Fletcher改 Mod.2"
+    },
+    {
+      "normalizedName": "G.Garibaldi",
+      "url": "https://wikiwiki.jp/kancolle/G.Garibaldi",
+      "urlSource": "card-list-link",
+      "wikiName": "G.Garibaldi"
+    },
+    {
+      "normalizedName": "Gambier Bay",
+      "url": "https://wikiwiki.jp/kancolle/Gambier%20Bay",
+      "urlSource": "card-list-link",
+      "wikiName": "Gambier Bay"
+    },
+    {
+      "normalizedName": "Gambier Bay Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Gambier%20Bay%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Gambier Bay Mk.II"
+    },
+    {
+      "normalizedName": "General Belgrano",
+      "url": "https://wikiwiki.jp/kancolle/General%20Belgrano",
+      "urlSource": "card-list-link",
+      "wikiName": "General Belgrano"
+    },
+    {
+      "normalizedName": "Gloire",
+      "url": "https://wikiwiki.jp/kancolle/Gloire",
+      "urlSource": "card-list-link",
+      "wikiName": "Gloire"
+    },
+    {
+      "normalizedName": "Gloire改",
+      "url": "https://wikiwiki.jp/kancolle/Gloire%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Gloire改"
+    },
+    {
+      "normalizedName": "Glorious",
+      "url": "https://wikiwiki.jp/kancolle/Glorious",
+      "urlSource": "card-list-link",
+      "wikiName": "Glorious"
+    },
+    {
+      "normalizedName": "Glorious(正規空母)",
+      "url": "https://wikiwiki.jp/kancolle/Glorious%28%E6%AD%A3%E8%A6%8F%E7%A9%BA%E6%AF%8D%29",
+      "urlSource": "card-list-link",
+      "wikiName": "Glorious(正規空母)"
+    },
+    {
+      "normalizedName": "Gotland",
+      "url": "https://wikiwiki.jp/kancolle/Gotland",
+      "urlSource": "card-list-link",
+      "wikiName": "Gotland"
+    },
+    {
+      "normalizedName": "Gotland andra",
+      "url": "https://wikiwiki.jp/kancolle/Gotland%20andra",
+      "urlSource": "card-list-link",
+      "wikiName": "Gotland andra"
+    },
+    {
+      "normalizedName": "Gotland改",
+      "url": "https://wikiwiki.jp/kancolle/Gotland%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Gotland改"
+    },
+    {
+      "normalizedName": "Graf Zeppelin",
+      "url": "https://wikiwiki.jp/kancolle/Graf%20Zeppelin",
+      "urlSource": "card-list-link",
+      "wikiName": "Graf Zeppelin"
+    },
+    {
+      "normalizedName": "Grecale",
+      "url": "https://wikiwiki.jp/kancolle/Grecale",
+      "urlSource": "card-list-link",
+      "wikiName": "Grecale"
+    },
+    {
+      "normalizedName": "Grecale改",
+      "url": "https://wikiwiki.jp/kancolle/Grecale%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Grecale改"
+    },
+    {
+      "normalizedName": "Helena",
+      "url": "https://wikiwiki.jp/kancolle/Helena",
+      "urlSource": "card-list-link",
+      "wikiName": "Helena"
+    },
+    {
+      "normalizedName": "Helena改",
+      "url": "https://wikiwiki.jp/kancolle/Helena%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Helena改"
+    },
+    {
+      "normalizedName": "Heywood L.E.",
+      "url": "https://wikiwiki.jp/kancolle/Heywood%20L.E.",
+      "urlSource": "card-list-link",
+      "wikiName": "Heywood L.E."
+    },
+    {
+      "normalizedName": "Honolulu",
+      "url": "https://wikiwiki.jp/kancolle/Honolulu",
+      "urlSource": "card-list-link",
+      "wikiName": "Honolulu"
+    },
+    {
+      "normalizedName": "Hornet",
+      "url": "https://wikiwiki.jp/kancolle/Hornet",
+      "urlSource": "card-list-link",
+      "wikiName": "Hornet"
+    },
+    {
+      "normalizedName": "Houston",
+      "url": "https://wikiwiki.jp/kancolle/Houston",
+      "urlSource": "card-list-link",
+      "wikiName": "Houston"
+    },
+    {
+      "normalizedName": "Houston改",
+      "url": "https://wikiwiki.jp/kancolle/Houston%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Houston改"
+    },
+    {
+      "normalizedName": "Independence",
+      "url": "https://wikiwiki.jp/kancolle/Independence",
+      "urlSource": "card-list-link",
+      "wikiName": "Independence"
+    },
+    {
+      "normalizedName": "Indiana",
+      "url": "https://wikiwiki.jp/kancolle/Indiana",
+      "urlSource": "card-list-link",
+      "wikiName": "Indiana"
+    },
+    {
+      "normalizedName": "Intrepid",
+      "url": "https://wikiwiki.jp/kancolle/Intrepid",
+      "urlSource": "card-list-link",
+      "wikiName": "Intrepid"
+    },
+    {
+      "normalizedName": "Iowa",
+      "url": "https://wikiwiki.jp/kancolle/Iowa",
+      "urlSource": "card-list-link",
+      "wikiName": "Iowa"
+    },
+    {
+      "normalizedName": "Italia",
+      "url": "https://wikiwiki.jp/kancolle/Italia",
+      "urlSource": "card-list-link",
+      "wikiName": "Italia"
+    },
+    {
+      "normalizedName": "Janus",
+      "url": "https://wikiwiki.jp/kancolle/Janus",
+      "urlSource": "card-list-link",
+      "wikiName": "Janus"
+    },
+    {
+      "normalizedName": "Javelin",
+      "url": "https://wikiwiki.jp/kancolle/Javelin",
+      "urlSource": "card-list-link",
+      "wikiName": "Javelin"
+    },
+    {
+      "normalizedName": "Javelin改",
+      "url": "https://wikiwiki.jp/kancolle/Javelin%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Javelin改"
+    },
+    {
+      "normalizedName": "Jean Bart",
+      "url": "https://wikiwiki.jp/kancolle/Jean%20Bart",
+      "urlSource": "card-list-link",
+      "wikiName": "Jean Bart"
+    },
+    {
+      "normalizedName": "Jervis",
+      "url": "https://wikiwiki.jp/kancolle/Jervis",
+      "urlSource": "card-list-link",
+      "wikiName": "Jervis"
+    },
+    {
+      "normalizedName": "Johnston",
+      "url": "https://wikiwiki.jp/kancolle/Johnston",
+      "urlSource": "card-list-link",
+      "wikiName": "Johnston"
+    },
+    {
+      "normalizedName": "L.d.S.D.d.Abruzzi",
+      "url": "https://wikiwiki.jp/kancolle/L.d.S.D.d.Abruzzi",
+      "urlSource": "card-list-link",
+      "wikiName": "L.d.S.D.d.Abruzzi"
+    },
+    {
+      "normalizedName": "Langley",
+      "url": "https://wikiwiki.jp/kancolle/Langley",
+      "urlSource": "card-list-link",
+      "wikiName": "Langley"
+    },
+    {
+      "normalizedName": "Langley改",
+      "url": "https://wikiwiki.jp/kancolle/Langley%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Langley改"
+    },
+    {
+      "normalizedName": "Leonardo da Vinci",
+      "url": "https://wikiwiki.jp/kancolle/Leonardo%20da%20Vinci",
+      "urlSource": "card-list-link",
+      "wikiName": "Leonardo da Vinci"
+    },
+    {
+      "normalizedName": "Lexington",
+      "url": "https://wikiwiki.jp/kancolle/Lexington",
+      "urlSource": "card-list-link",
+      "wikiName": "Lexington"
+    },
+    {
+      "normalizedName": "Libeccio",
+      "url": "https://wikiwiki.jp/kancolle/Libeccio",
+      "urlSource": "card-list-link",
+      "wikiName": "Libeccio"
+    },
+    {
+      "normalizedName": "Littorio",
+      "url": "https://wikiwiki.jp/kancolle/Littorio",
+      "urlSource": "card-list-link",
+      "wikiName": "Littorio"
+    },
+    {
+      "normalizedName": "Luigi Torelli",
+      "url": "https://wikiwiki.jp/kancolle/Luigi%20Torelli",
+      "urlSource": "card-list-link",
+      "wikiName": "Luigi Torelli"
+    },
+    {
+      "normalizedName": "Maestrale",
+      "url": "https://wikiwiki.jp/kancolle/Maestrale",
+      "urlSource": "card-list-link",
+      "wikiName": "Maestrale"
+    },
+    {
+      "normalizedName": "Maestrale改",
+      "url": "https://wikiwiki.jp/kancolle/Maestrale%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Maestrale改"
+    },
+    {
+      "normalizedName": "Maryland",
+      "url": "https://wikiwiki.jp/kancolle/Maryland",
+      "urlSource": "card-list-link",
+      "wikiName": "Maryland"
+    },
+    {
+      "normalizedName": "Maryland改",
+      "url": "https://wikiwiki.jp/kancolle/Maryland%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Maryland改"
+    },
+    {
+      "normalizedName": "Massachusetts",
+      "url": "https://wikiwiki.jp/kancolle/Massachusetts",
+      "urlSource": "card-list-link",
+      "wikiName": "Massachusetts"
+    },
+    {
+      "normalizedName": "Massachusetts改",
+      "url": "https://wikiwiki.jp/kancolle/Massachusetts%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Massachusetts改"
+    },
+    {
+      "normalizedName": "Minneapolis",
+      "url": "https://wikiwiki.jp/kancolle/Minneapolis",
+      "urlSource": "card-list-link",
+      "wikiName": "Minneapolis"
+    },
+    {
+      "normalizedName": "Minneapolis改",
+      "url": "https://wikiwiki.jp/kancolle/Minneapolis%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Minneapolis改"
+    },
+    {
+      "normalizedName": "Mogador",
+      "url": "https://wikiwiki.jp/kancolle/Mogador",
+      "urlSource": "card-list-link",
+      "wikiName": "Mogador"
+    },
+    {
+      "normalizedName": "Mogador改",
+      "url": "https://wikiwiki.jp/kancolle/Mogador%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Mogador改"
+    },
+    {
+      "normalizedName": "Nelson",
+      "url": "https://wikiwiki.jp/kancolle/Nelson",
+      "urlSource": "card-list-link",
+      "wikiName": "Nelson"
+    },
+    {
+      "normalizedName": "Nelson改",
+      "url": "https://wikiwiki.jp/kancolle/Nelson%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Nelson改"
+    },
+    {
+      "normalizedName": "Nevada",
+      "url": "https://wikiwiki.jp/kancolle/Nevada",
+      "urlSource": "card-list-link",
+      "wikiName": "Nevada"
+    },
+    {
+      "normalizedName": "Nevada改",
+      "url": "https://wikiwiki.jp/kancolle/Nevada%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Nevada改"
+    },
+    {
+      "normalizedName": "Nevada改 Mod.2",
+      "url": "https://wikiwiki.jp/kancolle/Nevada%E6%94%B9%20Mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "Nevada改 Mod.2"
+    },
+    {
+      "normalizedName": "Norge",
+      "url": "https://wikiwiki.jp/kancolle/Norge",
+      "urlSource": "card-list-link",
+      "wikiName": "Norge"
+    },
+    {
+      "normalizedName": "Northampton",
+      "url": "https://wikiwiki.jp/kancolle/Northampton",
+      "urlSource": "card-list-link",
+      "wikiName": "Northampton"
+    },
+    {
+      "normalizedName": "Northampton改",
+      "url": "https://wikiwiki.jp/kancolle/Northampton%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Northampton改"
+    },
+    {
+      "normalizedName": "Perth",
+      "url": "https://wikiwiki.jp/kancolle/Perth",
+      "urlSource": "card-list-link",
+      "wikiName": "Perth"
+    },
+    {
+      "normalizedName": "Perth改",
+      "url": "https://wikiwiki.jp/kancolle/Perth%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Perth改"
+    },
+    {
+      "normalizedName": "Phoenix",
+      "url": "https://wikiwiki.jp/kancolle/Phoenix",
+      "urlSource": "card-list-link",
+      "wikiName": "Phoenix"
+    },
+    {
+      "normalizedName": "Pola",
+      "url": "https://wikiwiki.jp/kancolle/Pola",
+      "urlSource": "card-list-link",
+      "wikiName": "Pola"
+    },
+    {
+      "normalizedName": "Prinz Eugen",
+      "url": "https://wikiwiki.jp/kancolle/Prinz%20Eugen",
+      "urlSource": "card-list-link",
+      "wikiName": "Prinz Eugen"
+    },
+    {
+      "normalizedName": "Prinz Eugen改",
+      "url": "https://wikiwiki.jp/kancolle/Prinz%20Eugen%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Prinz Eugen改"
+    },
+    {
+      "normalizedName": "Ranger",
+      "url": "https://wikiwiki.jp/kancolle/Ranger",
+      "urlSource": "card-list-link",
+      "wikiName": "Ranger"
+    },
+    {
+      "normalizedName": "Reno",
+      "url": "https://wikiwiki.jp/kancolle/Reno",
+      "urlSource": "card-list-link",
+      "wikiName": "Reno"
+    },
+    {
+      "normalizedName": "Richard P.Leary",
+      "url": "https://wikiwiki.jp/kancolle/Richard%20P.Leary",
+      "urlSource": "card-list-link",
+      "wikiName": "Richard P.Leary"
+    },
+    {
+      "normalizedName": "Richelieu",
+      "url": "https://wikiwiki.jp/kancolle/Richelieu",
+      "urlSource": "card-list-link",
+      "wikiName": "Richelieu"
+    },
+    {
+      "normalizedName": "Richelieu Deux",
+      "url": "https://wikiwiki.jp/kancolle/Richelieu%20Deux",
+      "urlSource": "card-list-link",
+      "wikiName": "Richelieu Deux"
+    },
+    {
+      "normalizedName": "Rodney",
+      "url": "https://wikiwiki.jp/kancolle/Rodney",
+      "urlSource": "card-list-link",
+      "wikiName": "Rodney"
+    },
+    {
+      "normalizedName": "Rodney改",
+      "url": "https://wikiwiki.jp/kancolle/Rodney%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Rodney改"
+    },
+    {
+      "normalizedName": "Roma",
+      "url": "https://wikiwiki.jp/kancolle/Roma",
+      "urlSource": "card-list-link",
+      "wikiName": "Roma"
+    },
+    {
+      "normalizedName": "Roma改",
+      "url": "https://wikiwiki.jp/kancolle/Roma%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Roma改"
+    },
+    {
+      "normalizedName": "Salmon",
+      "url": "https://wikiwiki.jp/kancolle/Salmon",
+      "urlSource": "card-list-link",
+      "wikiName": "Salmon"
+    },
+    {
+      "normalizedName": "Salmon改",
+      "url": "https://wikiwiki.jp/kancolle/Salmon%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Salmon改"
+    },
+    {
+      "normalizedName": "Samuel B.Roberts",
+      "url": "https://wikiwiki.jp/kancolle/Samuel%20B.Roberts",
+      "urlSource": "card-list-link",
+      "wikiName": "Samuel B.Roberts"
+    },
+    {
+      "normalizedName": "Samuel B.Roberts Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Samuel%20B.Roberts%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Samuel B.Roberts Mk.II"
+    },
+    {
+      "normalizedName": "Saratoga",
+      "url": "https://wikiwiki.jp/kancolle/Saratoga",
+      "urlSource": "card-list-link",
+      "wikiName": "Saratoga"
+    },
+    {
+      "normalizedName": "Saratoga Mk.II",
+      "url": "https://wikiwiki.jp/kancolle/Saratoga%20Mk.II",
+      "urlSource": "card-list-link",
+      "wikiName": "Saratoga Mk.II"
+    },
+    {
+      "normalizedName": "Saratoga Mk.II Mod.2",
+      "url": "https://wikiwiki.jp/kancolle/Saratoga%20Mk.II%20Mod.2",
+      "urlSource": "card-list-link",
+      "wikiName": "Saratoga Mk.II Mod.2"
+    },
+    {
+      "normalizedName": "Saratoga改",
+      "url": "https://wikiwiki.jp/kancolle/Saratoga%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Saratoga改"
+    },
+    {
+      "normalizedName": "Scamp",
+      "url": "https://wikiwiki.jp/kancolle/Scamp",
+      "urlSource": "card-list-link",
+      "wikiName": "Scamp"
+    },
+    {
+      "normalizedName": "Scirocco",
+      "url": "https://wikiwiki.jp/kancolle/Scirocco",
+      "urlSource": "card-list-link",
+      "wikiName": "Scirocco"
+    },
+    {
+      "normalizedName": "Sheffield",
+      "url": "https://wikiwiki.jp/kancolle/Sheffield",
+      "urlSource": "card-list-link",
+      "wikiName": "Sheffield"
+    },
+    {
+      "normalizedName": "South Dakota",
+      "url": "https://wikiwiki.jp/kancolle/South%20Dakota",
+      "urlSource": "card-list-link",
+      "wikiName": "South Dakota"
+    },
+    {
+      "normalizedName": "South Dakota改",
+      "url": "https://wikiwiki.jp/kancolle/South%20Dakota%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "South Dakota改"
+    },
+    {
+      "normalizedName": "Thonburi",
+      "url": "https://wikiwiki.jp/kancolle/Thonburi",
+      "urlSource": "card-list-link",
+      "wikiName": "Thonburi"
+    },
+    {
+      "normalizedName": "Thonburi改",
+      "url": "https://wikiwiki.jp/kancolle/Thonburi%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Thonburi改"
+    },
+    {
+      "normalizedName": "Tuscaloosa",
+      "url": "https://wikiwiki.jp/kancolle/Tuscaloosa",
+      "urlSource": "card-list-link",
+      "wikiName": "Tuscaloosa"
+    },
+    {
+      "normalizedName": "Tuscaloosa改",
+      "url": "https://wikiwiki.jp/kancolle/Tuscaloosa%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Tuscaloosa改"
+    },
+    {
+      "normalizedName": "U-511",
+      "url": "https://wikiwiki.jp/kancolle/U-511",
+      "urlSource": "card-list-link",
+      "wikiName": "U-511"
+    },
+    {
+      "normalizedName": "UIT-24",
+      "url": "https://wikiwiki.jp/kancolle/UIT-24",
+      "urlSource": "card-list-link",
+      "wikiName": "UIT-24"
+    },
+    {
+      "normalizedName": "UIT-25",
+      "url": "https://wikiwiki.jp/kancolle/UIT-25",
+      "urlSource": "card-list-link",
+      "wikiName": "UIT-25"
+    },
+    {
+      "normalizedName": "Valiant",
+      "url": "https://wikiwiki.jp/kancolle/Valiant",
+      "urlSource": "card-list-link",
+      "wikiName": "Valiant"
+    },
+    {
+      "normalizedName": "Victorious",
+      "url": "https://wikiwiki.jp/kancolle/Victorious",
+      "urlSource": "card-list-link",
+      "wikiName": "Victorious"
+    },
+    {
+      "normalizedName": "Wahoo",
+      "url": "https://wikiwiki.jp/kancolle/Wahoo",
+      "urlSource": "card-list-link",
+      "wikiName": "Wahoo"
+    },
+    {
+      "normalizedName": "Wahoo改",
+      "url": "https://wikiwiki.jp/kancolle/Wahoo%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Wahoo改"
+    },
+    {
+      "normalizedName": "Warspite",
+      "url": "https://wikiwiki.jp/kancolle/Warspite",
+      "urlSource": "card-list-link",
+      "wikiName": "Warspite"
+    },
+    {
+      "normalizedName": "Washington",
+      "url": "https://wikiwiki.jp/kancolle/Washington",
+      "urlSource": "card-list-link",
+      "wikiName": "Washington"
+    },
+    {
+      "normalizedName": "Washington改",
+      "url": "https://wikiwiki.jp/kancolle/Washington%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Washington改"
+    },
+    {
+      "normalizedName": "Wasp",
+      "url": "https://wikiwiki.jp/kancolle/Wasp",
+      "urlSource": "card-list-link",
+      "wikiName": "Wasp"
+    },
+    {
+      "normalizedName": "Wasp改",
+      "url": "https://wikiwiki.jp/kancolle/Wasp%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Wasp改"
+    },
+    {
+      "normalizedName": "Z1",
+      "url": "https://wikiwiki.jp/kancolle/Z1",
+      "urlSource": "card-list-link",
+      "wikiName": "Z1"
+    },
+    {
+      "normalizedName": "Z1 zwei",
+      "url": "https://wikiwiki.jp/kancolle/Z1%20zwei",
+      "urlSource": "card-list-link",
+      "wikiName": "Z1 zwei"
+    },
+    {
+      "normalizedName": "Z3",
+      "url": "https://wikiwiki.jp/kancolle/Z3",
+      "urlSource": "card-list-link",
+      "wikiName": "Z3"
+    },
+    {
+      "normalizedName": "Z3 zwei",
+      "url": "https://wikiwiki.jp/kancolle/Z3%20zwei",
+      "urlSource": "card-list-link",
+      "wikiName": "Z3 zwei"
+    },
+    {
+      "normalizedName": "Zara",
+      "url": "https://wikiwiki.jp/kancolle/Zara",
+      "urlSource": "card-list-link",
+      "wikiName": "Zara"
+    },
+    {
+      "normalizedName": "Zara due",
+      "url": "https://wikiwiki.jp/kancolle/Zara%20due",
+      "urlSource": "card-list-link",
+      "wikiName": "Zara due"
+    },
+    {
+      "normalizedName": "Верный",
+      "url": "https://wikiwiki.jp/kancolle/%D0%92%D0%B5%D1%80%D0%BD%D1%8B%D0%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Верный"
+    },
+    {
+      "normalizedName": "Гангут",
+      "url": "https://wikiwiki.jp/kancolle/%D0%93%D0%B0%D0%BD%D0%B3%D1%83%D1%82",
+      "urlSource": "card-list-link",
+      "wikiName": "Гангут"
+    },
+    {
+      "normalizedName": "Гангут два",
+      "url": "https://wikiwiki.jp/kancolle/%D0%93%D0%B0%D0%BD%D0%B3%D1%83%D1%82%20%D0%B4%D0%B2%D0%B0",
+      "urlSource": "card-list-link",
+      "wikiName": "Гангут два"
+    },
+    {
+      "normalizedName": "Киров",
+      "url": "https://wikiwiki.jp/kancolle/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "Киров"
+    },
+    {
+      "normalizedName": "Киров改",
+      "url": "https://wikiwiki.jp/kancolle/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "Киров改"
+    },
+    {
+      "normalizedName": "Октябрьская революция",
+      "url": "https://wikiwiki.jp/kancolle/%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%20%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F",
+      "urlSource": "card-list-link",
+      "wikiName": "Октябрьская революция"
+    },
+    {
+      "normalizedName": "Ташкент",
+      "url": "https://wikiwiki.jp/kancolle/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82",
+      "urlSource": "card-list-link",
+      "wikiName": "Ташкент"
+    },
+    {
+      "normalizedName": "あきつ丸",
+      "url": "https://wikiwiki.jp/kancolle/%E3%81%82%E3%81%8D%E3%81%A4%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "あきつ丸"
+    },
+    {
+      "normalizedName": "あきつ丸改",
+      "url": "https://wikiwiki.jp/kancolle/%E3%81%82%E3%81%8D%E3%81%A4%E4%B8%B8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "あきつ丸改"
+    },
+    {
+      "normalizedName": "しまね丸",
+      "url": "https://wikiwiki.jp/kancolle/%E3%81%97%E3%81%BE%E3%81%AD%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "しまね丸"
+    },
+    {
+      "normalizedName": "しまね丸改",
+      "url": "https://wikiwiki.jp/kancolle/%E3%81%97%E3%81%BE%E3%81%AD%E4%B8%B8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "しまね丸改"
+    },
+    {
+      "normalizedName": "まるゆ",
+      "url": "https://wikiwiki.jp/kancolle/%E3%81%BE%E3%82%8B%E3%82%86",
+      "urlSource": "card-list-link",
+      "wikiName": "まるゆ"
+    },
+    {
+      "normalizedName": "三日月",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E6%97%A5%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "三日月"
+    },
+    {
+      "normalizedName": "三隈",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E9%9A%88",
+      "urlSource": "card-list-link",
+      "wikiName": "三隈"
+    },
+    {
+      "normalizedName": "三隈改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E9%9A%88%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三隈改"
+    },
+    {
+      "normalizedName": "三隈改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E9%9A%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "三隈改二"
+    },
+    {
+      "normalizedName": "三隈改二特",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%89%E9%9A%88%E6%94%B9%E4%BA%8C%E7%89%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "三隈改二特"
+    },
+    {
+      "normalizedName": "不知火",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%8D%E7%9F%A5%E7%81%AB",
+      "urlSource": "card-list-link",
+      "wikiName": "不知火"
+    },
+    {
+      "normalizedName": "不知火改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%8D%E7%9F%A5%E7%81%AB%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "不知火改二"
+    },
+    {
+      "normalizedName": "丹陽",
+      "url": "https://wikiwiki.jp/kancolle/%E4%B8%B9%E9%99%BD",
+      "urlSource": "card-list-link",
+      "wikiName": "丹陽"
+    },
+    {
+      "normalizedName": "五十鈴",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%94%E5%8D%81%E9%88%B4",
+      "urlSource": "card-list-link",
+      "wikiName": "五十鈴"
+    },
+    {
+      "normalizedName": "五十鈴改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%94%E5%8D%81%E9%88%B4%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "五十鈴改二"
+    },
+    {
+      "normalizedName": "五月雨",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BA%94%E6%9C%88%E9%9B%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "五月雨"
+    },
+    {
+      "normalizedName": "伊13",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A13",
+      "urlSource": "card-list-link",
+      "wikiName": "伊13"
+    },
+    {
+      "normalizedName": "伊14",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A14",
+      "urlSource": "card-list-link",
+      "wikiName": "伊14"
+    },
+    {
+      "normalizedName": "伊168",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A168",
+      "urlSource": "card-list-link",
+      "wikiName": "伊168"
+    },
+    {
+      "normalizedName": "伊19",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A19",
+      "urlSource": "card-list-link",
+      "wikiName": "伊19"
+    },
+    {
+      "normalizedName": "伊201",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A201",
+      "urlSource": "card-list-link",
+      "wikiName": "伊201"
+    },
+    {
+      "normalizedName": "伊203",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A203",
+      "urlSource": "card-list-link",
+      "wikiName": "伊203"
+    },
+    {
+      "normalizedName": "伊203改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A203%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "伊203改"
+    },
+    {
+      "normalizedName": "伊26",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A26",
+      "urlSource": "card-list-link",
+      "wikiName": "伊26"
+    },
+    {
+      "normalizedName": "伊36",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A36",
+      "urlSource": "card-list-link",
+      "wikiName": "伊36"
+    },
+    {
+      "normalizedName": "伊36改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A36%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "伊36改"
+    },
+    {
+      "normalizedName": "伊400",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A400",
+      "urlSource": "card-list-link",
+      "wikiName": "伊400"
+    },
+    {
+      "normalizedName": "伊401",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A401",
+      "urlSource": "card-list-link",
+      "wikiName": "伊401"
+    },
+    {
+      "normalizedName": "伊41",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A41",
+      "urlSource": "card-list-link",
+      "wikiName": "伊41"
+    },
+    {
+      "normalizedName": "伊41改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A41%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "伊41改"
+    },
+    {
+      "normalizedName": "伊47",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A47",
+      "urlSource": "card-list-link",
+      "wikiName": "伊47"
+    },
+    {
+      "normalizedName": "伊503",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A503",
+      "urlSource": "card-list-link",
+      "wikiName": "伊503"
+    },
+    {
+      "normalizedName": "伊504",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A504",
+      "urlSource": "card-list-link",
+      "wikiName": "伊504"
+    },
+    {
+      "normalizedName": "伊58",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A58",
+      "urlSource": "card-list-link",
+      "wikiName": "伊58"
+    },
+    {
+      "normalizedName": "伊8",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A8",
+      "urlSource": "card-list-link",
+      "wikiName": "伊8"
+    },
+    {
+      "normalizedName": "伊勢",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A%E5%8B%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "伊勢"
+    },
+    {
+      "normalizedName": "伊勢改",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A%E5%8B%A2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "伊勢改"
+    },
+    {
+      "normalizedName": "伊勢改二",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BC%8A%E5%8B%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "伊勢改二"
+    },
+    {
+      "normalizedName": "佐渡",
+      "url": "https://wikiwiki.jp/kancolle/%E4%BD%90%E6%B8%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "佐渡"
+    },
+    {
+      "normalizedName": "倉橋",
+      "url": "https://wikiwiki.jp/kancolle/%E5%80%89%E6%A9%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "倉橋"
+    },
+    {
+      "normalizedName": "倉橋改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%80%89%E6%A9%8B%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "倉橋改"
+    },
+    {
+      "normalizedName": "八丈",
+      "url": "https://wikiwiki.jp/kancolle/%E5%85%AB%E4%B8%88",
+      "urlSource": "card-list-link",
+      "wikiName": "八丈"
+    },
+    {
+      "normalizedName": "八幡丸",
+      "url": "https://wikiwiki.jp/kancolle/%E5%85%AB%E5%B9%A1%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "八幡丸"
+    },
+    {
+      "normalizedName": "冬月",
+      "url": "https://wikiwiki.jp/kancolle/%E5%86%AC%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "冬月"
+    },
+    {
+      "normalizedName": "冬月改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%86%AC%E6%9C%88%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "冬月改"
+    },
+    {
+      "normalizedName": "初春",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E6%98%A5",
+      "urlSource": "card-list-link",
+      "wikiName": "初春"
+    },
+    {
+      "normalizedName": "初春改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E6%98%A5%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "初春改二"
+    },
+    {
+      "normalizedName": "初月",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "初月"
+    },
+    {
+      "normalizedName": "初月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "初月改二"
+    },
+    {
+      "normalizedName": "初雪",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E9%9B%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "初雪"
+    },
+    {
+      "normalizedName": "初雪改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E9%9B%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "初雪改二"
+    },
+    {
+      "normalizedName": "初霜",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E9%9C%9C",
+      "urlSource": "card-list-link",
+      "wikiName": "初霜"
+    },
+    {
+      "normalizedName": "初霜改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E9%9C%9C%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "初霜改二"
+    },
+    {
+      "normalizedName": "初風",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%9D%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "初風"
+    },
+    {
+      "normalizedName": "利根",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%A9%E6%A0%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "利根"
+    },
+    {
+      "normalizedName": "利根改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%88%A9%E6%A0%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "利根改二"
+    },
+    {
+      "normalizedName": "加古",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E5%8F%A4",
+      "urlSource": "card-list-link",
+      "wikiName": "加古"
+    },
+    {
+      "normalizedName": "加古改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E5%8F%A4%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "加古改二"
+    },
+    {
+      "normalizedName": "加賀",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E8%B3%80",
+      "urlSource": "card-list-link",
+      "wikiName": "加賀"
+    },
+    {
+      "normalizedName": "加賀改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E8%B3%80%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "加賀改二"
+    },
+    {
+      "normalizedName": "加賀改二戊",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E8%B3%80%E6%94%B9%E4%BA%8C%E6%88%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "加賀改二戊"
+    },
+    {
+      "normalizedName": "加賀改二護",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8A%A0%E8%B3%80%E6%94%B9%E4%BA%8C%E8%AD%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "加賀改二護"
+    },
+    {
+      "normalizedName": "北上",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8C%97%E4%B8%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "北上"
+    },
+    {
+      "normalizedName": "北上改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8C%97%E4%B8%8A%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "北上改"
+    },
+    {
+      "normalizedName": "北上改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8C%97%E4%B8%8A%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "北上改二"
+    },
+    {
+      "normalizedName": "千代田",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E4%BB%A3%E7%94%B0",
+      "urlSource": "card-list-link",
+      "wikiName": "千代田"
+    },
+    {
+      "normalizedName": "千代田改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E4%BB%A3%E7%94%B0%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "千代田改"
+    },
+    {
+      "normalizedName": "千代田甲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E4%BB%A3%E7%94%B0%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "千代田甲"
+    },
+    {
+      "normalizedName": "千代田航",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E4%BB%A3%E7%94%B0%E8%88%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "千代田航"
+    },
+    {
+      "normalizedName": "千代田航改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E4%BB%A3%E7%94%B0%E8%88%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "千代田航改二"
+    },
+    {
+      "normalizedName": "千歳",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E6%AD%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "千歳"
+    },
+    {
+      "normalizedName": "千歳改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E6%AD%B3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "千歳改"
+    },
+    {
+      "normalizedName": "千歳甲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E6%AD%B3%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "千歳甲"
+    },
+    {
+      "normalizedName": "千歳航",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E6%AD%B3%E8%88%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "千歳航"
+    },
+    {
+      "normalizedName": "千歳航改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%83%E6%AD%B3%E8%88%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "千歳航改二"
+    },
+    {
+      "normalizedName": "南海",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%97%E6%B5%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "南海"
+    },
+    {
+      "normalizedName": "占守",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%A0%E5%AE%88",
+      "urlSource": "card-list-link",
+      "wikiName": "占守"
+    },
+    {
+      "normalizedName": "卯月",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8D%AF%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "卯月"
+    },
+    {
+      "normalizedName": "叢雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8F%A2%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "叢雲"
+    },
+    {
+      "normalizedName": "叢雲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8F%A2%E9%9B%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "叢雲改二"
+    },
+    {
+      "normalizedName": "古鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8F%A4%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "古鷹"
+    },
+    {
+      "normalizedName": "古鷹改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%8F%A4%E9%B7%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "古鷹改二"
+    },
+    {
+      "normalizedName": "名取",
+      "url": "https://wikiwiki.jp/kancolle/%E5%90%8D%E5%8F%96",
+      "urlSource": "card-list-link",
+      "wikiName": "名取"
+    },
+    {
+      "normalizedName": "吹雪",
+      "url": "https://wikiwiki.jp/kancolle/%E5%90%B9%E9%9B%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "吹雪"
+    },
+    {
+      "normalizedName": "吹雪改三",
+      "url": "https://wikiwiki.jp/kancolle/%E5%90%B9%E9%9B%AA%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "吹雪改三"
+    },
+    {
+      "normalizedName": "吹雪改三護(六式)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%90%B9%E9%9B%AA%E6%94%B9%E4%B8%89%E8%AD%B7%28%E5%85%AD%E5%BC%8F%29",
+      "urlSource": "card-list-link",
+      "wikiName": "吹雪改三護(六式)"
+    },
+    {
+      "normalizedName": "吹雪改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%90%B9%E9%9B%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "吹雪改二"
+    },
+    {
+      "normalizedName": "呂500",
+      "url": "https://wikiwiki.jp/kancolle/%E5%91%82500",
+      "urlSource": "card-list-link",
+      "wikiName": "呂500"
+    },
+    {
+      "normalizedName": "国後",
+      "url": "https://wikiwiki.jp/kancolle/%E5%9B%BD%E5%BE%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "国後"
+    },
+    {
+      "normalizedName": "夏雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%8F%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "夏雲"
+    },
+    {
+      "normalizedName": "夕張",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E5%BC%B5",
+      "urlSource": "card-list-link",
+      "wikiName": "夕張"
+    },
+    {
+      "normalizedName": "夕張改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E5%BC%B5%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "夕張改二"
+    },
+    {
+      "normalizedName": "夕張改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E5%BC%B5%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "夕張改二丁"
+    },
+    {
+      "normalizedName": "夕張改二特",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E5%BC%B5%E6%94%B9%E4%BA%8C%E7%89%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "夕張改二特"
+    },
+    {
+      "normalizedName": "夕暮",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E6%9A%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "夕暮"
+    },
+    {
+      "normalizedName": "夕立",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E7%AB%8B",
+      "urlSource": "card-list-link",
+      "wikiName": "夕立"
+    },
+    {
+      "normalizedName": "夕立改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E7%AB%8B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "夕立改二"
+    },
+    {
+      "normalizedName": "夕雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "夕雲"
+    },
+    {
+      "normalizedName": "夕雲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%95%E9%9B%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "夕雲改二"
+    },
+    {
+      "normalizedName": "多摩",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%9A%E6%91%A9",
+      "urlSource": "card-list-link",
+      "wikiName": "多摩"
+    },
+    {
+      "normalizedName": "多摩改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%9A%E6%91%A9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "多摩改二"
+    },
+    {
+      "normalizedName": "大井",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E4%BA%95",
+      "urlSource": "card-list-link",
+      "wikiName": "大井"
+    },
+    {
+      "normalizedName": "大井改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E4%BA%95%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "大井改"
+    },
+    {
+      "normalizedName": "大井改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E4%BA%95%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "大井改二"
+    },
+    {
+      "normalizedName": "大和",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E5%92%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "大和"
+    },
+    {
+      "normalizedName": "大和改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E5%92%8C%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "大和改"
+    },
+    {
+      "normalizedName": "大和改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E5%92%8C%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "大和改二"
+    },
+    {
+      "normalizedName": "大和改二重",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E5%92%8C%E6%94%B9%E4%BA%8C%E9%87%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "大和改二重"
+    },
+    {
+      "normalizedName": "大東",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%9D%B1",
+      "urlSource": "card-list-link",
+      "wikiName": "大東"
+    },
+    {
+      "normalizedName": "大泊",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%B3%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "大泊"
+    },
+    {
+      "normalizedName": "大泊改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%B3%8A%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "大泊改"
+    },
+    {
+      "normalizedName": "大淀",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%B7%80",
+      "urlSource": "card-list-link",
+      "wikiName": "大淀"
+    },
+    {
+      "normalizedName": "大潮",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "大潮"
+    },
+    {
+      "normalizedName": "大潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "大潮改二"
+    },
+    {
+      "normalizedName": "大鯨",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E9%AF%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "大鯨"
+    },
+    {
+      "normalizedName": "大鳳",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E9%B3%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "大鳳"
+    },
+    {
+      "normalizedName": "大鳳改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E9%B3%B3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "大鳳改"
+    },
+    {
+      "normalizedName": "大鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "大鷹"
+    },
+    {
+      "normalizedName": "大鷹改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A7%E9%B7%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "大鷹改二"
+    },
+    {
+      "normalizedName": "天城",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%9F%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "天城"
+    },
+    {
+      "normalizedName": "天城改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%9F%8E%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "天城改"
+    },
+    {
+      "normalizedName": "天津風",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E6%B4%A5%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "天津風"
+    },
+    {
+      "normalizedName": "天津風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E6%B4%A5%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "天津風改二"
+    },
+    {
+      "normalizedName": "天霧",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E9%9C%A7",
+      "urlSource": "card-list-link",
+      "wikiName": "天霧"
+    },
+    {
+      "normalizedName": "天霧改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E9%9C%A7%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "天霧改二"
+    },
+    {
+      "normalizedName": "天霧改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E9%9C%A7%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "天霧改二丁"
+    },
+    {
+      "normalizedName": "天龍",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "天龍"
+    },
+    {
+      "normalizedName": "天龍改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A4%A9%E9%BE%8D%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "天龍改二"
+    },
+    {
+      "normalizedName": "如月",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A6%82%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "如月"
+    },
+    {
+      "normalizedName": "如月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A6%82%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "如月改二"
+    },
+    {
+      "normalizedName": "妙高",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A6%99%E9%AB%98",
+      "urlSource": "card-list-link",
+      "wikiName": "妙高"
+    },
+    {
+      "normalizedName": "妙高改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%A6%99%E9%AB%98%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "妙高改二"
+    },
+    {
+      "normalizedName": "子日",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AD%90%E6%97%A5",
+      "urlSource": "card-list-link",
+      "wikiName": "子日"
+    },
+    {
+      "normalizedName": "宗谷",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AE%97%E8%B0%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "宗谷"
+    },
+    {
+      "normalizedName": "宗谷(南極観測船)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AE%97%E8%B0%B7%28%E5%8D%97%E6%A5%B5%E8%A6%B3%E6%B8%AC%E8%88%B9%29",
+      "urlSource": "card-list-link",
+      "wikiName": "宗谷(南極観測船)"
+    },
+    {
+      "normalizedName": "宗谷(灯台補給船)",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AE%97%E8%B0%B7%28%E7%81%AF%E5%8F%B0%E8%A3%9C%E7%B5%A6%E8%88%B9%29",
+      "urlSource": "card-list-link",
+      "wikiName": "宗谷(灯台補給船)"
+    },
+    {
+      "normalizedName": "対馬",
+      "url": "https://wikiwiki.jp/kancolle/%E5%AF%BE%E9%A6%AC",
+      "urlSource": "card-list-link",
+      "wikiName": "対馬"
+    },
+    {
+      "normalizedName": "屋代",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%8B%E4%BB%A3",
+      "urlSource": "card-list-link",
+      "wikiName": "屋代"
+    },
+    {
+      "normalizedName": "屋代改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%8B%E4%BB%A3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "屋代改"
+    },
+    {
+      "normalizedName": "山城",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E5%9F%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "山城"
+    },
+    {
+      "normalizedName": "山城改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E5%9F%8E%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "山城改二"
+    },
+    {
+      "normalizedName": "山汐丸",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E6%B1%90%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "山汐丸"
+    },
+    {
+      "normalizedName": "山雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "山雲"
+    },
+    {
+      "normalizedName": "山風",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "山風"
+    },
+    {
+      "normalizedName": "山風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "山風改二"
+    },
+    {
+      "normalizedName": "山風改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B1%B1%E9%A2%A8%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "山風改二丁"
+    },
+    {
+      "normalizedName": "岸波",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B2%B8%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "岸波"
+    },
+    {
+      "normalizedName": "峯雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B3%AF%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "峯雲"
+    },
+    {
+      "normalizedName": "島風",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B3%B6%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "島風"
+    },
+    {
+      "normalizedName": "嵐",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B5%90",
+      "urlSource": "card-list-link",
+      "wikiName": "嵐"
+    },
+    {
+      "normalizedName": "川内",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B7%9D%E5%86%85",
+      "urlSource": "card-list-link",
+      "wikiName": "川内"
+    },
+    {
+      "normalizedName": "川内改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B7%9D%E5%86%85%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "川内改二"
+    },
+    {
+      "normalizedName": "巻波",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B7%BB%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "巻波"
+    },
+    {
+      "normalizedName": "巻雲",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B7%BB%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "巻雲"
+    },
+    {
+      "normalizedName": "巻雲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B7%BB%E9%9B%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "巻雲改二"
+    },
+    {
+      "normalizedName": "平安丸",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B9%B3%E5%AE%89%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "平安丸"
+    },
+    {
+      "normalizedName": "平安丸改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B9%B3%E5%AE%89%E4%B8%B8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "平安丸改"
+    },
+    {
+      "normalizedName": "平戸",
+      "url": "https://wikiwiki.jp/kancolle/%E5%B9%B3%E6%88%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "平戸"
+    },
+    {
+      "normalizedName": "弥生",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BC%A5%E7%94%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "弥生"
+    },
+    {
+      "normalizedName": "御蔵",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%A1%E8%94%B5",
+      "urlSource": "card-list-link",
+      "wikiName": "御蔵"
+    },
+    {
+      "normalizedName": "御蔵改",
+      "url": "https://wikiwiki.jp/kancolle/%E5%BE%A1%E8%94%B5%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "御蔵改"
+    },
+    {
+      "normalizedName": "愛宕",
+      "url": "https://wikiwiki.jp/kancolle/%E6%84%9B%E5%AE%95",
+      "urlSource": "card-list-link",
+      "wikiName": "愛宕"
+    },
+    {
+      "normalizedName": "扶桑",
+      "url": "https://wikiwiki.jp/kancolle/%E6%89%B6%E6%A1%91",
+      "urlSource": "card-list-link",
+      "wikiName": "扶桑"
+    },
+    {
+      "normalizedName": "扶桑改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%89%B6%E6%A1%91%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "扶桑改二"
+    },
+    {
+      "normalizedName": "択捉",
+      "url": "https://wikiwiki.jp/kancolle/%E6%8A%9E%E6%8D%89",
+      "urlSource": "card-list-link",
+      "wikiName": "択捉"
+    },
+    {
+      "normalizedName": "摩耶",
+      "url": "https://wikiwiki.jp/kancolle/%E6%91%A9%E8%80%B6",
+      "urlSource": "card-list-link",
+      "wikiName": "摩耶"
+    },
+    {
+      "normalizedName": "摩耶改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%91%A9%E8%80%B6%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "摩耶改二"
+    },
+    {
+      "normalizedName": "敷波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%95%B7%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "敷波"
+    },
+    {
+      "normalizedName": "敷波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%95%B7%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "敷波改二"
+    },
+    {
+      "normalizedName": "文月",
+      "url": "https://wikiwiki.jp/kancolle/%E6%96%87%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "文月"
+    },
+    {
+      "normalizedName": "文月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%96%87%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "文月改二"
+    },
+    {
+      "normalizedName": "旗風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%97%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "旗風"
+    },
+    {
+      "normalizedName": "日向",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E5%90%91",
+      "urlSource": "card-list-link",
+      "wikiName": "日向"
+    },
+    {
+      "normalizedName": "日向改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E5%90%91%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "日向改"
+    },
+    {
+      "normalizedName": "日向改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E5%90%91%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "日向改二"
+    },
+    {
+      "normalizedName": "日振",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E6%8C%AF",
+      "urlSource": "card-list-link",
+      "wikiName": "日振"
+    },
+    {
+      "normalizedName": "日進",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E9%80%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "日進"
+    },
+    {
+      "normalizedName": "日進甲",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A5%E9%80%B2%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "日進甲"
+    },
+    {
+      "normalizedName": "早波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "早波"
+    },
+    {
+      "normalizedName": "早波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "早波改二"
+    },
+    {
+      "normalizedName": "早潮",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "早潮"
+    },
+    {
+      "normalizedName": "早潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "早潮改二"
+    },
+    {
+      "normalizedName": "早霜",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E9%9C%9C",
+      "urlSource": "card-list-link",
+      "wikiName": "早霜"
+    },
+    {
+      "normalizedName": "早霜改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%97%A9%E9%9C%9C%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "早霜改二"
+    },
+    {
+      "normalizedName": "明石",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%8E%E7%9F%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "明石"
+    },
+    {
+      "normalizedName": "明石改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%8E%E7%9F%B3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "明石改"
+    },
+    {
+      "normalizedName": "春日丸",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%A5%E6%97%A5%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "春日丸"
+    },
+    {
+      "normalizedName": "春雨",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%A5%E9%9B%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "春雨"
+    },
+    {
+      "normalizedName": "春雨改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%A5%E9%9B%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "春雨改二"
+    },
+    {
+      "normalizedName": "春風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%A5%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "春風"
+    },
+    {
+      "normalizedName": "昭南",
+      "url": "https://wikiwiki.jp/kancolle/%E6%98%AD%E5%8D%97",
+      "urlSource": "card-list-link",
+      "wikiName": "昭南"
+    },
+    {
+      "normalizedName": "時津風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%99%82%E6%B4%A5%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "時津風"
+    },
+    {
+      "normalizedName": "時雨",
+      "url": "https://wikiwiki.jp/kancolle/%E6%99%82%E9%9B%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "時雨"
+    },
+    {
+      "normalizedName": "時雨改三",
+      "url": "https://wikiwiki.jp/kancolle/%E6%99%82%E9%9B%A8%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "時雨改三"
+    },
+    {
+      "normalizedName": "時雨改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%99%82%E9%9B%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "時雨改二"
+    },
+    {
+      "normalizedName": "暁",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9A%81",
+      "urlSource": "card-list-link",
+      "wikiName": "暁"
+    },
+    {
+      "normalizedName": "暁改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9A%81%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "暁改二"
+    },
+    {
+      "normalizedName": "曙",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9B%99",
+      "urlSource": "card-list-link",
+      "wikiName": "曙"
+    },
+    {
+      "normalizedName": "曙改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9B%99%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "曙改二"
+    },
+    {
+      "normalizedName": "最上",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%80%E4%B8%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "最上"
+    },
+    {
+      "normalizedName": "最上改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%80%E4%B8%8A%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "最上改"
+    },
+    {
+      "normalizedName": "最上改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%80%E4%B8%8A%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "最上改二"
+    },
+    {
+      "normalizedName": "最上改二特",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%80%E4%B8%8A%E6%94%B9%E4%BA%8C%E7%89%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "最上改二特"
+    },
+    {
+      "normalizedName": "有明",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%89%E6%98%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "有明"
+    },
+    {
+      "normalizedName": "望月",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9B%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "望月"
+    },
+    {
+      "normalizedName": "朝日",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E6%97%A5",
+      "urlSource": "card-list-link",
+      "wikiName": "朝日"
+    },
+    {
+      "normalizedName": "朝日改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E6%97%A5%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "朝日改"
+    },
+    {
+      "normalizedName": "朝潮",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "朝潮"
+    },
+    {
+      "normalizedName": "朝潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "朝潮改二"
+    },
+    {
+      "normalizedName": "朝潮改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E6%BD%AE%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "朝潮改二丁"
+    },
+    {
+      "normalizedName": "朝雲",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "朝雲"
+    },
+    {
+      "normalizedName": "朝霜",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E9%9C%9C",
+      "urlSource": "card-list-link",
+      "wikiName": "朝霜"
+    },
+    {
+      "normalizedName": "朝霜改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E9%9C%9C%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "朝霜改二"
+    },
+    {
+      "normalizedName": "朝風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%9D%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "朝風"
+    },
+    {
+      "normalizedName": "朧",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%A7",
+      "urlSource": "card-list-link",
+      "wikiName": "朧"
+    },
+    {
+      "normalizedName": "木曾",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%A8%E6%9B%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "木曾"
+    },
+    {
+      "normalizedName": "木曾改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%A8%E6%9B%BE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "木曾改二"
+    },
+    {
+      "normalizedName": "未実装",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9C%AA%E5%AE%9F%E8%A3%85",
+      "urlSource": "card-list-display-name",
+      "wikiName": "未実装"
+    },
+    {
+      "normalizedName": "杉",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%89",
+      "urlSource": "card-list-link",
+      "wikiName": "杉"
+    },
+    {
+      "normalizedName": "杉改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%89%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "杉改"
+    },
+    {
+      "normalizedName": "村雨",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%91%E9%9B%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "村雨"
+    },
+    {
+      "normalizedName": "村雨改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%91%E9%9B%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "村雨改二"
+    },
+    {
+      "normalizedName": "松",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%BE",
+      "urlSource": "card-list-link",
+      "wikiName": "松"
+    },
+    {
+      "normalizedName": "松輪",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%BE%E8%BC%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "松輪"
+    },
+    {
+      "normalizedName": "松風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%9D%BE%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "松風"
+    },
+    {
+      "normalizedName": "桃",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A1%83",
+      "urlSource": "card-list-link",
+      "wikiName": "桃"
+    },
+    {
+      "normalizedName": "桐",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A1%90",
+      "urlSource": "card-list-link",
+      "wikiName": "桐"
+    },
+    {
+      "normalizedName": "梅",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A2%85",
+      "urlSource": "card-list-link",
+      "wikiName": "梅"
+    },
+    {
+      "normalizedName": "榛名",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A6%9B%E5%90%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "榛名"
+    },
+    {
+      "normalizedName": "榛名改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A6%9B%E5%90%8D%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "榛名改二"
+    },
+    {
+      "normalizedName": "榛名改二丙",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A6%9B%E5%90%8D%E6%94%B9%E4%BA%8C%E4%B8%99",
+      "urlSource": "card-list-link",
+      "wikiName": "榛名改二丙"
+    },
+    {
+      "normalizedName": "榛名改二乙",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A6%9B%E5%90%8D%E6%94%B9%E4%BA%8C%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "榛名改二乙"
+    },
+    {
+      "normalizedName": "榧",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A6%A7",
+      "urlSource": "card-list-link",
+      "wikiName": "榧"
+    },
+    {
+      "normalizedName": "樫",
+      "url": "https://wikiwiki.jp/kancolle/%E6%A8%AB",
+      "urlSource": "card-list-link",
+      "wikiName": "樫"
+    },
+    {
+      "normalizedName": "武蔵",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AD%A6%E8%94%B5",
+      "urlSource": "card-list-link",
+      "wikiName": "武蔵"
+    },
+    {
+      "normalizedName": "武蔵改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AD%A6%E8%94%B5%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "武蔵改"
+    },
+    {
+      "normalizedName": "武蔵改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AD%A6%E8%94%B5%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "武蔵改二"
+    },
+    {
+      "normalizedName": "比叡",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AF%94%E5%8F%A1",
+      "urlSource": "card-list-link",
+      "wikiName": "比叡"
+    },
+    {
+      "normalizedName": "比叡改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AF%94%E5%8F%A1%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "比叡改二"
+    },
+    {
+      "normalizedName": "比叡改二丙",
+      "url": "https://wikiwiki.jp/kancolle/%E6%AF%94%E5%8F%A1%E6%94%B9%E4%BA%8C%E4%B8%99",
+      "urlSource": "card-list-link",
+      "wikiName": "比叡改二丙"
+    },
+    {
+      "normalizedName": "水無月",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B0%B4%E7%84%A1%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "水無月"
+    },
+    {
+      "normalizedName": "江風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B1%9F%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "江風"
+    },
+    {
+      "normalizedName": "江風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B1%9F%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "江風改二"
+    },
+    {
+      "normalizedName": "沖波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B2%96%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "沖波"
+    },
+    {
+      "normalizedName": "沖波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B2%96%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "沖波改二"
+    },
+    {
+      "normalizedName": "浜波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%9C%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "浜波"
+    },
+    {
+      "normalizedName": "浜波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%9C%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "浜波改二"
+    },
+    {
+      "normalizedName": "浜風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%9C%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "浜風"
+    },
+    {
+      "normalizedName": "浜風乙改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%9C%E9%A2%A8%E4%B9%99%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "浜風乙改"
+    },
+    {
+      "normalizedName": "浦波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%A6%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "浦波"
+    },
+    {
+      "normalizedName": "浦波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%A6%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "浦波改二"
+    },
+    {
+      "normalizedName": "浦風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%A6%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "浦風"
+    },
+    {
+      "normalizedName": "浦風丁改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%A6%E9%A2%A8%E4%B8%81%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "浦風丁改"
+    },
+    {
+      "normalizedName": "海風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%B7%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "海風"
+    },
+    {
+      "normalizedName": "海風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B5%B7%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "海風改二"
+    },
+    {
+      "normalizedName": "涼月",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B6%BC%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "涼月"
+    },
+    {
+      "normalizedName": "涼月改",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B6%BC%E6%9C%88%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "涼月改"
+    },
+    {
+      "normalizedName": "涼波",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B6%BC%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "涼波"
+    },
+    {
+      "normalizedName": "涼波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B6%BC%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "涼波改二"
+    },
+    {
+      "normalizedName": "涼風",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B6%BC%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "涼風"
+    },
+    {
+      "normalizedName": "深雪",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E9%9B%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "深雪"
+    },
+    {
+      "normalizedName": "深雪改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B7%B1%E9%9B%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "深雪改二"
+    },
+    {
+      "normalizedName": "清霜",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B8%85%E9%9C%9C",
+      "urlSource": "card-list-link",
+      "wikiName": "清霜"
+    },
+    {
+      "normalizedName": "清霜改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B8%85%E9%9C%9C%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "清霜改二"
+    },
+    {
+      "normalizedName": "清霜改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E6%B8%85%E9%9C%9C%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "清霜改二丁"
+    },
+    {
+      "normalizedName": "満潮",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BA%80%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "満潮"
+    },
+    {
+      "normalizedName": "満潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BA%80%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "満潮改二"
+    },
+    {
+      "normalizedName": "漣",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BC%A3",
+      "urlSource": "card-list-link",
+      "wikiName": "漣"
+    },
+    {
+      "normalizedName": "潮",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "潮"
+    },
+    {
+      "normalizedName": "潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "潮改二"
+    },
+    {
+      "normalizedName": "照月",
+      "url": "https://wikiwiki.jp/kancolle/%E7%85%A7%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "照月"
+    },
+    {
+      "normalizedName": "熊野",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野"
+    },
+    {
+      "normalizedName": "熊野丸",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野丸"
+    },
+    {
+      "normalizedName": "熊野丸改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E%E4%B8%B8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野丸改"
+    },
+    {
+      "normalizedName": "熊野改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野改"
+    },
+    {
+      "normalizedName": "熊野改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野改二"
+    },
+    {
+      "normalizedName": "熊野航改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%86%8A%E9%87%8E%E8%88%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "熊野航改二"
+    },
+    {
+      "normalizedName": "狭霧",
+      "url": "https://wikiwiki.jp/kancolle/%E7%8B%AD%E9%9C%A7",
+      "urlSource": "card-list-link",
+      "wikiName": "狭霧"
+    },
+    {
+      "normalizedName": "玉波",
+      "url": "https://wikiwiki.jp/kancolle/%E7%8E%89%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "玉波"
+    },
+    {
+      "normalizedName": "玉波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%8E%89%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "玉波改二"
+    },
+    {
+      "normalizedName": "球磨",
+      "url": "https://wikiwiki.jp/kancolle/%E7%90%83%E7%A3%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "球磨"
+    },
+    {
+      "normalizedName": "球磨改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%90%83%E7%A3%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "球磨改二"
+    },
+    {
+      "normalizedName": "球磨改二丁",
+      "url": "https://wikiwiki.jp/kancolle/%E7%90%83%E7%A3%A8%E6%94%B9%E4%BA%8C%E4%B8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "球磨改二丁"
+    },
+    {
+      "normalizedName": "瑞穂",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E7%A9%82",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞穂"
+    },
+    {
+      "normalizedName": "瑞鳳",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B3%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鳳"
+    },
+    {
+      "normalizedName": "瑞鳳改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B3%B3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鳳改"
+    },
+    {
+      "normalizedName": "瑞鳳改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B3%B3%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鳳改二"
+    },
+    {
+      "normalizedName": "瑞鳳改二乙",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B3%B3%E6%94%B9%E4%BA%8C%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鳳改二乙"
+    },
+    {
+      "normalizedName": "瑞鶴",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B6%B4",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鶴"
+    },
+    {
+      "normalizedName": "瑞鶴改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B6%B4%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鶴改"
+    },
+    {
+      "normalizedName": "瑞鶴改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B6%B4%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鶴改二"
+    },
+    {
+      "normalizedName": "瑞鶴改二甲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%91%9E%E9%B6%B4%E6%94%B9%E4%BA%8C%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "瑞鶴改二甲"
+    },
+    {
+      "normalizedName": "由良",
+      "url": "https://wikiwiki.jp/kancolle/%E7%94%B1%E8%89%AF",
+      "urlSource": "card-list-link",
+      "wikiName": "由良"
+    },
+    {
+      "normalizedName": "由良改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%94%B1%E8%89%AF%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "由良改二"
+    },
+    {
+      "normalizedName": "白雪",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BD%E9%9B%AA",
+      "urlSource": "card-list-link",
+      "wikiName": "白雪"
+    },
+    {
+      "normalizedName": "白雪改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BD%E9%9B%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "白雪改二"
+    },
+    {
+      "normalizedName": "白雲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BD%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "白雲"
+    },
+    {
+      "normalizedName": "白露",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BD%E9%9C%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "白露"
+    },
+    {
+      "normalizedName": "白露改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%99%BD%E9%9C%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "白露改二"
+    },
+    {
+      "normalizedName": "皐月",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9A%90%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "皐月"
+    },
+    {
+      "normalizedName": "皐月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9A%90%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "皐月改二"
+    },
+    {
+      "normalizedName": "睦月",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9D%A6%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "睦月"
+    },
+    {
+      "normalizedName": "睦月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9D%A6%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "睦月改二"
+    },
+    {
+      "normalizedName": "矢矧",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9F%A2%E7%9F%A7",
+      "urlSource": "card-list-link",
+      "wikiName": "矢矧"
+    },
+    {
+      "normalizedName": "矢矧改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9F%A2%E7%9F%A7%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "矢矧改二"
+    },
+    {
+      "normalizedName": "矢矧改二乙",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9F%A2%E7%9F%A7%E6%94%B9%E4%BA%8C%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "矢矧改二乙"
+    },
+    {
+      "normalizedName": "石垣",
+      "url": "https://wikiwiki.jp/kancolle/%E7%9F%B3%E5%9E%A3",
+      "urlSource": "card-list-link",
+      "wikiName": "石垣"
+    },
+    {
+      "normalizedName": "磯波",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A3%AF%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "磯波"
+    },
+    {
+      "normalizedName": "磯波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A3%AF%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "磯波改二"
+    },
+    {
+      "normalizedName": "磯風",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A3%AF%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "磯風"
+    },
+    {
+      "normalizedName": "磯風乙改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A3%AF%E9%A2%A8%E4%B9%99%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "磯風乙改"
+    },
+    {
+      "normalizedName": "神威",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E5%A8%81",
+      "urlSource": "card-list-link",
+      "wikiName": "神威"
+    },
+    {
+      "normalizedName": "神威改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E5%A8%81%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "神威改"
+    },
+    {
+      "normalizedName": "神威改母",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E5%A8%81%E6%94%B9%E6%AF%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "神威改母"
+    },
+    {
+      "normalizedName": "神州丸",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E5%B7%9E%E4%B8%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "神州丸"
+    },
+    {
+      "normalizedName": "神州丸改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E5%B7%9E%E4%B8%B8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "神州丸改"
+    },
+    {
+      "normalizedName": "神通",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%80%9A",
+      "urlSource": "card-list-link",
+      "wikiName": "神通"
+    },
+    {
+      "normalizedName": "神通改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%80%9A%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "神通改二"
+    },
+    {
+      "normalizedName": "神風",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "神風"
+    },
+    {
+      "normalizedName": "神風改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%A2%A8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "神風改"
+    },
+    {
+      "normalizedName": "神鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "神鷹"
+    },
+    {
+      "normalizedName": "神鷹改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%9E%E9%B7%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "神鷹改二"
+    },
+    {
+      "normalizedName": "祥鳳",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A5%A5%E9%B3%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "祥鳳"
+    },
+    {
+      "normalizedName": "福江",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A6%8F%E6%B1%9F",
+      "urlSource": "card-list-link",
+      "wikiName": "福江"
+    },
+    {
+      "normalizedName": "秋月",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "秋月"
+    },
+    {
+      "normalizedName": "秋月改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E6%9C%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "秋月改二"
+    },
+    {
+      "normalizedName": "秋津洲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E6%B4%A5%E6%B4%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "秋津洲"
+    },
+    {
+      "normalizedName": "秋津洲改",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E6%B4%A5%E6%B4%B2%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "秋津洲改"
+    },
+    {
+      "normalizedName": "秋雲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "秋雲"
+    },
+    {
+      "normalizedName": "秋雲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E9%9B%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "秋雲改二"
+    },
+    {
+      "normalizedName": "秋霜",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A7%8B%E9%9C%9C",
+      "urlSource": "card-list-link",
+      "wikiName": "秋霜"
+    },
+    {
+      "normalizedName": "稲木",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A8%B2%E6%9C%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "稲木"
+    },
+    {
+      "normalizedName": "稲木改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%A8%B2%E6%9C%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "稲木改二"
+    },
+    {
+      "normalizedName": "竹",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AB%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "竹"
+    },
+    {
+      "normalizedName": "第三〇号海防艦",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AC%AC%E4%B8%89%E3%80%87%E5%8F%B7%E6%B5%B7%E9%98%B2%E8%89%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "第三〇号海防艦"
+    },
+    {
+      "normalizedName": "第二十二号海防艦",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%8F%B7%E6%B5%B7%E9%98%B2%E8%89%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "第二十二号海防艦"
+    },
+    {
+      "normalizedName": "第四号海防艦",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AC%AC%E5%9B%9B%E5%8F%B7%E6%B5%B7%E9%98%B2%E8%89%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "第四号海防艦"
+    },
+    {
+      "normalizedName": "第百一号輸送艦",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AC%AC%E7%99%BE%E4%B8%80%E5%8F%B7%E8%BC%B8%E9%80%81%E8%89%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "第百一号輸送艦"
+    },
+    {
+      "normalizedName": "筑摩",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AD%91%E6%91%A9",
+      "urlSource": "card-list-link",
+      "wikiName": "筑摩"
+    },
+    {
+      "normalizedName": "筑摩改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%AD%91%E6%91%A9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "筑摩改二"
+    },
+    {
+      "normalizedName": "綾波",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B6%BE%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "綾波"
+    },
+    {
+      "normalizedName": "綾波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%B6%BE%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "綾波改二"
+    },
+    {
+      "normalizedName": "羽黒",
+      "url": "https://wikiwiki.jp/kancolle/%E7%BE%BD%E9%BB%92",
+      "urlSource": "card-list-link",
+      "wikiName": "羽黒"
+    },
+    {
+      "normalizedName": "羽黒改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%BE%BD%E9%BB%92%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "羽黒改二"
+    },
+    {
+      "normalizedName": "翔鶴",
+      "url": "https://wikiwiki.jp/kancolle/%E7%BF%94%E9%B6%B4",
+      "urlSource": "card-list-link",
+      "wikiName": "翔鶴"
+    },
+    {
+      "normalizedName": "翔鶴改二",
+      "url": "https://wikiwiki.jp/kancolle/%E7%BF%94%E9%B6%B4%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "翔鶴改二"
+    },
+    {
+      "normalizedName": "翔鶴改二甲",
+      "url": "https://wikiwiki.jp/kancolle/%E7%BF%94%E9%B6%B4%E6%94%B9%E4%BA%8C%E7%94%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "翔鶴改二甲"
+    },
+    {
+      "normalizedName": "能代",
+      "url": "https://wikiwiki.jp/kancolle/%E8%83%BD%E4%BB%A3",
+      "urlSource": "card-list-link",
+      "wikiName": "能代"
+    },
+    {
+      "normalizedName": "能代改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%83%BD%E4%BB%A3%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "能代改二"
+    },
+    {
+      "normalizedName": "能美",
+      "url": "https://wikiwiki.jp/kancolle/%E8%83%BD%E7%BE%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "能美"
+    },
+    {
+      "normalizedName": "能美改",
+      "url": "https://wikiwiki.jp/kancolle/%E8%83%BD%E7%BE%8E%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "能美改"
+    },
+    {
+      "normalizedName": "舞風",
+      "url": "https://wikiwiki.jp/kancolle/%E8%88%9E%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "舞風"
+    },
+    {
+      "normalizedName": "花月",
+      "url": "https://wikiwiki.jp/kancolle/%E8%8A%B1%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "花月"
+    },
+    {
+      "normalizedName": "若葉",
+      "url": "https://wikiwiki.jp/kancolle/%E8%8B%A5%E8%91%89",
+      "urlSource": "card-list-link",
+      "wikiName": "若葉"
+    },
+    {
+      "normalizedName": "荒潮",
+      "url": "https://wikiwiki.jp/kancolle/%E8%8D%92%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "荒潮"
+    },
+    {
+      "normalizedName": "荒潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%8D%92%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "荒潮改二"
+    },
+    {
+      "normalizedName": "菊月",
+      "url": "https://wikiwiki.jp/kancolle/%E8%8F%8A%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "菊月"
+    },
+    {
+      "normalizedName": "萩風",
+      "url": "https://wikiwiki.jp/kancolle/%E8%90%A9%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "萩風"
+    },
+    {
+      "normalizedName": "葛城",
+      "url": "https://wikiwiki.jp/kancolle/%E8%91%9B%E5%9F%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "葛城"
+    },
+    {
+      "normalizedName": "葛城改",
+      "url": "https://wikiwiki.jp/kancolle/%E8%91%9B%E5%9F%8E%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "葛城改"
+    },
+    {
+      "normalizedName": "蒼龍",
+      "url": "https://wikiwiki.jp/kancolle/%E8%92%BC%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "蒼龍"
+    },
+    {
+      "normalizedName": "蒼龍改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%92%BC%E9%BE%8D%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "蒼龍改二"
+    },
+    {
+      "normalizedName": "薄雲",
+      "url": "https://wikiwiki.jp/kancolle/%E8%96%84%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "薄雲"
+    },
+    {
+      "normalizedName": "藤波",
+      "url": "https://wikiwiki.jp/kancolle/%E8%97%A4%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "藤波"
+    },
+    {
+      "normalizedName": "藤波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%97%A4%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "藤波改二"
+    },
+    {
+      "normalizedName": "衣笠",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A1%A3%E7%AC%A0",
+      "urlSource": "card-list-link",
+      "wikiName": "衣笠"
+    },
+    {
+      "normalizedName": "衣笠改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A1%A3%E7%AC%A0%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "衣笠改二"
+    },
+    {
+      "normalizedName": "親潮",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A6%AA%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "親潮"
+    },
+    {
+      "normalizedName": "親潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%A6%AA%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "親潮改二"
+    },
+    {
+      "normalizedName": "谷風",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B0%B7%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "谷風"
+    },
+    {
+      "normalizedName": "谷風丁改",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B0%B7%E9%A2%A8%E4%B8%81%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "谷風丁改"
+    },
+    {
+      "normalizedName": "赤城",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B5%A4%E5%9F%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "赤城"
+    },
+    {
+      "normalizedName": "赤城改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B5%A4%E5%9F%8E%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "赤城改二"
+    },
+    {
+      "normalizedName": "赤城改二戊",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B5%A4%E5%9F%8E%E6%94%B9%E4%BA%8C%E6%88%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "赤城改二戊"
+    },
+    {
+      "normalizedName": "足柄",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B6%B3%E6%9F%84",
+      "urlSource": "card-list-link",
+      "wikiName": "足柄"
+    },
+    {
+      "normalizedName": "足柄改二",
+      "url": "https://wikiwiki.jp/kancolle/%E8%B6%B3%E6%9F%84%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "足柄改二"
+    },
+    {
+      "normalizedName": "迅鯨",
+      "url": "https://wikiwiki.jp/kancolle/%E8%BF%85%E9%AF%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "迅鯨"
+    },
+    {
+      "normalizedName": "迅鯨改",
+      "url": "https://wikiwiki.jp/kancolle/%E8%BF%85%E9%AF%A8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "迅鯨改"
+    },
+    {
+      "normalizedName": "速吸",
+      "url": "https://wikiwiki.jp/kancolle/%E9%80%9F%E5%90%B8",
+      "urlSource": "card-list-link",
+      "wikiName": "速吸"
+    },
+    {
+      "normalizedName": "那智",
+      "url": "https://wikiwiki.jp/kancolle/%E9%82%A3%E6%99%BA",
+      "urlSource": "card-list-link",
+      "wikiName": "那智"
+    },
+    {
+      "normalizedName": "那智改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%82%A3%E6%99%BA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "那智改二"
+    },
+    {
+      "normalizedName": "那珂",
+      "url": "https://wikiwiki.jp/kancolle/%E9%82%A3%E7%8F%82",
+      "urlSource": "card-list-link",
+      "wikiName": "那珂"
+    },
+    {
+      "normalizedName": "那珂改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%82%A3%E7%8F%82%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "那珂改二"
+    },
+    {
+      "normalizedName": "酒匂",
+      "url": "https://wikiwiki.jp/kancolle/%E9%85%92%E5%8C%82",
+      "urlSource": "card-list-link",
+      "wikiName": "酒匂"
+    },
+    {
+      "normalizedName": "野分",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%8E%E5%88%86",
+      "urlSource": "card-list-link",
+      "wikiName": "野分"
+    },
+    {
+      "normalizedName": "野埼",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%8E%E5%9F%BC",
+      "urlSource": "card-list-link",
+      "wikiName": "野埼"
+    },
+    {
+      "normalizedName": "野埼改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%8E%E5%9F%BC%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "野埼改"
+    },
+    {
+      "normalizedName": "金剛",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%91%E5%89%9B",
+      "urlSource": "card-list-link",
+      "wikiName": "金剛"
+    },
+    {
+      "normalizedName": "金剛改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%91%E5%89%9B%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "金剛改二"
+    },
+    {
+      "normalizedName": "金剛改二丙",
+      "url": "https://wikiwiki.jp/kancolle/%E9%87%91%E5%89%9B%E6%94%B9%E4%BA%8C%E4%B8%99",
+      "urlSource": "card-list-link",
+      "wikiName": "金剛改二丙"
+    },
+    {
+      "normalizedName": "鈴谷",
+      "url": "https://wikiwiki.jp/kancolle/%E9%88%B4%E8%B0%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "鈴谷"
+    },
+    {
+      "normalizedName": "鈴谷改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%88%B4%E8%B0%B7%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "鈴谷改"
+    },
+    {
+      "normalizedName": "鈴谷改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%88%B4%E8%B0%B7%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "鈴谷改二"
+    },
+    {
+      "normalizedName": "鈴谷航改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%88%B4%E8%B0%B7%E8%88%AA%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "鈴谷航改二"
+    },
+    {
+      "normalizedName": "長月",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E6%9C%88",
+      "urlSource": "card-list-link",
+      "wikiName": "長月"
+    },
+    {
+      "normalizedName": "長波",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "長波"
+    },
+    {
+      "normalizedName": "長波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "長波改二"
+    },
+    {
+      "normalizedName": "長良",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E8%89%AF",
+      "urlSource": "card-list-link",
+      "wikiName": "長良"
+    },
+    {
+      "normalizedName": "長門",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E9%96%80",
+      "urlSource": "card-list-link",
+      "wikiName": "長門"
+    },
+    {
+      "normalizedName": "長門改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E9%96%80%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "長門改二"
+    },
+    {
+      "normalizedName": "長鯨",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E9%AF%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "長鯨"
+    },
+    {
+      "normalizedName": "長鯨改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%95%B7%E9%AF%A8%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "長鯨改"
+    },
+    {
+      "normalizedName": "阿武隈",
+      "url": "https://wikiwiki.jp/kancolle/%E9%98%BF%E6%AD%A6%E9%9A%88",
+      "urlSource": "card-list-link",
+      "wikiName": "阿武隈"
+    },
+    {
+      "normalizedName": "阿武隈改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%98%BF%E6%AD%A6%E9%9A%88%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "阿武隈改二"
+    },
+    {
+      "normalizedName": "阿賀野",
+      "url": "https://wikiwiki.jp/kancolle/%E9%98%BF%E8%B3%80%E9%87%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "阿賀野"
+    },
+    {
+      "normalizedName": "陸奥",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%B8%E5%A5%A5",
+      "urlSource": "card-list-link",
+      "wikiName": "陸奥"
+    },
+    {
+      "normalizedName": "陸奥改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%B8%E5%A5%A5%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "陸奥改二"
+    },
+    {
+      "normalizedName": "陽炎",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%BD%E7%82%8E",
+      "urlSource": "card-list-link",
+      "wikiName": "陽炎"
+    },
+    {
+      "normalizedName": "陽炎改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%99%BD%E7%82%8E%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "陽炎改二"
+    },
+    {
+      "normalizedName": "隼鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9A%BC%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "隼鷹"
+    },
+    {
+      "normalizedName": "隼鷹改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9A%BC%E9%B7%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "隼鷹改二"
+    },
+    {
+      "normalizedName": "雪風",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%AA%E9%A2%A8",
+      "urlSource": "card-list-link",
+      "wikiName": "雪風"
+    },
+    {
+      "normalizedName": "雪風改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%AA%E9%A2%A8%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "雪風改二"
+    },
+    {
+      "normalizedName": "雲鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B2%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "雲鷹"
+    },
+    {
+      "normalizedName": "雲鷹改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B2%E9%B7%B9%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "雲鷹改二"
+    },
+    {
+      "normalizedName": "雲龍",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B2%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "雲龍"
+    },
+    {
+      "normalizedName": "雲龍改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B2%E9%BE%8D%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "雲龍改"
+    },
+    {
+      "normalizedName": "雷",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "雷"
+    },
+    {
+      "normalizedName": "電",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9B%BB",
+      "urlSource": "card-list-link",
+      "wikiName": "電"
+    },
+    {
+      "normalizedName": "霞",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%9E",
+      "urlSource": "card-list-link",
+      "wikiName": "霞"
+    },
+    {
+      "normalizedName": "霞改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%9E%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "霞改二"
+    },
+    {
+      "normalizedName": "霞改二乙",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%9E%E6%94%B9%E4%BA%8C%E4%B9%99",
+      "urlSource": "card-list-link",
+      "wikiName": "霞改二乙"
+    },
+    {
+      "normalizedName": "霧島",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%A7%E5%B3%B6",
+      "urlSource": "card-list-link",
+      "wikiName": "霧島"
+    },
+    {
+      "normalizedName": "霧島改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%A7%E5%B3%B6%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "霧島改二"
+    },
+    {
+      "normalizedName": "霧島改二丙",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%A7%E5%B3%B6%E6%94%B9%E4%BA%8C%E4%B8%99",
+      "urlSource": "card-list-link",
+      "wikiName": "霧島改二丙"
+    },
+    {
+      "normalizedName": "霰",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%B0",
+      "urlSource": "card-list-link",
+      "wikiName": "霰"
+    },
+    {
+      "normalizedName": "霰改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9C%B0%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "霰改二"
+    },
+    {
+      "normalizedName": "青葉",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9D%92%E8%91%89",
+      "urlSource": "card-list-link",
+      "wikiName": "青葉"
+    },
+    {
+      "normalizedName": "響",
+      "url": "https://wikiwiki.jp/kancolle/%E9%9F%BF",
+      "urlSource": "card-list-link",
+      "wikiName": "響"
+    },
+    {
+      "normalizedName": "風雲",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A2%A8%E9%9B%B2",
+      "urlSource": "card-list-link",
+      "wikiName": "風雲"
+    },
+    {
+      "normalizedName": "風雲改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A2%A8%E9%9B%B2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "風雲改二"
+    },
+    {
+      "normalizedName": "飛鷹",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A3%9B%E9%B7%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "飛鷹"
+    },
+    {
+      "normalizedName": "飛龍",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A3%9B%E9%BE%8D",
+      "urlSource": "card-list-link",
+      "wikiName": "飛龍"
+    },
+    {
+      "normalizedName": "飛龍改三",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A3%9B%E9%BE%8D%E6%94%B9%E4%B8%89",
+      "urlSource": "card-list-link",
+      "wikiName": "飛龍改三"
+    },
+    {
+      "normalizedName": "飛龍改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A3%9B%E9%BE%8D%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "飛龍改二"
+    },
+    {
+      "normalizedName": "香取",
+      "url": "https://wikiwiki.jp/kancolle/%E9%A6%99%E5%8F%96",
+      "urlSource": "card-list-link",
+      "wikiName": "香取"
+    },
+    {
+      "normalizedName": "高波",
+      "url": "https://wikiwiki.jp/kancolle/%E9%AB%98%E6%B3%A2",
+      "urlSource": "card-list-link",
+      "wikiName": "高波"
+    },
+    {
+      "normalizedName": "高波改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%AB%98%E6%B3%A2%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "高波改二"
+    },
+    {
+      "normalizedName": "高雄",
+      "url": "https://wikiwiki.jp/kancolle/%E9%AB%98%E9%9B%84",
+      "urlSource": "card-list-link",
+      "wikiName": "高雄"
+    },
+    {
+      "normalizedName": "鬼怒",
+      "url": "https://wikiwiki.jp/kancolle/%E9%AC%BC%E6%80%92",
+      "urlSource": "card-list-link",
+      "wikiName": "鬼怒"
+    },
+    {
+      "normalizedName": "鬼怒改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%AC%BC%E6%80%92%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "鬼怒改二"
+    },
+    {
+      "normalizedName": "鳥海",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B3%A5%E6%B5%B7",
+      "urlSource": "card-list-link",
+      "wikiName": "鳥海"
+    },
+    {
+      "normalizedName": "鳥海改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B3%A5%E6%B5%B7%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "鳥海改二"
+    },
+    {
+      "normalizedName": "鳳翔",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B3%B3%E7%BF%94",
+      "urlSource": "card-list-link",
+      "wikiName": "鳳翔"
+    },
+    {
+      "normalizedName": "鳳翔改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B3%B3%E7%BF%94%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "鳳翔改二"
+    },
+    {
+      "normalizedName": "鳳翔改二戦",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B3%B3%E7%BF%94%E6%94%B9%E4%BA%8C%E6%88%A6",
+      "urlSource": "card-list-link",
+      "wikiName": "鳳翔改二戦"
+    },
+    {
+      "normalizedName": "鵜来",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B5%9C%E6%9D%A5",
+      "urlSource": "card-list-link",
+      "wikiName": "鵜来"
+    },
+    {
+      "normalizedName": "鵜来改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B5%9C%E6%9D%A5%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "鵜来改"
+    },
+    {
+      "normalizedName": "鹿島",
+      "url": "https://wikiwiki.jp/kancolle/%E9%B9%BF%E5%B3%B6",
+      "urlSource": "card-list-link",
+      "wikiName": "鹿島"
+    },
+    {
+      "normalizedName": "黒潮",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BB%92%E6%BD%AE",
+      "urlSource": "card-list-link",
+      "wikiName": "黒潮"
+    },
+    {
+      "normalizedName": "黒潮改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BB%92%E6%BD%AE%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "黒潮改二"
+    },
+    {
+      "normalizedName": "龍田",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E7%94%B0",
+      "urlSource": "card-list-link",
+      "wikiName": "龍田"
+    },
+    {
+      "normalizedName": "龍田改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E7%94%B0%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "龍田改二"
+    },
+    {
+      "normalizedName": "龍驤",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%A9%A4",
+      "urlSource": "card-list-link",
+      "wikiName": "龍驤"
+    },
+    {
+      "normalizedName": "龍驤改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%A9%A4%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "龍驤改二"
+    },
+    {
+      "normalizedName": "龍鳳",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%B3%B3",
+      "urlSource": "card-list-link",
+      "wikiName": "龍鳳"
+    },
+    {
+      "normalizedName": "龍鳳改",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%B3%B3%E6%94%B9",
+      "urlSource": "card-list-link",
+      "wikiName": "龍鳳改"
+    },
+    {
+      "normalizedName": "龍鳳改二",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%B3%B3%E6%94%B9%E4%BA%8C",
+      "urlSource": "card-list-link",
+      "wikiName": "龍鳳改二"
+    },
+    {
+      "normalizedName": "龍鳳改二戊",
+      "url": "https://wikiwiki.jp/kancolle/%E9%BE%8D%E9%B3%B3%E6%94%B9%E4%BA%8C%E6%88%8A",
+      "urlSource": "card-list-link",
+      "wikiName": "龍鳳改二戊"
+    }
+  ],
+  "generatedAt": "2026-07-09T04:16:01+00:00",
+  "joinKey": "normalized-name",
+  "kind": "ship",
+  "rawCacheKey": "wikiwiki.jp/kancolle/%E8%89%A6%E5%A8%98%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+  "rawPath": ".flow/local/source-cache/wikiwiki.jp/kancolle/%E8%89%A6%E5%A8%98%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+  "role": "locator-index",
+  "schemaVersion": 1,
+  "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%89%A6%E5%A8%98%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7"
+}

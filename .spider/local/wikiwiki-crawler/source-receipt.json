@@ -1,0 +1,80 @@
+{
+  "detailRoles": {
+    "equipment": "required-detail-pages",
+    "ship": "deferred-locator-only"
+  },
+  "details": {
+    "equipment": {
+      "completed": 574,
+      "failed": 0,
+      "finishedAt": "2026-07-09T04:16:02+00:00",
+      "nextEquipmentId": null,
+      "rawRoot": ".flow/local/source-cache",
+      "recordsPath": ".flow/local/wikiwiki-crawler/records.json",
+      "remaining": 0,
+      "role": "required-detail-pages",
+      "saved": 0,
+      "selected": 574,
+      "skipped": 574,
+      "sourceExcluded": 3,
+      "status": "ready",
+      "stopReason": null,
+      "summaryPath": ".flow/local/wikiwiki-crawler/summary.json",
+      "updatedAt": "2026-07-09T04:16:02+00:00"
+    },
+    "ship": {
+      "reason": "ship detail parsing is intentionally deferred; ship index locator is required",
+      "role": "deferred-locator-only",
+      "status": "deferred"
+    }
+  },
+  "generatedAt": "2026-07-09T04:16:02+00:00",
+  "indexes": {
+    "equipment": {
+      "catalogPath": ".flow/local/wikiwiki-crawler/catalog/equipment-pages.json",
+      "entryCount": 572,
+      "kind": "equipment",
+      "rawCacheKey": "wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+      "role": "locator-index",
+      "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7",
+      "status": "ready"
+    },
+    "improvement": {
+      "catalogPath": ".flow/local/wikiwiki-crawler/catalog/improvement-pages.json",
+      "entryCount": 0,
+      "kind": "improvement",
+      "rawCacheKey": "wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8.html",
+      "role": "validation-index",
+      "sourceUrl": "https://wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8",
+      "status": "ready"
+    },
+    "ship": {
+      "catalogPath": ".flow/local/wikiwiki-crawler/catalog/ship-pages.json",
+      "entryCount": 597,
+      "kind": "ship",
+      "rawCacheKey": "wikiwiki.jp/kancolle/%E8%89%A6%E5%A8%98%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.html",
+      "role": "locator-index",
+      "sourceUrl": "https://wikiwiki.jp/kancolle/%E8%89%A6%E5%A8%98%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7",
+      "status": "ready"
+    }
+  },
+  "mode": "source-acquisition-receipt",
+  "rawRoot": ".flow/local/source-cache",
+  "ready": true,
+  "requiredDetails": {
+    "equipment": "ready",
+    "ship": "deferred-or-ready"
+  },
+  "requiredIndexes": [
+    "ship",
+    "equipment",
+    "improvement"
+  ],
+  "roles": {
+    "equipment": "locator-index",
+    "improvement": "validation-index",
+    "ship": "locator-index"
+  },
+  "schemaVersion": 1,
+  "source": "wikiwiki-jp"
+}

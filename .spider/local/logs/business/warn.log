@@ -1,0 +1,442 @@
+2026-07-10 18:38:56,170 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 18:38:56,170 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 18:38:56,170 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 18:38:56,172 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 18:38:56,178 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 18:38:56,457 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 18:39:05,830 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 18:39:05,832 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 18:46:13,580 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 18:46:13,580 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 18:46:13,580 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 18:46:13,583 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 18:46:13,591 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 18:46:14,110 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 18:46:23,391 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 18:46:23,394 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 19:18:40,027 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 19:18:40,028 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 19:18:40,028 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 19:18:40,040 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 19:18:40,059 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 19:18:40,382 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 19:18:49,269 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 19:18:49,271 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 21:10:28,345 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 21:10:28,346 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 21:10:28,346 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 21:10:28,348 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 21:10:28,354 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 21:10:28,621 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 21:10:38,265 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 21:10:38,267 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 21:49:42,869 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 21:49:42,872 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 21:49:42,873 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 21:49:42,882 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 21:49:42,907 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 21:49:43,510 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 21:50:17,586 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 21:50:17,588 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 22:08:42,903 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 22:08:42,904 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 22:08:42,904 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 22:08:42,908 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 22:08:42,914 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 22:08:43,211 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 22:08:53,046 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 22:08:53,048 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 23:32:21,787 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 23:32:21,791 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 23:32:21,791 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 23:32:21,829 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 23:32:21,854 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 23:32:22,412 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 23:32:33,652 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 23:32:33,654 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-10 23:58:58,617 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 23:58:58,619 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-10 23:58:58,619 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-10 23:58:58,623 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-10 23:58:58,632 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-10 23:58:59,006 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-10 23:59:12,861 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-10 23:59:12,863 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 07:44:09,200 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 07:44:09,201 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 07:44:09,201 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 07:44:09,204 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 07:44:09,209 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 07:44:09,609 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 07:44:21,246 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 07:44:21,248 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 18:21:15,426 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 18:21:15,427 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 18:21:15,427 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 18:21:15,430 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 18:21:15,435 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 18:21:15,725 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 18:21:26,851 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 18:21:26,854 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 18:53:01,917 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 18:53:01,918 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 18:53:01,918 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 18:53:01,921 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 18:53:01,927 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 18:53:02,210 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 18:53:12,765 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 18:53:12,768 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 19:34:13,173 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 19:34:13,174 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 19:34:13,174 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 19:34:13,176 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 19:34:13,182 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 19:34:13,512 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 19:34:24,998 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 19:34:25,001 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 20:44:19,879 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 20:44:19,880 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 20:44:19,880 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 20:44:19,885 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 20:44:19,892 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 20:44:20,541 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 20:44:46,929 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 20:44:46,933 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-11 22:20:21,408 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 22:20:21,409 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-11 22:20:21,409 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-11 22:20:21,412 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-11 22:20:21,420 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-11 22:20:21,702 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-11 22:20:32,613 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-11 22:20:32,615 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 10:01:26,443 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 10:01:26,444 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 10:01:26,444 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 10:01:26,449 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 10:01:26,461 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 10:01:26,830 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 10:01:38,452 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 10:01:38,454 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 10:37:18,929 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 10:37:18,930 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 10:37:18,930 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 10:37:18,932 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 10:37:18,937 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 10:37:19,242 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 10:37:30,222 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 10:37:30,224 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 11:21:58,426 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 11:21:58,426 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 11:21:58,426 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 11:21:58,429 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 11:21:58,434 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 11:21:58,718 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 11:22:10,269 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 11:22:10,271 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 15:43:08,419 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 15:43:08,420 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 15:43:08,420 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 15:43:08,422 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 15:43:08,429 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 15:43:08,692 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 15:43:20,940 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 15:43:20,942 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 17:26:00,588 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 17:26:00,588 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 17:26:00,588 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 17:26:00,591 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 17:26:00,599 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 17:26:00,916 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 17:26:16,803 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 17:26:16,806 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 19:47:27,447 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 19:47:27,448 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 19:47:27,448 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 19:47:27,454 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 19:47:27,466 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 19:47:28,130 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 19:47:39,522 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 19:47:39,524 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 22:27:12,766 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 22:27:12,767 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 22:27:12,767 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 22:27:12,770 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 22:27:12,779 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 22:27:13,064 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 22:27:25,540 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 22:27:25,542 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-12 22:51:05,013 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 22:51:05,015 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-12 22:51:05,015 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-12 22:51:05,021 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-12 22:51:05,035 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-12 22:51:05,637 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-12 22:51:27,429 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-12 22:51:27,431 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 00:14:10,512 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 00:14:10,513 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 00:14:10,513 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 00:14:10,516 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 00:14:10,523 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 00:14:10,817 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 00:14:25,950 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 00:14:25,952 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 11:31:00,943 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 11:31:00,943 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 11:31:00,943 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 11:31:00,946 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 11:31:00,955 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 11:31:01,242 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 11:31:18,391 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 11:31:18,395 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 12:53:56,494 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 12:53:56,495 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 12:53:56,495 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 12:53:56,498 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 12:53:56,507 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 12:53:56,795 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 12:54:17,180 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 12:54:17,185 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 14:58:23,220 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 14:58:23,220 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 14:58:23,220 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 14:58:23,225 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 14:58:23,231 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 14:58:23,518 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 14:58:35,292 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 14:58:35,294 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 17:46:29,813 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 17:46:29,813 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 17:46:29,813 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 17:46:29,818 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 17:46:29,824 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 17:46:30,095 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 17:46:41,604 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 17:46:41,606 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 19:06:09,305 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 19:06:09,306 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 19:06:09,307 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 19:06:09,314 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 19:06:09,322 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:20:19,388 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:20:19,388 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 20:20:19,389 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 20:20:19,391 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 20:20:19,396 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:21:12,281 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:21:12,281 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 20:21:12,281 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 20:21:12,284 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 20:21:12,289 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:25:27,368 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:25:27,368 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 20:25:27,368 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 20:25:27,371 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 20:25:27,377 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:25:27,723 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 20:25:42,012 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 20:25:42,017 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 20:25:49,294 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 20:25:49,294 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 20:25:49,294 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 20:25:49,298 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 20:25:49,303 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:17:00,244 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:17:00,244 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 21:17:00,244 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 21:17:00,246 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 21:17:00,252 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:18:38,080 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:18:38,087 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 21:18:38,087 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 21:18:38,118 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 21:18:38,139 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:18:38,679 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 21:18:51,755 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 21:18:51,757 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 21:18:58,069 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 21:18:58,070 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 21:18:58,070 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 21:18:58,072 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 21:18:58,078 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:04:02,852 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:04:02,852 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:04:02,852 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:04:02,854 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:04:02,861 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:13:28,434 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:13:28,435 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:13:28,435 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:13:28,438 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:13:28,443 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:14:31,281 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:14:31,282 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:14:31,282 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:14:31,285 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:14:31,291 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:14:31,699 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 22:14:47,602 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 22:14:47,604 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 22:14:54,209 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:14:54,209 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:14:54,210 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:14:54,212 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:14:54,218 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:32:56,674 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:32:56,674 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:32:56,674 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:32:56,677 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:32:56,688 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:33:16,673 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:33:16,673 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:33:16,673 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:33:16,680 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:33:16,687 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:33:17,112 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 22:33:31,970 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 22:33:31,972 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 22:33:38,354 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 22:33:38,354 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 22:33:38,354 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 22:33:38,356 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 22:33:38,362 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:42:41,279 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:42:41,279 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 23:42:41,279 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 23:42:41,283 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 23:42:41,289 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:43:29,177 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:43:29,178 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 23:43:29,178 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 23:43:29,181 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 23:43:29,188 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:43:29,693 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-13 23:43:47,981 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-13 23:43:47,983 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-13 23:43:55,797 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-13 23:43:55,797 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-13 23:43:55,798 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-13 23:43:55,802 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-13 23:43:55,810 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-14 01:29:30,511 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-14 01:29:30,511 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-14 01:29:30,511 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-14 01:29:30,514 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-14 01:29:30,520 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-14 01:36:32,654 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-14 01:36:32,654 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-14 01:36:32,654 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-14 01:36:32,657 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-14 01:36:32,662 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 12:21:07,696 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w017.html attempt=1/4 delay=1.18s reason=ReadTimeout: HTTPSConnectionPool(host='akashi-list.me', port=443): Read timed out. (read timeout=10)
+2026-07-15 12:24:15,501 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w058.html attempt=1/4 delay=1.13s reason=SSLError: HTTPSConnectionPool(host='akashi-list.me', port=443): Max retries exceeded with url: /detail/w058.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:26:04,202 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w522.html attempt=1/4 delay=1.03s reason=SSLError: HTTPSConnectionPool(host='akashi-list.me', port=443): Max retries exceeded with url: /detail/w522.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:27:13,842 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://akashi-list.me/detail/w496.html attempt=1/4 delay=1.22s reason=ReadTimeout: HTTPSConnectionPool(host='akashi-list.me', port=443): Read timed out. (read timeout=10)
+2026-07-15 12:28:44,411 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0019_8715.png?version=2 attempt=1/4 delay=1.14s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0019_8715.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:29:16,392 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0030_7605.png?version=2 attempt=1/4 delay=1.17s reason=ConnectionError: ('Connection aborted.', OSError(50, 'Network is down'))
+2026-07-15 12:31:18,573 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0087_3845.png attempt=1/4 delay=1.14s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0087_3845.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:32:58,713 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0134_3586.png attempt=1/4 delay=1.07s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0134_3586.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:33:04,816 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0134_3586.png attempt=2/4 delay=2.17s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0134_3586.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:34:07,225 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0165_3477.png?version=2 attempt=1/4 delay=1.10s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0165_3477.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:42:46,960 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0487_3351.png attempt=1/4 delay=1.02s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0487_3351.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:43:34,668 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0520_3453.png?version=2 attempt=1/4 delay=1.02s reason=ConnectionError: ('Connection aborted.', OSError(50, 'Network is down'))
+2026-07-15 12:44:20,452 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0543_3795.png?version=2 attempt=1/4 delay=1.25s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0543_3795.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:44:31,335 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/slot/card/0546_5598.png?version=2 attempt=1/4 delay=1.12s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/slot/card/0546_5598.png?version=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 12:45:25,058 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://w15p.kancolle-server.com/kcs2/resources/useitem/card/077.png attempt=1/4 delay=1.10s reason=SSLError: HTTPSConnectionPool(host='w15p.kancolle-server.com', port=443): Max retries exceeded with url: /kcs2/resources/useitem/card/077.png (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+2026-07-15 13:45:13,433 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=571 updated=571
+2026-07-15 13:45:18,319 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable
+2026-07-15 13:55:30,878 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 13:55:30,879 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 13:55:30,879 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 13:55:30,881 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 13:55:30,892 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 13:55:31,277 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 13:55:31,284 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 13:55:31,293 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 13:55:47,538 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 13:55:47,540 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 14:29:55,055 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:29:55,056 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 14:29:55,056 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 14:29:55,059 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 14:29:55,064 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:29:55,887 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 14:29:55,903 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 14:29:55,932 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 14:30:10,444 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 14:30:10,447 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 14:30:17,264 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:30:17,264 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 14:30:17,264 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 14:30:17,267 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 14:30:17,272 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:47:31,415 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:47:31,416 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 14:47:31,416 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 14:47:31,418 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 14:47:31,424 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:47:32,022 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 14:47:32,028 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 14:47:32,039 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 14:47:47,462 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 14:47:47,464 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 14:47:57,071 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 14:47:57,071 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 14:47:57,071 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 14:47:57,081 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 14:47:57,094 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 17:01:33,353 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable
+2026-07-15 17:01:50,215 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 17:01:50,216 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 17:01:50,216 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 17:01:50,220 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 17:01:50,225 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 17:01:50,998 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 17:01:51,007 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 17:01:51,017 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 17:02:04,715 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 17:02:04,717 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 17:02:11,380 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 17:02:11,381 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 17:02:11,381 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 17:02:11,383 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 17:02:11,388 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 18:20:11,038 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable
+2026-07-15 18:21:47,268 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 18:21:47,269 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 18:21:47,269 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 18:21:47,271 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 18:21:47,277 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 18:21:48,103 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 18:21:48,110 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 18:21:48,121 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 18:22:02,878 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 18:22:02,880 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 18:22:09,864 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 18:22:09,865 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 18:22:09,865 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 18:22:09,867 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 18:22:09,872 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 19:52:14,113 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable
+2026-07-15 20:07:36,612 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=3; formal values remain sourced from KCWiki _buildable
+2026-07-15 20:08:39,339 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 20:08:39,340 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 20:08:39,340 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 20:08:39,343 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 20:08:39,348 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 20:08:41,072 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 20:08:41,072 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 20:08:41,072 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 20:08:41,074 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 20:08:41,080 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 20:08:41,723 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] restored legacy crawler metadata from validated catalog; captures=1 updated=1
+2026-07-15 20:08:41,735 [WARNING] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] no local raw cache and no public acquisition snapshot are available; writing source-unavailable placeholder; quest-based equipment source evidence is omitted
+2026-07-15 20:08:41,747 [WARNING] [service.data_package.equipment_sources] [EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] wikiwikiMissing=2; formal values remain sourced from KCWiki _buildable
+2026-07-15 20:08:56,350 [WARNING] [util.start2.start2_utils] [start2] failed to fetch remote index, skip update: offline
+2026-07-15 20:08:56,352 [WARNING] [util.start2.start2_utils] [start2] current data download failed; using valid local cache: local=old-version ageHours=1.00 error=offline
+2026-07-15 20:09:03,438 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof
+2026-07-15 20:09:03,438 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=2/4 delay=2.00s reason=SSLError: temporary eof
+2026-07-15 20:09:03,438 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=3/4 delay=4.00s reason=SSLError: temporary eof
+2026-07-15 20:09:03,441 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=2.00s reason=HTTPError: HTTP 503
+2026-07-15 20:09:03,446 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://example.test/data.json attempt=1/4 delay=1.00s reason=SSLError: temporary eof

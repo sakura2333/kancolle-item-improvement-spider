@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Equipment special bonus record",
+  "type": "object",
+  "required": ["target", "rules"],
+  "properties": {
+    "target": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["kind", "equipmentIds"],
+          "properties": {
+            "kind": { "const": "equipment" },
+            "equipmentIds": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["kind", "equipmentTypeIds"],
+          "properties": {
+            "kind": { "const": "equipment-type" },
+            "equipmentTypeIds": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "equipmentId": { "type": "integer", "minimum": 1 },
+    "equipmentName": { "type": "string" },
+    "equipmentTypeIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["bonus", "conditions"],
+        "properties": {
+          "bonus": { "type": "object", "minProperties": 1, "additionalProperties": { "type": "number" } },
+          "conditions": { "type": "object" }
+        }
+      }
+    }
+  }
+}

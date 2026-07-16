@@ -1,0 +1,197 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/test.py before
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m unittest tests.test_config_guard tests.test_external_tooling_boundary tests.test_operator_stop tools/wikiwiki-crawler/tests/test_crawler.py tests.test_generated_state tests.test_project_commands tests.test_flow_command tests.test_python_environment tests.test_quality_profile_boundaries tests.test_script_convergence tests.test_command_support tests.test_wikiwiki_flow_command tests.test_wikiwiki_crawler -v
+test_committed_default_configs_are_allowed (tests.test_config_guard.ConfigGovernanceTest.test_committed_default_configs_are_allowed) ... ok
+test_configs_readme_is_required_but_not_json_contract (tests.test_config_guard.ConfigGovernanceTest.test_configs_readme_is_required_but_not_json_contract) ... ok
+test_non_template_config_rejects_local_absolute_paths (tests.test_config_guard.ConfigGovernanceTest.test_non_template_config_rejects_local_absolute_paths) ... ok
+test_non_template_config_rejects_placeholders (tests.test_config_guard.ConfigGovernanceTest.test_non_template_config_rejects_placeholders) ... ok
+test_private_config_is_rejected_even_under_configs (tests.test_config_guard.ConfigGovernanceTest.test_private_config_is_rejected_even_under_configs) ... ok
+test_tool_config_example_must_move_to_configs_default (tests.test_config_guard.ConfigGovernanceTest.test_tool_config_example_must_move_to_configs_default) ... ok
+test_tracked_generated_data_json_is_not_treated_as_config_placeholder (tests.test_config_guard.ConfigGovernanceTest.test_tracked_generated_data_json_is_not_treated_as_config_placeholder) ... ok
+test_core_python_has_no_tool_dependency (tests.test_external_tooling_boundary.ExternalToolingBoundaryTest.test_core_python_has_no_tool_dependency) ... ok
+test_guard_and_manifest_define_external_boundary (tests.test_external_tooling_boundary.ExternalToolingBoundaryTest.test_guard_and_manifest_define_external_boundary) ... ok
+test_local_tool_state_is_preserved_and_ignored (tests.test_external_tooling_boundary.ExternalToolingBoundaryTest.test_local_tool_state_is_preserved_and_ignored) ... ok
+test_tool_is_registered_only_as_thin_flow_command (tests.test_external_tooling_boundary.ExternalToolingBoundaryTest.test_tool_is_registered_only_as_thin_flow_command) ... ok
+test_forced_color_and_stop_summaries_are_printed (tests.test_operator_stop.OperatorStopTest.test_forced_color_and_stop_summaries_are_printed) ... ok
+test_success_cleanup_removes_stale_stop_files (tests.test_operator_stop.OperatorStopTest.test_success_cleanup_removes_stale_stop_files) ... ok
+test_writes_deduplicated_primary_and_all_stop_files (tests.test_operator_stop.OperatorStopTest.test_writes_deduplicated_primary_and_all_stop_files) ... ok
+test_catalog_all_writes_three_index_receipt (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiCrawlerToolTest.test_catalog_all_writes_three_index_receipt) ... ok
+test_catalog_inspect_and_capture_with_fake_curl (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiCrawlerToolTest.test_catalog_inspect_and_capture_with_fake_curl) ... ok
+test_migrate_existing_html_into_shared_raw_cache (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiCrawlerToolTest.test_migrate_existing_html_into_shared_raw_cache) ... ok
+test_unresolved_name_is_not_requested (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiCrawlerToolTest.test_unresolved_name_is_not_requested) ... ok
+test_duplicate_normalized_names_are_ambiguous (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_duplicate_normalized_names_are_ambiguous) ... ok
+test_exact_link_page_name_wins_over_truncated_card_label (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_exact_link_page_name_wins_over_truncated_card_label) ... ok
+test_human_accepted_alias_can_resolve_direct_page_when_catalog_omits_entry (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_human_accepted_alias_can_resolve_direct_page_when_catalog_omits_entry) ... ok
+test_human_accepted_exclusion_is_not_resolved_or_requested (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_human_accepted_exclusion_is_not_resolved_or_requested) ... ok
+test_human_accepted_name_alias_resolves_exact_wiki_page (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_human_accepted_name_alias_resolves_exact_wiki_page) ... ok
+test_match_report_converts_resolver_exceptions_to_invalid_diagnostics (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_match_report_converts_resolver_exceptions_to_invalid_diagnostics) ... ok
+test_match_report_counts_accepted_source_exclusions (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_match_report_counts_accepted_source_exclusions) ... ok
+test_name_match_uses_exact_list_url_and_normalizes_fullwidth_plus (tools.wikiwiki-crawler.tests.test_crawler.WikiWikiPageCatalogTest.test_name_match_uses_exact_list_url_and_normalizes_fullwidth_plus) ... ok
+test_apply_no_changes_creates_no_backup (tests.test_generated_state.GeneratedStateTest.test_apply_no_changes_creates_no_backup) ... ok
+test_artifact_is_deterministic_and_receipt_is_verified (tests.test_generated_state.GeneratedStateTest.test_artifact_is_deterministic_and_receipt_is_verified) ... ok
+test_artifact_receipt_detects_archive_replacement (tests.test_generated_state.GeneratedStateTest.test_artifact_receipt_detects_archive_replacement) ... ok
+test_artifact_rejects_path_traversal (tests.test_generated_state.GeneratedStateTest.test_artifact_rejects_path_traversal) ... ok
+test_config_rejects_forbidden_baseline_path (tests.test_generated_state.GeneratedStateTest.test_config_rejects_forbidden_baseline_path) ... ok
+test_export_rejects_project_ancestor_as_output (tests.test_generated_state.GeneratedStateTest.test_export_rejects_project_ancestor_as_output) ... ok
+test_export_verify_and_detect_tampering (tests.test_generated_state.GeneratedStateTest.test_export_verify_and_detect_tampering) ... ok
+test_sync_is_explicit_and_recoverable (tests.test_generated_state.GeneratedStateTest.test_sync_is_explicit_and_recoverable) ... ok
+test_bound_contract_is_exact_and_immutable (tests.test_project_commands.ProjectCommandContractTest.test_bound_contract_is_exact_and_immutable) ... ok
+test_code_candidate_check_allows_generated_manifest_version_lag (tests.test_project_commands.ProjectCommandContractTest.test_code_candidate_check_allows_generated_manifest_version_lag) ... ok
+test_human_interface_and_side_effects_are_fixed (tests.test_project_commands.ProjectCommandContractTest.test_human_interface_and_side_effects_are_fixed) ... ok
+test_only_three_public_capabilities_are_enabled (tests.test_project_commands.ProjectCommandContractTest.test_only_three_public_capabilities_are_enabled) ... ok
+test_project_check_accepts_single_control_plane (tests.test_project_commands.ProjectCommandContractTest.test_project_check_accepts_single_control_plane) ... $ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m compileall -q configs pojo service util script
+[完成] 项目 before 检查通过
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m compileall -q configs pojo service util script
+[完成] 项目 before 检查通过
+ok
+test_capabilities_match_public_contract (tests.test_flow_command.FlowCommandTest.test_capabilities_match_public_contract) ... ok
+test_default_flow_is_active_navigator_not_large_menu (tests.test_flow_command.FlowCommandTest.test_default_flow_is_active_navigator_not_large_menu) ... ok
+test_help_only_exposes_public_commands_and_project_tool_boundary (tests.test_flow_command.FlowCommandTest.test_help_only_exposes_public_commands_and_project_tool_boundary) ... ok
+test_human_output_has_fixed_sections (tests.test_flow_command.FlowCommandTest.test_human_output_has_fixed_sections) ... ok
+test_machine_status_is_single_contract_json_document (tests.test_flow_command.FlowCommandTest.test_machine_status_is_single_contract_json_document) ... ok
+test_non_interactive_remote_write_requires_one_confirmation (tests.test_flow_command.FlowCommandTest.test_non_interactive_remote_write_requires_one_confirmation) ... ok
+test_dependency_mismatch_is_not_reported_as_code_failure (tests.test_python_environment.PythonEnvironmentContractTest.test_dependency_mismatch_is_not_reported_as_code_failure) ... ok
+test_flow_check_stops_before_quality_when_environment_is_missing (tests.test_python_environment.PythonEnvironmentContractTest.test_flow_check_stops_before_quality_when_environment_is_missing) ... ok
+test_missing_venv_has_single_initialization_action (tests.test_python_environment.PythonEnvironmentContractTest.test_missing_venv_has_single_initialization_action) ... ok
+test_staging_reuses_main_worktree_environment (tests.test_python_environment.PythonEnvironmentContractTest.test_staging_reuses_main_worktree_environment) ... ok
+test_quality_command_accepts_internal_release_profile (tests.test_quality_profile_boundaries.QualityProfileBoundaryTest.test_quality_command_accepts_internal_release_profile) ... ok
+test_release_policy_file_is_not_part_of_default_test_discovery (tests.test_quality_profile_boundaries.QualityProfileBoundaryTest.test_release_policy_file_is_not_part_of_default_test_discovery) ... ok
+test_runtime_keeps_release_checks_out_of_public_profiles (tests.test_quality_profile_boundaries.QualityProfileBoundaryTest.test_runtime_keeps_release_checks_out_of_public_profiles) ... ok
+test_stable_preview_rejects_failed_release_policy (tests.test_quality_profile_boundaries.QualityProfileBoundaryTest.test_stable_preview_rejects_failed_release_policy) ... ok
+test_stable_preview_runs_release_policy_profile (tests.test_quality_profile_boundaries.QualityProfileBoundaryTest.test_stable_preview_runs_release_policy_profile) ... ok
+test_layer_dependencies_are_one_way (tests.test_script_convergence.FlowConvergenceTest.test_layer_dependencies_are_one_way) ... ok
+test_no_old_control_semantics_or_parallel_entrypoints (tests.test_script_convergence.FlowConvergenceTest.test_no_old_control_semantics_or_parallel_entrypoints) ... ok
+test_only_one_public_binding_and_thin_adapter (tests.test_script_convergence.FlowConvergenceTest.test_only_one_public_binding_and_thin_adapter) ... ok
+test_update_and_recovery_are_loaded_only_when_called (tests.test_script_convergence.FlowConvergenceTest.test_update_and_recovery_are_loaded_only_when_called) ... ok
+test_run_logged_does_not_pollute_json_stdout (tests.test_command_support.CommandSupportTest.test_run_logged_does_not_pollute_json_stdout) ... ok
+test_run_logged_failure_reports_log_tail (tests.test_command_support.CommandSupportTest.test_run_logged_failure_reports_log_tail) ... ok
+test_run_logged_prints_log_path_and_streams_output_to_stderr (tests.test_command_support.CommandSupportTest.test_run_logged_prints_log_path_and_streams_output_to_stderr) ... ok
+test_config_action_materializes_local_config (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_config_action_materializes_local_config) ... ok
+test_config_action_migrates_legacy_flow_local_config (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_config_action_migrates_legacy_flow_local_config) ... ok
+test_config_action_reports_existing_local_config (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_config_action_reports_existing_local_config) ... ok
+test_daily_flow_does_not_suggest_run_when_receipt_incomplete (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_daily_flow_does_not_suggest_run_when_receipt_incomplete) ... ok
+test_daily_flow_runs_catalog_then_crawl (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_daily_flow_runs_catalog_then_crawl) ... ok
+test_full_flow_refreshes_catalog_and_uses_full_limit (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_full_flow_refreshes_catalog_and_uses_full_limit) ... ok
+test_full_flow_rejects_incomplete_detail_receipt (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_full_flow_rejects_incomplete_detail_receipt) ... ok
+test_missing_config_is_materialized_from_template_and_stops_for_review (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_missing_config_is_materialized_from_template_and_stops_for_review) ... ok
+test_missing_template_is_clear_failure_and_writes_log (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_missing_template_is_clear_failure_and_writes_log) ... ok
+test_session_runs_only_session_command (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_session_runs_only_session_command) ... ok
+test_smoke_flow_runs_three_item_chain_without_claiming_ready (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_smoke_flow_runs_three_item_chain_without_claiming_ready) ... ok
+test_smoke_rejects_full_flag (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_smoke_rejects_full_flag) ... ok
+test_source_does_not_publish_or_push (tests.test_wikiwiki_flow_command.WikiWikiFlowCommandTest.test_source_does_not_publish_or_push) ... ok
+test_accepted_source_exclusion_does_not_stop_crawl (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_accepted_source_exclusion_does_not_stop_crawl) ... [1/1] id=337 name=烈風改二(一航戦/熟練) status=source-excluded
+[source-receipt] ready=false equipmentDetails=ready output=/private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpp_og7ltw/state/source-receipt.json
+WikiWiki external crawl summary
+- selected: 1
+- dailyLimit: 1
+- cycleDays: 1
+- attempted: 0
+- completed: 1
+- saved: 0
+- skipped: 1
+- newPages: 0
+- changedPages: 0
+- unchangedPages: 0
+- failed: 0
+- rateLimited: 0
+- remaining: 0
+- nextEquipmentId: None
+- sourceExcluded: 1
+- pageNumberMismatch: 0
+- pageNumberMissing: 0
+- idMismatch: 0
+- idMissing: 0
+- stopReason: none
+- state output: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpp_og7ltw/state
+- raw cache: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpp_og7ltw/raw
+ok
+test_catalog_receipt_is_not_ready_before_detail_crawl (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_catalog_receipt_is_not_ready_before_detail_crawl) ... ok
+test_cli_daily_limit_overrides_config_daily_limit (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_cli_daily_limit_overrides_config_daily_limit) ... ok
+test_config_daily_limit_is_used_when_cli_omitted (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_config_daily_limit_is_used_when_cli_omitted) ... [1/3] id=1 name=A status=saved http=200
+[2/3] id=2 name=B status=saved http=200
+[source-receipt] ready=false equipmentDetails=incomplete output=/private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpfsa4j40e/state/source-receipt.json
+WikiWiki external crawl summary
+- selected: 3
+- dailyLimit: 2
+- cycleDays: 2
+- attempted: 2
+- completed: 2
+- saved: 2
+- skipped: 0
+- newPages: 2
+- changedPages: 0
+- unchangedPages: 0
+- failed: 0
+- rateLimited: 0
+- remaining: 1
+- nextEquipmentId: 3
+- sourceExcluded: 0
+- pageNumberMismatch: 0
+- pageNumberMissing: 0
+- idMismatch: 0
+- idMissing: 0
+- stopReason: none
+- state output: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpfsa4j40e/state
+- raw cache: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpfsa4j40e/raw
+ok
+test_detail_receipt_ready_requires_no_remaining_or_failed_pages (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_detail_receipt_ready_requires_no_remaining_or_failed_pages) ... ok
+test_playwright_config_does_not_require_copied_cookie (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_playwright_config_does_not_require_copied_cookie) ... ok
+test_request_dispatches_to_playwright_transport (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_request_dispatches_to_playwright_transport) ... ok
+test_resume_skips_do_not_consume_daily_limit (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_resume_skips_do_not_consume_daily_limit) ... [1/3] id=1 name=A status=resume-skip
+[2/3] id=2 name=B status=saved http=200
+[source-receipt] ready=false equipmentDetails=incomplete output=/private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpqwv6c5x4/state/source-receipt.json
+WikiWiki external crawl summary
+- selected: 3
+- dailyLimit: 1
+- cycleDays: 3
+- attempted: 1
+- completed: 2
+- saved: 1
+- skipped: 1
+- newPages: 1
+- changedPages: 0
+- unchangedPages: 0
+- failed: 0
+- rateLimited: 0
+- remaining: 1
+- nextEquipmentId: 3
+- sourceExcluded: 0
+- pageNumberMismatch: 0
+- pageNumberMissing: 0
+- idMismatch: 0
+- idMissing: 0
+- stopReason: none
+- state output: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpqwv6c5x4/state
+- raw cache: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpqwv6c5x4/raw
+ok
+test_source_page_number_mismatch_is_diagnostic_not_identity_gate (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_source_page_number_mismatch_is_diagnostic_not_identity_gate) ... [1/1] id=1 name=A status=saved http=200
+[source-receipt] ready=false equipmentDetails=ready output=/private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpu52eascr/state/source-receipt.json
+WikiWiki external crawl summary
+- selected: 1
+- dailyLimit: 1
+- cycleDays: 1
+- attempted: 1
+- completed: 1
+- saved: 1
+- skipped: 0
+- newPages: 1
+- changedPages: 0
+- unchangedPages: 0
+- failed: 0
+- rateLimited: 0
+- remaining: 0
+- nextEquipmentId: None
+- sourceExcluded: 0
+- pageNumberMismatch: 1
+- pageNumberMissing: 0
+- idMismatch: 1
+- idMissing: 0
+- stopReason: none
+- state output: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpu52eascr/state
+- raw cache: /private/var/folders/ml/2y6lms5d0gn1m0d0wq4bb36c0000gn/T/tmpu52eascr/raw
+ok
+test_stale_capture_is_not_resumable (tests.test_wikiwiki_crawler.WikiWikiCrawlerTest.test_stale_capture_is_not_resumable) ... ok
+
+----------------------------------------------------------------------
+Ran 84 tests in 5.603s
+
+OK

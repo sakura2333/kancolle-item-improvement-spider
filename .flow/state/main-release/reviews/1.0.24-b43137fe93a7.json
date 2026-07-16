@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-b43137fe93a7",
+  "candidateCommit": "09a6c9de8c49408dfdade3775ced4719410df8a8",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Candidate ZIP SHA-256 390088e6a37097aae43288b72dbf963de749d9483e835d40b68349830c9f95b2. The archive contains exactly 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json. Its nine actual changes exactly match the Review Delta: runtime=0, automation=2, packageTemplate=0, documentation=7, retiredPublic=0, uncategorized=0. The invalid nested Python heredoc was removed from Prepare frozen release projection and replaced by the formal automation.release.npm_release_set hydrate-published command. All 28 public Workflow run blocks pass bash -n after GitHub expression normalization. Stateless planning was executed for fully aligned, online-lagged, missing-improvement2, new-digest, and digest-conflict states: aligned is a no-op, incomplete same-digest states reconcile the existing version, only a new consumer digest allocates a new patch, and canonical/improvement2 digest mismatch fails. Direct Registry artifact simulation confirmed hydrate-published accepts matching variant digests and rejects mismatches; release-set verification reopens both tarballs and checks their RELEASES.json contentDigest values. Public Python compilation, Workflow YAML parsing, archive safety, and sensitive-information checks passed. The user's canonical Quick run also completed successfully with one environment-dependent integration test skipped."
+}

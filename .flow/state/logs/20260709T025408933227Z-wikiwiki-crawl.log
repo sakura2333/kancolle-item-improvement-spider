@@ -1,0 +1,602 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider crawl --start2 dist/data-pipeline/start2_data/api_mst_slotitem.json --daily-limit 10000
+[1/574] id=1 name=12cm単装砲 status=resume-skip
+[2/574] id=2 name=12.7cm連装砲 status=resume-skip
+[3/574] id=3 name=10cm連装高角砲 status=resume-skip
+[4/574] id=4 name=14cm単装砲 status=resume-skip
+[5/574] id=5 name=15.5cm三連装砲 status=resume-skip
+[6/574] id=6 name=20.3cm連装砲 status=resume-skip
+[7/574] id=7 name=35.6cm連装砲 status=resume-skip
+[8/574] id=8 name=41cm連装砲 status=resume-skip
+[9/574] id=9 name=46cm三連装砲 status=resume-skip
+[10/574] id=10 name=12.7cm連装高角砲 status=resume-skip
+[11/574] id=11 name=15.2cm単装砲 status=resume-skip
+[12/574] id=12 name=15.5cm三連装副砲 status=resume-skip
+[13/574] id=13 name=61cm三連装魚雷 status=resume-skip
+[14/574] id=14 name=61cm四連装魚雷 status=resume-skip
+[15/574] id=15 name=61cm四連装(酸素)魚雷 status=resume-skip
+[16/574] id=16 name=九七式艦攻 status=resume-skip
+[17/574] id=17 name=天山 status=resume-skip
+[18/574] id=18 name=流星 status=resume-skip
+[19/574] id=19 name=九六式艦戦 status=resume-skip
+[20/574] id=20 name=零式艦戦21型 status=resume-skip
+[21/574] id=21 name=零式艦戦52型 status=resume-skip
+[22/574] id=22 name=試製烈風 後期型 status=resume-skip
+[23/574] id=23 name=九九式艦爆 status=resume-skip
+[24/574] id=24 name=彗星 status=resume-skip
+[25/574] id=25 name=零式水上偵察機 status=resume-skip
+[26/574] id=26 name=瑞雲 status=resume-skip
+[27/574] id=27 name=13号対空電探 status=resume-skip
+[28/574] id=28 name=22号対水上電探 status=resume-skip
+[29/574] id=29 name=33号対水上電探 status=resume-skip
+[30/574] id=30 name=21号対空電探 status=resume-skip
+[31/574] id=31 name=32号対水上電探 status=resume-skip
+[32/574] id=32 name=42号対空電探 status=resume-skip
+[33/574] id=33 name=改良型艦本式タービン status=resume-skip
+[34/574] id=34 name=強化型艦本式缶 status=resume-skip
+[35/574] id=35 name=三式弾 status=resume-skip
+[36/574] id=36 name=九一式徹甲弾 status=resume-skip
+[37/574] id=37 name=7.7mm機銃 status=resume-skip
+[38/574] id=38 name=12.7mm単装機銃 status=resume-skip
+[39/574] id=39 name=25mm連装機銃 status=resume-skip
+[40/574] id=40 name=25mm三連装機銃 status=resume-skip
+[41/574] id=41 name=甲標的 甲型 status=resume-skip
+[42/574] id=42 name=応急修理要員 status=resume-skip
+[43/574] id=43 name=応急修理女神 status=resume-skip
+[44/574] id=44 name=九四式爆雷投射機 status=resume-skip
+[45/574] id=45 name=三式爆雷投射機 status=resume-skip
+[46/574] id=46 name=九三式水中聴音機 status=resume-skip
+[47/574] id=47 name=三式水中探信儀 status=resume-skip
+[48/574] id=48 name=12cm単装高角砲 status=resume-skip
+[49/574] id=49 name=25mm単装機銃 status=resume-skip
+[50/574] id=50 name=20.3cm(3号)連装砲 status=resume-skip
+[51/574] id=51 name=12cm30連装噴進砲 status=resume-skip
+[52/574] id=52 name=流星改 status=resume-skip
+[53/574] id=53 name=烈風 一一型 status=resume-skip
+[54/574] id=54 name=彩雲 status=resume-skip
+[55/574] id=55 name=紫電改二 status=resume-skip
+[56/574] id=56 name=震電改 status=resume-skip
+[57/574] id=57 name=彗星一二型甲 status=resume-skip
+[58/574] id=58 name=61cm五連装(酸素)魚雷 status=resume-skip
+[59/574] id=59 name=零式水上観測機 status=resume-skip
+[60/574] id=60 name=零式艦戦62型(爆戦) status=resume-skip
+[61/574] id=61 name=二式艦上偵察機 status=resume-skip
+[62/574] id=62 name=試製晴嵐 status=resume-skip
+[63/574] id=63 name=12.7cm連装砲B型改二 status=resume-skip
+[64/574] id=64 name=Ju87C改 status=resume-skip
+[65/574] id=65 name=15.2cm連装砲 status=resume-skip
+[66/574] id=66 name=8cm高角砲 status=resume-skip
+[67/574] id=67 name=53cm艦首(酸素)魚雷 status=resume-skip
+[68/574] id=68 name=大発動艇 status=resume-skip
+[69/574] id=69 name=カ号観測機 status=resume-skip
+[70/574] id=70 name=三式指揮連絡機(対潜) status=resume-skip
+[71/574] id=71 name=10cm連装高角砲(砲架) status=resume-skip
+[72/574] id=72 name=増設バルジ(中型艦) status=resume-skip
+[73/574] id=73 name=増設バルジ(大型艦) status=resume-skip
+[74/574] id=74 name=探照灯 status=resume-skip
+[75/574] id=75 name=ドラム缶(輸送用) status=resume-skip
+[76/574] id=76 name=38cm連装砲 status=resume-skip
+[77/574] id=77 name=15cm連装副砲 status=resume-skip
+[78/574] id=78 name=12.7cm単装砲 status=resume-skip
+[79/574] id=79 name=瑞雲(六三四空) status=resume-skip
+[80/574] id=80 name=瑞雲12型 status=resume-skip
+[81/574] id=81 name=瑞雲12型(六三四空) status=resume-skip
+[82/574] id=82 name=九七式艦攻(九三一空) status=resume-skip
+[83/574] id=83 name=天山(九三一空) status=resume-skip
+[84/574] id=84 name=2cm 四連装FlaK 38 status=resume-skip
+[85/574] id=85 name=3.7cm FlaK M42 status=resume-skip
+[86/574] id=86 name=艦艇修理施設 status=resume-skip
+[87/574] id=87 name=新型高温高圧缶 status=resume-skip
+[88/574] id=88 name=22号対水上電探改四 status=resume-skip
+[89/574] id=89 name=21号対空電探改 status=resume-skip
+[90/574] id=90 name=20.3cm(2号)連装砲 status=resume-skip
+[91/574] id=91 name=12.7cm連装高角砲(後期型) status=resume-skip
+[92/574] id=92 name=毘式40mm連装機銃 status=resume-skip
+[93/574] id=93 name=九七式艦攻(友永隊) status=resume-skip
+[94/574] id=94 name=天山一二型(友永隊) status=resume-skip
+[95/574] id=95 name=潜水艦53cm艦首魚雷(8門) status=resume-skip
+[96/574] id=96 name=零式艦戦21型(熟練) status=resume-skip
+[97/574] id=97 name=九九式艦爆(熟練) status=resume-skip
+[98/574] id=98 name=九七式艦攻(熟練) status=resume-skip
+[99/574] id=99 name=九九式艦爆(江草隊) status=resume-skip
+[100/574] id=100 name=彗星(江草隊) status=resume-skip
+[101/574] id=101 name=照明弾 status=resume-skip
+[102/574] id=102 name=九八式水上偵察機(夜偵) status=resume-skip
+[103/574] id=103 name=試製35.6cm三連装砲 status=resume-skip
+[104/574] id=104 name=35.6cm連装砲(ダズル迷彩) status=resume-skip
+[105/574] id=105 name=試製41cm三連装砲 status=resume-skip
+[106/574] id=106 name=13号対空電探改 status=resume-skip
+[107/574] id=107 name=艦隊司令部施設 status=resume-skip
+[108/574] id=108 name=熟練艦載機整備員 status=resume-skip
+[109/574] id=109 name=零戦52型丙(六〇一空) status=resume-skip
+[110/574] id=110 name=烈風(六〇一空) status=resume-skip
+[111/574] id=111 name=彗星(六〇一空) status=resume-skip
+[112/574] id=112 name=天山(六〇一空) status=resume-skip
+[113/574] id=113 name=流星(六〇一空) status=resume-skip
+[114/574] id=114 name=38cm連装砲改 status=resume-skip
+[115/574] id=115 name=Ar196改 status=resume-skip
+[116/574] id=116 name=一式徹甲弾 status=resume-skip
+[117/574] id=117 name=試製46cm連装砲 status=resume-skip
+[118/574] id=118 name=紫雲 status=resume-skip
+[119/574] id=119 name=14cm連装砲 status=resume-skip
+[120/574] id=120 name=91式高射装置 status=resume-skip
+[121/574] id=121 name=94式高射装置 status=resume-skip
+[122/574] id=122 name=10cm連装高角砲+高射装置 status=resume-skip
+[123/574] id=123 name=SKC34 20.3cm連装砲 status=resume-skip
+[124/574] id=124 name=FuMO25 レーダー status=resume-skip
+[125/574] id=125 name=61cm三連装(酸素)魚雷 status=resume-skip
+[126/574] id=126 name=WG42 (Wurfgerät 42) status=resume-skip
+[127/574] id=127 name=試製FaT仕様九五式酸素魚雷改 status=resume-skip
+[128/574] id=128 name=試製51cm連装砲 status=resume-skip
+[129/574] id=129 name=熟練見張員 status=resume-skip
+[130/574] id=130 name=12.7cm高角砲+高射装置 status=resume-skip
+[131/574] id=131 name=25mm三連装機銃 集中配備 status=resume-skip
+[132/574] id=132 name=零式水中聴音機 status=resume-skip
+[133/574] id=133 name=381mm/50 三連装砲 status=resume-skip
+[134/574] id=134 name=OTO 152mm三連装速射砲 status=resume-skip
+[135/574] id=135 name=90mm単装高角砲 status=resume-skip
+[136/574] id=136 name=プリエーゼ式水中防御隔壁 status=resume-skip
+[137/574] id=137 name=381mm/50 三連装砲改 status=resume-skip
+[138/574] id=138 name=二式大艇 status=resume-skip
+[139/574] id=139 name=15.2cm連装砲改 status=resume-skip
+[140/574] id=140 name=96式150cm探照灯 status=resume-skip
+[141/574] id=141 name=32号対水上電探改 status=resume-skip
+[142/574] id=142 name=15m二重測距儀+21号電探改二 status=resume-skip
+[143/574] id=143 name=九七式艦攻(村田隊) status=resume-skip
+[144/574] id=144 name=天山一二型(村田隊) status=resume-skip
+[145/574] id=145 name=戦闘糧食 status=resume-skip
+[146/574] id=146 name=洋上補給 status=resume-skip
+[147/574] id=147 name=120mm/50 連装砲 status=resume-skip
+[148/574] id=148 name=試製南山 status=resume-skip
+[149/574] id=149 name=四式水中聴音機 status=resume-skip
+[150/574] id=150 name=秋刀魚の缶詰 status=resume-skip
+[151/574] id=151 name=試製景雲(艦偵型) status=resume-skip
+[152/574] id=152 name=零式艦戦52型(熟練) status=resume-skip
+[153/574] id=153 name=零戦52型丙(付岩井小隊) status=resume-skip
+[154/574] id=154 name=零戦62型(爆戦/岩井隊) status=resume-skip
+[155/574] id=155 name=零戦21型(付岩本小隊) status=resume-skip
+[156/574] id=156 name=零戦52型甲(付岩本小隊) status=resume-skip
+[157/574] id=157 name=零式艦戦53型(岩本隊) status=resume-skip
+[158/574] id=158 name=Bf109T改 status=resume-skip
+[159/574] id=159 name=Fw190T改 status=resume-skip
+[160/574] id=160 name=10.5cm連装砲 status=resume-skip
+[161/574] id=161 name=16inch三連装砲 Mk.7 status=resume-skip
+[162/574] id=162 name=203mm/53 連装砲 status=resume-skip
+[163/574] id=163 name=Ro.43水偵 status=resume-skip
+[164/574] id=164 name=Ro.44水上戦闘機 status=resume-skip
+[165/574] id=165 name=二式水戦改 status=resume-skip
+[166/574] id=166 name=大発動艇(八九式中戦車&陸戦隊) status=resume-skip
+[167/574] id=167 name=特二式内火艇 status=resume-skip
+[168/574] id=168 name=九六式陸攻 status=resume-skip
+[169/574] id=169 name=一式陸攻 status=resume-skip
+[170/574] id=170 name=一式陸攻(野中隊) status=resume-skip
+[171/574] id=171 name=OS2U status=resume-skip
+[172/574] id=172 name=5inch連装砲 Mk.28 mod.2 status=resume-skip
+[173/574] id=173 name=Bofors 40mm四連装機関砲 status=resume-skip
+[174/574] id=174 name=53cm連装魚雷 status=resume-skip
+[175/574] id=175 name=雷電 status=resume-skip
+[176/574] id=176 name=三式戦 飛燕 status=resume-skip
+[177/574] id=177 name=三式戦 飛燕(飛行第244戦隊) status=resume-skip
+[178/574] id=178 name=PBY-5A Catalina status=resume-skip
+[179/574] id=179 name=試製61cm六連装(酸素)魚雷 status=resume-skip
+[180/574] id=180 name=一式陸攻 二二型甲 status=resume-skip
+[181/574] id=181 name=零式艦戦32型 status=resume-skip
+[182/574] id=182 name=零式艦戦32型(熟練) status=resume-skip
+[183/574] id=183 name=16inch三連装砲 Mk.7+GFCS status=resume-skip
+[184/574] id=184 name=Re.2001 OR改 status=resume-skip
+[185/574] id=185 name=三式戦 飛燕一型丁 status=resume-skip
+[186/574] id=186 name=一式陸攻 三四型 status=resume-skip
+[187/574] id=187 name=銀河 status=resume-skip
+[188/574] id=188 name=Re.2001 G改 status=resume-skip
+[189/574] id=189 name=Re.2005 改 status=resume-skip
+[190/574] id=190 name=38.1cm Mk.I連装砲 status=resume-skip
+[191/574] id=191 name=QF 2ポンド8連装ポンポン砲 status=resume-skip
+[192/574] id=192 name=38.1cm Mk.I/N連装砲改 status=resume-skip
+[193/574] id=193 name=特大発動艇 status=resume-skip
+[194/574] id=194 name=Laté 298B status=resume-skip
+[195/574] id=195 name=SBD status=resume-skip
+[196/574] id=196 name=TBD status=resume-skip
+[197/574] id=197 name=F4F-3 status=resume-skip
+[198/574] id=198 name=F4F-4 status=resume-skip
+[199/574] id=199 name=噴式景雲改 status=resume-skip
+[200/574] id=200 name=橘花改 status=resume-skip
+[201/574] id=201 name=紫電一一型 status=resume-skip
+[202/574] id=202 name=紫電二一型 紫電改 status=resume-skip
+[203/574] id=203 name=艦本新設計 増設バルジ(中型艦) status=resume-skip
+[204/574] id=204 name=艦本新設計 増設バルジ(大型艦) status=resume-skip
+[205/574] id=205 name=F6F-3 status=resume-skip
+[206/574] id=206 name=F6F-5 status=resume-skip
+[207/574] id=207 name=瑞雲(六三一空) status=resume-skip
+[208/574] id=208 name=晴嵐(六三一空) status=resume-skip
+[209/574] id=209 name=彩雲(輸送用分解済) status=resume-skip
+[210/574] id=210 name=潜水艦搭載電探&水防式望遠鏡 status=resume-skip
+[211/574] id=211 name=潜水艦搭載電探&逆探(E27) status=resume-skip
+[212/574] id=212 name=彩雲(東カロリン空) status=resume-skip
+[213/574] id=213 name=後期型艦首魚雷(6門) status=resume-skip
+[214/574] id=214 name=熟練聴音員+後期型艦首魚雷(6門) status=resume-skip
+[215/574] id=215 name=Ro.44水上戦闘機bis status=resume-skip
+[216/574] id=216 name=二式水戦改(熟練) status=resume-skip
+[217/574] id=217 name=強風改 status=resume-skip
+[218/574] id=218 name=四式戦 疾風 status=resume-skip
+[219/574] id=219 name=零式艦戦63型(爆戦) status=resume-skip
+[220/574] id=220 name=8cm高角砲改+増設機銃 status=resume-skip
+[221/574] id=221 name=一式戦 隼II型 status=resume-skip
+[222/574] id=222 name=一式戦 隼III型甲 status=resume-skip
+[223/574] id=223 name=一式戦 隼III型甲(54戦隊) status=resume-skip
+[224/574] id=224 name=爆装一式戦 隼III型改(65戦隊) status=resume-skip
+[225/574] id=225 name=一式戦 隼II型(64戦隊) status=resume-skip
+[226/574] id=226 name=九五式爆雷 status=resume-skip
+[227/574] id=227 name=二式爆雷 status=resume-skip
+[228/574] id=228 name=九六式艦戦改 status=resume-skip
+[229/574] id=229 name=12.7cm単装高角砲(後期型) status=resume-skip
+[230/574] id=230 name=特大発動艇+戦車第11連隊 status=resume-skip
+[231/574] id=231 name=30.5cm三連装砲 status=resume-skip
+[232/574] id=232 name=30.5cm三連装砲改 status=resume-skip
+[233/574] id=233 name=F4U-1D status=resume-skip
+[234/574] id=234 name=15.5cm三連装副砲改 status=resume-skip
+[235/574] id=235 name=15.5cm三連装砲改 status=resume-skip
+[236/574] id=236 name=41cm三連装砲改 status=resume-skip
+[237/574] id=237 name=瑞雲(六三四空/熟練) status=resume-skip
+[238/574] id=238 name=零式水上偵察機11型乙 status=resume-skip
+[239/574] id=239 name=零式水上偵察機11型乙(熟練) status=resume-skip
+[240/574] id=240 name=22号対水上電探改四(後期調整型) status=resume-skip
+[241/574] id=241 name=戦闘糧食(特別なおにぎり) status=resume-skip
+[242/574] id=242 name=Swordfish status=resume-skip
+[243/574] id=243 name=Swordfish Mk.II(熟練) status=resume-skip
+[244/574] id=244 name=Swordfish Mk.III(熟練) status=resume-skip
+[245/574] id=245 name=38cm四連装砲 status=resume-skip
+[246/574] id=246 name=38cm四連装砲改 status=resume-skip
+[247/574] id=247 name=15.2cm三連装砲 status=resume-skip
+[248/574] id=248 name=Skua status=resume-skip
+[249/574] id=249 name=Fulmar status=resume-skip
+[250/574] id=250 name=Spitfire Mk.I status=resume-skip
+[251/574] id=251 name=Spitfire Mk.V status=resume-skip
+[252/574] id=252 name=Seafire Mk.III改 status=resume-skip
+[253/574] id=253 name=Spitfire Mk.IX(熟練) status=resume-skip
+[254/574] id=254 name=F6F-3N status=resume-skip
+[255/574] id=255 name=F6F-5N status=resume-skip
+[256/574] id=256 name=TBF status=resume-skip
+[257/574] id=257 name=TBM-3D status=resume-skip
+[258/574] id=258 name=夜間作戦航空要員 status=resume-skip
+[259/574] id=259 name=夜間作戦航空要員+熟練甲板員 status=resume-skip
+[260/574] id=260 name=Type124 ASDIC status=resume-skip
+[261/574] id=261 name=Type144/147 ASDIC status=resume-skip
+[262/574] id=262 name=HF/DF + Type144/147 ASDIC status=resume-skip
+[263/574] id=263 name=紫電改(三四三空) 戦闘301 status=resume-skip
+[264/574] id=264 name=紫電改(三四三空) 戦闘701 status=resume-skip
+[265/574] id=265 name=紫電改(三四三空) 戦闘407 status=resume-skip
+[266/574] id=266 name=12.7cm連装砲C型改二 status=resume-skip
+[267/574] id=267 name=12.7cm連装砲D型改二 status=resume-skip
+[268/574] id=268 name=北方迷彩(+北方装備) status=resume-skip
+[269/574] id=269 name=試製東海 status=resume-skip
+[270/574] id=270 name=東海(九〇一空) status=resume-skip
+[271/574] id=271 name=紫電改四 status=resume-skip
+[272/574] id=272 name=遊撃部隊 艦隊司令部 status=resume-skip
+[273/574] id=273 name=彩雲(偵四) status=resume-skip
+[274/574] id=274 name=12cm30連装噴進砲改二 status=resume-skip
+[275/574] id=275 name=10cm連装高角砲改+増設機銃 status=resume-skip
+[276/574] id=276 name=46cm三連装砲改 status=resume-skip
+[277/574] id=277 name=FM-2 status=resume-skip
+[278/574] id=278 name=SK レーダー status=resume-skip
+[279/574] id=279 name=SK+SG レーダー status=resume-skip
+[280/574] id=280 name=QF 4.7inch砲 Mk.XII改 status=resume-skip
+[281/574] id=281 name=51cm連装砲 status=resume-skip
+[282/574] id=282 name=130mm B-13連装砲 status=resume-skip
+[283/574] id=283 name=533mm 三連装魚雷 status=resume-skip
+[284/574] id=284 name=5inch単装砲 Mk.30 status=resume-skip
+[285/574] id=285 name=61cm三連装(酸素)魚雷後期型 status=resume-skip
+[286/574] id=286 name=61cm四連装(酸素)魚雷後期型 status=resume-skip
+[287/574] id=287 name=三式爆雷投射機 集中配備 status=resume-skip
+[288/574] id=288 name=試製15cm9連装対潜噴進砲 status=resume-skip
+[289/574] id=289 name=35.6cm三連装砲改(ダズル迷彩仕様) status=resume-skip
+[290/574] id=290 name=41cm三連装砲改二 status=resume-skip
+[291/574] id=291 name=彗星二二型(六三四空) status=resume-skip
+[292/574] id=292 name=彗星二二型(六三四空/熟練) status=resume-skip
+[293/574] id=293 name=12cm単装砲改二 status=resume-skip
+[294/574] id=294 name=12.7cm連装砲A型改二 status=resume-skip
+[295/574] id=295 name=12.7cm連装砲A型改三(戦時改修)+高射装置 status=resume-skip
+[296/574] id=296 name=12.7cm連装砲B型改四(戦時改修)+高射装置 status=resume-skip
+[297/574] id=297 name=12.7cm連装砲A型 status=resume-skip
+[298/574] id=298 name=16inch Mk.I三連装砲 status=resume-skip
+[299/574] id=299 name=16inch Mk.I三連装砲+AFCT改 status=resume-skip
+[300/574] id=300 name=16inch Mk.I三連装砲改+FCR type284 status=resume-skip
+[301/574] id=301 name=20連装7inch UP Rocket Launchers status=resume-skip
+[302/574] id=302 name=九七式艦攻(九三一空/熟練) status=resume-skip
+[303/574] id=303 name=Bofors 15.2cm連装砲 Model 1930 status=resume-skip
+[304/574] id=304 name=S9 Osprey status=resume-skip
+[305/574] id=305 name=Ju87C改二(KMX搭載機) status=resume-skip
+[306/574] id=306 name=Ju87C改二(KMX搭載機/熟練) status=resume-skip
+[307/574] id=307 name=GFCS Mk.37 status=resume-skip
+[308/574] id=308 name=5inch単装砲 Mk.30改+GFCS Mk.37 status=resume-skip
+[309/574] id=309 name=甲標的 丙型 status=resume-skip
+[310/574] id=310 name=14cm連装砲改 status=resume-skip
+[311/574] id=311 name=二式陸上偵察機 status=resume-skip
+[312/574] id=312 name=二式陸上偵察機(熟練) status=resume-skip
+[313/574] id=313 name=5inch単装砲 Mk.30改 status=resume-skip
+[314/574] id=314 name=533mm五連装魚雷(初期型) status=resume-skip
+[315/574] id=315 name=SG レーダー(初期型) status=resume-skip
+[316/574] id=316 name=Re.2001 CB改 status=resume-skip
+[317/574] id=317 name=三式弾改 status=resume-skip
+[318/574] id=318 name=41cm連装砲改二 status=resume-skip
+[319/574] id=319 name=彗星一二型(六三四空/三号爆弾搭載機) status=resume-skip
+[320/574] id=320 name=彗星一二型(三一号光電管爆弾搭載機) status=resume-skip
+[321/574] id=322 name=瑞雲改二(六三四空) status=resume-skip
+[322/574] id=323 name=瑞雲改二(六三四空/熟練) status=resume-skip
+[323/574] id=324 name=オ号観測機改 status=resume-skip
+[324/574] id=325 name=オ号観測機改二 status=resume-skip
+[325/574] id=326 name=S-51J status=resume-skip
+[326/574] id=327 name=S-51J改 status=resume-skip
+[327/574] id=328 name=35.6cm連装砲改 status=resume-skip
+[328/574] id=329 name=35.6cm連装砲改二 status=resume-skip
+[329/574] id=330 name=16inch Mk.I連装砲 status=resume-skip
+[330/574] id=331 name=16inch Mk.V連装砲 status=resume-skip
+[331/574] id=332 name=16inch Mk.VIII連装砲改 status=resume-skip
+[332/574] id=333 name=烈風改 status=resume-skip
+[333/574] id=334 name=烈風改(三五二空/熟練) status=resume-skip
+[334/574] id=335 name=烈風改(試製艦載型) status=resume-skip
+[335/574] id=336 name=烈風改二 status=resume-skip
+[336/574] id=337 name=烈風改二(一航戦/熟練) status=source-excluded
+[337/574] id=338 name=烈風改二戊型 status=resume-skip
+[338/574] id=339 name=烈風改二戊型(一航戦/熟練) status=resume-skip
+[339/574] id=340 name=152mm/55 三連装速射砲 status=resume-skip
+[340/574] id=341 name=152mm/55 三連装速射砲改 status=resume-skip
+[341/574] id=342 name=流星改(一航戦) status=resume-skip
+[342/574] id=343 name=流星改(一航戦/熟練) status=resume-skip
+[343/574] id=344 name=九七式艦攻改 試製三号戊型(空六号電探改装備機) status=resume-skip
+[344/574] id=345 name=九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機) status=resume-skip
+[345/574] id=346 name=二式12cm迫撃砲改 status=resume-skip
+[346/574] id=347 name=二式12cm迫撃砲改 集中配備 status=resume-skip
+[347/574] id=348 name=艦載型 四式20cm対地噴進砲 status=resume-skip
+[348/574] id=349 name=四式20cm対地噴進砲 集中配備 status=resume-skip
+[349/574] id=350 name=Me163B status=resume-skip
+[350/574] id=351 name=試製 秋水 status=resume-skip
+[351/574] id=352 name=秋水 status=resume-skip
+[352/574] id=353 name=Fw190 A-5改(熟練) status=resume-skip
+[353/574] id=354 name=Fw190 D-9 status=resume-skip
+[354/574] id=355 name=M4A1 DD status=resume-skip
+[355/574] id=356 name=8inch三連装砲 Mk.9 status=resume-skip
+[356/574] id=357 name=8inch三連装砲 Mk.9 mod.2 status=resume-skip
+[357/574] id=358 name=5inch 単装高角砲群 status=resume-skip
+[358/574] id=359 name=6inch 連装速射砲 Mk.XXI status=resume-skip
+[359/574] id=360 name=Bofors 15cm連装速射砲 Mk.9 Model 1938 status=resume-skip
+[360/574] id=361 name=Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938 status=resume-skip
+[361/574] id=362 name=5inch連装両用砲(集中配備) status=resume-skip
+[362/574] id=363 name=GFCS Mk.37+5inch連装両用砲(集中配備) status=resume-skip
+[363/574] id=364 name=甲標的 丁型改(蛟龍改) status=resume-skip
+[364/574] id=365 name=一式徹甲弾改 status=resume-skip
+[365/574] id=366 name=12.7cm連装砲D型改三 status=resume-skip
+[366/574] id=367 name=Swordfish(水上機型) status=resume-skip
+[367/574] id=368 name=Swordfish Mk.III改(水上機型) status=resume-skip
+[368/574] id=369 name=Swordfish Mk.III改(水上機型/熟練) status=resume-skip
+[369/574] id=370 name=Swordfish Mk.II改(水偵型) status=resume-skip
+[370/574] id=371 name=Fairey Seafox改 status=resume-skip
+[371/574] id=372 name=天山一二型甲 status=resume-skip
+[372/574] id=373 name=天山一二型甲改(空六号電探改装備機) status=resume-skip
+[373/574] id=374 name=天山一二型甲改(熟練/空六号電探改装備機) status=resume-skip
+[374/574] id=375 name=XF5U status=resume-skip
+[375/574] id=376 name=533mm五連装魚雷(後期型) status=resume-skip
+[376/574] id=377 name=RUR-4A Weapon Alpha改 status=resume-skip
+[377/574] id=378 name=対潜短魚雷(試作初期型) status=resume-skip
+[378/574] id=379 name=12.7cm単装高角砲改二 status=resume-skip
+[379/574] id=380 name=12.7cm連装高角砲改二 status=resume-skip
+[380/574] id=381 name=16inch三連装砲 Mk.6 status=resume-skip
+[381/574] id=382 name=12cm単装高角砲E型 status=resume-skip
+[382/574] id=383 name=後期型53cm艦首魚雷(8門) status=resume-skip
+[383/574] id=384 name=後期型潜水艦搭載電探&逆探 status=resume-skip
+[384/574] id=385 name=16inch三連装砲 Mk.6 mod.2 status=resume-skip
+[385/574] id=386 name=6inch三連装速射砲 Mk.16 status=resume-skip
+[386/574] id=387 name=6inch三連装速射砲 Mk.16 mod.2 status=resume-skip
+[387/574] id=388 name=銀河(江草隊) status=resume-skip
+[388/574] id=389 name=TBM-3W+3S status=resume-skip
+[389/574] id=390 name=16inch三連装砲 Mk.6+GFCS status=resume-skip
+[390/574] id=391 name=九九式艦爆二二型 status=resume-skip
+[391/574] id=392 name=九九式艦爆二二型(熟練) status=resume-skip
+[392/574] id=393 name=120mm/50 連装砲 mod.1936 status=resume-skip
+[393/574] id=394 name=120mm/50 連装砲改 A.mod.1937 status=resume-skip
+[394/574] id=395 name=深山 status=resume-skip
+[395/574] id=396 name=深山改 status=resume-skip
+[396/574] id=397 name=現地改装12.7cm連装高角砲 status=resume-skip
+[397/574] id=398 name=現地改装10cm連装高角砲 status=resume-skip
+[398/574] id=399 name=6inch Mk.XXIII三連装砲 status=resume-skip
+[399/574] id=400 name=533mm 三連装魚雷(53-39型) status=resume-skip
+[400/574] id=401 name=Do 17 Z-2 status=resume-skip
+[401/574] id=402 name=寒冷地装備&甲板要員 status=resume-skip
+[402/574] id=403 name=四式重爆 飛龍 status=resume-skip
+[403/574] id=404 name=四式重爆 飛龍(熟練) status=resume-skip
+[404/574] id=405 name=Do 217 E-5+Hs293初期型 status=resume-skip
+[405/574] id=406 name=Do 217 K-2+Fritz-X status=resume-skip
+[406/574] id=407 name=15.2cm連装砲改二 status=resume-skip
+[407/574] id=408 name=装甲艇(AB艇) status=resume-skip
+[408/574] id=409 name=武装大発 status=resume-skip
+[409/574] id=410 name=21号対空電探改二 status=resume-skip
+[410/574] id=411 name=42号対空電探改二 status=resume-skip
+[411/574] id=412 name=水雷戦隊 熟練見張員 status=resume-skip
+[412/574] id=413 name=精鋭水雷戦隊 司令部 status=resume-skip
+[413/574] id=414 name=SOC Seagull status=resume-skip
+[414/574] id=415 name=SO3C Seamew改 status=resume-skip
+[415/574] id=416 name=零式艦戦21型(台南空) status=resume-skip
+[416/574] id=417 name=零式艦戦32型(台南空) status=resume-skip
+[417/574] id=418 name=零式艦戦22型(251空) status=resume-skip
+[418/574] id=419 name=SBD-5 status=resume-skip
+[419/574] id=420 name=SB2C-3 status=resume-skip
+[420/574] id=421 name=SB2C-5 status=resume-skip
+[421/574] id=422 name=FR-1 Fireball status=resume-skip
+[422/574] id=423 name=Fulmar(戦闘偵察/熟練) status=resume-skip
+[423/574] id=424 name=Barracuda Mk.II status=resume-skip
+[424/574] id=425 name=Barracuda Mk.III status=resume-skip
+[425/574] id=426 name=305mm/46 連装砲 status=resume-skip
+[426/574] id=427 name=305mm/46 三連装砲 status=resume-skip
+[427/574] id=428 name=320mm/44 連装砲 status=resume-skip
+[428/574] id=429 name=320mm/44 三連装砲 status=resume-skip
+[429/574] id=430 name=65mm/64 単装速射砲改 status=resume-skip
+[430/574] id=431 name=SM.79 status=resume-skip
+[431/574] id=432 name=SM.79 bis status=resume-skip
+[432/574] id=433 name=SM.79 bis(熟練) status=resume-skip
+[433/574] id=434 name=Corsair Mk.II status=resume-skip
+[434/574] id=435 name=Corsair Mk.II(Ace) status=resume-skip
+[435/574] id=436 name=大発動艇(II号戦車/北アフリカ仕様) status=resume-skip
+[436/574] id=437 name=試製 陣風 status=resume-skip
+[437/574] id=438 name=三式水中探信儀改 status=resume-skip
+[438/574] id=439 name=Hedgehog(初期型) status=resume-skip
+[439/574] id=440 name=21inch艦首魚雷発射管6門(初期型) status=resume-skip
+[440/574] id=441 name=21inch艦首魚雷発射管6門(後期型) status=resume-skip
+[441/574] id=442 name=潜水艦後部魚雷発射管4門(初期型) status=resume-skip
+[442/574] id=443 name=潜水艦後部魚雷発射管4門(後期型) status=resume-skip
+[443/574] id=444 name=四式重爆 飛龍+イ号一型甲 誘導弾 status=resume-skip
+[444/574] id=445 name=二式複戦 屠龍 status=resume-skip
+[445/574] id=446 name=二式複戦 屠龍 丙型 status=resume-skip
+[446/574] id=447 name=零式艦戦64型(複座KMX搭載機) status=resume-skip
+[447/574] id=449 name=特大発動艇+一式砲戦車 status=resume-skip
+[448/574] id=450 name=13号対空電探改(後期型) status=resume-skip
+[449/574] id=451 name=三式指揮連絡機改 status=resume-skip
+[450/574] id=452 name=キ96 status=resume-skip
+[451/574] id=453 name=キ102乙 status=resume-skip
+[452/574] id=454 name=キ102乙改+イ号一型乙 誘導弾 status=resume-skip
+[453/574] id=455 name=試製 長12.7cm連装砲A型改四 status=resume-skip
+[454/574] id=456 name=SG レーダー(後期型) status=resume-skip
+[455/574] id=457 name=後期型艦首魚雷(4門) status=resume-skip
+[456/574] id=458 name=後期型電探&逆探+シュノーケル装備 status=resume-skip
+[457/574] id=459 name=B-25 status=resume-skip
+[458/574] id=460 name=15m二重測距儀改+21号電探改二+熟練射撃指揮所 status=resume-skip
+[459/574] id=461 name=熟練聴音員+後期型艦首魚雷(4門) status=resume-skip
+[460/574] id=463 name=15.5cm三連装副砲改二 status=resume-skip
+[461/574] id=464 name=10cm連装高角砲群 集中配備 status=resume-skip
+[462/574] id=465 name=試製51cm三連装砲 status=resume-skip
+[463/574] id=466 name=流星改(熟練) status=resume-skip
+[464/574] id=467 name=5inch連装砲(副砲配置) 集中配備 status=resume-skip
+[465/574] id=468 name=38cm四連装砲改 deux status=resume-skip
+[466/574] id=469 name=零式水上偵察機11型乙改(夜偵) status=resume-skip
+[467/574] id=470 name=12.7cm連装砲C型改三 status=resume-skip
+[468/574] id=471 name=Loire 130M status=resume-skip
+[469/574] id=472 name=Mk.32 対潜魚雷(Mk.2落射機) status=resume-skip
+[470/574] id=473 name=F4U-2 Night Corsair status=resume-skip
+[471/574] id=474 name=F4U-4 status=resume-skip
+[472/574] id=475 name=AU-1 status=resume-skip
+[473/574] id=476 name=F4U-7 status=resume-skip
+[474/574] id=477 name=熟練甲板要員 status=resume-skip
+[475/574] id=478 name=熟練甲板要員+航空整備員 status=resume-skip
+[476/574] id=479 name=Mosquito FB Mk.VI status=resume-skip
+[477/574] id=480 name=Mosquito PR Mk.IV status=resume-skip
+[478/574] id=481 name=Mosquito TR Mk.33 status=resume-skip
+[479/574] id=482 name=特大発動艇+Ⅲ号戦車(北アフリカ仕様) status=resume-skip
+[480/574] id=483 name=三式弾改二 status=resume-skip
+[481/574] id=484 name=四式重爆 飛龍(熟練)+イ号一型甲 誘導弾 status=resume-skip
+[482/574] id=485 name=強風改二 status=resume-skip
+[483/574] id=486 name=零式艦戦64型(制空戦闘機仕様) status=resume-skip
+[484/574] id=487 name=零式艦戦64型(熟練爆戦) status=resume-skip
+[485/574] id=488 name=二式爆雷改二 status=resume-skip
+[486/574] id=489 name=一式戦 隼II型改(20戦隊) status=resume-skip
+[487/574] id=490 name=試製 夜間瑞雲(攻撃装備) status=resume-skip
+[488/574] id=491 name=一式戦 隼III型改(熟練/20戦隊) status=resume-skip
+[489/574] id=492 name=零戦52型丙(八幡部隊) status=resume-skip
+[490/574] id=493 name=一式陸攻(八幡部隊) status=resume-skip
+[491/574] id=494 name=特大発動艇+チハ status=resume-skip
+[492/574] id=495 name=特大発動艇+チハ改 status=resume-skip
+[493/574] id=496 name=陸軍歩兵部隊 status=resume-skip
+[494/574] id=497 name=九七式中戦車(チハ) status=resume-skip
+[495/574] id=498 name=九七式中戦車 新砲塔(チハ改) status=resume-skip
+[496/574] id=499 name=陸軍歩兵部隊+チハ改 status=resume-skip
+[497/574] id=500 name=発煙装置(煙幕) status=resume-skip
+[498/574] id=501 name=発煙装置改(煙幕) status=resume-skip
+[499/574] id=502 name=35.6cm連装砲改三(ダズル迷彩仕様) status=resume-skip
+[500/574] id=503 name=35.6cm連装砲改四 status=resume-skip
+[501/574] id=504 name=銀河(熟練) status=resume-skip
+[502/574] id=505 name=25mm対空機銃増備 status=resume-skip
+[503/574] id=506 name=電探装備マスト(13号改+22号電探改四) status=resume-skip
+[504/574] id=507 name=14inch/45 連装砲 status=resume-skip
+[505/574] id=508 name=14inch/45 三連装砲 status=resume-skip
+[506/574] id=509 name=12cm単装高角砲E型改 status=resume-skip
+[507/574] id=510 name=Walrus status=resume-skip
+[508/574] id=511 name=21inch艦首魚雷発射管4門(初期型) status=resume-skip
+[509/574] id=512 name=21inch艦首魚雷発射管4門(後期型) status=resume-skip
+[510/574] id=513 name=阻塞気球 status=resume-skip
+[511/574] id=514 name=特大発動艇+Ⅲ号戦車J型 status=resume-skip
+[512/574] id=515 name=Sea Otter status=resume-skip
+[513/574] id=516 name=Me 262 A-1a/R1 status=resume-skip
+[514/574] id=517 name=逆探(E27)+22号対水上電探改四(後期調整型) status=resume-skip
+[515/574] id=518 name=14cm連装砲改二 status=resume-skip
+[516/574] id=519 name=SJレーダー+潜水艦司令塔装備 status=resume-skip
+[517/574] id=520 name=試製20.3cm(4号)連装砲 status=resume-skip
+[518/574] id=521 name=紫雲(熟練) status=resume-skip
+[519/574] id=522 name=零式小型水上機 status=resume-skip
+[520/574] id=523 name=零式小型水上機(熟練) status=resume-skip
+[521/574] id=524 name=12cm単装高角砲+25mm機銃増備 status=resume-skip
+[522/574] id=525 name=特四式内火艇 status=resume-skip
+[523/574] id=526 name=特四式内火艇改 status=resume-skip
+[524/574] id=527 name=Type281 レーダー status=resume-skip
+[525/574] id=528 name=Type274 射撃管制レーダー status=resume-skip
+[526/574] id=529 name=12.7cm連装砲C型改三H status=resume-skip
+[527/574] id=530 name=35.6cm連装砲改三丙 status=resume-skip
+[528/574] id=531 name=艦隊通信アンテナ status=resume-skip
+[529/574] id=532 name=通信装置&要員 status=resume-skip
+[530/574] id=533 name=10cm連装高角砲改+高射装置改 status=resume-skip
+[531/574] id=534 name=13.8cm連装砲 status=resume-skip
+[532/574] id=535 name=13.8cm連装砲改 status=resume-skip
+[533/574] id=536 name=15.2cm三連装主砲 status=resume-skip
+[534/574] id=537 name=15.2cm三連装主砲改 status=resume-skip
+[535/574] id=538 name=Loire 130M改(熟練) status=resume-skip
+[536/574] id=539 name=SOC Seagull 後期型(熟練) status=resume-skip
+[537/574] id=540 name=零式水上偵察機11型甲改二 status=resume-skip
+[538/574] id=541 name=SBD(Yellow Wings) status=resume-skip
+[539/574] id=542 name=TBD(Yellow Wings) status=resume-skip
+[540/574] id=543 name=SBD VS-2(偵察飛行隊) status=resume-skip
+[541/574] id=544 name=SBD VB-2(爆撃飛行隊) status=resume-skip
+[542/574] id=545 name=天山一二型甲改二(村田隊/電探装備) status=resume-skip
+[543/574] id=546 name=試製 震電(局地戦闘機) status=resume-skip
+[544/574] id=547 name=震電改二(艦戦型改二) status=resume-skip
+[545/574] id=548 name=震電改三(試製 噴式震電) status=resume-skip
+[546/574] id=549 name=三式指揮連絡機改二 status=resume-skip
+[547/574] id=550 name=試製 明星(増加試作機) status=resume-skip
+[548/574] id=551 name=明星改 status=resume-skip
+[549/574] id=552 name=九九式練爆二二型改(夜間装備実験機) status=resume-skip
+[550/574] id=553 name=10cm連装高角砲改 status=resume-skip
+[551/574] id=554 name=九七式艦攻改(北東海軍航空隊) status=resume-skip
+[552/574] id=555 name=18cm/57 三連装主砲 status=resume-skip
+[553/574] id=556 name=10cm/56 単装高角砲(集中配備) status=resume-skip
+[554/574] id=557 name=零式艦戦62型改(夜間爆戦) status=resume-skip
+[555/574] id=558 name=零式艦戦62型改(熟練/夜間爆戦) status=resume-skip
+[556/574] id=559 name=Ju87 D-4(Fliegerass) status=resume-skip
+[557/574] id=560 name=Bf109 T-3(G) status=resume-skip
+[558/574] id=561 name=Ho229 status=resume-skip
+[559/574] id=562 name=Do 217 E-5+TV誘導型 Hs293D status=resume-skip
+[560/574] id=564 name=21cm単装主砲 status=resume-skip
+[561/574] id=565 name=15cm単装副砲 status=resume-skip
+[562/574] id=566 name=10.2cm三連装副砲 status=resume-skip
+[563/574] id=567 name=Sea Gladiator status=resume-skip
+[564/574] id=568 name=強風改二(熟練) status=resume-skip
+[565/574] id=569 name=三式爆雷投射機改 status=resume-skip
+[566/574] id=570 name=流星改(友永隊) status=resume-skip
+[567/574] id=571 name=53cm連装魚雷改(酸素魚雷) status=resume-skip
+[568/574] id=572 name=12.7cm単装高角砲改三 status=resume-skip
+[569/574] id=573 name=試製 23号電探改三 status=resume-skip
+[570/574] id=574 name=SCレーダー改(後期調整型) status=resume-skip
+[571/574] id=575 name=25mm連装機銃(熟練機銃員分隊) status=resume-skip
+[572/574] id=576 name=大発動艇(R35&フランス兵) status=saved http=200
+ERROR: 装备页面名称映射unresolved：577 61cm四連装(酸素)魚雷五型改三
+stopReason: equipment-name-mapping-unresolved
+人工处理: 修正 configs/wikiwiki-page-name-aliases.json 或重新生成装备卡片目录后重试。
+可继续断点: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/records.json
+details: {"candidates": [], "equipmentId": 577}
+[source-receipt] ready=false equipmentDetails=incomplete output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/source-receipt.json
+WikiWiki external crawl summary
+- selected: 574
+- dailyLimit: 10000
+- cycleDays: 1
+- attempted: 1
+- completed: 572
+- saved: 1
+- skipped: 571
+- newPages: 1
+- changedPages: 0
+- unchangedPages: 0
+- failed: 1
+- rateLimited: 0
+- remaining: 2
+- nextEquipmentId: 577
+- sourceExcluded: 1
+- pageNumberMismatch: 0
+- pageNumberMissing: 0
+- idMismatch: 0
+- idMissing: 0
+- stopReason: equipment-name-mapping-unresolved
+- state output: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler
+- raw cache: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/source-cache

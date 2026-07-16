@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "cebcce7e0457465919339dc4f91e5aea231b2871",
+  "counts": {
+    "runtime": 0,
+    "automation": 1,
+    "packageTemplate": 0,
+    "documentation": 1,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    }
+  ]
+}

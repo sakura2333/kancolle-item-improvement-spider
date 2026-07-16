@@ -1,0 +1,2 @@
+$ /Users/sakana/.local/share/mise/installs/python/3.14.6/bin/python3 script/project/python_runner.py script/project/data_pipeline.py --report dist/data-pipeline/local-validation.json
+错误：WikiWiki source acquisition receipt is missing; run ./flow wikiwiki before ./flow run

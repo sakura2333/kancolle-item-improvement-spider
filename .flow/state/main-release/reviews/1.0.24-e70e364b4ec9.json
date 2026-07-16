@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-e70e364b4ec9",
+  "candidateCommit": "a1dbce8116f3503af13d64cb8c8c4cac39a976e3",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Candidate archive SHA-256 d93b8fbd35f74e27540bccdf39aa75a8a7b6deaf2859c77e7b5b8b56cf8299f8. The archive contains 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json. Review Delta matches the 12 actual changed public files and remains fully classified: runtime=2, automation=6, packageTemplate=0, documentation=4, retiredPublic=0, uncategorized=0. No unsafe archive paths, symlinks, worktree metadata, local absolute paths, credentials, private network addresses, or internal Flow control-plane references were found. Python compilation and workflow YAML parsing passed. The prior ready-lock blocker is fixed: source-bundle.lock.json no longer contains collections, verify_ready_lock requires the exact sealed field set, and Build restores only the code-declared fixed collection contract. Direct tamper tests confirmed that adding collections or any extra field, removing commit, changing contentHash, or modifying a Manifest-protected payload is rejected. Daily Acquire/Build scheduling, 24h/48h/15d freshness policy, five-minute defer behavior, and public documentation are consistent."
+}

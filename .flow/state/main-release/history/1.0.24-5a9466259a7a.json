@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "status": "closed",
+  "releaseId": "1.0.24-5a9466259a7a",
+  "version": "1.0.24",
+  "sourceDevCommit": "5a9466259a7a4baef348e682a082ac70b120146e",
+  "candidateBranch": "public-candidate/1.0.24-5a9466259a7a",
+  "candidateCommit": "d222683f034468e118ad5decd05124e28106df73",
+  "candidateTree": "b9feb5aa07e160dde4cb08e2ec081776f97ba475",
+  "candidateSha256": "67afa9addbb71be6c8e684f54e4d319ee5b119e158b69e3afcc2b180f0715fad",
+  "candidateManifestSha256": "729781633a2150a84e7c6165da0af9d52e020c62c953735741a6f4a227108b50",
+  "reviewReport": ".flow/state/main-release/reviews/1.0.24-5a9466259a7a.json",
+  "reviewReportSha256": "6b804b33dad3275544c695bc39307b6346faec6d773be89c3de8bd774b46e06e",
+  "reviewedAreas": [
+    "candidate identity and public manifest consistency",
+    "npm publish command-error reconciliation",
+    "delayed npm registry visibility polling",
+    "dist-tag delayed confirmation",
+    "immutable-version conflict protection",
+    "npm audit output truncation and error-tail retention",
+    "documentation consistency",
+    "workflow syntax and public boundary"
+  ],
+  "openedAt": "2026-07-13T16:04:56.946453+00:00",
+  "closedAt": "2026-07-13T16:05:07.835067+00:00",
+  "releaseReceipt": {
+    "schemaVersion": 2,
+    "releaseId": "1.0.24-5a9466259a7a",
+    "version": "1.0.24",
+    "sourceDevCommit": "5a9466259a7a4baef348e682a082ac70b120146e",
+    "reviewedCandidateCommit": "d222683f034468e118ad5decd05124e28106df73",
+    "mainCommit": "d222683f034468e118ad5decd05124e28106df73",
+    "candidateSha256": "67afa9addbb71be6c8e684f54e4d319ee5b119e158b69e3afcc2b180f0715fad",
+    "candidateContentSha256": "67afa9addbb71be6c8e684f54e4d319ee5b119e158b69e3afcc2b180f0715fad",
+    "candidateArchiveSha256": "012270f577584a29486c703ba8df011613a1bb4e1b2acbde5f4ae0d3c95a71eb",
+    "publicIsolation": {
+      "internalPathCount": 0,
+      "internalReferenceCount": 0,
+      "absolutePathCount": 0,
+      "exceptionCount": 2,
+      "exceptionManifestSha256": "e11a94921b70e626cc931f3f3b20b4d20779369d2ddfa5a3a56be65f49f5b993",
+      "exceptions": [
+        "github-secret-name-npm-token",
+        "source-validation-ai-review-feature"
+      ]
+    },
+    "completedAt": "2026-07-13T16:05:07.832693+00:00"
+  }
+}

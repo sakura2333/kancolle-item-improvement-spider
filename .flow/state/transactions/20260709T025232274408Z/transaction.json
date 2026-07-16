@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "transactionId": "20260709T025232274408Z",
+  "status": "applied",
+  "rolledBack": false,
+  "projectId": "kancolle-item-improvement-spider",
+  "package": "kancolle-item-improvement-spider-1.0.24-flow-content-baseline-update.zip",
+  "packageSha256": "3daab58fb05f5c6e82b0612a17bb84545a64f0efaad57f25c3730abe4d8eff1f",
+  "fromVersion": "1.0.24",
+  "toVersion": "1.0.24",
+  "before": {
+    "commit": "ff140237b1aa4393df9ef0f4cae69b40f3531b48",
+    "tree": "8f44d28eab284cfc54fdb0533bde5e8b844a8a9e",
+    "version": "1.0.24",
+    "protectedDirtyPaths": [],
+    "projectDirtyPaths": []
+  },
+  "targetIdentity": {
+    "scheme": "git-tree",
+    "value": "c45d0eae6c3bfed5c99a4572f1aef54bae00edf6"
+  },
+  "commit": {
+    "hash": "068702580ef7322b48dd0db4dfab9d155100f03d",
+    "message": "更新 kancolle-item-improvement-spider 1.0.24 → 1.0.24",
+    "created": true
+  },
+  "protectedPathsUnstagedBeforeCommit": [],
+  "paths": [
+    {
+      "path": ".flow/baseline.json",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "existed": true,
+      "kind": "file",
+      "sha256": "bea3702fe330ecd6531c843aa5ed2db7f75199cff34343c0f5cd8295e37b8029"
+    },
+    {
+      "path": "docs/internal/ARCHITECTURE.md",
+      "existed": true,
+      "kind": "file",
+      "sha256": "1b2b728f2f957f22aa4033e75e1031e7e42bc61f47b8bdeaa5bef85a834d14eb"
+    },
+    {
+      "path": "docs/internal/UPDATE-TRANSACTION.md",
+      "existed": true,
+      "kind": "file",
+      "sha256": "0e89be569fa66f22472df63af246b220ca067ce7dd45cf146932c37cf1379709"
+    },
+    {
+      "path": "script/flow/artifact.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "4472cb2afb41d35f69cc2c6d1888525bb12c4a54e9782b30103ba36eaae08f2c"
+    },
+    {
+      "path": "script/flow/cli.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "78d8f0226212ce69dfc87bf08fbc627c9479ea5b69c1bb2ea0eb74e71f924f3b"
+    },
+    {
+      "path": "script/flow/update.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "414cea00b24266f31c16040d29d034ad17ba221de6adc1b0e34fea8079368f4a"
+    },
+    {
+      "path": "script/flow_adapter.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "33572d3c1bf345f2c4755233a94ff51e6e6d625f1fab45938736cbf56de6897a"
+    },
+    {
+      "path": "script/project/candidate_verify.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "21ebb2871acf1a6f12ae64bbac78bb9c9130271937d795d5a8ec0b377f5e52e8"
+    },
+    {
+      "path": "script/project/cli.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "eb23c9c7640b46d9a80e7e671a1f1f9516455ba48f566d919fb614f4a8883ca0"
+    },
+    {
+      "path": "script/project/flow_baseline.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "script/project/ownership.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "ae810413c571a9f11c629540dd8cbabea171265e7d792d0190fcd99f2bfc6990"
+    },
+    {
+      "path": "script/project/quality_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "4cefe353ee3022a9be7906fcc28d3fcaace84d91cba271f310e22722cec5d3ab"
+    },
+    {
+      "path": "script/project/status_command.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "722ae1ce3084e619941eff6c6ec99359847c6c3a2265cd50f50a1d29b5289139"
+    },
+    {
+      "path": "script/project/update_package_command.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "tests/test_flow_baseline.py",
+      "existed": false,
+      "kind": "missing"
+    },
+    {
+      "path": "tests/test_gpt_update_workflow.py",
+      "existed": true,
+      "kind": "file",
+      "sha256": "493d950b13ec8d027651f05c23be38cf6ccda18db11c1ab82bc914175914dac6"
+    }
+  ],
+  "archivedPackage": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/kancolle-item-improvement-spider-1.0.24-flow-content-baseline-update.zip",
+  "archivedSidecar": "/Users/sakana/Downloads/GPT-Projects/.flow-applied/kancolle-item-improvement-spider/kancolle-item-improvement-spider-1.0.24-flow-content-baseline-update.zip.flow.json"
+}

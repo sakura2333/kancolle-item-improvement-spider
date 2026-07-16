@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "baseRef": "main-origin/main",
+  "candidateCommit": "e47e1b5023fe79909ae578b7552e068ca6ba2530",
+  "counts": {
+    "runtime": 2,
+    "automation": 6,
+    "packageTemplate": 0,
+    "documentation": 4,
+    "retiredPublic": 0,
+    "uncategorized": 0
+  },
+  "changes": [
+    {
+      "status": "M",
+      "path": ".github/workflows/data-build.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": ".github/workflows/source-acquire.yml",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "PUBLIC-CONTENT-MANIFEST.json",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "RELEASE-NOTES.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "automation/acquire/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/acquire/wikiwiki/crawler.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/common/bundle.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "automation/compute/cli.py",
+      "category": "automation"
+    },
+    {
+      "status": "M",
+      "path": "configs/wikiwiki-crawler.default.json",
+      "category": "runtime"
+    },
+    {
+      "status": "M",
+      "path": "docs/public/DATA-LIFECYCLE.md",
+      "category": "documentation"
+    },
+    {
+      "status": "M",
+      "path": "util/http_cache/settings.py",
+      "category": "runtime"
+    }
+  ]
+}

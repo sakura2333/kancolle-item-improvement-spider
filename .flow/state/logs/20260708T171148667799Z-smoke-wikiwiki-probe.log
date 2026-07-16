@@ -1,0 +1,11 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/cli.py wikiwiki probe --daily-limit 3 --skip-start2
+[Flow] 日志：.flow/state/logs/20260708T171148738132Z-wikiwiki-catalog.log
+[catalog:equipment] role=locator-index entries=572 ambiguous=0 fallbackUrls=23 source=raw-cache
+[catalog:equipment] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/equipment-pages.json
+[catalog:equipment] nameMatches resolved=570 ambiguous=0 unresolved=0 excluded=1 invalid=0
+[catalog:ship] role=locator-index entries=597 ambiguous=0 fallbackUrls=88 source=network
+[catalog:ship] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/ship-pages.json
+[catalog:improvement] role=validation-index bytes=1400836 tables=37 source=network
+[catalog:improvement] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/improvement-pages.json
+[source-receipt] ready=false output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/source-receipt.json
+[Flow] 日志：.flow/state/logs/20260708T171157022103Z-wikiwiki-crawl.log

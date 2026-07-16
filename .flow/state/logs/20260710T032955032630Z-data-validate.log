@@ -1,0 +1,2193 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/data_pipeline.py --report dist/data-pipeline/local-validation.json
+[wikiwiki source gate] ready=true indexes=ship,equipment,improvement
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m service.data_package.cli build --strict
+[32m2026-07-10 11:29:55,217 [INFO] [util.start2.start2_utils] [start2] cache hit: local=2026070902 ageHours=31.35 maxAgeHours=50.0[0m
+[32m2026-07-10 11:29:55,231 [INFO] [util.site_workers] [site workers] running 5 task(s) with 3 website worker(s)[0m
+[32m2026-07-10 11:29:55,595 [INFO] [service.akashi_list.akashi_list_utils] [route] conditional stage recipe: 10cm連装高角砲 × 2二番艦：玉波改二限定12.7cm連装高角砲 × 3[0m
+[32m2026-07-10 11:29:57,164 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json -> raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json (200)[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/improvement/improvement-list.json (mode=w)
+[32m2026-07-10 11:29:57,273 [INFO] [service.source_validation.runner] [semantic aliases] validated=6/6 against Start2[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/akashi-list/metadata.json (mode=w)
+[32m2026-07-10 11:29:57,368 [INFO] [util.site_workers] [site workers] running 2 task(s) with 2 website worker(s)[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/wikiwiki-jp/metadata.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kcwiki-data/metadata.json (mode=w)
+[32m2026-07-10 11:29:59,215 [INFO] [service.source_validation.runner] [source validation] wikiwiki-jp: status=ok, match=1550, weekdayMismatch=77, missing=18, extra=65, issues=0, unresolvedShips=0, unresolvedItems=0, semanticAliases=14[0m
+[32m2026-07-10 11:29:59,220 [INFO] [service.source_validation.runner] [source validation] kcwiki-data: status=ok, match=593, weekdayMismatch=108, missing=944, extra=4, issues=0, unresolvedShips=0, unresolvedItems=0, semanticAliases=0[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/comparison/summary.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/ai-review/input.json (mode=w)
+[32m2026-07-10 11:29:59,539 [INFO] [service.source_validation.runner] [source history] run=9, changes=0, baselines=0[0m
+[32m2026-07-10 11:29:59,581 [INFO] [service.source_validation.runner] [source reliability] akashi-list=1.0267/medium, kcwiki-data=0.9387/medium, wikiwiki-jp=1.0346/medium[0m
+[32m2026-07-10 11:29:59,595 [INFO] [service.data_package.source_collection] [semantic aliases] validated=6/6 against Start2[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kcwiki-data/dataset-metadata.json (mode=w)
+[32m2026-07-10 11:29:59,646 [INFO] [service.data_package.source_collection] [data source] kcwiki-data: status=ok, relations=1656, issues=0, incremental=parsed, semanticAliases=2[0m
+[32m2026-07-10 11:30:02,042 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json -> raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json (200)[0m
+[32m2026-07-10 11:30:02,055 [INFO] [service.data_package.source_collection] [data source] kcwikizh-kcquests: status=ok, quests=639[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/data-pipeline/sources/kc3-slotitem-bonus/dataset-metadata.json (mode=w)
+[32m2026-07-10 11:30:02,236 [INFO] [service.data_package.equipment_acquisition_snapshot] [equipment acquisition] raw cache is not published; reusing validated public acquisition snapshot; records=571 generatedAt=2026-07-09T16:10:28+00:00[0m
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/audit/build-report.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/manifest.json (mode=w)
+[fileutils] 写入 JSON 文件: /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data/manifest.json (mode=w)
+[32m2026-07-10 11:30:02,651 [INFO] [service.data_package.builder] [data package] built /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data[0m
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm run check
+
+> @sakura2333/kancolle-data@0.5.1 check
+> node -e "const d=require('./');const fs=require('fs');const m=JSON.parse(fs.readFileSync(d.manifestPath));for(const p of [d.manifestPath,d.releasesPath,d.improvement.listPath,d.improvement.detailPath,d.equipment.dropFromPath,d.equipment.sourcesPath,d.equipment.specialBonusesPath,d.schemas.improvementDetailPath,d.schemas.equipmentSourcesPath])if(!fs.existsSync(p))throw new Error('missing '+p);if(m.datasets.improvement.schemaVersion!==4)throw new Error('unexpected improvement schema');if(m.datasets.equipmentSources.schemaVersion!==1)throw new Error('unexpected equipment sources schema');if(m.datasets.equipmentSpecialBonuses.schemaVersion!==2)throw new Error('unexpected special bonus schema');if((m.datasets.useitemIcons.missingIds||[]).length)throw new Error('missing useitem icons');for(const id of m.datasets.useitemIcons.requiredIds||[])if(!fs.existsSync(d.assets.useitemPath(id)))throw new Error('missing icon '+id);if(!m.datasets.equipmentImages||m.datasets.equipmentImages.schemaVersion!==1)throw new Error('missing equipment image manifest');for(const id of m.datasets.equipmentImages.availableIds||[])if(!fs.existsSync(d.assets.equipmentPath(id)))throw new Error('missing equipment image '+id)"
+
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm run check:fresh
+
+> @sakura2333/kancolle-data@0.5.1 check:fresh
+> node scripts/check-fresh.js
+
+source freshness checks passed
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/check.py after
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m compileall -q configs pojo service util script
+[完成] 项目 after 检查通过
+$ git status --short
+$ /Users/sakana/.local/share/mise/installs/node/24/bin/npm pack --dry-run --json
+[source reliability] advisory-only; canonical election unchanged
+[source reliability] source=akashi-list, weight=1.0267, confidence=medium, currentConsistency=0.940207, historyEvents=0, historyApplied=false
+[source reliability] source=kcwiki-data, weight=0.9387, confidence=medium, currentConsistency=0.859560, historyEvents=0, historyApplied=false
+[source reliability] source=wikiwiki-jp, weight=1.0346, confidence=medium, currentConsistency=0.947413, historyEvents=0, historyApplied=false
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "generatedAt": "2026-07-10T03:30:04+00:00",
+  "mode": "local-strict-validation",
+  "packageVersion": "0.5.1",
+  "datasetCount": 7,
+  "npmPack": {
+    "id": "@sakura2333/kancolle-data@0.5.1",
+    "name": "@sakura2333/kancolle-data",
+    "version": "0.5.1",
+    "size": 16261565,
+    "unpackedSize": 20135735,
+    "shasum": "e8e87a88eb1430227af983f21cbf628f1ca80391",
+    "integrity": "sha512-kS0o2Sggx2y4x7+RDr3pMItumnY4iJTvCpkUv298Qt12QfumBtpbaqYNt822kBKB7U2yxp3LvLVGEIrtl5DCaQ==",
+    "filename": "sakura2333-kancolle-data-0.5.1.tgz",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "size": 4107,
+        "mode": 420
+      },
+      {
+        "path": "LICENSES.md",
+        "size": 412,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 3008,
+        "mode": 420
+      },
+      {
+        "path": "RELEASES.json",
+        "size": 795,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/1.png",
+        "size": 27860,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/2.png",
+        "size": 32803,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/3.png",
+        "size": 39597,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/4.png",
+        "size": 33559,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/5.png",
+        "size": 45105,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/6.png",
+        "size": 45789,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/7.png",
+        "size": 30220,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/8.png",
+        "size": 42685,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/9.png",
+        "size": 32938,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/10.png",
+        "size": 33503,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/11.png",
+        "size": 28432,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/12.png",
+        "size": 41551,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/13.png",
+        "size": 31382,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/14.png",
+        "size": 31518,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/15.png",
+        "size": 42442,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/16.png",
+        "size": 30685,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/17.png",
+        "size": 41605,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/18.png",
+        "size": 31581,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/19.png",
+        "size": 31626,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/20.png",
+        "size": 30895,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/21.png",
+        "size": 44670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/22.png",
+        "size": 31739,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/23.png",
+        "size": 32246,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/24.png",
+        "size": 41803,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/25.png",
+        "size": 30893,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/26.png",
+        "size": 40203,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/27.png",
+        "size": 45862,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/28.png",
+        "size": 46416,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/29.png",
+        "size": 32883,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/30.png",
+        "size": 46601,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/31.png",
+        "size": 33097,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/32.png",
+        "size": 33906,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/34.png",
+        "size": 46349,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/35.png",
+        "size": 48152,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/36.png",
+        "size": 38801,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/37.png",
+        "size": 35908,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/38.png",
+        "size": 36466,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/39.png",
+        "size": 46509,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/40.png",
+        "size": 46783,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/41.png",
+        "size": 29598,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/44.png",
+        "size": 35713,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/45.png",
+        "size": 33651,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/46.png",
+        "size": 30407,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/47.png",
+        "size": 32644,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/49.png",
+        "size": 45716,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/50.png",
+        "size": 37936,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/51.png",
+        "size": 42558,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/52.png",
+        "size": 31867,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/53.png",
+        "size": 31431,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/55.png",
+        "size": 32350,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/57.png",
+        "size": 32427,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/58.png",
+        "size": 33051,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/59.png",
+        "size": 41950,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/60.png",
+        "size": 33827,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/61.png",
+        "size": 42103,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/63.png",
+        "size": 33127,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/64.png",
+        "size": 38329,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/65.png",
+        "size": 42655,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/66.png",
+        "size": 30396,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/68.png",
+        "size": 34695,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/69.png",
+        "size": 29302,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/70.png",
+        "size": 42905,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/71.png",
+        "size": 31523,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/72.png",
+        "size": 39509,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/73.png",
+        "size": 39619,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/74.png",
+        "size": 31912,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/76.png",
+        "size": 39480,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/78.png",
+        "size": 35240,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/79.png",
+        "size": 45480,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/80.png",
+        "size": 33488,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/81.png",
+        "size": 33337,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/82.png",
+        "size": 46586,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/84.png",
+        "size": 35067,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/87.png",
+        "size": 40213,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/88.png",
+        "size": 38126,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/89.png",
+        "size": 41009,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/90.png",
+        "size": 49060,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/91.png",
+        "size": 46931,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/92.png",
+        "size": 39270,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/93.png",
+        "size": 32569,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/94.png",
+        "size": 46236,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/95.png",
+        "size": 45524,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/96.png",
+        "size": 35668,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/98.png",
+        "size": 34525,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/99.png",
+        "size": 33497,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/102.png",
+        "size": 37546,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/103.png",
+        "size": 35304,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/104.png",
+        "size": 33550,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/105.png",
+        "size": 44079,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/106.png",
+        "size": 36730,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/109.png",
+        "size": 32047,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/110.png",
+        "size": 48317,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/114.png",
+        "size": 44248,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/115.png",
+        "size": 45330,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/116.png",
+        "size": 38989,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/117.png",
+        "size": 43501,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/118.png",
+        "size": 43647,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/119.png",
+        "size": 36235,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/120.png",
+        "size": 31620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/121.png",
+        "size": 43955,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/122.png",
+        "size": 41196,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/123.png",
+        "size": 32891,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/124.png",
+        "size": 33460,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/125.png",
+        "size": 47041,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/128.png",
+        "size": 46510,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/129.png",
+        "size": 32797,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/130.png",
+        "size": 38745,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/131.png",
+        "size": 34943,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/132.png",
+        "size": 33723,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/133.png",
+        "size": 31329,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/134.png",
+        "size": 31874,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/135.png",
+        "size": 32540,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/136.png",
+        "size": 36137,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/137.png",
+        "size": 42914,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/139.png",
+        "size": 34232,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/140.png",
+        "size": 38750,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/141.png",
+        "size": 32696,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/142.png",
+        "size": 38211,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/145.png",
+        "size": 39395,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/147.png",
+        "size": 47560,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/149.png",
+        "size": 39248,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/151.png",
+        "size": 47380,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/152.png",
+        "size": 37108,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/153.png",
+        "size": 37010,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/154.png",
+        "size": 45416,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/156.png",
+        "size": 37325,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/157.png",
+        "size": 48663,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/158.png",
+        "size": 35282,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/161.png",
+        "size": 47570,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/162.png",
+        "size": 36015,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/163.png",
+        "size": 38490,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/164.png",
+        "size": 37512,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/165.png",
+        "size": 47500,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/166.png",
+        "size": 48488,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/167.png",
+        "size": 37667,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/168.png",
+        "size": 36706,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/169.png",
+        "size": 45119,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/170.png",
+        "size": 33786,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/171.png",
+        "size": 35228,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/172.png",
+        "size": 34800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/174.png",
+        "size": 38574,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/175.png",
+        "size": 32975,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/176.png",
+        "size": 34867,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/179.png",
+        "size": 36721,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/180.png",
+        "size": 34800,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/181.png",
+        "size": 47332,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/182.png",
+        "size": 37457,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/183.png",
+        "size": 44723,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/184.png",
+        "size": 34064,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/185.png",
+        "size": 34225,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/186.png",
+        "size": 33809,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/187.png",
+        "size": 33180,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/189.png",
+        "size": 44773,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/190.png",
+        "size": 34743,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/192.png",
+        "size": 36382,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/193.png",
+        "size": 48110,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/194.png",
+        "size": 35994,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/195.png",
+        "size": 47771,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/196.png",
+        "size": 47284,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/197.png",
+        "size": 47502,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/198.png",
+        "size": 33506,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/201.png",
+        "size": 32749,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/202.png",
+        "size": 38192,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/203.png",
+        "size": 34915,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/204.png",
+        "size": 34492,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/205.png",
+        "size": 34048,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/206.png",
+        "size": 43927,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/210.png",
+        "size": 37614,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/211.png",
+        "size": 37702,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/213.png",
+        "size": 37158,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/215.png",
+        "size": 46065,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/216.png",
+        "size": 46292,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/217.png",
+        "size": 36141,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/219.png",
+        "size": 35674,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/220.png",
+        "size": 36564,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/221.png",
+        "size": 47664,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/222.png",
+        "size": 34626,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/224.png",
+        "size": 35234,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/226.png",
+        "size": 38531,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/227.png",
+        "size": 48495,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/228.png",
+        "size": 46692,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/229.png",
+        "size": 48467,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/231.png",
+        "size": 45821,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/232.png",
+        "size": 35153,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/233.png",
+        "size": 44621,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/234.png",
+        "size": 36969,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/235.png",
+        "size": 36476,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/236.png",
+        "size": 45019,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/237.png",
+        "size": 45318,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/238.png",
+        "size": 36488,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/240.png",
+        "size": 38439,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/242.png",
+        "size": 46304,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/243.png",
+        "size": 36187,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/245.png",
+        "size": 32874,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/246.png",
+        "size": 43461,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/247.png",
+        "size": 34215,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/248.png",
+        "size": 45757,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/249.png",
+        "size": 46791,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/250.png",
+        "size": 33028,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/251.png",
+        "size": 34040,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/252.png",
+        "size": 33548,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/256.png",
+        "size": 34264,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/260.png",
+        "size": 36714,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/261.png",
+        "size": 36573,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/266.png",
+        "size": 47017,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/267.png",
+        "size": 36680,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/271.png",
+        "size": 36822,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/274.png",
+        "size": 39641,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/275.png",
+        "size": 36036,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/276.png",
+        "size": 34735,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/277.png",
+        "size": 35647,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/278.png",
+        "size": 37334,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/279.png",
+        "size": 37588,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/280.png",
+        "size": 34704,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/281.png",
+        "size": 44237,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/282.png",
+        "size": 33465,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/283.png",
+        "size": 45235,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/284.png",
+        "size": 37991,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/285.png",
+        "size": 38843,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/286.png",
+        "size": 40044,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/287.png",
+        "size": 43666,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/288.png",
+        "size": 38917,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/289.png",
+        "size": 37609,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/290.png",
+        "size": 45281,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/293.png",
+        "size": 45128,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/294.png",
+        "size": 48625,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/295.png",
+        "size": 38140,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/296.png",
+        "size": 37746,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/297.png",
+        "size": 39538,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/298.png",
+        "size": 32620,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/299.png",
+        "size": 34115,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/300.png",
+        "size": 44239,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/303.png",
+        "size": 34739,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/304.png",
+        "size": 47283,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/309.png",
+        "size": 33694,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/310.png",
+        "size": 46719,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/313.png",
+        "size": 34510,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/314.png",
+        "size": 46397,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/315.png",
+        "size": 34773,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/316.png",
+        "size": 33926,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/317.png",
+        "size": 38361,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/318.png",
+        "size": 44660,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/322.png",
+        "size": 44846,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/324.png",
+        "size": 33897,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/325.png",
+        "size": 44976,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/326.png",
+        "size": 47351,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/327.png",
+        "size": 48055,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/328.png",
+        "size": 32856,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/329.png",
+        "size": 33875,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/330.png",
+        "size": 46240,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/331.png",
+        "size": 32839,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/332.png",
+        "size": 33379,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/340.png",
+        "size": 32897,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/341.png",
+        "size": 36561,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/344.png",
+        "size": 35383,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/346.png",
+        "size": 36570,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/348.png",
+        "size": 38791,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/356.png",
+        "size": 48807,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/357.png",
+        "size": 36656,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/365.png",
+        "size": 39742,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/367.png",
+        "size": 40155,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/368.png",
+        "size": 40031,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/370.png",
+        "size": 39209,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/371.png",
+        "size": 38416,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/372.png",
+        "size": 34472,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/379.png",
+        "size": 36918,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/381.png",
+        "size": 37167,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/382.png",
+        "size": 46625,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/383.png",
+        "size": 36075,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/385.png",
+        "size": 37202,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/386.png",
+        "size": 36651,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/387.png",
+        "size": 35280,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/391.png",
+        "size": 48286,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/392.png",
+        "size": 37889,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/393.png",
+        "size": 35650,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/394.png",
+        "size": 35693,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/395.png",
+        "size": 35275,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/397.png",
+        "size": 36144,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/398.png",
+        "size": 35916,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/399.png",
+        "size": 49263,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/400.png",
+        "size": 37597,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/401.png",
+        "size": 48776,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/403.png",
+        "size": 35700,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/407.png",
+        "size": 36038,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/408.png",
+        "size": 49606,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/409.png",
+        "size": 49035,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/410.png",
+        "size": 40159,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/411.png",
+        "size": 38441,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/414.png",
+        "size": 37458,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/419.png",
+        "size": 36241,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/420.png",
+        "size": 37177,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/421.png",
+        "size": 48849,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/422.png",
+        "size": 47345,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/423.png",
+        "size": 35898,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/424.png",
+        "size": 48237,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/425.png",
+        "size": 37331,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/426.png",
+        "size": 50666,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/427.png",
+        "size": 38292,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/428.png",
+        "size": 37192,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/429.png",
+        "size": 37299,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/431.png",
+        "size": 49578,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/432.png",
+        "size": 36740,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/438.png",
+        "size": 40033,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/440.png",
+        "size": 45953,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/441.png",
+        "size": 38876,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/442.png",
+        "size": 47051,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/445.png",
+        "size": 48840,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/446.png",
+        "size": 37780,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/447.png",
+        "size": 36117,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/450.png",
+        "size": 40563,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/451.png",
+        "size": 36653,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/452.png",
+        "size": 37775,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/455.png",
+        "size": 37732,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/457.png",
+        "size": 37055,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/464.png",
+        "size": 49222,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/468.png",
+        "size": 48337,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/470.png",
+        "size": 40250,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/471.png",
+        "size": 38794,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/473.png",
+        "size": 48025,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/474.png",
+        "size": 47766,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/478.png",
+        "size": 42178,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/483.png",
+        "size": 48079,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/485.png",
+        "size": 41161,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/486.png",
+        "size": 39702,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/487.png",
+        "size": 40135,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/488.png",
+        "size": 40854,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/489.png",
+        "size": 39812,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/492.png",
+        "size": 39522,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/493.png",
+        "size": 40208,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/496.png",
+        "size": 44645,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/500.png",
+        "size": 46209,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/502.png",
+        "size": 49600,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/507.png",
+        "size": 45961,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/508.png",
+        "size": 51686,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/509.png",
+        "size": 39496,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/511.png",
+        "size": 48955,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/512.png",
+        "size": 44304,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/517.png",
+        "size": 50387,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/518.png",
+        "size": 40665,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/519.png",
+        "size": 44347,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/520.png",
+        "size": 39129,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/522.png",
+        "size": 43678,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/523.png",
+        "size": 37942,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/524.png",
+        "size": 52670,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/529.png",
+        "size": 40200,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/530.png",
+        "size": 49183,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/531.png",
+        "size": 44163,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/533.png",
+        "size": 40161,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/534.png",
+        "size": 36895,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/535.png",
+        "size": 39172,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/536.png",
+        "size": 50146,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/537.png",
+        "size": 39552,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/539.png",
+        "size": 39331,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/541.png",
+        "size": 48807,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/542.png",
+        "size": 48812,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/543.png",
+        "size": 38782,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/544.png",
+        "size": 39170,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/546.png",
+        "size": 47755,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/547.png",
+        "size": 48839,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/549.png",
+        "size": 38429,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/550.png",
+        "size": 50862,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/551.png",
+        "size": 37190,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/552.png",
+        "size": 41328,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/553.png",
+        "size": 40997,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/555.png",
+        "size": 38582,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/564.png",
+        "size": 47009,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/565.png",
+        "size": 46386,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/570.png",
+        "size": 50308,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/572.png",
+        "size": 39105,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/573.png",
+        "size": 52777,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/574.png",
+        "size": 52840,
+        "mode": 420
+      },
+      {
+        "path": "assets/equipment/575.png",
+        "size": 41235,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/2.png",
+        "size": 18075,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/57.png",
+        "size": 128450,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/70.png",
+        "size": 45622,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/71.png",
+        "size": 58245,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/75.png",
+        "size": 19226,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/77.png",
+        "size": 53783,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/78.png",
+        "size": 21285,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/91.png",
+        "size": 21044,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/92.png",
+        "size": 124067,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/94.png",
+        "size": 136922,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/95.png",
+        "size": 28940,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/100.png",
+        "size": 19758,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitem/104.png",
+        "size": 19789,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/2.png",
+        "size": 18075,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/57.png",
+        "size": 128450,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/70.png",
+        "size": 45622,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/71.png",
+        "size": 58245,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/75.png",
+        "size": 19226,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/77.png",
+        "size": 53783,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/78.png",
+        "size": 21285,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/91.png",
+        "size": 21044,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/92.png",
+        "size": 124067,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/94.png",
+        "size": 136922,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/95.png",
+        "size": 28940,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/100.png",
+        "size": 19758,
+        "mode": 420
+      },
+      {
+        "path": "assets/useitems/104.png",
+        "size": 19789,
+        "mode": 420
+      },
+      {
+        "path": "audit/build-report.json",
+        "size": 2163,
+        "mode": 420
+      },
+      {
+        "path": "equipment/drop-from.nedb",
+        "size": 360883,
+        "mode": 420
+      },
+      {
+        "path": "equipment/sources.nedb",
+        "size": 84725,
+        "mode": 420
+      },
+      {
+        "path": "equipment/special-bonuses.nedb",
+        "size": 285679,
+        "mode": 420
+      },
+      {
+        "path": "improvement/detail.nedb",
+        "size": 2946913,
+        "mode": 420
+      },
+      {
+        "path": "improvement/list.json",
+        "size": 209470,
+        "mode": 420
+      },
+      {
+        "path": "index.d.ts",
+        "size": 675,
+        "mode": 420
+      },
+      {
+        "path": "index.js",
+        "size": 1348,
+        "mode": 420
+      },
+      {
+        "path": "manifest.json",
+        "size": 73661,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2205,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-drop-from.schema.json",
+        "size": 963,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-sources.schema.json",
+        "size": 1064,
+        "mode": 420
+      },
+      {
+        "path": "schemas/equipment-special-bonus.schema.json",
+        "size": 1591,
+        "mode": 420
+      },
+      {
+        "path": "schemas/improvement-detail.schema.json",
+        "size": 7957,
+        "mode": 420
+      },
+      {
+        "path": "scripts/check-fresh.js",
+        "size": 1124,
+        "mode": 420
+      }
+    ],
+    "entryCount": 417,
+    "bundled": []
+  },
+  "sourceReliability": {
+    "mode": "advisory-relative-consistency",
+    "generatedAt": "2026-07-10T03:29:59+00:00",
+    "applyToCanonicalElection": false,
+    "canonicalElectionUnchanged": true,
+    "sources": [
+      {
+        "source": "akashi-list",
+        "relativeWeight": 1.0267,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.940207,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "kcwiki-data",
+        "relativeWeight": 0.9387,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.85956,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      },
+      {
+        "source": "wikiwiki-jp",
+        "relativeWeight": 1.0346,
+        "confidence": "medium",
+        "weightStatus": "advisory",
+        "currentConsistencyScore": 0.947413,
+        "historyAppliedToWeight": false,
+        "historyEventCount": 0
+      }
+    ]
+  }
+}

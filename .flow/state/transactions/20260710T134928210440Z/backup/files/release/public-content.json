@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "projectId": "kancolle-item-improvement-spider",
+  "policy": "whitelist-public-snapshot",
+  "channels": [
+    "beta",
+    "stable"
+  ],
+  "categories": {
+    "runtime": [
+      "configs/**",
+      "service/**",
+      "util/**"
+    ],
+    "automation": [
+      "automation/**",
+      ".github/workflows/**"
+    ],
+    "packageTemplate": [
+      "packages/kancolle-data/**"
+    ],
+    "documentation": [
+      "LICENSE",
+      "README.md",
+      "RELEASE-NOTES.md",
+      "VERSION",
+      "mise.toml",
+      "pyproject.toml",
+      "uv.lock",
+      "docs/public/**",
+      "PUBLIC-CONTENT-MANIFEST.json"
+    ]
+  },
+  "required": [
+    "README.md",
+    "VERSION",
+    "mise.toml",
+    "pyproject.toml",
+    "uv.lock",
+    "docs/public/README.md",
+    "docs/public/DATA-SCHEMA.md",
+    "RELEASE-NOTES.md",
+    ".github/workflows/source-acquire.yml",
+    ".github/workflows/data-build.yml",
+    ".github/workflows/release.yml",
+    "automation/acquire/cli.py",
+    "automation/compute/cli.py",
+    "automation/release/cli.py",
+    "PUBLIC-CONTENT-MANIFEST.json"
+  ],
+  "internalOnly": [
+    ".flow/**",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "docs/internal/**",
+    "release/**",
+    "AGENTS.md"
+  ],
+  "forbidden": [
+    ".flow/**",
+    "script/**",
+    "tests/**",
+    "tools/**",
+    "docs/internal/**",
+    "release/**",
+    "AGENTS.md",
+    "data/**",
+    "log/**",
+    ".venv/**",
+    ".idea/**",
+    ".gpt/**",
+    "**/__pycache__/**",
+    "**/*.pyc"
+  ],
+  "summary": {
+    "builder": "script.project.release_summary:build"
+  },
+  "previewRoot": ".flow/state/public-candidates",
+  "mainReleaseGateRoot": ".flow/state/main-release",
+  "candidateBranchPrefix": "public-candidate/",
+  "betaCandidateBranchPrefix": "public-beta/",
+  "contentManifest": {
+    "path": "PUBLIC-CONTENT-MANIFEST.json",
+    "mode": "one-time-full-then-managed",
+    "allowedLegacyTrees": [
+      "4065dfa2cc3732c2c2ca70d60ec889dc24d738fe"
+    ],
+    "legacyPaths": [
+      "STABLE-CONTENT-MANIFEST.json"
+    ]
+  },
+  "generated": [
+    "RELEASE-NOTES.md",
+    "PUBLIC-CONTENT-MANIFEST.json"
+  ],
+  "releaseCheckProfile": "release",
+  "generatedState": [
+    "dist/data-pipeline/improvement/**",
+    "dist/data-pipeline/start2_data/**",
+    "dist/data-pipeline/assets/**",
+    "dist/data-pipeline/sources/**",
+    "dist/packages/kancolle-data/**"
+  ],
+  "publicForbiddenText": [
+    "./flow",
+    "script/project",
+    ".flow/state",
+    "docs/internal",
+    "AGENTS.md",
+    "Flow Lite",
+    "tools/wikiwiki-crawler/migrate_existing_html.py"
+  ]
+}

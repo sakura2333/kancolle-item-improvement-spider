@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "reviewedAt": "2026-07-13T23:55:39+08:00",
+  "releaseId": "1.0.24-5a9466259a7a",
+  "candidateBranch": "public-candidate/1.0.24-5a9466259a7a",
+  "candidateCommit": "d222683f034468e118ad5decd05124e28106df73",
+  "candidateTree": "b9feb5aa07e160dde4cb08e2ec081776f97ba475",
+  "candidateZipSha256": "012270f577584a29486c703ba8df011613a1bb4e1b2acbde5f4ae0d3c95a71eb",
+  "changeCounts": {
+    "runtime": 0,
+    "automation": 1,
+    "packageTemplate": 0,
+    "documentation": 2,
+    "uncategorized": 0,
+    "total": 3
+  },
+  "reviewedAreas": [
+    "candidate identity and public manifest consistency",
+    "npm publish command-error reconciliation",
+    "delayed npm registry visibility polling",
+    "dist-tag delayed confirmation",
+    "immutable-version conflict protection",
+    "npm audit output truncation and error-tail retention",
+    "documentation consistency",
+    "workflow syntax and public boundary"
+  ],
+  "verification": {
+    "candidateFileCount": 156,
+    "publicManifestMatchesCandidate": true,
+    "candidateTreeRecomputed": true,
+    "pythonCompile": "passed: 111 files",
+    "workflowYamlParse": "passed: 3 files",
+    "workflowShellSyntax": "passed: 28 run blocks",
+    "targetedNpmPublishTests": "passed: 11",
+    "unsafeZipPaths": 0,
+    "zipSymlinks": 0,
+    "duplicateZipEntries": 0,
+    "sensitiveFindings": 0,
+    "implementationChecks": {
+      "registryQueriesUsePreferOnline": true,
+      "defaultConfirmationWindowSeconds": 120,
+      "publishNonZeroCanReconcileExactRemoteTarball": true,
+      "delayedRegistryVisibilityCanReconcile": true,
+      "distTagVisibilityCanReconcile": true,
+      "differentRemoteTarballStillFails": true,
+      "auditPreservesOutputHeadAndErrorTail": true,
+      "successfulReconciliationReturnsNormallyForNextVariant": true
+    }
+  },
+  "blockingIssues": [],
+  "nonBlockingObservations": [
+    "Build #14 的 npm CLI 底层报错类型仍无法仅凭公开日志精确还原；本 Candidate 修复的是已确认的事务缺陷：命令返回非零或 Registry 延迟可见时，只要远端不可变 tarball 与冻结 Candidate 一致，就继续完成后续变体。",
+    "真正的鉴权失败或 Registry 在确认窗口后仍不可见时，流程最多等待约 120 秒后仍会失败；这是保留的安全边界，不会把未发布内容误判为成功。"
+  ],
+  "notes": "Candidate 仅修改 npm 发布对账实现、公共生命周期说明和 Public Manifest。已验证命令错误后的精确 tarball 对账、延迟可见、dist-tag 延迟、不可变冲突硬失败以及错误输出尾部保留。没有改变数据、Acquire 或 npm 包内容契约。"
+}

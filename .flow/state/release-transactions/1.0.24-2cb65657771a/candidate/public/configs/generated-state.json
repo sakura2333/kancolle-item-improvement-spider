@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "online-data",
+  "role": "generated-state",
+  "backend": "git-ref",
+  "ref": "online",
+  "management": "project-managed",
+  "manifestPath": ".generated-state/manifest.json",
+  "exportPaths": [
+    "dist/data-pipeline/improvement",
+    "dist/data-pipeline/start2_data",
+    "dist/data-pipeline/assets",
+    "dist/data-pipeline/sources",
+    "dist/packages/kancolle-data/improvement",
+    "dist/packages/kancolle-data/compat",
+    "dist/packages/kancolle-data/equipment",
+    "dist/packages/kancolle-data/assets",
+    "dist/packages/kancolle-data/audit",
+    "dist/packages/kancolle-data/CHANGELOG.md",
+    "dist/packages/kancolle-data/RELEASES.json",
+    "dist/packages/kancolle-data/manifest.json"
+  ],
+  "baselineSyncPaths": [
+    "dist/data-pipeline/improvement",
+    "dist/data-pipeline/start2_data",
+    "dist/data-pipeline/assets",
+    "dist/data-pipeline/sources",
+    "dist/packages/kancolle-data/improvement",
+    "dist/packages/kancolle-data/compat",
+    "dist/packages/kancolle-data/equipment",
+    "dist/packages/kancolle-data/assets",
+    "dist/packages/kancolle-data/audit",
+    "dist/packages/kancolle-data/CHANGELOG.md",
+    "dist/packages/kancolle-data/RELEASES.json",
+    "dist/packages/kancolle-data/manifest.json"
+  ],
+  "forbiddenPaths": [
+    ".github",
+    "configs",
+    "script",
+    "automation",
+    "service",
+    "tests",
+    "util",
+    "pyproject.toml",
+    "uv.lock",
+    "VERSION"
+  ],
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/*.tgz",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/.DS_Store"
+  ]
+}

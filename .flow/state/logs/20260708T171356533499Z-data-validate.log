@@ -1,0 +1,2 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/data_pipeline.py --report dist/data-pipeline/local-validation.json
+错误：WikiWiki source acquisition receipt is not ready; notReadyDetails=equipment:incomplete remaining=417 failed=0 stopReason=none; run ./flow wikiwiki --full to refresh ship/equipment/improvement indexes and required equipment details

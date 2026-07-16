@@ -1,0 +1,23 @@
+[
+  {
+    "version": "0.2.0",
+    "date": "2026-06-28",
+    "contentDigest": "1c43f3ba5ab5fddf6ddd183bbea51f4be9f06688782a920f73476a7382884a92",
+    "metrics": {
+      "improvement.listViewCount": 8,
+      "improvement.listAllCount": 372,
+      "improvement.detailRecordCount": 372,
+      "equipmentDropFrom.recordCount": 247,
+      "equipmentDropFrom.relationCount": 1645,
+      "equipmentSpecialBonuses.recordCount": 348,
+      "equipmentSpecialBonuses.equipmentRecordCount": 341,
+      "equipmentSpecialBonuses.equipmentTypeRecordCount": 7,
+      "equipmentSpecialBonuses.ruleCount": 2320,
+      "useitemIcons.requiredCount": 13,
+      "useitemIcons.missingCount": 0,
+      "useitemIcons.count": 16,
+      "useitemIcons.totalBytes": 711604,
+      "publicData.totalBytes": 2028838
+    }
+  }
+]

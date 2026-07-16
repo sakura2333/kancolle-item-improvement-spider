@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-06ef2327aeef",
+  "candidateCommit": "d3d3007335a319fc65fda3a38e7989e2134fe34b",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Approved. Candidate archive SHA-256 26951e0a3b8db1f67c2b4918a970904ba445e55e698dbc4ea3aafdb9d687a0cc. The archive contains exactly 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json; no missing or extra files, duplicate or unsafe ZIP paths, symlinks, worktree .git metadata, local absolute paths, credentials, private network addresses, or internal Flow control-plane files were found. Review delta is fully classified: runtime=46, automation=30, packageTemplate=30, documentation=17, retiredPublic=63, uncategorized=0; every retiredPublic entry is deletion-only. The public package-location contract remains correct: packages/kancolle-data is the committed template, dist/packages/kancolle-data is the generated candidate, and dist/npm/kancolle-data/<version> is isolated npm staging/artifacts. Compared with the previously approved public candidate, all 152 non-manifest files are byte-identical; PUBLIC-CONTENT-MANIFEST.json changes only sourceCommit and generatedAt to bind this new release transaction. Python AST, JSON, YAML, JavaScript syntax, ZIP safety, public workflow separation, candidate/template identity, and sensitive-text checks passed. The local prepare run also reports 357 full tests passing with one conditional skip and 150 release-gate tests passing."
+}

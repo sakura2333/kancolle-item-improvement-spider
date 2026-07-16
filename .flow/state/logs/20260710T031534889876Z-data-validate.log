@@ -1,0 +1,7 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/data_pipeline.py --report dist/data-pipeline/local-validation.json
+[wikiwiki source gate] ready=true indexes=ship,equipment,improvement
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 -m service.data_package.cli build --strict
+[32m2026-07-10 11:15:35,067 [INFO] [util.start2.start2_utils] [start2] cache hit: local=2026070902 ageHours=31.11 maxAgeHours=50.0[0m
+[32m2026-07-10 11:15:35,081 [INFO] [util.site_workers] [site workers] running 5 task(s) with 3 website worker(s)[0m
+[32m2026-07-10 11:15:35,450 [INFO] [service.akashi_list.akashi_list_utils] [route] conditional stage recipe: 10cm連装高角砲 × 2二番艦：玉波改二限定12.7cm連装高角砲 × 3[0m
+[33m2026-07-10 11:15:45,124 [WARNING] [util.http_cache.transport] [FETCH RETRY] https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json attempt=1/4 delay=1.01s reason=ReadTimeout: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=10)[0m

@@ -1,0 +1,11 @@
+# Generated public checkout ignores
+.venv/
+.spider/local/
+dist/
+configs/*.local.*
+configs/**/*.local.*
+__pycache__/
+*.py[cod]
+.DS_Store
+*.tgz
+packages/kancolle-data/node_modules/

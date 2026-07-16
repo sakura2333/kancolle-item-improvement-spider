@@ -1,0 +1,124 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 script/project/python_runner.py script/project/akashi_command.py full --skip-start2
+[32m2026-07-10 10:37:36,076 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/ -> akashi-list.me/index.html (200)[0m
+[32m2026-07-10 10:37:37,093 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w019.html -> akashi-list.me/detail/w019.html (200)[0m
+[32m2026-07-10 10:37:38,092 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon019_260.png -> cache/equip/19.png (200)[0m
+[akashi] id=w019 status=saved
+[32m2026-07-10 10:37:39,271 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w228.html -> akashi-list.me/detail/w228.html (200)[0m
+[32m2026-07-10 10:37:40,028 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon228_260.png -> cache/equip/228.png (200)[0m
+[akashi] id=w228 status=saved
+[32m2026-07-10 10:37:41,234 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w249.html -> akashi-list.me/detail/w249.html (200)[0m
+[32m2026-07-10 10:37:42,050 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon249_260.png -> cache/equip/249.png (200)[0m
+[32m2026-07-10 10:37:42,962 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/new_plane_material.png -> cache/useitem/77.png (200)[0m
+[32m2026-07-10 10:37:43,965 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/skilled_crew.png -> cache/useitem/70.png (200)[0m
+[akashi] id=w249 status=saved
+[32m2026-07-10 10:37:48,135 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w197.html -> akashi-list.me/detail/w197.html (200)[0m
+[32m2026-07-10 10:37:48,886 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon197_260.png -> cache/equip/197.png (200)[0m
+[akashi] id=w197 status=saved
+[32m2026-07-10 10:37:49,645 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w020.html -> akashi-list.me/detail/w020.html (200)[0m
+[32m2026-07-10 10:37:50,440 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon020_260.png -> cache/equip/20.png (200)[0m
+[akashi] id=w020 status=saved
+[32m2026-07-10 10:37:51,272 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w181.html -> akashi-list.me/detail/w181.html (200)[0m
+[32m2026-07-10 10:37:52,019 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon181_260.png -> cache/equip/181.png (200)[0m
+[akashi] id=w181 status=saved
+[32m2026-07-10 10:37:53,056 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w198.html -> akashi-list.me/detail/w198.html (200)[0m
+[32m2026-07-10 10:37:53,988 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon198_260.png -> cache/equip/198.png (200)[0m
+[akashi] id=w198 status=saved
+[32m2026-07-10 10:37:54,995 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w021.html -> akashi-list.me/detail/w021.html (200)[0m
+[32m2026-07-10 10:37:55,736 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon021_260.png -> cache/equip/21.png (200)[0m
+[akashi] id=w021 status=saved
+[32m2026-07-10 10:37:56,736 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w184.html -> akashi-list.me/detail/w184.html (200)[0m
+[32m2026-07-10 10:37:57,537 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon184_260.png -> cache/equip/184.png (200)[0m
+[akashi] id=w184 status=saved
+[32m2026-07-10 10:37:58,363 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w205.html -> akashi-list.me/detail/w205.html (200)[0m
+[32m2026-07-10 10:37:59,353 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon205_260.png -> cache/equip/205.png (200)[0m
+[akashi] id=w205 status=saved
+[32m2026-07-10 10:38:00,156 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w182.html -> akashi-list.me/detail/w182.html (200)[0m
+[32m2026-07-10 10:38:00,927 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon182_260.png -> cache/equip/182.png (200)[0m
+[akashi] id=w182 status=saved
+[32m2026-07-10 10:38:01,813 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w096.html -> akashi-list.me/detail/w096.html (200)[0m
+[32m2026-07-10 10:38:02,839 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon096_260.png -> cache/equip/96.png (200)[0m
+[akashi] id=w096 status=saved
+[32m2026-07-10 10:38:03,883 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w158.html -> akashi-list.me/detail/w158.html (200)[0m
+[32m2026-07-10 10:38:04,628 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon158_260.png -> cache/equip/158.png (200)[0m
+[32m2026-07-10 10:38:05,387 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/kaigai-skill.png -> cache/useitem/100.png (200)[0m
+[akashi] id=w158 status=saved
+[32m2026-07-10 10:38:06,323 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w109.html -> akashi-list.me/detail/w109.html (200)[0m
+[32m2026-07-10 10:38:08,266 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon109_260.png -> cache/equip/109.png (200)[0m
+[akashi] id=w109 status=saved
+[32m2026-07-10 10:38:09,361 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w152.html -> akashi-list.me/detail/w152.html (200)[0m
+[32m2026-07-10 10:38:10,246 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://aiacdn.contents-stg.site/img/weapon152_260.png -> cache/equip/152.png (200)[0m
+[akashi] id=w152 status=saved
+[32m2026-07-10 10:38:11,234 [INFO] [util.http_cache.transport] [CACHE UPDATED] https://akashi-list.me/detail/w486.html -> akashi-list.me/detail/w486.html (200)[0m
+Traceback (most recent call last):
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 185, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 163, in main
+    vo_list, metadata = _collect_akashi(daily_limit)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/script/project/akashi_command.py", line 87, in _collect_akashi
+    detail_processor.process_detail_page(page=detail_page)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/akashi_detail_processor.py", line 95, in process_detail_page
+    download_detail_equipment_image(self.item.id, page_node)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 83, in download_detail_equipment_image
+    download_equipment_image(equipment_id, _detail_equipment_image_url(page_node))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/service/akashi_list/detail_stage_parser.py", line 67, in download_equipment_image
+    download_pic(url=png_url, save_path=f"cache/equip/{int(equipment_id)}.png")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 99, in download_pic
+    return download_file(
+        url=url,
+    ...<7 lines>...
+        require_fresh=require_fresh,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/client.py", line 71, in download_file
+    response = transport.request_with_cache_headers(url, old_meta, settings.FILE_REQUEST_TIMEOUT_SECONDS)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/util/http_cache/transport.py", line 53, in request_with_cache_headers
+    response = requests.get(url, headers=request_headers, timeout=timeout)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/lib/python3.14/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 1459, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/ssl.py", line 1316, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/sakana/.local/share/uv/python/cpython-3.14.6-macos-aarch64-none/lib/python3.14/ssl.py", line 1150, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

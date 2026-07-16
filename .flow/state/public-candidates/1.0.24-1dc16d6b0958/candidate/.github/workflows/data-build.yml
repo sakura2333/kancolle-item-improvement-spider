@@ -1,0 +1,203 @@
+name: Build Data Candidate
+
+on:
+  workflow_run:
+    workflows: ['Acquire Spider Sources']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'Run ID containing kancolle-source-bundle'
+        required: true
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: kancolle-data-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+      SOURCE_RUN_ID: ${{ github.event.workflow_run.id || inputs.source_run_id }}
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen source bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-source-bundle
+          path: ${{ runner.temp }}/source-bundle
+          run-id: ${{ env.SOURCE_RUN_ID }}
+          github-token: ${{ github.token }}
+
+      - name: Checkout source bundle commit
+        run: |
+          set -euo pipefail
+          SOURCE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/source-bundle/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$SOURCE_COMMIT"
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked build environment
+        run: mise exec -- uv sync --locked
+
+      - name: Load previous online baseline
+        id: baseline
+        run: |
+          set -euo pipefail
+          BASELINE="$RUNNER_TEMP/kancolle-data-baseline.json"
+          ONLINE_MANIFEST="$RUNNER_TEMP/online-package-manifest.json"
+          if git fetch --no-tags origin refs/heads/online:refs/remotes/origin/online 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' 2>/dev/null; then
+            git show 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' > "$BASELINE"
+            git show 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' > "$ONLINE_MANIFEST"
+            for RELEASE_FILE in CHANGELOG.md RELEASES.json; do
+              if git cat-file -e "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" 2>/dev/null; then
+                git show "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" \
+                  > "packages/kancolle-data/$RELEASE_FILE"
+              fi
+            done
+            ONLINE_VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["packageVersion"])' "$ONLINE_MANIFEST")"
+            mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$ONLINE_VERSION"
+          else
+            cat > "$BASELINE" <<'JSON'
+          {
+            "schemaVersion": 1,
+            "contentDigest": null,
+            "metrics": {},
+            "files": {}
+          }
+          JSON
+          fi
+          echo "path=$BASELINE" >> "$GITHUB_OUTPUT"
+
+      - name: Build from frozen source bundle
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.compute.cli prepare \
+            --source-bundle "$RUNNER_TEMP/source-bundle"
+
+      - name: Validate data quality and detect changes
+        id: quality
+        run: |
+          set -euo pipefail
+          CURRENT="$RUNNER_TEMP/kancolle-data-current.json"
+          RESULT="$RUNNER_TEMP/kancolle-data-validation.json"
+          mise exec -- uv run --locked python -m service.data_package.validation.cli validate \
+            --baseline '${{ steps.baseline.outputs.path }}' \
+            --output "$CURRENT" > "$RESULT"
+          CHANGED="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["changed"]).lower())' "$RESULT")"
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "snapshot=$CURRENT" >> "$GITHUB_OUTPUT"
+
+      - name: Read npm registry versions
+        id: registry
+        run: |
+          set -euo pipefail
+          PACKAGE_NAME="$(node -p "require('./packages/kancolle-data/package.json').name")"
+          VERSIONS="$RUNNER_TEMP/npm-published-versions.json"
+          set +e
+          OUTPUT="$(npm view "$PACKAGE_NAME" versions --json 2>&1)"
+          STATUS=$?
+          set -e
+          if [ "$STATUS" -eq 0 ]; then
+            printf '%s\n' "$OUTPUT" > "$VERSIONS"
+          elif printf '%s' "$OUTPUT" | grep -Eq 'E404|404 Not Found'; then
+            printf '[]\n' > "$VERSIONS"
+          else
+            printf '%s\n' "$OUTPUT" >&2
+            exit "$STATUS"
+          fi
+          echo "path=$VERSIONS" >> "$GITHUB_OUTPUT"
+
+      - name: Plan package version
+        id: plan
+        run: |
+          set -euo pipefail
+          PLAN="$RUNNER_TEMP/npm-version-plan.json"
+          mise exec -- uv run --locked python -m service.data_package.cli plan-version \
+            --mode scheduled \
+            --published-versions '${{ steps.registry.outputs.path }}' \
+            --data-changed '${{ steps.quality.outputs.changed }}' \
+            --output "$PLAN" >/dev/null
+          SHOULD_PUBLISH="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$PLAN")"
+          VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["version"] or "")' "$PLAN")"
+          echo "should_publish=$SHOULD_PUBLISH" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "path=$PLAN" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare frozen release projection
+        if: steps.plan.outputs.should_publish == 'true'
+        run: |
+          set -euo pipefail
+          VERSION='${{ steps.plan.outputs.version }}'
+          mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$VERSION"
+          mise exec -- uv run --locked python -m service.data_package.cli finalize-release \
+            --version "$VERSION" \
+            --snapshot '${{ steps.quality.outputs.snapshot }}' >/dev/null
+          mise exec -- uv run --locked python -m service.data_package.cli refresh-manifest >/dev/null
+          mise exec -- uv run --locked python -m automation.release.npm_release_set build \
+            --package-dir dist/packages/kancolle-data \
+            --output "$RUNNER_TEMP/npm-release-set"
+          mise exec -- uv run --locked python - '${{ steps.quality.outputs.snapshot }}' "$RUNNER_TEMP/online-state" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+          from automation.release.generated_state import export_generated_state
+
+          commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          result = export_generated_state(
+              output_dir=Path(sys.argv[2]),
+              base_ref="main",
+              base_commit=commit,
+              verification_report=Path(sys.argv[1]),
+              replace=True,
+          )
+          print(json.dumps(result, ensure_ascii=False))
+          PY
+
+      - name: Freeze immutable build candidate
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ steps.plan.outputs.should_publish }}' = 'true' ]; then
+            EXTRA+=(--npm-release-set "$RUNNER_TEMP/npm-release-set")
+            EXTRA+=(--online-state "$RUNNER_TEMP/online-state")
+          fi
+          mise exec -- uv run --locked python -m automation.compute.cli freeze \
+            --source-bundle "$RUNNER_TEMP/source-bundle" \
+            --release-plan '${{ steps.plan.outputs.path }}' \
+            --verification-report '${{ steps.quality.outputs.snapshot }}' \
+            --output "$RUNNER_TEMP/build-candidate" \
+            "${EXTRA[@]}"
+
+      - name: Upload build candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+          if-no-files-found: error
+          retention-days: 30

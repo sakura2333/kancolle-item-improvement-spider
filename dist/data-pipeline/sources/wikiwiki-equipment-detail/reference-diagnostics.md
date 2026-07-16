@@ -1,0 +1,7778 @@
+# WikiWiki reference diagnostics
+
+- status: operator-stop
+- resolvedLinkTargetConflictCount: 10
+- operatorStopReferenceCount: 852
+
+## resolved-link-target-conflict 21:零式艦戦52型
+
+- rawName: 翔鶴
+- linkTarget: 翔鶴改
+- acceptedShip: 288:翔鶴改
+- candidates: 110:翔鶴, 288:翔鶴改
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B
+
+## resolved-link-target-conflict 21:零式艦戦52型
+
+- rawName: 飛鷹
+- linkTarget: 飛鷹改
+- acceptedShip: 283:飛鷹改
+- candidates: 75:飛鷹, 283:飛鷹改
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B
+
+## resolved-link-target-conflict 21:零式艦戦52型
+
+- rawName: 翔鶴
+- linkTarget: 翔鶴改
+- acceptedShip: 288:翔鶴改
+- candidates: 110:翔鶴, 288:翔鶴改
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B
+
+## resolved-link-target-conflict 40:25mm三連装機銃
+
+- rawName: 沖波
+- linkTarget: 沖波改
+- acceptedShip: 359:沖波改
+- candidates: 359:沖波改, 452:沖波
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E4%B8%89%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83
+
+## resolved-link-target-conflict 40:25mm三連装機銃
+
+- rawName: 速吸
+- linkTarget: 速吸改
+- acceptedShip: 352:速吸改
+- candidates: 352:速吸改, 460:速吸
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E4%B8%89%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83
+
+## resolved-link-target-conflict 49:25mm単装機銃
+
+- rawName: 宗谷
+- linkTarget: 宗谷
+- acceptedShip: 699:宗谷
+- candidates: 645:宗谷, 650:宗谷, 699:宗谷
+- reason: ambiguous-link-target-selected-canonical-form
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E5%8D%98%E8%A3%85%E6%A9%9F%E9%8A%83
+
+## resolved-link-target-conflict 63:12.7cm連装砲B型改二
+
+- rawName: 江風
+- linkTarget: 江風改
+- acceptedShip: 351:江風改
+- candidates: 351:江風改, 459:江風
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## resolved-link-target-conflict 63:12.7cm連装砲B型改二
+
+- rawName: 狭霧
+- linkTarget: 狭霧改
+- acceptedShip: 391:狭霧改
+- candidates: 391:狭霧改, 480:狭霧
+- reason: link-page-is-more-specific-than-visible-text
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## resolved-link-target-conflict 190:38.1cm Mk.I連装砲
+
+- rawName: Glorious
+- linkTarget: Glorious
+- acceptedShip: 1022:Glorious
+- candidates: 1022:Glorious, 1027:Glorious
+- reason: ambiguous-link-target-selected-canonical-form
+- sourceUrl: https://wikiwiki.jp/kancolle/38.1cm%20Mk.I%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## resolved-link-target-conflict 566:10.2cm三連装副砲
+
+- rawName: Glorious
+- linkTarget: Glorious
+- acceptedShip: 1022:Glorious
+- candidates: 1022:Glorious, 1027:Glorious
+- reason: ambiguous-link-target-selected-canonical-form
+- sourceUrl: https://wikiwiki.jp/kancolle/10.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2
+
+## operator-stop-reference 1:12cm単装砲
+
+- rawName: 2016/01/01オンメンテナンスで追加された新春限定任務で、報酬として本装備を大量にもらえるバグが発生した。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 1:12cm単装砲
+
+- rawName: 本来の報酬である図鑑No.43の応急修理女神1個の代わりに図鑑No.1の本装備43個をもらえるというものだったが、間もなく修正された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 8:41cm連装砲
+
+- rawName: 開発、任務、初期装備
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/41cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 20:零式艦戦21型
+
+- rawName: マンスリー任務で、熟練パイロット達が操縦する零式艦戦21型(熟練)へ機種転換*1できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B
+
+## operator-stop-reference 26:瑞雲
+
+- rawName: 上位機種が揃った後も、工廠任務や装備改修の消費装備としての需要（下記参照）が続くので、ある程度在庫を確保しておきたい。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2
+
+## operator-stop-reference 27:13号対空電探
+
+- rawName: クォータリー任務『精鋭「三一駆」、鉄底海域に突入せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: 沖ノ島海域(2-4)・キス島沖(3-2)・北方海域全域(3-4)でのドロップや、レア駆逐艦レシピ(250/30/200/30)での建造が可能なので、任務消化ついでに拾うことも可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: お陰で収集がかなり楽になった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: 任務「最精鋭「第八駆逐隊」、全力出撃！」選択報酬*2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: クォータリー任務「精鋭「三一駆」、鉄底海域に突入せよ！」選択報酬*3
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: 2017年秋イベントの期間限定任務『「捷一号作戦」兵站補給線を確保せよ！』【2017/11/17 ～ 2017/12/11】の選択報酬でもあった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 28:22号対水上電探
+
+- rawName: 戦闘詳報はこの任務と同時実装だったためほぼ100％の人が戦闘詳報を選んだだろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 29:33号対水上電探
+
+- rawName: 2023年 鎮守府秋刀魚祭り『秋刀魚漁：さらさらさら～大漁旗、描き始めるぜ～！』選択報酬(×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/33%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 30:21号対空電探
+
+- rawName: 17年6月以降「電探の廃棄」を伴なう任務が出てきた為、廃棄任務用に2個以上常備しておくのも良い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 30:21号対空電探
+
+- rawName: 捨てるための存在というのもいささかなものではあるが
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 30:21号対空電探
+
+- rawName: 18年3月23日アプデにて、クォータリーで電探廃棄を伴なう任務が実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 30:21号対空電探
+
+- rawName: 要求個数は4個。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 30:21号対空電探
+
+- rawName: 報酬が開発可能になっているため後続の任務をやらないなら必要性は薄い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2
+
+## operator-stop-reference 33:改良型艦本式タービン
+
+- rawName: 任務「主力戦艦戦隊、抜錨せよ！」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%94%B9%E8%89%AF%E5%9E%8B%E8%89%A6%E6%9C%AC%E5%BC%8F%E3%82%BF%E3%83%BC%E3%83%93%E3%83%B3
+
+## operator-stop-reference 34:強化型艦本式缶
+
+- rawName: 任務「主力戦艦戦隊、抜錨せよ！」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BC%B7%E5%8C%96%E5%9E%8B%E8%89%A6%E6%9C%AC%E5%BC%8F%E7%BC%B6
+
+## operator-stop-reference 35:三式弾
+
+- rawName: 任務「『改装防空重巡』出撃せよ！」
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE
+
+## operator-stop-reference 37:7.7mm機銃
+
+- rawName: 同レシピ等は「開発資材」を貯める目的でデイリー開発任務をわざと失敗したい場合に使用されるため、それを阻害する点で失敗ペンギン以上の怨敵と化すが、
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/7.7mm%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 37:7.7mm機銃
+
+- rawName: 最近は改修工廠や任務関連で一定数必要になり、従前に比べ僅かに需要が増している。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/7.7mm%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 精鋭「四水戦」抜錨準備！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 精鋭「二七駆」、回避運動は気をつけて！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 【艦隊司令部強化】艦隊旗艦、出撃せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 西村艦隊、精鋭先行掃討隊、前進せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 新しき翼。改装航空母艦「龍鳳」、出撃せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 【作戦準備】第二段階任務(対地/対空整備)(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 海上護衛！ヒ船団を護り抜け！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 改装特I型駆逐艦「深雪改二」、出撃せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 改装駆逐艦「天津風改二」、抜錨せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2016年謹賀新年！「水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2017年謹賀新年！「水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2018年謹賀新年！「水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2019年謹賀新年！亥年「水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2020年賀正！令和二年「水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2021年迎春！令和三年「海上護衛隊」抜錨始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2022年新春！令和四年「精鋭水雷戦隊」出撃始め！(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2023年迎春！令和五年、艦隊抜錨！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 43:応急修理女神
+
+- rawName: 2023年「十六駆」出撃！鎮守府海域の安全を確保せよ！(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BF%9C%E6%80%A5%E4%BF%AE%E7%90%86%E5%A5%B3%E7%A5%9E
+
+## operator-stop-reference 44:九四式爆雷投射機
+
+- rawName: 出撃『南西諸島方面「海上警備行動」発令！』選択報酬　2つ　クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%9B%9B%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 44:九四式爆雷投射機
+
+- rawName: 演習『輸送船団演習』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%9B%9B%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 44:九四式爆雷投射機
+
+- rawName: 遠征『【作戦準備】第一段階任務(対潜整備)』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%9B%9B%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 44:九四式爆雷投射機
+
+- rawName: 遠征『海上輸送航路の護衛強化』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%9B%9B%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 出撃『鎮守府近海海域の哨戒を実施せよ！』選択報酬 (★+2)　イヤーリー(6月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 演習『朝潮型集合！特訓始め！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 演習『「十九駆」演習！』選択報酬　クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2021年 桃の節句任務『【桃の節句】南西諸島海域、春の戦闘哨戒！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2021年 春限定任務『【春限定】春の天津風！』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2021年 春限定任務『【春限定】春の近海哨戒お散歩！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2021年 夏イベント限定任務『【地中海作戦】地中海配備の敵戦力を叩け！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2021年 夏イベント限定任務『【地中海拡張作戦】第10潜水戦隊作戦』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2022年 桃の節句任務『【桃の節句】南西諸島海域、戦闘哨戒2022』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2022年 春限定任務『【春限定】春の天津風！』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 45:三式爆雷投射機
+
+- rawName: 2024年 年末年始限定任務『【年末年始】海上護衛部隊 特別演習！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F
+
+## operator-stop-reference 46:九三式水中聴音機
+
+- rawName: 出撃『「第六駆逐隊」対潜哨戒なのです！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 46:九三式水中聴音機
+
+- rawName: 出撃『「第六駆逐隊」対潜哨戒を徹底なのです！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 46:九三式水中聴音機
+
+- rawName: 遠征『【作戦準備】第一段階任務(対潜整備)』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 46:九三式水中聴音機
+
+- rawName: 遠征『海上輸送航路の護衛強化』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 出撃『「第十一駆逐隊」対潜哨戒！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 出撃『「第三十一戦隊」敵潜を制圧せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 出撃『精強「十七駆」、北へ、南へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 出撃『鎮守府近海海域の哨戒を実施せよ！』選択報酬 (★+2)　イヤーリー(6月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 遠征『海上輸送航路の護衛強化』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2017年 鎮守府秋刀魚祭り『秋刀魚漁：「秋刀魚」を収穫する所存です！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2018年 鎮守府秋刀魚祭り『秋刀魚漁：今秋の「秋刀魚」も上々ね！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2019年 鎮守府「秋刀魚＆鰯」祭り『秋刀魚漁：今年は不漁？でも…上々ね！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2021年 春限定任務『【春限定】春の近海哨戒お散歩！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2021年 帰ってきた鎮守府秋刀魚祭り『「鎮守府秋刀魚祭り」発動準備！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2021年 帰ってきた鎮守府秋刀魚祭り『秋刀魚漁：秋刀魚漁は好き…ですか？』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2022年 鎮守府秋刀魚祭り『「鎮守府秋刀魚祭り」発動準備！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2022年 鎮守府秋刀魚祭り『秋刀魚漁：秋刀魚が不漁……？不幸だわ……。』選択報酬　6つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 47:三式水中探信儀
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【鎮守府秋刀魚祭り】本格作戦準備！』選択報酬　3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: 現在の入手方法は、任務、装備更新、または三隈改,衣笠改二,利根改二,筑摩改二の初期装備のみ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: 本装備が入手できる任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: 任務『重巡「羽黒」、出撃！ペナン沖海戦』報酬(★+6)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: 任務『続：「最上型」改修工事を実施せよ！』選択報酬(x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: 任務 イヤーリー(6月)『「巡洋艦戦隊」演習！』選択報酬(x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: (終了済)期間限定任務『賀正！「重巡戦隊」南西諸島へ展開せよ！」』選択報酬(★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 50:20.3cm(3号)連装砲
+
+- rawName: (終了済)期間限定任務『【節分任務:恵方】令和六年節分遠征』選択報酬(★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%283%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 51:12cm30連装噴進砲
+
+- rawName: 任務報酬は下記の通り。この他にも期間限定ミニイベントの報酬で入手できた。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm30%E9%80%A3%E8%A3%85%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 53:烈風 一一型
+
+- rawName: 任務『戦闘機隊戦力の拡充』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%20%E4%B8%80%E4%B8%80%E5%9E%8B
+
+## operator-stop-reference 54:彩雲
+
+- rawName: 『空母戦力の投入による兵站線戦闘哨戒』選択報酬　クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2
+
+## operator-stop-reference 54:彩雲
+
+- rawName: 『航空戦隊演習(その弐)』選択報酬(★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 開発、更新任務、複数の出撃系任務の選択報酬で入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: クオータリー任務『主力艦上戦闘機の更新』で3ヶ月ごとに2機入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 任務での入手方法一覧
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: クォータリー任務『主力艦上戦闘機の更新』報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 任務『北方海域戦闘哨戒を実施せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 任務『「伊勢改二」、敵機動部隊を迎撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『秋刀魚漁：漁を全力で支援する覚悟です！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『迎春！「空母機動部隊」全力出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『五周年任務【壱：工廠】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『主計科任務【差し入れ！高級おにぎり】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『【記念任務：拡張作戦】主力オブ主力、決戦ッ！』選択報酬（★+8）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 55:紫電改二
+
+- rawName: 期間限定 任務『【年末年始】機動部隊哨戒、南西諸島を防衛せよ！ 』選択報酬（★+7）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 56:震電改
+
+- rawName: 2023年 期間限定任務『【艦隊10周年記念任務：拡張任務】特別工廠』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9
+
+## operator-stop-reference 56:震電改
+
+- rawName: 2024年 期間限定任務『新春【拡張作戦】一航戦五航戦、新年協同作戦！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9
+
+## operator-stop-reference 58:61cm五連装(酸素)魚雷
+
+- rawName: 2022年 年末 期間限定任務『【年末年始】機動部隊、南西諸島を哨戒せよ！』選択報酬(×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%BA%94%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 59:零式水上観測機
+
+- rawName: 開発成功率は低めだが、必要資材が少なくデイリー任務の消化にも適している。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E8%A6%B3%E6%B8%AC%E6%A9%9F
+
+## operator-stop-reference 59:零式水上観測機
+
+- rawName: 空母系ドラム缶枠･･･
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E8%A6%B3%E6%B8%AC%E6%A9%9F
+
+## operator-stop-reference 63:12.7cm連装砲B型改二
+
+- rawName: 現在の入手方法は、一部駆逐艦の改以降の初期装備、改修工廠での更新、任務報酬の3種類。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 63:12.7cm連装砲B型改二
+
+- rawName: 任務『精鋭「四水戦」、南方海域に展開せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 63:12.7cm連装砲B型改二
+
+- rawName: 任務『「第七駆逐隊」、南西諸島を駆ける！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 63:12.7cm連装砲B型改二
+
+- rawName: 任務『「十九駆」演習！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 64:Ju87C改
+
+- rawName: 任務『第二次潜水艦派遣作戦』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Ju87C%E6%94%B9
+
+## operator-stop-reference 64:Ju87C改
+
+- rawName: 任務『潜水艦派遣作戦による技術入手の継続!』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Ju87C%E6%94%B9
+
+## operator-stop-reference 66:8cm高角砲
+
+- rawName: 任務『対空兵装の整備拡充』選択報酬 (クォータリー)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: 実装初期はあきつ丸の持参装備から入手するしか方法がなく、大型艦建造、もしくはイベント時にドロップして集める必要があった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: 現在は、開発やあきつ丸、神州丸/改、阿武隈改二、大潮改二、鬼怒改二、荒潮改二、霰改二、浦波改二の初期装備や任務報酬などの様々な方法で入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: 現在、22の任務で入手可能であり、その内3つはクォータリー任務、3つはイヤーリー任務となる。現在は開発可能なので選択報酬は他の物を選んでよいだろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: 単発任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: クォータリー任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: イヤーリー任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: ランカー褒賞としての配布は、実装直後の半年間に4回あった。
+（2014年1～3,6月戦果報酬）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: イベント報酬として入手可能であった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 68:大発動艇
+
+- rawName: 期間限定任務の選択報酬として入手可能であった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 69:カ号観測機
+
+- rawName: 任務『改加賀型航空母艦「加賀改二」、抜錨！』選択報酬 (★+3 x3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AB%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F
+
+## operator-stop-reference 69:カ号観測機
+
+- rawName: 2020年 1月 期間限定 任務『令和二年護衛始め！「海上護衛隊」抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AB%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F
+
+## operator-stop-reference 69:カ号観測機
+
+- rawName: 2024年鎮守府秋刀魚祭り『【鎮守府秋刀魚祭り】本格作戦準備！』選択報酬 (3つ)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AB%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F
+
+## operator-stop-reference 70:三式指揮連絡機(対潜)
+
+- rawName: 鎮守府秋刀魚祭り2024『【鎮守府秋刀魚祭り】本格作戦準備！』報酬 (3つ)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%28%E5%AF%BE%E6%BD%9C%29
+
+## operator-stop-reference 72:増設バルジ(中型艦)
+
+- rawName: 任務『水上艦艇装備工廠の整備』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 72:増設バルジ(中型艦)
+
+- rawName: 任務『重巡戦隊、西へ！』選択報酬 イヤーリー(3月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 73:増設バルジ(大型艦)
+
+- rawName: 任務『水上艦艇装備工廠の整備』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 73:増設バルジ(大型艦)
+
+- rawName: 期間限定 任務『冬季特別任務：精鋭「駆逐隊」、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 74:探照灯
+
+- rawName: 任務『新編「第六駆逐隊」を編成せよ！』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 74:探照灯
+
+- rawName: 任務『新編「第八駆逐隊」出撃せよ！』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 74:探照灯
+
+- rawName: 任務『夜の海を照らす「灯り」を入手せよ！』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 74:探照灯
+
+- rawName: 2021/10/15 期間限定 任務『「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x2) (～2021/11/19)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 74:探照灯
+
+- rawName: 2024/11/08 期間限定 任務『【鎮守府秋刀魚祭り】本格作戦準備！』選択報酬 (x3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 75:ドラム缶(輸送用)
+
+- rawName: 『輸送用ドラム缶の準備』(1回のみ:3個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%83%89%E3%83%A9%E3%83%A0%E7%BC%B6%28%E8%BC%B8%E9%80%81%E7%94%A8%29
+
+## operator-stop-reference 75:ドラム缶(輸送用)
+
+- rawName: 『資源の再利用』(ウィークリー:1個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%83%89%E3%83%A9%E3%83%A0%E7%BC%B6%28%E8%BC%B8%E9%80%81%E7%94%A8%29
+
+## operator-stop-reference 75:ドラム缶(輸送用)
+
+- rawName: 『南西諸島方面「海上警備行動」発令！』(クォータリー:選択報酬として2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%83%89%E3%83%A9%E3%83%A0%E7%BC%B6%28%E8%BC%B8%E9%80%81%E7%94%A8%29
+
+## operator-stop-reference 75:ドラム缶(輸送用)
+
+- rawName: 『練習航海及び警備任務を実施せよ！』(イヤーリー(3月):選択報酬として2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%83%89%E3%83%A9%E3%83%A0%E7%BC%B6%28%E8%BC%B8%E9%80%81%E7%94%A8%29
+
+## operator-stop-reference 79:瑞雲(六三四空)
+
+- rawName: 任務『航空火力艦の運用を強化せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 79:瑞雲(六三四空)
+
+- rawName: 任務『(続)航空火力艦の運用を強化せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 79:瑞雲(六三四空)
+
+- rawName: 任務『「第四航空戦隊」を編成せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 80:瑞雲12型
+
+- rawName: 任務 イヤーリー(9月)『歴戦「第十方面艦隊」、全力出撃！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B
+
+## operator-stop-reference 80:瑞雲12型
+
+- rawName: 任務『改装航空巡洋艦「最上」、抜錨せよ！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B
+
+## operator-stop-reference 80:瑞雲12型
+
+- rawName: 任務『続：「最上型」改修工事を実施せよ！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B
+
+## operator-stop-reference 80:瑞雲12型
+
+- rawName: 期間限定 任務『謹賀瑞雲！「日向」と「伊勢」のお手伝い！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B
+
+## operator-stop-reference 80:瑞雲12型
+
+- rawName: 期間限定 任務『「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x2)(2021,2022)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B
+
+## operator-stop-reference 81:瑞雲12型(六三四空)
+
+- rawName: 2017年6月23日、完全上位互換の「瑞雲(六三四空/熟練)」が任務交換で実装され、瑞雲12型(六三四空)の実装も近いかと思われた。
+そこから2年以上音沙汰はなかった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B212%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 82:九七式艦攻(九三一空)
+
+- rawName: 任務『航空母艦「雲鷹」、抜錨せよ！』選択報酬 (2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E4%B9%9D%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 82:九七式艦攻(九三一空)
+
+- rawName: 2024年 期間限定任務『2024年迎春！海上護衛艦隊、新春の海へ！』選択報酬 (★+8 ×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E4%B9%9D%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 84:2cm 四連装FlaK 38
+
+- rawName: 2022年 期間限定 節分任務群『【節分任務】令和四年節分遠征任務』選択報酬 (★+2 x3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/2cm%20%E5%9B%9B%E9%80%A3%E8%A3%85FlaK%2038
+
+## operator-stop-reference 84:2cm 四連装FlaK 38
+
+- rawName: 2022年 期間限定 鎮守府年末任務群『【年末年始】試製 鎮守府年末改修ジャンボ』報酬（★+8）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/2cm%20%E5%9B%9B%E9%80%A3%E8%A3%85FlaK%2038
+
+## operator-stop-reference 87:新型高温高圧缶
+
+- rawName: 任務
+『【工廠任務】新装備開発計画II』選択報酬1 (x1)、選択報酬2 (x1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%96%B0%E5%9E%8B%E9%AB%98%E6%B8%A9%E9%AB%98%E5%9C%A7%E7%BC%B6
+
+## operator-stop-reference 87:新型高温高圧缶
+
+- rawName: 2023年 期間限定任務『【Xmas限定】聖夜の軽巡、抜錨せよ！ 』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%96%B0%E5%9E%8B%E9%AB%98%E6%B8%A9%E9%AB%98%E5%9C%A7%E7%BC%B6
+
+## operator-stop-reference 88:22号対水上電探改四
+
+- rawName: 『新型電探を配備せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 88:22号対水上電探改四
+
+- rawName: イヤーリー任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 88:22号対水上電探改四
+
+- rawName: 2024年 鎮守府秋刀魚祭り『秋刀魚漁：くまりんこ秋刀魚漁！準備はよろしくて？』選択報酬 (2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 88:22号対水上電探改四
+
+- rawName: 2024年 年末年始限定任務『【年末年始】拡張大掃除&特別資源輸出-II』選択報酬 (2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 88:22号対水上電探改四
+
+- rawName: 2025年 北海道防衛作戦 作戦準備任務群『「第一水雷戦隊」合戦用意！抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 90:20.3cm(2号)連装砲
+
+- rawName: 任務 イヤーリー(3月)『重巡戦隊、西へ！』選択報酬(x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/20.3cm%282%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 93:九七式艦攻(友永隊)
+
+- rawName: なお本装備を旗艦に搭載してある任務をこなすと、本装備を引き換えにさらに進化する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 一連の二航戦関連任務をクリアすると九七式艦攻(友永隊)を引き換えに本装備が手に入る。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 飛龍改二を必要とする以下三つの任務を指す。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 2は1を完了後、3は2を完了後出現する任務である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 1.編成任務『 新編「第二航空戦隊」編成せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 2.出撃任務『 新編「第二航空戦隊」出撃せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 3.工廠任務『機種転換』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 九七式艦攻(友永隊)が任務で入れ替わる形で入手するので、達成後は九七式艦攻(友永隊)を装備していた艦娘が装備している。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 誤解しないように。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: また、複数の九七式艦攻(友永隊)を装備させて任務達成しても機種転換するのは1つだけなので、複数は入手できない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 上記の機種転換任務による入手の場合、改修度合い★が引き継がれる*3。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 当装備の改修★maxは雷装+16相当となり、艦攻中雷装トップかつ射撃回避付きとなる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: 2026/02/13のアップデートでこちらにも改修が実装されたものの、ネジはもちろん、★+6以降の改修に天山一二型甲を要求する等、改修コストが遥かに重くなる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: また、2026/04/07のアップデートで、同じように機種転換任務で改修値を引き継ぐ事が可能だった烈風(六〇一空)が改修できるようになった際、「本来の仕様にする」として機種転換任務で改修値を引き継がなくなった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: これらの事から、今後こちらも同じように改修値を引き継がなくなる可能性がある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 94:天山一二型(友永隊)
+
+- rawName: そのため、九七式艦攻(友永隊)を入手したら、早急に改修★maxにし、早急に機種転換任務を行うことを強く推奨する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 95:潜水艦53cm艦首魚雷(8門)
+
+- rawName: 任務「遠洋潜水艦作戦を実施せよ！」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A653cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29
+
+## operator-stop-reference 95:潜水艦53cm艦首魚雷(8門)
+
+- rawName: 任務「遠洋潜水艦作戦の成果を拡大せよ！ 」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A653cm%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%288%E9%96%80%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: マンスリー任務『精鋭「艦戦」隊の新編成』により、零式艦戦21型から機種転換することでも入手が可能。詳細は21型のページを参照。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: この機種転換はマンスリー任務であるものの、定期的な入手方法がクォータリー任務しかない*3消費アイテム「熟練搭乗員」を消費する特殊な任務なので、定期的にクリア出来るのは3ヶ月に1回のみ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: 後のアップデートにて熟練搭乗員を入手できる(選択報酬)クォータリー任務が追加された（2018/11/16『泊地周辺海域の安全確保を徹底せよ！』と2018/12/07『空母戦力の投入による兵站線戦闘哨戒』）ので、
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: 3つのクォータリー任務を全てこなせば事実上1か月に1回クリアできるようになった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: ただし、熟練搭乗員を消費する任務はこの他にも多くあるので、何を優先すべきかはよく考えること。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: 但しこの21型を機種転換する任務、後述するマンスリー零式艦戦52型(熟練)転換・岩本隊転換・岩井隊転換の任務ツリーが発生するトリガーとして最低一度は達成しておかないといけない点には注意。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 96:零式艦戦21型(熟練)
+
+- rawName: 故に最低1機は熟練搭乗員を用いた機種転換で作成する必要がある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A621%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 98:九七式艦攻(熟練)
+
+- rawName: 過去には2023年【節分任務群】報酬の節分の豆と交換することでも入手できた。交換には節分の豆10個と開発資材8個を要する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 100:彗星(江草隊)
+
+- rawName: 機種転換任務をこなすと、九九式艦爆(江草隊)と入れ替わり本装備になる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29
+
+## operator-stop-reference 100:彗星(江草隊)
+
+- rawName: 上記の機種転換任務による入手の場合、零戦52型丙(六〇一空)・烈風(六〇一空)と同様に、改修度合いが引き継がれる*2(2020/10/16アップデートより実行可能)。
+当装備の改修★maxは航空戦では爆装+15相当、昼砲撃戦では火力+2相当*3となり、艦爆のみの分類では爆装トップかつ射撃回避付きとなる。ジェット機も含めれば噴式景雲改とツートップとなる。
+機種転換前の九九式艦爆(江草隊)は改修できるが、現時点でこちらは改修できない。
+機種転換するときは九九式艦爆(江草隊)を改修★maxにしてから行うことを推奨…と言いたいところなのだが、
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%28%E6%B1%9F%E8%8D%89%E9%9A%8A%29
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: 2014/7/28アップデートで本装備を入手できる任務２つが実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: 『戦艦「榛名」出撃せよ！』は出撃任務であり、榛名改二を含む艦隊での南方海域前面ボスS勝利が達成条件。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: 『精鋭「第三戦隊」全艦集結せよ！』は編成任務であり、金剛型戦艦全員の改二達成が必要となる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: 前提となるのは『二人でする初めての任務！』。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: ケッコンカッコカリした任意の艦娘を旗艦として、リランカ島ボスにS勝利することが達成条件。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 103:試製35.6cm三連装砲
+
+- rawName: 4-3のボスは陸上型であり、旗艦にする艦種によってはS勝利が取りにくくなることもある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 106:13号対空電探改
+
+- rawName: 任務報酬などで★付きの獲得機会があるようであれば、他の選択報酬が魅力的で無ければ本装備を選ぶ理由が出来たとも言える。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9
+
+## operator-stop-reference 106:13号対空電探改
+
+- rawName: 任務『旗艦「霞」北方海域を哨戒せよ！』報酬 (要 霞改二)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9
+
+## operator-stop-reference 106:13号対空電探改
+
+- rawName: 任務 イヤーリー(6月)『AL作戦』選択報酬 (x2、他の選択肢は勲章と補強増設)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9
+
+## operator-stop-reference 106:13号対空電探改
+
+- rawName: 任務『防空駆逐艦「秋月改二」、推参します！』報酬(★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9
+
+## operator-stop-reference 108:熟練艦載機整備員
+
+- rawName: 2014年 任務『「第六〇一航空隊」出撃せよ！』の報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%89%A6%E8%BC%89%E6%A9%9F%E6%95%B4%E5%82%99%E5%93%A1
+
+## operator-stop-reference 108:熟練艦載機整備員
+
+- rawName: 雲龍改を必要とする単発出撃任務のクリアで一つゲットできる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%89%A6%E8%BC%89%E6%A9%9F%E6%95%B4%E5%82%99%E5%93%A1
+
+## operator-stop-reference 108:熟練艦載機整備員
+
+- rawName: こちらは雲龍を条件とする編成任務と違い、改造後でないとクリアできない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%89%A6%E8%BC%89%E6%A9%9F%E6%95%B4%E5%82%99%E5%93%A1
+
+## operator-stop-reference 108:熟練艦載機整備員
+
+- rawName: 2020年 期間限定任務『謹賀新年！「水上機母艦」出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%89%A6%E8%BC%89%E6%A9%9F%E6%95%B4%E5%82%99%E5%93%A1
+
+## operator-stop-reference 109:零戦52型丙(六〇一空)
+
+- rawName: 任務『「小沢艦隊」出撃せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 110:烈風(六〇一空)
+
+- rawName: 任務『機種転換』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 110:烈風(六〇一空)
+
+- rawName: かつては本装備の改修ができず、機種転換任務で改修値を引き継ぐ事ができた。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 110:烈風(六〇一空)
+
+- rawName: 2026/04/07のアップデートで、本装備が改修可能になった一方で、機種転換任務で改修値を引き継がなくなった*2。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%28%E5%85%AD%E3%80%87%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 116:一式徹甲弾
+
+- rawName: 任務『「第二戦隊」抜錨！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE
+
+## operator-stop-reference 116:一式徹甲弾
+
+- rawName: 任務『「戦艦部隊」北方海域に突入せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE
+
+## operator-stop-reference 116:一式徹甲弾
+
+- rawName: 期間限定 任務『漲る戦艦魂！大艦巨砲なお正月！』報酬 (2015/12/31 ～ 2016/01/19)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E5%BE%B9%E7%94%B2%E5%BC%BE
+
+## operator-stop-reference 117:試製46cm連装砲
+
+- rawName: 2019年2月27日に2つの単発任務の報酬として入手できるようになった。(どちらも選択制だが)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD46cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 118:紫雲
+
+- rawName: 2019年 4月28日 任務『艦隊司令部の強化 【準備段階】』選択報酬 (本実装)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2
+
+## operator-stop-reference 118:紫雲
+
+- rawName: 2024年 1月25日 任務『改装航空巡洋艦「三隈」、進発せよ！』選択報酬(★2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2
+
+## operator-stop-reference 118:紫雲
+
+- rawName: 2017年 1月1日 新春限定任務『時代が来たか！航空火力艦なお正月！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2
+
+## operator-stop-reference 118:紫雲
+
+- rawName: 実装当日の運営ツイートで「今後実装される任務で入手可能」と予告されていたが長らく本実装されておらず、人によっては幻の装備だったが、800余日を経て入手可能となった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2
+
+## operator-stop-reference 118:紫雲
+
+- rawName: 2019年 1月1日 新春限定任務『迎春！亥年「空母機動部隊」新春の西へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%B2
+
+## operator-stop-reference 120:91式高射装置
+
+- rawName: 任務『囮機動部隊支援作戦を実施せよ！』報酬*2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 120:91式高射装置
+
+- rawName: この任務の出現トリガーである任務『「改装防空重巡」出撃せよ！』は摩耶改が必要(改二でなくても可)だが、摩耶はLv18で改装出来るので初心者でも任務達成は容易である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 120:91式高射装置
+
+- rawName: 水雷系及び砲戦系秘書艦はボーキサイトテーブル、最低値はボーキサイト【燃10/弾10/鋼10/ボ11】
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 120:91式高射装置
+
+- rawName: 空母系秘書艦は鋼材(燃料) or 弾薬テーブル、最低値はそれぞれ鋼材(燃料)【燃10/弾10/鋼10/ボ10】、弾薬【燃10/弾11/鋼10/ボ10】
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 120:91式高射装置
+
+- rawName: デイリー任務やソナー開発の副産物としても狙える。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/91%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 121:94式高射装置
+
+- rawName: 任務『防空駆逐艦「初月改二」、推して参る！』選択報酬（x2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 121:94式高射装置
+
+- rawName: 任務『精鋭十一駆「白雪改二」、抜錨します！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 121:94式高射装置
+
+- rawName: 任務『【対空兵装の拡充】94式高射装置の増加配備』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 121:94式高射装置
+
+- rawName: 任務 イヤーリー(6月)『【高射装置量産】94式高射装置の追加配備』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 121:94式高射装置
+
+- rawName: 任務『防空駆逐艦「秋月改二」、推参します！』報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/94%E5%BC%8F%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 122:10cm連装高角砲+高射装置
+
+- rawName: ただし、改修担当の秋月型がいなければ後述する利点が発揮できない点、94式は「12.7cm連装砲A型改三(戦時改修)＋高射装置」入手任務および12.7cm連装砲A型改二からの更新、そもそも本装備も更新する際に必要になり、更新先含めた他装備の改修にも必要な点から、94式からの更新はよく考えたうえで行ってほしい。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 123:SKC34 20.3cm連装砲
+
+- rawName: 期間限定任務「【艦隊11周年記念任務】重巡主砲整備任務」（×2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SKC34%2020.3cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 125:61cm三連装(酸素)魚雷
+
+- rawName: 2022年 任務『「磯波改二」、抜錨せよ！』(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 126:WG42 (Wurfgerät 42)
+
+- rawName: 2016年～2018年版『鎮守府秋刀魚祭り』の任務選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/WG42%20%28Wurfgerat%2042%29
+
+## operator-stop-reference 128:試製51cm連装砲
+
+- rawName: 任務『改大和型戦艦「大和改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: クォータリー『泊地周辺海域の安全確保を徹底せよ！』選択報酬 *2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: イヤーリー(6月)『「巡洋艦戦隊」演習！』選択報酬 *3
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: イヤーリー(10月)『精鋭「第十五駆逐隊」第一小隊演習！』選択報酬 *4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: イヤーリー(5月)『精鋭「第十九駆逐隊」、全力出撃！』選択報酬 *5
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: イヤーリー(5月)『精鋭「第十九駆逐隊」演習！』選択報酬 *6
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: イヤーリー(4月)『特型初代「第十一駆逐隊」演習スペシャル！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 2015/02/23～03/13の期間限定任務『桃の節句：「菱餅」を沢山集めるのです！』にて、アイテム「菱餅」を10個集めると入手できた。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 余談だが、この10個の任務の任務名、説明文、そして運営Twitterの餅説明がはっちゃけた模様。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 何ぞや？
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: ちなみに1年以上本実装されていない装備といえばあの震電改や、53cm艦首(酸素)魚雷などがある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 1年どころじゃないとか言わない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 震電改は遂に10周年記念任務で入手可能に。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 他にも下記の期間限定任務で入手可能だった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 2017/11/19～12/11　任務『「西村艦隊」完全編成、出撃準備！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 2018/05/15～06/13　任務『主計科任務【高級おにぎりを作る！】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 2018/10/10～10/26　任務『秋刀魚漁：今秋の「秋刀魚」も上々ね！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 129:熟練見張員
+
+- rawName: 2022/11/09～12/06　任務『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 131:25mm三連装機銃 集中配備
+
+- rawName: 2016/1/19アップデートで追加された霞改二を必要とする任務『旗艦「霞」出撃！敵艦隊を撃滅せよ！』達成報酬としても入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E4%B8%89%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 132:零式水中聴音機
+
+- rawName: 任務『「第七駆逐隊」、南西諸島を駆ける！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 138:二式大艇
+
+- rawName: 『主計科任務【おにぎりを振舞おう！】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E5%A4%A7%E8%89%87
+
+## operator-stop-reference 138:二式大艇
+
+- rawName: 『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬 (2021)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E5%A4%A7%E8%89%87
+
+## operator-stop-reference 138:二式大艇
+
+- rawName: 『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬 (2022)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E5%A4%A7%E8%89%87
+
+## operator-stop-reference 139:15.2cm連装砲改
+
+- rawName: 2022年『2022年令和四年！「沖ノ島」防衛作戦、発動！』選択報酬 (★+8 x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 139:15.2cm連装砲改
+
+- rawName: 2024年『【Xmas限定】Xmas軽巡戦隊、獅子奮迅！』選択報酬 (★+5)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 140:96式150cm探照灯
+
+- rawName: 期間限定任務『秋刀魚漁：最新鋭の秋刀魚漁！もっとぉ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 140:96式150cm探照灯
+
+- rawName: 2019/2/8 任務『「比叡」の出撃』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 140:96式150cm探照灯
+
+- rawName: 探照灯からの更新で入手。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 140:96式150cm探照灯
+
+- rawName: 2021年9月作戦報酬、(1位~5位)★+8、(6位~20位)★+6、(21位~100位)★+4、(101位~500位)★+2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 140:96式150cm探照灯
+
+- rawName: 2024年9月作戦報酬、(1位~5位)★max、(6位~20位)★+9、(21位~500位)★+8
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/96%E5%BC%8F150cm%E6%8E%A2%E7%85%A7%E7%81%AF
+
+## operator-stop-reference 142:15m二重測距儀+21号電探改二
+
+- rawName: 任務『見敵必殺！最精鋭大和型「第一戦隊」抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 143:九七式艦攻(村田隊)
+
+- rawName: 任務『精鋭「九七式艦攻」部隊の編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: 任務『機種転換』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: 翔鶴改二の実装と共に、新たな『機種転換』任務が実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: これで全提督が1つは所持可能になる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: 機種転換前の任務で九七式艦攻(村田隊)が入手できるため、すでに持っている提督も追加で入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: イベントで九七式艦攻(村田隊)を入手し、転換せずにいた場合は転換対象装備を2つ所持することになるが、肝心の転換任務が1度のみなので機種転換できるのは1つだけ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: この任務で改修値★を引き継ぐことが確認されている。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: 2015年 夏イベント限定任務『「工廠」”機種転換”』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: イベント終了メンテナンス実施後には、機種転換任務がイベントと共に消失した。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 144:天山一二型(村田隊)
+
+- rawName: イベント中に任務を遂行しなかった場合、本装備への機種転換が不可能となった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E6%9D%91%E7%94%B0%E9%9A%8A%29
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: 開発は不可能。イベント・任務による報酬が主。アイテム屋さんで購入(3個300円)することも可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: マンスリー演習任務『精鋭艦隊演習』で毎月1個入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: クォータリー出撃任務『北方海域警備を実施せよ！』で3か月おきに1個入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: クォータリー遠征任務『海上通商航路の警戒を厳とせよ！』で3か月おきに2個入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: イヤーリー(6月)出撃任務『南西方面の兵站航路の安全を図れ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: イヤーリー(11月)近代化任務『「駆逐艦」の改修工事を実施せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: 逆にこの装備を消費する任務としては、月1任務でおにぎり2個を伊良湖1個へと交換できる任務「給糧艦「伊良湖」の支援」が実装されている。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: なおマンスリーとクォータリー任務でおにぎりを入手できる任務を毎月実行すると四半期毎におにぎりが6つとなる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: そのため実質差し引き0で伊良湖3個に交換できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 145:戦闘糧食
+
+- rawName: 本来の使い方と絶対違うが
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F
+
+## operator-stop-reference 146:洋上補給
+
+- rawName: 任務『「洋上補給」物資の調達』報酬 (マンスリー)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B4%8B%E4%B8%8A%E8%A3%9C%E7%B5%A6
+
+## operator-stop-reference 146:洋上補給
+
+- rawName: 三式弾、九一式徹甲弾、ドラム缶に加えて、艦隊への補給量としてはかなり多めの燃料750・弾薬750を要求される…が、前述の通り、洋上補給発動時に実際に補給される燃料と弾薬は母港からの天引きである。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B4%8B%E4%B8%8A%E8%A3%9C%E7%B5%A6
+
+## operator-stop-reference 146:洋上補給
+
+- rawName: 任務で消費する燃料や弾薬は何に使われているのだろうか。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B4%8B%E4%B8%8A%E8%A3%9C%E7%B5%A6
+
+## operator-stop-reference 146:洋上補給
+
+- rawName: 任務『強行輸送艦隊、抜錨！』報酬 (クォータリー)
+他、単発任務報酬・イベント報酬等
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B4%8B%E4%B8%8A%E8%A3%9C%E7%B5%A6
+
+## operator-stop-reference 148:試製南山
+
+- rawName: 2019年2月27日追加の新任務でようやく本実装された。(選択制だが)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E5%8D%97%E5%B1%B1
+
+## operator-stop-reference 149:四式水中聴音機
+
+- rawName: 2016年 任務『精鋭「八駆第一小隊」対潜哨戒！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 149:四式水中聴音機
+
+- rawName: 2015年 期間限定任務『秋刀魚漁：もっと頑張ってもいいのよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E6%B0%B4%E4%B8%AD%E8%81%B4%E9%9F%B3%E6%A9%9F
+
+## operator-stop-reference 150:秋刀魚の缶詰
+
+- rawName: 2020年は現実の秋刀魚不漁を反映して秋刀魚祭りは開催されなかったが、
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%A7%8B%E5%88%80%E9%AD%9A%E3%81%AE%E7%BC%B6%E8%A9%B0
+
+## operator-stop-reference 150:秋刀魚の缶詰
+
+- rawName: 代わりに10月16日に実装された任務『精鋭「二七駆」、回避運動は気をつけて！』では選択報酬で本装備2つが入手可能だった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%A7%8B%E5%88%80%E9%AD%9A%E3%81%AE%E7%BC%B6%E8%A9%B0
+
+## operator-stop-reference 150:秋刀魚の缶詰
+
+- rawName: 2018年5月15日に開始された【食べ物】ミニイベント『主計科任務群』でこれを必要とする任務、報酬とする任務が実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%A7%8B%E5%88%80%E9%AD%9A%E3%81%AE%E7%BC%B6%E8%A9%B0
+
+## operator-stop-reference 150:秋刀魚の缶詰
+
+- rawName: イベント限定で可能な料理「和定食膳」で必要な素材の一つがこの缶詰でこの料理が任務の達成に必要だった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%A7%8B%E5%88%80%E9%AD%9A%E3%81%AE%E7%BC%B6%E8%A9%B0
+
+## operator-stop-reference 151:試製景雲(艦偵型)
+
+- rawName: 任務『新機軸偵察機の開発』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29
+
+## operator-stop-reference 151:試製景雲(艦偵型)
+
+- rawName: 任務『「第五航空戦隊」、縦横無尽！』選択報酬*7
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29
+
+## operator-stop-reference 151:試製景雲(艦偵型)
+
+- rawName: 2021年 期間限定任務『【Xmas限定】聖夜の翼、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29
+
+## operator-stop-reference 151:試製景雲(艦偵型)
+
+- rawName: 2024年 期間限定任務『【艦隊11周年記念任務:拡張任務】特別工廠』選択報酬★+2*8
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29
+
+## operator-stop-reference 151:試製景雲(艦偵型)
+
+- rawName: 2024年 年末年始限定任務『(2412F4)【年末年始】空技廠増加試作機祭り』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%99%AF%E9%9B%B2%28%E8%89%A6%E5%81%B5%E5%9E%8B%29
+
+## operator-stop-reference 152:零式艦戦52型(熟練)
+
+- rawName: 任務「機種転換」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 152:零式艦戦52型(熟練)
+
+- rawName: マンスリー任務「機種転換」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 152:零式艦戦52型(熟練)
+
+- rawName: 上記2つの任務はどちらも改修値★を引き継ぐ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A652%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 153:零戦52型丙(付岩井小隊)
+
+- rawName: 任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E4%BB%98%E5%B2%A9%E4%BA%95%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 153:零戦52型丙(付岩井小隊)
+
+- rawName: 同日実装された「艦戦」隊の再編成任務で錬度>>(max)の零式艦戦52型(熟練)から機種転換可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E4%BB%98%E5%B2%A9%E4%BA%95%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 153:零戦52型丙(付岩井小隊)
+
+- rawName: 雲龍型改の初期装備だが、同日実装された別の任務でも1つ入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E4%BB%98%E5%B2%A9%E4%BA%95%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 153:零戦52型丙(付岩井小隊)
+
+- rawName: ここから更なる機種転換任務で零戦62型(爆戦/岩井隊)に転換できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E4%B8%99%28%E4%BB%98%E5%B2%A9%E4%BA%95%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 154:零戦62型(爆戦/岩井隊)
+
+- rawName: 機種転換任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A662%E5%9E%8B%28%E7%88%86%E6%88%A6%EF%BC%8F%E5%B2%A9%E4%BA%95%E9%9A%8A%29
+
+## operator-stop-reference 155:零戦21型(付岩本小隊)
+
+- rawName: 同日実装された任務「「艦戦」隊の再編成」で練度maxの零式艦戦21型(熟練)を機種転換することで入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A621%E5%9E%8B%28%E4%BB%98%E5%B2%A9%E6%9C%AC%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 156:零戦52型甲(付岩本小隊)
+
+- rawName: 同日実装された零戦21型(付岩本小隊)を任務「機種転換」で機種転換することで入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E6%88%A652%E5%9E%8B%E7%94%B2%28%E4%BB%98%E5%B2%A9%E6%9C%AC%E5%B0%8F%E9%9A%8A%29
+
+## operator-stop-reference 157:零式艦戦53型(岩本隊)
+
+- rawName: 任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A653%E5%9E%8B%28%E5%B2%A9%E6%9C%AC%E9%9A%8A%29
+
+## operator-stop-reference 157:零式艦戦53型(岩本隊)
+
+- rawName: 零戦52型甲(付岩本小隊)を任務『機種転換＆部隊再編』で変換することで入手できる一点物。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A653%E5%9E%8B%28%E5%B2%A9%E6%9C%AC%E9%9A%8A%29
+
+## operator-stop-reference 158:Bf109T改
+
+- rawName: 任務『西方連絡作戦による航空技術獲得』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Bf109T%E6%94%B9
+
+## operator-stop-reference 158:Bf109T改
+
+- rawName: Do 17 Z-2と二択である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Bf109T%E6%94%B9
+
+## operator-stop-reference 158:Bf109T改
+
+- rawName: Do 17 Z-2は25年現在でも恒常での入手手段が上述の任務による報酬のみなので、強力な陸攻に更新できる装備を捨ててまでこちらを選ぶ価値は低い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Bf109T%E6%94%B9
+
+## operator-stop-reference 162:203mm/53 連装砲
+
+- rawName: 期間限定 任務『親善艦参加観艦式を実施せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/203mm%EF%BC%8F53%20%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 163:Ro.43水偵
+
+- rawName: 2017年 期間限定任務『時代が来たか！航空火力艦なお正月！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Ro.43%E6%B0%B4%E5%81%B5
+
+## operator-stop-reference 165:二式水戦改
+
+- rawName: 任務『戦艦戦隊、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9
+
+## operator-stop-reference 165:二式水戦改
+
+- rawName: 期間限定 任務『謹賀新年！「水上機母艦」出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9
+
+## operator-stop-reference 166:大発動艇(八九式中戦車&陸戦隊)
+
+- rawName: 基本的には大発動艇からの装備更新で入手。現在任務報酬はない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28%E5%85%AB%E4%B9%9D%E5%BC%8F%E4%B8%AD%E6%88%A6%E8%BB%8A%EF%BC%86%E9%99%B8%E6%88%A6%E9%9A%8A%29
+
+## operator-stop-reference 167:特二式内火艇
+
+- rawName: 2016年 4月22日：任務『上陸戦用新装備の調達』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%89%B9%E4%BA%8C%E5%BC%8F%E5%86%85%E7%81%AB%E8%89%87
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: 単発 任務『「航空基地設営」事前準備』、『「陸攻」隊の増勢』報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: 任務をクリアすることでそれぞれ1つずつ、計2つ入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: この内1つは続く任務で一式陸攻入手のために消費することになるだろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: クォータリー 任務『工廠稼働！次期作戦準備！』選択報酬。3ヶ月に1度入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: イヤーリー(1月) 任務『航空戦力の再編増強準備』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 168:九六式陸攻
+
+- rawName: イヤーリー(9月) 任務『【鋼材輸出】基地航空兵力を増備せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 2016年 08月31日：クォータリー任務『主力「陸攻」の調達』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: ただし更新消費が重く、クォータリー任務では間に合わない人のための救済措置の意味合いが強い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 2021年 07月15日：任務『航空基地を整備拡張せよ！』の選択報酬 (x2)。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 2021年 09月28日：イヤーリー(9月) 任務『【鋼材輸出】基地航空兵力を増備せよ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 2019年 01月22日、プチイベント【節分任務群】の交換アイテムとして登場。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 演習、出撃任務をこなすことで節分の豆を入手し、本装備と交換することが出来た。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 詳しくはアイテムページを参照。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 169:一式陸攻
+
+- rawName: 2021年 12月10日 Xmas限定任務『【Xmas限定】聖夜の翼、出撃せよ！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB
+
+## operator-stop-reference 170:一式陸攻(野中隊)
+
+- rawName: 工廠・単発任務『精鋭「一式陸攻」隊の編成』報酬（任務達成に一式陸攻 二二型甲(最大改修)x1が機種転換、一式陸攻x2、熟練搭乗員x3を消費する）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E9%87%8E%E4%B8%AD%E9%9A%8A%29
+
+## operator-stop-reference 170:一式陸攻(野中隊)
+
+- rawName: 2022年 12月27日 期間限定 任務『【年末年始】試製 鎮守府年末改修ジャンボ』選択報酬（★+2）*18
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%28%E9%87%8E%E4%B8%AD%E9%9A%8A%29
+
+## operator-stop-reference 171:OS2U
+
+- rawName: 2017年 任務 期間限定『時代が来たか！航空火力艦なお正月！』選択報酬 (2017/1/1 ～ /1/10)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/OS2U
+
+## operator-stop-reference 171:OS2U
+
+- rawName: 2020年 任務『南西諸島海域合同哨戒』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/OS2U
+
+## operator-stop-reference 171:OS2U
+
+- rawName: 2022年 任務 イヤーリー(5月)『日英米合同水上艦隊、抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/OS2U
+
+## operator-stop-reference 174:53cm連装魚雷
+
+- rawName: 任務『精鋭第三戦隊、演習開始！ 』★+5×２　選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/53cm%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 175:雷電
+
+- rawName: 入手方法は2020年11月現在、過去のイベント報酬、ランキング上位報酬、そして単発任務が1つ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: 2018年 任務『基地航空隊戦力の拡充』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: 2018年12月7日に任務報酬として本実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: それまで配られた雷電はランカー報酬を除けば最大3機だったため、これで一個中隊を雷電だけで編成することが現実的になった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: 2018年 期間限定任務『護衛始め！「海上護衛隊」なお正月！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: 2024年 艦隊"南瓜"祭り任務『【期間限定任務】南瓜祭り艦隊、南西諸島へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 175:雷電
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【秋刀魚祭り拡張作戦】北方漁場防衛強化！』選択報酬 (★+3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B7%E9%9B%BB
+
+## operator-stop-reference 176:三式戦 飛燕
+
+- rawName: 任務で入手。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95
+
+## operator-stop-reference 176:三式戦 飛燕
+
+- rawName: 2018年12月7日に単発任務『戦闘機隊戦力の拡充』の選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95
+
+## operator-stop-reference 176:三式戦 飛燕
+
+- rawName: 2021年12月28日に単発任務『南西海域「基地航空隊」開設！』の選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95
+
+## operator-stop-reference 176:三式戦 飛燕
+
+- rawName: 2025年6月27日に単発任務『陸軍戦闘機及び海外戦闘機の増備』の選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%88%A6%20%E9%A3%9B%E7%87%95
+
+## operator-stop-reference 178:PBY-5A Catalina
+
+- rawName: 任務『【八周年限定】カタリナフェスティバル！』選択報酬 (最大2機入手可能)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/PBY-5A%20Catalina
+
+## operator-stop-reference 178:PBY-5A Catalina
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【秋刀魚祭り拡張作戦】北方漁場防衛強化！』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/PBY-5A%20Catalina
+
+## operator-stop-reference 179:試製61cm六連装(酸素)魚雷
+
+- rawName: 任務『新型魚雷兵装の開発』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 179:試製61cm六連装(酸素)魚雷
+
+- rawName: 2016年7月15日実装の任務で非ランカーでも入手できるようになった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 179:試製61cm六連装(酸素)魚雷
+
+- rawName: 本装備を入手する任務の難易度は高い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 179:試製61cm六連装(酸素)魚雷
+
+- rawName: 任務『防空駆逐艦「秋月改二」、推参します！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 179:試製61cm六連装(酸素)魚雷
+
+- rawName: 強力な装備である10cm連装高角砲改＋高射装置改との選択であるが、現在こちらは任務でしか入手手段がないのに対し、あちらは改修更新で作れるため、こちらの取得を推奨する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD61cm%E5%85%AD%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7
+
+## operator-stop-reference 180:一式陸攻 二二型甲
+
+- rawName: 『「一式陸攻」性能向上型の調達』達成報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%BA%8C%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 180:一式陸攻 二二型甲
+
+- rawName: 『改加賀型航空母艦「加賀改二」、抜錨！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%BA%8C%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 180:一式陸攻 二二型甲
+
+- rawName: イヤーリー(1月)『航空戦力の再編増強準備』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%BA%8C%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 180:一式陸攻 二二型甲
+
+- rawName: 2022年 01月21日【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%BA%8C%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 181:零式艦戦32型
+
+- rawName: 任務『冬季北方海域作戦』報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B
+
+## operator-stop-reference 181:零式艦戦32型
+
+- rawName: 任務『空母機動部隊、出撃！敵艦隊を迎撃せよ！』報酬 (x2) イヤーリー(6月) F4F-3、バケツとの選択
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B
+
+## operator-stop-reference 182:零式艦戦32型(熟練)
+
+- rawName: 任務『航空戦力の強化』選択報酬 (クォータリー)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 182:零式艦戦32型(熟練)
+
+- rawName: 2026/04/24のアップデートで工廠資源が実装されるまでは、この任務の報酬でしか無改修の本装備を入手することが出来なかった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 182:零式艦戦32型(熟練)
+
+- rawName: 本装備から零式艦戦52型(熟練)★+3へと更新可能だが、52型(熟練)★maxは21型(熟練)★maxを機種転換する任務で入手可能な上、持ち味の回避が下がってしまうため、本装備からの更新は非推奨。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A632%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 184:Re.2001 OR改
+
+- rawName: 2019バレンタイン限定任務選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Re.2001%20OR%E6%94%B9
+
+## operator-stop-reference 186:一式陸攻 三四型
+
+- rawName: 2020年 08月27日 任務『最精鋭「第一航空戦隊」、出撃！鎧袖一触！』選択報酬 (★+2)*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%B8%89%E5%9B%9B%E5%9E%8B
+
+## operator-stop-reference 186:一式陸攻 三四型
+
+- rawName: 2019年 12月31日 期間限定 任務『迎春！軽巡「夕張」、北へ！』選択報酬 (★+4) (～2020年1月14日まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%B8%89%E5%9B%9B%E5%9E%8B
+
+## operator-stop-reference 186:一式陸攻 三四型
+
+- rawName: 2023年 期間限定任務『【早春限定任務】海上遊撃戦、展開せよ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%B8%89%E5%9B%9B%E5%9E%8B
+
+## operator-stop-reference 186:一式陸攻 三四型
+
+- rawName: 2023年『【期間限定任務】10周年秋南瓜祭り拡張作戦！」』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E9%99%B8%E6%94%BB%20%E4%B8%89%E5%9B%9B%E5%9E%8B
+
+## operator-stop-reference 187:銀河
+
+- rawName: 過去の入手方法は、イベント報酬、月次作戦報酬、【節分任務群】の3通りのみ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 187:銀河
+
+- rawName: 2019年【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 187:銀河
+
+- rawName: 2020年【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 187:銀河
+
+- rawName: 2021年【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 187:銀河
+
+- rawName: 2023年 01月 新春任務群『【拡張作戦】機動部隊、縦横無尽！』選択報酬★+3
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 187:銀河
+
+- rawName: 2023年 11月 Xmas限定任務『【Xmas拡張作戦II】Xmas最終決戦、発動！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3
+
+## operator-stop-reference 192:38.1cm Mk.I/N連装砲改
+
+- rawName: 2025年 Xmas任務群　【拡張作戦】Xmas戦艦戦隊、堂々進撃せよ！ 選択報酬 ★+2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/38.1cm%20Mk.I%EF%BC%8FN%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 193:特大発動艇
+
+- rawName: 任務『精鋭「第十六戦隊」突入せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 193:特大発動艇
+
+- rawName: 2018年 期間限定任務『主計科任務【おにぎりを振舞おう！】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87
+
+## operator-stop-reference 195:SBD
+
+- rawName: 任務『空母機動部隊、出撃！敵艦隊を迎撃せよ！』選択報酬 (x2) イヤーリー(6月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SBD
+
+## operator-stop-reference 196:TBD
+
+- rawName: 任務『合同艦隊旗艦、改装「Fletcher」、抜錨！』選択報酬 (★+3) x2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBD
+
+## operator-stop-reference 197:F4F-3
+
+- rawName: 任務『合同艦隊旗艦、改装「Fletcher」、抜錨！』選択報酬 (★+3)x2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F4F-3
+
+## operator-stop-reference 197:F4F-3
+
+- rawName: 任務 イヤーリー(6月)『空母機動部隊、出撃！敵艦隊を迎撃せよ！』報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F4F-3
+
+## operator-stop-reference 200:橘花改
+
+- rawName: 『噴式戦闘爆撃機の開発』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%A9%98%E8%8A%B1%E6%94%B9
+
+## operator-stop-reference 200:橘花改
+
+- rawName: 『機動部隊決戦』イヤーリー(6月) 選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%A9%98%E8%8A%B1%E6%94%B9
+
+## operator-stop-reference 201:紫電一一型
+
+- rawName: 任務『運用装備の統合整備』選択報酬 クォータリー*8
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%B8%80%E4%B8%80%E5%9E%8B
+
+## operator-stop-reference 201:紫電一一型
+
+- rawName: 任務『【機種整理統合】新型戦闘機の量産計画』選択報酬 イヤーリー(12月)*9
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%B8%80%E4%B8%80%E5%9E%8B
+
+## operator-stop-reference 201:紫電一一型
+
+- rawName: 任務『基地航空隊戦力の拡充』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%B8%80%E4%B8%80%E5%9E%8B
+
+## operator-stop-reference 202:紫電二一型 紫電改
+
+- rawName: 任務『【機種整理統合】新型戦闘機の量産計画』選択報酬 イヤーリー(12月)*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E4%BA%8C%E4%B8%80%E5%9E%8B%20%E7%B4%AB%E9%9B%BB%E6%94%B9
+
+## operator-stop-reference 203:艦本新設計 増設バルジ(中型艦)
+
+- rawName: 改修、任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 203:艦本新設計 増設バルジ(中型艦)
+
+- rawName: 増設バルジ(中型艦)から装備更新で入手可能なほか、同日実装された任務「重装甲巡洋艦、鉄底海峡に突入せよ！」をクリアすることで1個入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 203:艦本新設計 増設バルジ(中型艦)
+
+- rawName: 同年4月5日アップデートで実装された任務「改装航空巡洋艦、出撃！」の報酬としても1個入手可能になった(強風改か本装備の選択制。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E4%B8%AD%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 204:艦本新設計 増設バルジ(大型艦)
+
+- rawName: 任務『新編「第一戦隊」、抜錨せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 204:艦本新設計 増設バルジ(大型艦)
+
+- rawName: 任務『「比叡改二丙」見参！第三戦隊、南方突入！』選択報酬(★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E6%9C%AC%E6%96%B0%E8%A8%AD%E8%A8%88%20%E5%A2%97%E8%A8%AD%E3%83%90%E3%83%AB%E3%82%B8%28%E5%A4%A7%E5%9E%8B%E8%89%A6%29
+
+## operator-stop-reference 205:F6F-3
+
+- rawName: 任務『精強「任務部隊」を編成せよ!』『精強大型航空母艦、抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3
+
+## operator-stop-reference 205:F6F-3
+
+- rawName: 『精強「任務部隊」を編成せよ!』ではF4U-1Dとの2択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3
+
+## operator-stop-reference 205:F6F-3
+
+- rawName: コルセア(F4U-1D)は任務では唯一の入手手段だった為、後のIntrepid実装まで、提督諸兄を大いに悩ませていた。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3
+
+## operator-stop-reference 205:F6F-3
+
+- rawName: 事前に何らかの形でF6F-3を入手していない場合、いずれかの任務報酬が最初の一機になると思われる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3
+
+## operator-stop-reference 205:F6F-3
+
+- rawName: 限定品を選択し任務に必要になるF6F-3は改修にて入手することで確保は可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3
+
+## operator-stop-reference 206:F6F-5
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【秋刀魚祭り拡張作戦】北方漁場防衛強化！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-5
+
+## operator-stop-reference 207:瑞雲(六三一空)
+
+- rawName: クォータリー任務『航空戦力の強化』選択報酬（熟練搭乗員を消費）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 207:瑞雲(六三一空)
+
+- rawName: 期間限定任務『謹賀新年！「水上機母艦」出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 208:晴嵐(六三一空)
+
+- rawName: 任務『六三一空「晴嵐」隊の編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%99%B4%E5%B5%90%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 208:晴嵐(六三一空)
+
+- rawName: 任務達成には「試製晴嵐」1個と「瑞雲(六三一空)」1個を消費する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%99%B4%E5%B5%90%28%E5%85%AD%E4%B8%89%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 209:彩雲(輸送用分解済)
+
+- rawName: 2017年冬イベント『偵察戦力緊急展開！「光」作戦』E-3 難易度選択後に出現する任務『「彩雲」輸送分解』（甲・乙）or『【丙】作戦「彩雲」調達＆輸送分解』（丙）をクリアすると手に入る装備で、同E-3の輸送ゲージ破壊に必要となる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2%28%E8%BC%B8%E9%80%81%E7%94%A8%E5%88%86%E8%A7%A3%E6%B8%88%29
+
+## operator-stop-reference 210:潜水艦搭載電探&水防式望遠鏡
+
+- rawName: 任務『伊号潜水艦装備の拡充』選択報酬 (x4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E6%B0%B4%E9%98%B2%E5%BC%8F%E6%9C%9B%E9%81%A0%E9%8F%A1
+
+## operator-stop-reference 210:潜水艦搭載電探&水防式望遠鏡
+
+- rawName: イヤーリー(6月) 任務『潜水艦電子兵装の量産』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E6%B0%B4%E9%98%B2%E5%BC%8F%E6%9C%9B%E9%81%A0%E9%8F%A1
+
+## operator-stop-reference 210:潜水艦搭載電探&水防式望遠鏡
+
+- rawName: 任務達成に開発不可な装備が必要なためネジを目的とする場合、手持ちがなければ前程任務も含め最低でも初春型3隻と大淀5隻を牧場する必要があり非常に効率が悪い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E6%B0%B4%E9%98%B2%E5%BC%8F%E6%9C%9B%E9%81%A0%E9%8F%A1
+
+## operator-stop-reference 210:潜水艦搭載電探&水防式望遠鏡
+
+- rawName: 2025年 年末年始限定任務『(2501C1新春【拡張作戦】精鋭日米空母、新年協同作戦！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%BD%9C%E6%B0%B4%E8%89%A6%E6%90%AD%E8%BC%89%E9%9B%BB%E6%8E%A2%EF%BC%86%E6%B0%B4%E9%98%B2%E5%BC%8F%E6%9C%9B%E9%81%A0%E9%8F%A1
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 2017年 任務『潜水艦武装の強化』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 任務達成には61cm三連装魚雷4個、61cm四連装(酸素)魚雷3個、九三式水中聴音機3個、開発資材120が必要。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 2020年 任務『静かな海を護る「鯨」、動き出す！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 2021年 任務『潜水艦強化兵装の量産』報酬(イヤーリー　6月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 任務達成に開発不可な装備が必要なためネジを目的とする場合、手持ちがなければ最低でも初春型3隻と大淀2隻を牧場する必要があり非常に効率が悪い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 213:後期型艦首魚雷(6門)
+
+- rawName: 任務『伊号潜水艦装備の拡充』選択報酬 (x3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 214:熟練聴音員+後期型艦首魚雷(6門)
+
+- rawName: 任務『潜水艦魚雷攻撃の精度向上』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E8%81%B4%E9%9F%B3%E5%93%A1%EF%BC%8B%E5%BE%8C%E6%9C%9F%E5%9E%8B%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%286%E9%96%80%29
+
+## operator-stop-reference 216:二式水戦改(熟練)
+
+- rawName: 任務『精鋭「水戦」隊の新編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 216:二式水戦改(熟練)
+
+- rawName: 任務『精鋭「水戦」隊の増勢』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E6%B0%B4%E6%88%A6%E6%94%B9%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 217:強風改
+
+- rawName: 任務『改装航空巡洋艦、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9
+
+## operator-stop-reference 217:強風改
+
+- rawName: 任務『西村艦隊、精鋭先行掃討隊、前進せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9
+
+## operator-stop-reference 217:強風改
+
+- rawName: 期間限定 任務『迎春！亥年「空母機動部隊」新春の西へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BC%B7%E9%A2%A8%E6%94%B9
+
+## operator-stop-reference 219:零式艦戦63型(爆戦)
+
+- rawName: 数が多く必要な装備とは言い難く、任務での入手機会を活用されたい。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 219:零式艦戦63型(爆戦)
+
+- rawName: 2017年 4月5日『改装攻撃型軽空母、前線展開せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 219:零式艦戦63型(爆戦)
+
+- rawName: 報酬で１つ確定入手（「8cm高角砲改＋増設機銃」と両方同時入手、選択式ではない）。
+ただし任務には鈴谷航改二が必要で難関海域（6ー5含む）の攻略・設計図等の面で厳しいため達成は容易ではない。
+6ー5開放に基地航空隊開放任務等の前提も多く、鈴谷の運用を航巡で使用したい場合などもあり出現させること自体が難しい任務でもある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 219:零式艦戦63型(爆戦)
+
+- rawName: 2017年 6月6日『新編「第七戦隊」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 219:零式艦戦63型(爆戦)
+
+- rawName: 2021年 4月22日『新しき翼。改装航空母艦「龍鳳」、出撃せよ！』選択報酬*1
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A663%E5%9E%8B%28%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 220:8cm高角砲改+増設機銃
+
+- rawName: 任務『改装攻撃型軽空母、前線展開せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 220:8cm高角砲改+増設機銃
+
+- rawName: 任務『西村艦隊、精鋭先行掃討隊、前進せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 220:8cm高角砲改+増設機銃
+
+- rawName: 任務『新しき翼。改装航空母艦「龍鳳」、出撃せよ！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/8cm%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 221:一式戦 隼II型
+
+- rawName: クォータリー任務『運用装備の統合整備』選択報酬*3
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B
+
+## operator-stop-reference 221:一式戦 隼II型
+
+- rawName: クォータリー任務『航空戦力の強化』選択報酬*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCII%E5%9E%8B
+
+## operator-stop-reference 224:爆装一式戦 隼III型改(65戦隊)
+
+- rawName: 2021年 03月01日 任務『精鋭「第七駆逐隊」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%88%86%E8%A3%85%E4%B8%80%E5%BC%8F%E6%88%A6%20%E9%9A%BCIII%E5%9E%8B%E6%94%B9%2865%E6%88%A6%E9%9A%8A%29
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 出撃『兵站線確保！海上警備を強化実施せよ！』選択報酬　マンスリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 演習『輸送船団演習』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 演習『小艦艇群演習強化任務』選択報酬　クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 遠征『近海に侵入する敵潜を制圧せよ！』報酬 クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 2018年 五周年限定任務『五周年任務【肆：演習】』選択報酬 (★+5)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 2018年 鎮守府秋刀魚祭り『秋刀魚漁：大切な漁場、ここは譲れません！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 2020年 新春特別任務『賀正！令和二年「水雷戦隊」出撃始め！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 226:九五式爆雷
+
+- rawName: 2021年 春限定任務『【春限定】春の近海哨戒お散歩！』選択報酬　2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%BA%94%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: いくつかの任務で入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 出撃『「海防艦」、海を護る！』イヤーリー(2月)任務。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 家具職人 or 勲章 との選択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 出撃『鎮守府近海海域の哨戒を実施せよ！』イヤーリー(6月)任務。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2つ手に入る。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 伊良湖x2 or 間宮x1 との選択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 出撃『三十二駆「早波改二」、元気に出撃せよ！』選択報酬　★+8
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2018年 正月限定任務『護衛始め！「海上護衛隊」なお正月！』選択報酬（2個）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2018年 春の限定任務『主計科任務【和定食膳を作って完食！】』報酬（確定報酬）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 後続の任務で本装備を要求されるが、ここでは装備しているだけで良く消費はされないので安心。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2019年 秋の限定任務『【特別任務】大丈夫、鰯があるじゃない！』選択報酬（2個）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2020年 正月限定任務『令和二年護衛始め！「海上護衛隊」抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2021年 正月限定任務『迎春！令和三年「海上護衛隊」抜錨始め！』選択報酬（2個）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2021,2022年 期間限定 任務『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x3) (2021/11/19まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2021年 Xmas限定任務『【Xmas限定】Xmas海上護衛隊、抜錨！』選択報酬 (2021/12/28まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2023年 バレンタイン限定任務『バレンタイン2023限定任務【特別演習】』選択報酬 （2個）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2024年 バレンタイン限定任務『バレンタイン2024限定任務【特別演習】』選択報酬 （2個）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 227:二式爆雷
+
+- rawName: 2024年 年末年始限定任務『(2412C1)【年末年始】海上護衛部隊 特別演習！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7
+
+## operator-stop-reference 229:12.7cm単装高角砲(後期型)
+
+- rawName: 任務『精強「十七駆」、北へ、南へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 233:F4U-1D
+
+- rawName: 任務『精強「任務部隊」を編成せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F4U-1D
+
+## operator-stop-reference 233:F4U-1D
+
+- rawName: F6F-3との2択となるが、F6F-3は他の任務でも入手が可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F4U-1D
+
+## operator-stop-reference 237:瑞雲(六三四空/熟練)
+
+- rawName: 任務『精鋭「瑞雲」隊の編成』を達成することで入手できる。*4
+瑞雲(六三四空)の改修レベルは本装備には引き継がれない(二式水戦改(熟練)等の任務と同じ)。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 238:零式水上偵察機11型乙
+
+- rawName: 『艦隊司令部の強化 【準備段階】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99
+
+## operator-stop-reference 238:零式水上偵察機11型乙
+
+- rawName: 『「比叡改二丙」見参！第三戦隊、南方突入！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99
+
+## operator-stop-reference 238:零式水上偵察機11型乙
+
+- rawName: 『【工廠任務】改良三座水上偵察機の増備』イヤーリー(1月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99
+
+## operator-stop-reference 239:零式水上偵察機11型乙(熟練)
+
+- rawName: 2021年7月15日 任務『精鋭三座水上偵察機隊の前線投入』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 239:零式水上偵察機11型乙(熟練)
+
+- rawName: 任務達成には「零式水上偵察機11型乙★max」、新型航空兵装資材x1、戦闘詳報x1、熟練搭乗員x3が必要。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 239:零式水上偵察機11型乙(熟練)
+
+- rawName: また、前提任務として『精鋭「水戦」隊の新編成』*2の達成も必要。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 240:22号対水上電探改四(後期調整型)
+
+- rawName: 任務『最精強！「呉の雪風」「佐世保の時雨」』選択報酬 (★+4)*3
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 240:22号対水上電探改四(後期調整型)
+
+- rawName: 任務『主力オブ主力「清霜改二」、出撃せよ！』選択報酬*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 240:22号対水上電探改四(後期調整型)
+
+- rawName: 任務『22号対水上電探の改良』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 241:戦闘糧食(特別なおにぎり)
+
+- rawName: 同日実装の新任務で1つ入手可能なほか、戦闘糧食を改修・更新することでも入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%88%A6%E9%97%98%E7%B3%A7%E9%A3%9F%28%E7%89%B9%E5%88%A5%E3%81%AA%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%29
+
+## operator-stop-reference 242:Swordfish
+
+- rawName: 任務『演習ティータイム！』選択報酬 イヤーリー(10月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish
+
+## operator-stop-reference 242:Swordfish
+
+- rawName: 期間限定 任務『秋刀魚漁：漁を全力で支援する覚悟です！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish
+
+## operator-stop-reference 242:Swordfish
+
+- rawName: 2021年 10月 期間限定 任務『「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x2) (～2021/11/19)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish
+
+## operator-stop-reference 243:Swordfish Mk.II(熟練)
+
+- rawName: 「改修更新」または「工廠任務」で手に入るが、どちらも「Swordfish★max」を要求され、選択は鎮守府の状況次第だろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.II%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 243:Swordfish Mk.II(熟練)
+
+- rawName: 任務　イヤーリー(10月)『精鋭複葉機飛行隊の編成』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.II%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 244:Swordfish Mk.III(熟練)
+
+- rawName: 2021年 秋イベント『帰ってきた鎮守府秋刀魚祭り』限定任務『秋刀魚祭り限定任務：精鋭Swordfish配備！』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 244:Swordfish Mk.III(熟練)
+
+- rawName: 任務達成には「Swordfish Mk.II(熟練)★max」と秋刀魚13尾が必要なため、
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 244:Swordfish Mk.III(熟練)
+
+- rawName: 本装備が欲しい提督は同任務を達成後の秋刀魚調理を推奨する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 244:Swordfish Mk.III(熟練)
+
+- rawName: Swordfish Mk.II(熟練)の改修のチャンスは金・土・日曜日のみ(要二番艦Ark Royal)。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 244:Swordfish Mk.III(熟練)
+
+- rawName: 改修の進捗と任務の実装期間に注意されたし。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 249:Fulmar
+
+- rawName: 任務「演習ティータイム！」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Fulmar
+
+## operator-stop-reference 250:Spitfire Mk.I
+
+- rawName: 任務『戦闘機隊戦力の拡充』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Spitfire%20Mk.I
+
+## operator-stop-reference 251:Spitfire Mk.V
+
+- rawName: 2018年12月7日のアップデートでSpitfire Mk.Iからの改修更新でも入手可能となった。
+改修に必要となる改修資材や消費装備は安価だが、素体となるSpitfire Mk.Iの入手手段は、常設のものでは任務の選択報酬とWarspiteかNelsonを秘書艦にした時の開発のみ。
+更に、改修担当の英国艦も現状イベント海域でのドロップか大型艦建造のみのため、素体の改修を開始するまでのハードルは高いと言える。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Spitfire%20Mk.V
+
+## operator-stop-reference 254:F6F-3N
+
+- rawName: 任務『夜戦型艦上戦闘機の開発』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3N
+
+## operator-stop-reference 254:F6F-3N
+
+- rawName: 任務達成には「F6F-3の練度maxかつ★max」が必要。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-3N
+
+## operator-stop-reference 255:F6F-5N
+
+- rawName: 任務『夜戦型艦上戦闘機の性能強化』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-5N
+
+## operator-stop-reference 255:F6F-5N
+
+- rawName: 2017年9月12日に任務『夜戦型艦上戦闘機の性能強化』のクリア報酬として入手可能となった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-5N
+
+## operator-stop-reference 255:F6F-5N
+
+- rawName: ……ちなみに当然ではあるが、上述の入手までの話は全てSaratoga Mk.IIを所持していることが前提である(選択任務にMk.IIが必要なため)。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/F6F-5N
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2017年 9月12日『精強「任務部隊」を編成せよ！』では新型航空兵装資材との2択。ここでの選択が基本的には推奨される
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2017年 9月12日『精強大型航空母艦、抜錨！』では夜間作戦航空要員との2択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2017年 9月12日『夜間作戦空母、前線に出撃せよ！』では「夜間作戦航空要員＋熟練甲板員」、新型航空兵装資材との3択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2020年 8月27日『【航空母艦特別任務】航空戦隊、精鋭無比！』では開発資材x88、試製甲板カタパルト、本装備★+4の3択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2021年 7月15日 イヤーリー『「改装特務空母」任務部隊演習！』ではFM-2x2、SKレーダー★+5、本装備x2の3択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2021年 7月15日『改装特務空母「Gambier Bay Mk.II」抜錨！』では改修資材x7、戦闘詳報x1、本装備x2★+4の3択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2017年 9月29日 期間限定『秋刀魚漁：どーんっ！揚げ揚げで大漁です！』*5選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2020年 梅雨＆夏イベント『侵攻阻止！島嶼防衛強化作戦』E-7 甲・乙作戦 突破報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 2025年 秋イベント後段作戦『要撃！敵機動部隊捜索撃滅戦』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 本装備が実装された当時、本装備と夜間作戦航空要員と夜間作戦航空要員＋熟練甲板員は同日実装の任務報酬でしか手に入らなかった為、かなりの注意を要する必要があった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 256:TBF
+
+- rawName: 現在はイヤーリー任務の選択報酬や初期装備で入手可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBF
+
+## operator-stop-reference 257:TBM-3D
+
+- rawName: 任務『夜間作戦型艦上攻撃機の開発』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3D
+
+## operator-stop-reference 257:TBM-3D
+
+- rawName: 任務『夜間作戦型艦上攻撃機の開発』で「TBF」から機種転換することで入手が可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3D
+
+## operator-stop-reference 257:TBM-3D
+
+- rawName: 任務『新鋭対潜哨戒航空戦力の導入』で新型夜攻「TBM-3W+3S」へ機種転換が可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3D
+
+## operator-stop-reference 257:TBM-3D
+
+- rawName: ※第一艦隊旗艦「加賀改二護」の第一スロに「TBM-3D(装備ロック解除済)」を搭載して指定装備を廃棄。(※「加賀改二/改二戊」では達成不可)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3D
+
+## operator-stop-reference 258:夜間作戦航空要員
+
+- rawName: 『精強大型航空母艦、抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 258:夜間作戦航空要員
+
+- rawName: 2018年『秋刀魚漁：大切な漁場、ここは譲れません！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 258:夜間作戦航空要員
+
+- rawName: 2021年『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x2) (～2021/11/19)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 258:夜間作戦航空要員
+
+- rawName: 2022年『続：「鎮守府秋刀魚祭り」発動準備！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 258:夜間作戦航空要員
+
+- rawName: 2025年『新春【拡張作戦】精鋭日米空母、新年協同作戦！』選択報酬 (★+2)(x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 259:夜間作戦航空要員+熟練甲板員
+
+- rawName: 2017年 09月 任務『夜間作戦空母、前線に出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1%EF%BC%8B%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E5%93%A1
+
+## operator-stop-reference 259:夜間作戦航空要員+熟練甲板員
+
+- rawName: 2020年 3月 任務 期間限定『【桃の節句任務】菱餅改修：果』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%9C%E9%96%93%E4%BD%9C%E6%88%A6%E8%88%AA%E7%A9%BA%E8%A6%81%E5%93%A1%EF%BC%8B%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E5%93%A1
+
+## operator-stop-reference 260:Type124 ASDIC
+
+- rawName: 期間限定任務『秋刀魚漁：どーんっ！揚げ揚げで大漁です！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Type124%20ASDIC
+
+## operator-stop-reference 260:Type124 ASDIC
+
+- rawName: 2021年夏イベント『増援輸送作戦！地中海の戦い』/ 夏イベ限定：期間限定【新任務】群『【地中海拡張作戦】第10潜水戦隊作戦】 』*15 選択報酬 (×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Type124%20ASDIC
+
+## operator-stop-reference 261:Type144/147 ASDIC
+
+- rawName: 期間限定任務『秋刀魚漁：大漁旗、ここは…譲れません！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Type144%EF%BC%8F147%20ASDIC
+
+## operator-stop-reference 263:紫電改(三四三空) 戦闘301
+
+- rawName: 2023年 期間限定任務『2023年「南西諸島」哨戒防衛作戦、発動！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%28%E4%B8%89%E5%9B%9B%E4%B8%89%E7%A9%BA%29%20%E6%88%A6%E9%97%98301
+
+## operator-stop-reference 264:紫電改(三四三空) 戦闘701
+
+- rawName: 2023年 1月01日：期間限定任務『2023年「南西諸島」哨戒防衛作戦、発動！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%B4%AB%E9%9B%BB%E6%94%B9%28%E4%B8%89%E5%9B%9B%E4%B8%89%E7%A9%BA%29%20%E6%88%A6%E9%97%98701
+
+## operator-stop-reference 266:12.7cm連装砲C型改二
+
+- rawName: クォータリー任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 266:12.7cm連装砲C型改二
+
+- rawName: 単発任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 267:12.7cm連装砲D型改二
+
+- rawName: 『最精鋭甲型駆逐艦、突入！敵中突破！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 267:12.7cm連装砲D型改二
+
+- rawName: 『主力オブ主力、精強「十駆」出撃準備ヨシ！』確定報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 267:12.7cm連装砲D型改二
+
+- rawName: 『主力オブ主力、「清霜改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 267:12.7cm連装砲D型改二
+
+- rawName: 『「早霜改二」見ているだけでは…ありません！』選択報酬 (★+3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 267:12.7cm連装砲D型改二
+
+- rawName: 『三十二駆「浜波改二」抜錨！敵中を突破せよ！』選択報酬 (★+7)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 268:北方迷彩(+北方装備)
+
+- rawName: 2025年 北海道防衛作戦 作戦準備任務群『「第一水雷戦隊」合戦用意！抜錨せよ！』選択報酬（★+5）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%8C%97%E6%96%B9%E8%BF%B7%E5%BD%A9%28%EF%BC%8B%E5%8C%97%E6%96%B9%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2018年 12月7日 任務『基地航空隊戦力の拡充』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2020年 3月27日 任務『「第五航空戦隊」、縦横無尽！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: こちらは試製景雲(艦偵型)との選択式だが、試製景雲は確定入手任務がひとつ存在するのでそれ以上を求めなければ気兼ねなく東海を選べる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2019年 12月31日 期間限定任務『迎春！軽巡「夕張」、北へ！』選択報酬 (～2020年 1月14日終了)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2023年 01月01日 期間限定任務『令和五年謹賀新年、新春特務部隊、北へ！』選択報酬(2機) (～2023年 1月20日終了)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2023年『【期間限定任務】10周年秋南瓜祭り拡張作戦！」』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 269:試製東海
+
+- rawName: 2024年『【期間限定任務】南瓜祭り2024、拡張作戦！」』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%E6%9D%B1%E6%B5%B7
+
+## operator-stop-reference 270:東海(九〇一空)
+
+- rawName: 2025年【節分任務群】報酬の節分の豆33個と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%9D%B1%E6%B5%B7%28%E4%B9%9D%E3%80%87%E4%B8%80%E7%A9%BA%29
+
+## operator-stop-reference 272:遊撃部隊 艦隊司令部
+
+- rawName: 同日実装された『「遊撃部隊」艦隊司令部の創設』任務をクリアすることで入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%81%8A%E6%92%83%E9%83%A8%E9%9A%8A%20%E8%89%A6%E9%9A%8A%E5%8F%B8%E4%BB%A4%E9%83%A8
+
+## operator-stop-reference 273:彩雲(偵四)
+
+- rawName: 2023年 新春限定任務『令和五年謹賀新年、新春特務部隊、北へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%A9%E9%9B%B2%28%E5%81%B5%E5%9B%9B%29
+
+## operator-stop-reference 274:12cm30連装噴進砲改二
+
+- rawName: 任務『新編「四航戦」、全力出撃！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm30%E9%80%A3%E8%A3%85%E5%99%B4%E9%80%B2%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 275:10cm連装高角砲改+増設機銃
+
+- rawName: 任務『「十八駆」、北方海域キス島へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 275:10cm連装高角砲改+増設機銃
+
+- rawName: 任務『 第一線航空母艦「鳳翔改二」、演習開始！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E5%A2%97%E8%A8%AD%E6%A9%9F%E9%8A%83
+
+## operator-stop-reference 276:46cm三連装砲改
+
+- rawName: 任務『見敵必殺！最精鋭大和型「第一戦隊」抜錨！』選択報酬 (★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/46cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 277:FM-2
+
+- rawName: 任務『「改装特務空母」任務部隊演習！』選択報酬 イヤーリー(7月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/FM-2
+
+## operator-stop-reference 277:FM-2
+
+- rawName: 任務『不屈敢闘「Taffy Ⅲ」、Weigh anchor!』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/FM-2
+
+## operator-stop-reference 278:SK レーダー
+
+- rawName: 2020年 5月 任務『合同艦隊機動部隊、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SK%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC
+
+## operator-stop-reference 278:SK レーダー
+
+- rawName: 2021年 7月 イヤーリー(7月)任務『「改装特務空母」任務部隊演習！』選択報酬 ★+5
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SK%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC
+
+## operator-stop-reference 281:51cm連装砲
+
+- rawName: 2022年 期間限定 任務 『【限定任務】艦隊九周年、拡張作戦！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/51cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 284:5inch単装砲 Mk.30
+
+- rawName: 『米駆逐艦部隊の奮戦』(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30
+
+## operator-stop-reference 284:5inch単装砲 Mk.30
+
+- rawName: 『Samuel B.Roberts Mk.II、抜錨せよ！』(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30
+
+## operator-stop-reference 285:61cm三連装(酸素)魚雷後期型
+
+- rawName: 2022年 01月21日 任務『改特型駆逐艦「天霧改二」、出撃す！』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 285:61cm三連装(酸素)魚雷後期型
+
+- rawName: 2022年 05月13日 任務 イヤーリー(5月)『精鋭「第十九駆逐隊」、全力出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 285:61cm三連装(酸素)魚雷後期型
+
+- rawName: 2018年 期間限定 任務『主計科任務【おにぎりを振舞おう！】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 285:61cm三連装(酸素)魚雷後期型
+
+- rawName: 2020年 期間限定 任務『七周年任務【後段作戦】』選択報酬 (★+7)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 285:61cm三連装(酸素)魚雷後期型
+
+- rawName: 2022年 期間限定 任務『新春！令和四年「精鋭水雷戦隊」出撃始め！』選択報酬 (2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『主力オブ主力、縦横無尽ッ！』確定報酬 (★+5)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『精強「十七駆」、北へ、南へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『最精強！「呉の雪風」「佐世保の時雨」』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『改白露型駆逐艦「山風改二」、奮戦す！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『奮戦！精鋭「第十五駆逐隊」第一小隊』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『抜錨！精強「第十五駆逐隊」』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『主力オブ主力、「清霜改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 期間限定任務 (実施期間終了)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『主力オブ主力、縦横無尽ッ！』確定報酬 (★+5)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『精強「十七駆」、北へ、南へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『最精強！「呉の雪風」「佐世保の時雨」』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『改白露型駆逐艦「山風改二」、奮戦す！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『奮戦！精鋭「第十五駆逐隊」第一小隊』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『抜錨！精強「第十五駆逐隊」』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 286:61cm四連装(酸素)魚雷後期型
+
+- rawName: 『主力オブ主力、「清霜改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B
+
+## operator-stop-reference 287:三式爆雷投射機 集中配備
+
+- rawName: 任務「鵜来型海防艦兵装の開発」 確定報酬 (★+1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 287:三式爆雷投射機 集中配備
+
+- rawName: 任務「【対潜戦力強化】海防艦対潜兵装の強化」 確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 287:三式爆雷投射機 集中配備
+
+- rawName: 任務「【続：対潜戦力強化】対潜兵装のさらなる拡充」 確定報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 287:三式爆雷投射機 集中配備
+
+- rawName: 2018年 主計科任務【お茶漬け、夜食にどうぞ！】報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 287:三式爆雷投射機 集中配備
+
+- rawName: 2025年 艦隊12周年記念任務】海上護衛遠征　選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 288:試製15cm9連装対潜噴進砲
+
+- rawName: 2025/07/26　【新型対潜兵装開発】対潜噴進爆雷砲の開発」任務選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 288:試製15cm9連装対潜噴進砲
+
+- rawName: 任務実装時点で海外艦最新技術の定期的入手手段は用意されていない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 288:試製15cm9連装対潜噴進砲
+
+- rawName: 2026/01/28　第三十二駆逐隊「早波」、改装準備！任務選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 288:試製15cm9連装対潜噴進砲
+
+- rawName: 2018年『主計科拡張任務【日の丸弁当、量産！】』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 288:試製15cm9連装対潜噴進砲
+
+- rawName: 2024年『2024年迎春！海上護衛艦隊、新春の海へ！』選択報酬 (×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD15cm9%E9%80%A3%E8%A3%85%E5%AF%BE%E6%BD%9C%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 290:41cm三連装砲改二
+
+- rawName: 任務「航空戦艦用強化型新主砲の研究」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 291:彗星二二型(六三四空)
+
+- rawName: 任務『戦闘航空母艦、出撃せよ！』選択報酬 (伊勢改二関連任務)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 292:彗星二二型(六三四空/熟練)
+
+- rawName: 任務『精鋭「航空戦艦」彗星隊の編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 294:12.7cm連装砲A型改二
+
+- rawName: 任務『「磯波改二」、抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 294:12.7cm連装砲A型改二
+
+- rawName: 任務『改装特I型駆逐艦「深雪改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 294:12.7cm連装砲A型改二
+
+- rawName: 任務 イヤーリー(5月)『精鋭「第十九駆逐隊」、全力出撃！』選択報酬 (×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 294:12.7cm連装砲A型改二
+
+- rawName: 2024年 期間限定任務『令和六年、艦隊出動！「南西諸島海域」防衛戦』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 295:12.7cm連装砲A型改三(戦時改修)+高射装置
+
+- rawName: 任務『駆逐艦主装の戦時改修』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%B8%89%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 295:12.7cm連装砲A型改三(戦時改修)+高射装置
+
+- rawName: 任務 クォータリー『戦時改修A型高角砲の量産』報酬*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E4%B8%89%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 296:12.7cm連装砲B型改四(戦時改修)+高射装置
+
+- rawName: 2018年 07月12日 任務『精鋭「二七駆」第一小隊、出撃せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E5%9B%9B%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 296:12.7cm連装砲B型改四(戦時改修)+高射装置
+
+- rawName: 2018年 08月01日 任務『駆逐艦主砲兵装の戦時改修【II】』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E5%9B%9B%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 296:12.7cm連装砲B型改四(戦時改修)+高射装置
+
+- rawName: 2022年 01月21日 任務『改特型駆逐艦「天霧改二」、出撃す！』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2B%E5%9E%8B%E6%94%B9%E5%9B%9B%28%E6%88%A6%E6%99%82%E6%94%B9%E4%BF%AE%29%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE
+
+## operator-stop-reference 304:S9 Osprey
+
+- rawName: 任務『改装航空軽巡「Gotland andra」、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/S9%20Osprey
+
+## operator-stop-reference 304:S9 Osprey
+
+- rawName: 2022年 期間限定任務『【期間限定任務】飛べ！世界の下駄履き機！』選択報酬× 2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/S9%20Osprey
+
+## operator-stop-reference 307:GFCS Mk.37
+
+- rawName: 任務『米駆逐艦部隊の奮戦』(選択報酬)*1
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/GFCS%20Mk.37
+
+## operator-stop-reference 307:GFCS Mk.37
+
+- rawName: この任務そのものの難易度もそうだが、前提任務に陽炎型改二を複数要求される（更にその前提任務を遡っていくと朝潮型改二4隻も必要）ため、解放までの道のりも長い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/GFCS%20Mk.37
+
+## operator-stop-reference 307:GFCS Mk.37
+
+- rawName: 今現在恒常入手できるのはこれしかないためこちらを選択する方が良いだろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/GFCS%20Mk.37
+
+## operator-stop-reference 307:GFCS Mk.37
+
+- rawName: 2018年 10月 期間限定任務『秋刀魚漁：大漁ですね…助かります。』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/GFCS%20Mk.37
+
+## operator-stop-reference 307:GFCS Mk.37
+
+- rawName: 2024年 04月 艦隊11周年記念任務群『【記念任務:拡張作戦】艦隊、南方戦線へ！』選択報酬 (★+3)*2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/GFCS%20Mk.37
+
+## operator-stop-reference 309:甲標的 丙型
+
+- rawName: 任務『西村艦隊、精鋭先行掃討隊、前進せよ！』選択報酬（勲章×2、甲標的 丙型×2、強風改×1から選択）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%99%E5%9E%8B
+
+## operator-stop-reference 310:14cm連装砲改
+
+- rawName: 『「夕張改二」試してみてもいいかしら？』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 310:14cm連装砲改
+
+- rawName: 『砲熕兵装の整備』選択報酬(★+3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 310:14cm連装砲改
+
+- rawName: 2019年『迎春！軽巡「夕張」、北へ！』選択報酬 (★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 310:14cm連装砲改
+
+- rawName: 2024年『【Xmas限定】Xmas軽巡戦隊、獅子奮迅！』選択報酬 (★+7)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 311:二式陸上偵察機
+
+- rawName: 2020年 1月【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E9%99%B8%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F
+
+## operator-stop-reference 313:5inch単装砲 Mk.30改
+
+- rawName: 任務『最精強！「呉の雪風」「佐世保の時雨」』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/5inch%E5%8D%98%E8%A3%85%E7%A0%B2%20Mk.30%20%E6%94%B9
+
+## operator-stop-reference 315:SG レーダー(初期型)
+
+- rawName: 任務『「Taffy Ⅲ」 This is a drill!』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SG%20%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 317:三式弾改
+
+- rawName: 任務『精鋭無比「第一戦隊」抜錨準備！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E5%BC%BE%E6%94%B9
+
+## operator-stop-reference 318:41cm連装砲改二
+
+- rawName: 任務『精鋭無比「第一艦隊」まかり通る！【拡張作戦】』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/41cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 319:彗星一二型(六三四空/三号爆弾搭載機)
+
+- rawName: 2019年 3月 任務『「彗星」艦爆の新運用研究』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%BD%97%E6%98%9F%E4%B8%80%E4%BA%8C%E5%9E%8B%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E4%B8%89%E5%8F%B7%E7%88%86%E5%BC%BE%E6%90%AD%E8%BC%89%E6%A9%9F%29
+
+## operator-stop-reference 322:瑞雲改二(六三四空)
+
+- rawName: 任務『最精鋭｢第四航空戦隊｣、出撃せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 322:瑞雲改二(六三四空)
+
+- rawName: 2022年 鎮守府秋刀魚祭り『秋刀魚祭り限定任務：特別な「瑞雲」配備！』報酬 ★+1
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 322:瑞雲改二(六三四空)
+
+- rawName: 2023年 期間限定任務『【早春限定任務】海上遊撃戦、展開せよ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%29
+
+## operator-stop-reference 323:瑞雲改二(六三四空/熟練)
+
+- rawName: 任務『最精鋭「瑞雲」隊の編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%91%9E%E9%9B%B2%E6%94%B9%E4%BA%8C%28%E5%85%AD%E4%B8%89%E5%9B%9B%E7%A9%BA%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 324:オ号観測機改
+
+- rawName: 2019年 3月27日 任務『回転翼機の開発』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AA%E5%8F%B7%E8%A6%B3%E6%B8%AC%E6%A9%9F%E6%94%B9
+
+## operator-stop-reference 326:S-51J
+
+- rawName: 改修、任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/S-51J
+
+## operator-stop-reference 328:35.6cm連装砲改
+
+- rawName: 2023/05/01追加任務「改金剛型高速戦艦「榛名改二乙/丙」、抜錨！」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 328:35.6cm連装砲改
+
+- rawName: 2024/09/24追加任務「第三戦隊」精鋭第二小隊、特別演習！
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 329:35.6cm連装砲改二
+
+- rawName: 任務『重改装高速戦艦「金剛改二丙」、南方突入！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 329:35.6cm連装砲改二
+
+- rawName: 任務『比叡改二丙」見参！第三戦隊、南方突入！』選択報酬*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 329:35.6cm連装砲改二
+
+- rawName: 任務『改金剛型高速戦艦「榛名改二乙/丙」、抜錨！』選択報酬*5
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 335:烈風改(試製艦載型)
+
+- rawName: 2023年 期間限定任務『【艦隊10周年記念任務：拡張任務】特別工廠』選択報酬 (x2)*1
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%28%E8%A9%A6%E8%A3%BD%E8%89%A6%E8%BC%89%E5%9E%8B%29
+
+## operator-stop-reference 335:烈風改(試製艦載型)
+
+- rawName: 2025年 期間限定任務『【限定拡張任務】南瓜祭り2025、拡張作戦！』選択報酬★+4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%28%E8%A9%A6%E8%A3%BD%E8%89%A6%E8%BC%89%E5%9E%8B%29
+
+## operator-stop-reference 338:烈風改二戊型
+
+- rawName: 2023年 期間限定任務『【艦隊10周年記念任務：拡張任務】特別工廠』選択報酬*2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%83%88%E9%A2%A8%E6%94%B9%E4%BA%8C%E6%88%8A%E5%9E%8B
+
+## operator-stop-reference 342:流星改(一航戦)
+
+- rawName: 任務『精強！「第一航空戦隊」出撃せよ！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%29
+
+## operator-stop-reference 342:流星改(一航戦)
+
+- rawName: 期間限定 任務『秋刀魚漁：今年は気分が高揚します！』選択報酬 (2019/10/25～2019/11/29)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%29
+
+## operator-stop-reference 342:流星改(一航戦)
+
+- rawName: 任務『改加賀型航空母艦「加賀改二」、抜錨！ 』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%29
+
+## operator-stop-reference 343:流星改(一航戦/熟練)
+
+- rawName: 2019年 6月25日『一航戦精鋭「流星改」隊の編成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 343:流星改(一航戦/熟練)
+
+- rawName: 2020年 8月27日『最精鋭「第一航空戦隊」、出撃！鎧袖一触！』選択報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E4%B8%80%E8%88%AA%E6%88%A6%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 344:九七式艦攻改 試製三号戊型(空六号電探改装備機)
+
+- rawName: 『航空母艦「雲鷹」、抜錨せよ！』選択報酬 (2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%20%E8%A9%A6%E8%A3%BD%E4%B8%89%E5%8F%B7%E6%88%8A%E5%9E%8B%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 344:九七式艦攻改 試製三号戊型(空六号電探改装備機)
+
+- rawName: 2023年 期間限定任務『【早春限定任務】夜間航空作戦能力の増強』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%20%E8%A9%A6%E8%A3%BD%E4%B8%89%E5%8F%B7%E6%88%8A%E5%9E%8B%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 344:九七式艦攻改 試製三号戊型(空六号電探改装備機)
+
+- rawName: 2024年 期間限定任務『2024年迎春！海上護衛艦隊、新春の海へ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B8%83%E5%BC%8F%E8%89%A6%E6%94%BB%E6%94%B9%20%E8%A9%A6%E8%A3%BD%E4%B8%89%E5%8F%B7%E6%88%8A%E5%9E%8B%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 任務『陸戦用装備の艦載運用実戦研究』選択報酬 3つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 任務『輸送船団演習』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 任務『陸戦用装備の艦載運用研究』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 任務『工廠稼働！次期作戦準備！』選択報酬 クォータリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 任務『南西方面の兵站航路の安全を図れ！』選択報酬 2つ イヤーリー(6月)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 2020年 期間限定任務『【秋限定】野分の大冒険！』選択報酬 2つ
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 346:二式12cm迫撃砲改
+
+- rawName: 2021年 期間限定任務『【桃の節句】鎮守府近海、春の安全確保作戦』選択報酬 ウィークリー
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F12cm%E8%BF%AB%E6%92%83%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 348:艦載型 四式20cm対地噴進砲
+
+- rawName: 2019年 08月08日アップデートで、任務『陸戦用装備の艦載運用実戦研究』の選択報酬として本実装。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E8%BC%89%E5%9E%8B%20%E5%9B%9B%E5%BC%8F20cm%E5%AF%BE%E5%9C%B0%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 348:艦載型 四式20cm対地噴進砲
+
+- rawName: 2021年 06月21日のアップデートで、6月イヤーリー任務『南西方面の兵站航路の安全を図れ！』の選択報酬として時間をかければ量産可となった。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E8%BC%89%E5%9E%8B%20%E5%9B%9B%E5%BC%8F20cm%E5%AF%BE%E5%9C%B0%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 348:艦載型 四式20cm対地噴進砲
+
+- rawName: 2021年 08月04日に実装された任務『【作戦準備】第二段階任務(対地/対空整備)』の選択報酬でも2つ入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%89%A6%E8%BC%89%E5%9E%8B%20%E5%9B%9B%E5%BC%8F20cm%E5%AF%BE%E5%9C%B0%E5%99%B4%E9%80%B2%E7%A0%B2
+
+## operator-stop-reference 350:Me163B
+
+- rawName: 2022年 期間限定 節分任務群『【節分任務】令和四年節分遠征任務』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Me163B
+
+## operator-stop-reference 351:試製 秋水
+
+- rawName: 2020年 8月27日 任務『改加賀型航空母艦「加賀改二」、抜錨！』選択報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E7%A7%8B%E6%B0%B4
+
+## operator-stop-reference 362:5inch連装両用砲(集中配備)
+
+- rawName: 2024年『【Xmas限定】Xmas軽巡戦隊、獅子奮迅！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/5inch%E9%80%A3%E8%A3%85%E4%B8%A1%E7%94%A8%E7%A0%B2%28%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99%29
+
+## operator-stop-reference 364:甲標的 丁型改(蛟龍改)
+
+- rawName: 任務『新編「六水戦」出撃！後で感想、聞かせてね！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%94%B2%E6%A8%99%E7%9A%84%20%E4%B8%81%E5%9E%8B%E6%94%B9%28%E8%9B%9F%E9%BE%8D%E6%94%B9%29
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 任務『改良D型砲の配備』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 任務『三十二駆「藤波改二」、鳥海を護衛せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 13号後期型は改修更新で入手可能なため選択は非推奨。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 逆探との選択だが、後続の早波任務と合わせてD3砲と逆探をそれぞれ一個づつ入手するのが安全択だろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 任務『三十二駆「早波改二」、元気に出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 四ソは改修更新で入手可能なため選択は非推奨。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 逆単との選択だが、上述の任務で取得した装備と逆の装備を入手するのが安全択だろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 任務『三十二駆「玉波改二」、出撃いたします。』の選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: すべてに選択価値がある悩ましい報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 一般的な報酬選択をすれば、水雷戦隊 熟練見張員はこれまでに2つ、D型改三も2つ、三式爆雷投射機改は1つもないだろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 一方、ここでD型改三を取る前提なら上述の任務でE27逆探を選択し、E27逆探を三本同時に運用可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: もちろんD型改三を三本装備させても良い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 四スロット艦で主魚電CIを撃つなら好ましい選択だ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: しかし、水雷戦隊 熟練見張員も強力な装備である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 近年のイベント環境では魚雷x2、水見x1を装備したうえで@1にソナーや煙幕を入れる運用が非常に強力でD型改三に比べ装備の汎用性という点では上回る。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 三式爆雷投射機改は他と比べればかなり見劣りする装備。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: 増設に入る爆雷投射機の中では最も高い対潜値を持つとはいえ二式爆雷と異なり爆雷の装甲減少補正を持たないため通常の三式爆雷投射機で十分なことも多い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 366:12.7cm連装砲D型改三
+
+- rawName: しかしながら2026年現在この任務以外では入手手段がランカー報酬のみであるため図鑑埋めを目指すならこれ一択となる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2D%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 367:Swordfish(水上機型)
+
+- rawName: 任務『改装航空軽巡「Gotland andra」、出撃！』選択報酬（×2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 367:Swordfish(水上機型)
+
+- rawName: 任務 イヤーリー(5月)『日英米合同水上艦隊、抜錨せよ！』選択報酬（×2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 367:Swordfish(水上機型)
+
+- rawName: 期間限定 任務『【春の期間限定任務】飛べ！下駄履きメカジキ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 367:Swordfish(水上機型)
+
+- rawName: 期間限定 任務『七周年任務【後段作戦】』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 367:Swordfish(水上機型)
+
+- rawName: 期間限定 任務『【期間限定任務】飛べ！世界の下駄履き機！』選択報酬（×2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 368:Swordfish Mk.III改(水上機型)
+
+- rawName: 任務『改装航空軽巡「Gotland andra」、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 368:Swordfish Mk.III改(水上機型)
+
+- rawName: 期間限定 任務『【春の期間限定任務】下駄履きメカジキの改修』報酬 (2020/3/27～6/26)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%29
+
+## operator-stop-reference 369:Swordfish Mk.III改(水上機型/熟練)
+
+- rawName: 2022年 新春限定 任務『2022年令和四年！「沖ノ島」防衛作戦、発動！』(選択報酬)(★+3) (2022/1/1～1/21)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Swordfish%20Mk.III%E6%94%B9%28%E6%B0%B4%E4%B8%8A%E6%A9%9F%E5%9E%8B%EF%BC%8F%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 371:Fairey Seafox改
+
+- rawName: 『「Gotland」戦隊、進撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Fairey%20Seafox%E6%94%B9
+
+## operator-stop-reference 372:天山一二型甲
+
+- rawName: 任務『新しき翼。改装航空母艦「龍鳳」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 372:天山一二型甲
+
+- rawName: 【工廠任務】新装備運用のための工廠整備【壱】選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 372:天山一二型甲
+
+- rawName: 新春限定 任務『新春！令和四年「精鋭水雷戦隊」出撃始め！』選択報酬 (×2) (2022/1/1～1/21)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 372:天山一二型甲
+
+- rawName: 新春限定 任務『謹賀新年！特務編成機動部隊、西へ！』選択報酬 (×3) (2022/1/1～1/21)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 372:天山一二型甲
+
+- rawName: 新春限定 任務『謹賀新年2026年！空母機動部隊、西へ！南北へ！』選択報酬 (★+4) (×2) (2026/01/01～2026/01/28)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2
+
+## operator-stop-reference 373:天山一二型甲改(空六号電探改装備機)
+
+- rawName: 任務『最精鋭「第一航空戦隊」、出撃！鎧袖一触！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 373:天山一二型甲改(空六号電探改装備機)
+
+- rawName: 任務『新しき翼。改装航空母艦「龍鳳」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 373:天山一二型甲改(空六号電探改装備機)
+
+- rawName: 期間限定 任務『新春任務群【拡張作戦】五航戦、迎春抜錨！』選択報酬 (★+3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%28%E7%A9%BA%E5%85%AD%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E8%A3%85%E5%82%99%E6%A9%9F%29
+
+## operator-stop-reference 376:533mm五連装魚雷(後期型)
+
+- rawName: 任務『合同艦隊旗艦、改装「Fletcher」、抜錨！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/533mm%E4%BA%94%E9%80%A3%E8%A3%85%E9%AD%9A%E9%9B%B7%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 377:RUR-4A Weapon Alpha改
+
+- rawName: 2020年 05月20日『改装護衛駆逐艦「Fletcher Mk.II」作戦開始！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/RUR-4A%20Weapon%20Alpha%E6%94%B9
+
+## operator-stop-reference 378:対潜短魚雷(試作初期型)
+
+- rawName: 任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%AF%BE%E6%BD%9C%E7%9F%AD%E9%AD%9A%E9%9B%B7%28%E8%A9%A6%E4%BD%9C%E5%88%9D%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 378:対潜短魚雷(試作初期型)
+
+- rawName: 「RUR-4A Weapon Alpha改」と共に任務報酬として同時実装された。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%AF%BE%E6%BD%9C%E7%9F%AD%E9%AD%9A%E9%9B%B7%28%E8%A9%A6%E4%BD%9C%E5%88%9D%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 379:12.7cm単装高角砲改二
+
+- rawName: 任務「「吹雪改三」抜錨します！見てくださいっ！」選択報酬 (★+6)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 379:12.7cm単装高角砲改二
+
+- rawName: 期間限定任務「【13周年記念任務】13周年観艦式」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 380:12.7cm連装高角砲改二
+
+- rawName: 任務「精鋭「第七駆逐隊」、出撃せよ！」報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 380:12.7cm連装高角砲改二
+
+- rawName: 任務「【工廠任務】水雷戦隊新改装艦、改装準備！」選択報酬(★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 382:12cm単装高角砲E型
+
+- rawName: イヤーリー(5月)任務『鵜来型海防艦、静かな海を防衛せよ！』選択報酬 (×3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B
+
+## operator-stop-reference 389:TBM-3W+3S
+
+- rawName: 任務『新鋭対潜哨戒航空戦力の導入』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3W%20%EF%BC%8B%203S
+
+## operator-stop-reference 389:TBM-3W+3S
+
+- rawName: 機種転換系の任務かつ入手手段の限られる装備の廃棄が絡む任務なので入念に確認して行いたい。
+流星または流星改どちらかを廃棄した時点で50%が点灯する模様。
+秘書艦の「加賀改二護」の第一スロットにロックを外したTBM-3Dをセットした状態で、先に「流星」か「流星改」を廃棄し「進行度50％表示」がつくことを確認すると良い。入手の難易度から、流星を先に廃棄するのが無難か。
+また入手した後は忘れずに本装備にロックを掛けなおすこと。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3W%20%EF%BC%8B%203S
+
+## operator-stop-reference 389:TBM-3W+3S
+
+- rawName: ※第一艦隊旗艦「加賀改二護」の第一スロに「TBM-3D(装備ロック解除済)」を搭載して指定装備を廃棄。(※「加賀改二/改二戊」では達成不可)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/TBM-3W%20%EF%BC%8B%203S
+
+## operator-stop-reference 391:九九式艦爆二二型
+
+- rawName: 任務 イヤーリー(6月)『空母機動部隊、出撃！敵艦隊を迎撃せよ！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B
+
+## operator-stop-reference 391:九九式艦爆二二型
+
+- rawName: 2022年 期間限定 九周年任務『【限定任務】艦隊九周年、抜錨せよ！』選択報酬 (x3)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B
+
+## operator-stop-reference 392:九九式艦爆二二型(熟練)
+
+- rawName: 2022年 期間限定 任務『【限定任務】艦隊九周年、抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B9%9D%E4%B9%9D%E5%BC%8F%E8%89%A6%E7%88%86%E4%BA%8C%E4%BA%8C%E5%9E%8B%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 395:深山
+
+- rawName: 2021年 12月 Xmas限定任務『【Xmas限定】聖夜の翼、出撃せよ！』選択報酬 (2021/12/28まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1
+
+## operator-stop-reference 395:深山
+
+- rawName: 2022年 12月 鎮守府年末任務『【年末年始】試製 鎮守府年末改修ジャンボ』選択報酬 (2023/01/20まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1
+
+## operator-stop-reference 395:深山
+
+- rawName: 2023年 12月 鎮守府年末任務『【年末年始】続:鎮守府年末改修ジャンボ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1
+
+## operator-stop-reference 395:深山
+
+- rawName: 2025年 09月 ハロウィン限定任務『【重南瓜祭り拡張任務】大きいの収穫すりゅ？』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1
+
+## operator-stop-reference 396:深山改
+
+- rawName: 2023年 12月 鎮守府年末任務『【期間限定任務】「連山」に連なる翼』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B7%B1%E5%B1%B1%E6%94%B9
+
+## operator-stop-reference 397:現地改装12.7cm連装高角砲
+
+- rawName: 任務『奇跡の駆逐艦「雪風」、再び出撃す！』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8512.7cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2
+
+## operator-stop-reference 398:現地改装10cm連装高角砲
+
+- rawName: 任務『奇跡の駆逐艦「雪風」、再び出撃す！』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%8F%BE%E5%9C%B0%E6%94%B9%E8%A3%8510cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2
+
+## operator-stop-reference 399:6inch Mk.XXIII三連装砲
+
+- rawName: 新春限定 任務『賀正！令和八年、精鋭巡洋艦戦隊、出撃始めッ！』選択報酬 (★+8) (×3) (2026/01/01～2026/01/28)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/6inch%20Mk.XXIII%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 401:Do 17 Z-2
+
+- rawName: 任務『西方連絡作戦による航空技術獲得』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Do%2017%20Z-2
+
+## operator-stop-reference 401:Do 17 Z-2
+
+- rawName: 2022年 期間限定 節分任務群『【節分任務】令和四年節分遠征任務』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Do%2017%20Z-2
+
+## operator-stop-reference 402:寒冷地装備&甲板要員
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【秋刀魚祭り拡張作戦】北方漁場防衛強化！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%AF%92%E5%86%B7%E5%9C%B0%E8%A3%85%E5%82%99%EF%BC%86%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 402:寒冷地装備&甲板要員
+
+- rawName: 2025年 北海道防衛作戦 作戦準備任務群『「第五艦隊」緊急出動用意ッ』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%AF%92%E5%86%B7%E5%9C%B0%E8%A3%85%E5%82%99%EF%BC%86%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 403:四式重爆 飛龍
+
+- rawName: 2021年 01月 期間限定任務『「新春任務群【拡張作戦】第一艦隊、出撃！」』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D
+
+## operator-stop-reference 403:四式重爆 飛龍
+
+- rawName: 2021年 01月【節分任務群】報酬の節分の豆と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D
+
+## operator-stop-reference 403:四式重爆 飛龍
+
+- rawName: 2022年 01月【節分任務群】報酬の節分の豆と交換(2つまで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D
+
+## operator-stop-reference 403:四式重爆 飛龍
+
+- rawName: 2024年 12月 期間限定任務『【拡張作戦】Xmas最終決戦、艦隊出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D
+
+## operator-stop-reference 404:四式重爆 飛龍(熟練)
+
+- rawName: 2023年 1月【節分任務群】節分の豆30個と交換
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 407:15.2cm連装砲改二
+
+- rawName: 任務『改装最新鋭軽巡「能代改二」、出撃せよ！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 407:15.2cm連装砲改二
+
+- rawName: 任務『二水戦旗艦、この「矢矧」が預かります！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 407:15.2cm連装砲改二
+
+- rawName: 任務『改装「矢矧」、精鋭水雷戦隊旗艦演習！』
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 408:装甲艇(AB艇)
+
+- rawName: 任務『上陸作戦支援用装備の配備』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29
+
+## operator-stop-reference 408:装甲艇(AB艇)
+
+- rawName: 任務の際、7.7mm機銃×2と大発動艇×2 に加えて「大発動艇(八九式中戦車＆陸戦隊)★max」を消費する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29
+
+## operator-stop-reference 408:装甲艇(AB艇)
+
+- rawName: 本装備は陸戦隊の単純な上位互換とは言えないので、陸戦隊の数に余裕がない場合は任務達成するかよく考えること。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29
+
+## operator-stop-reference 408:装甲艇(AB艇)
+
+- rawName: 2023年『【期間限定任務】10周年秋南瓜祭り拡張作戦！」』選択報酬 (★+4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A3%85%E7%94%B2%E8%89%87%28AB%E8%89%87%29
+
+## operator-stop-reference 410:21号対空電探改二
+
+- rawName: 2021年3月30日：任務『続：「最上型」改修工事を実施せよ！』確定報酬。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 411:42号対空電探改二
+
+- rawName: 任務『出撃：改金剛型高速戦艦「榛名改二乙/丙」、抜錨！』選択報酬(★+6)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 411:42号対空電探改二
+
+- rawName: 35.6cm連装砲改三(ダズル迷彩仕様)は他任務でも入手可。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 411:42号対空電探改二
+
+- rawName: 改修更新により作成可能ではあるがコストは重く、35.6cm連装砲改四入手のための任務でも消費される。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 411:42号対空電探改二
+
+- rawName: 一方の本装備は上記二通りの入手のみが現在では可能。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 411:42号対空電探改二
+
+- rawName: 霧島改二丙の初期装備実装に伴い、本装備はとりあえず1個で良いと判断するならば上記任務はダズル砲を選ぶ余地が広がる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/42%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: 任務『改装駆逐艦「天津風改二」、抜錨せよ！』の選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: 任務『「早霜改二」見ているだけでは…ありません！』の選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: 任務『三十二駆「玉波改二」、出撃いたします。』の選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: 12.7cm連装砲D型改三、三式爆雷投射機改との選択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: それぞれカットイン火力強化に繋がる主砲、2026年現在恒常入手手段がこの任務のみとなる補強増設へ搭載可能な爆雷投射機、と悩ましい選択。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 412:水雷戦隊 熟練見張員
+
+- rawName: 2021年 Xmas限定任務『【Xmas拡張作戦】Xmas最終作戦、発動！』(★無し) 選択報酬 (2021/12/28まで)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B0%B4%E9%9B%B7%E6%88%A6%E9%9A%8A%20%E7%86%9F%E7%B7%B4%E8%A6%8B%E5%BC%B5%E5%93%A1
+
+## operator-stop-reference 414:SOC Seagull
+
+- rawName: 2022年 任務 イヤーリー(5月)『日英米合同水上艦隊、抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SOC%20Seagull
+
+## operator-stop-reference 420:SB2C-3
+
+- rawName: イヤーリー(6月) 任務『空母機動部隊、出撃！敵艦隊を迎撃せよ！』の選択報酬として一応SBDを各２機ずつ入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SB2C-3
+
+## operator-stop-reference 420:SB2C-3
+
+- rawName: SBDとF4F-4はSaratoga改の、F6F-3はIntrepidの初期装備でもあるので、運よく拾えれば楽になる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SB2C-3
+
+## operator-stop-reference 420:SB2C-3
+
+- rawName: ただ、F6F-3や更新先のF6F-5を要求する改修や任務もあるため、こちらに使うかは要検討。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SB2C-3
+
+## operator-stop-reference 422:FR-1 Fireball
+
+- rawName: 任務『改装特務空母「Gambier Bay Mk.II」抜描！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/FR-1%20Fireball
+
+## operator-stop-reference 422:FR-1 Fireball
+
+- rawName: ちなみに選択の対抗は戦果+800と現状唯一の単発任務系の戦果砲になる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/FR-1%20Fireball
+
+## operator-stop-reference 422:FR-1 Fireball
+
+- rawName: (通称火の玉砲)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/FR-1%20Fireball
+
+## operator-stop-reference 424:Barracuda Mk.II
+
+- rawName: 2023年 期間限定任務『【Xmas拡張作戦I】Xmas特務艦、作戦開始！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Barracuda%20Mk.II
+
+## operator-stop-reference 424:Barracuda Mk.II
+
+- rawName: 2023年 期間限定任務『【Xmas拡張作戦II】Xmas最終決戦、発動！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Barracuda%20Mk.II
+
+## operator-stop-reference 426:305mm/46 連装砲
+
+- rawName: 任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 427:305mm/46 三連装砲
+
+- rawName: 任務
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/305mm%EF%BC%8F46%20%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 431:SM.79
+
+- rawName: 2024年『【拡張作戦】Xmas最終決戦、艦隊出撃せよ！』選択報酬 (x4)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SM.79
+
+## operator-stop-reference 436:大発動艇(II号戦車/北アフリカ仕様)
+
+- rawName: 2021年 夏イベント 期間限定 任務『【地中海拡張作戦】北アフリカ作戦』*6確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%28II%E5%8F%B7%E6%88%A6%E8%BB%8A%EF%BC%8F%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E4%BB%95%E6%A7%98%29
+
+## operator-stop-reference 438:三式水中探信儀改
+
+- rawName: 2021年 09月28日：任務『「山風改二」、抜錨せよ！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9
+
+## operator-stop-reference 438:三式水中探信儀改
+
+- rawName: 2021年 09月28日：任務『調整改良型「水中探信儀」の増産』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9
+
+## operator-stop-reference 438:三式水中探信儀改
+
+- rawName: 2023年 04月23日：期間限定 任務『【艦隊10周年記念任務】白露型駆逐艦、出撃！』選択報酬 (★+1) (2023/04/23～06/14)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%B0%B4%E4%B8%AD%E6%8E%A2%E4%BF%A1%E5%84%80%E6%94%B9
+
+## operator-stop-reference 439:Hedgehog(初期型)
+
+- rawName: 任務『【工廠任務】Hedgehogの配備』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Hedgehog%28%E5%88%9D%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 444:四式重爆 飛龍+イ号一型甲 誘導弾
+
+- rawName: 2023年 鎮守府秋刀魚祭り『【鎮守府秋刀魚祭り】北方漁場防衛作戦！』選択報酬（～11/28(火)11時のメンテナンスまで）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 446:二式複戦 屠龍 丙型
+
+- rawName: 2023年『【鎮守府秋刀魚祭り】秋刀魚塩焼き演習！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D%20%E4%B8%99%E5%9E%8B
+
+## operator-stop-reference 446:二式複戦 屠龍 丙型
+
+- rawName: 2024年『【拡張作戦】Xmas最終決戦、艦隊出撃せよ！』選択報酬 (x2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E8%A4%87%E6%88%A6%20%E5%B1%A0%E9%BE%8D%20%E4%B8%99%E5%9E%8B
+
+## operator-stop-reference 449:特大発動艇+一式砲戦車
+
+- rawName: 2022年 01月 新春限定 任務『謹賀新年！特務編成機動部隊、西へ！』選択報酬 (2022/01/01～01/21)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E4%B8%80%E5%BC%8F%E7%A0%B2%E6%88%A6%E8%BB%8A
+
+## operator-stop-reference 449:特大発動艇+一式砲戦車
+
+- rawName: 2023年 01月 新春限定 任務『令和五年謹賀新年、新春特務部隊、北へ！』選択報酬 (2023/01/01～01/20)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%89%B9%E5%A4%A7%E7%99%BA%E5%8B%95%E8%89%87%EF%BC%8B%E4%B8%80%E5%BC%8F%E7%A0%B2%E6%88%A6%E8%BB%8A
+
+## operator-stop-reference 450:13号対空電探改(後期型)
+
+- rawName: 任務『三十二駆「藤波改二」、鳥海を護衛せよ！』選択報酬 (★+3) x2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 450:13号対空電探改(後期型)
+
+- rawName: 任務『三十二駆「浜波改二」抜錨！敵中を突破せよ！』選択報酬 (★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13%E5%8F%B7%E5%AF%BE%E7%A9%BA%E9%9B%BB%E6%8E%A2%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 451:三式指揮連絡機改
+
+- rawName: 2024年 鎮守府秋刀魚祭り『【鎮守府秋刀魚祭り】秋刀魚塩焼き演習！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9
+
+## operator-stop-reference 452:キ96
+
+- rawName: 2023年 鎮守府秋刀魚祭り『秋刀魚漁：あら、今年も大漁ですか？よろしくてよ。』選択報酬★+4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AD96
+
+## operator-stop-reference 454:キ102乙改+イ号一型乙 誘導弾
+
+- rawName: 任務『「無線誘導弾」装備新型襲撃機の実戦配備』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E3%82%AD102%E4%B9%99%E6%94%B9%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E4%B9%99%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 455:試製 長12.7cm連装砲A型改四
+
+- rawName: 任務『第十六戦隊、改装「浦波改二」出撃します！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%95%B712.7cm%E9%80%A3%E8%A3%85%E7%A0%B2A%E5%9E%8B%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 459:B-25
+
+- rawName: 2023/12/26【年末年始任務】「【年末年始】続:鎮守府年末改修ジャンボ」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/B-25
+
+## operator-stop-reference 460:15m二重測距儀改+21号電探改二+熟練射撃指揮所
+
+- rawName: 任務『【拡張作戦】重改装「大和改二重」、出撃！』選択報酬*2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15m%E4%BA%8C%E9%87%8D%E6%B8%AC%E8%B7%9D%E5%84%80%E6%94%B9%EF%BC%8B21%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%BA%8C%EF%BC%8B%E7%86%9F%E7%B7%B4%E5%B0%84%E6%92%83%E6%8C%87%E6%8F%AE%E6%89%80
+
+## operator-stop-reference 463:15.5cm三連装副砲改二
+
+- rawName: 任務『改大和型戦艦「大和改二」、出撃せよ！』選択報酬 (★+2) x1
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 463:15.5cm三連装副砲改二
+
+- rawName: 任務『見敵必殺！最精鋭大和型「第一戦隊」抜錨！』選択報酬 (★+2) x2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.5cm%E4%B8%89%E9%80%A3%E8%A3%85%E5%89%AF%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 464:10cm連装高角砲群 集中配備
+
+- rawName: 任務『改大和型戦艦「大和改二」、出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 464:10cm連装高角砲群 集中配備
+
+- rawName: 任務『見敵必殺！最精鋭大和型「第一戦隊」抜錨！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 464:10cm連装高角砲群 集中配備
+
+- rawName: 任務『【拡張作戦】重改装「大和改二重」、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E7%BE%A4%20%E9%9B%86%E4%B8%AD%E9%85%8D%E5%82%99
+
+## operator-stop-reference 465:試製51cm三連装砲
+
+- rawName: 任務『【拡張作戦】重改装「大和改二重」、出撃！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD51cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 466:流星改(熟練)
+
+- rawName: 2022年 期間限定任務『【甲種任務】艦隊南瓜秋祭り、拡張作戦！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 466:流星改(熟練)
+
+- rawName: 2024年 期間限定任務『新春【拡張作戦】一航戦五航戦、新年協同作戦！』選択報酬 (★+2 ×2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 468:38cm四連装砲改 deux
+
+- rawName: 任務『【新鋭海外艦装備】新型四連装主砲の開発』報酬*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/38cm%E5%9B%9B%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%20deux
+
+## operator-stop-reference 469:零式水上偵察機11型乙改(夜偵)
+
+- rawName: 2022年7月13日、任務『【工廠任務】新夜偵の実戦配備』にて本実装。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29
+
+## operator-stop-reference 469:零式水上偵察機11型乙改(夜偵)
+
+- rawName: 前提任務として『精鋭三座水上偵察機隊の前線投入』『【工廠任務】新装備開発計画III』がある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29
+
+## operator-stop-reference 469:零式水上偵察機11型乙改(夜偵)
+
+- rawName: （つまり「零式水上偵察機11型乙★max」は実質2つ必要になる）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E4%B9%99%E6%94%B9%28%E5%A4%9C%E5%81%B5%29
+
+## operator-stop-reference 470:12.7cm連装砲C型改三
+
+- rawName: 任務『抜錨！精強「第十五駆逐隊」』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 470:12.7cm連装砲C型改三
+
+- rawName: 任務『改装白露型精鋭駆逐艦「時雨改三」出撃す！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 470:12.7cm連装砲C型改三
+
+- rawName: 期間限定任務『【艦隊10周年記念任務】白露型駆逐艦、出撃！』選択報酬 (2023/04/23～06/14)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 471:Loire 130M
+
+- rawName: 任務『【新鋭海外艦装備】新型四連装主砲の開発』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Loire%20130M
+
+## operator-stop-reference 472:Mk.32 対潜魚雷(Mk.2落射機)
+
+- rawName: 任務『不屈敢闘「Taffy Ⅲ」、Weigh anchor!』の確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29
+
+## operator-stop-reference 472:Mk.32 対潜魚雷(Mk.2落射機)
+
+- rawName: 2-3以外はどこも一筋縄ではいかないため、創意工夫が必要となる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29
+
+## operator-stop-reference 472:Mk.32 対潜魚雷(Mk.2落射機)
+
+- rawName: それ以前にTaffy IIIが揃ってないと任務解放すら到達できないのだが
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/Mk.32%20%E5%AF%BE%E6%BD%9C%E9%AD%9A%E9%9B%B7%28Mk.2%E8%90%BD%E5%B0%84%E6%A9%9F%29
+
+## operator-stop-reference 477:熟練甲板要員
+
+- rawName: 任務 (期間限定)『【甲種任務】艦隊南瓜秋祭り、拡張作戦！』選択報酬(2個)(2022年10月14日～)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 477:熟練甲板要員
+
+- rawName: 2025年 新春限定任務『新春【拡張作戦】精鋭日米空母、新年協同作戦！』選択報酬(2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 477:熟練甲板要員
+
+- rawName: 2026年 新春限定任務『新春【拡張作戦】精鋭日英米空母、新年協同作戦！』選択報酬(2個)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%86%9F%E7%B7%B4%E7%94%B2%E6%9D%BF%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 484:四式重爆 飛龍(熟練)+イ号一型甲 誘導弾
+
+- rawName: 2023年 鎮守府秋刀魚祭り『秋刀魚祭り【拡張任務】最精鋭「飛龍」飛行戦隊！』報酬(★+1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 484:四式重爆 飛龍(熟練)+イ号一型甲 誘導弾
+
+- rawName: 旗艦に山汐丸、熊野丸、朝日のいずれか、さらに「四式重爆 飛龍＋イ号一型甲 誘導弾」と「キ96（★+7以上）」、「秋刀魚」10尾、開発資材×35が必要。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 484:四式重爆 飛龍(熟練)+イ号一型甲 誘導弾
+
+- rawName: これに秋刀魚任務で手に入るキ96★+4を使う場合、★+7までの改修に二式複戦 屠龍×2や二式複戦 屠龍 丙型×1が必要である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 484:四式重爆 飛龍(熟練)+イ号一型甲 誘導弾
+
+- rawName: （必要分は秋刀魚関連の各任務で入手可能）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%9B%9B%E5%BC%8F%E9%87%8D%E7%88%86%20%E9%A3%9B%E9%BE%8D%28%E7%86%9F%E7%B7%B4%29%EF%BC%8B%E3%82%A4%E5%8F%B7%E4%B8%80%E5%9E%8B%E7%94%B2%20%E8%AA%98%E5%B0%8E%E5%BC%BE
+
+## operator-stop-reference 486:零式艦戦64型(制空戦闘機仕様)
+
+- rawName: 演習任務『第一線航空母艦「鳳翔改二」、演習開始！』（選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E5%88%B6%E7%A9%BA%E6%88%A6%E9%97%98%E6%A9%9F%E4%BB%95%E6%A7%98%29
+
+## operator-stop-reference 486:零式艦戦64型(制空戦闘機仕様)
+
+- rawName: 出撃任務『機動部隊旗艦「鳳翔改二」、前線に出撃せよ！』(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A664%E5%9E%8B%28%E5%88%B6%E7%A9%BA%E6%88%A6%E9%97%98%E6%A9%9F%E4%BB%95%E6%A7%98%29
+
+## operator-stop-reference 488:二式爆雷改二
+
+- rawName: 2023年 01月 期間限定 任務『【節分任務】令和五年節分遠征任務』選択報酬 (01/20～02/14)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%BA%8C%E5%BC%8F%E7%88%86%E9%9B%B7%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: 雲鷹もとい改造前の最初期形態である八幡丸は、単発任務『海上護衛！ヒ船団を護り抜け！』を達成することで入手できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: 夜間瑞雲を作成する際はこの1隻目は是非とも入手し育てておきたい。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: 掘り等で八幡丸複数隻入手する機会があれば幾つか牧場も検討したいほど。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: 上記の関連任務で『航空母艦「雲鷹」、抜錨せよ！』でも選択報酬で九七式艦攻改 試製三号戊型(空六号電探改装備機)を2個入手する機会もある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: ただこちらは対抗が「試製甲板カタパルト」であるため、特に後発ユーザーほど不足しがちな甲板カタパルトを選ぶべきであるため難しいところ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 490:試製 夜間瑞雲(攻撃装備)
+
+- rawName: 2023年02月14日実装『【早春限定任務】試製「夜間瑞雲」の開発』報酬*5
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E5%A4%9C%E9%96%93%E7%91%9E%E9%9B%B2%28%E6%94%BB%E6%92%83%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 496:陸軍歩兵部隊
+
+- rawName: 2025/06/27 任務『二等輸送艦の積極運用』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%99%B8%E8%BB%8D%E6%AD%A9%E5%85%B5%E9%83%A8%E9%9A%8A
+
+## operator-stop-reference 500:発煙装置(煙幕)
+
+- rawName: 任務『改装特I型駆逐艦「深雪改二」、出撃せよ！』選択報酬 (3個入手可)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%28%E7%85%99%E5%B9%95%29
+
+## operator-stop-reference 501:発煙装置改(煙幕)
+
+- rawName: 任務『艦載用「煙幕発生装置」の改良』報酬(★無し)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E7%99%BA%E7%85%99%E8%A3%85%E7%BD%AE%E6%94%B9%28%E7%85%99%E5%B9%95%29
+
+## operator-stop-reference 502:35.6cm連装砲改三(ダズル迷彩仕様)
+
+- rawName: 任務『演習：精鋭第三戦隊、演習開始！』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29
+
+## operator-stop-reference 502:35.6cm連装砲改三(ダズル迷彩仕様)
+
+- rawName: 任務『出撃：改金剛型高速戦艦「榛名改二乙/丙」、抜錨！』選択報酬(★+2)*4
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29
+
+## operator-stop-reference 503:35.6cm連装砲改四
+
+- rawName: 工廠任務『水上打撃戦用改良35.6cm砲の開発』(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 503:35.6cm連装砲改四
+
+- rawName: 任務達成の際に「★+3以上の35.6cm連装砲改三(ダズル迷彩仕様)」を消費する。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E5%9B%9B
+
+## operator-stop-reference 504:銀河(熟練)
+
+- rawName: 2024節分任務群の交換対象（節分の豆×32）※1機限定
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%8A%80%E6%B2%B3%28%E7%86%9F%E7%B7%B4%29
+
+## operator-stop-reference 505:25mm対空機銃増備
+
+- rawName: 2023年 6月14日任務『改装白露型精鋭駆逐艦「時雨改三」出撃す！』選択報酬(★+1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E5%AF%BE%E7%A9%BA%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99
+
+## operator-stop-reference 505:25mm対空機銃増備
+
+- rawName: 2023年 7月7日 任務『改装駆逐艦「天津風改二」、抜錨せよ！』選択報酬(★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E5%AF%BE%E7%A9%BA%E6%A9%9F%E9%8A%83%E5%A2%97%E5%82%99
+
+## operator-stop-reference 506:電探装備マスト(13号改+22号電探改四)
+
+- rawName: 任務『改装白露型精鋭駆逐艦「時雨改三」出撃す！』選択報酬(★+1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%E3%83%9E%E3%82%B9%E3%83%88%2813%E5%8F%B7%E6%94%B9%EF%BC%8B22%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%29
+
+## operator-stop-reference 509:12cm単装高角砲E型改
+
+- rawName: 任務『「八戸の盾「稲木改二」、抜錨ッ！』選択報酬 (★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12cm%E5%8D%98%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2E%E5%9E%8B%E6%94%B9
+
+## operator-stop-reference 512:21inch艦首魚雷発射管4門(後期型)
+
+- rawName: 任務『【潜水艦任務】潜水艦、戦闘哨戒！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/21inch%E8%89%A6%E9%A6%96%E9%AD%9A%E9%9B%B7%E7%99%BA%E5%B0%84%E7%AE%A14%E9%96%80%28%E5%BE%8C%E6%9C%9F%E5%9E%8B%29
+
+## operator-stop-reference 517:逆探(E27)+22号対水上電探改四(後期調整型)
+
+- rawName: 任務『逆探及び改良水上電探の実戦配備』確定報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 517:逆探(E27)+22号対水上電探改四(後期調整型)
+
+- rawName: 任務『三十二駆「藤波改二」、鳥海を護衛せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 517:逆探(E27)+22号対水上電探改四(後期調整型)
+
+- rawName: 任務『三十二駆「早波改二」、元気に出撃せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%80%86%E6%8E%A2%28E27%29%EF%BC%8B22%E5%8F%B7%E5%AF%BE%E6%B0%B4%E4%B8%8A%E9%9B%BB%E6%8E%A2%E6%94%B9%E5%9B%9B%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 518:14cm連装砲改二
+
+- rawName: 2023期間限定任務『【Xmas拡張作戦I】Xmas特務艦、作戦開始！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/14cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 519:SJレーダー+潜水艦司令塔装備
+
+- rawName: 任務『【潜水艦任務】潜水艦、戦闘哨戒！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SJ%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%8B%E6%BD%9C%E6%B0%B4%E8%89%A6%E5%8F%B8%E4%BB%A4%E5%A1%94%E8%A3%85%E5%82%99
+
+## operator-stop-reference 520:試製20.3cm(4号)連装砲
+
+- rawName: 任務『改装航空巡洋艦「三隈」、進発せよ！』選択報酬（★+2）*8
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 520:試製20.3cm(4号)連装砲
+
+- rawName: 2024年 鎮守府秋刀魚祭り『秋刀魚祭り【拡張任務二〇二四】フィナーレ！』確定報酬 (★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 520:試製20.3cm(4号)連装砲
+
+- rawName: 2025年 艦隊12周年記念『【艦隊12周年記念任務:拡張任務】特別工廠』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD20.3cm%284%E5%8F%B7%29%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 522:零式小型水上機
+
+- rawName: 任務『伊号潜水艦装備の拡充』選択報酬 (x2) 確定報酬 (x1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E5%B0%8F%E5%9E%8B%E6%B0%B4%E4%B8%8A%E6%A9%9F
+
+## operator-stop-reference 529:12.7cm連装砲C型改三H
+
+- rawName: 任務『夕立姉さん！今度は一緒について行きますっ！』確定報酬(★+2)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/12.7cm%E9%80%A3%E8%A3%85%E7%A0%B2C%E5%9E%8B%E6%94%B9%E4%B8%89H
+
+## operator-stop-reference 530:35.6cm連装砲改三丙
+
+- rawName: 工廠任務『「霧島改二丙」改装工廠任務』(確定報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%E4%B8%99
+
+## operator-stop-reference 530:35.6cm連装砲改三丙
+
+- rawName: 出撃任務『激闘！「第三艦隊」精鋭第二小隊！』(選択報酬)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/35.6cm%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%B8%89%E4%B8%99
+
+## operator-stop-reference 532:通信装置&要員
+
+- rawName: 任務『【艦隊通信能力の強化】通信要員の育成』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%80%9A%E4%BF%A1%E8%A3%85%E7%BD%AE%EF%BC%86%E8%A6%81%E5%93%A1
+
+## operator-stop-reference 533:10cm連装高角砲改+高射装置改
+
+- rawName: 任務『防空駆逐艦「初月改二」、推して参る！』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9
+
+## operator-stop-reference 533:10cm連装高角砲改+高射装置改
+
+- rawName: 任務『防空駆逐艦「秋月改二」、推参します！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9
+
+## operator-stop-reference 533:10cm連装高角砲改+高射装置改
+
+- rawName: 2025年11月10日実装 『秋刀魚祭り【拡張任務二〇二五】フィナーレ！』報酬 (★+2) *9
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9%EF%BC%8B%E9%AB%98%E5%B0%84%E8%A3%85%E7%BD%AE%E6%94%B9
+
+## operator-stop-reference 534:13.8cm連装砲
+
+- rawName: イヤーリー任務「フランス艦隊」演習！選択報酬 *6
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/13.8cm%E9%80%A3%E8%A3%85%E7%A0%B2
+
+## operator-stop-reference 536:15.2cm三連装主砲
+
+- rawName: イヤーリー任務「フランス艦隊」演習！選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/15.2cm%E4%B8%89%E9%80%A3%E8%A3%85%E4%B8%BB%E7%A0%B2
+
+## operator-stop-reference 540:零式水上偵察機11型甲改二
+
+- rawName: 任務『最新改修型三座水上偵察機の開発』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 540:零式水上偵察機11型甲改二
+
+- rawName: この任務の前座に『【工廠任務】新夜偵の実戦配備』がある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 540:零式水上偵察機11型甲改二
+
+- rawName: つまり零式水上偵察機11型乙★maxは本装備入手までに合計3機必要となる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E6%B0%B4%E4%B8%8A%E5%81%B5%E5%AF%9F%E6%A9%9F11%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 545:天山一二型甲改二(村田隊/電探装備)
+
+- rawName: 任務『最精鋭「天山」装備艦攻隊の配備』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 545:天山一二型甲改二(村田隊/電探装備)
+
+- rawName: 入手のための最大の壁は、夜間熟練搭乗員の恒常入手手段がない(2026年1月現在)という事だろう。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 545:天山一二型甲改二(村田隊/電探装備)
+
+- rawName: また、本任務出現の前提条件が『精鋭「一式陸攻」隊の編成』の達成となっておりこちらもハードルとなる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E5%A4%A9%E5%B1%B1%E4%B8%80%E4%BA%8C%E5%9E%8B%E7%94%B2%E6%94%B9%E4%BA%8C%28%E6%9D%91%E7%94%B0%E9%9A%8A%EF%BC%8F%E9%9B%BB%E6%8E%A2%E8%A3%85%E5%82%99%29
+
+## operator-stop-reference 546:試製 震電(局地戦闘機)
+
+- rawName: 2024年 鎮守府秋刀魚祭り『秋刀魚祭り【拡張任務二〇二四】フィナーレ！』確定報酬 (★+1)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29
+
+## operator-stop-reference 546:試製 震電(局地戦闘機)
+
+- rawName: 2025年 12周年記念任務群『【艦隊12周年記念任務:拡張任務】特別空技廠』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29
+
+## operator-stop-reference 546:試製 震電(局地戦闘機)
+
+- rawName: 2026年【節分任務群】「恵方震電」節分の豆x34, 開発資材x48と交換、★+2
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E9%9C%87%E9%9B%BB%28%E5%B1%80%E5%9C%B0%E6%88%A6%E9%97%98%E6%A9%9F%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: 任務『【工廠任務】試製震電の艦戦型改二への改修』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: 2026/02/13のアップデートで新任務として名前が挙がっているが、これは同時実装の飛龍改三を任務対象艦に追加したという意味であり、受けられるのは1回のみである*1。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: 入手には飛龍改二/改三だけでなく、前提任務も含め鳳翔改二/戦、藤波改二、早波改二および風雲改二、玉波改二、浜波改二、涼波改二の内何れか1隻が要求される。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: さらに前提任務でもっと必要な改二艦がいる可能性も当然ある。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: 試製 震電(局地戦闘機)は局地戦闘機だが、こちらは艦上戦闘機である。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 547:震電改二(艦戦型改二)
+
+- rawName: 空母系艦娘等に装備できる一方で、基地航空隊に配備した時の性能は局戦の方が圧倒的に上なので、特に基地航空隊の戦力に乏しい提督は、任務をこなすか否かを熟慮されたし。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%BA%8C%28%E8%89%A6%E6%88%A6%E5%9E%8B%E6%94%B9%E4%BA%8C%29
+
+## operator-stop-reference 548:震電改三(試製 噴式震電)
+
+- rawName: 任務『【工廠任務】震電の噴式推進化』報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29
+
+## operator-stop-reference 548:震電改三(試製 噴式震電)
+
+- rawName: ★maxは任務達成のための必要条件であり、当然ながら引き継がない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29
+
+## operator-stop-reference 548:震電改三(試製 噴式震電)
+
+- rawName: 更新であるため、震電改二(艦戦型改二)は任務達成後に失われる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29
+
+## operator-stop-reference 548:震電改三(試製 噴式震電)
+
+- rawName: 後述の通り特殊な装備であるため、任務をこなすか否かは慎重に判断したい。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9C%87%E9%9B%BB%E6%94%B9%E4%B8%89%28%E8%A9%A6%E8%A3%BD%20%E5%99%B4%E5%BC%8F%E9%9C%87%E9%9B%BB%29
+
+## operator-stop-reference 549:三式指揮連絡機改二
+
+- rawName: 2024年期間限定任務『秋刀魚祭り【拡張任務】新型陸軍対潜哨戒機配備！』報酬（★+1）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E6%8C%87%E6%8F%AE%E9%80%A3%E7%B5%A1%E6%A9%9F%E6%94%B9%E4%BA%8C
+
+## operator-stop-reference 550:試製 明星(増加試作機)
+
+- rawName: 2024年　年末年始限定任務『【年末年始】空技廠増加試作機祭り』確定報酬（★+2）選択報酬1（★なし）選択報酬2（★+4）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%20%E6%98%8E%E6%98%9F%28%E5%A2%97%E5%8A%A0%E8%A9%A6%E4%BD%9C%E6%A9%9F%29
+
+## operator-stop-reference 553:10cm連装高角砲改
+
+- rawName: 任務『精鋭十一駆「白雪改二」、抜錨します！』選択報酬(★+8)
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 553:10cm連装高角砲改
+
+- rawName: 任務『秋月型防空駆逐艦用兵装の拡充』選択報酬(★+5)２本
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/10cm%E9%80%A3%E8%A3%85%E9%AB%98%E8%A7%92%E7%A0%B2%E6%94%B9
+
+## operator-stop-reference 557:零式艦戦62型改(夜間爆戦)
+
+- rawName: 2025秋期間限定任務 「【限定拡張任務】南瓜祭り2025、拡張作戦！」選択報酬（★+3x2）
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E9%9B%B6%E5%BC%8F%E8%89%A6%E6%88%A662%E5%9E%8B%E6%94%B9%28%E5%A4%9C%E9%96%93%E7%88%86%E6%88%A6%29
+
+## operator-stop-reference 569:三式爆雷投射機改
+
+- rawName: 任務『三十二駆「玉波改二」、出撃いたします。』の選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E4%B8%89%E5%BC%8F%E7%88%86%E9%9B%B7%E6%8A%95%E5%B0%84%E6%A9%9F%E6%94%B9
+
+## operator-stop-reference 570:流星改(友永隊)
+
+- rawName: 同時実装された飛龍改三の初期装備で素体の天山一二型(友永隊)と餌の流星改(熟練)が各1つ。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 570:流星改(友永隊)
+
+- rawName: また、工廠任務『【工廠任務】新装備運用のための工廠整備【壱】』の選択報酬(天山一二型甲x4)がスタートアップの入手機会として同時実装されている。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 570:流星改(友永隊)
+
+- rawName: これらを使えば、別で流星改(熟練)を1つ用意することで上述の必要装備が1組分揃うので、最初の1つを作るだけであればかなり簡易化できる。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E6%B5%81%E6%98%9F%E6%94%B9%28%E5%8F%8B%E6%B0%B8%E9%9A%8A%29
+
+## operator-stop-reference 573:試製 23号電探改三
+
+- rawName: 任務「「吹雪改三」抜錨します！見てくださいっ！」選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/%E8%A9%A6%E8%A3%BD%2023%E5%8F%B7%E9%9B%BB%E6%8E%A2%E6%94%B9%E4%B8%89
+
+## operator-stop-reference 574:SCレーダー改(後期調整型)
+
+- rawName: こちらは吹雪改三や同艦を使用するイヤーリー任務で入手できるためまだ現実的だが、改修には22号対水上電探改四がいきなり要求され最低6個、改修後半は13号対空電探改が2個ずつ要求され最低8個、★+8で新型兵装資材が1個、★+9で工廠資源が1個要求され、更新時にはSKレーダーと工廠資源13個が必要と非常に重い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 574:SCレーダー改(後期調整型)
+
+- rawName: 消費するネジおよび釘も相応に重い。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 574:SCレーダー改(後期調整型)
+
+- rawName: また、消費する新型兵装資材はこちらの方が少ない。
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/SC%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E6%94%B9%28%E5%BE%8C%E6%9C%9F%E8%AA%BF%E6%95%B4%E5%9E%8B%29
+
+## operator-stop-reference 575:25mm連装機銃(熟練機銃員分隊)
+
+- rawName: 任務『「涼波改二」ラバウルより抜錨せよ！』選択報酬
+- linkTarget: None
+- acceptedShip: 
+- candidates: 
+- reason: quest-reference-unresolved
+- sourceUrl: https://wikiwiki.jp/kancolle/25mm%E9%80%A3%E8%A3%85%E6%A9%9F%E9%8A%83%28%E7%86%9F%E7%B7%B4%E6%A9%9F%E9%8A%83%E5%93%A1%E5%88%86%E9%9A%8A%29

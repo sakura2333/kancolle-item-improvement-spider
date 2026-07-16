@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-878325a5a9e7",
+  "candidateCommit": "0d0ab41ace92308f076bda53d0f6420b225607dd",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Approved immutable candidate. Candidate archive SHA-256 and all 157 manifest file identities match; public-content audit reports zero findings and a clean fresh checkout. The resolve-source job now checks out the workflow commit, sets up Python 3.10, and provides repository PYTHONPATH before invoking automation.compute.source_resolver. Workflow YAML parsing, repository-module checkout ordering, Python compileall, resolver behavior checks, and all 30 GitHub Action pipeline contract tests passed."
+}

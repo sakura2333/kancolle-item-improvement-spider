@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "temporary-npm-beta-artifact",
+  "preparedAt": "2026-07-11T03:24:23Z",
+  "package": "@sakura2333/kancolle-data",
+  "version": "0.5.2-beta",
+  "distTag": "beta",
+  "source": {
+    "path": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/packages/kancolle-data",
+    "version": "0.5.1",
+    "manifestSha256": "0381791864bc746f4dec27a08041679e9cef57780c321801823a4cfc9bd87779",
+    "generatedAt": "2026-07-10T10:44:21+00:00"
+  },
+  "staging": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/npm-beta/0.5.2-beta/package",
+  "tarball": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/npm-beta/0.5.2-beta/artifacts/sakura2333-kancolle-data-0.5.2-beta.tgz",
+  "tarballSha256": "b88765ee8c67dbb2c01f8206040c414d0e4e6ceb33ab1899f6f6ba9c373727a9",
+  "packageResult": "/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/dist/npm-beta/0.5.2-beta/artifacts/package-result.json",
+  "pack": {
+    "filename": "sakura2333-kancolle-data-0.5.2-beta.tgz",
+    "files": 404,
+    "unpackedSize": 19436810
+  },
+  "workspaceStatusPreserved": true
+}

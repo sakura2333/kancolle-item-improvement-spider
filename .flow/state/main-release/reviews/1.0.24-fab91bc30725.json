@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "result": "approved",
+  "candidateBranch": "public-candidate/1.0.24-fab91bc30725",
+  "candidateCommit": "c5477fde99c68190b2882827235cdc41d0848e6a",
+  "reviewedAreas": [
+    "public structure",
+    "documentation consistency",
+    "private or local information",
+    "README/schema/export consistency",
+    "public automation and workflow boundary"
+  ],
+  "blockingIssues": [],
+  "notes": "Candidate ZIP SHA-256 34f7c2ba62c8d5d56e8674bf3be97eb91942dcecc61e94fd79b0921e15c34a19. The archive contains exactly 153 unique files and exactly matches PUBLIC-CONTENT-MANIFEST.json. Its byte-level difference from the prior Stable Candidate is exactly the eight paths declared by the Review Delta: two workflows and six documentation/manifest files; runtime=0, automation=2, packageTemplate=0, documentation=6, retiredPublic=0, uncategorized=0. Data Build keeps repository-wide read-only permissions for resolve/build and grants contents:write only to the conditional Publish job. NPM_TOKEN is injected only into credential validation and frozen npm publication steps. Build and manual recovery share the kancolle-data-publication concurrency group. The immutable Candidate is verified and uploaded before publication; the Publish job re-downloads it, checks out its bound commit, verifies the Bundle, release set, and generated online state, then idempotently publishes/reconciles latest and improvement2 before force-with-lease updating online. If npm advances without online, the next Build stops version planning and directs recovery to the previously uploaded Candidate. The source-acquire workflow and all Source Bundle/compute code are byte-identical to the previous Stable Candidate, so the existing successful 1033 Source Bundle remains compatible. No unsafe archive paths, duplicate entries, symlinks, worktree metadata, local absolute paths, credentials, private network addresses, or internal Flow control-plane references were found. Public Python compilation and workflow YAML parsing passed."
+}

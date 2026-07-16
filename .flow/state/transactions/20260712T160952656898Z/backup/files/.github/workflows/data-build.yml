@@ -1,0 +1,651 @@
+name: Build Data Candidate
+
+on:
+  schedule:
+    # 15:17 JST / 14:17 China Standard Time: CPU-only build runs 12 hours after acquisition.
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'Optional successful Acquire run ID; empty uses the latest ready snapshot'
+        required: false
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: kancolle-data-publication
+  cancel-in-progress: false
+
+jobs:
+  resolve-source:
+    runs-on: ubuntu-latest
+    outputs:
+      run_id: ${{ steps.resolve.outputs.run_id }}
+      skip: ${{ steps.resolve.outputs.skip }}
+      reason: ${{ steps.resolve.outputs.reason }}
+    steps:
+      - name: Wait for global source-acquire lock and resolve ready snapshot
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          repository = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          requested = os.environ.get("REQUESTED_RUN_ID", "").strip()
+          url = (
+              f"https://api.github.com/repos/{repository}/actions/workflows/"
+              "source-acquire.yml/runs?branch=main&per_page=20"
+          )
+
+          def load_runs():
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response).get("workflow_runs") or []
+
+          runs = []
+          for attempt in range(21):
+              runs = load_runs()
+              active = [run for run in runs if run.get("status") != "completed"]
+              if not active:
+                  break
+              if attempt == 20:
+                  with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                      output.write("run_id=\n")
+                      output.write("skip=true\n")
+                      output.write("reason=source-acquire-lock-timeout\n")
+                  raise SystemExit(0)
+              time.sleep(15)
+
+          successful = [
+              run for run in runs
+              if run.get("status") == "completed" and run.get("conclusion") == "success"
+          ]
+          if requested:
+              selected = next(
+                  (run for run in successful if str(run.get("id")) == requested),
+                  None,
+              )
+              if selected is None:
+                  raise SystemExit(
+                      "requested source_run_id is not a recent successful main run of source-acquire.yml"
+                  )
+              run_id = requested
+          else:
+              run_id = str(successful[0]["id"]) if successful else ""
+
+          skip = not bool(run_id)
+          reason = "no-ready-source-snapshot" if skip else "ready"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"run_id={run_id}\n")
+              output.write(f"skip={str(skip).lower()}\n")
+              output.write(f"reason={reason}\n")
+          PY
+
+      - name: Record deferred build
+        if: steps.resolve.outputs.skip == 'true'
+        run: |
+          printf 'Build deferred: %s. The next daily run will retry.\n' '${{ steps.resolve.outputs.reason }}' \
+            >> "$GITHUB_STEP_SUMMARY"
+
+  build:
+    needs: resolve-source
+    if: needs.resolve-source.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      should_publish: ${{ steps.plan.outputs.should_publish }}
+    timeout-minutes: 120
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+      SOURCE_RUN_ID: ${{ needs.resolve-source.outputs.run_id }}
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen source bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-source-bundle
+          path: ${{ runner.temp }}/source-bundle
+          run-id: ${{ env.SOURCE_RUN_ID }}
+          github-token: ${{ github.token }}
+
+      - name: Checkout source bundle commit
+        run: |
+          set -euo pipefail
+          SOURCE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/source-bundle/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$SOURCE_COMMIT"
+
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked build environment
+        run: mise exec -- uv sync --locked
+
+      - name: Load previous online baseline
+        id: baseline
+        run: |
+          set -euo pipefail
+          BASELINE="$RUNNER_TEMP/kancolle-data-baseline.json"
+          ONLINE_MANIFEST="$RUNNER_TEMP/online-package-manifest.json"
+          if git fetch --no-tags origin refs/heads/online:refs/remotes/origin/online 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' 2>/dev/null \
+            && git cat-file -e 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' 2>/dev/null; then
+            git show 'refs/remotes/origin/online:.generated-state/reports/verification-report.json' > "$BASELINE"
+            git show 'refs/remotes/origin/online:dist/packages/kancolle-data/manifest.json' > "$ONLINE_MANIFEST"
+            for RELEASE_FILE in CHANGELOG.md RELEASES.json; do
+              if git cat-file -e "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" 2>/dev/null; then
+                git show "refs/remotes/origin/online:dist/packages/kancolle-data/$RELEASE_FILE" \
+                  > "packages/kancolle-data/$RELEASE_FILE"
+              fi
+            done
+            ONLINE_VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["packageVersion"])' "$ONLINE_MANIFEST")"
+            mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$ONLINE_VERSION"
+            echo "version=$ONLINE_VERSION" >> "$GITHUB_OUTPUT"
+          else
+            cat > "$BASELINE" <<'JSON'
+          {
+            "schemaVersion": 1,
+            "contentDigest": null,
+            "metrics": {},
+            "files": {}
+          }
+          JSON
+            echo "version=" >> "$GITHUB_OUTPUT"
+          fi
+          echo "path=$BASELINE" >> "$GITHUB_OUTPUT"
+
+      - name: Build from frozen source bundle
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.compute.cli prepare \
+            --source-bundle "$RUNNER_TEMP/source-bundle"
+
+      - name: Validate data quality and detect changes
+        id: quality
+        run: |
+          set -euo pipefail
+          CURRENT="$RUNNER_TEMP/kancolle-data-current.json"
+          RESULT="$RUNNER_TEMP/kancolle-data-validation.json"
+          mise exec -- uv run --locked python -m service.data_package.validation.cli validate \
+            --baseline '${{ steps.baseline.outputs.path }}' \
+            --output "$CURRENT" > "$RESULT"
+          CHANGED="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["changed"]).lower())' "$RESULT")"
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "snapshot=$CURRENT" >> "$GITHUB_OUTPUT"
+
+      - name: Read npm registry state
+        id: registry
+        env:
+          DATA_CHANGED: ${{ steps.quality.outputs.changed }}
+        run: |
+          set -euo pipefail
+          PACKAGE_NAME="$(node -p "require('./packages/kancolle-data/package.json').name")"
+          VERSIONS="$RUNNER_TEMP/npm-published-versions.json"
+          HEAD="$RUNNER_TEMP/npm-registry-head.json"
+          PACK_DIR="$RUNNER_TEMP/npm-registry-head-package"
+          rm -rf "$PACK_DIR"
+          mkdir -p "$PACK_DIR"
+          export PACKAGE_NAME VERSIONS HEAD PACK_DIR
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          import subprocess
+          import tarfile
+          import time
+          from pathlib import Path
+
+          stable = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+          digest_pattern = re.compile(r"^[0-9a-f]{64}$")
+          package = os.environ["PACKAGE_NAME"]
+          versions_path = Path(os.environ["VERSIONS"])
+          head_path = Path(os.environ["HEAD"])
+          pack_dir = Path(os.environ["PACK_DIR"]).resolve()
+          data_changed = os.environ.get("DATA_CHANGED", "").strip().lower() == "true"
+
+          def npm_json(*args):
+              completed = subprocess.run(
+                  ["npm", *args],
+                  text=True,
+                  capture_output=True,
+                  check=False,
+              )
+              combined = "\n".join(
+                  part.strip() for part in (completed.stdout, completed.stderr) if part.strip()
+              )
+              if completed.returncode:
+                  if "E404" in combined or "404 Not Found" in combined:
+                      return None
+                  raise SystemExit(combined or f"npm {' '.join(args)} failed")
+              try:
+                  return json.loads(completed.stdout)
+              except json.JSONDecodeError as exc:
+                  raise SystemExit(f"npm {' '.join(args)} returned invalid JSON: {exc}") from exc
+
+          observed = set()
+          tags = {}
+          for attempt in range(3):
+              payload = npm_json("view", package, "versions", "--json")
+              if isinstance(payload, str):
+                  observed.add(payload)
+              elif isinstance(payload, list):
+                  observed.update(str(value) for value in payload)
+              elif payload is not None:
+                  raise SystemExit("npm registry versions response must be a string or JSON array")
+
+              tag_payload = npm_json("view", package, "dist-tags", "--json")
+              if isinstance(tag_payload, dict):
+                  tags.update({str(key): str(value) for key, value in tag_payload.items()})
+              elif tag_payload is not None:
+                  raise SystemExit("npm registry dist-tags response must be a JSON object")
+              if attempt < 2:
+                  time.sleep(5)
+
+          versions_path.write_text(
+              json.dumps(sorted(observed), ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          stable_versions = []
+          for raw in observed | {tags.get("latest", "")}:
+              match = stable.fullmatch(str(raw).strip())
+              if match:
+                  stable_versions.append((tuple(int(part) for part in match.groups()), str(raw).strip()))
+          head = {"version": None, "contentDigest": None, "distTagLatest": tags.get("latest")}
+          if stable_versions:
+              _, version = max(stable_versions)
+              head["version"] = version
+
+              if data_changed:
+                  completed = subprocess.run(
+                      [
+                          "npm",
+                          "pack",
+                          f"{package}@{version}",
+                          "--ignore-scripts",
+                          "--json",
+                          "--pack-destination",
+                          str(pack_dir),
+                      ],
+                      text=True,
+                      capture_output=True,
+                      check=False,
+                  )
+                  combined = "\n".join(
+                      part.strip() for part in (completed.stdout, completed.stderr) if part.strip()
+                  )
+                  if completed.returncode:
+                      raise SystemExit(combined or f"npm pack {package}@{version} failed")
+                  try:
+                      packed = json.loads(completed.stdout)
+                      filename = str(packed[0]["filename"])
+                  except (json.JSONDecodeError, IndexError, KeyError, TypeError) as exc:
+                      raise SystemExit(f"npm pack returned invalid JSON: {exc}") from exc
+                  tarball = Path(filename)
+                  if not tarball.is_absolute():
+                      tarball = pack_dir / tarball
+                  tarball = tarball.resolve()
+                  if tarball.parent != pack_dir or not tarball.is_file() or tarball.is_symlink():
+                      raise SystemExit("npm pack produced an unsafe or missing tarball")
+
+                  with tarfile.open(tarball, "r:gz") as archive:
+                      package_stream = archive.extractfile("package/package.json")
+                      releases_stream = archive.extractfile("package/RELEASES.json")
+                      if package_stream is None or releases_stream is None:
+                          raise SystemExit("published npm package lacks package.json or RELEASES.json")
+                      package_json = json.loads(package_stream.read().decode("utf-8"))
+                      releases = json.loads(releases_stream.read().decode("utf-8"))
+                  if package_json.get("name") != package or package_json.get("version") != version:
+                      raise SystemExit("published npm package identity does not match registry head")
+                  if not isinstance(releases, list):
+                      raise SystemExit("published RELEASES.json must contain an array")
+                  entry = next(
+                      (item for item in releases if isinstance(item, dict) and item.get("version") == version),
+                      None,
+                  )
+                  digest = str((entry or {}).get("contentDigest") or "").strip().lower()
+                  if not digest_pattern.fullmatch(digest):
+                      raise SystemExit(
+                          f"published npm registry head {version} lacks a valid consumer contentDigest"
+                      )
+                  sha256 = hashlib.sha256()
+                  with tarball.open("rb") as stream:
+                      for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                          sha256.update(chunk)
+                  head.update({"contentDigest": digest, "tarballSha256": sha256.hexdigest()})
+
+          head_path.write_text(
+              json.dumps(head, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+          echo "path=$VERSIONS" >> "$GITHUB_OUTPUT"
+          echo "head=$HEAD" >> "$GITHUB_OUTPUT"
+
+      - name: Guard publication reconciliation
+        env:
+          DATA_CHANGED: ${{ steps.quality.outputs.changed }}
+          CURRENT_SNAPSHOT: ${{ steps.quality.outputs.snapshot }}
+          ONLINE_SNAPSHOT: ${{ steps.baseline.outputs.path }}
+          ONLINE_VERSION: ${{ steps.baseline.outputs.version }}
+          REGISTRY_HEAD_PATH: ${{ steps.registry.outputs.head }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+
+          stable = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+          digest_pattern = re.compile(r"^[0-9a-f]{64}$")
+
+          current = json.load(open(os.environ["CURRENT_SNAPSHOT"], encoding="utf-8"))
+          online = json.load(open(os.environ["ONLINE_SNAPSHOT"], encoding="utf-8"))
+          head = json.load(open(os.environ["REGISTRY_HEAD_PATH"], encoding="utf-8"))
+          changed = os.environ.get("DATA_CHANGED", "").strip().lower() == "true"
+          current_digest = str(current.get("contentDigest") or "").strip().lower()
+          online_digest = str(online.get("contentDigest") or "").strip().lower()
+          online_version = os.environ.get("ONLINE_VERSION", "").strip()
+          head_version = str(head.get("version") or "").strip()
+          head_digest = str(head.get("contentDigest") or "").strip().lower()
+
+          if not digest_pattern.fullmatch(current_digest):
+              raise SystemExit("current verification snapshot lacks a valid consumer contentDigest")
+          if online_digest and not digest_pattern.fullmatch(online_digest):
+              raise SystemExit("online verification snapshot has an invalid consumer contentDigest")
+          if head_digest and not digest_pattern.fullmatch(head_digest):
+              raise SystemExit("npm registry head has an invalid consumer contentDigest")
+          if changed and head_version and not head_digest:
+              raise SystemExit("cannot plan a changed data release without the npm registry-head contentDigest")
+
+          online_tuple = None
+          if online_version:
+              match = stable.fullmatch(online_version)
+              if match is None:
+                  raise SystemExit(f"online package version is not stable SemVer: {online_version!r}")
+              online_tuple = tuple(int(part) for part in match.groups())
+          head_tuple = None
+          if head_version:
+              match = stable.fullmatch(head_version)
+              if match is None:
+                  raise SystemExit(f"npm registry-head version is not stable SemVer: {head_version!r}")
+              head_tuple = tuple(int(part) for part in match.groups())
+
+          if head_tuple is not None and online_tuple is None:
+              raise SystemExit(
+                  "npm already contains a stable data version but online state is missing; "
+                  "recover or bootstrap online explicitly before creating another version"
+              )
+          if head_tuple is not None and online_tuple is not None and head_tuple < online_tuple:
+              raise SystemExit("online state is ahead of the npm registry head; publication state is inconsistent")
+
+          if head_digest == current_digest:
+              if online_version == head_version and online_digest == current_digest:
+                  if changed:
+                      raise SystemExit(
+                          "change detection disagrees with the already reconciled npm and online consumer digest"
+                      )
+              else:
+                  raise SystemExit(
+                      f"current consumer data is already published as {head_version}; "
+                      "run Release Data Candidate for the previously uploaded Build Candidate "
+                      "to reconcile online instead of allocating another version"
+                  )
+
+          if head_tuple is not None and online_tuple is not None and head_tuple > online_tuple:
+              raise SystemExit(
+                  "npm publication is ahead of online state; run Release Data Candidate "
+                  "for the previously uploaded Build Candidate before creating another version"
+              )
+          if (
+              head_version
+              and online_version == head_version
+              and head_digest
+              and online_digest
+              and head_digest != online_digest
+          ):
+              raise SystemExit("npm registry-head consumer digest disagrees with online state")
+          PY
+
+      - name: Plan package version
+        id: plan
+        run: |
+          set -euo pipefail
+          PLAN="$RUNNER_TEMP/npm-version-plan.json"
+          mise exec -- uv run --locked python -m service.data_package.cli plan-version \
+            --mode scheduled \
+            --published-versions '${{ steps.registry.outputs.path }}' \
+            --data-changed '${{ steps.quality.outputs.changed }}' \
+            --output "$PLAN" >/dev/null
+          python3 - "$PLAN" '${{ steps.quality.outputs.snapshot }}' '${{ steps.registry.outputs.head }}' '${{ steps.baseline.outputs.path }}' '${{ steps.baseline.outputs.version }}' <<'PY'
+          import json
+          import sys
+
+          plan_path, current_path, head_path, online_path, online_version = sys.argv[1:]
+          plan = json.load(open(plan_path, encoding="utf-8"))
+          current = json.load(open(current_path, encoding="utf-8"))
+          head = json.load(open(head_path, encoding="utf-8"))
+          online = json.load(open(online_path, encoding="utf-8"))
+          plan["consumerContentDigest"] = current.get("contentDigest")
+          plan["registryHead"] = head
+          plan["onlineBaseline"] = {
+              "version": online_version or None,
+              "contentDigest": online.get("contentDigest"),
+          }
+          with open(plan_path, "w", encoding="utf-8") as output:
+              json.dump(plan, output, ensure_ascii=False, indent=2)
+              output.write("\n")
+          PY
+          SHOULD_PUBLISH="$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$PLAN")"
+          VERSION="$(mise exec -- uv run --locked python -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["version"] or "")' "$PLAN")"
+          echo "should_publish=$SHOULD_PUBLISH" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "path=$PLAN" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare frozen release projection
+        if: steps.plan.outputs.should_publish == 'true'
+        run: |
+          set -euo pipefail
+          VERSION='${{ steps.plan.outputs.version }}'
+          mise exec -- uv run --locked python -m service.data_package.cli set-version --version "$VERSION"
+          mise exec -- uv run --locked python -m service.data_package.cli finalize-release \
+            --version "$VERSION" \
+            --snapshot '${{ steps.quality.outputs.snapshot }}' >/dev/null
+          mise exec -- uv run --locked python -m service.data_package.cli refresh-manifest >/dev/null
+          mise exec -- uv run --locked python -m automation.release.npm_release_set build \
+            --package-dir dist/packages/kancolle-data \
+            --output "$RUNNER_TEMP/npm-release-set"
+          mise exec -- uv run --locked python - '${{ steps.quality.outputs.snapshot }}' "$RUNNER_TEMP/online-state" <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+          from automation.release.generated_state import export_generated_state
+
+          commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          result = export_generated_state(
+              output_dir=Path(sys.argv[2]),
+              base_ref="main",
+              base_commit=commit,
+              verification_report=Path(sys.argv[1]),
+              replace=True,
+          )
+          print(json.dumps(result, ensure_ascii=False))
+          PY
+
+      - name: Freeze immutable build candidate
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ steps.plan.outputs.should_publish }}' = 'true' ]; then
+            EXTRA+=(--npm-release-set "$RUNNER_TEMP/npm-release-set")
+            EXTRA+=(--online-state "$RUNNER_TEMP/online-state")
+          fi
+          mise exec -- uv run --locked python -m automation.compute.cli freeze \
+            --source-bundle "$RUNNER_TEMP/source-bundle" \
+            --release-plan '${{ steps.plan.outputs.path }}' \
+            --verification-report '${{ steps.quality.outputs.snapshot }}' \
+            --output "$RUNNER_TEMP/build-candidate" \
+            "${EXTRA[@]}"
+
+      - name: Verify frozen build candidate
+        run: |
+          set -euo pipefail
+          CANDIDATE="$RUNNER_TEMP/build-candidate"
+          mise exec -- uv run --locked python -m automation.release.cli --candidate "$CANDIDATE"
+
+      - name: Upload build candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Record unchanged consumer data
+        if: steps.plan.outputs.should_publish != 'true'
+        run: |
+          printf 'Consumer data is unchanged; no npm or online publication was required.\n' \
+            >> "$GITHUB_STEP_SUMMARY"
+
+
+  publish:
+    needs: build
+    if: needs.build.outputs.should_publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: read
+      contents: write
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+    steps:
+      - name: Checkout public main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download frozen build candidate
+        uses: actions/download-artifact@v4
+        with:
+          name: kancolle-build-candidate
+          path: ${{ runner.temp }}/build-candidate
+
+      - name: Checkout candidate commit
+        run: |
+          set -euo pipefail
+          CANDIDATE_COMMIT="$(python3 -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/build-candidate/bundle-manifest.json", encoding="utf-8"))["commit"])')"
+          git checkout --detach "$CANDIDATE_COMMIT"
+
+      - name: Setup mise tools
+        uses: jdx/mise-action@v4.2.0
+        with:
+          cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
+
+      - name: Sync locked release environment
+        run: mise exec -- uv sync --locked
+
+      - name: Verify frozen candidate and release set
+        run: |
+          set -euo pipefail
+          CANDIDATE="$RUNNER_TEMP/build-candidate"
+          mise exec -- uv run --locked python -m automation.release.cli --candidate "$CANDIDATE"
+          test "$(mise exec -- uv run --locked python -c 'import json,sys; print(str(json.load(open(sys.argv[1], encoding="utf-8"))["shouldPublish"]).lower())' "$CANDIDATE/release-plan.json")" = true
+          mise exec -- uv run --locked python -m automation.release.npm_release_set verify \
+            "$CANDIDATE/npm-release-set/release-set.json"
+          mise exec -- uv run --locked python -c 'from pathlib import Path; from automation.release.generated_state import verify_generated_state; verify_generated_state(Path("'"$CANDIDATE"'/online-state"))'
+
+      - name: Validate npm credentials
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "${NODE_AUTH_TOKEN:-}" || {
+            echo 'Repository secret NPM_TOKEN is required before automatic data publishing.' >&2
+            exit 1
+          }
+
+      - name: Publish or reconcile frozen npm variants
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euo pipefail
+          mise exec -- uv run --locked python -m automation.release.npm_publish \
+            "$RUNNER_TEMP/build-candidate/npm-release-set/release-set.json" \
+            --audit-dir "$RUNNER_TEMP/npm-publish-audit"
+
+      - name: Upload npm publication audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kancolle-npm-publish-audit
+          path: ${{ runner.temp }}/npm-publish-audit
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Push frozen online state
+        run: |
+          set -euo pipefail
+          STATE_DIR="$RUNNER_TEMP/build-candidate/online-state"
+          INDEX="$RUNNER_TEMP/online-state.index"
+          rm -f "$INDEX"
+          export GIT_INDEX_FILE="$INDEX"
+          git read-tree --empty
+          git --work-tree="$STATE_DIR" add -A
+          TREE="$(git write-tree)"
+          VERSION="$(mise exec -- uv run --locked python -c 'import json; print(json.load(open("'"$RUNNER_TEMP"'/build-candidate/dist/packages/kancolle-data/package.json", encoding="utf-8"))["version"])')"
+          REMOTE_SHA="$(git ls-remote --heads origin refs/heads/online | awk '{print $1}')"
+          PARENT=()
+          if [ -n "$REMOTE_SHA" ]; then
+            PARENT=(-p "$REMOTE_SHA")
+          fi
+          COMMIT="$(printf 'Publish generated data %s\n' "$VERSION" | \
+            GIT_AUTHOR_NAME='github-actions[bot]' \
+            GIT_AUTHOR_EMAIL='41898282+github-actions[bot]@users.noreply.github.com' \
+            GIT_COMMITTER_NAME='github-actions[bot]' \
+            GIT_COMMITTER_EMAIL='41898282+github-actions[bot]@users.noreply.github.com' \
+            git commit-tree "$TREE" "${PARENT[@]}")"
+          git push "--force-with-lease=refs/heads/online:${REMOTE_SHA}" \
+            origin "$COMMIT:refs/heads/online"
+          printf 'Published @sakura2333/kancolle-data@%s and updated online.\n' "$VERSION" \
+            >> "$GITHUB_STEP_SUMMARY"

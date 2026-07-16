@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "akashi-list": {
+      "role": "canonical-required",
+      "datasets": [
+        "improvement"
+      ],
+      "strictRequired": true,
+      "capabilities": [
+        "improve",
+        "upgrade"
+      ]
+    },
+    "wikiwiki-jp": {
+      "role": "validation-required-for-stable",
+      "datasets": [
+        "improvement-validation"
+      ],
+      "strictRequired": true,
+      "capabilities": [
+        "improve"
+      ]
+    },
+    "kcwiki-data": {
+      "role": "dataset-and-validation-required",
+      "datasets": [
+        "equipment-drop-from",
+        "improvement-validation"
+      ],
+      "strictRequired": true,
+      "capabilities": [
+        "improve"
+      ]
+    },
+    "kc3-slotitem-bonus": {
+      "role": "dataset-required",
+      "datasets": [
+        "equipment-special-bonuses"
+      ],
+      "strictRequired": true,
+      "capabilities": [
+        "special-bonus"
+      ]
+    },
+    "start2": {
+      "role": "catalog-required",
+      "datasets": [
+        "item-catalog",
+        "ship-catalog",
+        "useitem-catalog"
+      ],
+      "strictRequired": true,
+      "capabilities": [
+        "catalog"
+      ]
+    }
+  },
+  "election": {
+    "mode": "dataset-authority-not-majority-vote",
+    "canonicalImprovement": "akashi-list",
+    "validationNeverAutoOverwritesCanonical": true,
+    "unsupportedCapabilitiesExcludedFromMissing": true
+  },
+  "reliability": {
+    "mode": "advisory-relative-consistency",
+    "historyMode": "one-time-baseline-then-incremental-events",
+    "applyToCanonicalElection": false,
+    "missingCoverageIsNotFalsehood": true
+  }
+}

@@ -1,0 +1,9 @@
+$ /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.venv/bin/python3 tools/wikiwiki-crawler/crawler.py --project /Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider catalog --start2 dist/data-pipeline/start2_data/api_mst_slotitem.json --kind all --refresh
+[catalog:equipment] role=locator-index entries=572 ambiguous=0 fallbackUrls=23 source=network
+[catalog:equipment] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/equipment-pages.json
+[catalog:equipment] nameMatches resolved=570 ambiguous=0 unresolved=0 excluded=1 invalid=0
+[catalog:ship] role=locator-index entries=597 ambiguous=0 fallbackUrls=88 source=network
+[catalog:ship] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/ship-pages.json
+[catalog:improvement] role=validation-index bytes=1401744 tables=37 source=network
+[catalog:improvement] output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/catalog/improvement-pages.json
+[source-receipt] ready=false output=/Users/sakana/code/personal/kancolle/kancolle-item-improvement-spider/.flow/local/wikiwiki-crawler/source-receipt.json

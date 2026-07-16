@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "policy": "mechanical-public-boundary",
+  "scannedTextFiles": 152,
+  "forbiddenTokens": [
+    "./flow",
+    "script/project",
+    ".flow/state",
+    "docs/internal",
+    "AGENTS.md",
+    "Flow Lite",
+    "tools/wikiwiki-crawler/migrate_existing_html.py"
+  ],
+  "moduleReferenceCount": 18,
+  "pathReferenceCount": 36,
+  "findingCount": 0
+}

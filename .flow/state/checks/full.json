@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "profile": "full",
+  "commit": "b9d070d872fac7d705b4fcad49b5759fc90e1637",
+  "tree": "e993cf04700d2268dc6113f4ede3bc68dba43ad9",
+  "contentIdentity": {
+    "scheme": "flow-content-sha256",
+    "value": "244b966a69b36ff238e718717c87f784c0946797a66487067fec0645763364d4"
+  },
+  "contentHash": "sha256:244b966a69b36ff238e718717c87f784c0946797a66487067fec0645763364d4",
+  "lockHash": "sha256:84c046fcffce8aac3c7267fd294fcb0f7ec37e8436a5e9902884bc6671037ba3",
+  "generatedAt": "2026-07-15T12:08:58.434533+00:00",
+  "python": [
+    3,
+    14
+  ],
+  "uv": "0.11.28",
+  "dependencies": {
+    "jaconv": "0.5.0",
+    "lxml": "6.0.2",
+    "pillow": "12.3.0",
+    "playwright": "1.61.0",
+    "requests": "2.32.5"
+  },
+  "logs": [
+    ".flow/state/logs/20260715T120840603762Z-quality-full-1.log",
+    ".flow/state/logs/20260715T120840845472Z-quality-full-2.log",
+    ".flow/state/logs/20260715T120856440043Z-quality-full-3.log"
+  ]
+}

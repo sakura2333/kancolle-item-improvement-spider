@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-640dc00e9573",
+  "state": "candidate-frozen",
+  "updatedAt": "2026-07-11T10:21:36.433975+00:00",
+  "previousState": "building",
+  "candidateContentSha256": "a165d6de00d8f4de6e9843789c4af57116ae9e4d353fb7fcd444378084201bd1",
+  "candidateArchiveSha256": "802beb5e1d63740f7dd291db19e1e12d7c22dd67844c065728db54a1a930c8c5"
+}

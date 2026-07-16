@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "dictionaryId": "kancolle-item-improvement-spider-source-semantic-aliases",
+  "reviewStatus": "accepted",
+  "reviewedAt": "2026-07-02",
+  "rules": [
+    "Aliases are source-scoped and entity-scoped.",
+    "Canonical Start2 IDs are authoritative; names are validation evidence.",
+    "Full-cell aliases are matched before WikiWiki line splitting.",
+    "Suffix fragments are never registered as global aliases."
+  ],
+  "entries": [
+    {
+      "id": "wikiwiki-jp.ship.fletcher-kai-mod2.multiline",
+      "source": "wikiwiki-jp",
+      "entityType": "ship",
+      "status": "accepted",
+      "matchMode": "normalized-full-cell-exact",
+      "rawVariants": [
+        "Fletcher\n改 Mod.2"
+      ],
+      "target": {
+        "canonicalId": 628,
+        "canonicalName": "Fletcher改 Mod.2"
+      },
+      "reason": "WikiWiki line break separates the base name from the remodel suffix."
+    },
+    {
+      "id": "wikiwiki-jp.ship.fletcher-mkii.compact",
+      "source": "wikiwiki-jp",
+      "entityType": "ship",
+      "status": "accepted",
+      "matchMode": "normalized-alias-exact",
+      "rawVariants": [
+        "FletcherMkII",
+        "Fletcher MkII",
+        "Fletcher Mk.II"
+      ],
+      "target": {
+        "canonicalId": 629,
+        "canonicalName": "Fletcher Mk.II"
+      },
+      "reason": "WikiWiki omits spacing and punctuation used by Start2."
+    },
+    {
+      "id": "wikiwiki-jp.ship.souya-special-purpose.multiline",
+      "source": "wikiwiki-jp",
+      "entityType": "ship",
+      "status": "accepted",
+      "matchMode": "normalized-full-cell-exact",
+      "rawVariants": [
+        "宗谷\n(特務艦)*",
+        "宗谷\n(特務艦)"
+      ],
+      "target": {
+        "canonicalId": 699,
+        "canonicalName": "宗谷",
+        "qualifier": "特務艦",
+        "requiredFieldContains": {
+          "api_getmes": "特務艦、宗谷"
+        }
+      },
+      "reason": "The qualifier selects Start2 ID 699 from the three same-name Souya forms."
+    },
+    {
+      "id": "wikiwiki-jp.ship.kaga-kaini-go.multiline",
+      "source": "wikiwiki-jp",
+      "entityType": "ship",
+      "status": "accepted",
+      "matchMode": "normalized-full-cell-exact",
+      "rawVariants": [
+        "加賀\n改二護"
+      ],
+      "target": {
+        "canonicalId": 646,
+        "canonicalName": "加賀改二護"
+      },
+      "reason": "WikiWiki line break separates the base name from the remodel suffix."
+    },
+    {
+      "id": "kcwiki-data.equipment.142.kai-ni-alias",
+      "source": "kcwiki-data",
+      "entityType": "equipment",
+      "status": "accepted",
+      "matchMode": "normalized-alias-exact",
+      "rawVariants": [
+        "15m Duplex Rangefinder + Type 21 Radar Kai Ni"
+      ],
+      "target": {
+        "canonicalId": 142,
+        "canonicalName": "15m二重測距儀+21号電探改二"
+      },
+      "reason": "KcWiki ship.json says Kai Ni while equipment.json identifies the same equipment as ID 142."
+    },
+    {
+      "id": "kcwiki-data.equipment.305.kai-ni-alias",
+      "source": "kcwiki-data",
+      "entityType": "equipment",
+      "status": "accepted",
+      "matchMode": "normalized-alias-exact",
+      "rawVariants": [
+        "Ju 87C Kai Ni (w/ KMX)"
+      ],
+      "target": {
+        "canonicalId": 305,
+        "canonicalName": "Ju87C改二(KMX搭載機)"
+      },
+      "reason": "KcWiki ship.json says Kai Ni while equipment.json identifies the same equipment as ID 305."
+    }
+  ]
+}

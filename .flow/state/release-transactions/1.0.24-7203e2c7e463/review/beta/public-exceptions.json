@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "projectId": "kancolle-item-improvement-spider",
+  "policy": "deny-by-default-explicit-public-exceptions",
+  "exceptions": [
+    {
+      "id": "github-secret-name-npm-token",
+      "category": "public-automation-contract",
+      "reason": "The public release workflow must declare the Repository Secret name required for npm authentication, but never its value.",
+      "owner": "automation/release",
+      "review": "mechanical-and-ai",
+      "expires": null,
+      "matches": [
+        {
+          "path": "README.md",
+          "literal": "NPM_TOKEN",
+          "expectedOccurrences": 1
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "literal": "NPM_TOKEN",
+          "expectedOccurrences": 3
+        }
+      ],
+      "forbiddenContent": [
+        "//registry.npmjs.org/:_authToken=",
+        "_authToken="
+      ]
+    },
+    {
+      "id": "source-validation-ai-review-feature",
+      "category": "public-runtime-feature",
+      "reason": "Source comparison exposes an optional AI-assisted data-audit feature; it is business functionality, not internal release governance.",
+      "owner": "service/source_validation",
+      "review": "mechanical-and-ai",
+      "expires": null,
+      "matches": [
+        {
+          "path": "docs/public/DATA-SCHEMA.md",
+          "literal": "AI review",
+          "expectedOccurrences": 1
+        },
+        {
+          "path": "service/source_validation/ai_review.py",
+          "literal": "AI review",
+          "expectedOccurrences": 1
+        },
+        {
+          "path": "service/source_validation/export.py",
+          "literal": "AI review",
+          "expectedOccurrences": 1
+        },
+        {
+          "path": "docs/public/SOURCE-EVIDENCE.md",
+          "literal": "AI 审计",
+          "expectedOccurrences": 2
+        }
+      ],
+      "reviewFiles": [
+        "service/source_validation/prompts/ai_review.md"
+      ],
+      "forbiddenContent": [
+        "Migration ID",
+        "main release gate",
+        "main-origin",
+        "script/project",
+        ".flow/"
+      ]
+    }
+  ]
+}

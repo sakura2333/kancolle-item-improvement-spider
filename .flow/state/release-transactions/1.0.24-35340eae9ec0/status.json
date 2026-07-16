@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.24-35340eae9ec0",
+  "state": "stable-review-prepared",
+  "updatedAt": "2026-07-13T03:31:42.689529+00:00",
+  "previousState": "candidate-frozen",
+  "stableBranch": "public-candidate/1.0.24-35340eae9ec0",
+  "stableCommit": "79f0f2eeb0e4f76386e778980da744959dcc7054",
+  "stableTree": "267f4db43a9101d6a014ead69bd502cf8e3fa832"
+}
