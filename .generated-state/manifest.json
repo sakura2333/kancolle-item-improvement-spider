@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "stateId": "online-data",
+  "role": "generated-state",
+  "buildId": "20260724T060456Z-e63832f93055",
+  "baseRevision": {
+    "type": "git",
+    "ref": "main",
+    "commit": "e63832f93055079fde941eeba5b2fb3b861fd630"
+  },
+  "generator": {
+    "project": "kancolle-item-improvement-spider",
+    "projectVersion": "1.0.24",
+    "contractVersion": 1
+  },
+  "generatedAt": "2026-07-24T06:04:56Z",
+  "outputs": [
+    {
+      "path": "data/improvement/improvement-detail.nedb",
+      "sha256": "dc61dc22c2327377d6069124b439aabf6ca4e8be17e33f477d4c962246fb1e21",
+      "size": 2951488
+    },
+    {
+      "path": "data/improvement/improvement-list.json",
+      "sha256": "571a83855bcdfe36c6dfb74c074790f4a66678280beb079485fb9c570d018bb5",
+      "size": 209473
+    },
+    {
+      "path": "data/start2_data/api_mst_bgm.json",
+      "sha256": "aab4d7e1defacd339babcda9d25ff822431ba0c89eb8d13a8bd5ce0cbfc59de6",
+      "size": 8348
+    },
+    {
+      "path": "data/start2_data/api_mst_const.json",
+      "sha256": "346acb6ff8da9e8db3a77f089b70c5582e1bc1d7c147878a4b85430433a3be52",
+      "size": 253
+    },
+    {
+      "path": "data/start2_data/api_mst_equip_exslot.json",
+      "sha256": "c15878cc94f3ee08b09b5f45404e193812561d041418f2cb44e8746b12963679",
+      "size": 56
+    },
+    {
+      "path": "data/start2_data/api_mst_equip_exslot_ship.json",
+      "sha256": "9553fda2963ac8ef6ccf7e076100395fdfc9441495a5d85f5ca8194a3f7d0f71",
+      "size": 12972
+    },
+    {
+      "path": "data/start2_data/api_mst_equip_limit_exslot.json",
+      "sha256": "8ad9cfd2cb56cbf21e6563a506ba06e9f0da097899a5373615ec7fe27807d90b",
+      "size": 350
+    },
+    {
+      "path": "data/start2_data/api_mst_equip_ship.json",
+      "sha256": "5825443f07475a1401994381ce3d09737999b81d666c8b02aca954583c5914f3",
+      "size": 102807
+    },
+    {
+      "path": "data/start2_data/api_mst_furniture.json",
+      "sha256": "cfbec33150efc3a2f700bf6c04e0b0d442f791926ff48597e2b2a07f29cd564b",
+      "size": 321927
+    },
+    {
+      "path": "data/start2_data/api_mst_item_shop.json",
+      "sha256": "55e3b678dd31ddad2b27e372906d1a571ae52075e34e1cf5dd823abfd012a0ff",
+      "size": 299
+    },
+    {
+      "path": "data/start2_data/api_mst_maparea.json",
+      "sha256": "b5be6f73089ded88289f95e38bdb127d96901716465e57013282ccf636ec8c54",
+      "size": 644
+    },
+    {
+      "path": "data/start2_data/api_mst_mapbgm.json",
+      "sha256": "db3520f30009158d7cc26c1fedf0d33f47ef3fe25233dcbcde07d5cfcf9a38f8",
+      "size": 7964
+    },
+    {
+      "path": "data/start2_data/api_mst_mapinfo.json",
+      "sha256": "7d54981f29dd97e90dfb1f221e421c7695f6aaf2e715d4648d4fe18f44197f2f",
+      "size": 22240
+    },
+    {
+      "path": "data/start2_data/api_mst_mission.json",
+      "sha256": "cdf501df39035781ecdf97cee0ea74e1633a069cb83a070752555fb0a73ea626",
+      "size": 46279
+    },
+    {
+      "path": "data/start2_data/api_mst_payitem.json",
+      "sha256": "1fd3265f68e5dcb7db876aabede6bb201533ffa92ad41cb9ed8400dcb52ca9dc",
+      "size": 14475
+    },
+    {
+      "path": "data/start2_data/api_mst_ship.json",
+      "sha256": "f4f1c1e96cd3ea9c18969a13e97f69cccf57a37b5ca4787bc8353d292022b8a5",
+      "size": 1023755
+    },
+    {
+      "path": "data/start2_data/api_mst_shipgraph.json",
+      "sha256": "41963e168bf73ccf7e62714891891e2d4287cfef70becf85f89007571c4747f2",
+      "size": 1199723
+    },
+    {
+      "path": "data/start2_data/api_mst_shipupgrade.json",
+      "sha256": "9d9184493aad6512b8fdbc155e60bda8057e04ea6f87d588c3812c1398d916d8",
+      "size": 122078
+    },
+    {
+      "path": "data/start2_data/api_mst_slotitem.json",
+      "sha256": "13a16087ec210ce18006d8eefdda4679381577ef32528cdd5aa69df09dba728c",
+      "size": 468321
+    },
+    {
+      "path": "data/start2_data/api_mst_slotitem_equiptype.json",
+      "sha256": "8f70b91e22698ff7d82de8d74975e8eafca63778f973e3fc3f450f995fbfd2ba",
+      "size": 5176
+    },
+    {
+      "path": "data/start2_data/api_mst_stype.json",
+      "sha256": "e267402d285b5256d095c316b0924d7b5b46d48431b16b5aaed939ae5b145f6b",
+      "size": 34968
+    },
+    {
+      "path": "data/start2_data/api_mst_useitem.json",
+      "sha256": "1df1eb2959570cf18e82286a0d9e7d70483c05e314bb6900db4b3d796bb422f3",
+      "size": 26953
+    },
+    {
+      "path": "data/start2_data/current_version.txt",
+      "sha256": "51f43c46e63f2bac92c1014d43fa8374b5314a51fc6bb39bc98f1615be3b1c08",
+      "size": 10
+    },
+    {
+      "path": "data/assets/useitems/100.png",
+      "sha256": "6c056ddea6ed3d2bf425ff70a36e47ecbc1dfa3de29d14fec24533e7699778f2",
+      "size": 19758
+    },
+    {
+      "path": "data/assets/useitems/104.png",
+      "sha256": "d03aef31bb01e85f7d688997d1dd7c540ba486c33d07dbdb3022b7ceb43c5a9e",
+      "size": 19789
+    },
+    {
+      "path": "data/assets/useitems/145.png",
+      "sha256": "adb776649583f6f5247d835ab4263f30431ed556c6df808dcfb934f8f0fc2c79",
+      "size": 18783
+    },
+    {
+      "path": "data/assets/useitems/150.png",
+      "sha256": "79cf5a98164a489a79a82ce4b15d908dd48f5e60ab54782f6903dd6f1bef422d",
+      "size": 21310
+    },
+    {
+      "path": "data/assets/useitems/2.png",
+      "sha256": "c6d49fe10614fda38b27b30e2f71b2897a6e5b9db433912a952679c351bc7c26",
+      "size": 18075
+    },
+    {
+      "path": "data/assets/useitems/241.png",
+      "sha256": "d8252c64e9c4320f8a5708ad95c3cd493f77705399752189a0d04339060ff4e8",
+      "size": 19245
+    },
+    {
+      "path": "data/assets/useitems/57.png",
+      "sha256": "099226b22bc852df46dd3d92817e932df044e8050b6a74874418be152c41ee14",
+      "size": 128450
+    },
+    {
+      "path": "data/assets/useitems/70.png",
+      "sha256": "0f4075c759c4efd9c82f92311c5a657bff39f7ea0261be00818e8325cb0fc454",
+      "size": 45622
+    },
+    {
+      "path": "data/assets/useitems/71.png",
+      "sha256": "824bab9afa0a5fe768ffcfceade5c19fd0998b80ffc83413c7427ac3a31e6573",
+      "size": 15305
+    },
+    {
+      "path": "data/assets/useitems/75.png",
+      "sha256": "6db732f6217f551042d23df5cafff0b9b16bd00b34a52346c86a3c7d89f09352",
+      "size": 19226
+    },
+    {
+      "path": "data/assets/useitems/77.png",
+      "sha256": "00d525c6ddf022b60025f1d894756f9e54f1f682fa75af6857301fcd1e091706",
+      "size": 53783
+    },
+    {
+      "path": "data/assets/useitems/78.png",
+      "sha256": "7ad892b370da1501e27d5fc56fcf29c9e0f3e181481a4caa2886bbc38e061041",
+      "size": 21285
+    },
+    {
+      "path": "data/assets/useitems/91.png",
+      "sha256": "ba3fa1862fa44369991236339a720c2a28f083c9cba7c5be38a451ddc12742af",
+      "size": 21044
+    },
+    {
+      "path": "data/assets/useitems/92.png",
+      "sha256": "bf37a3091f90af02849679aaf8eaa3f5edc44415e79ee1d6a3d411e3b29ee572",
+      "size": 124067
+    },
+    {
+      "path": "data/assets/useitems/94.png",
+      "sha256": "02df557806b3fd7ff0469bc1c331dc1a42649fe98a221b89302095a52924e6df",
+      "size": 136922
+    },
+    {
+      "path": "data/assets/useitems/95.png",
+      "sha256": "0e5e16b66dab58c8a580cf8b244040cc6241926f34701f242300e46583551301",
+      "size": 28940
+    },
+    {
+      "path": "data/sources/README.md",
+      "sha256": "502e48393aeb2b5d604da12285f6789fddf556e0e77d8b8fc593720f8700fdb4",
+      "size": 1142
+    },
+    {
+      "path": "data/sources/ai-review/README.md",
+      "sha256": "1f429fff70f9b449b15ba0a9cf5ed85eb2604bbf470bb788436d3a066eb5a133",
+      "size": 309
+    },
+    {
+      "path": "data/sources/ai-review/conflicts.nedb",
+      "sha256": "9346e4b1f191e40738167517c1ddb4e6609e0d381f0f6441146ac3a0827238ec",
+      "size": 571551
+    },
+    {
+      "path": "data/sources/ai-review/input.json",
+      "sha256": "117505867502d37f66109495102760ddf57735bab19203dbcf757796b917cbbf",
+      "size": 10981770
+    },
+    {
+      "path": "data/sources/ai-review/review-prompt.md",
+      "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32",
+      "size": 4599
+    },
+    {
+      "path": "data/sources/ai-review/route-variants.nedb",
+      "sha256": "4b651d804ea8a1946d11015b0049018ee0a2bcf513e5b13c359e24de419763ed",
+      "size": 68982
+    },
+    {
+      "path": "data/sources/akashi-list/issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/akashi-list/metadata.json",
+      "sha256": "26298ea81b155e70acc9dc7146b9c74f58aee5409d0f1c9ab6f766c2b71831b8",
+      "size": 273
+    },
+    {
+      "path": "data/sources/akashi-list/normalized-facts.nedb",
+      "sha256": "34ed6cdfc0d7e834729957249bcc0bd777a0d1e4093c67f0206c8bba0e35256e",
+      "size": 3132912
+    },
+    {
+      "path": "data/sources/akashi-list/parsed-rules.nedb",
+      "sha256": "34ed6cdfc0d7e834729957249bcc0bd777a0d1e4093c67f0206c8bba0e35256e",
+      "size": 3132912
+    },
+    {
+      "path": "data/sources/akashi-list/schedules.nedb",
+      "sha256": "34ed6cdfc0d7e834729957249bcc0bd777a0d1e4093c67f0206c8bba0e35256e",
+      "size": 3132912
+    },
+    {
+      "path": "data/sources/comparison/differences.nedb",
+      "sha256": "9346e4b1f191e40738167517c1ddb4e6609e0d381f0f6441146ac3a0827238ec",
+      "size": 571551
+    },
+    {
+      "path": "data/sources/comparison/report.md",
+      "sha256": "c0e09671e6d1cc2a8e2a139d8d40b3e2e2f48b4da8c60d9205708c9f62106358",
+      "size": 787
+    },
+    {
+      "path": "data/sources/comparison/summary.json",
+      "sha256": "54c17433165aa052171e447676ddbdfcd3220f38941075d085b8c4bc9c30bcb6",
+      "size": 1084
+    },
+    {
+      "path": "data/sources/equipment-sources/changes.nedb",
+      "sha256": "08fcfd7e153ca9ed196b488b109e4b21209e49a339f40e1ed661fb2f501f0392",
+      "size": 1147
+    },
+    {
+      "path": "data/sources/equipment-sources/dataset-metadata.json",
+      "sha256": "c2bd124295e96ca69390c243a7b020bcd870c83efedb37992e08fc2475f2784b",
+      "size": 1180
+    },
+    {
+      "path": "data/sources/equipment-sources/equipment-sources.nedb",
+      "sha256": "6c636b8f1cc4ab98d2e3dd0141e96f724fbb8309f7401f3f5cfc9dbef1c65370",
+      "size": 86138
+    },
+    {
+      "path": "data/sources/history/baseline/akashi-list.json",
+      "sha256": "8b120e195e774042df31a5d2aa1820515757aca76fb7616800b39848bf2ccbc2",
+      "size": 1895798
+    },
+    {
+      "path": "data/sources/history/baseline/kcwiki-data.json",
+      "sha256": "01ecae9498f3b58bb2c6d2fe8e25fb549e436126923b17e8e43f1b200ae2f79e",
+      "size": 546322
+    },
+    {
+      "path": "data/sources/history/baseline/wikiwiki-jp.json",
+      "sha256": "984ef691181ab86f359afbb4eaea25ab279840a60b1b9d35ae35fb091e81d595",
+      "size": 1249070
+    },
+    {
+      "path": "data/sources/history/current/akashi-list.json",
+      "sha256": "8b120e195e774042df31a5d2aa1820515757aca76fb7616800b39848bf2ccbc2",
+      "size": 1895798
+    },
+    {
+      "path": "data/sources/history/current/kcwiki-data.json",
+      "sha256": "01ecae9498f3b58bb2c6d2fe8e25fb549e436126923b17e8e43f1b200ae2f79e",
+      "size": 546322
+    },
+    {
+      "path": "data/sources/history/current/wikiwiki-jp.json",
+      "sha256": "984ef691181ab86f359afbb4eaea25ab279840a60b1b9d35ae35fb091e81d595",
+      "size": 1249070
+    },
+    {
+      "path": "data/sources/history/manifest.json",
+      "sha256": "a5eac25068570efbda31a252e6b958b9172e8861e72ff852d1610b51d817d9c7",
+      "size": 1385
+    },
+    {
+      "path": "data/sources/history/runs.nedb",
+      "sha256": "1800285966630844b9aadcf965e9d6492b23875b33513f155df200d0ccae1fba",
+      "size": 903
+    },
+    {
+      "path": "data/sources/kc3-slotitem-bonus/dataset-issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/kc3-slotitem-bonus/dataset-metadata.json",
+      "sha256": "2e0075556ae04fb8be4a8f0dcc13dd0b43667762c1b902dd63a53b516d63207c",
+      "size": 923
+    },
+    {
+      "path": "data/sources/kc3-slotitem-bonus/special-bonuses.nedb",
+      "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b",
+      "size": 293128
+    },
+    {
+      "path": "data/sources/kcwiki-data/dataset-issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/kcwiki-data/dataset-metadata.json",
+      "sha256": "54db9a68d9fdfb9b0f76bbcc6384143486a3b2298c251270b83bbdf2c270f9fb",
+      "size": 1927
+    },
+    {
+      "path": "data/sources/kcwiki-data/equipment-drop-from.nedb",
+      "sha256": "2a521b85adc8c94664f9b884b13461763df1cf8247413cd57c1a6690030b243e",
+      "size": 364661
+    },
+    {
+      "path": "data/sources/kcwiki-data/issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/kcwiki-data/metadata.json",
+      "sha256": "e1d7e09659e839f544b270348f1a918820bd7453bdda78fda70e35954d9b7d66",
+      "size": 380
+    },
+    {
+      "path": "data/sources/kcwiki-data/normalized-facts.nedb",
+      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
+      "size": 532982
+    },
+    {
+      "path": "data/sources/kcwiki-data/parsed-rules.nedb",
+      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
+      "size": 532982
+    },
+    {
+      "path": "data/sources/kcwiki-data/schedules.nedb",
+      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
+      "size": 532982
+    },
+    {
+      "path": "data/sources/reliability/report.md",
+      "sha256": "33d1d0dc7404bdb3de45f19f93d54e4d5be325fc78d659f6ad1e19b5cc977fb7",
+      "size": 836
+    },
+    {
+      "path": "data/sources/reliability/summary.json",
+      "sha256": "e4d682331e33f7bb4e5335f12af24b117e9714163990e1329fa7a85a4477fd33",
+      "size": 4330
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/acquisition-records.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/catalog.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/dataset-issues.nedb",
+      "sha256": "a464af56e430b2104401039060550bafb8aeac2039a870ceaf6008451e8e788e",
+      "size": 129552
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/dataset-metadata.json",
+      "sha256": "196be96add28ddef798abc70b5e263b78aa8901ab3bb3e00be38b7a21f865cb3",
+      "size": 1870
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/reference-issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/wikiwiki-equipment-detail/unclassified-evidence.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/wikiwiki-jp/issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "data/sources/wikiwiki-jp/metadata.json",
+      "sha256": "6e9df0d8934256d7e9373a588f858aa4647d6d2149bb4256490d1c14f19b956e",
+      "size": 343
+    },
+    {
+      "path": "data/sources/wikiwiki-jp/normalized-facts.nedb",
+      "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
+      "size": 981599
+    },
+    {
+      "path": "data/sources/wikiwiki-jp/parsed-rules.nedb",
+      "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
+      "size": 981599
+    },
+    {
+      "path": "data/sources/wikiwiki-jp/schedules.nedb",
+      "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
+      "size": 981599
+    },
+    {
+      "path": "packages/kancolle-data/improvement/detail.nedb",
+      "sha256": "dc61dc22c2327377d6069124b439aabf6ca4e8be17e33f477d4c962246fb1e21",
+      "size": 2951488
+    },
+    {
+      "path": "packages/kancolle-data/improvement/list.json",
+      "sha256": "571a83855bcdfe36c6dfb74c074790f4a66678280beb079485fb9c570d018bb5",
+      "size": 209473
+    },
+    {
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/detail.nedb",
+      "sha256": "b48b4c257785f7961891d9874a0cf2b81a2ffddfa112d3ba057f7feb60f43cdc",
+      "size": 413205
+    },
+    {
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/list.json",
+      "sha256": "571a83855bcdfe36c6dfb74c074790f4a66678280beb079485fb9c570d018bb5",
+      "size": 209473
+    },
+    {
+      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json",
+      "sha256": "146417f0a65ae69bd06eb9dc223fe58ffe23a204f5ff31e1d009be19b6f1235e",
+      "size": 379
+    },
+    {
+      "path": "packages/kancolle-data/equipment/drop-from.nedb",
+      "sha256": "2a521b85adc8c94664f9b884b13461763df1cf8247413cd57c1a6690030b243e",
+      "size": 364661
+    },
+    {
+      "path": "packages/kancolle-data/equipment/sources.nedb",
+      "sha256": "6c636b8f1cc4ab98d2e3dd0141e96f724fbb8309f7401f3f5cfc9dbef1c65370",
+      "size": 86138
+    },
+    {
+      "path": "packages/kancolle-data/equipment/special-bonuses.nedb",
+      "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b",
+      "size": 293128
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/100.png",
+      "sha256": "6c056ddea6ed3d2bf425ff70a36e47ecbc1dfa3de29d14fec24533e7699778f2",
+      "size": 19758
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/104.png",
+      "sha256": "d03aef31bb01e85f7d688997d1dd7c540ba486c33d07dbdb3022b7ceb43c5a9e",
+      "size": 19789
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/145.png",
+      "sha256": "adb776649583f6f5247d835ab4263f30431ed556c6df808dcfb934f8f0fc2c79",
+      "size": 18783
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/150.png",
+      "sha256": "79cf5a98164a489a79a82ce4b15d908dd48f5e60ab54782f6903dd6f1bef422d",
+      "size": 21310
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/2.png",
+      "sha256": "c6d49fe10614fda38b27b30e2f71b2897a6e5b9db433912a952679c351bc7c26",
+      "size": 18075
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/241.png",
+      "sha256": "d8252c64e9c4320f8a5708ad95c3cd493f77705399752189a0d04339060ff4e8",
+      "size": 19245
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/57.png",
+      "sha256": "099226b22bc852df46dd3d92817e932df044e8050b6a74874418be152c41ee14",
+      "size": 128450
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/70.png",
+      "sha256": "0f4075c759c4efd9c82f92311c5a657bff39f7ea0261be00818e8325cb0fc454",
+      "size": 45622
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/71.png",
+      "sha256": "824bab9afa0a5fe768ffcfceade5c19fd0998b80ffc83413c7427ac3a31e6573",
+      "size": 15305
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/75.png",
+      "sha256": "6db732f6217f551042d23df5cafff0b9b16bd00b34a52346c86a3c7d89f09352",
+      "size": 19226
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/77.png",
+      "sha256": "00d525c6ddf022b60025f1d894756f9e54f1f682fa75af6857301fcd1e091706",
+      "size": 53783
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/78.png",
+      "sha256": "7ad892b370da1501e27d5fc56fcf29c9e0f3e181481a4caa2886bbc38e061041",
+      "size": 21285
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/91.png",
+      "sha256": "ba3fa1862fa44369991236339a720c2a28f083c9cba7c5be38a451ddc12742af",
+      "size": 21044
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/92.png",
+      "sha256": "bf37a3091f90af02849679aaf8eaa3f5edc44415e79ee1d6a3d411e3b29ee572",
+      "size": 124067
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/94.png",
+      "sha256": "02df557806b3fd7ff0469bc1c331dc1a42649fe98a221b89302095a52924e6df",
+      "size": 136922
+    },
+    {
+      "path": "packages/kancolle-data/assets/useitems/95.png",
+      "sha256": "0e5e16b66dab58c8a580cf8b244040cc6241926f34701f242300e46583551301",
+      "size": 28940
+    },
+    {
+      "path": "packages/kancolle-data/audit/build-report.json",
+      "sha256": "f29885e2452f0fb8d09a96219531b86a0e20e10abd2e839578c5e5c882f9544d",
+      "size": 1558
+    },
+    {
+      "path": "packages/kancolle-data/CHANGELOG.md",
+      "sha256": "79a8ea437df91f2e04e67064020036f322c7512efb032ea27dc508d86470acd4",
+      "size": 7467
+    },
+    {
+      "path": "packages/kancolle-data/RELEASES.json",
+      "sha256": "d45bb8d32246ad6bd750065dc397d98e6a0af87adaedd0d8fb7f3acec2acfb3d",
+      "size": 11571
+    },
+    {
+      "path": "packages/kancolle-data/manifest.json",
+      "sha256": "2c44b619f730722988dc8d2235c0a92cea0bc5ffaca967dd07205f2fbf10023a",
+      "size": 12553
+    }
+  ],
+  "reports": [
+    {
+      "kind": "verification",
+      "path": ".generated-state/reports/verification-report.json",
+      "sha256": "16e4acaa36ac6cb97432be32ec8b47917abd6c91e9b05a78b38806dfc936c18e",
+      "size": 4897
+    }
+  ],
+  "extensions": {
+    "spider.kancolle": {
+      "package": {
+        "name": "@sakura2333/kancolle-data",
+        "version": "0.5.26"
+      },
+      "dataGeneratedAt": "2026-07-24T06:04:52+00:00",
+      "datasetStatuses": {
+        "improvement": "ok",
+        "equipmentDropFrom": "ok",
+        "equipmentSpecialBonuses": "ok",
+        "equipmentSources": "ok"
+      }
+    }
+  }
+}

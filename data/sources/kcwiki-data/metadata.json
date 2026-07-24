@@ -1,0 +1,15 @@
+{
+  "source": "kcwiki-data",
+  "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json",
+  "status": "ok",
+  "scheduleCount": 743,
+  "issueCount": 0,
+  "supportedCapabilities": [
+    "improve"
+  ],
+  "equipmentEntryCount": 369,
+  "shipMapCount": 188,
+  "shipAliasCount": 3300,
+  "unresolvedShipCount": 0,
+  "unresolvedShipRatio": 0.0
+}

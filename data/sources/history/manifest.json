@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "mode": "one-time-baseline-then-incremental-events",
+  "baselineCreatedAt": "2026-07-24T06:04:49+00:00",
+  "lastObservedAt": "2026-07-24T06:04:49+00:00",
+  "runCount": 1,
+  "sources": {
+    "akashi-list": {
+      "baselineSnapshotSha256": "ff468b53a4383387d13e262b54d3a1680caf925241d07e3c01af8c76416add2e",
+      "currentSnapshotSha256": "ff468b53a4383387d13e262b54d3a1680caf925241d07e3c01af8c76416add2e",
+      "currentFactCount": 2634,
+      "eventCount": 0,
+      "lastObservedAt": "2026-07-24T06:04:49+00:00",
+      "baselineCreatedAt": "2026-07-24T06:04:49+00:00"
+    },
+    "wikiwiki-jp": {
+      "baselineSnapshotSha256": "e43c6ed93d2dcd7045d050ea2f1c88c5fb41ce92576946d7251915ee7b5c4106",
+      "currentSnapshotSha256": "e43c6ed93d2dcd7045d050ea2f1c88c5fb41ce92576946d7251915ee7b5c4106",
+      "currentFactCount": 1692,
+      "eventCount": 0,
+      "lastObservedAt": "2026-07-24T06:04:49+00:00",
+      "baselineCreatedAt": "2026-07-24T06:04:49+00:00"
+    },
+    "kcwiki-data": {
+      "baselineSnapshotSha256": "8e7d0aaf0496394f4597beea086dc0ee23a55211ba080e186e917e1d764d8728",
+      "currentSnapshotSha256": "8e7d0aaf0496394f4597beea086dc0ee23a55211ba080e186e917e1d764d8728",
+      "currentFactCount": 705,
+      "eventCount": 0,
+      "lastObservedAt": "2026-07-24T06:04:49+00:00",
+      "baselineCreatedAt": "2026-07-24T06:04:49+00:00"
+    }
+  }
+}

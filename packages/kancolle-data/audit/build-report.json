@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-07-24T06:04:52+00:00",
+  "strict": true,
+  "improvementSourceStatus": "ok",
+  "dropFromIssueCount": 0,
+  "specialBonusIssueCount": 0,
+  "equipmentSourceRecordCount": 584,
+  "equipmentAcquisitionInputMode": "local-raw-cache",
+  "equipmentAcquisitionSnapshotGeneratedAt": "2026-07-24T06:04:52+00:00",
+  "equipmentSourceIncremental": {
+    "addedIds": [
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588
+    ],
+    "changedIds": [
+      27,
+      40,
+      49,
+      106,
+      122,
+      171,
+      198,
+      205,
+      229,
+      256,
+      315,
+      362,
+      381,
+      385,
+      419
+    ],
+    "removedIds": [],
+    "unchangedCount": 556,
+    "changed": true,
+    "inputHashes": {
+      "improvementDetail": "dc61dc22c2327377d6069124b439aabf6ca4e8be17e33f477d4c962246fb1e21",
+      "wikiwikiAcquisition": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kcwikiShip": "0171fe9d54baf90dfa7588458aaddc7f108023b86dfbc02bebd8f1b44ff6d1dd",
+      "kcwikiEquipment": "5ec0352179315e97f956791362afa4cd4b44d7bff81744186dc99ac7a2b666a7"
+    },
+    "projectionSha256": "6c636b8f1cc4ab98d2e3dd0141e96f724fbb8309f7401f3f5cfc9dbef1c65370"
+  },
+  "improvement2Compatibility": {
+    "detailRecordCount": 372,
+    "routeCount": 412
+  },
+  "iconCount": 16,
+  "requiredUseitemIconIds": [
+    2,
+    57,
+    70,
+    71,
+    75,
+    77,
+    78,
+    91,
+    92,
+    94,
+    95,
+    100,
+    104
+  ],
+  "missingUseitemIconIds": []
+}

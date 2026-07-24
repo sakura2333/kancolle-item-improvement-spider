@@ -1,0 +1,130 @@
+{
+  "snapshotVersion": 1,
+  "createdAt": "2026-07-24T06:04:53+00:00",
+  "contentDigest": "595a72e93bece801d18d1efd0a5816a435e447aa22cfd92bec2a3a2d6dc41d95",
+  "metrics": {
+    "improvement.listViewCount": 8,
+    "improvement.listAllCount": 372,
+    "improvement.detailRecordCount": 372,
+    "improvement.effectExpectationAvailableCount": 366,
+    "improvement.effectExpectationUnavailableCount": 6,
+    "improvement.routeCount": 412,
+    "improvement.stepCount": 4532,
+    "improvement.upgradeAvailableCount": 208,
+    "compat.poiPluginItemImprovement2.detailRecordCount": 372,
+    "compat.poiPluginItemImprovement2.routeCount": 412,
+    "equipmentDropFrom.recordCount": 252,
+    "equipmentDropFrom.relationCount": 1673,
+    "equipmentSources.recordCount": 584,
+    "equipmentSources.shipRelationCount": 1610,
+    "equipmentSources.upgradeRelationCount": 207,
+    "equipmentSources.questRelationCount": 0,
+    "equipmentSpecialBonuses.recordCount": 362,
+    "equipmentSpecialBonuses.equipmentRecordCount": 355,
+    "equipmentSpecialBonuses.equipmentTypeRecordCount": 7,
+    "equipmentSpecialBonuses.ruleCount": 2410,
+    "useitemIcons.requiredCount": 13,
+    "useitemIcons.missingCount": 0,
+    "useitemIcons.count": 16,
+    "useitemIcons.totalBytes": 711604,
+    "publicData.totalBytes": 5239549
+  },
+  "files": {
+    "assets/useitems/100.png": {
+      "bytes": 19758,
+      "sha256": "6c056ddea6ed3d2bf425ff70a36e47ecbc1dfa3de29d14fec24533e7699778f2"
+    },
+    "assets/useitems/104.png": {
+      "bytes": 19789,
+      "sha256": "d03aef31bb01e85f7d688997d1dd7c540ba486c33d07dbdb3022b7ceb43c5a9e"
+    },
+    "assets/useitems/145.png": {
+      "bytes": 18783,
+      "sha256": "adb776649583f6f5247d835ab4263f30431ed556c6df808dcfb934f8f0fc2c79"
+    },
+    "assets/useitems/150.png": {
+      "bytes": 21310,
+      "sha256": "79cf5a98164a489a79a82ce4b15d908dd48f5e60ab54782f6903dd6f1bef422d"
+    },
+    "assets/useitems/2.png": {
+      "bytes": 18075,
+      "sha256": "c6d49fe10614fda38b27b30e2f71b2897a6e5b9db433912a952679c351bc7c26"
+    },
+    "assets/useitems/241.png": {
+      "bytes": 19245,
+      "sha256": "d8252c64e9c4320f8a5708ad95c3cd493f77705399752189a0d04339060ff4e8"
+    },
+    "assets/useitems/57.png": {
+      "bytes": 128450,
+      "sha256": "099226b22bc852df46dd3d92817e932df044e8050b6a74874418be152c41ee14"
+    },
+    "assets/useitems/70.png": {
+      "bytes": 45622,
+      "sha256": "0f4075c759c4efd9c82f92311c5a657bff39f7ea0261be00818e8325cb0fc454"
+    },
+    "assets/useitems/71.png": {
+      "bytes": 15305,
+      "sha256": "824bab9afa0a5fe768ffcfceade5c19fd0998b80ffc83413c7427ac3a31e6573"
+    },
+    "assets/useitems/75.png": {
+      "bytes": 19226,
+      "sha256": "6db732f6217f551042d23df5cafff0b9b16bd00b34a52346c86a3c7d89f09352"
+    },
+    "assets/useitems/77.png": {
+      "bytes": 53783,
+      "sha256": "00d525c6ddf022b60025f1d894756f9e54f1f682fa75af6857301fcd1e091706"
+    },
+    "assets/useitems/78.png": {
+      "bytes": 21285,
+      "sha256": "7ad892b370da1501e27d5fc56fcf29c9e0f3e181481a4caa2886bbc38e061041"
+    },
+    "assets/useitems/91.png": {
+      "bytes": 21044,
+      "sha256": "ba3fa1862fa44369991236339a720c2a28f083c9cba7c5be38a451ddc12742af"
+    },
+    "assets/useitems/92.png": {
+      "bytes": 124067,
+      "sha256": "bf37a3091f90af02849679aaf8eaa3f5edc44415e79ee1d6a3d411e3b29ee572"
+    },
+    "assets/useitems/94.png": {
+      "bytes": 136922,
+      "sha256": "02df557806b3fd7ff0469bc1c331dc1a42649fe98a221b89302095a52924e6df"
+    },
+    "assets/useitems/95.png": {
+      "bytes": 28940,
+      "sha256": "0e5e16b66dab58c8a580cf8b244040cc6241926f34701f242300e46583551301"
+    },
+    "compat/poi-plugin-item-improvement2/improvement/detail.nedb": {
+      "bytes": 413205,
+      "sha256": "b48b4c257785f7961891d9874a0cf2b81a2ffddfa112d3ba057f7feb60f43cdc"
+    },
+    "compat/poi-plugin-item-improvement2/improvement/list.json": {
+      "bytes": 209473,
+      "sha256": "571a83855bcdfe36c6dfb74c074790f4a66678280beb079485fb9c570d018bb5"
+    },
+    "compat/poi-plugin-item-improvement2/manifest.json": {
+      "bytes": 379,
+      "sha256": "146417f0a65ae69bd06eb9dc223fe58ffe23a204f5ff31e1d009be19b6f1235e"
+    },
+    "equipment/drop-from.nedb": {
+      "bytes": 364661,
+      "sha256": "2a521b85adc8c94664f9b884b13461763df1cf8247413cd57c1a6690030b243e"
+    },
+    "equipment/sources.nedb": {
+      "bytes": 86138,
+      "sha256": "6c636b8f1cc4ab98d2e3dd0141e96f724fbb8309f7401f3f5cfc9dbef1c65370"
+    },
+    "equipment/special-bonuses.nedb": {
+      "bytes": 293128,
+      "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b"
+    },
+    "improvement/detail.nedb": {
+      "bytes": 2951488,
+      "sha256": "dc61dc22c2327377d6069124b439aabf6ca4e8be17e33f477d4c962246fb1e21"
+    },
+    "improvement/list.json": {
+      "bytes": 209473,
+      "sha256": "571a83855bcdfe36c6dfb74c074790f4a66678280beb079485fb9c570d018bb5"
+    }
+  }
+}

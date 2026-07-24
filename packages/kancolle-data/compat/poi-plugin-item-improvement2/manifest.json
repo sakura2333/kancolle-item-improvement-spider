@@ -1,0 +1,15 @@
+{
+  "packageVersion": "0.5.25-improvement2",
+  "generatedAt": "2026-07-24T06:04:52+00:00",
+  "consumer": "poi-plugin-item-improvement2",
+  "datasets": {
+    "improvement": {
+      "schemaVersion": 3,
+      "listSchemaVersion": 2,
+      "list": "improvement/list.json",
+      "detail": "improvement/detail.nedb",
+      "detailRecordCount": 372,
+      "routeCount": 412
+    }
+  }
+}

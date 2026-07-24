@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-24T06:04:51+00:00",
+  "mode": "advisory-relative-consistency",
+  "applyToCanonicalElection": false,
+  "canonicalElectionUnchanged": true,
+  "methodology": {
+    "currentSignals": {
+      "pairwiseAgreement": 0.65,
+      "peerConsensusAgreement": 0.35
+    },
+    "historyContribution": 0.2,
+    "minimumHistoricalEvaluableChanges": 5,
+    "relativeWeightRange": [
+      0.75,
+      1.25
+    ],
+    "note": "Weights measure relative consistency and corroboration, not truth or authority."
+  },
+  "sources": [
+    {
+      "source": "akashi-list",
+      "factCount": 2634,
+      "pairwise": {
+        "comparableCount": 2328,
+        "agreementCount": 2143,
+        "agreementRate": 0.920533,
+        "byPeer": [
+          {
+            "source": "kcwiki-data",
+            "comparableCount": 701,
+            "agreementCount": 593,
+            "agreementRate": 0.845934
+          },
+          {
+            "source": "wikiwiki-jp",
+            "comparableCount": 1627,
+            "agreementCount": 1550,
+            "agreementRate": 0.952674
+          }
+        ]
+      },
+      "peerConsensus": {
+        "comparableCount": 602,
+        "agreementCount": 588,
+        "agreementRate": 0.976744
+      },
+      "history": {
+        "eventCount": 0,
+        "addedCount": 0,
+        "removedCount": 0,
+        "modifiedCount": 0,
+        "reappearedCount": 0,
+        "corroboratedCount": 0,
+        "outlierCount": 0,
+        "unconfirmedCount": 0,
+        "evaluableCount": 0,
+        "corroborationRate": null
+      },
+      "currentConsistencyScore": 0.940207,
+      "historyAppliedToWeight": false,
+      "combinedScore": 0.940207,
+      "confidenceScore": 0.75,
+      "confidence": "medium",
+      "relativeWeight": 1.0267,
+      "weightStatus": "advisory"
+    },
+    {
+      "source": "kcwiki-data",
+      "factCount": 705,
+      "pairwise": {
+        "comparableCount": 1405,
+        "agreementCount": 1196,
+        "agreementRate": 0.851246,
+        "byPeer": [
+          {
+            "source": "akashi-list",
+            "comparableCount": 701,
+            "agreementCount": 593,
+            "agreementRate": 0.845934
+          },
+          {
+            "source": "wikiwiki-jp",
+            "comparableCount": 704,
+            "agreementCount": 603,
+            "agreementRate": 0.856534
+          }
+        ]
+      },
+      "peerConsensus": {
+        "comparableCount": 672,
+        "agreementCount": 588,
+        "agreementRate": 0.875
+      },
+      "history": {
+        "eventCount": 0,
+        "addedCount": 0,
+        "removedCount": 0,
+        "modifiedCount": 0,
+        "reappearedCount": 0,
+        "corroboratedCount": 0,
+        "outlierCount": 0,
+        "unconfirmedCount": 0,
+        "evaluableCount": 0,
+        "corroborationRate": null
+      },
+      "currentConsistencyScore": 0.85956,
+      "historyAppliedToWeight": false,
+      "combinedScore": 0.85956,
+      "confidenceScore": 0.75,
+      "confidence": "medium",
+      "relativeWeight": 0.9387,
+      "weightStatus": "advisory"
+    },
+    {
+      "source": "wikiwiki-jp",
+      "factCount": 1692,
+      "pairwise": {
+        "comparableCount": 2331,
+        "agreementCount": 2153,
+        "agreementRate": 0.923638,
+        "byPeer": [
+          {
+            "source": "akashi-list",
+            "comparableCount": 1627,
+            "agreementCount": 1550,
+            "agreementRate": 0.952674
+          },
+          {
+            "source": "kcwiki-data",
+            "comparableCount": 704,
+            "agreementCount": 603,
+            "agreementRate": 0.856534
+          }
+        ]
+      },
+      "peerConsensus": {
+        "comparableCount": 593,
+        "agreementCount": 588,
+        "agreementRate": 0.991568
+      },
+      "history": {
+        "eventCount": 0,
+        "addedCount": 0,
+        "removedCount": 0,
+        "modifiedCount": 0,
+        "reappearedCount": 0,
+        "corroboratedCount": 0,
+        "outlierCount": 0,
+        "unconfirmedCount": 0,
+        "evaluableCount": 0,
+        "corroborationRate": null
+      },
+      "currentConsistencyScore": 0.947413,
+      "historyAppliedToWeight": false,
+      "combinedScore": 0.947413,
+      "confidenceScore": 0.75,
+      "confidence": "medium",
+      "relativeWeight": 1.0346,
+      "weightStatus": "advisory"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{"equipmentId": 1, "equipmentName": "12cm単装砲", "source": {"shipIds": [1, 2, 6, 7, 28, 29, 30, 31, 164, 165, 363, 370, 371, 387, 471, 472, 473, 474, 475, 476, 481, 517, 518, 524, 525, 531, 540, 565, 570, 584, 585], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 2, "equipmentName": "12.7cm連装砲", "source": {"shipIds": [13, 14, 15, 16, 17, 18, 19, 20, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 93, 94, 95, 96, 97, 98, 104, 105, 122, 132, 133, 134, 135, 167, 168, 169, 170, 181, 186, 190, 244, 245, 254, 255, 258, 259, 260, 405, 409, 410, 413, 414, 415, 424, 425, 452, 453, 454, 455, 456, 457, 458, 459, 479, 480, 484, 485, 527, 528, 582, 583, 625, 632, 633, 671, 674, 675, 720, 721, 725, 886], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 3, "equipmentName": "10cm連装高角砲", "source": {"shipIds": [225, 227, 248, 249, 250, 251, 253, 294, 300, 557, 558], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 4, "equipmentName": "14cm単装砲", "source": {"shipIds": [21, 22, 23, 24, 25, 51, 52, 53, 54, 55, 56, 77, 80, 81, 87, 99, 100, 101, 113, 114, 115, 213, 214, 215, 217, 218, 221, 222, 223], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 5, "equipmentName": "15.5cm三連装砲", "source": {"shipIds": [70, 183], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 6, "equipmentName": "20.3cm連装砲", "source": {"shipIds": [59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 120, 123, 124, 125, 129, 130, 262, 263, 264, 265, 266, 267, 268, 269, 270, 272, 273, 274, 295, 973, 978], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 7, "equipmentName": "35.6cm連装砲", "source": {"shipIds": [26, 27, 77, 78, 79, 82, 85, 86, 87, 88, 286, 287], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 8, "equipmentName": "41cm連装砲", "source": {"shipIds": [80, 81, 149, 150, 152, 209, 210, 211, 212, 275, 276, 411, 412, 541, 573], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 9, "equipmentName": "46cm三連装砲", "source": {"shipIds": [131, 136, 143, 148], "upgradeFromItemIds": [117], "questKey": []}}
+{"equipmentId": 10, "equipmentName": "12.7cm連装高角砲", "source": {"shipIds": [102, 103, 118, 119, 136, 154, 160, 184, 187, 209, 210, 211, 212, 213, 214, 219, 262, 263, 266, 267, 268, 271, 272, 290, 331, 428, 445, 451, 465], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 11, "equipmentName": "15.2cm単装砲", "source": {"shipIds": [26, 27, 78, 79, 85, 86], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 12, "equipmentName": "15.5cm三連装副砲", "source": {"shipIds": [131, 143, 209, 210, 211, 212], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 13, "equipmentName": "61cm三連装魚雷", "source": {"shipIds": [9, 13, 34, 38, 201, 202, 203, 204, 205, 206, 207, 208, 234, 235, 236, 237, 254, 255, 256, 259, 260, 261, 308, 366, 368, 486, 700], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 14, "equipmentName": "61cm四連装魚雷", "source": {"shipIds": [17, 20, 21, 24, 25, 42, 47, 95, 181, 186, 257, 262, 263, 264, 295, 413, 414, 415, 456, 582, 583, 721, 886], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 15, "equipmentName": "61cm四連装(酸素)魚雷", "source": {"shipIds": [57, 58, 142, 144, 159, 160, 192, 198, 199, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 258, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 294, 300, 301, 302, 303, 304, 316, 322, 355, 362, 421, 422, 423, 469, 490, 498, 542, 543, 547, 563, 564, 566, 569, 587, 648, 649, 706, 709, 720, 736, 742, 956, 963, 968, 997], "upgradeFromItemIds": [14], "questKey": []}}
+{"equipmentId": 16, "equipmentName": "九七式艦攻", "source": {"shipIds": [74, 75, 76, 83, 84, 90, 91, 92, 108, 109, 110, 111, 116, 185, 277, 278, 279, 280, 281, 282, 283, 284, 285, 291, 292, 380, 522, 526, 534], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 17, "equipmentName": "天山", "source": {"shipIds": [117, 153], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 18, "equipmentName": "流星", "source": {"shipIds": [156, 352], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 19, "equipmentName": "九六式艦戦", "source": {"shipIds": [75, 76, 92], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 20, "equipmentName": "零式艦戦21型", "source": {"shipIds": [83, 84, 90, 91, 108, 109, 110, 111, 185, 884], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 21, "equipmentName": "零式艦戦52型", "source": {"shipIds": [112, 117, 277, 278, 279, 280, 281, 282, 283, 284, 285, 288, 291, 292, 296, 297, 318, 534], "upgradeFromItemIds": [181], "questKey": []}}
+{"equipmentId": 22, "equipmentName": "試製烈風 後期型", "source": {"shipIds": [156, 408, 1008], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 23, "equipmentName": "九九式艦爆", "source": {"shipIds": [74, 75, 83, 84, 89, 90, 91, 92, 110, 111, 116], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 24, "equipmentName": "彗星", "source": {"shipIds": [112, 117, 153, 277, 278, 279, 280, 281, 282, 283, 284, 288], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 25, "equipmentName": "零式水上偵察機", "source": {"shipIds": [26, 27, 54, 62, 66, 67, 70, 71, 72, 73, 77, 80, 81, 87, 99, 102, 103, 104, 105, 106, 107, 120, 124, 125, 183, 215, 216, 218, 220, 222, 224, 265, 269, 270, 273, 274, 275, 276, 286, 287, 581], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 26, "equipmentName": "瑞雲", "source": {"shipIds": [73, 82, 88, 104, 105, 121, 129, 130, 286, 287, 460], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 27, "equipmentName": "13号対空電探", "source": {"shipIds": [145, 146, 151, 228, 229, 230, 231, 232, 233, 309, 324, 325, 345, 349, 359, 366, 373, 532, 533, 680, 686, 695, 702, 710, 1041], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 28, "equipmentName": "22号対水上電探", "source": {"shipIds": [50, 130, 136, 141, 145, 148, 149, 194, 302, 305, 306, 312, 319, 324, 325, 345, 349, 351, 359, 373, 476, 489, 662, 680, 687, 695, 709, 718], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 29, "equipmentName": "33号対水上電探", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 30, "equipmentName": "21号対空電探", "source": {"shipIds": [118, 119, 121, 129, 141, 149, 150, 152, 160, 188, 189, 219, 271, 289, 290, 307, 408], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 31, "equipmentName": "32号対水上電探", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 32, "equipmentName": "42号対空電探", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 33, "equipmentName": "改良型艦本式タービン", "source": {"shipIds": [395, 516], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 34, "equipmentName": "強化型艦本式缶", "source": {"shipIds": [181, 395, 434, 435, 516], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 35, "equipmentName": "三式弾", "source": {"shipIds": [150, 151], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 36, "equipmentName": "九一式徹甲弾", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 37, "equipmentName": "7.7mm機銃", "source": {"shipIds": [1, 51, 52, 59, 61, 78, 79, 85, 86, 123, 995, 996, 1002], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 38, "equipmentName": "12.7mm単装機銃", "source": {"shipIds": [1000], "upgradeFromItemIds": [37], "questKey": []}}
+{"equipmentId": 39, "equipmentName": "25mm連装機銃", "source": {"shipIds": [122, 132, 133, 134, 135, 154, 157, 161, 182, 187, 190, 221, 238, 239, 240, 241, 264, 289, 295, 296, 297, 309, 332, 348, 363, 368, 373, 376, 383, 384, 385, 390, 407, 409, 410, 417, 421, 422, 424, 430, 445, 452, 453, 455, 484, 485, 517, 518, 524, 525, 527, 528, 531, 540, 543, 551, 552, 559, 565, 570, 584, 585, 611, 612, 625, 639, 640, 671, 675, 680, 703, 709, 710, 716, 718, 720, 721, 725, 895, 904, 905, 921, 922, 949, 956, 986, 1034], "upgradeFromItemIds": [49], "questKey": []}}
+{"equipmentId": 40, "equipmentName": "25mm三連装機銃", "source": {"shipIds": [146, 148, 167, 228, 229, 290, 293, 301, 309, 312, 326, 330, 331, 332, 343, 344, 346, 352, 357, 359, 381, 404, 407, 423, 450, 498, 532, 533, 537, 538, 548, 553, 557, 558, 567, 568, 591, 728, 730, 915, 963, 968, 975, 979, 981, 983, 1003, 1008, 1041, 1046], "upgradeFromItemIds": [39], "questKey": []}}
+{"equipmentId": 41, "equipmentName": "甲標的 甲型", "source": {"shipIds": [106, 107, 348, 581, 586, 690], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 42, "equipmentName": "応急修理要員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 43, "equipmentName": "応急修理女神", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 44, "equipmentName": "九四式爆雷投射機", "source": {"shipIds": [168, 169, 170, 234, 235, 236, 237, 242, 243, 246, 247, 313, 320, 324, 327, 328, 343, 350, 356, 369, 370, 371, 376, 377, 378, 379, 387, 391, 407, 454, 465, 556, 587, 627, 688, 695, 708, 710], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 45, "equipmentName": "三式爆雷投射機", "source": {"shipIds": [141, 354, 478, 559, 564, 568, 637, 638, 665, 670, 674, 898, 915, 982], "upgradeFromItemIds": [44], "questKey": []}}
+{"equipmentId": 46, "equipmentName": "九三式水中聴音機", "source": {"shipIds": [228, 229, 313, 317, 329, 343, 369, 371, 386, 387, 425, 556, 587, 627, 678, 684, 685, 686, 688, 714, 926], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 47, "equipmentName": "三式水中探信儀", "source": {"shipIds": [303, 304, 316, 325, 344, 356, 567, 569, 982, 983, 1033], "upgradeFromItemIds": [46], "questKey": []}}
+{"equipmentId": 48, "equipmentName": "12cm単装高角砲", "source": {"shipIds": [256, 257, 261, 293, 308, 366, 944, 949], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 49, "equipmentName": "25mm単装機銃", "source": {"shipIds": [208, 217, 230, 231, 232, 233, 391, 665, 699, 702, 746, 909, 949, 979, 1000], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 50, "equipmentName": "20.3cm(3号)連装砲", "source": {"shipIds": [121, 142, 188, 189], "upgradeFromItemIds": [90], "questKey": []}}
+{"equipmentId": 51, "equipmentName": "12cm30連装噴進砲", "source": {"shipIds": [112, 288, 291, 292, 296, 297, 318, 404, 408, 411, 429, 430, 536, 553, 554], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 52, "equipmentName": "流星改", "source": {"shipIds": [], "upgradeFromItemIds": [18], "questKey": []}}
+{"equipmentId": 53, "equipmentName": "烈風 一一型", "source": {"shipIds": [], "upgradeFromItemIds": [22], "questKey": []}}
+{"equipmentId": 54, "equipmentName": "彩雲", "source": {"shipIds": [406], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 55, "equipmentName": "紫電改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 56, "equipmentName": "震電改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 57, "equipmentName": "彗星一二型甲", "source": {"shipIds": [], "upgradeFromItemIds": [24], "questKey": []}}
+{"equipmentId": 58, "equipmentName": "61cm五連装(酸素)魚雷", "source": {"shipIds": [118, 119, 146], "upgradeFromItemIds": [15], "questKey": []}}
+{"equipmentId": 59, "equipmentName": "零式水上観測機", "source": {"shipIds": [131, 143, 348, 451], "upgradeFromItemIds": [25], "questKey": []}}
+{"equipmentId": 60, "equipmentName": "零式艦戦62型(爆戦)", "source": {"shipIds": [153, 157], "upgradeFromItemIds": [21], "questKey": []}}
+{"equipmentId": 61, "equipmentName": "二式艦上偵察機", "source": {"shipIds": [157, 197], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 62, "equipmentName": "試製晴嵐", "source": {"shipIds": [375, 403, 606], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 63, "equipmentName": "12.7cm連装砲B型改二", "source": {"shipIds": [144, 195, 199, 207, 323, 326, 350, 351, 362, 369, 390, 391, 469, 627], "upgradeFromItemIds": [2], "questKey": []}}
+{"equipmentId": 64, "equipmentName": "Ju87C改", "source": {"shipIds": [353], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 65, "equipmentName": "15.2cm連装砲", "source": {"shipIds": [137, 138, 139, 140, 305, 306, 307, 321], "upgradeFromItemIds": [11], "questKey": []}}
+{"equipmentId": 66, "equipmentName": "8cm高角砲", "source": {"shipIds": [137, 138, 139, 140], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 67, "equipmentName": "53cm艦首(酸素)魚雷", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 68, "equipmentName": "大発動艇", "source": {"shipIds": [161, 198, 199, 200, 487, 490, 621, 626, 647, 943], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 69, "equipmentName": "カ号観測機", "source": {"shipIds": [166], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 70, "equipmentName": "三式指揮連絡機(対潜)", "source": {"shipIds": [166, 717, 900, 943], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 71, "equipmentName": "10cm連装高角砲(砲架)", "source": {"shipIds": [156, 183, 541, 573], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 72, "equipmentName": "増設バルジ(中型艦)", "source": {"shipIds": [496], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 73, "equipmentName": "増設バルジ(大型艦)", "source": {"shipIds": [541, 573], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 74, "equipmentName": "探照灯", "source": {"shipIds": [152, 158, 159, 195, 223, 356, 412, 416, 417, 427, 437, 489, 490, 563], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 75, "equipmentName": "ドラム缶(輸送用)", "source": {"shipIds": [323, 687], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 76, "equipmentName": "38cm連装砲", "source": {"shipIds": [171, 172, 173], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 77, "equipmentName": "15cm連装副砲", "source": {"shipIds": [171, 172], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 78, "equipmentName": "12.7cm単装砲", "source": {"shipIds": [174, 175, 179, 180, 310, 311], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 79, "equipmentName": "瑞雲(六三四空)", "source": {"shipIds": [188, 189, 554], "upgradeFromItemIds": [26], "questKey": []}}
+{"equipmentId": 80, "equipmentName": "瑞雲12型", "source": {"shipIds": [411, 412], "upgradeFromItemIds": [26], "questKey": []}}
+{"equipmentId": 81, "equipmentName": "瑞雲12型(六三四空)", "source": {"shipIds": [], "upgradeFromItemIds": [79, 80], "questKey": []}}
+{"equipmentId": 82, "equipmentName": "九七式艦攻(九三一空)", "source": {"shipIds": [318, 380, 381, 884], "upgradeFromItemIds": [16], "questKey": []}}
+{"equipmentId": 83, "equipmentName": "天山(九三一空)", "source": {"shipIds": [529], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 84, "equipmentName": "2cm 四連装FlaK 38", "source": {"shipIds": [173, 177, 179], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 85, "equipmentName": "3.7cm FlaK M42", "source": {"shipIds": [173, 178, 180], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 86, "equipmentName": "艦艇修理施設", "source": {"shipIds": [182, 187, 958], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 87, "equipmentName": "新型高温高圧缶", "source": {"shipIds": [316, 546, 951], "upgradeFromItemIds": [34], "questKey": []}}
+{"equipmentId": 88, "equipmentName": "22号対水上電探改四", "source": {"shipIds": [427, 497], "upgradeFromItemIds": [28], "questKey": []}}
+{"equipmentId": 89, "equipmentName": "21号対空電探改", "source": {"shipIds": [592], "upgradeFromItemIds": [30], "questKey": []}}
+{"equipmentId": 90, "equipmentName": "20.3cm(2号)連装砲", "source": {"shipIds": [192, 193, 194, 319, 416, 417, 427, 428], "upgradeFromItemIds": [6], "questKey": []}}
+{"equipmentId": 91, "equipmentName": "12.7cm連装高角砲(後期型)", "source": {"shipIds": [317, 320, 322, 327, 328, 329, 344, 354, 355, 419, 420, 434, 435, 437, 477, 478, 487, 547, 665], "upgradeFromItemIds": [10], "questKey": []}}
+{"equipmentId": 92, "equipmentName": "毘式40mm連装機銃", "source": {"shipIds": [184, 405], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 93, "equipmentName": "九七式艦攻(友永隊)", "source": {"shipIds": [196], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 94, "equipmentName": "天山一二型(友永隊)", "source": {"shipIds": [1031], "upgradeFromItemIds": [93], "questKey": []}}
+{"equipmentId": 95, "equipmentName": "潜水艦53cm艦首魚雷(8門)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 96, "equipmentName": "零式艦戦21型(熟練)", "source": {"shipIds": [196, 197], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 97, "equipmentName": "九九式艦爆(熟練)", "source": {"shipIds": [196], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 98, "equipmentName": "九七式艦攻(熟練)", "source": {"shipIds": [197], "upgradeFromItemIds": [16], "questKey": []}}
+{"equipmentId": 99, "equipmentName": "九九式艦爆(江草隊)", "source": {"shipIds": [197], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 100, "equipmentName": "彗星(江草隊)", "source": {"shipIds": [], "upgradeFromItemIds": [99], "questKey": []}}
+{"equipmentId": 101, "equipmentName": "照明弾", "source": {"shipIds": [158, 195, 469], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 102, "equipmentName": "九八式水上偵察機(夜偵)", "source": {"shipIds": [158], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 103, "equipmentName": "試製35.6cm三連装砲", "source": {"shipIds": [], "upgradeFromItemIds": [7], "questKey": []}}
+{"equipmentId": 104, "equipmentName": "35.6cm連装砲(ダズル迷彩)", "source": {"shipIds": [151], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 105, "equipmentName": "試製41cm三連装砲", "source": {"shipIds": [411, 412, 541, 553, 554, 573], "upgradeFromItemIds": [8], "questKey": []}}
+{"equipmentId": 106, "equipmentName": "13号対空電探改", "source": {"shipIds": [200, 320, 321, 326, 330, 346, 357, 408, 418, 419, 426, 537, 538, 542, 548, 557, 558, 578, 670, 716, 736, 742, 746, 975, 981, 997, 1008, 1034, 1046], "upgradeFromItemIds": [27], "questKey": []}}
+{"equipmentId": 107, "equipmentName": "艦隊司令部施設", "source": {"shipIds": [321], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 108, "equipmentName": "熟練艦載機整備員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 109, "equipmentName": "零戦52型丙(六〇一空)", "source": {"shipIds": [406, 429, 430], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 110, "equipmentName": "烈風(六〇一空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 111, "equipmentName": "彗星(六〇一空)", "source": {"shipIds": [406, 429], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 112, "equipmentName": "天山(六〇一空)", "source": {"shipIds": [406, 429], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 113, "equipmentName": "流星(六〇一空)", "source": {"shipIds": [430], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 114, "equipmentName": "38cm連装砲改", "source": {"shipIds": [178], "upgradeFromItemIds": [76], "questKey": []}}
+{"equipmentId": 115, "equipmentName": "Ar196改", "source": {"shipIds": [176, 178], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 116, "equipmentName": "一式徹甲弾", "source": {"shipIds": [], "upgradeFromItemIds": [36], "questKey": []}}
+{"equipmentId": 117, "equipmentName": "試製46cm連装砲", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 118, "equipmentName": "紫雲", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 119, "equipmentName": "14cm連装砲", "source": {"shipIds": [154, 293, 343, 356, 465, 581, 634, 635, 639, 640, 690], "upgradeFromItemIds": [4], "questKey": []}}
+{"equipmentId": 120, "equipmentName": "91式高射装置", "source": {"shipIds": [419], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 121, "equipmentName": "94式高射装置", "source": {"shipIds": [426, 428, 963, 968], "upgradeFromItemIds": [120], "questKey": []}}
+{"equipmentId": 122, "equipmentName": "10cm連装高角砲+高射装置", "source": {"shipIds": [330, 346, 357, 421, 422, 423, 532, 533, 537, 538, 656, 963, 968, 1041, 1046], "upgradeFromItemIds": [3, 121], "questKey": []}}
+{"equipmentId": 123, "equipmentName": "SKC34 20.3cm連装砲", "source": {"shipIds": [176, 177], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 124, "equipmentName": "FuMO25 レーダー", "source": {"shipIds": [177], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 125, "equipmentName": "61cm三連装(酸素)魚雷", "source": {"shipIds": [238, 239, 240, 241, 390, 418, 420, 426, 434, 435, 437, 647, 666, 729, 959, 986, 987], "upgradeFromItemIds": [13], "questKey": []}}
+{"equipmentId": 126, "equipmentName": "WG42 (Wurfgerät 42)", "source": {"shipIds": [431], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 127, "equipmentName": "試製FaT仕様九五式酸素魚雷改", "source": {"shipIds": [436], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 128, "equipmentName": "試製51cm連装砲", "source": {"shipIds": [546], "upgradeFromItemIds": [276], "questKey": []}}
+{"equipmentId": 129, "equipmentName": "熟練見張員", "source": {"shipIds": [345, 349, 427, 649], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 130, "equipmentName": "12.7cm高角砲+高射装置", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 131, "equipmentName": "25mm三連装機銃 集中配備", "source": {"shipIds": [418, 428, 487, 548, 578], "upgradeFromItemIds": [40], "questKey": []}}
+{"equipmentId": 132, "equipmentName": "零式水中聴音機", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 133, "equipmentName": "381mm/50 三連装砲", "source": {"shipIds": [441, 442], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 134, "equipmentName": "OTO 152mm三連装速射砲", "source": {"shipIds": [441, 442, 446, 447], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 135, "equipmentName": "90mm単装高角砲", "source": {"shipIds": [446, 447], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 136, "equipmentName": "プリエーゼ式水中防御隔壁", "source": {"shipIds": [441, 442], "upgradeFromItemIds": [73], "questKey": []}}
+{"equipmentId": 137, "equipmentName": "381mm/50 三連装砲改", "source": {"shipIds": [446, 447], "upgradeFromItemIds": [133], "questKey": []}}
+{"equipmentId": 138, "equipmentName": "二式大艇", "source": {"shipIds": [450], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 139, "equipmentName": "15.2cm連装砲改", "source": {"shipIds": [662], "upgradeFromItemIds": [65], "questKey": []}}
+{"equipmentId": 140, "equipmentName": "96式150cm探照灯", "source": {"shipIds": [], "upgradeFromItemIds": [74], "questKey": []}}
+{"equipmentId": 141, "equipmentName": "32号対水上電探改", "source": {"shipIds": [], "upgradeFromItemIds": [31], "questKey": []}}
+{"equipmentId": 142, "equipmentName": "15m二重測距儀+21号電探改二", "source": {"shipIds": [546], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 143, "equipmentName": "九七式艦攻(村田隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 144, "equipmentName": "天山一二型(村田隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 145, "equipmentName": "戦闘糧食", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 146, "equipmentName": "洋上補給", "source": {"shipIds": [352, 460], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 147, "equipmentName": "120mm/50 連装砲", "source": {"shipIds": [347, 443, 575, 580, 614, 619, 653, 658], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 148, "equipmentName": "試製南山", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 149, "equipmentName": "四式水中聴音機", "source": {"shipIds": [], "upgradeFromItemIds": [46], "questKey": []}}
+{"equipmentId": 150, "equipmentName": "秋刀魚の缶詰", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 151, "equipmentName": "試製景雲(艦偵型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 152, "equipmentName": "零式艦戦52型(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [182], "questKey": []}}
+{"equipmentId": 153, "equipmentName": "零戦52型丙(付岩井小隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 154, "equipmentName": "零戦62型(爆戦/岩井隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 155, "equipmentName": "零戦21型(付岩本小隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 156, "equipmentName": "零戦52型甲(付岩本小隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 157, "equipmentName": "零式艦戦53型(岩本隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 158, "equipmentName": "Bf109T改", "source": {"shipIds": [432], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 159, "equipmentName": "Fw190T改", "source": {"shipIds": [353], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 160, "equipmentName": "10.5cm連装砲", "source": {"shipIds": [353, 432], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 161, "equipmentName": "16inch三連装砲 Mk.7", "source": {"shipIds": [360, 440], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 162, "equipmentName": "203mm/53 連装砲", "source": {"shipIds": [358, 361, 448, 449, 496], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 163, "equipmentName": "Ro.43水偵", "source": {"shipIds": [358], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 164, "equipmentName": "Ro.44水上戦闘機", "source": {"shipIds": [361, 496], "upgradeFromItemIds": [163], "questKey": []}}
+{"equipmentId": 165, "equipmentName": "二式水戦改", "source": {"shipIds": [], "upgradeFromItemIds": [25], "questKey": []}}
+{"equipmentId": 166, "equipmentName": "大発動艇(八九式中戦車&陸戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [68], "questKey": []}}
+{"equipmentId": 167, "equipmentName": "特二式内火艇", "source": {"shipIds": [], "upgradeFromItemIds": [166], "questKey": []}}
+{"equipmentId": 168, "equipmentName": "九六式陸攻", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 169, "equipmentName": "一式陸攻", "source": {"shipIds": [], "upgradeFromItemIds": [168], "questKey": []}}
+{"equipmentId": 170, "equipmentName": "一式陸攻(野中隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 171, "equipmentName": "OS2U", "source": {"shipIds": [360, 937, 938], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 172, "equipmentName": "5inch連装砲 Mk.28 mod.2", "source": {"shipIds": [360, 440], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 173, "equipmentName": "Bofors 40mm四連装機関砲", "source": {"shipIds": [360, 579, 630], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 174, "equipmentName": "53cm連装魚雷", "source": {"shipIds": [363, 370, 471, 472, 473, 474, 475, 476, 478, 591, 592, 694], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 175, "equipmentName": "雷電", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 176, "equipmentName": "三式戦 飛燕", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 177, "equipmentName": "三式戦 飛燕(飛行第244戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [185], "questKey": []}}
+{"equipmentId": 178, "equipmentName": "PBY-5A Catalina", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 179, "equipmentName": "試製61cm六連装(酸素)魚雷", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 180, "equipmentName": "一式陸攻 二二型甲", "source": {"shipIds": [], "upgradeFromItemIds": [169], "questKey": []}}
+{"equipmentId": 181, "equipmentName": "零式艦戦32型", "source": {"shipIds": [], "upgradeFromItemIds": [20], "questKey": []}}
+{"equipmentId": 182, "equipmentName": "零式艦戦32型(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [96], "questKey": []}}
+{"equipmentId": 183, "equipmentName": "16inch三連装砲 Mk.7+GFCS", "source": {"shipIds": [], "upgradeFromItemIds": [161], "questKey": []}}
+{"equipmentId": 184, "equipmentName": "Re.2001 OR改", "source": {"shipIds": [365, 444], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 185, "equipmentName": "三式戦 飛燕一型丁", "source": {"shipIds": [], "upgradeFromItemIds": [176], "questKey": []}}
+{"equipmentId": 186, "equipmentName": "一式陸攻 三四型", "source": {"shipIds": [], "upgradeFromItemIds": [180], "questKey": []}}
+{"equipmentId": 187, "equipmentName": "銀河", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 188, "equipmentName": "Re.2001 G改", "source": {"shipIds": [365], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 189, "equipmentName": "Re.2005 改", "source": {"shipIds": [], "upgradeFromItemIds": [316], "questKey": []}}
+{"equipmentId": 190, "equipmentName": "38.1cm Mk.I連装砲", "source": {"shipIds": [364, 439, 733, 927, 1022], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 191, "equipmentName": "QF 2ポンド8連装ポンポン砲", "source": {"shipIds": [364, 393], "upgradeFromItemIds": [92], "questKey": []}}
+{"equipmentId": 192, "equipmentName": "38.1cm Mk.I/N連装砲改", "source": {"shipIds": [], "upgradeFromItemIds": [190], "questKey": []}}
+{"equipmentId": 193, "equipmentName": "特大発動艇", "source": {"shipIds": [], "upgradeFromItemIds": [68], "questKey": []}}
+{"equipmentId": 194, "equipmentName": "Laté 298B", "source": {"shipIds": [372, 491], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 195, "equipmentName": "SBD", "source": {"shipIds": [438, 603, 704, 931], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 196, "equipmentName": "TBD", "source": {"shipIds": [433, 603], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 197, "equipmentName": "F4F-3", "source": {"shipIds": [433, 603, 931], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 198, "equipmentName": "F4F-4", "source": {"shipIds": [438, 704, 723, 1023, 1025], "upgradeFromItemIds": [197], "questKey": []}}
+{"equipmentId": 199, "equipmentName": "噴式景雲改", "source": {"shipIds": [], "upgradeFromItemIds": [151], "questKey": []}}
+{"equipmentId": 200, "equipmentName": "橘花改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 201, "equipmentName": "紫電一一型", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 202, "equipmentName": "紫電二一型 紫電改", "source": {"shipIds": [], "upgradeFromItemIds": [201], "questKey": []}}
+{"equipmentId": 203, "equipmentName": "艦本新設計 増設バルジ(中型艦)", "source": {"shipIds": [], "upgradeFromItemIds": [72], "questKey": []}}
+{"equipmentId": 204, "equipmentName": "艦本新設計 増設バルジ(大型艦)", "source": {"shipIds": [], "upgradeFromItemIds": [73], "questKey": []}}
+{"equipmentId": 205, "equipmentName": "F6F-3", "source": {"shipIds": [549, 930, 1028], "upgradeFromItemIds": [198], "questKey": []}}
+{"equipmentId": 206, "equipmentName": "F6F-5", "source": {"shipIds": [], "upgradeFromItemIds": [205], "questKey": []}}
+{"equipmentId": 207, "equipmentName": "瑞雲(六三一空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 208, "equipmentName": "晴嵐(六三一空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 209, "equipmentName": "彩雲(輸送用分解済)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 210, "equipmentName": "潜水艦搭載電探&水防式望遠鏡", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 211, "equipmentName": "潜水艦搭載電探&逆探(E27)", "source": {"shipIds": [374], "upgradeFromItemIds": [210], "questKey": []}}
+{"equipmentId": 212, "equipmentName": "彩雲(東カロリン空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 213, "equipmentName": "後期型艦首魚雷(6門)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 214, "equipmentName": "熟練聴音員+後期型艦首魚雷(6門)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 215, "equipmentName": "Ro.44水上戦闘機bis", "source": {"shipIds": [], "upgradeFromItemIds": [164], "questKey": []}}
+{"equipmentId": 216, "equipmentName": "二式水戦改(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 217, "equipmentName": "強風改", "source": {"shipIds": [], "upgradeFromItemIds": [165], "questKey": []}}
+{"equipmentId": 218, "equipmentName": "四式戦 疾風", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 219, "equipmentName": "零式艦戦63型(爆戦)", "source": {"shipIds": [], "upgradeFromItemIds": [60], "questKey": []}}
+{"equipmentId": 220, "equipmentName": "8cm高角砲改+増設機銃", "source": {"shipIds": [], "upgradeFromItemIds": [66], "questKey": []}}
+{"equipmentId": 221, "equipmentName": "一式戦 隼II型", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 222, "equipmentName": "一式戦 隼III型甲", "source": {"shipIds": [], "upgradeFromItemIds": [221], "questKey": []}}
+{"equipmentId": 223, "equipmentName": "一式戦 隼III型甲(54戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 224, "equipmentName": "爆装一式戦 隼III型改(65戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 225, "equipmentName": "一式戦 隼II型(64戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 226, "equipmentName": "九五式爆雷", "source": {"shipIds": [242, 243, 376, 383, 384, 385, 386, 497, 556, 559, 616, 617, 666, 678, 679, 684, 685, 686, 688, 700, 714, 717, 729, 730, 909, 910, 926], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 227, "equipmentName": "二式爆雷", "source": {"shipIds": [648, 1033], "upgradeFromItemIds": [226], "questKey": []}}
+{"equipmentId": 228, "equipmentName": "九六式艦戦改", "source": {"shipIds": [521, 526], "upgradeFromItemIds": [19], "questKey": []}}
+{"equipmentId": 229, "equipmentName": "12.7cm単装高角砲(後期型)", "source": {"shipIds": [200, 216, 220, 224, 226, 252, 289, 477, 488, 641, 642, 643, 644, 702, 703, 706, 708, 736, 742, 746, 992, 993, 994, 997, 1044], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 230, "equipmentName": "特大発動艇+戦車第11連隊", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 231, "equipmentName": "30.5cm三連装砲", "source": {"shipIds": [511], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 232, "equipmentName": "30.5cm三連装砲改", "source": {"shipIds": [512, 513], "upgradeFromItemIds": [231], "questKey": []}}
+{"equipmentId": 233, "equipmentName": "F4U-1D", "source": {"shipIds": [397, 1030], "upgradeFromItemIds": [277], "questKey": []}}
+{"equipmentId": 234, "equipmentName": "15.5cm三連装副砲改", "source": {"shipIds": [], "upgradeFromItemIds": [12, 235], "questKey": []}}
+{"equipmentId": 235, "equipmentName": "15.5cm三連装砲改", "source": {"shipIds": [], "upgradeFromItemIds": [5, 234], "questKey": []}}
+{"equipmentId": 236, "equipmentName": "41cm三連装砲改", "source": {"shipIds": [], "upgradeFromItemIds": [105], "questKey": []}}
+{"equipmentId": 237, "equipmentName": "瑞雲(六三四空/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [81], "questKey": []}}
+{"equipmentId": 238, "equipmentName": "零式水上偵察機11型乙", "source": {"shipIds": [488], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 239, "equipmentName": "零式水上偵察機11型乙(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 240, "equipmentName": "22号対水上電探改四(後期調整型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 241, "equipmentName": "戦闘糧食(特別なおにぎり)", "source": {"shipIds": [], "upgradeFromItemIds": [145], "questKey": []}}
+{"equipmentId": 242, "equipmentName": "Swordfish", "source": {"shipIds": [393, 515, 885, 1027], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 243, "equipmentName": "Swordfish Mk.II(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [242], "questKey": []}}
+{"equipmentId": 244, "equipmentName": "Swordfish Mk.III(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 245, "equipmentName": "38cm四連装砲", "source": {"shipIds": [492, 935], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 246, "equipmentName": "38cm四連装砲改", "source": {"shipIds": [392, 724, 969], "upgradeFromItemIds": [245], "questKey": []}}
+{"equipmentId": 247, "equipmentName": "15.2cm三連装砲", "source": {"shipIds": [392, 492, 724, 969], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 248, "equipmentName": "Skua", "source": {"shipIds": [515], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 249, "equipmentName": "Fulmar", "source": {"shipIds": [393, 885], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 250, "equipmentName": "Spitfire Mk.I", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 251, "equipmentName": "Spitfire Mk.V", "source": {"shipIds": [], "upgradeFromItemIds": [250], "questKey": []}}
+{"equipmentId": 252, "equipmentName": "Seafire Mk.III改", "source": {"shipIds": [], "upgradeFromItemIds": [251], "questKey": []}}
+{"equipmentId": 253, "equipmentName": "Spitfire Mk.IX(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 254, "equipmentName": "F6F-3N", "source": {"shipIds": [707], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 255, "equipmentName": "F6F-5N", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 256, "equipmentName": "TBF", "source": {"shipIds": [396, 704, 723, 925, 930, 931, 1028], "upgradeFromItemIds": [196], "questKey": []}}
+{"equipmentId": 257, "equipmentName": "TBM-3D", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 258, "equipmentName": "夜間作戦航空要員", "source": {"shipIds": [707], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 259, "equipmentName": "夜間作戦航空要員+熟練甲板員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 260, "equipmentName": "Type124 ASDIC", "source": {"shipIds": [394], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 261, "equipmentName": "Type144/147 ASDIC", "source": {"shipIds": [893, 906], "upgradeFromItemIds": [260], "questKey": []}}
+{"equipmentId": 262, "equipmentName": "HF/DF + Type144/147 ASDIC", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 263, "equipmentName": "紫電改(三四三空) 戦闘301", "source": {"shipIds": [], "upgradeFromItemIds": [202], "questKey": []}}
+{"equipmentId": 264, "equipmentName": "紫電改(三四三空) 戦闘701", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 265, "equipmentName": "紫電改(三四三空) 戦闘407", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 266, "equipmentName": "12.7cm連装砲C型改二", "source": {"shipIds": [198, 489, 497, 498, 566, 567, 568, 648, 670, 915, 951, 961, 975], "upgradeFromItemIds": [63], "questKey": []}}
+{"equipmentId": 267, "equipmentName": "12.7cm連装砲D型改二", "source": {"shipIds": [542, 543, 563, 564, 569, 578, 649, 956, 981, 982, 983, 1033, 1034], "upgradeFromItemIds": [266], "questKey": []}}
+{"equipmentId": 268, "equipmentName": "北方迷彩(+北方装備)", "source": {"shipIds": [547], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 269, "equipmentName": "試製東海", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 270, "equipmentName": "東海(九〇一空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 271, "equipmentName": "紫電改四", "source": {"shipIds": [1031], "upgradeFromItemIds": [55], "questKey": []}}
+{"equipmentId": 272, "equipmentName": "遊撃部隊 艦隊司令部", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 273, "equipmentName": "彩雲(偵四)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 274, "equipmentName": "12cm30連装噴進砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [51], "questKey": []}}
+{"equipmentId": 275, "equipmentName": "10cm連装高角砲改+増設機銃", "source": {"shipIds": [546], "upgradeFromItemIds": [71], "questKey": []}}
+{"equipmentId": 276, "equipmentName": "46cm三連装砲改", "source": {"shipIds": [], "upgradeFromItemIds": [9], "questKey": []}}
+{"equipmentId": 277, "equipmentName": "FM-2", "source": {"shipIds": [396, 544, 707], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 278, "equipmentName": "SK レーダー", "source": {"shipIds": [707], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 279, "equipmentName": "SK+SG レーダー", "source": {"shipIds": [], "upgradeFromItemIds": [278], "questKey": []}}
+{"equipmentId": 280, "equipmentName": "QF 4.7inch砲 Mk.XII改", "source": {"shipIds": [394, 519, 520, 893, 901, 906], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 281, "equipmentName": "51cm連装砲", "source": {"shipIds": [], "upgradeFromItemIds": [128], "questKey": []}}
+{"equipmentId": 282, "equipmentName": "130mm B-13連装砲", "source": {"shipIds": [395, 516], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 283, "equipmentName": "533mm 三連装魚雷", "source": {"shipIds": [395, 1001, 1006], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 284, "equipmentName": "5inch単装砲 Mk.30", "source": {"shipIds": [561, 562, 596, 681, 941, 942], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 285, "equipmentName": "61cm三連装(酸素)魚雷後期型", "source": {"shipIds": [1035], "upgradeFromItemIds": [125], "questKey": []}}
+{"equipmentId": 286, "equipmentName": "61cm四連装(酸素)魚雷後期型", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 287, "equipmentName": "三式爆雷投射機 集中配備", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 288, "equipmentName": "試製15cm9連装対潜噴進砲", "source": {"shipIds": [1040], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 289, "equipmentName": "35.6cm三連装砲改(ダズル迷彩仕様)", "source": {"shipIds": [], "upgradeFromItemIds": [103, 104], "questKey": []}}
+{"equipmentId": 290, "equipmentName": "41cm三連装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [236], "questKey": []}}
+{"equipmentId": 291, "equipmentName": "彗星二二型(六三四空)", "source": {"shipIds": [553], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 292, "equipmentName": "彗星二二型(六三四空/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 293, "equipmentName": "12cm単装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [1], "questKey": []}}
+{"equipmentId": 294, "equipmentName": "12.7cm連装砲A型改二", "source": {"shipIds": [647, 666, 959, 987], "upgradeFromItemIds": [297], "questKey": []}}
+{"equipmentId": 295, "equipmentName": "12.7cm連装砲A型改三(戦時改修)+高射装置", "source": {"shipIds": [], "upgradeFromItemIds": [294], "questKey": []}}
+{"equipmentId": 296, "equipmentName": "12.7cm連装砲B型改四(戦時改修)+高射装置", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 297, "equipmentName": "12.7cm連装砲A型", "source": {"shipIds": [9, 10, 11, 12, 32, 33, 201, 202, 203, 204, 205, 206, 368, 486, 631, 700, 729, 964], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 298, "equipmentName": "16inch Mk.I三連装砲", "source": {"shipIds": [571, 572], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 299, "equipmentName": "16inch Mk.I三連装砲+AFCT改", "source": {"shipIds": [576, 577], "upgradeFromItemIds": [298], "questKey": []}}
+{"equipmentId": 300, "equipmentName": "16inch Mk.I三連装砲改+FCR type284", "source": {"shipIds": [], "upgradeFromItemIds": [299], "questKey": []}}
+{"equipmentId": 301, "equipmentName": "20連装7inch UP Rocket Launchers", "source": {"shipIds": [576, 577], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 302, "equipmentName": "九七式艦攻(九三一空/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 303, "equipmentName": "Bofors 15.2cm連装砲 Model 1930", "source": {"shipIds": [574, 579, 630], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 304, "equipmentName": "S9 Osprey", "source": {"shipIds": [574, 630], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 305, "equipmentName": "Ju87C改二(KMX搭載機)", "source": {"shipIds": [536], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 306, "equipmentName": "Ju87C改二(KMX搭載機/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 307, "equipmentName": "GFCS Mk.37", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 308, "equipmentName": "5inch単装砲 Mk.30改+GFCS Mk.37", "source": {"shipIds": [], "upgradeFromItemIds": [313], "questKey": []}}
+{"equipmentId": 309, "equipmentName": "甲標的 丙型", "source": {"shipIds": [], "upgradeFromItemIds": [41], "questKey": []}}
+{"equipmentId": 310, "equipmentName": "14cm連装砲改", "source": {"shipIds": [586], "upgradeFromItemIds": [119], "questKey": []}}
+{"equipmentId": 311, "equipmentName": "二式陸上偵察機", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 312, "equipmentName": "二式陸上偵察機(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 313, "equipmentName": "5inch単装砲 Mk.30改", "source": {"shipIds": [689, 692, 726, 737, 920, 1040], "upgradeFromItemIds": [284], "questKey": []}}
+{"equipmentId": 314, "equipmentName": "533mm五連装魚雷(初期型)", "source": {"shipIds": [562, 596, 726, 737], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 315, "equipmentName": "SG レーダー(初期型)", "source": {"shipIds": [689, 692, 697, 918, 937, 938, 941, 942, 1496], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 316, "equipmentName": "Re.2001 CB改", "source": {"shipIds": [], "upgradeFromItemIds": [184], "questKey": []}}
+{"equipmentId": 317, "equipmentName": "三式弾改", "source": {"shipIds": [], "upgradeFromItemIds": [35], "questKey": []}}
+{"equipmentId": 318, "equipmentName": "41cm連装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [236], "questKey": []}}
+{"equipmentId": 319, "equipmentName": "彗星一二型(六三四空/三号爆弾搭載機)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 320, "equipmentName": "彗星一二型(三一号光電管爆弾搭載機)", "source": {"shipIds": [], "upgradeFromItemIds": [57], "questKey": []}}
+{"equipmentId": 322, "equipmentName": "瑞雲改二(六三四空)", "source": {"shipIds": [], "upgradeFromItemIds": [237], "questKey": []}}
+{"equipmentId": 323, "equipmentName": "瑞雲改二(六三四空/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 324, "equipmentName": "オ号観測機改", "source": {"shipIds": [554], "upgradeFromItemIds": [69], "questKey": []}}
+{"equipmentId": 325, "equipmentName": "オ号観測機改二", "source": {"shipIds": [], "upgradeFromItemIds": [324], "questKey": []}}
+{"equipmentId": 326, "equipmentName": "S-51J", "source": {"shipIds": [], "upgradeFromItemIds": [325], "questKey": []}}
+{"equipmentId": 327, "equipmentName": "S-51J改", "source": {"shipIds": [], "upgradeFromItemIds": [326], "questKey": []}}
+{"equipmentId": 328, "equipmentName": "35.6cm連装砲改", "source": {"shipIds": [591, 592, 694], "upgradeFromItemIds": [103], "questKey": []}}
+{"equipmentId": 329, "equipmentName": "35.6cm連装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [328], "questKey": []}}
+{"equipmentId": 330, "equipmentName": "16inch Mk.I連装砲", "source": {"shipIds": [601, 913], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 331, "equipmentName": "16inch Mk.V連装砲", "source": {"shipIds": [918, 1496], "upgradeFromItemIds": [330], "questKey": []}}
+{"equipmentId": 332, "equipmentName": "16inch Mk.VIII連装砲改", "source": {"shipIds": [], "upgradeFromItemIds": [331], "questKey": []}}
+{"equipmentId": 333, "equipmentName": "烈風改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 334, "equipmentName": "烈風改(三五二空/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 335, "equipmentName": "烈風改(試製艦載型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 336, "equipmentName": "烈風改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 337, "equipmentName": "烈風改二(一航戦/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 338, "equipmentName": "烈風改二戊型", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 339, "equipmentName": "烈風改二戊型(一航戦/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 340, "equipmentName": "152mm/55 三連装速射砲", "source": {"shipIds": [589, 590], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 341, "equipmentName": "152mm/55 三連装速射砲改", "source": {"shipIds": [691, 693], "upgradeFromItemIds": [340], "questKey": []}}
+{"equipmentId": 342, "equipmentName": "流星改(一航戦)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 343, "equipmentName": "流星改(一航戦/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 344, "equipmentName": "九七式艦攻改 試製三号戊型(空六号電探改装備機)", "source": {"shipIds": [382], "upgradeFromItemIds": [82], "questKey": []}}
+{"equipmentId": 345, "equipmentName": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)", "source": {"shipIds": [], "upgradeFromItemIds": [98], "questKey": []}}
+{"equipmentId": 346, "equipmentName": "二式12cm迫撃砲改", "source": {"shipIds": [616, 626, 717, 900, 948], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 347, "equipmentName": "二式12cm迫撃砲改 集中配備", "source": {"shipIds": [], "upgradeFromItemIds": [346], "questKey": []}}
+{"equipmentId": 348, "equipmentName": "艦載型 四式20cm対地噴進砲", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 349, "equipmentName": "四式20cm対地噴進砲 集中配備", "source": {"shipIds": [], "upgradeFromItemIds": [348], "questKey": []}}
+{"equipmentId": 350, "equipmentName": "Me163B", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 351, "equipmentName": "試製 秋水", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 352, "equipmentName": "秋水", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 353, "equipmentName": "Fw190 A-5改(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 354, "equipmentName": "Fw190 D-9", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 355, "equipmentName": "M4A1 DD", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 356, "equipmentName": "8inch三連装砲 Mk.9", "source": {"shipIds": [595, 600, 655, 660, 923, 928, 1005, 1010], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 357, "equipmentName": "8inch三連装砲 Mk.9 mod.2", "source": {"shipIds": [], "upgradeFromItemIds": [356], "questKey": []}}
+{"equipmentId": 358, "equipmentName": "5inch 単装高角砲群", "source": {"shipIds": [600, 660, 928, 1010], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 359, "equipmentName": "6inch 連装速射砲 Mk.XXI", "source": {"shipIds": [613, 618], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 360, "equipmentName": "Bofors 15cm連装速射砲 Mk.9 Model 1938", "source": {"shipIds": [604], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 361, "equipmentName": "Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938", "source": {"shipIds": [609], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 362, "equipmentName": "5inch連装両用砲(集中配備)", "source": {"shipIds": [597, 696, 747, 991], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 363, "equipmentName": "GFCS Mk.37+5inch連装両用砲(集中配備)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 364, "equipmentName": "甲標的 丁型改(蛟龍改)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 365, "equipmentName": "一式徹甲弾改", "source": {"shipIds": [], "upgradeFromItemIds": [116], "questKey": []}}
+{"equipmentId": 366, "equipmentName": "12.7cm連装砲D型改三", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 367, "equipmentName": "Swordfish(水上機型)", "source": {"shipIds": [927], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 368, "equipmentName": "Swordfish Mk.III改(水上機型)", "source": {"shipIds": [], "upgradeFromItemIds": [304], "questKey": []}}
+{"equipmentId": 369, "equipmentName": "Swordfish Mk.III改(水上機型/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 370, "equipmentName": "Swordfish Mk.II改(水偵型)", "source": {"shipIds": [], "upgradeFromItemIds": [367], "questKey": []}}
+{"equipmentId": 371, "equipmentName": "Fairey Seafox改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 372, "equipmentName": "天山一二型甲", "source": {"shipIds": [], "upgradeFromItemIds": [17], "questKey": []}}
+{"equipmentId": 373, "equipmentName": "天山一二型甲改(空六号電探改装備機)", "source": {"shipIds": [], "upgradeFromItemIds": [344], "questKey": []}}
+{"equipmentId": 374, "equipmentName": "天山一二型甲改(熟練/空六号電探改装備機)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 375, "equipmentName": "XF5U", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 376, "equipmentName": "533mm五連装魚雷(後期型)", "source": {"shipIds": [], "upgradeFromItemIds": [314], "questKey": []}}
+{"equipmentId": 377, "equipmentName": "RUR-4A Weapon Alpha改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 378, "equipmentName": "対潜短魚雷(試作初期型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 379, "equipmentName": "12.7cm単装高角砲改二", "source": {"shipIds": [656], "upgradeFromItemIds": [229], "questKey": []}}
+{"equipmentId": 380, "equipmentName": "12.7cm連装高角砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [91], "questKey": []}}
+{"equipmentId": 381, "equipmentName": "16inch三連装砲 Mk.6", "source": {"shipIds": [602, 654, 932, 933], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 382, "equipmentName": "12cm単装高角砲E型", "source": {"shipIds": [377, 378, 379, 383, 384, 385, 386, 551, 552, 611, 612, 616, 617, 678, 679, 684, 685, 701, 712, 714, 728, 730, 895, 904, 905, 909, 910, 921, 922, 926], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 383, "equipmentName": "後期型53cm艦首魚雷(8門)", "source": {"shipIds": [], "upgradeFromItemIds": [95], "questKey": []}}
+{"equipmentId": 384, "equipmentName": "後期型潜水艦搭載電探&逆探", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 385, "equipmentName": "16inch三連装砲 Mk.6 mod.2", "source": {"shipIds": [659, 697, 937, 938], "upgradeFromItemIds": [381], "questKey": []}}
+{"equipmentId": 386, "equipmentName": "6inch三連装速射砲 Mk.16", "source": {"shipIds": [598, 615, 896, 952], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 387, "equipmentName": "6inch三連装速射砲 Mk.16 mod.2", "source": {"shipIds": [620, 711, 722, 734, 957], "upgradeFromItemIds": [386], "questKey": []}}
+{"equipmentId": 388, "equipmentName": "銀河(江草隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 389, "equipmentName": "TBM-3W+3S", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 390, "equipmentName": "16inch三連装砲 Mk.6+GFCS", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 391, "equipmentName": "九九式艦爆二二型", "source": {"shipIds": [], "upgradeFromItemIds": [23], "questKey": []}}
+{"equipmentId": 392, "equipmentName": "九九式艦爆二二型(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [391], "questKey": []}}
+{"equipmentId": 393, "equipmentName": "120mm/50 連装砲 mod.1936", "source": {"shipIds": [], "upgradeFromItemIds": [147], "questKey": []}}
+{"equipmentId": 394, "equipmentName": "120mm/50 連装砲改 A.mod.1937", "source": {"shipIds": [], "upgradeFromItemIds": [393], "questKey": []}}
+{"equipmentId": 395, "equipmentName": "深山", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 396, "equipmentName": "深山改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 397, "equipmentName": "現地改装12.7cm連装高角砲", "source": {"shipIds": [651], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 398, "equipmentName": "現地改装10cm連装高角砲", "source": {"shipIds": [651], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 399, "equipmentName": "6inch Mk.XXIII三連装砲", "source": {"shipIds": [514, 705], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 400, "equipmentName": "533mm 三連装魚雷(53-39型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 401, "equipmentName": "Do 17 Z-2", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 402, "equipmentName": "寒冷地装備&甲板要員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 403, "equipmentName": "四式重爆 飛龍", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 404, "equipmentName": "四式重爆 飛龍(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [403], "questKey": []}}
+{"equipmentId": 405, "equipmentName": "Do 217 E-5+Hs293初期型", "source": {"shipIds": [], "upgradeFromItemIds": [401], "questKey": []}}
+{"equipmentId": 406, "equipmentName": "Do 217 K-2+Fritz-X", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 407, "equipmentName": "15.2cm連装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [139], "questKey": []}}
+{"equipmentId": 408, "equipmentName": "装甲艇(AB艇)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 409, "equipmentName": "武装大発", "source": {"shipIds": [], "upgradeFromItemIds": [68], "questKey": []}}
+{"equipmentId": 410, "equipmentName": "21号対空電探改二", "source": {"shipIds": [], "upgradeFromItemIds": [30], "questKey": []}}
+{"equipmentId": 411, "equipmentName": "42号対空電探改二", "source": {"shipIds": [694], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 412, "equipmentName": "水雷戦隊 熟練見張員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 413, "equipmentName": "精鋭水雷戦隊 司令部", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 414, "equipmentName": "SOC Seagull", "source": {"shipIds": [660, 711, 722, 734, 928, 1010], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 415, "equipmentName": "SO3C Seamew改", "source": {"shipIds": [], "upgradeFromItemIds": [414], "questKey": []}}
+{"equipmentId": 416, "equipmentName": "零式艦戦21型(台南空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 417, "equipmentName": "零式艦戦32型(台南空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 418, "equipmentName": "零式艦戦22型(251空)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 419, "equipmentName": "SBD-5", "source": {"shipIds": [723, 925, 1023, 1025], "upgradeFromItemIds": [195], "questKey": []}}
+{"equipmentId": 420, "equipmentName": "SB2C-3", "source": {"shipIds": [], "upgradeFromItemIds": [419], "questKey": []}}
+{"equipmentId": 421, "equipmentName": "SB2C-5", "source": {"shipIds": [], "upgradeFromItemIds": [420], "questKey": []}}
+{"equipmentId": 422, "equipmentName": "FR-1 Fireball", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 423, "equipmentName": "Fulmar(戦闘偵察/熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [249], "questKey": []}}
+{"equipmentId": 424, "equipmentName": "Barracuda Mk.II", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 425, "equipmentName": "Barracuda Mk.III", "source": {"shipIds": [], "upgradeFromItemIds": [424], "questKey": []}}
+{"equipmentId": 426, "equipmentName": "305mm/46 連装砲", "source": {"shipIds": [877], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 427, "equipmentName": "305mm/46 三連装砲", "source": {"shipIds": [877], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 428, "equipmentName": "320mm/44 連装砲", "source": {"shipIds": [878], "upgradeFromItemIds": [426], "questKey": []}}
+{"equipmentId": 429, "equipmentName": "320mm/44 三連装砲", "source": {"shipIds": [878, 879], "upgradeFromItemIds": [427], "questKey": []}}
+{"equipmentId": 430, "equipmentName": "65mm/64 単装速射砲改", "source": {"shipIds": [879], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 431, "equipmentName": "SM.79", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 432, "equipmentName": "SM.79 bis", "source": {"shipIds": [], "upgradeFromItemIds": [431], "questKey": []}}
+{"equipmentId": 433, "equipmentName": "SM.79 bis(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 434, "equipmentName": "Corsair Mk.II", "source": {"shipIds": [713], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 435, "equipmentName": "Corsair Mk.II(Ace)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 436, "equipmentName": "大発動艇(II号戦車/北アフリカ仕様)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 437, "equipmentName": "試製 陣風", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 438, "equipmentName": "三式水中探信儀改", "source": {"shipIds": [], "upgradeFromItemIds": [47], "questKey": []}}
+{"equipmentId": 439, "equipmentName": "Hedgehog(初期型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 440, "equipmentName": "21inch艦首魚雷発射管6門(初期型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 441, "equipmentName": "21inch艦首魚雷発射管6門(後期型)", "source": {"shipIds": [], "upgradeFromItemIds": [440], "questKey": []}}
+{"equipmentId": 442, "equipmentName": "潜水艦後部魚雷発射管4門(初期型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 443, "equipmentName": "潜水艦後部魚雷発射管4門(後期型)", "source": {"shipIds": [], "upgradeFromItemIds": [442], "questKey": []}}
+{"equipmentId": 444, "equipmentName": "四式重爆 飛龍+イ号一型甲 誘導弾", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 445, "equipmentName": "二式複戦 屠龍", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 446, "equipmentName": "二式複戦 屠龍 丙型", "source": {"shipIds": [], "upgradeFromItemIds": [445], "questKey": []}}
+{"equipmentId": 447, "equipmentName": "零式艦戦64型(複座KMX搭載機)", "source": {"shipIds": [889], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 449, "equipmentName": "特大発動艇+一式砲戦車", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 450, "equipmentName": "13号対空電探改(後期型)", "source": {"shipIds": [], "upgradeFromItemIds": [106], "questKey": []}}
+{"equipmentId": 451, "equipmentName": "三式指揮連絡機改", "source": {"shipIds": [948], "upgradeFromItemIds": [70], "questKey": []}}
+{"equipmentId": 452, "equipmentName": "キ96", "source": {"shipIds": [], "upgradeFromItemIds": [446], "questKey": []}}
+{"equipmentId": 453, "equipmentName": "キ102乙", "source": {"shipIds": [], "upgradeFromItemIds": [452], "questKey": []}}
+{"equipmentId": 454, "equipmentName": "キ102乙改+イ号一型乙 誘導弾", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 455, "equipmentName": "試製 長12.7cm連装砲A型改四", "source": {"shipIds": [], "upgradeFromItemIds": [294], "questKey": []}}
+{"equipmentId": 456, "equipmentName": "SG レーダー(後期型)", "source": {"shipIds": [], "upgradeFromItemIds": [315], "questKey": []}}
+{"equipmentId": 457, "equipmentName": "後期型艦首魚雷(4門)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 458, "equipmentName": "後期型電探&逆探+シュノーケル装備", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 459, "equipmentName": "B-25", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 460, "equipmentName": "15m二重測距儀改+21号電探改二+熟練射撃指揮所", "source": {"shipIds": [], "upgradeFromItemIds": [142], "questKey": []}}
+{"equipmentId": 461, "equipmentName": "熟練聴音員+後期型艦首魚雷(4門)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 463, "equipmentName": "15.5cm三連装副砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [234], "questKey": []}}
+{"equipmentId": 464, "equipmentName": "10cm連装高角砲群 集中配備", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 465, "equipmentName": "試製51cm三連装砲", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 466, "equipmentName": "流星改(熟練)", "source": {"shipIds": [1031], "upgradeFromItemIds": [52], "questKey": []}}
+{"equipmentId": 467, "equipmentName": "5inch連装砲(副砲配置) 集中配備", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 468, "equipmentName": "38cm四連装砲改 deux", "source": {"shipIds": [], "upgradeFromItemIds": [246], "questKey": []}}
+{"equipmentId": 469, "equipmentName": "零式水上偵察機11型乙改(夜偵)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 470, "equipmentName": "12.7cm連装砲C型改三", "source": {"shipIds": [], "upgradeFromItemIds": [266], "questKey": []}}
+{"equipmentId": 471, "equipmentName": "Loire 130M", "source": {"shipIds": [724, 970], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 472, "equipmentName": "Mk.32 対潜魚雷(Mk.2落射機)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 473, "equipmentName": "F4U-2 Night Corsair", "source": {"shipIds": [], "upgradeFromItemIds": [233], "questKey": []}}
+{"equipmentId": 474, "equipmentName": "F4U-4", "source": {"shipIds": [], "upgradeFromItemIds": [473], "questKey": []}}
+{"equipmentId": 475, "equipmentName": "AU-1", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 476, "equipmentName": "F4U-7", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 477, "equipmentName": "熟練甲板要員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 478, "equipmentName": "熟練甲板要員+航空整備員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 479, "equipmentName": "Mosquito FB Mk.VI", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 480, "equipmentName": "Mosquito PR Mk.IV", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 481, "equipmentName": "Mosquito TR Mk.33", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 482, "equipmentName": "特大発動艇+Ⅲ号戦車(北アフリカ仕様)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 483, "equipmentName": "三式弾改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 484, "equipmentName": "四式重爆 飛龍(熟練)+イ号一型甲 誘導弾", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 485, "equipmentName": "強風改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 486, "equipmentName": "零式艦戦64型(制空戦闘機仕様)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 487, "equipmentName": "零式艦戦64型(熟練爆戦)", "source": {"shipIds": [], "upgradeFromItemIds": [486], "questKey": []}}
+{"equipmentId": 488, "equipmentName": "二式爆雷改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 489, "equipmentName": "一式戦 隼II型改(20戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 490, "equipmentName": "試製 夜間瑞雲(攻撃装備)", "source": {"shipIds": [], "upgradeFromItemIds": [322], "questKey": []}}
+{"equipmentId": 491, "equipmentName": "一式戦 隼III型改(熟練/20戦隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 492, "equipmentName": "零戦52型丙(八幡部隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 493, "equipmentName": "一式陸攻(八幡部隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 494, "equipmentName": "特大発動艇+チハ", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 495, "equipmentName": "特大発動艇+チハ改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 496, "equipmentName": "陸軍歩兵部隊", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 497, "equipmentName": "九七式中戦車(チハ)", "source": {"shipIds": [727], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 498, "equipmentName": "九七式中戦車 新砲塔(チハ改)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 499, "equipmentName": "陸軍歩兵部隊+チハ改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 500, "equipmentName": "発煙装置(煙幕)", "source": {"shipIds": [959], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 501, "equipmentName": "発煙装置改(煙幕)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 502, "equipmentName": "35.6cm連装砲改三(ダズル迷彩仕様)", "source": {"shipIds": [], "upgradeFromItemIds": [289], "questKey": []}}
+{"equipmentId": 503, "equipmentName": "35.6cm連装砲改四", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 504, "equipmentName": "銀河(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [187], "questKey": []}}
+{"equipmentId": 505, "equipmentName": "25mm対空機銃増備", "source": {"shipIds": [961], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 506, "equipmentName": "電探装備マスト(13号改+22号電探改四)", "source": {"shipIds": [961], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 507, "equipmentName": "14inch/45 連装砲", "source": {"shipIds": [924, 929, 936], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 508, "equipmentName": "14inch/45 三連装砲", "source": {"shipIds": [924, 929, 936], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 509, "equipmentName": "12cm単装高角砲E型改", "source": {"shipIds": [979], "upgradeFromItemIds": [382], "questKey": []}}
+{"equipmentId": 510, "equipmentName": "Walrus", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 511, "equipmentName": "21inch艦首魚雷発射管4門(初期型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 512, "equipmentName": "21inch艦首魚雷発射管4門(後期型)", "source": {"shipIds": [897], "upgradeFromItemIds": [511], "questKey": []}}
+{"equipmentId": 513, "equipmentName": "阻塞気球", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 514, "equipmentName": "特大発動艇+Ⅲ号戦車J型", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 515, "equipmentName": "Sea Otter", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 516, "equipmentName": "Me 262 A-1a/R1", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 517, "equipmentName": "逆探(E27)+22号対水上電探改四(後期調整型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 518, "equipmentName": "14cm連装砲改二", "source": {"shipIds": [], "upgradeFromItemIds": [310], "questKey": []}}
+{"equipmentId": 519, "equipmentName": "SJレーダー+潜水艦司令塔装備", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 520, "equipmentName": "試製20.3cm(4号)連装砲", "source": {"shipIds": [], "upgradeFromItemIds": [50], "questKey": []}}
+{"equipmentId": 521, "equipmentName": "紫雲(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 522, "equipmentName": "零式小型水上機", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 523, "equipmentName": "零式小型水上機(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [522], "questKey": []}}
+{"equipmentId": 524, "equipmentName": "12cm単装高角砲+25mm機銃増備", "source": {"shipIds": [1003], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 525, "equipmentName": "特四式内火艇", "source": {"shipIds": [], "upgradeFromItemIds": [167], "questKey": []}}
+{"equipmentId": 526, "equipmentName": "特四式内火艇改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 527, "equipmentName": "Type281 レーダー", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 528, "equipmentName": "Type274 射撃管制レーダー", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 529, "equipmentName": "12.7cm連装砲C型改三H", "source": {"shipIds": [], "upgradeFromItemIds": [470], "questKey": []}}
+{"equipmentId": 530, "equipmentName": "35.6cm連装砲改三丙", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 531, "equipmentName": "艦隊通信アンテナ", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 532, "equipmentName": "通信装置&要員", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 533, "equipmentName": "10cm連装高角砲改+高射装置改", "source": {"shipIds": [], "upgradeFromItemIds": [122, 553], "questKey": []}}
+{"equipmentId": 534, "equipmentName": "13.8cm連装砲", "source": {"shipIds": [962], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 535, "equipmentName": "13.8cm連装砲改", "source": {"shipIds": [967], "upgradeFromItemIds": [534], "questKey": []}}
+{"equipmentId": 536, "equipmentName": "15.2cm三連装主砲", "source": {"shipIds": [965, 970], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 537, "equipmentName": "15.2cm三連装主砲改", "source": {"shipIds": [], "upgradeFromItemIds": [536], "questKey": []}}
+{"equipmentId": 538, "equipmentName": "Loire 130M改(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 539, "equipmentName": "SOC Seagull 後期型(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [414], "questKey": []}}
+{"equipmentId": 540, "equipmentName": "零式水上偵察機11型甲改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 541, "equipmentName": "SBD(Yellow Wings)", "source": {"shipIds": [966], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 542, "equipmentName": "TBD(Yellow Wings)", "source": {"shipIds": [966], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 543, "equipmentName": "SBD VS-2(偵察飛行隊)", "source": {"shipIds": [735], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 544, "equipmentName": "SBD VB-2(爆撃飛行隊)", "source": {"shipIds": [735], "upgradeFromItemIds": [541], "questKey": []}}
+{"equipmentId": 545, "equipmentName": "天山一二型甲改二(村田隊/電探装備)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 546, "equipmentName": "試製 震電(局地戦闘機)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 547, "equipmentName": "震電改二(艦戦型改二)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 548, "equipmentName": "震電改三(試製 噴式震電)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 549, "equipmentName": "三式指揮連絡機改二", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 550, "equipmentName": "試製 明星(増加試作機)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 551, "equipmentName": "明星改", "source": {"shipIds": [], "upgradeFromItemIds": [550], "questKey": []}}
+{"equipmentId": 552, "equipmentName": "九九式練爆二二型改(夜間装備実験機)", "source": {"shipIds": [], "upgradeFromItemIds": [551], "questKey": []}}
+{"equipmentId": 553, "equipmentName": "10cm連装高角砲改", "source": {"shipIds": [986, 987], "upgradeFromItemIds": [3], "questKey": []}}
+{"equipmentId": 554, "equipmentName": "九七式艦攻改(北東海軍航空隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 555, "equipmentName": "18cm/57 三連装主砲", "source": {"shipIds": [1001, 1006], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 556, "equipmentName": "10cm/56 単装高角砲(集中配備)", "source": {"shipIds": [1006], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 557, "equipmentName": "零式艦戦62型改(夜間爆戦)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 558, "equipmentName": "零式艦戦62型改(熟練/夜間爆戦)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 559, "equipmentName": "Ju87 D-4(Fliegerass)", "source": {"shipIds": [], "upgradeFromItemIds": [64], "questKey": []}}
+{"equipmentId": 560, "equipmentName": "Bf109 T-3(G)", "source": {"shipIds": [], "upgradeFromItemIds": [158], "questKey": []}}
+{"equipmentId": 561, "equipmentName": "Ho229", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 562, "equipmentName": "Do 217 E-5+TV誘導型 Hs293D", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 564, "equipmentName": "21cm単装主砲", "source": {"shipIds": [738, 739, 998, 999], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 565, "equipmentName": "15cm単装副砲", "source": {"shipIds": [738, 739, 998, 999], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 566, "equipmentName": "10.2cm三連装副砲", "source": {"shipIds": [1022], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 567, "equipmentName": "Sea Gladiator", "source": {"shipIds": [1027], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 568, "equipmentName": "強風改二(熟練)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 569, "equipmentName": "三式爆雷投射機改", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 570, "equipmentName": "流星改(友永隊)", "source": {"shipIds": [], "upgradeFromItemIds": [94], "questKey": []}}
+{"equipmentId": 571, "equipmentName": "53cm連装魚雷改(酸素魚雷)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 572, "equipmentName": "12.7cm単装高角砲改三", "source": {"shipIds": [1035], "upgradeFromItemIds": [379], "questKey": []}}
+{"equipmentId": 573, "equipmentName": "試製 23号電探改三", "source": {"shipIds": [1035], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 574, "equipmentName": "SCレーダー改(後期調整型)", "source": {"shipIds": [1040], "upgradeFromItemIds": [573], "questKey": []}}
+{"equipmentId": 575, "equipmentName": "25mm連装機銃(熟練機銃員分隊)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 576, "equipmentName": "大発動艇(R35&フランス兵)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 577, "equipmentName": "61cm四連装(酸素)魚雷五型改三", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 578, "equipmentName": "SB2U-2", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 579, "equipmentName": "13.8cm単装砲 Modèle 1927", "source": {"shipIds": [1053], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 580, "equipmentName": "55cm三連装魚雷 Modèle 1924", "source": {"shipIds": [1051, 1053], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 581, "equipmentName": "55cm複合配置五連装魚雷 Modèle 1932", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 582, "equipmentName": "20.3cm/50 連装砲 Modèle 1931", "source": {"shipIds": [1051], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 583, "equipmentName": "20.3cm/50 連装砲改(SHS改良弾)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 584, "equipmentName": "Bofors 12cm単装両用砲", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 585, "equipmentName": "PL101(偵察)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 586, "equipmentName": "PL101(爆装)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 587, "equipmentName": "V-156F(SB2U輸出型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
+{"equipmentId": 588, "equipmentName": "G-36A(F4F輸出型)", "source": {"shipIds": [], "upgradeFromItemIds": [], "questKey": []}}
