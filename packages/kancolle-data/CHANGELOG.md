@@ -6,6 +6,8 @@ All notable consumer-visible changes to `@sakura2333/kancolle-data` are document
 
 ### Added
 
+- Added required non-null `developmentAvailable` to unified equipment sources schema 2. The formal value comes from KCWiki `_buildable`, while WikiWiki independently validates the current equipment infobox `備考` marker.
+- Added source diagnostics for KCWiki/WikiWiki development-availability cross-validation; null, non-boolean, and conflicting values stop package generation with a red error.
 - Added improvement detail schema 4 with source-faithful ★0..★MAX `levelExpectations`.
 - Added fixed 11-row route `stepList` data for every normal improvement level and optional MAX conversion.
 - Preserved conditional effect text separately from simple numeric values so consumers do not apply context-specific bonuses globally.
@@ -21,11 +23,12 @@ All notable consumer-visible changes to `@sakura2333/kancolle-data` are document
 
 - Improvement list schema: 2 (unchanged).
 - Improvement detail schema: 4.
-- Consumers that only read existing detail fields remain compatible; schema-aware validators must accept version 4.
+- Equipment sources schema: 2 (`developmentAvailable` is newly required).
+- Consumers that only read existing improvement-detail fields remain compatible; equipment-source consumers must accept the required boolean field.
 
 ### Planned
 
-- Add quest, development, exchange, ranking, and event acquisition methods.
+- Add exchange, ranking, and event acquisition methods.
 - Add additional ship, map, and quest projections when stable schemas are available.
 
 ## [0.2.0] - 2026-06-28

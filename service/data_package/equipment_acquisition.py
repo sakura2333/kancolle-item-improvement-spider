@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import re
 from dataclasses import dataclass, field
 from typing import Iterable, List, Optional, Sequence
@@ -339,15 +340,88 @@ def _page_equipment_id(root, expected_id: int) -> Optional[int]:
     return candidates[0] if candidates else None
 
 
-def _development_flag(root) -> Optional[bool]:
-    text_nodes = root.xpath("//text()[contains(., '開発可') or contains(., '開発不可')]")
-    for text_node in text_nodes:
-        text = normalize_text(str(text_node))
-        if "開発不可" in text:
-            return False
-        if "開発可" in text:
-            return True
+def _equipment_notes_text(root, equipment_id: int) -> Optional[str]:
+    """Return the current equipment infobox's 備考 value.
+
+    WikiWiki pages contain comparison tables, historical prose and comments
+    that mention other equipment's development status. Only the current
+    equipment infobox is valid evidence for this boolean.
+    """
+
+    expected = int(equipment_id)
+    candidates: list[tuple[object, str]] = []
+    for heading in root.xpath("//th"):
+        if normalize_text("".join(heading.itertext())) != "備考":
+            continue
+        table = heading
+        while table is not None and getattr(table, "tag", None) != "table":
+            table = table.getparent()
+        if table is None:
+            continue
+
+        row = heading.getparent()
+        same_row_values = [
+            node_text(value)
+            for value in row.xpath("./td")
+            if node_text(value)
+        ] if row is not None else []
+        if same_row_values:
+            notes = " ".join(same_row_values)
+        else:
+            value_row = row.getnext() if row is not None else None
+            notes = node_text(value_row) if value_row is not None else ""
+        candidates.append((table, notes))
+
+    # Preferred rule: the infobox itself exposes the current equipment No.
+    for table, notes in candidates:
+        table_ids = [
+            int(match.group(1))
+            for candidate in table.xpath(".//th")[:3]
+            for match in _PAGE_ID_RE.finditer(node_text(candidate))
+        ]
+        if expected in table_ids:
+            return notes
+
+    # Compatibility for older/synthetic snapshots: accept the only 備考 row
+    # only when the page-level No. still matches the requested equipment.
+    if len(candidates) == 1 and _page_equipment_id(root, expected) == expected:
+        return candidates[0][1]
     return None
+
+
+def _development_flag(
+    root,
+    equipment_id: int,
+) -> tuple[Optional[bool], dict]:
+    notes = _equipment_notes_text(root, equipment_id)
+    if notes is None:
+        return None, {
+            "status": "unresolved",
+            "reason": "equipment-infobox-missing",
+        }
+    if "開発不可" in notes:
+        return False, {
+            "status": "resolved",
+            "method": "wikiwiki-equipment-infobox-notes",
+            "marker": "開発不可",
+            "rawText": notes,
+        }
+    marker_match = re.search(r"開発(?:実装|解禁)日|開発可(?:能)?", notes)
+    if marker_match:
+        return True, {
+            "status": "resolved",
+            "method": "wikiwiki-equipment-infobox-notes",
+            "marker": marker_match.group(0),
+            "rawText": notes,
+        }
+    # In this infobox, development-capable equipment is explicitly marked.
+    # A present 備考 row without such a marker therefore means unavailable.
+    return False, {
+        "status": "resolved",
+        "method": "wikiwiki-equipment-infobox-marker-absence",
+        "marker": "no-development-marker",
+        "rawText": notes,
+    }
 
 
 def _catalog_id_from_anchor(anchor) -> tuple[int | None, str | None]:
@@ -980,7 +1054,10 @@ def _extract_section_methods(nodes: List) -> List[AcquisitionMethod]:
     seen: set[tuple] = set()
     wrapper = etree.Element("div")
     for node in nodes:
-        wrapper.append(node)
+        # Never detach evidence nodes from the parsed page.  Later source
+        # projections still need the original DOM (notably the development
+        # availability flag in the equipment infobox).
+        wrapper.append(copy.deepcopy(node))
     _extract_container_methods(
         wrapper,
         methods,
@@ -1003,6 +1080,16 @@ def parse_equipment_acquisition_page(
     issues: List[AcquisitionIssue] = []
     if root is None:
         raise ValueError("WikiWiki equipment page could not be parsed as HTML")
+
+    development_available, development_resolution = _development_flag(
+        root, int(equipment_id)
+    )
+    if development_available is None:
+        issues.append(AcquisitionIssue(
+            kind="development-flag-unresolved",
+            message="WikiWiki equipment infobox did not resolve a boolean development flag",
+            evidence=development_resolution,
+        ))
 
     page_equipment_id = _page_equipment_id(root, int(equipment_id))
     if page_equipment_id is None:
@@ -1053,7 +1140,11 @@ def parse_equipment_acquisition_page(
         for method_type in method.types
     })
     unclassified = [method for method in methods if method.types == ["other"]]
-    fatal_issue_kinds = {"equipment-id-mismatch", "missing-page-equipment-id"}
+    fatal_issue_kinds = {
+        "equipment-id-mismatch",
+        "missing-page-equipment-id",
+        "development-flag-unresolved",
+    }
     accepted = not any(issue.kind in fatal_issue_kinds for issue in issues)
     if not methods:
         coverage_status = "missing-section" if heading is None else "empty-section"
@@ -1074,7 +1165,12 @@ def parse_equipment_acquisition_page(
         "pageEquipmentId": page_equipment_id,
         "sectionHeading": section_heading,
         "evidenceScope": evidence_scope,
-        "developmentAvailable": _development_flag(root),
+        **(
+            {"developmentAvailable": development_available}
+            if isinstance(development_available, bool)
+            else {}
+        ),
+        "developmentResolution": development_resolution,
         "currentMethodTypes": current_types,
         "historicalMethodTypes": historical_types,
         "methods": [method.to_json() for method in methods],
@@ -1083,6 +1179,6 @@ def parse_equipment_acquisition_page(
         "issueCount": len(issues),
         "accepted": accepted,
         "coverageStatus": coverage_status,
-        "schemaVersion": 2,
+        "schemaVersion": 3,
     }
     return record, issues

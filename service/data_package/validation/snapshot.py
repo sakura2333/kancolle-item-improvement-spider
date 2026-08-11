@@ -1,14 +1,28 @@
 from __future__ import annotations
 
-import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 from service.data_package.builder import PACKAGE_DIR
+from service.data_package.schema_contract import (
+    DATASET_SCHEMA_VERSIONS,
+    IMPROVEMENT2_DETAIL_SCHEMA_VERSION,
+    IMPROVEMENT2_LIST_SCHEMA_VERSION,
+    IMPROVEMENT2_USEITEM_ICONS_SCHEMA_VERSION,
+)
+from automation.release.consumer_identity import (
+    CURRENT_VARIANT,
+    IMPROVEMENT2_VARIANT,
+    inspect_directory as inspect_consumer_identity,
+)
 
-from .assets import _validate_icons
+from .assets import (
+    _validate_equipment_images,
+    _validate_icons,
+    _validate_useitem_images,
+)
 from .common import QualityGateError, _read_json, _sha256
 from .constants import PUBLIC_DATA_PREFIXES
 from .equipment import (
@@ -42,13 +56,7 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     manifest = _read_json(package_dir / "manifest.json")
     if not isinstance(manifest, dict) or not isinstance(manifest.get("datasets"), dict):
         raise QualityGateError("manifest.json has invalid structure")
-    expected_schemas = {
-        "improvement": 4,
-        "equipmentDropFrom": 1,
-        "equipmentSources": 1,
-        "equipmentSpecialBonuses": 2,
-        "useitemIcons": 1,
-    }
+    expected_schemas = DATASET_SCHEMA_VERSIONS
     for key, expected in expected_schemas.items():
         actual = manifest["datasets"].get(key, {}).get("schemaVersion")
         if actual != expected:
@@ -96,9 +104,9 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     )
     if compatibility_manifest.get("consumer") != "poi-plugin-item-improvement2":
         raise QualityGateError("improvement2 compatibility manifest has invalid consumer")
-    if compatibility_dataset.get("schemaVersion") != 3:
+    if compatibility_dataset.get("schemaVersion") != IMPROVEMENT2_DETAIL_SCHEMA_VERSION:
         raise QualityGateError("improvement2 compatibility manifest must expose schema 3")
-    if compatibility_dataset.get("listSchemaVersion") != 2:
+    if compatibility_dataset.get("listSchemaVersion") != IMPROVEMENT2_LIST_SCHEMA_VERSION:
         raise QualityGateError("improvement2 compatibility list schema must remain 2")
     if compatibility_dataset.get("list") != "improvement/list.json":
         raise QualityGateError("improvement2 compatibility manifest has invalid list path")
@@ -121,21 +129,64 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
     bonus_count, bonus_equipment_count, bonus_type_count, rule_count = _validate_special_bonuses(
         package_dir / "equipment" / "special-bonuses.nedb"
     )
-    icon_ids = _validate_icons(package_dir / "assets" / "useitems")
+    icon_ids = _validate_useitem_images(package_dir / "assets" / "useitem")
     missing_icon_ids = sorted(required_icon_ids - icon_ids)
     if missing_icon_ids:
-        raise QualityGateError(f"required use-item icons are missing: {missing_icon_ids}")
+        raise QualityGateError(f"required canonical use-item WebP assets are missing: {missing_icon_ids}")
     icon_count = len(icon_ids)
     icon_manifest = manifest["datasets"].get("useitemIcons", {})
+    if icon_manifest.get("format") != "webp" or icon_manifest.get("quality") != 93:
+        raise QualityGateError("canonical useitem manifest must declare WebP quality 93")
+    if icon_manifest.get("source") != "official-useitem-card":
+        raise QualityGateError("canonical useitem manifest has invalid source")
     if sorted(icon_manifest.get("requiredIds", [])) != sorted(required_icon_ids):
         raise QualityGateError("useitem icon manifest requiredIds do not match improvement detail references")
     if sorted(icon_manifest.get("availableIds", [])) != sorted(icon_ids):
-        raise QualityGateError("useitem icon manifest availableIds do not match packaged PNG files")
+        raise QualityGateError("useitem icon manifest availableIds do not match packaged image files")
     if icon_manifest.get("missingIds") not in ([], None):
         raise QualityGateError(f"useitem icon manifest reports missing ids: {icon_manifest.get('missingIds')}")
 
+    compatibility_icon_ids = _validate_icons(compatibility_root / "assets" / "useitem")
+    compatibility_icon_manifest = compatibility_manifest.get("datasets", {}).get(
+        "useitemIcons", {}
+    )
+    compatibility_missing_icon_ids = sorted(required_icon_ids - compatibility_icon_ids)
+    if compatibility_missing_icon_ids:
+        raise QualityGateError(
+            "required improvement2 use-item PNG assets are missing: "
+            f"{compatibility_missing_icon_ids}"
+        )
+    if compatibility_icon_manifest.get("schemaVersion") != IMPROVEMENT2_USEITEM_ICONS_SCHEMA_VERSION:
+        raise QualityGateError("improvement2 useitem manifest must use schema 1")
+    if compatibility_icon_manifest.get("format") != "png":
+        raise QualityGateError("improvement2 useitem manifest must declare PNG")
+    if compatibility_icon_manifest.get("source") != "official-useitem-card":
+        raise QualityGateError("improvement2 useitem manifest has invalid source")
+    if sorted(compatibility_icon_manifest.get("requiredIds", [])) != sorted(required_icon_ids):
+        raise QualityGateError("improvement2 useitem requiredIds do not match improvement detail")
+    if sorted(compatibility_icon_manifest.get("availableIds", [])) != sorted(compatibility_icon_ids):
+        raise QualityGateError("improvement2 useitem availableIds do not match PNG files")
+    if compatibility_icon_manifest.get("missingIds") not in ([], None):
+        raise QualityGateError(
+            "improvement2 useitem manifest reports missing ids: "
+            f"{compatibility_icon_manifest.get('missingIds')}"
+        )
+    equipment_image_ids = _validate_equipment_images(package_dir / "assets" / "equip")
+    equipment_image_manifest = manifest["datasets"].get("equipmentImages", {})
+    if equipment_image_manifest.get("schemaVersion") != 2:
+        raise QualityGateError("equipment image manifest must use schema 2")
+    if equipment_image_manifest.get("directory") != "assets/equip":
+        raise QualityGateError("equipment image manifest has invalid directory")
+    if equipment_image_manifest.get("format") != "webp":
+        raise QualityGateError("equipment image manifest must declare WebP")
+    if equipment_image_manifest.get("quality") != 93:
+        raise QualityGateError("equipment image manifest must declare quality 93")
+    if equipment_image_manifest.get("source") != "official-slot-card":
+        raise QualityGateError("equipment image manifest has invalid source")
+    if sorted(equipment_image_manifest.get("availableIds", [])) != sorted(equipment_image_ids):
+        raise QualityGateError("equipment image manifest availableIds do not match packaged image files")
+
     files: dict[str, dict[str, Any]] = {}
-    digest = hashlib.sha256()
     for path in sorted(package_dir.rglob("*")):
         if not path.is_file():
             continue
@@ -144,21 +195,33 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
             continue
         sha256 = _sha256(path)
         files[relative] = {"bytes": path.stat().st_size, "sha256": sha256}
-        digest.update(relative.encode("utf-8"))
-        digest.update(b"\0")
-        digest.update(sha256.encode("ascii"))
-        digest.update(b"\n")
+
+    canonical_identity = inspect_consumer_identity(
+        package_dir,
+        variant=CURRENT_VARIANT,
+    )
+    improvement2_identity = inspect_consumer_identity(
+        package_dir,
+        variant=IMPROVEMENT2_VARIANT,
+        source_projection=True,
+    )
 
     total_public_bytes = sum(file_info["bytes"] for file_info in files.values())
     icon_total_bytes = sum(
         file_info["bytes"] for relative, file_info in files.items()
-        if relative.startswith("assets/useitems/")
+        if relative.startswith("assets/useitem/")
+    )
+    equipment_image_total_bytes = sum(
+        file_info["bytes"] for relative, file_info in files.items()
+        if relative.startswith("assets/equip/")
     )
 
     return {
-        "snapshotVersion": 1,
+        "snapshotVersion": 2,
+        "identitySchemaVersion": canonical_identity["schemaVersion"],
         "createdAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "contentDigest": digest.hexdigest(),
+        "contentDigest": canonical_identity["contentDigest"],
+        "improvement2ContentDigest": improvement2_identity["contentDigest"],
         "metrics": {
             "improvement.listViewCount": view_count,
             "improvement.listAllCount": list_all_count,
@@ -184,6 +247,9 @@ def inspect_package(package_dir: Path = PACKAGE_DIR, require_fresh_sources: bool
             "useitemIcons.missingCount": len(missing_icon_ids),
             "useitemIcons.count": icon_count,
             "useitemIcons.totalBytes": icon_total_bytes,
+            "compat.poiPluginItemImprovement2.useitemPngCount": len(compatibility_icon_ids),
+            "equipmentImages.count": len(equipment_image_ids),
+            "equipmentImages.totalBytes": equipment_image_total_bytes,
             "publicData.totalBytes": total_public_bytes,
         },
         "files": files,

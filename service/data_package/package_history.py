@@ -70,6 +70,8 @@ def finalize_release(version: str, snapshot_path: Path) -> dict:
         "version": version,
         "date": date,
         "contentDigest": snapshot.get("contentDigest"),
+        "improvement2ContentDigest": snapshot.get("improvement2ContentDigest"),
+        "identitySchemaVersion": snapshot.get("identitySchemaVersion"),
         "metrics": snapshot.get("metrics", {}),
     }
     releases = [value for value in releases if value.get("version") != version]
