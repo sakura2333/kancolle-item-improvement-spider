@@ -2,620 +2,4856 @@
   "schemaVersion": 1,
   "stateId": "online-data",
   "role": "generated-state",
-  "buildId": "20260811T043944Z-e63832f93055",
+  "buildId": "20260811T124020Z-ecf57fbae965",
   "baseRevision": {
     "type": "git",
     "ref": "main",
-    "commit": "e63832f93055079fde941eeba5b2fb3b861fd630"
+    "commit": "ecf57fbae9653382c1423121cfc87a4ad5b56bd7"
   },
   "generator": {
     "project": "kancolle-item-improvement-spider",
-    "projectVersion": "1.0.24",
+    "projectVersion": "1.0.25",
     "contractVersion": 1
   },
-  "generatedAt": "2026-08-11T04:39:44Z",
+  "generatedAt": "2026-08-11T12:40:20Z",
   "outputs": [
     {
-      "path": "data/improvement/improvement-detail.nedb",
+      "path": "dist/data-pipeline/improvement/improvement-detail.nedb",
       "sha256": "f615aa6ca7e18519b8b332bc4772ceb71169e092820af9334fa4d8a1f4907f8a",
       "size": 2953885
     },
     {
-      "path": "data/improvement/improvement-list.json",
-      "sha256": "35222e26b739c5430a6cc4ef08470089983661f167e09743e430059cf3460a06",
+      "path": "dist/data-pipeline/improvement/improvement-list.json",
+      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b",
       "size": 209473
     },
     {
-      "path": "data/start2_data/api_mst_bgm.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_bgm.json",
       "sha256": "aab4d7e1defacd339babcda9d25ff822431ba0c89eb8d13a8bd5ce0cbfc59de6",
       "size": 8348
     },
     {
-      "path": "data/start2_data/api_mst_const.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_const.json",
       "sha256": "c08f95bb344e895ef631ed862f165780de2c153137857d036005f87ccd9986e3",
       "size": 253
     },
     {
-      "path": "data/start2_data/api_mst_equip_exslot.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_equip_exslot.json",
       "sha256": "c15878cc94f3ee08b09b5f45404e193812561d041418f2cb44e8746b12963679",
       "size": 56
     },
     {
-      "path": "data/start2_data/api_mst_equip_exslot_ship.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_equip_exslot_ship.json",
       "sha256": "9553fda2963ac8ef6ccf7e076100395fdfc9441495a5d85f5ca8194a3f7d0f71",
       "size": 12972
     },
     {
-      "path": "data/start2_data/api_mst_equip_limit_exslot.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_equip_limit_exslot.json",
       "sha256": "8ad9cfd2cb56cbf21e6563a506ba06e9f0da097899a5373615ec7fe27807d90b",
       "size": 350
     },
     {
-      "path": "data/start2_data/api_mst_equip_ship.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_equip_ship.json",
       "sha256": "5825443f07475a1401994381ce3d09737999b81d666c8b02aca954583c5914f3",
       "size": 102807
     },
     {
-      "path": "data/start2_data/api_mst_furniture.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_furniture.json",
       "sha256": "cfbec33150efc3a2f700bf6c04e0b0d442f791926ff48597e2b2a07f29cd564b",
       "size": 321927
     },
     {
-      "path": "data/start2_data/api_mst_item_shop.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_item_shop.json",
       "sha256": "55e3b678dd31ddad2b27e372906d1a571ae52075e34e1cf5dd823abfd012a0ff",
       "size": 299
     },
     {
-      "path": "data/start2_data/api_mst_maparea.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_maparea.json",
       "sha256": "b5be6f73089ded88289f95e38bdb127d96901716465e57013282ccf636ec8c54",
       "size": 644
     },
     {
-      "path": "data/start2_data/api_mst_mapbgm.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_mapbgm.json",
       "sha256": "db3520f30009158d7cc26c1fedf0d33f47ef3fe25233dcbcde07d5cfcf9a38f8",
       "size": 7964
     },
     {
-      "path": "data/start2_data/api_mst_mapinfo.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_mapinfo.json",
       "sha256": "7d54981f29dd97e90dfb1f221e421c7695f6aaf2e715d4648d4fe18f44197f2f",
       "size": 22240
     },
     {
-      "path": "data/start2_data/api_mst_mission.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_mission.json",
       "sha256": "cdf501df39035781ecdf97cee0ea74e1633a069cb83a070752555fb0a73ea626",
       "size": 46279
     },
     {
-      "path": "data/start2_data/api_mst_payitem.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_payitem.json",
       "sha256": "c113aa00acde488232334366c84dcb33ca26df4bc2bf56834672c0462c18fffb",
       "size": 14475
     },
     {
-      "path": "data/start2_data/api_mst_ship.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_ship.json",
       "sha256": "de6e6a89c53052d8f5d61fdafc8bee801749c2f82f964911de8076178c177fe9",
       "size": 1023755
     },
     {
-      "path": "data/start2_data/api_mst_shipgraph.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_shipgraph.json",
       "sha256": "610e435bd574c0533d2f8f981d485713646676a07e911493b16a841fc4fac842",
       "size": 1199723
     },
     {
-      "path": "data/start2_data/api_mst_shipupgrade.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_shipupgrade.json",
       "sha256": "9d9184493aad6512b8fdbc155e60bda8057e04ea6f87d588c3812c1398d916d8",
       "size": 122078
     },
     {
-      "path": "data/start2_data/api_mst_slotitem.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_slotitem.json",
       "sha256": "13a16087ec210ce18006d8eefdda4679381577ef32528cdd5aa69df09dba728c",
       "size": 468321
     },
     {
-      "path": "data/start2_data/api_mst_slotitem_equiptype.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_slotitem_equiptype.json",
       "sha256": "8f70b91e22698ff7d82de8d74975e8eafca63778f973e3fc3f450f995fbfd2ba",
       "size": 5176
     },
     {
-      "path": "data/start2_data/api_mst_stype.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_stype.json",
       "sha256": "e267402d285b5256d095c316b0924d7b5b46d48431b16b5aaed939ae5b145f6b",
       "size": 34968
     },
     {
-      "path": "data/start2_data/api_mst_useitem.json",
+      "path": "dist/data-pipeline/start2_data/api_mst_useitem.json",
       "sha256": "1df1eb2959570cf18e82286a0d9e7d70483c05e314bb6900db4b3d796bb422f3",
       "size": 26953
     },
     {
-      "path": "data/start2_data/current_version.txt",
+      "path": "dist/data-pipeline/start2_data/current_version.txt",
       "sha256": "811214b261f9cf99348227a04641de3e84f55e3c12272ebe42db9426308afb14",
       "size": 10
     },
     {
-      "path": "data/assets/useitems/100.png",
-      "sha256": "6c056ddea6ed3d2bf425ff70a36e47ecbc1dfa3de29d14fec24533e7699778f2",
-      "size": 19758
+      "path": "dist/data-pipeline/assets/equip/1.webp",
+      "sha256": "4e2ff0528e71462b45df1ab4fd708e228ac8f2afa971e11f7247166ecc46c171",
+      "size": 39506
     },
     {
-      "path": "data/assets/useitems/104.png",
-      "sha256": "d03aef31bb01e85f7d688997d1dd7c540ba486c33d07dbdb3022b7ceb43c5a9e",
-      "size": 19789
+      "path": "dist/data-pipeline/assets/equip/10.webp",
+      "sha256": "0039110650711bddb9fc5d1a40430c5749feb223caee16096642ad1b6d6c7ed1",
+      "size": 49018
     },
     {
-      "path": "data/assets/useitems/145.png",
-      "sha256": "adb776649583f6f5247d835ab4263f30431ed556c6df808dcfb934f8f0fc2c79",
-      "size": 18783
+      "path": "dist/data-pipeline/assets/equip/100.webp",
+      "sha256": "8fb14ea2391d2cd4d516b687c747ab895e1c5037e999f5eb6d79cf1599508563",
+      "size": 85532
     },
     {
-      "path": "data/assets/useitems/150.png",
-      "sha256": "79cf5a98164a489a79a82ce4b15d908dd48f5e60ab54782f6903dd6f1bef422d",
-      "size": 21310
+      "path": "dist/data-pipeline/assets/equip/102.webp",
+      "sha256": "3a71b3d3b72c535c6eeb9dfd20de9d2382f1577cb656f96386e90c4577de761d",
+      "size": 52156
     },
     {
-      "path": "data/assets/useitems/2.png",
-      "sha256": "c6d49fe10614fda38b27b30e2f71b2897a6e5b9db433912a952679c351bc7c26",
-      "size": 18075
+      "path": "dist/data-pipeline/assets/equip/103.webp",
+      "sha256": "58268cc75b92d30030a71f5c907407084bb12a7f97c369a02ce63281d909459d",
+      "size": 58774
     },
     {
-      "path": "data/assets/useitems/241.png",
-      "sha256": "d8252c64e9c4320f8a5708ad95c3cd493f77705399752189a0d04339060ff4e8",
-      "size": 19245
+      "path": "dist/data-pipeline/assets/equip/104.webp",
+      "sha256": "97a4cd9266616bd8e28dda582212aa6298cf6b66077fa0beecb804df0d147145",
+      "size": 58892
     },
     {
-      "path": "data/assets/useitems/57.png",
+      "path": "dist/data-pipeline/assets/equip/105.webp",
+      "sha256": "4701f9dc4bd0116b5dfb69e4f6801df36bcf802c29e67abbc3dd1c10238138f4",
+      "size": 87756
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/106.webp",
+      "sha256": "3b4914d6849cc8b9c45d966ff765e2e1de348389415780247a2c81bf3c9bf380",
+      "size": 64364
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/109.webp",
+      "sha256": "b68b9ac6dd93f7a7dce56b08ee583423b13b946607d48f86de671b7a87e11978",
+      "size": 58444
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/11.webp",
+      "sha256": "551893bdc3f6804eeaa565cd847a2bdc7503451bde4c2d5bac6eafdfb7259684",
+      "size": 45720
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/110.webp",
+      "sha256": "f8f7a94ec20821dc0a2295b3e235a6a088d3f4cc13409308e0f4812af877dc30",
+      "size": 78608
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/114.webp",
+      "sha256": "c400b6a9e5d7b19910deb8fd9a8f86b8404508d9c58b6ceebb725ef9375ed202",
+      "size": 66514
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/115.webp",
+      "sha256": "7e39dfda1f2be463cf35331d976ba6c66db7e4e90a0d4e5e1a52dbf18ee4755d",
+      "size": 67682
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/116.webp",
+      "sha256": "829ef1ceb89e5e1ccdde5ffee6351729791101200be0525fef38915f7ec6b06e",
+      "size": 48164
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/117.webp",
+      "sha256": "8fbd03ae4e2ad1e5ee311e20cbcb06aa95a9236de7aa2e3272480a6f72ce833d",
+      "size": 82424
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/118.webp",
+      "sha256": "422f45c51f220e4ad4338fa25e9078539b36f4a01d557400d6c9aae203f1e810",
+      "size": 84568
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/119.webp",
+      "sha256": "b4d31fa7a62da45c4078ae92ec889a0ec7c73fe917c50f1dd1cfb24e8d12459d",
+      "size": 50438
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/12.webp",
+      "sha256": "0e1abab12a410e4be0edf77d10f7daaa72dd2000a665dcaa13da874efc4ed4b6",
+      "size": 65924
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/120.webp",
+      "sha256": "48a9d8f5036d0978316bf33a8ae44538f0a743f0d04b2cad33f6ff9cd52059d2",
+      "size": 51456
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/121.webp",
+      "sha256": "24da63f3ec8ed0fb29f88ff3657ca94d0b80b1e4a251018956c0bf05f6eed393",
+      "size": 68668
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/122.webp",
+      "sha256": "9c47bbcaecfb8765b1989a91cb70e02a45b114d325cf4268b3b6c6812cf75f5d",
+      "size": 55280
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/123.webp",
+      "sha256": "373fc8d67c82e9c5f950044daad3bbc91c01e4849d800fb1737d858ca0b13382",
+      "size": 50104
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/124.webp",
+      "sha256": "9c62e20b8b765bd420f06d33538505ab3318374c6496b9267bce6edaa0efa328",
+      "size": 59654
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/125.webp",
+      "sha256": "3b2743bf2d1be782afa2b0c69bd506f176176bad4fd06db733864de779e5782a",
+      "size": 65976
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/128.webp",
+      "sha256": "b0e3db4abd2e5c59815f8b14762e2d1b932f58ba8e5faebfb9b744e846ba5983",
+      "size": 83782
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/129.webp",
+      "sha256": "c2d36db261e1a1e6a690c488cb4ad541d6b5c88987cceb03406d51a545485ca5",
+      "size": 55910
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/13.webp",
+      "sha256": "4d4357beb9e10e67db3ba63974007ba585c1bd5fc936f8e51c9a36a37a0f4c59",
+      "size": 48258
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/130.webp",
+      "sha256": "078e9d02bad0939b4d1b9f5d5d31fbd111cccd428701ebebb19db4cf17aa6fe0",
+      "size": 58632
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/131.webp",
+      "sha256": "5fefb7c3ce90383d4a869df6a82baf54eb5df15cb9a5419bd8b8b44f0c1378f9",
+      "size": 54080
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/132.webp",
+      "sha256": "7f2ebb794d9e8e81ac2d1fa0eefa764340d41e2601082ff78f787e43062b400d",
+      "size": 62666
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/133.webp",
+      "sha256": "36e16893ebf9f3b36c8a9fa51f9cbb454e32bbb7803ac4cf138985b4320d4ff9",
+      "size": 54770
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/134.webp",
+      "sha256": "5f6d73c2b433ea38b137de591dc4637ba9075faa27162366a5a401ac51ab7a13",
+      "size": 55108
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/135.webp",
+      "sha256": "a129d24e6becf60346ac337e7e3cf0d97dd9dc35762633f9c75d0414df093653",
+      "size": 51816
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/136.webp",
+      "sha256": "a478bdba650dee807cccb56ca4a2d0465ecf402f3ec7b162e1ac59a58081b4bc",
+      "size": 60622
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/137.webp",
+      "sha256": "7575f5bae158e37875e8ff7c771a6930ecb62f9e4080f15bc103c56ca8a98dc4",
+      "size": 83670
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/139.webp",
+      "sha256": "4df3c69a40effe21672ba1a39d777c62471d6377274ce082ab2341da9f014984",
+      "size": 53118
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/14.webp",
+      "sha256": "45fc3d3cdccb1d64b86eab78d7326a9ef39d3c34b9cbbb3f987f8feb4ea0fdf6",
+      "size": 47720
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/140.webp",
+      "sha256": "0f7f1b7391b3d1f88cdedbd05bbdc6fb2015ff3e3447f0b2a97a18c1cc4dc70e",
+      "size": 58844
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/141.webp",
+      "sha256": "cbe5b217104871eeabc1e2942de891dd5d6d0781eafe17c36c4a2613342b36e1",
+      "size": 56170
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/142.webp",
+      "sha256": "cabfdd933114e44f1184f3c1193e008066c1b531a9e49b4d9c8137f4b6d488d6",
+      "size": 61530
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/145.webp",
+      "sha256": "1f16ad85cc6af742fce1a0df72eb27e3e5cea274a93e91c2180ebf1c0cd8bd30",
+      "size": 52098
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/147.webp",
+      "sha256": "e0ba459870fe197174b40a9e214f5477552d032c3e904e2c46ec1c71967a0bff",
+      "size": 63520
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/149.webp",
+      "sha256": "b2ad9592e0fd235fff3d3a6ac94e8a5225cf05ca6cce06846d182cccbc3b7d56",
+      "size": 57518
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/15.webp",
+      "sha256": "cf6e7034708f4ed6e544578dd7dda6f5a49d38d4df1f2ff92c42ff53a606a55b",
+      "size": 65952
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/150.webp",
+      "sha256": "307d2d6387dc14ab4c238be2b65101525f03f5e7c1d5e4cc5281930a42e31446",
+      "size": 66070
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/151.webp",
+      "sha256": "d054b73e08ce80066cfa9db982e2e0c7fec424fc9b345f645fee82d9aa224fa8",
+      "size": 82784
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/152.webp",
+      "sha256": "ddfbac55b32f25b07f4b7b0a842194b906266a9cd629fb8463f2a3819365482c",
+      "size": 52594
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/153.webp",
+      "sha256": "15cc8c8ce07b436706e2bfa2cdbd71ffa2b993430b80fc84eec1e61316a44ffb",
+      "size": 53110
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/154.webp",
+      "sha256": "fc081b33baf9576f5f22fe2dde3c3ea5b8001e6b71d8e2b063972fabaa988bad",
+      "size": 84824
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/156.webp",
+      "sha256": "1e21590d1fe46d1deedfb9e21027f225d05f5e0f592df5d8a93e763f7f4e152c",
+      "size": 53016
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/157.webp",
+      "sha256": "4c628d3c09f49669cf146ac61c6d7ad536a77f807f90d7d3bccdf883e4adfb13",
+      "size": 84836
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/158.webp",
+      "sha256": "182bf69b7c2b91b09aadfde7d85585a9117a7113ffca9a5aa20a7b8cb0d35873",
+      "size": 47652
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/16.webp",
+      "sha256": "95ee592932e99da916ea8cae6ba602d732e9ecb67e87907e8bdf3df02b7cbe8c",
+      "size": 44150
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/161.webp",
+      "sha256": "b78fcbef5835c09bda3ac5b917cf41d23ff560d7108519c0876255aac7c9f137",
+      "size": 79540
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/162.webp",
+      "sha256": "35fb048bee49d7e8029db1c79d5f821941fe6cbbc413743acbc3e41f8a61fe55",
+      "size": 45590
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/163.webp",
+      "sha256": "fd31385f927bd53332a54e87b119fc3ca80555f1a96e6f04ac4056d49585a8f2",
+      "size": 52114
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/164.webp",
+      "sha256": "e088943b80ecf671cb12ff713bbb21f642b138c9e647ee17482bb7cd4b661648",
+      "size": 59648
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/165.webp",
+      "sha256": "3f3146216dd2c05615b53a8a85247c4f43841615d8ee14b5411f0ef70c35754c",
+      "size": 66422
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/166.webp",
+      "sha256": "25eb3e2bf98c20e1ebea347bdcb36250914a15655fdbd786eb8e770148e21880",
+      "size": 68434
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/167.webp",
+      "sha256": "5bfce6d8f141dd8ef6600874da87107d5824ba2598ff6ae813dd6e98b3c116d6",
+      "size": 51320
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/168.webp",
+      "sha256": "c1cf68294b44430454e54260394462634f44b0093154407e8e9e5f9c9321270c",
+      "size": 47072
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/169.webp",
+      "sha256": "edeb920bf0549c5a804786b6a7328f2a956c5fbf69b8c24d6b97a3ceea99420d",
+      "size": 66672
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/17.webp",
+      "sha256": "84dee313948dc2758ca05e225219bb580fa17f2e9b143a79971107f5ac084b69",
+      "size": 62002
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/170.webp",
+      "sha256": "ec86399f7ad78b44684e92d53f5039f5508b1a3b1b01c586597f463fa3e77667",
+      "size": 57202
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/171.webp",
+      "sha256": "f32c4399e1d660685ab7ab342b05e5c44c550fc8c48c8a6a2a24aecb0ffa4ce7",
+      "size": 55868
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/172.webp",
+      "sha256": "d0b4b1f0c5ab075b6993b00e97d27631d250cf1bb67b39cc99271a731aba6915",
+      "size": 54812
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/174.webp",
+      "sha256": "e626e18f2b463b06741320dfd044e81a99c8149fa7a8c9472dba3a55f268d82d",
+      "size": 45094
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/175.webp",
+      "sha256": "08f1429cfc6ce549537a8658200c5092293d4216312aad3c52d37dc0e67d4bbf",
+      "size": 51360
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/176.webp",
+      "sha256": "54df1a2810942b22e37dcbc35b595679e90d3137f487cf7d358d238fd02f8dfd",
+      "size": 52992
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/177.webp",
+      "sha256": "aed62dcadc799c87584e6ab73bd5767e2dfd090afb27921eab14a27222d5bba5",
+      "size": 87712
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/179.webp",
+      "sha256": "c2130a5b092fd00a31c12bbbcfb6d097fbade57722937c256bc6d07aed287d93",
+      "size": 54940
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/18.webp",
+      "sha256": "2bfbee812671dfbb863503101df761259a54e2baf44c682abf7d1a1be144fd74",
+      "size": 50574
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/180.webp",
+      "sha256": "b25d8d3263dbcbd2e0beaf8d87581f96da6375640b864c33ab802f2111b54210",
+      "size": 56814
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/181.webp",
+      "sha256": "5640f76a6ec9f72ed9ec04e1921cc670014b484a9cd99e2885e38ca1eb07a646",
+      "size": 66570
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/182.webp",
+      "sha256": "09ed99f5347c566b5c45e3b5ca7b4425ced3f1d7873c0d2b7c2fd15d3c28f5b1",
+      "size": 57068
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/183.webp",
+      "sha256": "4a6461d73cb662f4b9b6071e70fde1d965d0886a4aa489742f2fbd43ad2d65f2",
+      "size": 81418
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/184.webp",
+      "sha256": "5bcb81b13337f49e3d9ee5b72c1be64134bb7d50108f5933b8bcdf6f7dc6be21",
+      "size": 53702
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/185.webp",
+      "sha256": "69fefcd9256084d2010c02118d72220f991999ccb9a14635b43570662cd96d30",
+      "size": 55068
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/186.webp",
+      "sha256": "a241822dc6dbb56defca2eff356acd7f1832eee522f999d18f917ef8f1dc7913",
+      "size": 56184
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/187.webp",
+      "sha256": "04dee227ca630ec980f761c698c7c1deb3dcb2050faaece86b2a00cdeed58405",
+      "size": 54208
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/189.webp",
+      "sha256": "ef88cbf3ade6862008807c5ae14035b044eefa35b18dd06b0765c19b2812b372",
+      "size": 84132
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/19.webp",
+      "sha256": "29bf35e0eaa836a77e2b31294653fb24a627a18009847bef8ddb6b69bc820aa9",
+      "size": 47048
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/190.webp",
+      "sha256": "f60d9a11822e32d69ea40ed220c725c246a48727c1ec0389584d75865a468d10",
+      "size": 52806
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/191.webp",
+      "sha256": "3775058a6a141c61ac765baf184efaabb087078895b52adeac35bc81fb2682a2",
+      "size": 61102
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/192.webp",
+      "sha256": "17313fcbd3eb0f279612232db4aad04002c7553d581c5bba19aef0decf78b721",
+      "size": 54924
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/193.webp",
+      "sha256": "c53a88a0fa26549c00415165d92fbceba0295f110d99dbde5cf1e2cfcc3e8b93",
+      "size": 67610
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/194.webp",
+      "sha256": "eca828c9cf192a5a17f3f6ad94041e0ed9caf82560267de01b4613a1873396d1",
+      "size": 56044
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/195.webp",
+      "sha256": "2c8d9601343da6fd8a25b7ed3fdf00052321cd5dbe9a0398ff1c1cba08be39c4",
+      "size": 63228
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/196.webp",
+      "sha256": "e75575876bc084d7b9912b829508e9e03b3670179ee8912c610641a85030c539",
+      "size": 64894
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/197.webp",
+      "sha256": "12c937ad5e0214a32d118a3fb6b554849b9c59e3570dad4557fbf98c053d9e13",
+      "size": 65428
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/198.webp",
+      "sha256": "867cdc6033607a2f25abfa171dd506bff1fcee62b891329f0f3c1783cb480014",
+      "size": 52302
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/199.webp",
+      "sha256": "3f11686a0dcc64a9030b2afa0e4db0c4f92517ae3e39c0947959f9ea51708993",
+      "size": 83634
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/2.webp",
+      "sha256": "f169e2727be8bdd9d29eb72167bee7e291a74d84f5b7fb8aa2867a124639aa98",
+      "size": 46324
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/20.webp",
+      "sha256": "b76d11c3105a81647f29c0d603abd6319b94a39088e77513deb923e47ddd47d7",
+      "size": 47522
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/201.webp",
+      "sha256": "ecef90ebce6cc0dfe66ffa7d3f4179f4f532cfdf48d7f0067f30f606103fe8e8",
+      "size": 50730
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/202.webp",
+      "sha256": "bd788ffde957f52350476723f41a5908d2a73a5c6d7cecc6627b38ef71352990",
+      "size": 68924
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/203.webp",
+      "sha256": "72536cbf0455e02226d0ced48539485c02c206221ec0b274a3962550ad81e697",
+      "size": 56612
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/204.webp",
+      "sha256": "d1c7e7a34b72e45dfdb75eb7f50b12ff83848d25e076ffbf3f6f0ee88f3179d8",
+      "size": 56786
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/205.webp",
+      "sha256": "993da6fec85ef192cc435e6d0435da346c01912b0bf78ad5913ce4947060815f",
+      "size": 53598
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/206.webp",
+      "sha256": "a3008912d7c90e815e65d6fa668bf0c73aeee3ba1fd886f0f02e5e63f66df734",
+      "size": 80398
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/21.webp",
+      "sha256": "ba3251cb036e9b8730d3a49c74e0ae1ec936573010dd88456ed9e0e078758d5f",
+      "size": 66512
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/210.webp",
+      "sha256": "404790222c6280cb83fdc0e2965eac0dc2c70fe67d88e40bf0dfde9dbefb2915",
+      "size": 61064
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/211.webp",
+      "sha256": "d0a0cb4cbea557daa5c872d10a052b3579b99cf79dfa05ed98fb7deaac5de8f9",
+      "size": 61430
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/213.webp",
+      "sha256": "f4671bf2806d9e6d05b7a790018b1956dce8270838b41883465a14640a874578",
+      "size": 55746
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/215.webp",
+      "sha256": "685078bdb43927af224ef6bd66839c8d56249bbbc8ba66e1088973c62bfb9266",
+      "size": 78906
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/216.webp",
+      "sha256": "95d7a9e27f7ee591dd267e91e3166af3eb9d0a36d44ff36d7d3accbe11d8a6d6",
+      "size": 80408
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/217.webp",
+      "sha256": "01f736076d298ab752ee29f52c4481784f67bce748337394fa65f87240fe6dc5",
+      "size": 56504
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/219.webp",
+      "sha256": "fcfa337461e4555aca8848e768d18ca906993d359fd054f625199ed5a93f6582",
+      "size": 58108
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/22.webp",
+      "sha256": "e8e3a88907f9bf867191a682bb1524735ee64e588fd6b6a4d655850e6617a4bb",
+      "size": 52886
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/220.webp",
+      "sha256": "45dac128b6c0812e0d8a084017db47bf2e725365033afd1dcc823aba068e2338",
+      "size": 56914
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/221.webp",
+      "sha256": "9584465b9008c21d5f0b92d1a759f6bb9c7841ab3c90de8bb72ee407a17581be",
+      "size": 67440
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/222.webp",
+      "sha256": "84c092098fc15c453bbfbf8f48884488e9ad5b6d3a0c6889597ac6edb85af9aa",
+      "size": 55274
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/224.webp",
+      "sha256": "23d3d15d30e78be67bfd326c4189268097648de58787a3209113eb26478a3f45",
+      "size": 59684
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/226.webp",
+      "sha256": "a36c0b8b8354a428af6b9e2435317272151d4f1b225146a57875e3fe5e398a9e",
+      "size": 47166
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/227.webp",
+      "sha256": "82448351de852eb915e552ef7b194c85d45513031fdb5988bba7da73a649cb8b",
+      "size": 67360
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/228.webp",
+      "sha256": "ff5b190a11f7ec137479af55f09f7eb71ab1c5a7778b50ea0d07ed3ad78b7418",
+      "size": 65912
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/229.webp",
+      "sha256": "0f5a788379e40a322d4b54cb685d8c8ea73b9f40ded4192cdec606ef4f0c8960",
+      "size": 66618
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/23.webp",
+      "sha256": "0823d00bb21ad95f5fd5de5c43d0ecd3d56a02386fbf82c8988698301ee6ece5",
+      "size": 45002
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/231.webp",
+      "sha256": "8781009c1aebd341ca1150b0d0d3e290e8168468c02fb58a5e17200402fcb057",
+      "size": 64946
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/232.webp",
+      "sha256": "84306f8f2a87be7dded9d9fed56ae7f0b862a3afa830c2a2d42de4b8c48e233b",
+      "size": 55832
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/233.webp",
+      "sha256": "d1afdbcf4d90384a2c5a57391d2a534778e0e52f9add4ea70e8b362f5576ac45",
+      "size": 84200
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/234.webp",
+      "sha256": "fc2b966dbb0bcbb6475f6ccd8c92d77fe1895fae9e81eb211a180de84af26d7b",
+      "size": 55914
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/235.webp",
+      "sha256": "324f3f5de31cfb233c91515dc6b9cc93ac735bf25594fcdbfc1ca4bfdb0664e6",
+      "size": 54928
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/236.webp",
+      "sha256": "a3da183a40c978f5486f91958c4474f73be2cadb0c39650ca0466cc7290fe2a8",
+      "size": 78990
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/237.webp",
+      "sha256": "aadb6cbad0cfedf940d06f28aef1c77025470d3223ee9e27b53372470364188c",
+      "size": 85226
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/238.webp",
+      "sha256": "0014887a35a3d7d0fdda0ae68fdb1aa6a17be4f0e2a48f8d39d1a4bb8b4ddb75",
+      "size": 54370
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/24.webp",
+      "sha256": "a358e55de5789fa3733eb1ab12d053942773f87aec123285bf69fef968d0d27c",
+      "size": 64070
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/240.webp",
+      "sha256": "00ffe2ef5402de313ce4b36958fcd19a7a8164d5918bc664c62f4dfcb3fda51e",
+      "size": 63674
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/241.webp",
+      "sha256": "fa85735227ef4e488ee6eae26bf83dbdb4f577b5d835ddc1c7bcbc3d2d91773f",
+      "size": 66506
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/242.webp",
+      "sha256": "8b672b8ce8266e7f7cf948b75788897860f2b3587c422b19ad8952636d268068",
+      "size": 65486
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/243.webp",
+      "sha256": "a53e84612953764429388386ad4339898bd3b01942387c1ba7b2c029d816e71e",
+      "size": 56102
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/245.webp",
+      "sha256": "a17bf34163bed7689bc5b6a6ef32caed99349dae216c2570c980943f1f7a49df",
+      "size": 52982
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/246.webp",
+      "sha256": "0fcd6ad6425d9f9eb5ca56320749de6007194e60002dfdbe9a02fa4887b7bb7e",
+      "size": 80788
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/247.webp",
+      "sha256": "043cba32b39db43b0a2f1f5b9ed8889f2443a24c74eaa6018660fb12e0fe4d96",
+      "size": 53166
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/248.webp",
+      "sha256": "80d8a117385e194dacee3179e9d0452690c11c35fbbd916e19fe2a4081bf1183",
+      "size": 63856
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/249.webp",
+      "sha256": "917cee45c801365284018831521e7c8989591f91a848a4c1f011d468fb57e188",
+      "size": 61398
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/25.webp",
+      "sha256": "dbf929ce1b904edb393337ee0d53d3b8e06bd8803f9788a59ff96dc17ab1a583",
+      "size": 48858
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/250.webp",
+      "sha256": "2c62b9d79e68868682c4b24352509d247ef649a4a85978de3acfa7af54f94340",
+      "size": 50358
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/251.webp",
+      "sha256": "bed10881dcd1ac64e8a70d55819be1f4e5c6d0302488b33898090157b0f43395",
+      "size": 51540
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/252.webp",
+      "sha256": "92d91b1a3ababe09eb1b48a857f9cb78aae9dccb14bb9309f550a70634fd1587",
+      "size": 50206
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/256.webp",
+      "sha256": "4396621a7db4784b94d425c197cf61bf1c6506dd1fc29faf581b1b3e9901d502",
+      "size": 49108
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/26.webp",
+      "sha256": "97ed0aa702898887613e307e473d2ae7cc41dddee413d2c14e61de1551f7427e",
+      "size": 66176
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/260.webp",
+      "sha256": "06b6de7af4b06ff95cfedc370e533f7000df4bfb9a4ad4abf2876a5572df4f9c",
+      "size": 56168
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/261.webp",
+      "sha256": "abb24b2d338906b8d4adf1d876252b435a3a7792a652c8c49025de5c5a8cd09d",
+      "size": 57068
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/263.webp",
+      "sha256": "d244204f72ea9013d351bcfc01cd4e4a3cd0a22efbc52011a8967dea29824b52",
+      "size": 59146
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/266.webp",
+      "sha256": "20c1ffff9a8ec0473c37791807568e4fa6e3148b88cf097b3dbe6ad6033331c4",
+      "size": 66534
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/267.webp",
+      "sha256": "d478f4b9ea1e82916b02b08455e501551f87e445c4e44fc4402c132a174d1cf4",
+      "size": 56886
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/27.webp",
+      "sha256": "da3766178f8ed0c41bb60b67ea0776993a1d9e98be9ff52c981899977c0f3bb5",
+      "size": 65756
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/271.webp",
+      "sha256": "f9a524614105b1191aa5224b2372e4fb27ce822c10a43859c31c35273870c2a8",
+      "size": 49086
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/274.webp",
+      "sha256": "ebe6b229863fd3d1e69c68b663aeb61aaebe4b7f65c304d27c8a457d649e8430",
+      "size": 56936
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/275.webp",
+      "sha256": "b054549537dd3e7944fa17fc1d6b93607bfe393120ee959a10b05b9f104cbef9",
+      "size": 58708
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/276.webp",
+      "sha256": "5b77bf5105272208a7ebc7bab0d502f8b34ded65b07c8e32fcc050fddb45dfe5",
+      "size": 54488
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/277.webp",
+      "sha256": "b4f9b06a7a3463af15e76466e00dec8fd32cb43f0f6582cfc1a70a4939334144",
+      "size": 50102
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/278.webp",
+      "sha256": "77b8ddca02da33310acb3daade62c4d78b69b41ec3547cfc3beddb31a75f3ccb",
+      "size": 56008
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/279.webp",
+      "sha256": "78f1993b515f0a59044caf98c33ddd535e988ea6f8dc19488e4a33b969e2083f",
+      "size": 59712
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/28.webp",
+      "sha256": "ca65db4cb15258f89242a9aecaf1084dc73c1e20b7807ed198e0a8d45e9f687a",
+      "size": 65884
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/280.webp",
+      "sha256": "2ead71ab6e4db6f08b8b4fa8a0e9cda9e78de0b60b158412af2e334d31f12c09",
+      "size": 54184
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/281.webp",
+      "sha256": "0a95fc9bee5b6e2b2056f9a2942900494f3e2be82ea13af430ba9f169ec8acbc",
+      "size": 78280
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/282.webp",
+      "sha256": "aaf079b74b498b2932da6b847ce642f66c666eb2bf319c83eef00c320005a21d",
+      "size": 52606
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/283.webp",
+      "sha256": "b36150959f70266a50071e8bea737bf5dc934ffb85d344ea8cacfdd251373222",
+      "size": 66180
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/284.webp",
+      "sha256": "3a467f1a48d73067b560d6db682b6f2afbe11311490cca35f5cbe51c432b8a50",
+      "size": 79462
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/285.webp",
+      "sha256": "15c94fdd44f9f9d5fe587bfaba3f251684135af1912e875fe01fd5605c94d7cc",
+      "size": 61270
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/286.webp",
+      "sha256": "4fcd49a384c4541c04a869c37ec9c2d1b4325b297a03282700ea90ad3107318f",
+      "size": 60918
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/287.webp",
+      "sha256": "21efbc7fc8007bef4fb54bdb46b1abab4610df0ad71f07566d3fd05627928f51",
+      "size": 80222
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/288.webp",
+      "sha256": "36cab9962b25a8477254513cde30fcb0b1ebbae7d56a57a515e256ef9f20d2de",
+      "size": 54186
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/289.webp",
+      "sha256": "81a61c7d9532ba3799709a26f026f28f3bd02cca316a97beedc6bdd969035399",
+      "size": 77508
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/29.webp",
+      "sha256": "12d422391bbd92f0f087d730816ea0b3cf306630c3e6e070f88bac0e788b65a2",
+      "size": 46512
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/290.webp",
+      "sha256": "10d6ed5367587e49c472375769f67bbffdd4655f0c35b809542488b2ae25c37d",
+      "size": 92882
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/293.webp",
+      "sha256": "d3cb08a59123c86ec139cfcb4bd8341baff3a85e33c5d8ae98a04fa5eb6a1f1c",
+      "size": 63894
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/294.webp",
+      "sha256": "6f5c147c18c0164856beeb4376a57469d15c6ea9a936c4110f14ed3ba5dcbd35",
+      "size": 64170
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/295.webp",
+      "sha256": "1e80c791a43ce02448703262aa45f94f57bea56d087f611e2b9debe9ce3c225a",
+      "size": 59592
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/296.webp",
+      "sha256": "a4595087096afc1419c377d537ed819ea760680f14b2d8c5a39ac83475bff640",
+      "size": 59366
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/297.webp",
+      "sha256": "bf9d81c162980e9166ab65f7278706fdb8b7dd98efcb7cdab62c8933fa6e0c8a",
+      "size": 44384
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/298.webp",
+      "sha256": "0a8d4b712df898037777fef029b4838fff2072769047f9f78b35a4eaabc839c5",
+      "size": 52210
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/299.webp",
+      "sha256": "843f8a706e02d7b9e3382c47234518a3e2f508d48e7f02060954019dc8833923",
+      "size": 55530
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/3.webp",
+      "sha256": "7e858be8fbcfc1c29832ffd2ac02501af3be10b3b4e1d4357a8a9b1fa7749a92",
+      "size": 65612
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/30.webp",
+      "sha256": "54eaa7fe440d9a8ccb8610db3fa63b22e72f1610bb0553b2147dcbd0c763d0dd",
+      "size": 66148
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/300.webp",
+      "sha256": "bd4efc1612b302cbdb7b160751faf1b35e0fff86620b567649809e05de3b3776",
+      "size": 83232
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/301.webp",
+      "sha256": "90ffb9128023ecb1c2a2579a44eae75a9113f8f43b623999e489cc5a644019e5",
+      "size": 57620
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/303.webp",
+      "sha256": "06c5a52e56bba503d80aa8143a2d79e724ef087ba17b655fd52ac06787eefed9",
+      "size": 51800
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/304.webp",
+      "sha256": "d52fd1c5e10854428cf456d0d887440e5c47ea4e34cecdcbccdfd4858b79f34f",
+      "size": 66698
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/307.webp",
+      "sha256": "c95d686871a6813dbfac735cc2bdb4c91c93791ae0603ce2f3f4a8c3f93d666e",
+      "size": 54050
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/308.webp",
+      "sha256": "0d3ae5fda7ae84d03b9cf879878e9af139ef3dcbcd8dd3ea1884f5b221466d01",
+      "size": 83070
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/309.webp",
+      "sha256": "d6f66932be274b2be50487cf5b77af9b9d7c461951c4eefb8d2806c43ff968bb",
+      "size": 48286
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/31.webp",
+      "sha256": "8bfccbfd2501074012ffdab6bd53f58d64bd615399d0abc29596a8541ba2a185",
+      "size": 46300
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/310.webp",
+      "sha256": "039ef1407f0f0e01adde15ff0e7b10abe1df8e224d98c54dccf98f4fd52edf90",
+      "size": 64368
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/313.webp",
+      "sha256": "6ff4fef753ba8630bb2ed939e34bf12bff4607b41f3fa5bf3697e856fdc55bff",
+      "size": 54104
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/314.webp",
+      "sha256": "4f4ee507f9b4876b14b3778b4f657db5d80c2bfaff0c5fd8a900d8a5b8f88a4a",
+      "size": 69244
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/315.webp",
+      "sha256": "582603755838d327d2993565d89e7eb0193c8253ac8e2aaee476b529546cf3c9",
+      "size": 53644
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/316.webp",
+      "sha256": "d8cd5985b3585d3e4749ae168650aa69658905184aec2bd4abe04e7c221b196f",
+      "size": 52784
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/317.webp",
+      "sha256": "e0a7650178e597ba789e5b800eb7ca6adc56c1e1fc202a993ed6b5bf707d7222",
+      "size": 47692
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/318.webp",
+      "sha256": "d7110173dcff4d783eb4804552f6f338bad9d3b2b1afc26be257259c5debfff5",
+      "size": 81182
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/32.webp",
+      "sha256": "c36f4ccf11d15abdb713c8862dbf0103b7ce577021a496110b653144e711f843",
+      "size": 61414
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/320.webp",
+      "sha256": "2f80be54415a58f792b0dbd89e7ddd4a16515c2978ea142a0e3490cf8ffda99a",
+      "size": 52386
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/322.webp",
+      "sha256": "c1a9a488f80c233cc1599ee74639a365e4ecaa9d5b6eac164bb0b91c2b9106e8",
+      "size": 83516
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/324.webp",
+      "sha256": "4cfc171debf87d1c3b686ca4621e1bce1b437a8bf33b6f68b68cb360b6984691",
+      "size": 50936
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/325.webp",
+      "sha256": "d20463a6e96234860803360908efe1a14522cdf5eadf70a731ad3af9bb9f8948",
+      "size": 84480
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/326.webp",
+      "sha256": "9a80f1003bdf560c8ce18607ed068214a89365e40f58533967113d10e306597f",
+      "size": 82022
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/327.webp",
+      "sha256": "5f023dc422e2f878f4d4330e3eb9d246bef55aec60296ba7711f2e0a6d26adda",
+      "size": 82336
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/328.webp",
+      "sha256": "c5538d17469c683f9fef36ed2deabb9a265435948284e46790ae4fe0d6b2f09c",
+      "size": 51322
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/329.webp",
+      "sha256": "482e1f84b58274149b6242cb00fe20e422a37e23764edf9a796b1b71434dfdee",
+      "size": 52730
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/33.webp",
+      "sha256": "d5d493407fe77f414a8f7fb39710ee73a45683d98070b4c22750c6cb7d358036",
+      "size": 48728
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/330.webp",
+      "sha256": "e68f329a212c2d000772c078f30fcb52fc90d17f8e5fcb990d65932c6a79260f",
+      "size": 60884
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/331.webp",
+      "sha256": "8c8327b26300f6f33ddecefa7ecd0ffad95641e5680c43eab38ba07af4556213",
+      "size": 48100
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/332.webp",
+      "sha256": "ef0eda8930546f05bb1c5946dd1b6774ba6f6fcdcc9be5bbc73edcac9ff5eac0",
+      "size": 52636
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/34.webp",
+      "sha256": "1d17a50ab782bbeaaa2ba3d440810cd8dbb70ff5308e6bbee0c9d4fed4fdce01",
+      "size": 62344
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/340.webp",
+      "sha256": "4af63787f1694f17fa00e37246dce0ed6f43289d4e546560a69b6a582439f914",
+      "size": 49826
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/341.webp",
+      "sha256": "121c8ba4385df418bd3dc294cd6de2abd0c8756a5d49618dbabf5742e119817b",
+      "size": 50786
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/344.webp",
+      "sha256": "572da4e7d7cc41641a39d9c825aade3c007b78b48476cbcde3e9a38dcaeeb5da",
+      "size": 54504
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/345.webp",
+      "sha256": "27be2383d2eaf799100e84c584c49127bac39a75e782926304ae1e7a9f25fc0f",
+      "size": 63024
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/346.webp",
+      "sha256": "33920f53d6b930d52ce0b6a6a3aef78f7bd756db4509f5ef36ff4af210f4e848",
+      "size": 50670
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/347.webp",
+      "sha256": "323990bfedbb106b82a461de0289fcccf2bd725cf9f79acef031402412c2e5b4",
+      "size": 58088
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/348.webp",
+      "sha256": "b6a86c9647dac07c51b85765615d7a8d06123ecb192392d22efa3e0c90599d35",
+      "size": 56690
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/349.webp",
+      "sha256": "8f1944093ad160325d9db84e7763d8b75a25db195ae9a81f1361c29f62d1cdc2",
+      "size": 84854
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/35.webp",
+      "sha256": "bc82816a1ed8c798c532049dc957a6a3cdc48de4b43ff38f25368e6f17f45b46",
+      "size": 60566
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/356.webp",
+      "sha256": "2c0df2a176ee33da6d864b6d8ca5c5fee6ccccc7c39790cc51711fbe0ccdba85",
+      "size": 64234
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/357.webp",
+      "sha256": "cf15a0a02b90e7740a5c6f079419cca91fef896d1b142adc6fff25ec533aaf29",
+      "size": 48774
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/36.webp",
+      "sha256": "2e8bfefc44da85051e8a91b9bf471833eb6fedfd5ae06e705fbe18995c877bca",
+      "size": 47954
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/365.webp",
+      "sha256": "7cc1b0304d5d8cea7b05bb0c035be6e0462068cb8c028b535efc92fc69e8be36",
+      "size": 47600
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/367.webp",
+      "sha256": "cc1f05f4e4143cb3c561d740896e5a2e3044ab16243215e3a0a8055115a30bdd",
+      "size": 54194
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/368.webp",
+      "sha256": "f6f2bd55f8503ecdc3f3a733648413977222f87720037609beadc50540da0c56",
+      "size": 56468
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/37.webp",
+      "sha256": "724e3e9021293a62b22b7c95fa066f881daa9d2d508cece88d5007d55fc3e91a",
+      "size": 45004
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/370.webp",
+      "sha256": "a7b1aab9776b39f55a39ae029de759d7d292f003a1b0f63015235270fe01eef5",
+      "size": 54780
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/371.webp",
+      "sha256": "0d0cbc67f6b311df0beeae3219902df0c69b0d48f62c3603e2aba5de13977f69",
+      "size": 52424
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/372.webp",
+      "sha256": "96a5cccad5e4862a77725bf2a2837c7cb060ff957c5f9d663b0fc82fa35cc7b3",
+      "size": 45940
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/373.webp",
+      "sha256": "7e01c15216ff3c5a3aeb434a44d7ec568bd8a7f53d0e18c751cbe765ce0a3cde",
+      "size": 53134
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/376.webp",
+      "sha256": "4a3c6d5aeaf4b1615c15036fe396ff540b0fd4fe15b28c7d7659fa96bf24ec00",
+      "size": 54122
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/379.webp",
+      "sha256": "da9584b440a3b056037553aa6e9aabe41f741b6a1d903af0fed6afbdd25be515",
+      "size": 48972
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/38.webp",
+      "sha256": "26fead666cd57123492e015edffe5db11c8b42aa0969a77d0d35e068ff1aa37e",
+      "size": 47800
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/380.webp",
+      "sha256": "fb27dbacb50cc58ade5828c4eb108bc2dfdeb707ba9738e4afc45ed54404101a",
+      "size": 53164
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/381.webp",
+      "sha256": "fd74a1bb46b83ee5283763e8f4bf1b850e1be2a4ef873d780f018dc8738969b4",
+      "size": 50676
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/382.webp",
+      "sha256": "a273a32e9aeb1eb796e20d8dadd87a397ca77ade3e2bf032fc903c9e5c1cbd6b",
+      "size": 63640
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/383.webp",
+      "sha256": "998c64272b2087fd902d440aa39414caab9a266cea202d825d9f4f48eea97daf",
+      "size": 51736
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/385.webp",
+      "sha256": "a1d5564357968ab58eb32df218517195b257f54455cad2d82b54513fb463d26d",
+      "size": 52456
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/386.webp",
+      "sha256": "5b6d07ac390fced827be48a77fbf4033e764f73b0b84b7e6ebc56c2f67a529a7",
+      "size": 43914
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/387.webp",
+      "sha256": "22a791a0d1109236028b0f0687ec920ce46b2922ff28e753bac5d8e123d90f80",
+      "size": 42996
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/39.webp",
+      "sha256": "5f751eadac046cab16df9ab34c715472fb64ac163d919eeaa386c7ce84e91fab",
+      "size": 69006
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/391.webp",
+      "sha256": "fc72961baa8a632e3d52573ace55df9ec6ff2524c22f09a19b0a2b5f6ffddcc5",
+      "size": 64744
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/392.webp",
+      "sha256": "9134b50a5a0ea2603bd2fd93e5b8acd7013a7a732e7055efb3b7b2b48995d6a2",
+      "size": 53250
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/393.webp",
+      "sha256": "e204f914864248cbf98be9c83e6c54dc66d5a185fa7dc45bbb7c88ae46a7e75e",
+      "size": 48162
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/394.webp",
+      "sha256": "1ef463d1ec4bc9e4b64493c52504728fb63cc05b57fb85bcb3efe77410bae868",
+      "size": 48554
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/395.webp",
+      "sha256": "0f94fd4be1b25c2835a7af4902160960c9d6e778312675c82a64106222805391",
+      "size": 45004
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/397.webp",
+      "sha256": "9886023ecd21bab6d700c3e91782b77eef5a15a0877f58bf3af417a3feca153e",
+      "size": 48428
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/398.webp",
+      "sha256": "d0b3202c7ac9ceb5bec281e4f66b80957dfffc378613ef6f2ea1ff3890c9479d",
+      "size": 48606
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/399.webp",
+      "sha256": "b38aaef44432fc37e59bb9b82b63c761e7ea0315ba23850ed4b4ef2ac89765fb",
+      "size": 62722
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/4.webp",
+      "sha256": "627a1ff96b9b3e9d8ff2574bc6f90eee7a636971b1fcbaf9a3f3f89bd5ebe953",
+      "size": 40496
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/40.webp",
+      "sha256": "5ca6165218159372cca7e50897631a35c84ab89984990649620b179e2d8ace2b",
+      "size": 68760
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/400.webp",
+      "sha256": "1462d9270fa1d6355dcb920b07474ff43c7db158c424ca47ca95bbbbf1008ebf",
+      "size": 55958
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/401.webp",
+      "sha256": "c13f6db4489be67210853274119707422664eeb492b9da2f250d8f191e8a300f",
+      "size": 61390
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/403.webp",
+      "sha256": "ed3c82267f1a6379b9248cb0ee6026ce33b3f8e520ee07b8cb07ebbdf5d764eb",
+      "size": 49902
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/404.webp",
+      "sha256": "f151be04d8a6925e42e723d934e160d230ceabf620581463f70555d100d1922e",
+      "size": 84744
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/405.webp",
+      "sha256": "0ec5fa61f77f9e073ddfe972de4d566002fb0976713c715e1db7ca6b176c001a",
+      "size": 53068
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/407.webp",
+      "sha256": "5baee188f82667bf184d84bb564c25ad0be38497a33957962a2c503618f67764",
+      "size": 49926
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/408.webp",
+      "sha256": "93e9ba1131b3653f3963ef3092b907b8477722dd1459a74378790b9e0741a83b",
+      "size": 62582
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/409.webp",
+      "sha256": "0b031bb4634f878e3ebeaeb1cfe27851f6ddc15324fb1345bc5fe7ee042ad11e",
+      "size": 66414
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/41.webp",
+      "sha256": "0c2f9c414a3688433dbb6f17038ece57a17682a9429560f4f02f4008b2205046",
+      "size": 45890
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/410.webp",
+      "sha256": "cba36ac6918bcd3138e6265f3bbf7fd60f61e338504fad223cfcfdb085b1a217",
+      "size": 56026
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/411.webp",
+      "sha256": "021326278000da4b929bfcf3f1683da5b61da6343c4fa0206eb0bf271a172ee2",
+      "size": 56534
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/414.webp",
+      "sha256": "5501556953a3ccf22288a3131f5730181d0d36f346c024f912760412a571a05e",
+      "size": 51178
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/415.webp",
+      "sha256": "fa062485bf1da0bd3031742dd49d224b4b4f40f5080d9ecdb510849b4110965f",
+      "size": 50780
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/419.webp",
+      "sha256": "586f314347f429c6ffef659fe54793ba9a1e037ad35194d5bd3cc48cbddd137b",
+      "size": 46066
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/420.webp",
+      "sha256": "27b0d037a2ee3ba3b52e2e3a1f85351e24a1177f1b984ab4a5f1afbed9e32442",
+      "size": 50372
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/421.webp",
+      "sha256": "7fa6ea3d1b719e1d0cf4254ecc710d407093e751aad47eecd60139789f56272a",
+      "size": 78242
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/422.webp",
+      "sha256": "319756b59c4fd1acaa54ff85dce117178dd5c6107aaa70d18bb8bcd64aa28522",
+      "size": 78484
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/423.webp",
+      "sha256": "6a992d6b714db6c5f1145552f39ac71c4a39667d5dfd6269ef21e04923cf247c",
+      "size": 51162
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/424.webp",
+      "sha256": "d1c689f69cb4b052a49558de8fe5f45a4a70e8e6df39fb8f68f598775a3f2ec4",
+      "size": 66654
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/425.webp",
+      "sha256": "bf6cc464a96a4b8ab868f3150467ec85fb6ccc3d5ea99581e8484ce19aaace04",
+      "size": 51180
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/426.webp",
+      "sha256": "92188436c8952f1faa039dac1c032d7b46377d5e84160fb2882253d82e653e0c",
+      "size": 63816
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/427.webp",
+      "sha256": "10a939e8534ccafcc2a1988a96e4e7a928a704f1663e531cf72eab943d8f1a8f",
+      "size": 49370
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/428.webp",
+      "sha256": "e9d77f8091bb5874e3f4ff5866e73d67757c1a5f658f3a5b79b77ff727826966",
+      "size": 46990
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/429.webp",
+      "sha256": "90e26038b935f70e23893712ad1f4d3c1bd56f7f11380c995b11c9b4ffd23ce8",
+      "size": 49252
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/431.webp",
+      "sha256": "39930bbbe7f4db64273b288cafabfee7539774291a2a9671bc576952fd292282",
+      "size": 66246
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/432.webp",
+      "sha256": "4b7c065de371b8eda98d2a6989a283c360852c28d0d9628a9c2b40fd5481a033",
+      "size": 47158
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/438.webp",
+      "sha256": "ea6b31daa05e1fef14229c9a40e938410a80e3ea8a527c83a8df6d4831c3cc9c",
+      "size": 55940
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/44.webp",
+      "sha256": "91b641ba58cfdd6db1cf3e2802e7c8118c5de0dc8e05e912b366aceeedd9e1bb",
+      "size": 46888
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/440.webp",
+      "sha256": "143facafbd1225f2da94fb01c3dce19ac751bc9d4db9f56dbcf95fcd5903bd8e",
+      "size": 63516
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/441.webp",
+      "sha256": "ced22e23c4a6491650c1f0737d91920e7a2f36436f6875924ab2dd86f7ed8466",
+      "size": 55386
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/442.webp",
+      "sha256": "abf1952367f959ab09c1c0e511614ac9ca14d5980d0f6bdb1bb90592d4b1b87b",
+      "size": 64038
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/443.webp",
+      "sha256": "8f887324aeb916323a7dd691432c0405957097783f4c04109cc5bead53b13874",
+      "size": 58402
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/445.webp",
+      "sha256": "6b2d0d610f83cc7dcc7905129f735c9a28838447b8ed057a2a94b57cdf24dc5c",
+      "size": 67628
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/446.webp",
+      "sha256": "4cb8951435000098347ad04d1a3d12350d4786410a93ba70cd54e82eb622b652",
+      "size": 52140
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/447.webp",
+      "sha256": "0394555cfe3718a9c17497ccd04ab368b853f4ad4bd55e56b8bef2abed9731f4",
+      "size": 49658
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/45.webp",
+      "sha256": "9be629934c31f55631eda869ae8495e9be1f0784d13f49b7de2c465116a72664",
+      "size": 49464
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/450.webp",
+      "sha256": "e7301b12fda84e90522a0d8c07ae86aceba1d39df4975f5e743a067e2b9f7505",
+      "size": 58860
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/451.webp",
+      "sha256": "604880ecf16b1f8c35637c321d6fb633c1b3c0c639d10f928cbb35c32d764d82",
+      "size": 50456
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/452.webp",
+      "sha256": "0db276e7f6a6f4b301504e769fd31ee71c5cf207804c0bf657daa7bdd1797842",
+      "size": 51392
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/453.webp",
+      "sha256": "f6e7004068c072b09e46870a731dd22bd424c594f4c9dd8e3a4af4594c771760",
+      "size": 51072
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/455.webp",
+      "sha256": "250a9186ee8730cd86d1939a0f73eb61022e1883c2aa719b0e1cb51110faa92e",
+      "size": 51168
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/456.webp",
+      "sha256": "fb32a8a87fb52842b0b930734fa476913c1f4444f0127dd612fa8e79a7497376",
+      "size": 79890
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/457.webp",
+      "sha256": "e59188b9e0ebb2dceba5c5e8dd8259b65e0110b118c3d1f91b410c5fb4452ae7",
+      "size": 52280
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/46.webp",
+      "sha256": "dc34b4d840ef33eca4bf13fef93a2f4aa491bb4e9ecec2490fa6b4e3fc426076",
+      "size": 53096
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/460.webp",
+      "sha256": "bd4fc96bf70f6022b44da6328051799b39bb6b07b5a432c42906de229f35bc9d",
+      "size": 63354
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/463.webp",
+      "sha256": "f8ac84991a14963228206495c78f822a9b319de853572dcefda8402b5cee6c7d",
+      "size": 52516
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/464.webp",
+      "sha256": "b71cec3a28456345b64d50f08261a64f0f735f9040917e18df1c94b7dc75b099",
+      "size": 82064
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/466.webp",
+      "sha256": "28eeda835c32b9b86048fbc65cc46d324194fcb079b13cc928e54d1d3fcef63f",
+      "size": 83920
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/468.webp",
+      "sha256": "7ceb9e189b25da64fb290f08edf6f4602241a036acf1ff8ed18a7d325490f8a5",
+      "size": 78732
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/47.webp",
+      "sha256": "cf2118bcea16d65572846bea6f62b8ba7c27fa26b3b4ed17687dce573de39382",
+      "size": 58250
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/470.webp",
+      "sha256": "f2d6e7d1f29a547dd27618f4e7458a05bbc60d7e56da16ab8d03a586cf1b49f6",
+      "size": 56370
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/471.webp",
+      "sha256": "9add20426199d7d7c7c478f4e142341475c5e3c1d329911f134609af5aa9d98b",
+      "size": 53620
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/473.webp",
+      "sha256": "f4ee04ab9c7be437446dc252ba9577137b9a44d28cf917df541e5dffe855f2d9",
+      "size": 82962
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/474.webp",
+      "sha256": "56498c5083be347a57e945373d8157b9b3525ea7a3a510da2194c635198615e3",
+      "size": 81792
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/477.webp",
+      "sha256": "1a3285cd83534d1eacd1a46887240336d378a9bd548262146fa5522eff9c5b40",
+      "size": 53852
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/478.webp",
+      "sha256": "47ff26586f0a24d9d90f5a15ac4d4c26653a02234ca71a1a6308de870eecd54b",
+      "size": 61448
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/48.webp",
+      "sha256": "cabf61e099087560ebf66ecc343acdfbbe6b144792d72ec24bdf852d7cb1f239",
+      "size": 44888
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/483.webp",
+      "sha256": "98c5f97fe3dc467fe0c235c377fbe727075fcec76779940bc243b11dd4476ac0",
+      "size": 77068
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/485.webp",
+      "sha256": "7e1b08f576d9a4e7a2a88a2ec3e41e05b510cd9230d05e7b0528624705301a77",
+      "size": 54932
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/486.webp",
+      "sha256": "f9c3f501e1db657b26ccfb8315a5250f1cbd80b3817f8fbad0eef1d475a608ee",
+      "size": 50782
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/487.webp",
+      "sha256": "7f64c43695640f5c93425ba235586cf6f3044ef7aca8d14148a448b5e950473d",
+      "size": 52412
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/488.webp",
+      "sha256": "496b67c6504dbf64aed469525986828b03e3c7664dc1786effac2a51d30596ef",
+      "size": 50158
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/489.webp",
+      "sha256": "83f000e659dc461b5926772ce259e173e4439da870880be1dacf28a2046b1ee1",
+      "size": 52026
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/49.webp",
+      "sha256": "56b7b6362d9a35e28cdd1e578394a74eaae15f82c8b12b5b045f60e7dac34317",
+      "size": 65660
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/490.webp",
+      "sha256": "361001a6520d92b71b5bf9e337356f28d5a3212225935bdb0c1c685dc6333035",
+      "size": 55442
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/492.webp",
+      "sha256": "2e709c94ecd8c049f208124073cfff5cb052ec37a6311fe3ed2f3ba9e5c3e557",
+      "size": 50784
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/493.webp",
+      "sha256": "b89fb1db05f490c37104ba03d56200164969db64ce29e38c6451ee630918e791",
+      "size": 52146
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/496.webp",
+      "sha256": "5f020defa3cf21223e0852681603d8d397ee243bad20d9d7c0dd6ebeddbab50a",
+      "size": 58894
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/5.webp",
+      "sha256": "7a0b69024f681e26cab0993de0322b3ce29780dfa2e83b505a48441f1e2d2e4c",
+      "size": 63258
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/50.webp",
+      "sha256": "0af840464f6c885888cec83e790fb554d500bce059ed8c3f08daba79a672f0bc",
+      "size": 61848
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/500.webp",
+      "sha256": "d396ecf2529cfd094d98562a01fd279953766fbf48022e3c046d275b3eb191a0",
+      "size": 45510
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/502.webp",
+      "sha256": "20b6b0cebe3622451ec07341f126c05963f2bea74a23e338b5cc7608106fc024",
+      "size": 84696
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/504.webp",
+      "sha256": "a3c545f9be8f2024b998b95def2681de2d6418ea302992b943122883e65de5cb",
+      "size": 83556
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/507.webp",
+      "sha256": "6ecf687711dd09127a56276b089a94d9411a5a35b922f89792e03c37f81bdf39",
+      "size": 44092
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/508.webp",
+      "sha256": "7d4302fcecb68233561df908bdc4045882634bc341b2dad540890572918dd6e9",
+      "size": 64708
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/509.webp",
+      "sha256": "d9bcce3a4c1241b3e857c9d51c8e15c3d22d93551b911a5f21f1ffb8ede33d3d",
+      "size": 50070
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/51.webp",
+      "sha256": "7644eaadca6a7daa3206735c6c500f7a6916c86e4a740c86bd8ae7f97258ce67",
+      "size": 67948
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/511.webp",
+      "sha256": "d2cfe405743eaf992fe813c227c400df07ef01f3e4169283f482c5c7909859da",
+      "size": 63842
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/512.webp",
+      "sha256": "0efac2a85c9bc38d3ceff6ab599bce536183a8261b52119c7841590e8645dfb3",
+      "size": 55360
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/517.webp",
+      "sha256": "d44ea8a3b0da0b96f7c52b6d1d197b24cf810e96d90443dfe9010a84e39158a2",
+      "size": 87178
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/518.webp",
+      "sha256": "98e6223d000666bcce2c134554a264bb30bb21cc3b19c6a48569a12ed850b775",
+      "size": 53072
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/519.webp",
+      "sha256": "0ecb8dba53a5fd303cedd33e1efb6f08050234753d1374a69d03e3cc000d08ac",
+      "size": 55774
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/52.webp",
+      "sha256": "73928d086f0fef438d6289815792e4bf7050856ec402052acd62dbdc5dcfcd2d",
+      "size": 52002
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/520.webp",
+      "sha256": "0ace5116499fad8ed05a88484ec6607316c0260c40167a345203944d5dd6b925",
+      "size": 51610
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/522.webp",
+      "sha256": "bc8bb7c5dc7f0b17cfa13f480b3ae8b8c0ae9977142537aa7b79622ef82282d9",
+      "size": 47252
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/523.webp",
+      "sha256": "db3ad3725a03cbdb95cfb88fdf6d47a35ea3296bec8da85821294f51ec9bc6d6",
+      "size": 52530
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/524.webp",
+      "sha256": "ad10dbfe38173107fd131a9491b4303fcd5182e34a66383f89ad3dda947f02d6",
+      "size": 70582
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/525.webp",
+      "sha256": "aa62ce587852c413c5d3aa91c78ef13928e594222b1dea265094c5c393809f81",
+      "size": 46108
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/529.webp",
+      "sha256": "3a7c037f4fe700765c1199dbdab31fd62ac1ebb796b4b91bf44ae7188283c850",
+      "size": 54420
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/53.webp",
+      "sha256": "545678b65f11caa3f3a3f89255fb91f3493850e4c9be126794ace1b221c75f31",
+      "size": 52586
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/530.webp",
+      "sha256": "e10185e94409ec352e6125a547d9070468a11839aa8a8869fe188dc8bfe281de",
+      "size": 80422
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/531.webp",
+      "sha256": "da02301c38bbb6dbd04172011c722a1479b0db12b4b06d4c4e2a6c407ebf2ac3",
+      "size": 58576
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/532.webp",
+      "sha256": "52ef0d6f860223a75b73bdb5816025585ee57e84516f6b64e00085d661da31c5",
+      "size": 68018
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/533.webp",
+      "sha256": "ed1c5ba62d585d157ae2060ab2e532fe6b14a383dcd171d309b9814908285120",
+      "size": 54958
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/534.webp",
+      "sha256": "2bdde506ad167602d3619e7ccc4ce6fc9d532f1fab62321673773c407c32ca09",
+      "size": 45654
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/535.webp",
+      "sha256": "e8f4fa9a9b786c0d5fcf28bd8855039d33db4927655616e0165b320c1b0a5250",
+      "size": 52490
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/536.webp",
+      "sha256": "716c495bb7631991b4de28cb11471417d91bccdec3d1014b47172633b96d6c80",
+      "size": 65390
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/537.webp",
+      "sha256": "ff966f39caedf8b9ffdd0a8e054b72f167706df52c110dfdd514319b64196814",
+      "size": 53460
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/539.webp",
+      "sha256": "59444079873a9a665f49317e3b9e214263bf30c8027e6e8f449d0a97e7b67720",
+      "size": 55720
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/54.webp",
+      "sha256": "25e7effdf43d712f2ade23efb8f1e6a2f11e57adbd48d951e41bd5ba0274b5ed",
+      "size": 46134
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/541.webp",
+      "sha256": "bfcf6ceb8259138da31471dc7f1fd66eb6f5ddd3c6525f240717c58bafff4d32",
+      "size": 67468
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/542.webp",
+      "sha256": "f423dc641f2ad820a1e21b538f5a39a8032ff6a728f62304717a33dcea58dd64",
+      "size": 67802
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/543.webp",
+      "sha256": "12fcf6cb3b9a331a61726f4dabecc81a35ded5c465e4c4b55e2bcf4855c19377",
+      "size": 52616
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/544.webp",
+      "sha256": "f6147d4e2b0a0f5c0770ce8bcd88b901e6f79849f749cebdc242d7dadd969b0a",
+      "size": 52794
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/546.webp",
+      "sha256": "7c12dec5f7b2907f11c9fe6e7d15d10d1824641ff3dc3e7d441f970d188915fc",
+      "size": 83438
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/547.webp",
+      "sha256": "659af8b925d94d871a9951bc092be1967bdfadd846fc5cc5e679e5a46681711e",
+      "size": 82418
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/549.webp",
+      "sha256": "2f34965adab4b98a7220dc61962053a4f5cfbd49b7a46fa1eb3d37b1290af3b0",
+      "size": 53340
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/55.webp",
+      "sha256": "dcd08617e8e88b4a5cb7390b92ab8ba391c4771fd4c59c1ae65e091039dc10c0",
+      "size": 49140
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/550.webp",
+      "sha256": "24ec094694e0f60509fc63664da96f9f455a5bdf5d1b8e3241b35344966d484b",
+      "size": 65306
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/551.webp",
+      "sha256": "afb0b3c97703639a03a0bff826a4da7d0cf95cf319672aa7b39c560289f9b830",
+      "size": 45918
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/552.webp",
+      "sha256": "34299faf57cf3aacf946661c8bbd78b6240d587d5bb346c51e07a85f56468a45",
+      "size": 50472
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/553.webp",
+      "sha256": "8d6ffc20e8f42013cf83bc5b0ba86a3467d877cad286f33671524733cf0f00d6",
+      "size": 52828
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/555.webp",
+      "sha256": "50cce62a9d3a7ae2ad782f785c4ad98ba78a6769cfc22d3124f5e44c59ab5a1f",
+      "size": 48416
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/559.webp",
+      "sha256": "3d838c95c3b4c112164b3962c09d1ff7096ef2515b3ab8482b2d80ef2fdd0e27",
+      "size": 49302
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/560.webp",
+      "sha256": "690d715b3f9c78cbd8759517507b594a3e17eeb70bdb1e7938fc3f252732ca68",
+      "size": 48086
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/564.webp",
+      "sha256": "32c9641159c1c0a8b34f025be220f6c1a5700a7f09eca53ab38b78d2948c2b5f",
+      "size": 43904
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/565.webp",
+      "sha256": "6c8d2045b60b9b3acb2aff814cb343551eff946a438d6fb1f007e4448b73ac25",
+      "size": 43506
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/57.webp",
+      "sha256": "095cee92753b405c89405d6bf1de749a499f9f507251c19160d81a8c097dbde4",
+      "size": 52766
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/570.webp",
+      "sha256": "72f55ee386a144b89bc956e8c4d7879a7f0f686810bdfdf4deea566fbbc40d3e",
+      "size": 83678
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/572.webp",
+      "sha256": "35b235377e7d601c62572bc8c5d106317dfc8c12ae8b9e536fbb41f8c7250175",
+      "size": 51114
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/573.webp",
+      "sha256": "71609fc259b84769ae8a225cd20fefb9a8575de30bd850ccc84266858ceb2d0f",
+      "size": 86674
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/574.webp",
+      "sha256": "8e279b7c354fc7a32e8a38f95dbc3986ad428f23cdccf6778082bc6bc2d949f4",
+      "size": 89140
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/575.webp",
+      "sha256": "785d7a6760808d25acbd71e0b6227e76194029f17bb98a15872e5d44b2faf1dd",
+      "size": 59390
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/58.webp",
+      "sha256": "3d9b952b68d03632e436fa304b01286d4a6aa4f030b6b5008581a6791983bf17",
+      "size": 54696
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/59.webp",
+      "sha256": "00035999332fd49a4bf49c4b91f1af0524d78851f85fbbcc663524c985e3005d",
+      "size": 68800
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/6.webp",
+      "sha256": "603331fbc87c43d86d76abeb3a59a92ff1c40fae8d70045b5d1eecca1225dd62",
+      "size": 64868
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/60.webp",
+      "sha256": "c0db7c1645b7fbbb62e56d4d31fd16c1c425225444d65c024c41af98a191204f",
+      "size": 61440
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/61.webp",
+      "sha256": "832872f69e553198cd62a49951b33f6faa179767f43b0301f2316d5659d30067",
+      "size": 66386
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/63.webp",
+      "sha256": "c25cee30603acaa84f8e3a49760df23bb10063e5385ffa4793f7eb7fa9d1b2ed",
+      "size": 47330
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/64.webp",
+      "sha256": "d3a960d922eb222096d67c4b49e99ac977c3e0c948c3ff1397650f1e6aace30d",
+      "size": 47454
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/65.webp",
+      "sha256": "23076ece6a199b537699f0a4eabde241626f5635bac7c36851b50930b3392172",
+      "size": 66322
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/66.webp",
+      "sha256": "54c2f25252dab9dc792075c6b721c9ac5321fdb1ed15ee46279c99f195c9b60e",
+      "size": 52122
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/68.webp",
+      "sha256": "275fb76cf77873a98ece142425406203182dc18707ab4d5e6c9fedc9770c66ab",
+      "size": 53002
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/69.webp",
+      "sha256": "a0a2cce89115060f3309b329128a89bfccdaff4089dc1cb14df2cdae8ad97a60",
+      "size": 53654
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/7.webp",
+      "sha256": "c7967fb9a69f32fc6eaac62836360e8db96121450f18ed615c4e8f8f0fed4cd0",
+      "size": 44026
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/70.webp",
+      "sha256": "fea078d592c1c207ac4743960ef1502f20f30f07d78876ba4f68766dc51da8ac",
+      "size": 68114
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/71.webp",
+      "sha256": "25fff378f489679c92fb6e33bcef1a5a98b6aa954a7200a132774ccec2d72991",
+      "size": 54184
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/72.webp",
+      "sha256": "903488adf4b0dd79c1de450711b5f88380d09c0de9c7d5d66df96ea11fb55d88",
+      "size": 64500
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/73.webp",
+      "sha256": "6e9294395b8cbc1869cf37deada66053fc9d32819bfbd12a74b94896a5eac57b",
+      "size": 66446
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/74.webp",
+      "sha256": "69f5610b83facb53092499ae0913802cc1398035c8bee4aea05a6f6c7e9eb382",
+      "size": 44756
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/75.webp",
+      "sha256": "73d47f412ed188a8cfdbe9f87c29cb87b819dd44cbe43e9517587838b8cee20f",
+      "size": 52214
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/76.webp",
+      "sha256": "9eb72d7a8ef8e9a89381b244f4f81e6fd4cffef7cfbb55e29420fbe4ed25104b",
+      "size": 46982
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/78.webp",
+      "sha256": "47d8aa43858163b20dd03163db5fde5c1792f7b20ebb1a48e36303dfa0a1891e",
+      "size": 43782
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/79.webp",
+      "sha256": "cc6dad9159b7de57d340845e8b87c702e6f5c997af58d8d5b68f1e22fbe65306",
+      "size": 70244
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/8.webp",
+      "sha256": "dcbb90003527fb7660999b64fa81af17672954d371a74ff69e03c8f68c38d0d6",
+      "size": 65966
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/80.webp",
+      "sha256": "5e16a15bf70cbd2d5793e8af7d7f762f69a70b0f85d442411f1c7d128789074a",
+      "size": 55782
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/81.webp",
+      "sha256": "c2933ab0170cac7a26faf1a01d07627ac8d78923a5f513950918175df72e3ffb",
+      "size": 58838
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/82.webp",
+      "sha256": "7fd757e021d15df1a55731d1c889898660719d043f30baadd5e7db914f5d1210",
+      "size": 65902
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/84.webp",
+      "sha256": "fd8c8e1bb4778dcb5f4f0e217e10c3b74c681774a160da2c36329367eda8eaa5",
+      "size": 54306
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/87.webp",
+      "sha256": "e9dc0ae39c08eeff9697baabc55d7edb06f995729bfe28990fff9d621020ff2b",
+      "size": 59876
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/88.webp",
+      "sha256": "f8f41d73f364b8623ba90565646071e7327e5a1251dc30c6562e02c90c162cb4",
+      "size": 56260
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/89.webp",
+      "sha256": "388a11fd88bf7e015af808761ed5c0c37953d35b5d2256f162be1ae15bc7a213",
+      "size": 60232
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/9.webp",
+      "sha256": "720f930ac6dd44b11c085e46ad9e0bd0de0da474157bf8901a0d8c63d18589ed",
+      "size": 52420
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/90.webp",
+      "sha256": "bdd9206522aa1b0fe3b2b1fec27b7b0b14a179b13df9c75247515b5994dcaf1a",
+      "size": 69592
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/91.webp",
+      "sha256": "bf65104a642a1c33049e1e63a0df44d2b60f09d5dd717bd8d67173e041c22ee1",
+      "size": 65420
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/92.webp",
+      "sha256": "b646811b4e9883a54f45927c74665ab27f8b3caca654cccf2c16b8783c37fba1",
+      "size": 53964
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/93.webp",
+      "sha256": "1431465328e60b00d0f58450bdc5059111f76ca3d6e7e48bdbc9cd85c9989504",
+      "size": 57330
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/94.webp",
+      "sha256": "efbe8707920d5609a17e4757ec2bc1d5cda05d049bde82502e04591a25cfd538",
+      "size": 87306
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/95.webp",
+      "sha256": "dc78d55afa5c7b2b42b76a60d88228713f3c77fc1bfc36d08f5086e4c664240f",
+      "size": 62974
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/96.webp",
+      "sha256": "f69f4979b00b47c8c66017344695d1e1cb8860c6e6784ccc49a5cad725b5f182",
+      "size": 55406
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/97.webp",
+      "sha256": "ba221ae1326527c689238155a833343c2a8dca5fae5060a447fd789de6c59d6d",
+      "size": 55270
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/98.webp",
+      "sha256": "c39fa1c29933e8af4b7018bfa0be0eb7d2dd00829ac012ead57047bd9d2f6270",
+      "size": 57536
+    },
+    {
+      "path": "dist/data-pipeline/assets/equip/99.webp",
+      "sha256": "dc07b975d3f5eb322c8e5b0db311fc7739f8fad49299c65552bc212544ba09ae",
+      "size": 58366
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/100.png",
+      "sha256": "9256e93113e666ee6d3d88c998be4ef3d6cc45e04bd212f8e791539330786af6",
+      "size": 102978
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/100.webp",
+      "sha256": "032b4eeeed7e754d7adf2a44a781dc533873e4c4cd0f39d6aedc90a88cd150df",
+      "size": 28940
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/104.png",
+      "sha256": "dce78426d2886ff2bc6c7fe1063e8f289e5ff4958fff4b3cb02998fab9dd6f9d",
+      "size": 107939
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/104.webp",
+      "sha256": "e73d7c019ddfebe9e1029f09a0cf6eab8d790d7533210685948b00c5841f811e",
+      "size": 27800
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/2.png",
+      "sha256": "dd1e44eb655fda2e5fdbd3f4612947381fbbb4f4c78c6b81730f03c2a3d0d157",
+      "size": 153750
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/2.webp",
+      "sha256": "10d8c3c322bfbb1629f5c65eb0749e110b477b1bdc1050cefb05f9c0b6538952",
+      "size": 21004
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/57.png",
       "sha256": "099226b22bc852df46dd3d92817e932df044e8050b6a74874418be152c41ee14",
       "size": 128450
     },
     {
-      "path": "data/assets/useitems/70.png",
-      "sha256": "0f4075c759c4efd9c82f92311c5a657bff39f7ea0261be00818e8325cb0fc454",
-      "size": 45622
+      "path": "dist/data-pipeline/assets/useitem/57.webp",
+      "sha256": "3457c18bcb1b5e26b2b496efd581c58db6c800b2182237039eb342478d80de6d",
+      "size": 21436
     },
     {
-      "path": "data/assets/useitems/71.png",
-      "sha256": "824bab9afa0a5fe768ffcfceade5c19fd0998b80ffc83413c7427ac3a31e6573",
-      "size": 15305
+      "path": "dist/data-pipeline/assets/useitem/70.png",
+      "sha256": "42e96d8de2b46819ed9b30b852c7214a9852da2aee98546f9a9049cf0a4fb658",
+      "size": 148308
     },
     {
-      "path": "data/assets/useitems/75.png",
-      "sha256": "6db732f6217f551042d23df5cafff0b9b16bd00b34a52346c86a3c7d89f09352",
-      "size": 19226
+      "path": "dist/data-pipeline/assets/useitem/70.webp",
+      "sha256": "a474ab5edcd7518421711cc16c3abbad7cd9aede976e5f56752a1e766b027313",
+      "size": 29180
     },
     {
-      "path": "data/assets/useitems/77.png",
-      "sha256": "00d525c6ddf022b60025f1d894756f9e54f1f682fa75af6857301fcd1e091706",
-      "size": 53783
+      "path": "dist/data-pipeline/assets/useitem/71.png",
+      "sha256": "c41454ea8bcda3035446698e50b342bf462f883dc84b7a544abfa0d41aae7f52",
+      "size": 151093
     },
     {
-      "path": "data/assets/useitems/78.png",
-      "sha256": "7ad892b370da1501e27d5fc56fcf29c9e0f3e181481a4caa2886bbc38e061041",
-      "size": 21285
+      "path": "dist/data-pipeline/assets/useitem/71.webp",
+      "sha256": "ae38a4243127377151d56cf6f40286e040c1b4c626ecb4ae1759860c4bebce32",
+      "size": 29336
     },
     {
-      "path": "data/assets/useitems/91.png",
-      "sha256": "ba3fa1862fa44369991236339a720c2a28f083c9cba7c5be38a451ddc12742af",
-      "size": 21044
+      "path": "dist/data-pipeline/assets/useitem/75.png",
+      "sha256": "c0da49433e9c46407d121527f042a5b38e4df4750a258cef70f462a2808f9606",
+      "size": 149027
     },
     {
-      "path": "data/assets/useitems/92.png",
-      "sha256": "bf37a3091f90af02849679aaf8eaa3f5edc44415e79ee1d6a3d411e3b29ee572",
-      "size": 124067
+      "path": "dist/data-pipeline/assets/useitem/75.webp",
+      "sha256": "62672d92d55108a4d5c6a7ed55b1ba67c620830db93851c12df2ce8d956add19",
+      "size": 26838
     },
     {
-      "path": "data/assets/useitems/94.png",
-      "sha256": "02df557806b3fd7ff0469bc1c331dc1a42649fe98a221b89302095a52924e6df",
-      "size": 136922
+      "path": "dist/data-pipeline/assets/useitem/77.png",
+      "sha256": "a418202b5fcc903de87c1c25fb466d7625c2e27cc914945345fc91eebb06eba2",
+      "size": 145691
     },
     {
-      "path": "data/assets/useitems/95.png",
+      "path": "dist/data-pipeline/assets/useitem/77.webp",
+      "sha256": "e62c10297cb860b79311b668e7c28da192228dc5bb238a65ffbf42c86f4c3c17",
+      "size": 26598
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/78.png",
+      "sha256": "9a2c6c75407084bd060dde4606b34af7bf58f5bbe961b340a79232c5da4fc125",
+      "size": 146513
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/78.webp",
+      "sha256": "1ebd279e90eee705beb1958c7ce232a06a8343054d0ba1aaf5c291f7872d1acb",
+      "size": 27868
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/91.png",
+      "sha256": "604f2df087c84fe3bad0031d2f08b76a545e324fd9f1648a7bfb9ca79188c073",
+      "size": 151315
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/91.webp",
+      "sha256": "ab67621ae1b8e5aeb9253ee1e9975ab429ded3ecfe3a0e27485a95fbaf182bbc",
+      "size": 28922
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/92.png",
+      "sha256": "64b8a67b5d7ccd4e884abdb03d90498dce1136747e4796c36eba2b4f9c569c94",
+      "size": 150587
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/92.webp",
+      "sha256": "53ff1bdc5f3b436df9ee85d8e91256cc7e7b069eb7cc7d989ce6c6a2de95bbef",
+      "size": 27462
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/94.png",
+      "sha256": "520d8838529a9a4a1a6e6febd40db27cfecfd65dd527cc42730c8f24a20bb375",
+      "size": 149007
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/94.webp",
+      "sha256": "a60b67761c2cba6fcc91341e741e6e6222801437c77c78be277f8588c6cfac61",
+      "size": 30414
+    },
+    {
+      "path": "dist/data-pipeline/assets/useitem/95.png",
       "sha256": "0e5e16b66dab58c8a580cf8b244040cc6241926f34701f242300e46583551301",
       "size": 28940
     },
     {
-      "path": "data/sources/README.md",
-      "sha256": "502e48393aeb2b5d604da12285f6789fddf556e0e77d8b8fc593720f8700fdb4",
-      "size": 1142
+      "path": "dist/data-pipeline/assets/useitem/95.webp",
+      "sha256": "139a9484907859162a9bd26eb117caf7112a840654a4d6a0e2e6dc062d6e4625",
+      "size": 26970
     },
     {
-      "path": "data/sources/ai-review/README.md",
+      "path": "dist/data-pipeline/sources/ai-review/README.md",
       "sha256": "1f429fff70f9b449b15ba0a9cf5ed85eb2604bbf470bb788436d3a066eb5a133",
       "size": 309
     },
     {
-      "path": "data/sources/ai-review/conflicts.nedb",
+      "path": "dist/data-pipeline/sources/ai-review/conflicts.nedb",
       "sha256": "7cb00b0db9e271bf3cb2120d063292a0147edce13b1566c0777976d6f6483501",
       "size": 571551
     },
     {
-      "path": "data/sources/ai-review/input.json",
-      "sha256": "947a780b553ca685246c8915a5ea1b47afc9cf7ea4d24733a4513ee018599daa",
-      "size": 10981770
+      "path": "dist/data-pipeline/sources/ai-review/input.json",
+      "sha256": "990388c631c9996c1b53f5134adf6c4f5744106d5040d0df82ca0bb11a46a899",
+      "size": 11011867
     },
     {
-      "path": "data/sources/ai-review/review-prompt.md",
+      "path": "dist/data-pipeline/sources/ai-review/review-prompt.md",
       "sha256": "e6ba5a6e3bb338ff40cde14f37c345b94ad2970daa2491e5454cbf50a951fc32",
       "size": 4599
     },
     {
-      "path": "data/sources/ai-review/route-variants.nedb",
+      "path": "dist/data-pipeline/sources/ai-review/route-variants.nedb",
       "sha256": "4b651d804ea8a1946d11015b0049018ee0a2bcf513e5b13c359e24de419763ed",
       "size": 68982
     },
     {
-      "path": "data/sources/akashi-list/issues.nedb",
+      "path": "dist/data-pipeline/sources/akashi-list/issues.nedb",
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "size": 1
     },
     {
-      "path": "data/sources/akashi-list/metadata.json",
-      "sha256": "2a61e2118cd694e0b1527cba1d11f31fa4481519f1b882ba4763cd82ad72103a",
+      "path": "dist/data-pipeline/sources/akashi-list/metadata.json",
+      "sha256": "97028f653415ab6b57618ef5a768c16ba909766f0d5ebda1dc0979f3c2a5e15e",
       "size": 273
     },
     {
-      "path": "data/sources/akashi-list/normalized-facts.nedb",
+      "path": "dist/data-pipeline/sources/akashi-list/normalized-facts.nedb",
       "sha256": "894a39fb7c9a8a6afbfb95efa699dc99132d294222e1af8f919d75e7dde5664a",
       "size": 3132912
     },
     {
-      "path": "data/sources/akashi-list/parsed-rules.nedb",
+      "path": "dist/data-pipeline/sources/akashi-list/parsed-rules.nedb",
       "sha256": "894a39fb7c9a8a6afbfb95efa699dc99132d294222e1af8f919d75e7dde5664a",
       "size": 3132912
     },
     {
-      "path": "data/sources/akashi-list/schedules.nedb",
+      "path": "dist/data-pipeline/sources/akashi-list/schedules.nedb",
       "sha256": "894a39fb7c9a8a6afbfb95efa699dc99132d294222e1af8f919d75e7dde5664a",
       "size": 3132912
     },
     {
-      "path": "data/sources/comparison/differences.nedb",
+      "path": "dist/data-pipeline/sources/comparison/differences.nedb",
       "sha256": "7cb00b0db9e271bf3cb2120d063292a0147edce13b1566c0777976d6f6483501",
       "size": 571551
     },
     {
-      "path": "data/sources/comparison/report.md",
-      "sha256": "755fcddcbfd891909726a4b7e0ab7b3c028858be3b0bd933027644f82977ebfa",
-      "size": 787
+      "path": "dist/data-pipeline/sources/comparison/report.md",
+      "sha256": "b15cc694d78f2fd9cb4bdd2dfa4070cce5a18da186cf33884dee2ab041f87f66",
+      "size": 804
     },
     {
-      "path": "data/sources/comparison/summary.json",
-      "sha256": "35e48138f233e4758a657e83f6facb960e73f5eee29e7687bb2f0ff588518471",
+      "path": "dist/data-pipeline/sources/comparison/summary.json",
+      "sha256": "7a9e961259625899951665c9bd693a88f063069494b3faa50a6e207db00d648a",
       "size": 1084
     },
     {
-      "path": "data/sources/equipment-sources/changes.nedb",
-      "sha256": "3a54b635c17efe923e66be44ab0a29ae1461d488c44745e7e7b547a5a1305d07",
-      "size": 1395
+      "path": "dist/data-pipeline/sources/equipment-sources/changes.nedb",
+      "sha256": "78b559d742235c484e09c6bf99a57839a35b31e33e5b7e331612a2f2556b054a",
+      "size": 23252
     },
     {
-      "path": "data/sources/equipment-sources/dataset-metadata.json",
-      "sha256": "f1270d700d94c135ef70c3f5185c812b738305554e713aac8b53850991f1f45d",
-      "size": 1242
+      "path": "dist/data-pipeline/sources/equipment-sources/dataset-metadata.json",
+      "sha256": "34404ddf606b3751415d049e171e63d535a79a8ef68dba1a99ea5981da3759be",
+      "size": 7688
     },
     {
-      "path": "data/sources/equipment-sources/equipment-sources.nedb",
-      "sha256": "e0b429db005ca7156dc75196be533785d0511432d8e58cf6cd0ed624f50c7cf0",
-      "size": 86240
+      "path": "dist/data-pipeline/sources/equipment-sources/development-cross-validation.nedb",
+      "sha256": "3f9344d96eba8035a30bbf0620135428f2662dccc2eb18e5d442fa2f0dfa814f",
+      "size": 386417
     },
     {
-      "path": "data/sources/history/baseline/akashi-list.json",
-      "sha256": "da3ed161da1150afed7b4cd39ee11d215422efcb2498f8fc82b41c4b38ce4195",
+      "path": "dist/data-pipeline/sources/equipment-sources/equipment-sources.nedb",
+      "sha256": "370028b1c927f4b3e420019d2ce3d8642ae4c70611bac30bdaa6f8aa02b5243a",
+      "size": 104283
+    },
+    {
+      "path": "dist/data-pipeline/sources/history/baseline/akashi-list.json",
+      "sha256": "f9455657dcafd2d42abf895988c3f99419a0dfa4e157b72da5862c930b2fd03e",
       "size": 1895798
     },
     {
-      "path": "data/sources/history/baseline/kcwiki-data.json",
-      "sha256": "dc127b8c75f202ad0b643142c1bb118115b88e71945a72da4ccffc8c5fc944f0",
+      "path": "dist/data-pipeline/sources/history/baseline/kcwiki-data.json",
+      "sha256": "5500616ee92ff7ed146746521165120813f05130d0368662588c63fab34ba2c4",
       "size": 546322
     },
     {
-      "path": "data/sources/history/baseline/wikiwiki-jp.json",
-      "sha256": "c29e778e294b080b57265638843deb3361c9b892a3a21295c710c6d38f89e448",
+      "path": "dist/data-pipeline/sources/history/baseline/wikiwiki-jp.json",
+      "sha256": "559afce20ef4f3619367fd20a0abf96eeafcbc3146ce4613c8c414162b76bba6",
       "size": 1249070
     },
     {
-      "path": "data/sources/history/current/akashi-list.json",
-      "sha256": "da3ed161da1150afed7b4cd39ee11d215422efcb2498f8fc82b41c4b38ce4195",
+      "path": "dist/data-pipeline/sources/history/current/akashi-list.json",
+      "sha256": "f9455657dcafd2d42abf895988c3f99419a0dfa4e157b72da5862c930b2fd03e",
       "size": 1895798
     },
     {
-      "path": "data/sources/history/current/kcwiki-data.json",
-      "sha256": "dc127b8c75f202ad0b643142c1bb118115b88e71945a72da4ccffc8c5fc944f0",
+      "path": "dist/data-pipeline/sources/history/current/kcwiki-data.json",
+      "sha256": "5500616ee92ff7ed146746521165120813f05130d0368662588c63fab34ba2c4",
       "size": 546322
     },
     {
-      "path": "data/sources/history/current/wikiwiki-jp.json",
-      "sha256": "c29e778e294b080b57265638843deb3361c9b892a3a21295c710c6d38f89e448",
+      "path": "dist/data-pipeline/sources/history/current/wikiwiki-jp.json",
+      "sha256": "559afce20ef4f3619367fd20a0abf96eeafcbc3146ce4613c8c414162b76bba6",
       "size": 1249070
     },
     {
-      "path": "data/sources/history/manifest.json",
-      "sha256": "58ed430aaa463236c3bf5aeacf7621d27b7989f00167f94ea30c6c2aa0de585d",
+      "path": "dist/data-pipeline/sources/history/manifest.json",
+      "sha256": "e65593e44b150e6792496061b67d507abf01726433aed04056970697b825b325",
       "size": 1385
     },
     {
-      "path": "data/sources/history/runs.nedb",
-      "sha256": "ce85a2bbb7042386af682896df83e5087489e675c25d5f52ae3dd45e9e047f4c",
+      "path": "dist/data-pipeline/sources/history/runs.nedb",
+      "sha256": "76283ccb4f6753f1927d1509ccf00cd159abf214a8d62fa2c7469e55bcb42507",
       "size": 903
     },
     {
-      "path": "data/sources/kc3-slotitem-bonus/dataset-issues.nedb",
+      "path": "dist/data-pipeline/sources/improvement-assistant-reverse/assistant-day-reverse-index.json",
+      "sha256": "2a1b6ccbd01fb1e732464beafdd8ab621fcae31014f3cbc14a055553c2988d3f",
+      "size": 6012401
+    },
+    {
+      "path": "dist/data-pipeline/sources/improvement-assistant-reverse/assistant-day-reverse-index.md",
+      "sha256": "eb84def0b43535bd4f96cb998693e045e74431804123cc2f4af3c7657f49c5eb",
+      "size": 727022
+    },
+    {
+      "path": "dist/data-pipeline/sources/kc3-slotitem-bonus/dataset-issues.nedb",
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "size": 1
     },
     {
-      "path": "data/sources/kc3-slotitem-bonus/dataset-metadata.json",
-      "sha256": "2228392bdbd2f8870a0e8812f39a99fa80d45e624863920c4c8206b218ff3449",
+      "path": "dist/data-pipeline/sources/kc3-slotitem-bonus/dataset-metadata.json",
+      "sha256": "1a103f1f7150474cafc504d974dc2da2e1214e4c901891185b94455d79e77237",
       "size": 923
     },
     {
-      "path": "data/sources/kc3-slotitem-bonus/special-bonuses.nedb",
+      "path": "dist/data-pipeline/sources/kc3-slotitem-bonus/special-bonuses.nedb",
       "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b",
       "size": 293128
     },
     {
-      "path": "data/sources/kcwiki-data/dataset-issues.nedb",
+      "path": "dist/data-pipeline/sources/kcwiki-data/dataset-issues.nedb",
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "size": 1
     },
     {
-      "path": "data/sources/kcwiki-data/dataset-metadata.json",
-      "sha256": "768233f1d86a39084adc2134ed94016588bf8872a07ef6b1cd3c1d9773fbb168",
-      "size": 2055
+      "path": "dist/data-pipeline/sources/kcwiki-data/dataset-metadata.json",
+      "sha256": "1e9747f390bbf70c18676503e8b81f565fe3a61ab8c2b41a529a18d2f4781ec8",
+      "size": 4470
     },
     {
-      "path": "data/sources/kcwiki-data/equipment-drop-from.nedb",
+      "path": "dist/data-pipeline/sources/kcwiki-data/equipment-drop-from.nedb",
       "sha256": "b1dbfa1b0a58c969ce572871f42129f73262de36f9e8adcfb6de6890de4c01bc",
       "size": 369354
     },
     {
-      "path": "data/sources/kcwiki-data/issues.nedb",
+      "path": "dist/data-pipeline/sources/kcwiki-data/issues.nedb",
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "size": 1
     },
     {
-      "path": "data/sources/kcwiki-data/metadata.json",
-      "sha256": "e1d7e09659e839f544b270348f1a918820bd7453bdda78fda70e35954d9b7d66",
+      "path": "dist/data-pipeline/sources/kcwiki-data/metadata.json",
+      "sha256": "3c00df26b5f75bd4e4d7dc9bc7367641dca9470b938895264354a16d1fa69c52",
       "size": 380
     },
     {
-      "path": "data/sources/kcwiki-data/normalized-facts.nedb",
-      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
-      "size": 532982
+      "path": "dist/data-pipeline/sources/kcwiki-data/normalized-facts.nedb",
+      "sha256": "3cd458cb05cd12de189ad661a8070e9a4d7cc43301f1a06b629ee7d8a51fe026",
+      "size": 555649
     },
     {
-      "path": "data/sources/kcwiki-data/parsed-rules.nedb",
-      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
-      "size": 532982
+      "path": "dist/data-pipeline/sources/kcwiki-data/parsed-rules.nedb",
+      "sha256": "3cd458cb05cd12de189ad661a8070e9a4d7cc43301f1a06b629ee7d8a51fe026",
+      "size": 555649
     },
     {
-      "path": "data/sources/kcwiki-data/schedules.nedb",
-      "sha256": "1ada4728011244dac72cd025d9dd93e1cefaacccf916530b9abcaaa09733de1e",
-      "size": 532982
+      "path": "dist/data-pipeline/sources/kcwiki-data/schedules.nedb",
+      "sha256": "3cd458cb05cd12de189ad661a8070e9a4d7cc43301f1a06b629ee7d8a51fe026",
+      "size": 555649
     },
     {
-      "path": "data/sources/reliability/report.md",
-      "sha256": "ab285a30e1e033753e897eb4e623d12b34218b68ced95e2ede86968d2334dd60",
+      "path": "dist/data-pipeline/sources/kcwiki-equipment-development/dataset-issues.nedb",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "dist/data-pipeline/sources/kcwiki-equipment-development/dataset-metadata.json",
+      "sha256": "53483672f61daee56aaade3c83a4af1604cd6638c83bf8ef4c22422100d69c52",
+      "size": 912
+    },
+    {
+      "path": "dist/data-pipeline/sources/kcwiki-equipment-development/development-flags.nedb",
+      "sha256": "afca0cd1fdaecc4a309903cf5606dbaaeb218c99beddee39e7f84e8bdfd1590b",
+      "size": 171089
+    },
+    {
+      "path": "dist/data-pipeline/sources/reliability/report.md",
+      "sha256": "1c9b8dd44e6f4c38dd0374acc43f5e608cf77e27f8cea461605df9c6c2147c92",
       "size": 836
     },
     {
-      "path": "data/sources/reliability/summary.json",
-      "sha256": "5ea241cda3a04f4ce70521abcd1d7c17114b134d2e10e5437582b0bd45e9f9fc",
+      "path": "dist/data-pipeline/sources/reliability/summary.json",
+      "sha256": "db15315245943218ef4aa01a247104e72375c6e71b466093d3bc72c5d3d41067",
       "size": 4330
     },
     {
-      "path": "data/sources/wikiwiki-equipment-detail/acquisition-records.nedb",
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/acquisition-records.nedb",
+      "sha256": "d553eda067a309cd6f0590456aab7ff5686a8e6b2b212158449230d74b5a205e",
+      "size": 3450918
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/catalog.json",
+      "sha256": "09a7bc7663b043408b627d3236089d5c9dd4e5d81980be624750672708567b09",
+      "size": 242032
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/dataset-issues.nedb",
+      "sha256": "3465c9d283d8e4cc9009d578d6b48c4ca25b159f80080e1a63f348dba51d01a6",
+      "size": 520052
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/dataset-metadata.json",
+      "sha256": "fd29b3a6a77cfaca71f4f4073c1eea150f03a4979fad778f8d4ed6dc0ff2b961",
+      "size": 3006
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/reference-diagnostics.json",
+      "sha256": "29be7fc4a426c1b0b2c2d32bb472be59d290373f4e523fbc382cec5e764d81ad",
+      "size": 623634
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/reference-diagnostics.md",
+      "sha256": "a9de82d18b937c0200bd5c052be0f21ffd9c4c8ff41bfde5473665e4a6a0fda9",
+      "size": 309051
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/reference-issues.nedb",
+      "sha256": "0aa092873c0ff0ef62a52431c7f5494df99c4ba52fdf640c76986638c5a8bded",
+      "size": 492728
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/unclassified-evidence.nedb",
+      "sha256": "8ed6d12ce5287097a841a7bc299a999a5544bc0b95a5d47ef951457c40701a4e",
+      "size": 2697
+    },
+    {
+      "path": "dist/data-pipeline/sources/wikiwiki-jp/issues.nedb",
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "size": 1
     },
     {
-      "path": "data/sources/wikiwiki-equipment-detail/catalog.json",
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "size": 2
-    },
-    {
-      "path": "data/sources/wikiwiki-equipment-detail/dataset-issues.nedb",
-      "sha256": "a464af56e430b2104401039060550bafb8aeac2039a870ceaf6008451e8e788e",
-      "size": 129552
-    },
-    {
-      "path": "data/sources/wikiwiki-equipment-detail/dataset-metadata.json",
-      "sha256": "c0c19ce7a321b2bc1ed69a27101953d309dd544d47d42eaeb955a85f1097e9d0",
-      "size": 1870
-    },
-    {
-      "path": "data/sources/wikiwiki-equipment-detail/reference-issues.nedb",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "size": 1
-    },
-    {
-      "path": "data/sources/wikiwiki-equipment-detail/unclassified-evidence.nedb",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "size": 1
-    },
-    {
-      "path": "data/sources/wikiwiki-jp/issues.nedb",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "size": 1
-    },
-    {
-      "path": "data/sources/wikiwiki-jp/metadata.json",
+      "path": "dist/data-pipeline/sources/wikiwiki-jp/metadata.json",
       "sha256": "6e9df0d8934256d7e9373a588f858aa4647d6d2149bb4256490d1c14f19b956e",
       "size": 343
     },
     {
-      "path": "data/sources/wikiwiki-jp/normalized-facts.nedb",
+      "path": "dist/data-pipeline/sources/wikiwiki-jp/normalized-facts.nedb",
       "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
       "size": 981599
     },
     {
-      "path": "data/sources/wikiwiki-jp/parsed-rules.nedb",
+      "path": "dist/data-pipeline/sources/wikiwiki-jp/parsed-rules.nedb",
       "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
       "size": 981599
     },
     {
-      "path": "data/sources/wikiwiki-jp/schedules.nedb",
+      "path": "dist/data-pipeline/sources/wikiwiki-jp/schedules.nedb",
       "sha256": "200dd978c8908c89e89b513b507e535e2199a9d925a3a5a9b1ec903420cd6fd1",
       "size": 981599
     },
     {
-      "path": "packages/kancolle-data/improvement/detail.nedb",
+      "path": "dist/packages/kancolle-data/improvement/detail.nedb",
       "sha256": "f615aa6ca7e18519b8b332bc4772ceb71169e092820af9334fa4d8a1f4907f8a",
       "size": 2953885
     },
     {
-      "path": "packages/kancolle-data/improvement/list.json",
-      "sha256": "35222e26b739c5430a6cc4ef08470089983661f167e09743e430059cf3460a06",
+      "path": "dist/packages/kancolle-data/improvement/list.json",
+      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b",
       "size": 209473
     },
     {
-      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/detail.nedb",
-      "sha256": "705e80df828fae7a2cd6c0c14026d99b21dcad34899d5c7a2fcc1e6ffca15187",
-      "size": 413205
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/100.png",
+      "sha256": "9256e93113e666ee6d3d88c998be4ef3d6cc45e04bd212f8e791539330786af6",
+      "size": 102978
     },
     {
-      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/list.json",
-      "sha256": "35222e26b739c5430a6cc4ef08470089983661f167e09743e430059cf3460a06",
-      "size": 209473
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/104.png",
+      "sha256": "dce78426d2886ff2bc6c7fe1063e8f289e5ff4958fff4b3cb02998fab9dd6f9d",
+      "size": 107939
     },
     {
-      "path": "packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json",
-      "sha256": "b441d222f72865e749f0cef6b9761f5963370fedff81d86be9db96e490cbc4c5",
-      "size": 379
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/2.png",
+      "sha256": "dd1e44eb655fda2e5fdbd3f4612947381fbbb4f4c78c6b81730f03c2a3d0d157",
+      "size": 153750
     },
     {
-      "path": "packages/kancolle-data/equipment/drop-from.nedb",
-      "sha256": "b1dbfa1b0a58c969ce572871f42129f73262de36f9e8adcfb6de6890de4c01bc",
-      "size": 369354
-    },
-    {
-      "path": "packages/kancolle-data/equipment/sources.nedb",
-      "sha256": "e0b429db005ca7156dc75196be533785d0511432d8e58cf6cd0ed624f50c7cf0",
-      "size": 86240
-    },
-    {
-      "path": "packages/kancolle-data/equipment/special-bonuses.nedb",
-      "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b",
-      "size": 293128
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/100.png",
-      "sha256": "6c056ddea6ed3d2bf425ff70a36e47ecbc1dfa3de29d14fec24533e7699778f2",
-      "size": 19758
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/104.png",
-      "sha256": "d03aef31bb01e85f7d688997d1dd7c540ba486c33d07dbdb3022b7ceb43c5a9e",
-      "size": 19789
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/145.png",
-      "sha256": "adb776649583f6f5247d835ab4263f30431ed556c6df808dcfb934f8f0fc2c79",
-      "size": 18783
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/150.png",
-      "sha256": "79cf5a98164a489a79a82ce4b15d908dd48f5e60ab54782f6903dd6f1bef422d",
-      "size": 21310
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/2.png",
-      "sha256": "c6d49fe10614fda38b27b30e2f71b2897a6e5b9db433912a952679c351bc7c26",
-      "size": 18075
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/241.png",
-      "sha256": "d8252c64e9c4320f8a5708ad95c3cd493f77705399752189a0d04339060ff4e8",
-      "size": 19245
-    },
-    {
-      "path": "packages/kancolle-data/assets/useitems/57.png",
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/57.png",
       "sha256": "099226b22bc852df46dd3d92817e932df044e8050b6a74874418be152c41ee14",
       "size": 128450
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/70.png",
-      "sha256": "0f4075c759c4efd9c82f92311c5a657bff39f7ea0261be00818e8325cb0fc454",
-      "size": 45622
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/70.png",
+      "sha256": "42e96d8de2b46819ed9b30b852c7214a9852da2aee98546f9a9049cf0a4fb658",
+      "size": 148308
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/71.png",
-      "sha256": "824bab9afa0a5fe768ffcfceade5c19fd0998b80ffc83413c7427ac3a31e6573",
-      "size": 15305
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/71.png",
+      "sha256": "c41454ea8bcda3035446698e50b342bf462f883dc84b7a544abfa0d41aae7f52",
+      "size": 151093
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/75.png",
-      "sha256": "6db732f6217f551042d23df5cafff0b9b16bd00b34a52346c86a3c7d89f09352",
-      "size": 19226
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/75.png",
+      "sha256": "c0da49433e9c46407d121527f042a5b38e4df4750a258cef70f462a2808f9606",
+      "size": 149027
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/77.png",
-      "sha256": "00d525c6ddf022b60025f1d894756f9e54f1f682fa75af6857301fcd1e091706",
-      "size": 53783
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/77.png",
+      "sha256": "a418202b5fcc903de87c1c25fb466d7625c2e27cc914945345fc91eebb06eba2",
+      "size": 145691
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/78.png",
-      "sha256": "7ad892b370da1501e27d5fc56fcf29c9e0f3e181481a4caa2886bbc38e061041",
-      "size": 21285
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/78.png",
+      "sha256": "9a2c6c75407084bd060dde4606b34af7bf58f5bbe961b340a79232c5da4fc125",
+      "size": 146513
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/91.png",
-      "sha256": "ba3fa1862fa44369991236339a720c2a28f083c9cba7c5be38a451ddc12742af",
-      "size": 21044
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/91.png",
+      "sha256": "604f2df087c84fe3bad0031d2f08b76a545e324fd9f1648a7bfb9ca79188c073",
+      "size": 151315
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/92.png",
-      "sha256": "bf37a3091f90af02849679aaf8eaa3f5edc44415e79ee1d6a3d411e3b29ee572",
-      "size": 124067
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/92.png",
+      "sha256": "64b8a67b5d7ccd4e884abdb03d90498dce1136747e4796c36eba2b4f9c569c94",
+      "size": 150587
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/94.png",
-      "sha256": "02df557806b3fd7ff0469bc1c331dc1a42649fe98a221b89302095a52924e6df",
-      "size": 136922
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/94.png",
+      "sha256": "520d8838529a9a4a1a6e6febd40db27cfecfd65dd527cc42730c8f24a20bb375",
+      "size": 149007
     },
     {
-      "path": "packages/kancolle-data/assets/useitems/95.png",
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/95.png",
       "sha256": "0e5e16b66dab58c8a580cf8b244040cc6241926f34701f242300e46583551301",
       "size": 28940
     },
     {
-      "path": "packages/kancolle-data/audit/build-report.json",
-      "sha256": "148727a878711f3c4029176827a3ecaf218097add2a2ae497bb8c9be5090740f",
-      "size": 1620
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/detail.nedb",
+      "sha256": "705e80df828fae7a2cd6c0c14026d99b21dcad34899d5c7a2fcc1e6ffca15187",
+      "size": 413205
     },
     {
-      "path": "packages/kancolle-data/CHANGELOG.md",
-      "sha256": "2e0da317000c1780b50dfb8fa51c5e1bf30ea59dcc2cecca1be6ef5ff61d3dc0",
-      "size": 15027
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/list.json",
+      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b",
+      "size": 209473
     },
     {
-      "path": "packages/kancolle-data/RELEASES.json",
-      "sha256": "7c23e1839365ae42a3b7f61f07f9c36dfa941c96eb082e616cb70188f9d14d37",
-      "size": 35817
+      "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json",
+      "sha256": "228c8ff4ceb913c154c09063ec057014bccd242416f8d160dccc97d9ab1a3aa2",
+      "size": 953
     },
     {
-      "path": "packages/kancolle-data/manifest.json",
-      "sha256": "bc2441a5f94f7613cf3218dca82b473b53cf99f3a88f1ae43b4805dea1c6e577",
-      "size": 12816
+      "path": "dist/packages/kancolle-data/equipment/drop-from.nedb",
+      "sha256": "b1dbfa1b0a58c969ce572871f42129f73262de36f9e8adcfb6de6890de4c01bc",
+      "size": 369354
+    },
+    {
+      "path": "dist/packages/kancolle-data/equipment/sources.nedb",
+      "sha256": "370028b1c927f4b3e420019d2ce3d8642ae4c70611bac30bdaa6f8aa02b5243a",
+      "size": 104283
+    },
+    {
+      "path": "dist/packages/kancolle-data/equipment/special-bonuses.nedb",
+      "sha256": "4cea85dd8725acb19381f3a28cf97a626b6ca72bdc25499dd1d53cde5748b56b",
+      "size": 293128
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/1.webp",
+      "sha256": "4e2ff0528e71462b45df1ab4fd708e228ac8f2afa971e11f7247166ecc46c171",
+      "size": 39506
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/10.webp",
+      "sha256": "0039110650711bddb9fc5d1a40430c5749feb223caee16096642ad1b6d6c7ed1",
+      "size": 49018
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/100.webp",
+      "sha256": "8fb14ea2391d2cd4d516b687c747ab895e1c5037e999f5eb6d79cf1599508563",
+      "size": 85532
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/102.webp",
+      "sha256": "3a71b3d3b72c535c6eeb9dfd20de9d2382f1577cb656f96386e90c4577de761d",
+      "size": 52156
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/103.webp",
+      "sha256": "58268cc75b92d30030a71f5c907407084bb12a7f97c369a02ce63281d909459d",
+      "size": 58774
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/104.webp",
+      "sha256": "97a4cd9266616bd8e28dda582212aa6298cf6b66077fa0beecb804df0d147145",
+      "size": 58892
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/105.webp",
+      "sha256": "4701f9dc4bd0116b5dfb69e4f6801df36bcf802c29e67abbc3dd1c10238138f4",
+      "size": 87756
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/106.webp",
+      "sha256": "3b4914d6849cc8b9c45d966ff765e2e1de348389415780247a2c81bf3c9bf380",
+      "size": 64364
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/109.webp",
+      "sha256": "b68b9ac6dd93f7a7dce56b08ee583423b13b946607d48f86de671b7a87e11978",
+      "size": 58444
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/11.webp",
+      "sha256": "551893bdc3f6804eeaa565cd847a2bdc7503451bde4c2d5bac6eafdfb7259684",
+      "size": 45720
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/110.webp",
+      "sha256": "f8f7a94ec20821dc0a2295b3e235a6a088d3f4cc13409308e0f4812af877dc30",
+      "size": 78608
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/114.webp",
+      "sha256": "c400b6a9e5d7b19910deb8fd9a8f86b8404508d9c58b6ceebb725ef9375ed202",
+      "size": 66514
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/115.webp",
+      "sha256": "7e39dfda1f2be463cf35331d976ba6c66db7e4e90a0d4e5e1a52dbf18ee4755d",
+      "size": 67682
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/116.webp",
+      "sha256": "829ef1ceb89e5e1ccdde5ffee6351729791101200be0525fef38915f7ec6b06e",
+      "size": 48164
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/117.webp",
+      "sha256": "8fbd03ae4e2ad1e5ee311e20cbcb06aa95a9236de7aa2e3272480a6f72ce833d",
+      "size": 82424
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/118.webp",
+      "sha256": "422f45c51f220e4ad4338fa25e9078539b36f4a01d557400d6c9aae203f1e810",
+      "size": 84568
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/119.webp",
+      "sha256": "b4d31fa7a62da45c4078ae92ec889a0ec7c73fe917c50f1dd1cfb24e8d12459d",
+      "size": 50438
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/12.webp",
+      "sha256": "0e1abab12a410e4be0edf77d10f7daaa72dd2000a665dcaa13da874efc4ed4b6",
+      "size": 65924
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/120.webp",
+      "sha256": "48a9d8f5036d0978316bf33a8ae44538f0a743f0d04b2cad33f6ff9cd52059d2",
+      "size": 51456
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/121.webp",
+      "sha256": "24da63f3ec8ed0fb29f88ff3657ca94d0b80b1e4a251018956c0bf05f6eed393",
+      "size": 68668
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/122.webp",
+      "sha256": "9c47bbcaecfb8765b1989a91cb70e02a45b114d325cf4268b3b6c6812cf75f5d",
+      "size": 55280
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/123.webp",
+      "sha256": "373fc8d67c82e9c5f950044daad3bbc91c01e4849d800fb1737d858ca0b13382",
+      "size": 50104
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/124.webp",
+      "sha256": "9c62e20b8b765bd420f06d33538505ab3318374c6496b9267bce6edaa0efa328",
+      "size": 59654
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/125.webp",
+      "sha256": "3b2743bf2d1be782afa2b0c69bd506f176176bad4fd06db733864de779e5782a",
+      "size": 65976
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/128.webp",
+      "sha256": "b0e3db4abd2e5c59815f8b14762e2d1b932f58ba8e5faebfb9b744e846ba5983",
+      "size": 83782
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/129.webp",
+      "sha256": "c2d36db261e1a1e6a690c488cb4ad541d6b5c88987cceb03406d51a545485ca5",
+      "size": 55910
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/13.webp",
+      "sha256": "4d4357beb9e10e67db3ba63974007ba585c1bd5fc936f8e51c9a36a37a0f4c59",
+      "size": 48258
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/130.webp",
+      "sha256": "078e9d02bad0939b4d1b9f5d5d31fbd111cccd428701ebebb19db4cf17aa6fe0",
+      "size": 58632
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/131.webp",
+      "sha256": "5fefb7c3ce90383d4a869df6a82baf54eb5df15cb9a5419bd8b8b44f0c1378f9",
+      "size": 54080
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/132.webp",
+      "sha256": "7f2ebb794d9e8e81ac2d1fa0eefa764340d41e2601082ff78f787e43062b400d",
+      "size": 62666
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/133.webp",
+      "sha256": "36e16893ebf9f3b36c8a9fa51f9cbb454e32bbb7803ac4cf138985b4320d4ff9",
+      "size": 54770
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/134.webp",
+      "sha256": "5f6d73c2b433ea38b137de591dc4637ba9075faa27162366a5a401ac51ab7a13",
+      "size": 55108
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/135.webp",
+      "sha256": "a129d24e6becf60346ac337e7e3cf0d97dd9dc35762633f9c75d0414df093653",
+      "size": 51816
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/136.webp",
+      "sha256": "a478bdba650dee807cccb56ca4a2d0465ecf402f3ec7b162e1ac59a58081b4bc",
+      "size": 60622
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/137.webp",
+      "sha256": "7575f5bae158e37875e8ff7c771a6930ecb62f9e4080f15bc103c56ca8a98dc4",
+      "size": 83670
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/139.webp",
+      "sha256": "4df3c69a40effe21672ba1a39d777c62471d6377274ce082ab2341da9f014984",
+      "size": 53118
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/14.webp",
+      "sha256": "45fc3d3cdccb1d64b86eab78d7326a9ef39d3c34b9cbbb3f987f8feb4ea0fdf6",
+      "size": 47720
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/140.webp",
+      "sha256": "0f7f1b7391b3d1f88cdedbd05bbdc6fb2015ff3e3447f0b2a97a18c1cc4dc70e",
+      "size": 58844
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/141.webp",
+      "sha256": "cbe5b217104871eeabc1e2942de891dd5d6d0781eafe17c36c4a2613342b36e1",
+      "size": 56170
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/142.webp",
+      "sha256": "cabfdd933114e44f1184f3c1193e008066c1b531a9e49b4d9c8137f4b6d488d6",
+      "size": 61530
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/145.webp",
+      "sha256": "1f16ad85cc6af742fce1a0df72eb27e3e5cea274a93e91c2180ebf1c0cd8bd30",
+      "size": 52098
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/147.webp",
+      "sha256": "e0ba459870fe197174b40a9e214f5477552d032c3e904e2c46ec1c71967a0bff",
+      "size": 63520
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/149.webp",
+      "sha256": "b2ad9592e0fd235fff3d3a6ac94e8a5225cf05ca6cce06846d182cccbc3b7d56",
+      "size": 57518
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/15.webp",
+      "sha256": "cf6e7034708f4ed6e544578dd7dda6f5a49d38d4df1f2ff92c42ff53a606a55b",
+      "size": 65952
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/150.webp",
+      "sha256": "307d2d6387dc14ab4c238be2b65101525f03f5e7c1d5e4cc5281930a42e31446",
+      "size": 66070
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/151.webp",
+      "sha256": "d054b73e08ce80066cfa9db982e2e0c7fec424fc9b345f645fee82d9aa224fa8",
+      "size": 82784
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/152.webp",
+      "sha256": "ddfbac55b32f25b07f4b7b0a842194b906266a9cd629fb8463f2a3819365482c",
+      "size": 52594
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/153.webp",
+      "sha256": "15cc8c8ce07b436706e2bfa2cdbd71ffa2b993430b80fc84eec1e61316a44ffb",
+      "size": 53110
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/154.webp",
+      "sha256": "fc081b33baf9576f5f22fe2dde3c3ea5b8001e6b71d8e2b063972fabaa988bad",
+      "size": 84824
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/156.webp",
+      "sha256": "1e21590d1fe46d1deedfb9e21027f225d05f5e0f592df5d8a93e763f7f4e152c",
+      "size": 53016
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/157.webp",
+      "sha256": "4c628d3c09f49669cf146ac61c6d7ad536a77f807f90d7d3bccdf883e4adfb13",
+      "size": 84836
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/158.webp",
+      "sha256": "182bf69b7c2b91b09aadfde7d85585a9117a7113ffca9a5aa20a7b8cb0d35873",
+      "size": 47652
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/16.webp",
+      "sha256": "95ee592932e99da916ea8cae6ba602d732e9ecb67e87907e8bdf3df02b7cbe8c",
+      "size": 44150
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/161.webp",
+      "sha256": "b78fcbef5835c09bda3ac5b917cf41d23ff560d7108519c0876255aac7c9f137",
+      "size": 79540
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/162.webp",
+      "sha256": "35fb048bee49d7e8029db1c79d5f821941fe6cbbc413743acbc3e41f8a61fe55",
+      "size": 45590
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/163.webp",
+      "sha256": "fd31385f927bd53332a54e87b119fc3ca80555f1a96e6f04ac4056d49585a8f2",
+      "size": 52114
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/164.webp",
+      "sha256": "e088943b80ecf671cb12ff713bbb21f642b138c9e647ee17482bb7cd4b661648",
+      "size": 59648
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/165.webp",
+      "sha256": "3f3146216dd2c05615b53a8a85247c4f43841615d8ee14b5411f0ef70c35754c",
+      "size": 66422
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/166.webp",
+      "sha256": "25eb3e2bf98c20e1ebea347bdcb36250914a15655fdbd786eb8e770148e21880",
+      "size": 68434
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/167.webp",
+      "sha256": "5bfce6d8f141dd8ef6600874da87107d5824ba2598ff6ae813dd6e98b3c116d6",
+      "size": 51320
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/168.webp",
+      "sha256": "c1cf68294b44430454e54260394462634f44b0093154407e8e9e5f9c9321270c",
+      "size": 47072
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/169.webp",
+      "sha256": "edeb920bf0549c5a804786b6a7328f2a956c5fbf69b8c24d6b97a3ceea99420d",
+      "size": 66672
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/17.webp",
+      "sha256": "84dee313948dc2758ca05e225219bb580fa17f2e9b143a79971107f5ac084b69",
+      "size": 62002
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/170.webp",
+      "sha256": "ec86399f7ad78b44684e92d53f5039f5508b1a3b1b01c586597f463fa3e77667",
+      "size": 57202
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/171.webp",
+      "sha256": "f32c4399e1d660685ab7ab342b05e5c44c550fc8c48c8a6a2a24aecb0ffa4ce7",
+      "size": 55868
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/172.webp",
+      "sha256": "d0b4b1f0c5ab075b6993b00e97d27631d250cf1bb67b39cc99271a731aba6915",
+      "size": 54812
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/174.webp",
+      "sha256": "e626e18f2b463b06741320dfd044e81a99c8149fa7a8c9472dba3a55f268d82d",
+      "size": 45094
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/175.webp",
+      "sha256": "08f1429cfc6ce549537a8658200c5092293d4216312aad3c52d37dc0e67d4bbf",
+      "size": 51360
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/176.webp",
+      "sha256": "54df1a2810942b22e37dcbc35b595679e90d3137f487cf7d358d238fd02f8dfd",
+      "size": 52992
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/177.webp",
+      "sha256": "aed62dcadc799c87584e6ab73bd5767e2dfd090afb27921eab14a27222d5bba5",
+      "size": 87712
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/179.webp",
+      "sha256": "c2130a5b092fd00a31c12bbbcfb6d097fbade57722937c256bc6d07aed287d93",
+      "size": 54940
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/18.webp",
+      "sha256": "2bfbee812671dfbb863503101df761259a54e2baf44c682abf7d1a1be144fd74",
+      "size": 50574
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/180.webp",
+      "sha256": "b25d8d3263dbcbd2e0beaf8d87581f96da6375640b864c33ab802f2111b54210",
+      "size": 56814
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/181.webp",
+      "sha256": "5640f76a6ec9f72ed9ec04e1921cc670014b484a9cd99e2885e38ca1eb07a646",
+      "size": 66570
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/182.webp",
+      "sha256": "09ed99f5347c566b5c45e3b5ca7b4425ced3f1d7873c0d2b7c2fd15d3c28f5b1",
+      "size": 57068
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/183.webp",
+      "sha256": "4a6461d73cb662f4b9b6071e70fde1d965d0886a4aa489742f2fbd43ad2d65f2",
+      "size": 81418
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/184.webp",
+      "sha256": "5bcb81b13337f49e3d9ee5b72c1be64134bb7d50108f5933b8bcdf6f7dc6be21",
+      "size": 53702
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/185.webp",
+      "sha256": "69fefcd9256084d2010c02118d72220f991999ccb9a14635b43570662cd96d30",
+      "size": 55068
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/186.webp",
+      "sha256": "a241822dc6dbb56defca2eff356acd7f1832eee522f999d18f917ef8f1dc7913",
+      "size": 56184
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/187.webp",
+      "sha256": "04dee227ca630ec980f761c698c7c1deb3dcb2050faaece86b2a00cdeed58405",
+      "size": 54208
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/189.webp",
+      "sha256": "ef88cbf3ade6862008807c5ae14035b044eefa35b18dd06b0765c19b2812b372",
+      "size": 84132
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/19.webp",
+      "sha256": "29bf35e0eaa836a77e2b31294653fb24a627a18009847bef8ddb6b69bc820aa9",
+      "size": 47048
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/190.webp",
+      "sha256": "f60d9a11822e32d69ea40ed220c725c246a48727c1ec0389584d75865a468d10",
+      "size": 52806
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/191.webp",
+      "sha256": "3775058a6a141c61ac765baf184efaabb087078895b52adeac35bc81fb2682a2",
+      "size": 61102
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/192.webp",
+      "sha256": "17313fcbd3eb0f279612232db4aad04002c7553d581c5bba19aef0decf78b721",
+      "size": 54924
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/193.webp",
+      "sha256": "c53a88a0fa26549c00415165d92fbceba0295f110d99dbde5cf1e2cfcc3e8b93",
+      "size": 67610
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/194.webp",
+      "sha256": "eca828c9cf192a5a17f3f6ad94041e0ed9caf82560267de01b4613a1873396d1",
+      "size": 56044
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/195.webp",
+      "sha256": "2c8d9601343da6fd8a25b7ed3fdf00052321cd5dbe9a0398ff1c1cba08be39c4",
+      "size": 63228
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/196.webp",
+      "sha256": "e75575876bc084d7b9912b829508e9e03b3670179ee8912c610641a85030c539",
+      "size": 64894
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/197.webp",
+      "sha256": "12c937ad5e0214a32d118a3fb6b554849b9c59e3570dad4557fbf98c053d9e13",
+      "size": 65428
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/198.webp",
+      "sha256": "867cdc6033607a2f25abfa171dd506bff1fcee62b891329f0f3c1783cb480014",
+      "size": 52302
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/199.webp",
+      "sha256": "3f11686a0dcc64a9030b2afa0e4db0c4f92517ae3e39c0947959f9ea51708993",
+      "size": 83634
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/2.webp",
+      "sha256": "f169e2727be8bdd9d29eb72167bee7e291a74d84f5b7fb8aa2867a124639aa98",
+      "size": 46324
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/20.webp",
+      "sha256": "b76d11c3105a81647f29c0d603abd6319b94a39088e77513deb923e47ddd47d7",
+      "size": 47522
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/201.webp",
+      "sha256": "ecef90ebce6cc0dfe66ffa7d3f4179f4f532cfdf48d7f0067f30f606103fe8e8",
+      "size": 50730
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/202.webp",
+      "sha256": "bd788ffde957f52350476723f41a5908d2a73a5c6d7cecc6627b38ef71352990",
+      "size": 68924
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/203.webp",
+      "sha256": "72536cbf0455e02226d0ced48539485c02c206221ec0b274a3962550ad81e697",
+      "size": 56612
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/204.webp",
+      "sha256": "d1c7e7a34b72e45dfdb75eb7f50b12ff83848d25e076ffbf3f6f0ee88f3179d8",
+      "size": 56786
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/205.webp",
+      "sha256": "993da6fec85ef192cc435e6d0435da346c01912b0bf78ad5913ce4947060815f",
+      "size": 53598
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/206.webp",
+      "sha256": "a3008912d7c90e815e65d6fa668bf0c73aeee3ba1fd886f0f02e5e63f66df734",
+      "size": 80398
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/21.webp",
+      "sha256": "ba3251cb036e9b8730d3a49c74e0ae1ec936573010dd88456ed9e0e078758d5f",
+      "size": 66512
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/210.webp",
+      "sha256": "404790222c6280cb83fdc0e2965eac0dc2c70fe67d88e40bf0dfde9dbefb2915",
+      "size": 61064
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/211.webp",
+      "sha256": "d0a0cb4cbea557daa5c872d10a052b3579b99cf79dfa05ed98fb7deaac5de8f9",
+      "size": 61430
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/213.webp",
+      "sha256": "f4671bf2806d9e6d05b7a790018b1956dce8270838b41883465a14640a874578",
+      "size": 55746
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/215.webp",
+      "sha256": "685078bdb43927af224ef6bd66839c8d56249bbbc8ba66e1088973c62bfb9266",
+      "size": 78906
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/216.webp",
+      "sha256": "95d7a9e27f7ee591dd267e91e3166af3eb9d0a36d44ff36d7d3accbe11d8a6d6",
+      "size": 80408
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/217.webp",
+      "sha256": "01f736076d298ab752ee29f52c4481784f67bce748337394fa65f87240fe6dc5",
+      "size": 56504
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/219.webp",
+      "sha256": "fcfa337461e4555aca8848e768d18ca906993d359fd054f625199ed5a93f6582",
+      "size": 58108
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/22.webp",
+      "sha256": "e8e3a88907f9bf867191a682bb1524735ee64e588fd6b6a4d655850e6617a4bb",
+      "size": 52886
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/220.webp",
+      "sha256": "45dac128b6c0812e0d8a084017db47bf2e725365033afd1dcc823aba068e2338",
+      "size": 56914
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/221.webp",
+      "sha256": "9584465b9008c21d5f0b92d1a759f6bb9c7841ab3c90de8bb72ee407a17581be",
+      "size": 67440
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/222.webp",
+      "sha256": "84c092098fc15c453bbfbf8f48884488e9ad5b6d3a0c6889597ac6edb85af9aa",
+      "size": 55274
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/224.webp",
+      "sha256": "23d3d15d30e78be67bfd326c4189268097648de58787a3209113eb26478a3f45",
+      "size": 59684
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/226.webp",
+      "sha256": "a36c0b8b8354a428af6b9e2435317272151d4f1b225146a57875e3fe5e398a9e",
+      "size": 47166
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/227.webp",
+      "sha256": "82448351de852eb915e552ef7b194c85d45513031fdb5988bba7da73a649cb8b",
+      "size": 67360
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/228.webp",
+      "sha256": "ff5b190a11f7ec137479af55f09f7eb71ab1c5a7778b50ea0d07ed3ad78b7418",
+      "size": 65912
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/229.webp",
+      "sha256": "0f5a788379e40a322d4b54cb685d8c8ea73b9f40ded4192cdec606ef4f0c8960",
+      "size": 66618
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/23.webp",
+      "sha256": "0823d00bb21ad95f5fd5de5c43d0ecd3d56a02386fbf82c8988698301ee6ece5",
+      "size": 45002
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/231.webp",
+      "sha256": "8781009c1aebd341ca1150b0d0d3e290e8168468c02fb58a5e17200402fcb057",
+      "size": 64946
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/232.webp",
+      "sha256": "84306f8f2a87be7dded9d9fed56ae7f0b862a3afa830c2a2d42de4b8c48e233b",
+      "size": 55832
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/233.webp",
+      "sha256": "d1afdbcf4d90384a2c5a57391d2a534778e0e52f9add4ea70e8b362f5576ac45",
+      "size": 84200
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/234.webp",
+      "sha256": "fc2b966dbb0bcbb6475f6ccd8c92d77fe1895fae9e81eb211a180de84af26d7b",
+      "size": 55914
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/235.webp",
+      "sha256": "324f3f5de31cfb233c91515dc6b9cc93ac735bf25594fcdbfc1ca4bfdb0664e6",
+      "size": 54928
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/236.webp",
+      "sha256": "a3da183a40c978f5486f91958c4474f73be2cadb0c39650ca0466cc7290fe2a8",
+      "size": 78990
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/237.webp",
+      "sha256": "aadb6cbad0cfedf940d06f28aef1c77025470d3223ee9e27b53372470364188c",
+      "size": 85226
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/238.webp",
+      "sha256": "0014887a35a3d7d0fdda0ae68fdb1aa6a17be4f0e2a48f8d39d1a4bb8b4ddb75",
+      "size": 54370
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/24.webp",
+      "sha256": "a358e55de5789fa3733eb1ab12d053942773f87aec123285bf69fef968d0d27c",
+      "size": 64070
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/240.webp",
+      "sha256": "00ffe2ef5402de313ce4b36958fcd19a7a8164d5918bc664c62f4dfcb3fda51e",
+      "size": 63674
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/241.webp",
+      "sha256": "fa85735227ef4e488ee6eae26bf83dbdb4f577b5d835ddc1c7bcbc3d2d91773f",
+      "size": 66506
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/242.webp",
+      "sha256": "8b672b8ce8266e7f7cf948b75788897860f2b3587c422b19ad8952636d268068",
+      "size": 65486
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/243.webp",
+      "sha256": "a53e84612953764429388386ad4339898bd3b01942387c1ba7b2c029d816e71e",
+      "size": 56102
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/245.webp",
+      "sha256": "a17bf34163bed7689bc5b6a6ef32caed99349dae216c2570c980943f1f7a49df",
+      "size": 52982
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/246.webp",
+      "sha256": "0fcd6ad6425d9f9eb5ca56320749de6007194e60002dfdbe9a02fa4887b7bb7e",
+      "size": 80788
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/247.webp",
+      "sha256": "043cba32b39db43b0a2f1f5b9ed8889f2443a24c74eaa6018660fb12e0fe4d96",
+      "size": 53166
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/248.webp",
+      "sha256": "80d8a117385e194dacee3179e9d0452690c11c35fbbd916e19fe2a4081bf1183",
+      "size": 63856
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/249.webp",
+      "sha256": "917cee45c801365284018831521e7c8989591f91a848a4c1f011d468fb57e188",
+      "size": 61398
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/25.webp",
+      "sha256": "dbf929ce1b904edb393337ee0d53d3b8e06bd8803f9788a59ff96dc17ab1a583",
+      "size": 48858
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/250.webp",
+      "sha256": "2c62b9d79e68868682c4b24352509d247ef649a4a85978de3acfa7af54f94340",
+      "size": 50358
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/251.webp",
+      "sha256": "bed10881dcd1ac64e8a70d55819be1f4e5c6d0302488b33898090157b0f43395",
+      "size": 51540
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/252.webp",
+      "sha256": "92d91b1a3ababe09eb1b48a857f9cb78aae9dccb14bb9309f550a70634fd1587",
+      "size": 50206
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/256.webp",
+      "sha256": "4396621a7db4784b94d425c197cf61bf1c6506dd1fc29faf581b1b3e9901d502",
+      "size": 49108
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/26.webp",
+      "sha256": "97ed0aa702898887613e307e473d2ae7cc41dddee413d2c14e61de1551f7427e",
+      "size": 66176
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/260.webp",
+      "sha256": "06b6de7af4b06ff95cfedc370e533f7000df4bfb9a4ad4abf2876a5572df4f9c",
+      "size": 56168
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/261.webp",
+      "sha256": "abb24b2d338906b8d4adf1d876252b435a3a7792a652c8c49025de5c5a8cd09d",
+      "size": 57068
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/263.webp",
+      "sha256": "d244204f72ea9013d351bcfc01cd4e4a3cd0a22efbc52011a8967dea29824b52",
+      "size": 59146
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/266.webp",
+      "sha256": "20c1ffff9a8ec0473c37791807568e4fa6e3148b88cf097b3dbe6ad6033331c4",
+      "size": 66534
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/267.webp",
+      "sha256": "d478f4b9ea1e82916b02b08455e501551f87e445c4e44fc4402c132a174d1cf4",
+      "size": 56886
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/27.webp",
+      "sha256": "da3766178f8ed0c41bb60b67ea0776993a1d9e98be9ff52c981899977c0f3bb5",
+      "size": 65756
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/271.webp",
+      "sha256": "f9a524614105b1191aa5224b2372e4fb27ce822c10a43859c31c35273870c2a8",
+      "size": 49086
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/274.webp",
+      "sha256": "ebe6b229863fd3d1e69c68b663aeb61aaebe4b7f65c304d27c8a457d649e8430",
+      "size": 56936
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/275.webp",
+      "sha256": "b054549537dd3e7944fa17fc1d6b93607bfe393120ee959a10b05b9f104cbef9",
+      "size": 58708
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/276.webp",
+      "sha256": "5b77bf5105272208a7ebc7bab0d502f8b34ded65b07c8e32fcc050fddb45dfe5",
+      "size": 54488
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/277.webp",
+      "sha256": "b4f9b06a7a3463af15e76466e00dec8fd32cb43f0f6582cfc1a70a4939334144",
+      "size": 50102
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/278.webp",
+      "sha256": "77b8ddca02da33310acb3daade62c4d78b69b41ec3547cfc3beddb31a75f3ccb",
+      "size": 56008
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/279.webp",
+      "sha256": "78f1993b515f0a59044caf98c33ddd535e988ea6f8dc19488e4a33b969e2083f",
+      "size": 59712
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/28.webp",
+      "sha256": "ca65db4cb15258f89242a9aecaf1084dc73c1e20b7807ed198e0a8d45e9f687a",
+      "size": 65884
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/280.webp",
+      "sha256": "2ead71ab6e4db6f08b8b4fa8a0e9cda9e78de0b60b158412af2e334d31f12c09",
+      "size": 54184
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/281.webp",
+      "sha256": "0a95fc9bee5b6e2b2056f9a2942900494f3e2be82ea13af430ba9f169ec8acbc",
+      "size": 78280
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/282.webp",
+      "sha256": "aaf079b74b498b2932da6b847ce642f66c666eb2bf319c83eef00c320005a21d",
+      "size": 52606
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/283.webp",
+      "sha256": "b36150959f70266a50071e8bea737bf5dc934ffb85d344ea8cacfdd251373222",
+      "size": 66180
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/284.webp",
+      "sha256": "3a467f1a48d73067b560d6db682b6f2afbe11311490cca35f5cbe51c432b8a50",
+      "size": 79462
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/285.webp",
+      "sha256": "15c94fdd44f9f9d5fe587bfaba3f251684135af1912e875fe01fd5605c94d7cc",
+      "size": 61270
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/286.webp",
+      "sha256": "4fcd49a384c4541c04a869c37ec9c2d1b4325b297a03282700ea90ad3107318f",
+      "size": 60918
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/287.webp",
+      "sha256": "21efbc7fc8007bef4fb54bdb46b1abab4610df0ad71f07566d3fd05627928f51",
+      "size": 80222
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/288.webp",
+      "sha256": "36cab9962b25a8477254513cde30fcb0b1ebbae7d56a57a515e256ef9f20d2de",
+      "size": 54186
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/289.webp",
+      "sha256": "81a61c7d9532ba3799709a26f026f28f3bd02cca316a97beedc6bdd969035399",
+      "size": 77508
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/29.webp",
+      "sha256": "12d422391bbd92f0f087d730816ea0b3cf306630c3e6e070f88bac0e788b65a2",
+      "size": 46512
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/290.webp",
+      "sha256": "10d6ed5367587e49c472375769f67bbffdd4655f0c35b809542488b2ae25c37d",
+      "size": 92882
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/293.webp",
+      "sha256": "d3cb08a59123c86ec139cfcb4bd8341baff3a85e33c5d8ae98a04fa5eb6a1f1c",
+      "size": 63894
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/294.webp",
+      "sha256": "6f5c147c18c0164856beeb4376a57469d15c6ea9a936c4110f14ed3ba5dcbd35",
+      "size": 64170
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/295.webp",
+      "sha256": "1e80c791a43ce02448703262aa45f94f57bea56d087f611e2b9debe9ce3c225a",
+      "size": 59592
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/296.webp",
+      "sha256": "a4595087096afc1419c377d537ed819ea760680f14b2d8c5a39ac83475bff640",
+      "size": 59366
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/297.webp",
+      "sha256": "bf9d81c162980e9166ab65f7278706fdb8b7dd98efcb7cdab62c8933fa6e0c8a",
+      "size": 44384
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/298.webp",
+      "sha256": "0a8d4b712df898037777fef029b4838fff2072769047f9f78b35a4eaabc839c5",
+      "size": 52210
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/299.webp",
+      "sha256": "843f8a706e02d7b9e3382c47234518a3e2f508d48e7f02060954019dc8833923",
+      "size": 55530
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/3.webp",
+      "sha256": "7e858be8fbcfc1c29832ffd2ac02501af3be10b3b4e1d4357a8a9b1fa7749a92",
+      "size": 65612
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/30.webp",
+      "sha256": "54eaa7fe440d9a8ccb8610db3fa63b22e72f1610bb0553b2147dcbd0c763d0dd",
+      "size": 66148
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/300.webp",
+      "sha256": "bd4efc1612b302cbdb7b160751faf1b35e0fff86620b567649809e05de3b3776",
+      "size": 83232
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/301.webp",
+      "sha256": "90ffb9128023ecb1c2a2579a44eae75a9113f8f43b623999e489cc5a644019e5",
+      "size": 57620
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/303.webp",
+      "sha256": "06c5a52e56bba503d80aa8143a2d79e724ef087ba17b655fd52ac06787eefed9",
+      "size": 51800
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/304.webp",
+      "sha256": "d52fd1c5e10854428cf456d0d887440e5c47ea4e34cecdcbccdfd4858b79f34f",
+      "size": 66698
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/307.webp",
+      "sha256": "c95d686871a6813dbfac735cc2bdb4c91c93791ae0603ce2f3f4a8c3f93d666e",
+      "size": 54050
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/308.webp",
+      "sha256": "0d3ae5fda7ae84d03b9cf879878e9af139ef3dcbcd8dd3ea1884f5b221466d01",
+      "size": 83070
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/309.webp",
+      "sha256": "d6f66932be274b2be50487cf5b77af9b9d7c461951c4eefb8d2806c43ff968bb",
+      "size": 48286
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/31.webp",
+      "sha256": "8bfccbfd2501074012ffdab6bd53f58d64bd615399d0abc29596a8541ba2a185",
+      "size": 46300
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/310.webp",
+      "sha256": "039ef1407f0f0e01adde15ff0e7b10abe1df8e224d98c54dccf98f4fd52edf90",
+      "size": 64368
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/313.webp",
+      "sha256": "6ff4fef753ba8630bb2ed939e34bf12bff4607b41f3fa5bf3697e856fdc55bff",
+      "size": 54104
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/314.webp",
+      "sha256": "4f4ee507f9b4876b14b3778b4f657db5d80c2bfaff0c5fd8a900d8a5b8f88a4a",
+      "size": 69244
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/315.webp",
+      "sha256": "582603755838d327d2993565d89e7eb0193c8253ac8e2aaee476b529546cf3c9",
+      "size": 53644
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/316.webp",
+      "sha256": "d8cd5985b3585d3e4749ae168650aa69658905184aec2bd4abe04e7c221b196f",
+      "size": 52784
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/317.webp",
+      "sha256": "e0a7650178e597ba789e5b800eb7ca6adc56c1e1fc202a993ed6b5bf707d7222",
+      "size": 47692
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/318.webp",
+      "sha256": "d7110173dcff4d783eb4804552f6f338bad9d3b2b1afc26be257259c5debfff5",
+      "size": 81182
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/32.webp",
+      "sha256": "c36f4ccf11d15abdb713c8862dbf0103b7ce577021a496110b653144e711f843",
+      "size": 61414
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/320.webp",
+      "sha256": "2f80be54415a58f792b0dbd89e7ddd4a16515c2978ea142a0e3490cf8ffda99a",
+      "size": 52386
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/322.webp",
+      "sha256": "c1a9a488f80c233cc1599ee74639a365e4ecaa9d5b6eac164bb0b91c2b9106e8",
+      "size": 83516
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/324.webp",
+      "sha256": "4cfc171debf87d1c3b686ca4621e1bce1b437a8bf33b6f68b68cb360b6984691",
+      "size": 50936
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/325.webp",
+      "sha256": "d20463a6e96234860803360908efe1a14522cdf5eadf70a731ad3af9bb9f8948",
+      "size": 84480
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/326.webp",
+      "sha256": "9a80f1003bdf560c8ce18607ed068214a89365e40f58533967113d10e306597f",
+      "size": 82022
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/327.webp",
+      "sha256": "5f023dc422e2f878f4d4330e3eb9d246bef55aec60296ba7711f2e0a6d26adda",
+      "size": 82336
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/328.webp",
+      "sha256": "c5538d17469c683f9fef36ed2deabb9a265435948284e46790ae4fe0d6b2f09c",
+      "size": 51322
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/329.webp",
+      "sha256": "482e1f84b58274149b6242cb00fe20e422a37e23764edf9a796b1b71434dfdee",
+      "size": 52730
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/33.webp",
+      "sha256": "d5d493407fe77f414a8f7fb39710ee73a45683d98070b4c22750c6cb7d358036",
+      "size": 48728
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/330.webp",
+      "sha256": "e68f329a212c2d000772c078f30fcb52fc90d17f8e5fcb990d65932c6a79260f",
+      "size": 60884
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/331.webp",
+      "sha256": "8c8327b26300f6f33ddecefa7ecd0ffad95641e5680c43eab38ba07af4556213",
+      "size": 48100
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/332.webp",
+      "sha256": "ef0eda8930546f05bb1c5946dd1b6774ba6f6fcdcc9be5bbc73edcac9ff5eac0",
+      "size": 52636
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/34.webp",
+      "sha256": "1d17a50ab782bbeaaa2ba3d440810cd8dbb70ff5308e6bbee0c9d4fed4fdce01",
+      "size": 62344
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/340.webp",
+      "sha256": "4af63787f1694f17fa00e37246dce0ed6f43289d4e546560a69b6a582439f914",
+      "size": 49826
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/341.webp",
+      "sha256": "121c8ba4385df418bd3dc294cd6de2abd0c8756a5d49618dbabf5742e119817b",
+      "size": 50786
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/344.webp",
+      "sha256": "572da4e7d7cc41641a39d9c825aade3c007b78b48476cbcde3e9a38dcaeeb5da",
+      "size": 54504
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/345.webp",
+      "sha256": "27be2383d2eaf799100e84c584c49127bac39a75e782926304ae1e7a9f25fc0f",
+      "size": 63024
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/346.webp",
+      "sha256": "33920f53d6b930d52ce0b6a6a3aef78f7bd756db4509f5ef36ff4af210f4e848",
+      "size": 50670
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/347.webp",
+      "sha256": "323990bfedbb106b82a461de0289fcccf2bd725cf9f79acef031402412c2e5b4",
+      "size": 58088
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/348.webp",
+      "sha256": "b6a86c9647dac07c51b85765615d7a8d06123ecb192392d22efa3e0c90599d35",
+      "size": 56690
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/349.webp",
+      "sha256": "8f1944093ad160325d9db84e7763d8b75a25db195ae9a81f1361c29f62d1cdc2",
+      "size": 84854
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/35.webp",
+      "sha256": "bc82816a1ed8c798c532049dc957a6a3cdc48de4b43ff38f25368e6f17f45b46",
+      "size": 60566
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/356.webp",
+      "sha256": "2c0df2a176ee33da6d864b6d8ca5c5fee6ccccc7c39790cc51711fbe0ccdba85",
+      "size": 64234
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/357.webp",
+      "sha256": "cf15a0a02b90e7740a5c6f079419cca91fef896d1b142adc6fff25ec533aaf29",
+      "size": 48774
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/36.webp",
+      "sha256": "2e8bfefc44da85051e8a91b9bf471833eb6fedfd5ae06e705fbe18995c877bca",
+      "size": 47954
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/365.webp",
+      "sha256": "7cc1b0304d5d8cea7b05bb0c035be6e0462068cb8c028b535efc92fc69e8be36",
+      "size": 47600
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/367.webp",
+      "sha256": "cc1f05f4e4143cb3c561d740896e5a2e3044ab16243215e3a0a8055115a30bdd",
+      "size": 54194
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/368.webp",
+      "sha256": "f6f2bd55f8503ecdc3f3a733648413977222f87720037609beadc50540da0c56",
+      "size": 56468
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/37.webp",
+      "sha256": "724e3e9021293a62b22b7c95fa066f881daa9d2d508cece88d5007d55fc3e91a",
+      "size": 45004
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/370.webp",
+      "sha256": "a7b1aab9776b39f55a39ae029de759d7d292f003a1b0f63015235270fe01eef5",
+      "size": 54780
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/371.webp",
+      "sha256": "0d0cbc67f6b311df0beeae3219902df0c69b0d48f62c3603e2aba5de13977f69",
+      "size": 52424
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/372.webp",
+      "sha256": "96a5cccad5e4862a77725bf2a2837c7cb060ff957c5f9d663b0fc82fa35cc7b3",
+      "size": 45940
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/373.webp",
+      "sha256": "7e01c15216ff3c5a3aeb434a44d7ec568bd8a7f53d0e18c751cbe765ce0a3cde",
+      "size": 53134
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/376.webp",
+      "sha256": "4a3c6d5aeaf4b1615c15036fe396ff540b0fd4fe15b28c7d7659fa96bf24ec00",
+      "size": 54122
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/379.webp",
+      "sha256": "da9584b440a3b056037553aa6e9aabe41f741b6a1d903af0fed6afbdd25be515",
+      "size": 48972
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/38.webp",
+      "sha256": "26fead666cd57123492e015edffe5db11c8b42aa0969a77d0d35e068ff1aa37e",
+      "size": 47800
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/380.webp",
+      "sha256": "fb27dbacb50cc58ade5828c4eb108bc2dfdeb707ba9738e4afc45ed54404101a",
+      "size": 53164
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/381.webp",
+      "sha256": "fd74a1bb46b83ee5283763e8f4bf1b850e1be2a4ef873d780f018dc8738969b4",
+      "size": 50676
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/382.webp",
+      "sha256": "a273a32e9aeb1eb796e20d8dadd87a397ca77ade3e2bf032fc903c9e5c1cbd6b",
+      "size": 63640
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/383.webp",
+      "sha256": "998c64272b2087fd902d440aa39414caab9a266cea202d825d9f4f48eea97daf",
+      "size": 51736
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/385.webp",
+      "sha256": "a1d5564357968ab58eb32df218517195b257f54455cad2d82b54513fb463d26d",
+      "size": 52456
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/386.webp",
+      "sha256": "5b6d07ac390fced827be48a77fbf4033e764f73b0b84b7e6ebc56c2f67a529a7",
+      "size": 43914
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/387.webp",
+      "sha256": "22a791a0d1109236028b0f0687ec920ce46b2922ff28e753bac5d8e123d90f80",
+      "size": 42996
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/39.webp",
+      "sha256": "5f751eadac046cab16df9ab34c715472fb64ac163d919eeaa386c7ce84e91fab",
+      "size": 69006
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/391.webp",
+      "sha256": "fc72961baa8a632e3d52573ace55df9ec6ff2524c22f09a19b0a2b5f6ffddcc5",
+      "size": 64744
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/392.webp",
+      "sha256": "9134b50a5a0ea2603bd2fd93e5b8acd7013a7a732e7055efb3b7b2b48995d6a2",
+      "size": 53250
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/393.webp",
+      "sha256": "e204f914864248cbf98be9c83e6c54dc66d5a185fa7dc45bbb7c88ae46a7e75e",
+      "size": 48162
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/394.webp",
+      "sha256": "1ef463d1ec4bc9e4b64493c52504728fb63cc05b57fb85bcb3efe77410bae868",
+      "size": 48554
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/395.webp",
+      "sha256": "0f94fd4be1b25c2835a7af4902160960c9d6e778312675c82a64106222805391",
+      "size": 45004
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/397.webp",
+      "sha256": "9886023ecd21bab6d700c3e91782b77eef5a15a0877f58bf3af417a3feca153e",
+      "size": 48428
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/398.webp",
+      "sha256": "d0b3202c7ac9ceb5bec281e4f66b80957dfffc378613ef6f2ea1ff3890c9479d",
+      "size": 48606
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/399.webp",
+      "sha256": "b38aaef44432fc37e59bb9b82b63c761e7ea0315ba23850ed4b4ef2ac89765fb",
+      "size": 62722
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/4.webp",
+      "sha256": "627a1ff96b9b3e9d8ff2574bc6f90eee7a636971b1fcbaf9a3f3f89bd5ebe953",
+      "size": 40496
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/40.webp",
+      "sha256": "5ca6165218159372cca7e50897631a35c84ab89984990649620b179e2d8ace2b",
+      "size": 68760
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/400.webp",
+      "sha256": "1462d9270fa1d6355dcb920b07474ff43c7db158c424ca47ca95bbbbf1008ebf",
+      "size": 55958
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/401.webp",
+      "sha256": "c13f6db4489be67210853274119707422664eeb492b9da2f250d8f191e8a300f",
+      "size": 61390
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/403.webp",
+      "sha256": "ed3c82267f1a6379b9248cb0ee6026ce33b3f8e520ee07b8cb07ebbdf5d764eb",
+      "size": 49902
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/404.webp",
+      "sha256": "f151be04d8a6925e42e723d934e160d230ceabf620581463f70555d100d1922e",
+      "size": 84744
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/405.webp",
+      "sha256": "0ec5fa61f77f9e073ddfe972de4d566002fb0976713c715e1db7ca6b176c001a",
+      "size": 53068
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/407.webp",
+      "sha256": "5baee188f82667bf184d84bb564c25ad0be38497a33957962a2c503618f67764",
+      "size": 49926
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/408.webp",
+      "sha256": "93e9ba1131b3653f3963ef3092b907b8477722dd1459a74378790b9e0741a83b",
+      "size": 62582
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/409.webp",
+      "sha256": "0b031bb4634f878e3ebeaeb1cfe27851f6ddc15324fb1345bc5fe7ee042ad11e",
+      "size": 66414
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/41.webp",
+      "sha256": "0c2f9c414a3688433dbb6f17038ece57a17682a9429560f4f02f4008b2205046",
+      "size": 45890
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/410.webp",
+      "sha256": "cba36ac6918bcd3138e6265f3bbf7fd60f61e338504fad223cfcfdb085b1a217",
+      "size": 56026
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/411.webp",
+      "sha256": "021326278000da4b929bfcf3f1683da5b61da6343c4fa0206eb0bf271a172ee2",
+      "size": 56534
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/414.webp",
+      "sha256": "5501556953a3ccf22288a3131f5730181d0d36f346c024f912760412a571a05e",
+      "size": 51178
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/415.webp",
+      "sha256": "fa062485bf1da0bd3031742dd49d224b4b4f40f5080d9ecdb510849b4110965f",
+      "size": 50780
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/419.webp",
+      "sha256": "586f314347f429c6ffef659fe54793ba9a1e037ad35194d5bd3cc48cbddd137b",
+      "size": 46066
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/420.webp",
+      "sha256": "27b0d037a2ee3ba3b52e2e3a1f85351e24a1177f1b984ab4a5f1afbed9e32442",
+      "size": 50372
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/421.webp",
+      "sha256": "7fa6ea3d1b719e1d0cf4254ecc710d407093e751aad47eecd60139789f56272a",
+      "size": 78242
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/422.webp",
+      "sha256": "319756b59c4fd1acaa54ff85dce117178dd5c6107aaa70d18bb8bcd64aa28522",
+      "size": 78484
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/423.webp",
+      "sha256": "6a992d6b714db6c5f1145552f39ac71c4a39667d5dfd6269ef21e04923cf247c",
+      "size": 51162
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/424.webp",
+      "sha256": "d1c689f69cb4b052a49558de8fe5f45a4a70e8e6df39fb8f68f598775a3f2ec4",
+      "size": 66654
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/425.webp",
+      "sha256": "bf6cc464a96a4b8ab868f3150467ec85fb6ccc3d5ea99581e8484ce19aaace04",
+      "size": 51180
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/426.webp",
+      "sha256": "92188436c8952f1faa039dac1c032d7b46377d5e84160fb2882253d82e653e0c",
+      "size": 63816
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/427.webp",
+      "sha256": "10a939e8534ccafcc2a1988a96e4e7a928a704f1663e531cf72eab943d8f1a8f",
+      "size": 49370
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/428.webp",
+      "sha256": "e9d77f8091bb5874e3f4ff5866e73d67757c1a5f658f3a5b79b77ff727826966",
+      "size": 46990
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/429.webp",
+      "sha256": "90e26038b935f70e23893712ad1f4d3c1bd56f7f11380c995b11c9b4ffd23ce8",
+      "size": 49252
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/431.webp",
+      "sha256": "39930bbbe7f4db64273b288cafabfee7539774291a2a9671bc576952fd292282",
+      "size": 66246
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/432.webp",
+      "sha256": "4b7c065de371b8eda98d2a6989a283c360852c28d0d9628a9c2b40fd5481a033",
+      "size": 47158
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/438.webp",
+      "sha256": "ea6b31daa05e1fef14229c9a40e938410a80e3ea8a527c83a8df6d4831c3cc9c",
+      "size": 55940
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/44.webp",
+      "sha256": "91b641ba58cfdd6db1cf3e2802e7c8118c5de0dc8e05e912b366aceeedd9e1bb",
+      "size": 46888
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/440.webp",
+      "sha256": "143facafbd1225f2da94fb01c3dce19ac751bc9d4db9f56dbcf95fcd5903bd8e",
+      "size": 63516
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/441.webp",
+      "sha256": "ced22e23c4a6491650c1f0737d91920e7a2f36436f6875924ab2dd86f7ed8466",
+      "size": 55386
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/442.webp",
+      "sha256": "abf1952367f959ab09c1c0e511614ac9ca14d5980d0f6bdb1bb90592d4b1b87b",
+      "size": 64038
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/443.webp",
+      "sha256": "8f887324aeb916323a7dd691432c0405957097783f4c04109cc5bead53b13874",
+      "size": 58402
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/445.webp",
+      "sha256": "6b2d0d610f83cc7dcc7905129f735c9a28838447b8ed057a2a94b57cdf24dc5c",
+      "size": 67628
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/446.webp",
+      "sha256": "4cb8951435000098347ad04d1a3d12350d4786410a93ba70cd54e82eb622b652",
+      "size": 52140
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/447.webp",
+      "sha256": "0394555cfe3718a9c17497ccd04ab368b853f4ad4bd55e56b8bef2abed9731f4",
+      "size": 49658
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/45.webp",
+      "sha256": "9be629934c31f55631eda869ae8495e9be1f0784d13f49b7de2c465116a72664",
+      "size": 49464
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/450.webp",
+      "sha256": "e7301b12fda84e90522a0d8c07ae86aceba1d39df4975f5e743a067e2b9f7505",
+      "size": 58860
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/451.webp",
+      "sha256": "604880ecf16b1f8c35637c321d6fb633c1b3c0c639d10f928cbb35c32d764d82",
+      "size": 50456
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/452.webp",
+      "sha256": "0db276e7f6a6f4b301504e769fd31ee71c5cf207804c0bf657daa7bdd1797842",
+      "size": 51392
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/453.webp",
+      "sha256": "f6e7004068c072b09e46870a731dd22bd424c594f4c9dd8e3a4af4594c771760",
+      "size": 51072
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/455.webp",
+      "sha256": "250a9186ee8730cd86d1939a0f73eb61022e1883c2aa719b0e1cb51110faa92e",
+      "size": 51168
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/456.webp",
+      "sha256": "fb32a8a87fb52842b0b930734fa476913c1f4444f0127dd612fa8e79a7497376",
+      "size": 79890
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/457.webp",
+      "sha256": "e59188b9e0ebb2dceba5c5e8dd8259b65e0110b118c3d1f91b410c5fb4452ae7",
+      "size": 52280
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/46.webp",
+      "sha256": "dc34b4d840ef33eca4bf13fef93a2f4aa491bb4e9ecec2490fa6b4e3fc426076",
+      "size": 53096
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/460.webp",
+      "sha256": "bd4fc96bf70f6022b44da6328051799b39bb6b07b5a432c42906de229f35bc9d",
+      "size": 63354
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/463.webp",
+      "sha256": "f8ac84991a14963228206495c78f822a9b319de853572dcefda8402b5cee6c7d",
+      "size": 52516
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/464.webp",
+      "sha256": "b71cec3a28456345b64d50f08261a64f0f735f9040917e18df1c94b7dc75b099",
+      "size": 82064
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/466.webp",
+      "sha256": "28eeda835c32b9b86048fbc65cc46d324194fcb079b13cc928e54d1d3fcef63f",
+      "size": 83920
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/468.webp",
+      "sha256": "7ceb9e189b25da64fb290f08edf6f4602241a036acf1ff8ed18a7d325490f8a5",
+      "size": 78732
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/47.webp",
+      "sha256": "cf2118bcea16d65572846bea6f62b8ba7c27fa26b3b4ed17687dce573de39382",
+      "size": 58250
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/470.webp",
+      "sha256": "f2d6e7d1f29a547dd27618f4e7458a05bbc60d7e56da16ab8d03a586cf1b49f6",
+      "size": 56370
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/471.webp",
+      "sha256": "9add20426199d7d7c7c478f4e142341475c5e3c1d329911f134609af5aa9d98b",
+      "size": 53620
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/473.webp",
+      "sha256": "f4ee04ab9c7be437446dc252ba9577137b9a44d28cf917df541e5dffe855f2d9",
+      "size": 82962
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/474.webp",
+      "sha256": "56498c5083be347a57e945373d8157b9b3525ea7a3a510da2194c635198615e3",
+      "size": 81792
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/477.webp",
+      "sha256": "1a3285cd83534d1eacd1a46887240336d378a9bd548262146fa5522eff9c5b40",
+      "size": 53852
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/478.webp",
+      "sha256": "47ff26586f0a24d9d90f5a15ac4d4c26653a02234ca71a1a6308de870eecd54b",
+      "size": 61448
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/48.webp",
+      "sha256": "cabf61e099087560ebf66ecc343acdfbbe6b144792d72ec24bdf852d7cb1f239",
+      "size": 44888
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/483.webp",
+      "sha256": "98c5f97fe3dc467fe0c235c377fbe727075fcec76779940bc243b11dd4476ac0",
+      "size": 77068
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/485.webp",
+      "sha256": "7e1b08f576d9a4e7a2a88a2ec3e41e05b510cd9230d05e7b0528624705301a77",
+      "size": 54932
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/486.webp",
+      "sha256": "f9c3f501e1db657b26ccfb8315a5250f1cbd80b3817f8fbad0eef1d475a608ee",
+      "size": 50782
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/487.webp",
+      "sha256": "7f64c43695640f5c93425ba235586cf6f3044ef7aca8d14148a448b5e950473d",
+      "size": 52412
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/488.webp",
+      "sha256": "496b67c6504dbf64aed469525986828b03e3c7664dc1786effac2a51d30596ef",
+      "size": 50158
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/489.webp",
+      "sha256": "83f000e659dc461b5926772ce259e173e4439da870880be1dacf28a2046b1ee1",
+      "size": 52026
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/49.webp",
+      "sha256": "56b7b6362d9a35e28cdd1e578394a74eaae15f82c8b12b5b045f60e7dac34317",
+      "size": 65660
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/490.webp",
+      "sha256": "361001a6520d92b71b5bf9e337356f28d5a3212225935bdb0c1c685dc6333035",
+      "size": 55442
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/492.webp",
+      "sha256": "2e709c94ecd8c049f208124073cfff5cb052ec37a6311fe3ed2f3ba9e5c3e557",
+      "size": 50784
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/493.webp",
+      "sha256": "b89fb1db05f490c37104ba03d56200164969db64ce29e38c6451ee630918e791",
+      "size": 52146
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/496.webp",
+      "sha256": "5f020defa3cf21223e0852681603d8d397ee243bad20d9d7c0dd6ebeddbab50a",
+      "size": 58894
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/5.webp",
+      "sha256": "7a0b69024f681e26cab0993de0322b3ce29780dfa2e83b505a48441f1e2d2e4c",
+      "size": 63258
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/50.webp",
+      "sha256": "0af840464f6c885888cec83e790fb554d500bce059ed8c3f08daba79a672f0bc",
+      "size": 61848
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/500.webp",
+      "sha256": "d396ecf2529cfd094d98562a01fd279953766fbf48022e3c046d275b3eb191a0",
+      "size": 45510
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/502.webp",
+      "sha256": "20b6b0cebe3622451ec07341f126c05963f2bea74a23e338b5cc7608106fc024",
+      "size": 84696
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/504.webp",
+      "sha256": "a3c545f9be8f2024b998b95def2681de2d6418ea302992b943122883e65de5cb",
+      "size": 83556
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/507.webp",
+      "sha256": "6ecf687711dd09127a56276b089a94d9411a5a35b922f89792e03c37f81bdf39",
+      "size": 44092
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/508.webp",
+      "sha256": "7d4302fcecb68233561df908bdc4045882634bc341b2dad540890572918dd6e9",
+      "size": 64708
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/509.webp",
+      "sha256": "d9bcce3a4c1241b3e857c9d51c8e15c3d22d93551b911a5f21f1ffb8ede33d3d",
+      "size": 50070
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/51.webp",
+      "sha256": "7644eaadca6a7daa3206735c6c500f7a6916c86e4a740c86bd8ae7f97258ce67",
+      "size": 67948
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/511.webp",
+      "sha256": "d2cfe405743eaf992fe813c227c400df07ef01f3e4169283f482c5c7909859da",
+      "size": 63842
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/512.webp",
+      "sha256": "0efac2a85c9bc38d3ceff6ab599bce536183a8261b52119c7841590e8645dfb3",
+      "size": 55360
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/517.webp",
+      "sha256": "d44ea8a3b0da0b96f7c52b6d1d197b24cf810e96d90443dfe9010a84e39158a2",
+      "size": 87178
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/518.webp",
+      "sha256": "98e6223d000666bcce2c134554a264bb30bb21cc3b19c6a48569a12ed850b775",
+      "size": 53072
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/519.webp",
+      "sha256": "0ecb8dba53a5fd303cedd33e1efb6f08050234753d1374a69d03e3cc000d08ac",
+      "size": 55774
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/52.webp",
+      "sha256": "73928d086f0fef438d6289815792e4bf7050856ec402052acd62dbdc5dcfcd2d",
+      "size": 52002
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/520.webp",
+      "sha256": "0ace5116499fad8ed05a88484ec6607316c0260c40167a345203944d5dd6b925",
+      "size": 51610
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/522.webp",
+      "sha256": "bc8bb7c5dc7f0b17cfa13f480b3ae8b8c0ae9977142537aa7b79622ef82282d9",
+      "size": 47252
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/523.webp",
+      "sha256": "db3ad3725a03cbdb95cfb88fdf6d47a35ea3296bec8da85821294f51ec9bc6d6",
+      "size": 52530
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/524.webp",
+      "sha256": "ad10dbfe38173107fd131a9491b4303fcd5182e34a66383f89ad3dda947f02d6",
+      "size": 70582
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/525.webp",
+      "sha256": "aa62ce587852c413c5d3aa91c78ef13928e594222b1dea265094c5c393809f81",
+      "size": 46108
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/529.webp",
+      "sha256": "3a7c037f4fe700765c1199dbdab31fd62ac1ebb796b4b91bf44ae7188283c850",
+      "size": 54420
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/53.webp",
+      "sha256": "545678b65f11caa3f3a3f89255fb91f3493850e4c9be126794ace1b221c75f31",
+      "size": 52586
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/530.webp",
+      "sha256": "e10185e94409ec352e6125a547d9070468a11839aa8a8869fe188dc8bfe281de",
+      "size": 80422
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/531.webp",
+      "sha256": "da02301c38bbb6dbd04172011c722a1479b0db12b4b06d4c4e2a6c407ebf2ac3",
+      "size": 58576
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/532.webp",
+      "sha256": "52ef0d6f860223a75b73bdb5816025585ee57e84516f6b64e00085d661da31c5",
+      "size": 68018
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/533.webp",
+      "sha256": "ed1c5ba62d585d157ae2060ab2e532fe6b14a383dcd171d309b9814908285120",
+      "size": 54958
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/534.webp",
+      "sha256": "2bdde506ad167602d3619e7ccc4ce6fc9d532f1fab62321673773c407c32ca09",
+      "size": 45654
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/535.webp",
+      "sha256": "e8f4fa9a9b786c0d5fcf28bd8855039d33db4927655616e0165b320c1b0a5250",
+      "size": 52490
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/536.webp",
+      "sha256": "716c495bb7631991b4de28cb11471417d91bccdec3d1014b47172633b96d6c80",
+      "size": 65390
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/537.webp",
+      "sha256": "ff966f39caedf8b9ffdd0a8e054b72f167706df52c110dfdd514319b64196814",
+      "size": 53460
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/539.webp",
+      "sha256": "59444079873a9a665f49317e3b9e214263bf30c8027e6e8f449d0a97e7b67720",
+      "size": 55720
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/54.webp",
+      "sha256": "25e7effdf43d712f2ade23efb8f1e6a2f11e57adbd48d951e41bd5ba0274b5ed",
+      "size": 46134
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/541.webp",
+      "sha256": "bfcf6ceb8259138da31471dc7f1fd66eb6f5ddd3c6525f240717c58bafff4d32",
+      "size": 67468
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/542.webp",
+      "sha256": "f423dc641f2ad820a1e21b538f5a39a8032ff6a728f62304717a33dcea58dd64",
+      "size": 67802
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/543.webp",
+      "sha256": "12fcf6cb3b9a331a61726f4dabecc81a35ded5c465e4c4b55e2bcf4855c19377",
+      "size": 52616
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/544.webp",
+      "sha256": "f6147d4e2b0a0f5c0770ce8bcd88b901e6f79849f749cebdc242d7dadd969b0a",
+      "size": 52794
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/546.webp",
+      "sha256": "7c12dec5f7b2907f11c9fe6e7d15d10d1824641ff3dc3e7d441f970d188915fc",
+      "size": 83438
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/547.webp",
+      "sha256": "659af8b925d94d871a9951bc092be1967bdfadd846fc5cc5e679e5a46681711e",
+      "size": 82418
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/549.webp",
+      "sha256": "2f34965adab4b98a7220dc61962053a4f5cfbd49b7a46fa1eb3d37b1290af3b0",
+      "size": 53340
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/55.webp",
+      "sha256": "dcd08617e8e88b4a5cb7390b92ab8ba391c4771fd4c59c1ae65e091039dc10c0",
+      "size": 49140
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/550.webp",
+      "sha256": "24ec094694e0f60509fc63664da96f9f455a5bdf5d1b8e3241b35344966d484b",
+      "size": 65306
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/551.webp",
+      "sha256": "afb0b3c97703639a03a0bff826a4da7d0cf95cf319672aa7b39c560289f9b830",
+      "size": 45918
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/552.webp",
+      "sha256": "34299faf57cf3aacf946661c8bbd78b6240d587d5bb346c51e07a85f56468a45",
+      "size": 50472
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/553.webp",
+      "sha256": "8d6ffc20e8f42013cf83bc5b0ba86a3467d877cad286f33671524733cf0f00d6",
+      "size": 52828
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/555.webp",
+      "sha256": "50cce62a9d3a7ae2ad782f785c4ad98ba78a6769cfc22d3124f5e44c59ab5a1f",
+      "size": 48416
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/559.webp",
+      "sha256": "3d838c95c3b4c112164b3962c09d1ff7096ef2515b3ab8482b2d80ef2fdd0e27",
+      "size": 49302
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/560.webp",
+      "sha256": "690d715b3f9c78cbd8759517507b594a3e17eeb70bdb1e7938fc3f252732ca68",
+      "size": 48086
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/564.webp",
+      "sha256": "32c9641159c1c0a8b34f025be220f6c1a5700a7f09eca53ab38b78d2948c2b5f",
+      "size": 43904
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/565.webp",
+      "sha256": "6c8d2045b60b9b3acb2aff814cb343551eff946a438d6fb1f007e4448b73ac25",
+      "size": 43506
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/57.webp",
+      "sha256": "095cee92753b405c89405d6bf1de749a499f9f507251c19160d81a8c097dbde4",
+      "size": 52766
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/570.webp",
+      "sha256": "72f55ee386a144b89bc956e8c4d7879a7f0f686810bdfdf4deea566fbbc40d3e",
+      "size": 83678
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/572.webp",
+      "sha256": "35b235377e7d601c62572bc8c5d106317dfc8c12ae8b9e536fbb41f8c7250175",
+      "size": 51114
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/573.webp",
+      "sha256": "71609fc259b84769ae8a225cd20fefb9a8575de30bd850ccc84266858ceb2d0f",
+      "size": 86674
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/574.webp",
+      "sha256": "8e279b7c354fc7a32e8a38f95dbc3986ad428f23cdccf6778082bc6bc2d949f4",
+      "size": 89140
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/575.webp",
+      "sha256": "785d7a6760808d25acbd71e0b6227e76194029f17bb98a15872e5d44b2faf1dd",
+      "size": 59390
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/58.webp",
+      "sha256": "3d9b952b68d03632e436fa304b01286d4a6aa4f030b6b5008581a6791983bf17",
+      "size": 54696
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/59.webp",
+      "sha256": "00035999332fd49a4bf49c4b91f1af0524d78851f85fbbcc663524c985e3005d",
+      "size": 68800
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/6.webp",
+      "sha256": "603331fbc87c43d86d76abeb3a59a92ff1c40fae8d70045b5d1eecca1225dd62",
+      "size": 64868
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/60.webp",
+      "sha256": "c0db7c1645b7fbbb62e56d4d31fd16c1c425225444d65c024c41af98a191204f",
+      "size": 61440
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/61.webp",
+      "sha256": "832872f69e553198cd62a49951b33f6faa179767f43b0301f2316d5659d30067",
+      "size": 66386
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/63.webp",
+      "sha256": "c25cee30603acaa84f8e3a49760df23bb10063e5385ffa4793f7eb7fa9d1b2ed",
+      "size": 47330
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/64.webp",
+      "sha256": "d3a960d922eb222096d67c4b49e99ac977c3e0c948c3ff1397650f1e6aace30d",
+      "size": 47454
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/65.webp",
+      "sha256": "23076ece6a199b537699f0a4eabde241626f5635bac7c36851b50930b3392172",
+      "size": 66322
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/66.webp",
+      "sha256": "54c2f25252dab9dc792075c6b721c9ac5321fdb1ed15ee46279c99f195c9b60e",
+      "size": 52122
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/68.webp",
+      "sha256": "275fb76cf77873a98ece142425406203182dc18707ab4d5e6c9fedc9770c66ab",
+      "size": 53002
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/69.webp",
+      "sha256": "a0a2cce89115060f3309b329128a89bfccdaff4089dc1cb14df2cdae8ad97a60",
+      "size": 53654
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/7.webp",
+      "sha256": "c7967fb9a69f32fc6eaac62836360e8db96121450f18ed615c4e8f8f0fed4cd0",
+      "size": 44026
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/70.webp",
+      "sha256": "fea078d592c1c207ac4743960ef1502f20f30f07d78876ba4f68766dc51da8ac",
+      "size": 68114
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/71.webp",
+      "sha256": "25fff378f489679c92fb6e33bcef1a5a98b6aa954a7200a132774ccec2d72991",
+      "size": 54184
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/72.webp",
+      "sha256": "903488adf4b0dd79c1de450711b5f88380d09c0de9c7d5d66df96ea11fb55d88",
+      "size": 64500
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/73.webp",
+      "sha256": "6e9294395b8cbc1869cf37deada66053fc9d32819bfbd12a74b94896a5eac57b",
+      "size": 66446
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/74.webp",
+      "sha256": "69f5610b83facb53092499ae0913802cc1398035c8bee4aea05a6f6c7e9eb382",
+      "size": 44756
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/75.webp",
+      "sha256": "73d47f412ed188a8cfdbe9f87c29cb87b819dd44cbe43e9517587838b8cee20f",
+      "size": 52214
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/76.webp",
+      "sha256": "9eb72d7a8ef8e9a89381b244f4f81e6fd4cffef7cfbb55e29420fbe4ed25104b",
+      "size": 46982
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/78.webp",
+      "sha256": "47d8aa43858163b20dd03163db5fde5c1792f7b20ebb1a48e36303dfa0a1891e",
+      "size": 43782
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/79.webp",
+      "sha256": "cc6dad9159b7de57d340845e8b87c702e6f5c997af58d8d5b68f1e22fbe65306",
+      "size": 70244
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/8.webp",
+      "sha256": "dcbb90003527fb7660999b64fa81af17672954d371a74ff69e03c8f68c38d0d6",
+      "size": 65966
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/80.webp",
+      "sha256": "5e16a15bf70cbd2d5793e8af7d7f762f69a70b0f85d442411f1c7d128789074a",
+      "size": 55782
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/81.webp",
+      "sha256": "c2933ab0170cac7a26faf1a01d07627ac8d78923a5f513950918175df72e3ffb",
+      "size": 58838
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/82.webp",
+      "sha256": "7fd757e021d15df1a55731d1c889898660719d043f30baadd5e7db914f5d1210",
+      "size": 65902
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/84.webp",
+      "sha256": "fd8c8e1bb4778dcb5f4f0e217e10c3b74c681774a160da2c36329367eda8eaa5",
+      "size": 54306
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/87.webp",
+      "sha256": "e9dc0ae39c08eeff9697baabc55d7edb06f995729bfe28990fff9d621020ff2b",
+      "size": 59876
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/88.webp",
+      "sha256": "f8f41d73f364b8623ba90565646071e7327e5a1251dc30c6562e02c90c162cb4",
+      "size": 56260
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/89.webp",
+      "sha256": "388a11fd88bf7e015af808761ed5c0c37953d35b5d2256f162be1ae15bc7a213",
+      "size": 60232
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/9.webp",
+      "sha256": "720f930ac6dd44b11c085e46ad9e0bd0de0da474157bf8901a0d8c63d18589ed",
+      "size": 52420
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/90.webp",
+      "sha256": "bdd9206522aa1b0fe3b2b1fec27b7b0b14a179b13df9c75247515b5994dcaf1a",
+      "size": 69592
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/91.webp",
+      "sha256": "bf65104a642a1c33049e1e63a0df44d2b60f09d5dd717bd8d67173e041c22ee1",
+      "size": 65420
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/92.webp",
+      "sha256": "b646811b4e9883a54f45927c74665ab27f8b3caca654cccf2c16b8783c37fba1",
+      "size": 53964
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/93.webp",
+      "sha256": "1431465328e60b00d0f58450bdc5059111f76ca3d6e7e48bdbc9cd85c9989504",
+      "size": 57330
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/94.webp",
+      "sha256": "efbe8707920d5609a17e4757ec2bc1d5cda05d049bde82502e04591a25cfd538",
+      "size": 87306
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/95.webp",
+      "sha256": "dc78d55afa5c7b2b42b76a60d88228713f3c77fc1bfc36d08f5086e4c664240f",
+      "size": 62974
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/96.webp",
+      "sha256": "f69f4979b00b47c8c66017344695d1e1cb8860c6e6784ccc49a5cad725b5f182",
+      "size": 55406
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/97.webp",
+      "sha256": "ba221ae1326527c689238155a833343c2a8dca5fae5060a447fd789de6c59d6d",
+      "size": 55270
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/98.webp",
+      "sha256": "c39fa1c29933e8af4b7018bfa0be0eb7d2dd00829ac012ead57047bd9d2f6270",
+      "size": 57536
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/equip/99.webp",
+      "sha256": "dc07b975d3f5eb322c8e5b0db311fc7739f8fad49299c65552bc212544ba09ae",
+      "size": 58366
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/100.webp",
+      "sha256": "032b4eeeed7e754d7adf2a44a781dc533873e4c4cd0f39d6aedc90a88cd150df",
+      "size": 28940
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/104.webp",
+      "sha256": "e73d7c019ddfebe9e1029f09a0cf6eab8d790d7533210685948b00c5841f811e",
+      "size": 27800
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/2.webp",
+      "sha256": "10d8c3c322bfbb1629f5c65eb0749e110b477b1bdc1050cefb05f9c0b6538952",
+      "size": 21004
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/57.webp",
+      "sha256": "3457c18bcb1b5e26b2b496efd581c58db6c800b2182237039eb342478d80de6d",
+      "size": 21436
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/70.webp",
+      "sha256": "a474ab5edcd7518421711cc16c3abbad7cd9aede976e5f56752a1e766b027313",
+      "size": 29180
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/71.webp",
+      "sha256": "ae38a4243127377151d56cf6f40286e040c1b4c626ecb4ae1759860c4bebce32",
+      "size": 29336
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/75.webp",
+      "sha256": "62672d92d55108a4d5c6a7ed55b1ba67c620830db93851c12df2ce8d956add19",
+      "size": 26838
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/77.webp",
+      "sha256": "e62c10297cb860b79311b668e7c28da192228dc5bb238a65ffbf42c86f4c3c17",
+      "size": 26598
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/78.webp",
+      "sha256": "1ebd279e90eee705beb1958c7ce232a06a8343054d0ba1aaf5c291f7872d1acb",
+      "size": 27868
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/91.webp",
+      "sha256": "ab67621ae1b8e5aeb9253ee1e9975ab429ded3ecfe3a0e27485a95fbaf182bbc",
+      "size": 28922
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/92.webp",
+      "sha256": "53ff1bdc5f3b436df9ee85d8e91256cc7e7b069eb7cc7d989ce6c6a2de95bbef",
+      "size": 27462
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/94.webp",
+      "sha256": "a60b67761c2cba6fcc91341e741e6e6222801437c77c78be277f8588c6cfac61",
+      "size": 30414
+    },
+    {
+      "path": "dist/packages/kancolle-data/assets/useitem/95.webp",
+      "sha256": "139a9484907859162a9bd26eb117caf7112a840654a4d6a0e2e6dc062d6e4625",
+      "size": 26970
+    },
+    {
+      "path": "dist/packages/kancolle-data/audit/build-report.json",
+      "sha256": "95d3980db16aed53f59e3329338b2c83c83fdb8d67a38828466a8f01293ec6b9",
+      "size": 8458
+    },
+    {
+      "path": "dist/packages/kancolle-data/CHANGELOG.md",
+      "sha256": "6595b7c2ecedaf09f575800ad069dcb62a560777ffce434a482f7f6e4c76c70b",
+      "size": 15447
+    },
+    {
+      "path": "dist/packages/kancolle-data/RELEASES.json",
+      "sha256": "d0e8f2d5153234563f4ec20556a67a34c67b49b04b09571c6d11b3333049132e",
+      "size": 37443
+    },
+    {
+      "path": "dist/packages/kancolle-data/manifest.json",
+      "sha256": "13a6cc74210d7253d83e81cc6095df7f39e601802540b67295b0a69482acc0cd",
+      "size": 89400
     }
   ],
   "reports": [
     {
       "kind": "verification",
       "path": ".generated-state/reports/verification-report.json",
-      "sha256": "cf729079c1861e5037a75036ea23a7961118bdca8845d3931a528cc77d0acf8b",
-      "size": 4897
+      "sha256": "9d2c96aaa4c922b1803719f2239e369c4834f3f31f15b6021a3c3abf6e255b99",
+      "size": 65600
     }
   ],
   "extensions": {
     "spider.kancolle": {
       "package": {
         "name": "@sakura2333/kancolle-data",
-        "version": "0.5.44"
+        "version": "0.5.45"
       },
-      "dataGeneratedAt": "2026-08-11T04:39:41+00:00",
+      "dataGeneratedAt": "2026-08-11T12:40:01+00:00",
       "datasetStatuses": {
         "improvement": "ok",
         "equipmentDropFrom": "ok",
         "equipmentSpecialBonuses": "ok",
-        "equipmentSources": "ok"
+        "equipmentSources": "ok",
+        "improvementAssistantReverseIndex": "ok"
       }
     }
   }

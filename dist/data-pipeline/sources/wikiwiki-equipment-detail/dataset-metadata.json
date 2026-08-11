@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "source": "wikiwiki-equipment-detail",
+  "mode": "offline-raw-cache-parse",
+  "startedAt": "2026-08-11T12:39:54+00:00",
+  "generatedAt": "2026-08-11T12:40:00+00:00",
+  "catalogUrl": "https://wikiwiki.jp/kancolle/%E8%A3%85%E5%82%99%E3%82%AB%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7",
+  "catalogFetch": null,
+  "catalogEntryCount": 583,
+  "catalogIssueCount": 2,
+  "start2PlayerEquipmentCount": 584,
+  "selectedEquipmentCount": 584,
+  "recordCount": 583,
+  "acceptedRecordCount": 583,
+  "issueCount": 924,
+  "missingRecordCount": 1,
+  "missingFromCatalogCount": 1,
+  "coverageStatusCounts": {
+    "empty-section": 1,
+    "fallback": 67,
+    "parsed": 513,
+    "partial": 2
+  },
+  "issueKindCounts": {
+    "empty-acquisition-section": 1,
+    "missing-acquisition-section": 67,
+    "quest-reference-unresolved": 853,
+    "raw-capture-missing-equipment-id": 2,
+    "raw-page-missing": 1
+  },
+  "referenceIssueCount": 853,
+  "referenceIssueKindCounts": {
+    "quest-reference-unresolved": 853
+  },
+  "shipReferenceCount": 1664,
+  "shipReferenceStatusCounts": {
+    "resolved": 1664
+  },
+  "questReferenceCount": 863,
+  "questReferenceStatusCounts": {
+    "resolved": 10,
+    "unresolved": 853
+  },
+  "questCatalogAvailable": true,
+  "questCatalogRecordCount": 644,
+  "questCatalogUrl": "https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json",
+  "questCatalogFetch": {
+    "mode": "provided-text",
+    "url": "https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json"
+  },
+  "currentMethodTypeCounts": {
+    "construction": 15,
+    "development": 141,
+    "event": 73,
+    "exchange": 160,
+    "improvement": 194,
+    "other": 2,
+    "purchase": 4,
+    "quest": 253,
+    "ranking": 43,
+    "ship": 270
+  },
+  "historicalMethodTypeCounts": {
+    "construction": 1,
+    "development": 8,
+    "event": 260,
+    "exchange": 127,
+    "improvement": 2,
+    "quest": 117,
+    "ranking": 275,
+    "ship": 19
+  },
+  "availabilityCounts": {
+    "current": 420,
+    "current-or-summary": 1531,
+    "historical": 1362,
+    "mixed-summary": 8
+  },
+  "unclassifiedEvidenceCount": 2,
+  "canonicalDataChanged": false,
+  "canonicalDataset": "equipment/drop-from.nedb remains unchanged",
+  "rawRoot": ".spider/local/source-cache",
+  "rawCaptureCount": 583,
+  "selectedRawCaptureCount": 583,
+  "missingRawCaptureCount": 1,
+  "rawCaptureIssueCount": 2,
+  "parseStatusCounts": {
+    "empty-section": 1,
+    "fallback": 67,
+    "missing": 1,
+    "parsed": 513,
+    "partial": 2
+  },
+  "questCatalogSource": {
+    "mode": "provided-text",
+    "url": "https://raw.githubusercontent.com/kcwikizh/kcQuests/refs/heads/main/quests-scn.json"
+  },
+  "networkAccess": false,
+  "progress": {
+    "completed": 584,
+    "total": 584
+  },
+  "referenceDiagnosticCounts": {
+    "resolvedLinkTargetConflict": 10,
+    "operatorStopReference": 853
+  },
+  "referenceDiagnosticsJson": "reference-diagnostics.json",
+  "referenceDiagnosticsMarkdown": "reference-diagnostics.md"
+}

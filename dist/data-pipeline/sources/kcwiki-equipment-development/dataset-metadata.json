@@ -1,0 +1,27 @@
+{
+  "source": "kcwiki-equipment-development",
+  "schemaVersion": 1,
+  "playerEquipmentCount": 584,
+  "recordCount": 584,
+  "issueCount": 0,
+  "developmentAvailableCount": 105,
+  "developmentUnavailableCount": 479,
+  "identityRule": "normalized-japanese-name-exact",
+  "sourceIdUsedAsIdentity": false,
+  "status": "ok",
+  "fetches": [
+    {
+      "url": "https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json",
+      "status": "fresh",
+      "statusCode": 200,
+      "validatedAt": 1786447756,
+      "validatedInRun": true,
+      "usedCacheFallback": false,
+      "contentSha256": "041098b73744313299d75f128df0419818e906b1e52cec941e01e3e9efb68ddf",
+      "cachePath": "raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json"
+    }
+  ],
+  "inputHashes": {
+    "equipment": "041098b73744313299d75f128df0419818e906b1e52cec941e01e3e9efb68ddf"
+  }
+}

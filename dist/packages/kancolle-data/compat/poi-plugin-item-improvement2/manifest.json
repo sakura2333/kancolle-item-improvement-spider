@@ -1,0 +1,53 @@
+{
+  "packageVersion": "0.5.1-improvement2",
+  "generatedAt": "2026-08-11T12:40:01+00:00",
+  "consumer": "poi-plugin-item-improvement2",
+  "datasets": {
+    "improvement": {
+      "schemaVersion": 3,
+      "listSchemaVersion": 2,
+      "list": "improvement/list.json",
+      "detail": "improvement/detail.nedb",
+      "detailRecordCount": 372,
+      "routeCount": 412
+    },
+    "useitemIcons": {
+      "schemaVersion": 1,
+      "directory": "assets/useitem",
+      "format": "png",
+      "source": "official-useitem-card",
+      "count": 13,
+      "requiredIds": [
+        2,
+        57,
+        70,
+        71,
+        75,
+        77,
+        78,
+        91,
+        92,
+        94,
+        95,
+        100,
+        104
+      ],
+      "availableIds": [
+        2,
+        57,
+        70,
+        71,
+        75,
+        77,
+        78,
+        91,
+        92,
+        94,
+        95,
+        100,
+        104
+      ],
+      "missingIds": []
+    }
+  }
+}
