@@ -92,6 +92,14 @@ def _stop_summary(error: OperatorStopError) -> dict[str, Any]:
         "linkTarget",
         "candidateShipIds",
         "candidateShipNames",
+        "candidateShips",
+        "canonicalShipId",
+        "canonicalShipName",
+        "linkTextShipId",
+        "linkTextShipName",
+        "linkTextStart2Ship",
+        "start2Ship",
+        "shipPageCrossValidation",
         "questKey",
         "questCode",
         "questName",
@@ -170,9 +178,30 @@ def write_operator_stop(
             source = f" source={summary.get('sourceUrl')}" if summary.get("sourceUrl") else ""
             raw_name = f" rawName={summary.get('rawName')}" if summary.get("rawName") else ""
             link_target = f" linkTarget={summary.get('linkTarget')}" if summary.get("linkTarget") else ""
+            canonical = ""
+            if summary.get("canonicalShipId") is not None:
+                canonical = f" canonicalStart2={summary.get('canonicalShipId')}:{summary.get('canonicalShipName') or ''}"
+            candidate_ships = summary.get("candidateShips") if isinstance(summary.get("candidateShips"), list) else []
+            candidates = ""
+            if candidate_ships:
+                candidates = " candidates=" + ",".join(
+                    f"{ship.get('shipId')}:{ship.get('shipName') or ''}"
+                    for ship in candidate_ships
+                    if isinstance(ship, dict)
+                )
+            elif summary.get("candidateShipIds"):
+                candidates = " candidateShipIds=" + ",".join(str(value) for value in summary.get("candidateShipIds") or [])
+            cross = summary.get("shipPageCrossValidation") if isinstance(summary.get("shipPageCrossValidation"), dict) else {}
+            cross_text = ""
+            if cross:
+                selected = cross.get("selectedShip") if isinstance(cross.get("selectedShip"), dict) else None
+                selected_text = ""
+                if selected:
+                    selected_text = f" selected={selected.get('shipId')}:{selected.get('shipName') or ''}"
+                cross_text = f" crossValidation={cross.get('status')}:{cross.get('reason')}{selected_text}"
             print(
                 f"  {index}. stopReason={summary.get('stopReason')}"
-                f"{equipment}{raw_name}{link_target}{source}",
+                f"{equipment}{raw_name}{link_target}{canonical}{candidates}{cross_text}{source}",
                 file=stream,
             )
     if error.details:

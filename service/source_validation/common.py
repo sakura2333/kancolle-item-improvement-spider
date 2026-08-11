@@ -4,7 +4,7 @@ import re
 from collections import defaultdict
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
-from pojo.equip_item import WeaponItemVO
+from service.data_package.improvement_record import WeaponItemVO
 from service.source_validation.model import SourceSchedule, normalize_week
 from util.start2.start2_item_utils import Start2ItemUtils
 from util.start2.start2_ship_utils import Start2ShipUtils

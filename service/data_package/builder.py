@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
@@ -17,6 +18,7 @@ from service.data_package.equipment_sources import (
     build_equipment_source_records,
     write_incremental_source_bundle,
 )
+from service.data_package.improvement_assistant_reverse import write_assistant_day_reverse_index
 from service.data_package.improvement_compat import (
     IMPROVEMENT2_CONSUMER_ID,
     IMPROVEMENT2_DETAIL_SCHEMA_VERSION,
@@ -27,20 +29,27 @@ from service.data_package.manifest_builder import package_version, refresh_packa
 from service.data_package.package_paths import (
     AKASHI_METADATA_PATH,
     AKASHI_URL,
-    CACHE_IMAGE_DIR,
     IMPROVEMENT2_COMPAT_DIR,
     IMPROVEMENT_DIR,
     PACKAGE_DIR,
+    PACKAGE_SOURCE_DIR,
     SOURCE_ROOT,
+    STATIC_EQUIPMENT_IMAGE_DIR,
     STATIC_IMAGE_DIR,
 )
 from service.data_package.projection import (
     _clear_regenerated as clear_regenerated,
     _copy_file as copy_file,
+    copy_asset_directory,
     _copy_icon_directory as copy_icon_directory,
     _improvement_projection_metrics as improvement_projection_metrics,
     _promote_cached_icons as promote_cached_icons,
+    _promote_cached_equipment_images as promote_cached_equipment_images,
     _required_useitem_ids as required_useitem_ids,
+)
+from service.data_package.schema_contract import (
+    DATASET_SCHEMA_VERSIONS,
+    IMPROVEMENT2_USEITEM_ICONS_SCHEMA_VERSION,
 )
 from service.data_package.source_collection import (
     _fetch_summary,
@@ -52,6 +61,40 @@ from util.json_utils import read_json_lines, write_json, write_json_lines
 from util.logger import simple_logger
 from util.start2.start2_item_utils import start2ItemUtils
 
+
+
+def _stage_package_facade() -> None:
+    """Copy committed package facade files into the generated dist package."""
+
+    PACKAGE_DIR.mkdir(parents=True, exist_ok=True)
+    for relative in (
+        "package.json",
+        "README.md",
+        "LICENSES.md",
+        "index.js",
+        "index.d.ts",
+        "schemas",
+        "scripts",
+    ):
+        source = PACKAGE_SOURCE_DIR / relative
+        target = PACKAGE_DIR / relative
+        if not source.exists():
+            continue
+        if source.is_dir():
+            if target.exists():
+                shutil.rmtree(target)
+            shutil.copytree(source, target)
+        else:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
+
+    for relative in ("CHANGELOG.md", "RELEASES.json"):
+        source = PACKAGE_SOURCE_DIR / relative
+        target = PACKAGE_DIR / relative
+        if source.exists():
+            shutil.copy2(source, target)
+        elif not target.exists():
+            target.write_text("[]\n" if relative.endswith(".json") else "# Changelog\n", encoding="utf-8")
 
 def _file_sha256(path: Path) -> str | None:
     if not path.is_file():
@@ -65,6 +108,7 @@ def _file_sha256(path: Path) -> str | None:
 
 def build_data_package(strict: Optional[bool] = None) -> dict:
     strict = strict if strict is not None else os.getenv("DATA_PACKAGE_STRICT", "0").lower() in {"1", "true", "yes", "on"}
+    _stage_package_facade()
     previous_manifest = {}
     manifest_path = PACKAGE_DIR / "manifest.json"
     if manifest_path.exists():
@@ -84,9 +128,14 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
         PACKAGE_DIR / "improvement" / "list.json",
         compatibility_improvement_dir / "list.json",
     )
+    improvement_detail_path = PACKAGE_DIR / "improvement" / "detail.nedb"
     improvement2_metrics = write_improvement2_projection(
-        PACKAGE_DIR / "improvement" / "detail.nedb",
+        improvement_detail_path,
         compatibility_improvement_dir / "detail.nedb",
+    )
+    assistant_reverse_metrics = write_assistant_day_reverse_index(
+        PACKAGE_DIR / "improvement" / "detail.nedb",
+        SOURCE_ROOT / "improvement-assistant-reverse",
     )
 
     dataset_targets = {
@@ -124,15 +173,34 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
             else None
         ),
         allow_incomplete=not strict,
+        allow_missing_snapshot=True,
     )
     acquisition_records = acquisition_snapshot.records
-    equipment_source_records, equipment_source_metadata = build_equipment_source_records(
+    (
+        equipment_source_records,
+        equipment_source_metadata,
+        development_cross_validation,
+    ) = build_equipment_source_records(
         item_utils=start2ItemUtils.load(),
         drop_records=read_json_lines(PACKAGE_DIR / "equipment" / "drop-from.nedb"),
         improvement_path=PACKAGE_DIR / "improvement" / "detail.nedb",
         acquisition_records=acquisition_records,
+        development_records=datasets.get("developmentFlags", {}).get("records", []),
     )
+    equipment_source_metadata = {
+        **equipment_source_metadata,
+        "acquisitionInputMode": acquisition_snapshot.input_mode,
+        "acquisitionStatus": acquisition_snapshot.metadata.get("status", "ok"),
+        "acquisitionRecordCount": len(acquisition_records),
+        "acquisitionIssueCount": int(acquisition_snapshot.metadata.get("issueCount") or 0),
+    }
     equipment_source_dir = SOURCE_ROOT / "equipment-sources"
+    write_json_lines(
+        str(equipment_source_dir / "development-cross-validation.nedb"),
+        development_cross_validation,
+        mode="w",
+        log=True,
+    )
     equipment_source_incremental = write_incremental_source_bundle(
         records=equipment_source_records,
         output_path=equipment_source_dir / "equipment-sources.nedb",
@@ -156,17 +224,52 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
     # Promote freshly downloaded images into a stable tracked source directory,
     # then build the package exclusively from that reproducible asset set.
     promote_cached_icons()
-    copy_icon_directory(STATIC_IMAGE_DIR, PACKAGE_DIR / "assets" / "useitems")
+    promote_cached_equipment_images()
+    # The canonical package exposes all images as WebP. improvement2 is a
+    # deliberately small legacy projection and retains only official useitem
+    # PNGs beside the frozen schema-3 improvement data.
+    copy_asset_directory(
+        STATIC_IMAGE_DIR,
+        PACKAGE_DIR / "assets" / "useitem",
+        "*.webp",
+    )
+    copy_icon_directory(
+        STATIC_IMAGE_DIR,
+        IMPROVEMENT2_COMPAT_DIR / "assets" / "useitem",
+    )
+    copy_asset_directory(
+        STATIC_EQUIPMENT_IMAGE_DIR,
+        PACKAGE_DIR / "assets" / "equip",
+        "*.webp",
+    )
 
     required_icon_ids = required_useitem_ids(PACKAGE_DIR / "improvement" / "detail.nedb")
     available_icon_ids = sorted(
         int(path.stem)
-        for path in (PACKAGE_DIR / "assets" / "useitems").glob("*.png")
+        for path in (PACKAGE_DIR / "assets" / "useitem").glob("*.webp")
+        if path.stem.isdigit()
+    )
+    compatibility_icon_ids = sorted(
+        int(path.stem)
+        for path in (IMPROVEMENT2_COMPAT_DIR / "assets" / "useitem").glob("*.png")
         if path.stem.isdigit()
     )
     missing_icon_ids = sorted(set(required_icon_ids) - set(available_icon_ids))
+    missing_compatibility_icon_ids = sorted(
+        set(required_icon_ids) - set(compatibility_icon_ids)
+    )
     if strict and missing_icon_ids:
-        raise ValueError(f"required use-item icons are missing: {missing_icon_ids}")
+        raise ValueError(f"required canonical use-item WebP assets are missing: {missing_icon_ids}")
+    if strict and missing_compatibility_icon_ids:
+        raise ValueError(
+            "required improvement2 use-item PNG assets are missing: "
+            f"{missing_compatibility_icon_ids}"
+        )
+    available_equipment_image_ids = sorted(
+        int(path.stem)
+        for path in (PACKAGE_DIR / "assets" / "equip").glob("*.webp")
+        if path.stem.isdigit()
+    )
 
     list_document = json.loads((PACKAGE_DIR / "improvement" / "list.json").read_text(encoding="utf-8"))
     list_views = list_document.get("data", []) if isinstance(list_document, dict) else []
@@ -187,7 +290,17 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
                 "list": "improvement/list.json",
                 "detail": "improvement/detail.nedb",
                 **improvement2_metrics,
-            }
+            },
+            "useitemIcons": {
+                "schemaVersion": IMPROVEMENT2_USEITEM_ICONS_SCHEMA_VERSION,
+                "directory": "assets/useitem",
+                "format": "png",
+                "source": "official-useitem-card",
+                "count": len(compatibility_icon_ids),
+                "requiredIds": required_icon_ids,
+                "availableIds": compatibility_icon_ids,
+                "missingIds": missing_compatibility_icon_ids,
+            },
         },
     }
     write_json(
@@ -202,7 +315,7 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
         "generatedAt": generated_at,
         "datasets": {
             "improvement": {
-                "schemaVersion": 4,
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["improvement"],
                 "listSchemaVersion": 2,
                 "list": "improvement/list.json",
                 "detail": "improvement/detail.nedb",
@@ -210,34 +323,60 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
                 "listAllCount": list_all_count,
                 **improvement_metrics,
                 **improvement_source,
+                "assistantDailyReverseIndex": assistant_reverse_metrics,
             },
             "equipmentDropFrom": {
-                "schemaVersion": 1,
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["equipmentDropFrom"],
                 "path": "equipment/drop-from.nedb",
                 **datasets["dropFrom"]["metadata"],
             },
             "equipmentSpecialBonuses": {
-                "schemaVersion": 2,
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["equipmentSpecialBonuses"],
                 "path": "equipment/special-bonuses.nedb",
                 **datasets["specialBonuses"]["metadata"],
             },
             "equipmentSources": {
-                "schemaVersion": 1,
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["equipmentSources"],
                 "path": "equipment/sources.nedb",
                 "status": "ok",
                 **equipment_source_incremental,
             },
+            "improvementAssistantReverseIndex": {
+                "schemaVersion": assistant_reverse_metrics["schemaVersion"],
+                "path": "sources/improvement-assistant-reverse/assistant-day-reverse-index.json",
+                "markdown": "sources/improvement-assistant-reverse/assistant-day-reverse-index.md",
+                "status": "ok",
+                "threshold": assistant_reverse_metrics["threshold"],
+                "expectedEquipmentCount": assistant_reverse_metrics["expectedEquipmentCount"],
+                "equipmentCountMismatchShipDayCount": assistant_reverse_metrics["equipmentCountMismatchShipDayCount"],
+                "overThresholdShipDayCount": assistant_reverse_metrics["overThresholdShipDayCount"],
+                "maxEquipmentCount": assistant_reverse_metrics["maxEquipmentCount"],
+                "shipDayCount": assistant_reverse_metrics["shipDayCount"],
+            },
             "useitemIcons": {
-                "schemaVersion": 1,
-                "directory": "assets/useitems",
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["useitemIcons"],
+                "directory": "assets/useitem",
+                "format": "webp",
+                "quality": 93,
+                "source": "official-useitem-card",
                 "count": len(available_icon_ids),
                 "requiredIds": required_icon_ids,
                 "availableIds": available_icon_ids,
                 "missingIds": missing_icon_ids,
             },
+            "equipmentImages": {
+                "schemaVersion": DATASET_SCHEMA_VERSIONS["equipmentImages"],
+                "directory": "assets/equip",
+                "format": "webp",
+                "quality": 93,
+                "source": "official-slot-card",
+                "count": len(available_equipment_image_ids),
+                "availableIds": available_equipment_image_ids,
+            },
         },
         "sources": {
             "akashiList": "https://akashi-list.me/",
+            "officialKanColleAssets": "kcs2/resources",
             "kcwikiData": [SHIP_URL, EQUIPMENT_URL],
             "kcwikiQuests": datasets.get("questCatalog", {}).get("metadata", {}),
             "kc3SlotitemBonus": BONUS_URL,
@@ -253,13 +392,18 @@ def build_data_package(strict: Optional[bool] = None) -> dict:
             "dropFromIssueCount": len(datasets["dropFrom"]["issues"]),
             "specialBonusIssueCount": len(datasets["specialBonuses"]["issues"]),
             "equipmentSourceRecordCount": len(equipment_source_records),
+            "improvementAssistantReverseIndex": assistant_reverse_metrics,
             "equipmentAcquisitionInputMode": acquisition_snapshot.input_mode,
             "equipmentAcquisitionSnapshotGeneratedAt": acquisition_snapshot.metadata.get("generatedAt"),
             "equipmentSourceIncremental": equipment_source_incremental.get("incremental", {}),
             "improvement2Compatibility": improvement2_metrics,
+            "assistantDailyReverseIndex": assistant_reverse_metrics,
             "iconCount": len(available_icon_ids),
+            "improvement2PngIconCount": len(compatibility_icon_ids),
+            "equipmentImageCount": len(available_equipment_image_ids),
             "requiredUseitemIconIds": required_icon_ids,
             "missingUseitemIconIds": missing_icon_ids,
+            "missingImprovement2UseitemIconIds": missing_compatibility_icon_ids,
         },
         mode="w",
         log=True,
@@ -279,4 +423,5 @@ _copy_icon_directory = copy_icon_directory
 _improvement_projection_metrics = improvement_projection_metrics
 _improvement_source_metadata = improvement_source_metadata
 _promote_cached_icons = promote_cached_icons
+_promote_cached_equipment_images = promote_cached_equipment_images
 _required_useitem_ids = required_useitem_ids

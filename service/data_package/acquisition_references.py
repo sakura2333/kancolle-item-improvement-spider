@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Iterable, Sequence
 from urllib.parse import unquote, urlparse
 
-from configs.path import get_data_dir
+from configs.path import get_source_cache_dir
 from util.start2.start2_ship_utils import Start2ShipUtils, ship_utils
 
 QUEST_DATA_URL = (
@@ -16,8 +16,7 @@ QUEST_DATA_URL = (
     "kcQuests/refs/heads/main/quests-scn.json"
 )
 KCWIKI_SHIP_CACHE = (
-    Path(get_data_dir("raw_data"))
-    / "site_cache"
+    Path(get_source_cache_dir())
     / "raw.githubusercontent.com"
     / "kcwiki"
     / "kancolle-data"
@@ -68,6 +67,20 @@ AMBIGUOUS_SHIP_RULES: dict[str, dict[str, object]] = {
             1027: "Glorious(正規空母)",
         },
     },
+    "宗谷": {
+        "explicitNames": {
+            "宗谷(特務艦)": 699,
+        },
+        "linkTargets": {
+            # WikiWiki's unqualified /宗谷 page is the initial special-purpose ship.
+            # Other convertible forms use qualified page names.
+            "宗谷": 699,
+            "宗谷(特務艦)": 699,
+        },
+        "displayNames": {
+            699: "宗谷(特務艦)",
+        },
+    },
 }
 
 
@@ -100,6 +113,90 @@ def _page_name_from_href(href: str) -> str:
     if marker not in path:
         return ""
     return path.split(marker, 1)[1].strip("/")
+
+
+
+
+def _is_more_specific_link_target(link_text: str, page_name: str) -> bool:
+    """Return true when a WikiWiki href refines generic visible ship text.
+
+    Some WikiWiki equipment rows display a base ship name while the anchor href
+    points at the exact remodel/form page, for example visible ``翔鶴`` with
+    href ``/翔鶴改``.  The href is still Wiki-authored semantic evidence; use it
+    only when it is a strict normalized extension of the visible text.
+    Unrelated text/page conflicts must remain operator stops.
+    """
+
+    text_norm = normalize_reference_name(link_text)
+    page_norm = normalize_reference_name(page_name)
+    return bool(text_norm and page_norm and page_norm != text_norm and page_norm.startswith(text_norm))
+
+
+def _start2_ship_ref(catalog: dict[int, dict], ship_id: int | None) -> dict | None:
+    if ship_id is None:
+        return None
+    ship = catalog.get(int(ship_id))
+    if not ship:
+        return {"shipId": int(ship_id), "shipName": None}
+    result = {
+        "shipId": int(ship_id),
+        "shipName": str(ship.get("api_name") or ""),
+    }
+    if ship.get("api_sortno") is not None:
+        result["apiSortno"] = int(ship.get("api_sortno") or 0)
+    if ship.get("api_aftershipid") is not None:
+        result["apiAftershipId"] = int(ship.get("api_aftershipid") or 0)
+    return result
+
+
+def _start2_candidate_refs(catalog: dict[int, dict], ship_ids: Sequence[int]) -> list[dict]:
+    return [
+        ref for ref in (_start2_ship_ref(catalog, int(ship_id)) for ship_id in ship_ids)
+        if ref is not None
+    ]
+
+
+def _with_start2_authority(reference: dict, catalog: dict[int, dict]) -> dict:
+    result = dict(reference)
+    ship_id = result.get("shipId")
+    if ship_id is not None:
+        result["canonicalShipId"] = int(ship_id)
+        result["canonicalShipName"] = str(
+            (catalog.get(int(ship_id)) or {}).get("api_name") or result.get("shipName") or ""
+        )
+        result["start2Ship"] = _start2_ship_ref(catalog, int(ship_id))
+    candidate_ids = result.get("candidateShipIds") or []
+    if candidate_ids:
+        result["candidateShips"] = _start2_candidate_refs(catalog, [int(value) for value in candidate_ids])
+    return result
+
+
+def _link_cross_validation_payload(
+    *,
+    status: str,
+    text_ref: dict | None,
+    page_ref: dict | None,
+    selected_ship_id: int | None,
+    catalog: dict[int, dict],
+    reason: str,
+) -> dict:
+    candidate_ids: list[int] = []
+    for ref in (text_ref, page_ref):
+        if not isinstance(ref, dict):
+            continue
+        if ref.get("shipId") is not None:
+            candidate_ids.append(int(ref["shipId"]))
+        for value in ref.get("candidateShipIds") or []:
+            candidate_ids.append(int(value))
+    candidate_ids = sorted(set(candidate_ids))
+    return {
+        "status": status,
+        "reason": reason,
+        "selectedShip": _start2_ship_ref(catalog, selected_ship_id),
+        "linkTextReference": _with_start2_authority(text_ref, catalog) if isinstance(text_ref, dict) else None,
+        "linkPageReference": _with_start2_authority(page_ref, catalog) if isinstance(page_ref, dict) else None,
+        "candidateShips": _start2_candidate_refs(catalog, candidate_ids),
+    }
 
 
 def _dedupe_dicts(values: Iterable[dict], *, key_fields: Sequence[str]) -> list[dict]:
@@ -257,18 +354,18 @@ class ShipReferenceCatalog:
         matches = self.aliases.get(normalized, [])
         if len(matches) == 1:
             match = matches[0]
-            return {
+            return _with_start2_authority({
                 "rawName": raw_name,
                 "shipId": match.ship_id,
                 "shipName": match.ship_name,
                 "status": "resolved",
                 "resolution": match.source,
                 "evidence": evidence,
-            }
+            }, self.by_id)
         if len(matches) > 1:
             candidate_ids = sorted(match.ship_id for match in matches)
             candidate_names = self._candidate_display_names(normalized, matches)
-            return {
+            return _with_start2_authority({
                 "rawName": raw_name,
                 "shipId": None,
                 "shipName": None,
@@ -280,7 +377,7 @@ class ShipReferenceCatalog:
                     for ship_id, ship_name in zip(candidate_ids, candidate_names)
                 ],
                 "evidence": evidence,
-            }
+            }, self.by_id)
         return {
             "rawName": raw_name,
             "shipId": None,
@@ -313,7 +410,7 @@ class ShipReferenceCatalog:
                 display_by_id = rule.get("displayById", {}) if rule else {}
                 explicit_name = str(display_by_id.get(ship_id) or matched_page_name)
                 if ship_id in set(text_ref.get("candidateShipIds") or []):
-                    return {
+                    return _with_start2_authority({
                         "rawName": text,
                         "shipId": ship_id,
                         "shipName": str(self.by_id[ship_id].get("api_name") or text),
@@ -325,21 +422,58 @@ class ShipReferenceCatalog:
                         "explicitShipName": explicit_name,
                         "candidateShipIds": text_ref.get("candidateShipIds", []),
                         "candidateShipNames": text_ref.get("candidateShipNames", []),
-                    }
-            unresolved = dict(text_ref)
+                        "shipPageCrossValidation": _link_cross_validation_payload(
+                            status="accepted",
+                            text_ref=text_ref,
+                            page_ref=page_ref,
+                            selected_ship_id=ship_id,
+                            catalog=self.by_id,
+                            reason="ambiguous-link-target-selected-canonical-form",
+                        ),
+                    }, self.by_id)
+            unresolved = _with_start2_authority(dict(text_ref), self.by_id)
             unresolved["linkTarget"] = page_name or None
             unresolved["linkHref"] = href or None
             unresolved["evidence"] = "link-cross-validation-failed"
+            unresolved["shipPageCrossValidation"] = _link_cross_validation_payload(
+                status="rejected",
+                text_ref=text_ref,
+                page_ref=page_ref,
+                selected_ship_id=None,
+                catalog=self.by_id,
+                reason="ambiguous-visible-text-without-known-link-target",
+            )
             return unresolved
 
         if text_ref and text_ref.get("status") == "resolved":
             if page_ref and page_ref.get("status") == "resolved":
                 if int(text_ref["shipId"]) != int(page_ref["shipId"]):
+                    if _is_more_specific_link_target(text, page_name):
+                        resolved = _with_start2_authority(dict(page_ref), self.by_id)
+                        resolved.update({
+                            "rawName": text,
+                            "linkTarget": page_name,
+                            "linkHref": href or None,
+                            "linkTextShipId": int(text_ref["shipId"]),
+                            "linkTextShipName": text_ref.get("shipName"),
+                            "linkTextStart2Ship": _start2_ship_ref(self.by_id, int(text_ref["shipId"])),
+                            "resolution": "link-target-more-specific",
+                            "evidence": "link-target-authoritative",
+                            "shipPageCrossValidation": _link_cross_validation_payload(
+                                status="accepted",
+                                text_ref=text_ref,
+                                page_ref=page_ref,
+                                selected_ship_id=int(page_ref["shipId"]),
+                                catalog=self.by_id,
+                                reason="link-page-is-more-specific-than-visible-text",
+                            ),
+                        })
+                        return resolved
                     candidate_ids = sorted({
                         int(text_ref["shipId"]),
                         int(page_ref["shipId"]),
                     })
-                    return {
+                    return _with_start2_authority({
                         "rawName": text,
                         "shipId": None,
                         "shipName": None,
@@ -352,8 +486,16 @@ class ShipReferenceCatalog:
                         "evidence": "link-target-conflict",
                         "linkTarget": page_name,
                         "linkHref": href or None,
-                    }
-            resolved = dict(text_ref)
+                        "shipPageCrossValidation": _link_cross_validation_payload(
+                            status="rejected",
+                            text_ref=text_ref,
+                            page_ref=page_ref,
+                            selected_ship_id=None,
+                            catalog=self.by_id,
+                            reason="link-text-and-link-page-resolve-to-different-start2-ids",
+                        ),
+                    }, self.by_id)
+            resolved = _with_start2_authority(dict(text_ref), self.by_id)
             if page_name:
                 resolved["linkTarget"] = page_name
             if href:
@@ -361,7 +503,7 @@ class ShipReferenceCatalog:
             return resolved
 
         if page_ref and page_ref.get("status") != "unresolved":
-            resolved = dict(page_ref)
+            resolved = _with_start2_authority(dict(page_ref), self.by_id)
             if text:
                 resolved["linkText"] = text
             if href:

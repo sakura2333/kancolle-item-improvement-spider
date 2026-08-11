@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from lxml import etree
 
-from pojo.equip_item import WeaponItem
+from service.improvement.model import WeaponItem
 from service.akashi_list.akashi_list_utils import require_record
 from service.akashi_list.daily_ship_parser import process_daily_ships
 from service.akashi_list.detail_stage_parser import (

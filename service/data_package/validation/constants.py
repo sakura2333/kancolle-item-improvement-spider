@@ -7,5 +7,6 @@ PUBLIC_DATA_PREFIXES = (
     "improvement/",
     "compat/",
     "equipment/",
-    "assets/useitems/",
+    "assets/equip/",
+    "assets/useitem/",
 )

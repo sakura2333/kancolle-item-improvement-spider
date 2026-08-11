@@ -4,6 +4,7 @@ import json
 from typing import Any, Dict
 
 from service.data_package.equipment_bonus import SOURCE_URL as BONUS_URL, parse_special_bonuses
+from service.data_package.equipment_development import parse_kcwiki_development_flags
 from service.data_package.equipment_drop_from import EQUIPMENT_URL, SHIP_URL, parse_drop_from
 from service.data_package.acquisition_references import QUEST_DATA_URL, QuestReferenceCatalog
 from service.data_package.package_paths import AKASHI_METADATA_PATH, AKASHI_URL, SOURCE_ROOT
@@ -51,8 +52,12 @@ def _record_diff(previous: list[dict], current: list[dict]) -> dict:
         "changed": bool(added or changed or removed),
     }
 
-def _load_json(url: str) -> tuple[Any, dict]:
-    value = json.loads(fetch(url))
+def _load_json(
+    url: str,
+    *,
+    require_fresh: bool | None = None,
+) -> tuple[Any, dict]:
+    value = json.loads(fetch(url, require_fresh=require_fresh))
     return value, _fetch_summary(url)
 
 def _fetch_summary(url: str) -> dict:
@@ -137,9 +142,11 @@ def collect_optional_datasets(strict: bool = False) -> dict:
     )
     result: Dict[str, Any] = {}
 
+    kcwiki_raw_loaded = False
     try:
-        ship_catalog, ship_fetch = _load_json(SHIP_URL)
-        equipment_catalog, equipment_fetch = _load_json(EQUIPMENT_URL)
+        ship_catalog, ship_fetch = _load_json(SHIP_URL, require_fresh=False)
+        equipment_catalog, equipment_fetch = _load_json(EQUIPMENT_URL, require_fresh=False)
+        kcwiki_raw_loaded = True
         fetches = [ship_fetch, equipment_fetch]
         source_dir = SOURCE_ROOT / "kcwiki-data"
         record_path = source_dir / "equipment-drop-from.nedb"
@@ -150,6 +157,55 @@ def collect_optional_datasets(strict: bool = False) -> dict:
             "ship": ship_fetch.get("contentSha256"),
             "equipment": equipment_fetch.get("contentSha256"),
         }
+        development_records, development_issues, development_metadata = (
+            parse_kcwiki_development_flags(equipment_catalog, item_utils)
+        )
+        development_metadata = {
+            **development_metadata,
+            "status": _source_status([equipment_fetch]),
+            "fetches": [equipment_fetch],
+            "inputHashes": {"equipment": equipment_fetch.get("contentSha256")},
+        }
+        _export_source_bundle(
+            "kcwiki-equipment-development",
+            development_records,
+            development_issues,
+            development_metadata,
+            "development-flags.nedb",
+        )
+        result["developmentFlags"] = {
+            "records": development_records,
+            "issues": development_issues,
+            "metadata": development_metadata,
+        }
+        if development_issues:
+            first = development_issues[0].to_json()
+            simple_logger.error(
+                "[KCWIKI DEVELOPMENT FLAG INVALID] "
+                f"issues={len(development_issues)} first={first}"
+            )
+            if strict:
+                raise OperatorStopError(
+                    stop_reason=str(first.get("kind") or "kcwiki-development-flag-invalid"),
+                    message=(
+                        "KCWiki _buildable 投影存在无法解析为非空布尔值的记录："
+                        f"{len(development_issues)}"
+                    ),
+                    action=(
+                        "检查 kcwiki equipment.json 的 _buildable 与日文名映射；"
+                        "不得使用跨来源数字 ID 兜底。"
+                    ),
+                    checkpoint=str(SOURCE_ROOT / "kcwiki-equipment-development"),
+                    details={"issueCount": len(development_issues), "firstIssue": first},
+                )
+        simple_logger.info(
+            "[data source] kcwiki-equipment-development: "
+            f"status={development_metadata['status']}, "
+            f"records={development_metadata['recordCount']}, "
+            f"available={development_metadata['developmentAvailableCount']}, "
+            f"unavailable={development_metadata['developmentUnavailableCount']}, "
+            f"issues={development_metadata['issueCount']}"
+        )
         previous_records = read_json_lines(record_path)
         can_reuse = (
             bool(previous_records)
@@ -217,7 +273,15 @@ def collect_optional_datasets(strict: bool = False) -> dict:
         )
         result["dropFrom"] = {"records": records, "issues": issues, "metadata": metadata}
     except Exception as exc:
-        simple_logger.error(f"[data package] equipment drop-from collection failed: {exc}")
+        if kcwiki_raw_loaded:
+            simple_logger.error(
+                f"[data package] equipment drop-from collection failed: {exc}"
+            )
+        else:
+            simple_logger.error(
+                "[KCWIKI RAW UNAVAILABLE][NON-BLOCKING] "
+                f"equipment drop-from refresh skipped: {type(exc).__name__}: {exc}"
+            )
         result["dropFrom"] = {
             "records": [],
             "issues": [],
@@ -227,7 +291,7 @@ def collect_optional_datasets(strict: bool = False) -> dict:
                 "sourceUrls": [SHIP_URL, EQUIPMENT_URL],
             },
         }
-        if strict:
+        if strict and kcwiki_raw_loaded:
             raise
 
     try:
