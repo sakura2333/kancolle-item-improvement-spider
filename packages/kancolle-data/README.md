@@ -12,6 +12,7 @@ console.log(data.equipment.dropFromPath)
 console.log(data.equipment.sourcesPath)
 console.log(data.equipment.specialBonusesPath)
 console.log(data.assets.useitemPath(71))
+console.log(data.assets.equipmentPath(61))
 ```
 
 Datasets:
@@ -20,10 +21,11 @@ Datasets:
 - `improvement/detail.nedb`: full routes plus ★0..★MAX effect expectations and 11 explicit per-route actions (including optional MAX conversion).
 - `schemas/improvement-detail.schema.json`: JSON Schema for each schema-4 NeDB record.
 - `equipment/drop-from.nedb`: detailed ship initial/remodel loadout evidence.
-- `equipment/sources.nedb`: one unified record per equipment with required `shipIds`, `upgradeFromItemIds`, and numeric `questKey` arrays.
+- `equipment/sources.nedb`: one unified record per equipment with required `shipIds`, `upgradeFromItemIds`, numeric `questKey` arrays, and a non-null boolean `developmentAvailable` flag.
 - `schemas/equipment-sources.schema.json`: JSON Schema for unified source records.
 - `equipment/special-bonuses.nedb`: bonus rules targeting either concrete equipment IDs or equipment-type IDs.
-- `assets/useitems/*.png`: use-item images required by improvement recipes.
+- `assets/useitem/*.webp`: official use-item cards encoded as WebP quality 93 for canonical consumers.
+- `assets/equip/*.webp`: official KanColle `slot/card` equipment images encoded as WebP quality 93.
 
 Special-bonus targets are discriminated by `target.kind`:
 
@@ -46,9 +48,11 @@ The Stable main release builds two immutable npm versions from the same canonica
 
 @sakura2333/kancolle-data@improvement2
   normal paths -> frozen improvement detail schema 3
+  assets/useitem/{id}.png -> legacy official PNGs
+  equipment datasets/images -> intentionally absent
 ```
 
-The compatibility version is not a second crawler or a copied parser. The release tool projects the canonical records through an explicit schema-3 VO whitelist, replaces the normal `improvement/detail.nedb` and schema path in a temporary package staging area, assigns a unique `*-improvement2` npm version, and binds that version to the `improvement2` dist-tag.
+The compatibility version is not a second crawler or a copied parser. The release tool builds a minimal package from the explicit schema-3 VO projection and the official useitem PNGs retained for the legacy plugin. It excludes all equipment datasets and equipment images, assigns a unique `*-improvement2` npm version, and binds that version to the `improvement2` dist-tag.
 
 Legacy consumers keep their existing code and install the tag:
 

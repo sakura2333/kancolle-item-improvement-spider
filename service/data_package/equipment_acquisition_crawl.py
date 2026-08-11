@@ -106,6 +106,175 @@ def _fetch_equipment_page(
     )
 
 
+def _ship_ref_summary(ref: dict | None) -> dict | None:
+    if not isinstance(ref, dict):
+        return None
+    ship_id = ref.get("canonicalShipId") or ref.get("shipId")
+    ship_name = ref.get("canonicalShipName") or ref.get("shipName")
+    if isinstance(ref.get("start2Ship"), dict):
+        ship_id = ref["start2Ship"].get("shipId", ship_id)
+        ship_name = ref["start2Ship"].get("shipName", ship_name)
+    if ship_id is None and ship_name is None:
+        return None
+    result = {"shipId": ship_id, "shipName": ship_name}
+    return {key: value for key, value in result.items() if value is not None}
+
+
+def _diagnostic_candidate_ships(ref: dict | None) -> list[dict]:
+    if not isinstance(ref, dict):
+        return []
+    candidates = ref.get("candidateShips")
+    if isinstance(candidates, list):
+        result = []
+        for candidate in candidates:
+            if not isinstance(candidate, dict):
+                continue
+            ship_id = candidate.get("shipId") or candidate.get("id")
+            ship_name = candidate.get("shipName") or candidate.get("name")
+            if ship_id is None and ship_name is None:
+                continue
+            result.append({"shipId": ship_id, "shipName": ship_name})
+        if result:
+            return result
+    ids = ref.get("candidateShipIds") if isinstance(ref.get("candidateShipIds"), list) else []
+    names = ref.get("candidateShipNames") if isinstance(ref.get("candidateShipNames"), list) else []
+    return [
+        {"shipId": ship_id, "shipName": names[index] if index < len(names) else None}
+        for index, ship_id in enumerate(ids)
+    ]
+
+
+def _reference_diagnostic_rows(
+    *,
+    records: list[dict],
+    reference_issues: list[dict],
+) -> list[dict]:
+    rows: list[dict] = []
+    seen: set[str] = set()
+
+    def append(row: dict) -> None:
+        key = json.dumps(row, ensure_ascii=False, sort_keys=True)
+        if key in seen:
+            return
+        seen.add(key)
+        rows.append(row)
+
+    for record in records:
+        for method_index, method in enumerate(record.get("methods", [])):
+            for ref in method.get("shipReferences", []):
+                if not isinstance(ref, dict):
+                    continue
+                cross = ref.get("shipPageCrossValidation")
+                if not isinstance(cross, dict) or cross.get("status") != "accepted":
+                    continue
+                append({
+                    "category": "resolved-link-target-conflict",
+                    "status": "resolved",
+                    "equipmentId": record.get("equipmentId"),
+                    "equipmentName": record.get("equipmentName"),
+                    "methodIndex": method_index,
+                    "rawName": ref.get("rawName") or ref.get("linkText"),
+                    "linkTarget": ref.get("linkTarget"),
+                    "linkHref": ref.get("linkHref"),
+                    "resolution": ref.get("resolution"),
+                    "reason": cross.get("reason"),
+                    "acceptedShip": _ship_ref_summary(ref),
+                    "linkTextShip": _ship_ref_summary(cross.get("linkTextReference")),
+                    "linkPageShip": _ship_ref_summary(cross.get("linkPageReference")),
+                    "candidateShips": _diagnostic_candidate_ships(cross),
+                    "sourceUrl": record.get("sourceUrl"),
+                })
+
+    for issue in reference_issues:
+        if not isinstance(issue, dict):
+            continue
+        ref = issue.get("reference") if isinstance(issue.get("reference"), dict) else {}
+        cross = ref.get("shipPageCrossValidation") if isinstance(ref, dict) else None
+        append({
+            "category": "operator-stop-reference",
+            "status": "unresolved",
+            "kind": issue.get("kind"),
+            "message": issue.get("message"),
+            "equipmentId": issue.get("equipmentId"),
+            "equipmentName": issue.get("equipmentName"),
+            "methodIndex": issue.get("methodIndex"),
+            "rawName": ref.get("rawName"),
+            "linkTarget": ref.get("linkTarget"),
+            "linkHref": ref.get("linkHref"),
+            "candidateShipIds": ref.get("candidateShipIds"),
+            "candidateShipNames": ref.get("candidateShipNames"),
+            "candidateShips": _diagnostic_candidate_ships(ref),
+            "crossValidation": cross,
+            "sourceUrl": issue.get("sourceUrl"),
+        })
+    return rows
+
+
+def reference_diagnostic_summary(
+    *,
+    records: list[dict],
+    reference_issues: list[dict],
+) -> dict:
+    rows = _reference_diagnostic_rows(records=records, reference_issues=reference_issues)
+    counts = Counter(row.get("category", "unknown") for row in rows)
+    return {
+        "schemaVersion": 1,
+        "source": SOURCE_ID,
+        "status": "passed" if not reference_issues else "operator-stop",
+        "resolvedLinkTargetConflictCount": int(counts.get("resolved-link-target-conflict", 0)),
+        "operatorStopReferenceCount": int(counts.get("operator-stop-reference", 0)),
+        "rows": rows,
+    }
+
+
+def _format_ship(value: dict | None) -> str:
+    if not isinstance(value, dict):
+        return ""
+    ship_id = value.get("shipId")
+    ship_name = value.get("shipName")
+    if ship_id is None and ship_name is None:
+        return ""
+    return f"{ship_id}:{ship_name}" if ship_id is not None else str(ship_name)
+
+
+def _write_reference_diagnostics(
+    output_dir: Path,
+    *,
+    records: list[dict],
+    reference_issues: list[dict],
+) -> dict:
+    summary = reference_diagnostic_summary(records=records, reference_issues=reference_issues)
+    write_json(output_dir / "reference-diagnostics.json", summary, log=False)
+    lines = [
+        "# WikiWiki reference diagnostics",
+        "",
+        f"- status: {summary['status']}",
+        f"- resolvedLinkTargetConflictCount: {summary['resolvedLinkTargetConflictCount']}",
+        f"- operatorStopReferenceCount: {summary['operatorStopReferenceCount']}",
+        "",
+    ]
+    for row in summary["rows"]:
+        accepted = _format_ship(row.get("acceptedShip"))
+        candidates = ", ".join(
+            _format_ship(candidate)
+            for candidate in row.get("candidateShips", [])
+            if _format_ship(candidate)
+        )
+        lines.extend([
+            f"## {row.get('category')} {row.get('equipmentId')}:{row.get('equipmentName')}",
+            "",
+            f"- rawName: {row.get('rawName')}",
+            f"- linkTarget: {row.get('linkTarget')}",
+            f"- acceptedShip: {accepted}",
+            f"- candidates: {candidates}",
+            f"- reason: {row.get('reason') or row.get('kind') or row.get('message')}",
+            f"- sourceUrl: {row.get('sourceUrl')}",
+            "",
+        ])
+    (output_dir / "reference-diagnostics.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return summary
+
+
 def write_acquisition_outputs(
     output_dir: Path,
     *,
@@ -116,12 +285,26 @@ def write_acquisition_outputs(
     reference_issues: list[dict] | None = None,
 ) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
+    reference_issues = reference_issues or []
+    diagnostic_summary = _write_reference_diagnostics(
+        output_dir,
+        records=records,
+        reference_issues=reference_issues,
+    )
+    metadata.update({
+        "referenceDiagnosticCounts": {
+            "resolvedLinkTargetConflict": diagnostic_summary["resolvedLinkTargetConflictCount"],
+            "operatorStopReference": diagnostic_summary["operatorStopReferenceCount"],
+        },
+        "referenceDiagnosticsJson": "reference-diagnostics.json",
+        "referenceDiagnosticsMarkdown": "reference-diagnostics.md",
+    })
     write_json(output_dir / "catalog.json", catalog, log=False)
     write_json_lines(output_dir / "acquisition-records.nedb", records, log=False)
     write_json_lines(output_dir / "dataset-issues.nedb", issues, log=False)
     write_json_lines(
         output_dir / "reference-issues.nedb",
-        reference_issues or [],
+        reference_issues,
         log=False,
     )
     unclassified = []

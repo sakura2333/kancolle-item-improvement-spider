@@ -3,8 +3,8 @@ from __future__ import annotations
 """Offline WikiWiki equipment-acquisition parser over the shared raw cache.
 
 The parser never performs network I/O and never reads crawler-private state.
-Captured pages are discovered through ``data/raw_data/site_cache/_meta.json``;
-this is the same raw evidence store used by the project's HTTP cache layer.
+Captured pages are discovered through ``.spider/local/source-cache/_meta.json``;
+this is the same local raw evidence store used by the project's HTTP cache layer.
 """
 
 import argparse
@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-from configs.path import PROJECT_ROOT, get_data_dir
+from configs.path import PROJECT_ROOT, get_source_cache_dir
 from service.data_package.acquisition_references import (
     QUEST_DATA_URL,
     QuestReferenceCatalog,
@@ -40,7 +40,7 @@ from service.data_package.equipment_acquisition_crawl import (
 )
 from util.logger import simple_logger
 
-DEFAULT_RAW_ROOT = Path(get_data_dir("raw_data")) / "site_cache"
+DEFAULT_RAW_ROOT = Path(get_source_cache_dir())
 CAPTURE_SOURCE = "external-browser-session-crawl"
 
 
@@ -281,6 +281,44 @@ def run_offline_parse(
                 equipment_name=equipment_name,
                 source_url=source_url,
             )
+            if not isinstance(record.get("developmentAvailable"), bool):
+                development_issue = next(
+                    (
+                        issue
+                        for issue in page_issue_objects
+                        if issue.kind == "development-flag-unresolved"
+                    ),
+                    None,
+                )
+                details = {
+                    "source": SOURCE_ID,
+                    "kind": "development-flag-unresolved",
+                    "equipmentId": equipment_id,
+                    "equipmentName": equipment_name,
+                    "sourceUrl": source_url,
+                    "cacheKey": cache_key,
+                    "resolution": record.get("developmentResolution"),
+                }
+                if development_issue is not None:
+                    details["evidence"] = development_issue.evidence
+                simple_logger.error(
+                    "[WIKIWIKI DEVELOPMENT FLAG UNRESOLVED] "
+                    f"equipment={equipment_id}:{equipment_name}; "
+                    f"source={source_url}; resolution={record.get('developmentResolution')}"
+                )
+                operator_stops.append(OperatorStopError(
+                    stop_reason="wikiwiki-development-flag-unresolved",
+                    message=(
+                        "WikiWiki 装备开发标记无法解析为非空布尔值："
+                        f"{equipment_id}:{equipment_name}"
+                    ),
+                    action=(
+                        "检查该页面装备信息表的“備考”行，修正解析规则或原始页面证据；"
+                        "不得以 null 或猜测值进入正式数据包。"
+                    ),
+                    checkpoint=str(output_dir),
+                    details=details,
+                ))
             page_reference_issues = resolve_record_references(
                 record,
                 ships=ship_catalog,
@@ -419,7 +457,7 @@ def run_offline_parse(
             "outputDir": str(output_dir),
         }
         # This ERROR is intentionally emitted through the colored logger so it
-        # remains visibly red when Flow replays the failing log tail.
+        # remains visibly red when a wrapper replays the failing log tail.
         simple_logger.error(
             "[equipment acquisition offline] strict operator-stop gate rejected "
             f"the dataset; stopReason={primary_stop.stop_reason}; "
