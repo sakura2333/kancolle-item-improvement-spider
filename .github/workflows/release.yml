@@ -1,3 +1,4 @@
+# workflow registration refresh
 name: Release Data Candidate
 
 on:
