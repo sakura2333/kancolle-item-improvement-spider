@@ -13,10 +13,13 @@ import json
 from pathlib import Path
 from typing import Any, Iterable, Mapping
 
+from service.data_package.schema_contract import (
+    IMPROVEMENT2_DETAIL_SCHEMA_VERSION,
+    IMPROVEMENT2_LIST_SCHEMA_VERSION,
+)
+
 
 IMPROVEMENT2_CONSUMER_ID = "poi-plugin-item-improvement2"
-IMPROVEMENT2_DETAIL_SCHEMA_VERSION = 3
-IMPROVEMENT2_LIST_SCHEMA_VERSION = 2
 
 
 def _required_mapping(value: Any, label: str) -> Mapping[str, Any]:

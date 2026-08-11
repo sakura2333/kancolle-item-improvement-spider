@@ -1,12 +1,13 @@
 import inspect
 import os
+
+from configs.path import get_log_dir
 import logging
 
 from configs.config import DEBUG
 
 # 日志目录
-LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../log")
-os.makedirs(LOG_DIR, exist_ok=True)
+LOG_DIR = get_log_dir()
 
 class WarnOnlyFilter(logging.Filter):
     def filter(self, record):

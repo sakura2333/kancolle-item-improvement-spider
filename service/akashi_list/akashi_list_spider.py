@@ -10,6 +10,7 @@ from lxml import etree
 from service.akashi_list.akashi_detail_processor import DetailProcessor
 from service.akashi_list.akashi_list_utils import convert_vo
 from service.data_package.builder import build_data_package
+from service.data_package.official_assets import acquire_required_assets
 from service.operator_stop import OperatorStopError, write_operator_stop
 from service.data_package.equipment_bonus import SOURCE_URL as KC3_BONUS_URL
 from service.data_package.equipment_drop_from import (
@@ -20,6 +21,7 @@ from service.source_validation.runner import run_source_validation
 from service.source_validation.wikiwiki_jp import SOURCE_URL as WIKIWIKI_URL
 from util.cache import fetch, mark_collection_completed
 from util.export_utils import clear, export_data
+from util.logger import simple_logger
 from util.site_workers import SiteTask, run_site_tasks
 from util.start2.start2_utils import update_start2_if_needed
 
@@ -44,9 +46,19 @@ def _collect_akashi():
     return convert_vo(detail_processor.result)
 
 
-def _prefetch(url: str):
-    fetch(url)
+def _prefetch(url: str, *, require_fresh: bool | None = None):
+    fetch(url, require_fresh=require_fresh)
     return url
+
+
+def collect_akashi_source_records():
+    """Public acquisition entry used by the source-bundle workflow."""
+    return _collect_akashi()
+
+
+def prefetch_source(url: str, *, require_fresh: bool | None = None):
+    """Populate the shared source cache without producing projections."""
+    return _prefetch(url, require_fresh=require_fresh)
 
 
 def process(url=AKASHI_URL):
@@ -59,28 +71,41 @@ def process(url=AKASHI_URL):
         SiteTask(
             "kcwiki-equipment",
             KCWIKI_EQUIPMENT_URL,
-            lambda: _prefetch(KCWIKI_EQUIPMENT_URL),
+            lambda: _prefetch(KCWIKI_EQUIPMENT_URL, require_fresh=False),
         ),
         SiteTask(
             "kcwiki-ship",
             KCWIKI_SHIP_URL,
-            lambda: _prefetch(KCWIKI_SHIP_URL),
+            lambda: _prefetch(KCWIKI_SHIP_URL, require_fresh=False),
         ),
         SiteTask("kc3-bonus", KC3_BONUS_URL, lambda: _prefetch(KC3_BONUS_URL)),
     ]
     results = run_site_tasks(tasks)
+    optional_kcwiki_failures = {
+        key: value
+        for key, value in results.items()
+        if key in {"kcwiki-equipment", "kcwiki-ship"}
+        and isinstance(value, Exception)
+    }
+    for key, error in optional_kcwiki_failures.items():
+        simple_logger.error(
+            "[KCWIKI RAW UNAVAILABLE][NON-BLOCKING] "
+            f"{key}: {type(error).__name__}: {error}"
+        )
+
     failures = {
         key: value
         for key, value in results.items()
         if isinstance(value, Exception)
+        and key not in optional_kcwiki_failures
     }
     if failures:
         summary = ", ".join(f"{key}: {error}" for key, error in failures.items())
         raise OperatorStopError(
             stop_reason="source-collection-retry-exhausted",
             message=f"网站数据源采集失败且自动重试已结束：{summary}",
-            action="检查网络、代理和对应站点状态；修复后重新执行 ./flow run。",
-            checkpoint="data/raw_data/site_cache/_meta.json",
+            action="检查网络、代理和对应站点状态；修复后重新执行严格数据构建。",
+            checkpoint=".spider/local/source-cache/_meta.json",
             details={
                 key: f"{type(error).__name__}: {error}"
                 for key, error in failures.items()
@@ -88,9 +113,22 @@ def process(url=AKASHI_URL):
         ) from next(iter(failures.values()))
 
     vo_list = results["akashi-list"]
+    try:
+        acquire_required_assets(vo_list)
+    except Exception as error:
+        raise OperatorStopError(
+            stop_reason="official-image-acquisition-failed",
+            message=f"舰 C 官方图片采集失败：{type(error).__name__}: {error}",
+            action=(
+                "检查官方资源服务器、代理或 KANCOLLE_ASSET_BASE_URLS；"
+                "修复后重新执行 Source Acquire。"
+            ),
+            checkpoint=".spider/local/source-cache/cache/official",
+            details={"official-assets": f"{type(error).__name__}: {error}"},
+        ) from error
     clear()
     export_data(vo_list)
-    # Validation is a side channel: it writes only under data/sources and never
+    # Validation is a side channel: it writes only under dist/data-pipeline/sources and never
     # changes the public plugin projections generated above.
     run_source_validation(vo_list)
     mark_collection_completed("akashi-list")

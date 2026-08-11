@@ -1,11 +1,31 @@
 import json
 import os
 import time
+from pathlib import Path
+
 import requests
 
 
 def _strict_mode():
     return os.getenv("DATA_PACKAGE_STRICT", "0").strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _env_enabled(name, default=False):
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _env_float(name, default):
+    value = os.getenv(name)
+    if value in (None, ""):
+        return default
+    try:
+        return float(value)
+    except ValueError:
+        return default
+
 
 from util.logger import simple_logger
 from util.start2.config import start2_dir
@@ -15,22 +35,49 @@ os.makedirs(WORK_DIR, exist_ok=True)
 
 INDEX_URL = "https://api.kcwiki.moe/start2/archives"
 DATA_URL = "https://api.kcwiki.moe/start2"
+REQUIRED_FILES = (
+    "api_mst_slotitem.json",
+    "api_mst_ship.json",
+    "api_mst_useitem.json",
+)
+DEFAULT_CACHE_MAX_AGE_HOURS = 50.0
 
 
 # ---------------------------
 # HTTP 工具
 # ---------------------------
+def _http_debug_context():
+    proxy_keys = ["HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "NO_PROXY", "http_proxy", "https_proxy", "all_proxy", "no_proxy"]
+    proxies = {key: os.getenv(key) for key in proxy_keys if os.getenv(key)}
+    return {
+        "proxies": proxies,
+        "cookie_env_present": any("cookie" in key.lower() for key in os.environ),
+    }
+
+
 def get_json(url):
     last_error = None
+    last_status = None
     for _ in range(3):
         try:
             r = requests.get(url, timeout=30)
+            last_status = r.status_code
             r.raise_for_status()
             return r.json()
         except Exception as e:
             last_error = e
             time.sleep(2)
-    raise RuntimeError(f"failed to fetch: {url}") from last_error
+    detail = f"failed to fetch: {url}"
+    if last_status is not None:
+        detail += f" status={last_status}"
+    if last_error is not None:
+        detail += f" error={type(last_error).__name__}: {last_error}"
+    context = _http_debug_context()
+    if context["proxies"]:
+        detail += f" proxies={sorted(context['proxies'])}"
+    if context["cookie_env_present"]:
+        detail += " cookie-env-present=true"
+    raise RuntimeError(detail) from last_error
 
 
 # ---------------------------
@@ -41,7 +88,7 @@ def fetch_remote_index():
 
 
 # ---------------------------
-# local version
+# local version/cache
 # ---------------------------
 VERSION_FILE = os.path.join(WORK_DIR, "current_version.txt")
 
@@ -56,6 +103,47 @@ def get_local_version():
 def set_local_version(v: str):
     with open(VERSION_FILE, "w", encoding="utf-8") as f:
         f.write(v)
+
+
+def _required_paths():
+    return [Path(WORK_DIR) / name for name in REQUIRED_FILES]
+
+
+def _has_required_files():
+    for path in _required_paths():
+        if not path.is_file() or path.stat().st_size <= 0:
+            return False
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            return False
+        if not isinstance(payload, list) or not payload:
+            return False
+    return True
+
+
+def _cache_reference_mtime():
+    paths = [Path(VERSION_FILE), *_required_paths()]
+    existing = [path.stat().st_mtime for path in paths if path.exists()]
+    return min(existing) if existing else None
+
+
+def start2_cache_state(max_age_hours: float | None = None):
+    max_age = DEFAULT_CACHE_MAX_AGE_HOURS if max_age_hours is None else max_age_hours
+    has_required = _has_required_files()
+    reference_mtime = _cache_reference_mtime()
+    age_hours = None
+    fresh = False
+    if has_required and reference_mtime is not None:
+        age_hours = max(0.0, (time.time() - reference_mtime) / 3600.0)
+        fresh = age_hours <= max_age
+    return {
+        "hasRequiredFiles": has_required,
+        "localVersion": get_local_version(),
+        "ageHours": age_hours,
+        "maxAgeHours": max_age,
+        "fresh": fresh,
+    }
 
 
 # ---------------------------
@@ -92,14 +180,36 @@ def load_start2_readers():
 # ---------------------------
 # 核心更新逻辑
 # ---------------------------
-def update_start2_if_needed():
+def update_start2_if_needed(*, force_refresh: bool = False):
     updated_version = None
+    max_age_hours = _env_float("START2_CACHE_MAX_AGE_HOURS", DEFAULT_CACHE_MAX_AGE_HOURS)
+    cache = start2_cache_state(max_age_hours)
+    force_refresh = force_refresh or _env_enabled("START2_FORCE_REFRESH", False)
+
+    if cache["fresh"] and not force_refresh:
+        simple_logger.info(
+            "[start2] cache hit: "
+            f"local={cache['localVersion']} ageHours={cache['ageHours']:.2f} maxAgeHours={cache['maxAgeHours']}"
+        )
+        load_start2_readers()
+        return
 
     try:
         remote_index = fetch_remote_index()
     except Exception as e:
+        if cache["fresh"]:
+            simple_logger.warn(
+                "[start2] remote index fetch failed; using valid local cache: "
+                f"local={cache['localVersion']} ageHours={cache['ageHours']:.2f} error={e}"
+            )
+            load_start2_readers()
+            return
         if _strict_mode():
-            raise RuntimeError(f"[start2] strict mode could not validate remote index: {e}") from e
+            raise RuntimeError(
+                "[start2] strict mode could not validate remote index and no valid local cache is available: "
+                f"hasRequiredFiles={cache['hasRequiredFiles']} "
+                f"ageHours={cache['ageHours']} maxAgeHours={cache['maxAgeHours']} error={e}"
+            ) from e
         simple_logger.warn(f"[start2] failed to fetch remote index, skip update: {e}")
     else:
         if not remote_index:
@@ -110,7 +220,7 @@ def update_start2_if_needed():
 
         simple_logger.info(f"[start2] local={local_version}, remote={latest_version}")
 
-        if local_version == latest_version:
+        if local_version == latest_version and cache["hasRequiredFiles"]:
             simple_logger.info("[start2] no update needed")
         else:
             simple_logger.info("[start2] updating...")
@@ -118,9 +228,15 @@ def update_start2_if_needed():
             try:
                 data = fetch_start2()
             except Exception as e:
-                if _strict_mode():
+                if cache["fresh"]:
+                    simple_logger.warn(
+                        "[start2] current data download failed; using valid local cache: "
+                        f"local={cache['localVersion']} ageHours={cache['ageHours']:.2f} error={e}"
+                    )
+                elif _strict_mode():
                     raise RuntimeError(f"[start2] strict mode could not download current data: {e}") from e
-                simple_logger.warn(f"[start2] failed to fetch start2, skip update: {e}")
+                else:
+                    simple_logger.warn(f"[start2] failed to fetch start2, skip update: {e}")
             else:
                 split_start2(data)
                 updated_version = latest_version

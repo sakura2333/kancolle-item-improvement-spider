@@ -6,11 +6,13 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 
+from service.data_package.schema_contract import DATASET_SCHEMA_VERSIONS
 from service.operator_stop import OperatorStopError
 from util.json_utils import read_json_lines, write_json, write_json_lines
+from util.logger import simple_logger
 from util.start2.start2_item_utils import Start2ItemUtils
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = DATASET_SCHEMA_VERSIONS["equipmentSources"]
 SOURCE_DATASET_ID = "equipment-sources"
 
 
@@ -49,6 +51,7 @@ def _canonical_records(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]
                     source.get("upgradeFromItemIds", [])
                 ),
                 "questKey": _positive_int_values(source.get("questKey", [])),
+                "developmentAvailable": source.get("developmentAvailable"),
             },
         })
     return sorted(normalized, key=lambda value: value["equipmentId"])
@@ -98,7 +101,7 @@ def build_upgrade_reverse_index(
     records = _read_nedb_strict(
         improvement_path,
         stop_reason="canonical-improvement-nedb-invalid",
-        action="恢复或重新生成 packages/kancolle-data/improvement/detail.nedb，再从当前断点重试。",
+        action="恢复或重新生成 dist/packages/kancolle-data/improvement/detail.nedb，再从当前断点重试。",
         checkpoint=str(improvement_path),
     )
     known_ids = {
@@ -199,6 +202,107 @@ def build_quest_index(acquisition_records: Iterable[dict[str, Any]]) -> tuple[di
     return result, relation_count
 
 
+def _development_stop(
+    *,
+    stop_reason: str,
+    message: str,
+    details: dict[str, Any],
+) -> None:
+    simple_logger.error(f"[EQUIPMENT DEVELOPMENT SOURCE ERROR] {message}; details={details}")
+    raise OperatorStopError(
+        stop_reason=stop_reason,
+        message=message,
+        action=(
+            "检查 KCWiki _buildable 投影、WikiWiki 装备信息表解析及开发状态交叉验证；"
+            "修复来源证据后重新生成，禁止 null 或冲突值进入正式包。"
+        ),
+        checkpoint="dist/data-pipeline/sources/equipment-sources",
+        details=details,
+    )
+
+
+def build_kcwiki_development_index(
+    records: Iterable[dict[str, Any]],
+) -> dict[int, dict[str, Any]]:
+    result: dict[int, dict[str, Any]] = {}
+    invalid: list[dict[str, Any]] = []
+    for record_index, record in enumerate(records, 1):
+        equipment_id = int(record.get("equipmentId") or 0)
+        value = record.get("developmentAvailable")
+        if equipment_id <= 0 or not isinstance(value, bool):
+            invalid.append({
+                "recordIndex": record_index,
+                "equipmentId": equipment_id,
+                "equipmentName": record.get("equipmentName"),
+                "developmentAvailable": value,
+                "valueType": type(value).__name__,
+            })
+            continue
+        if equipment_id in result:
+            invalid.append({
+                "recordIndex": record_index,
+                "equipmentId": equipment_id,
+                "equipmentName": record.get("equipmentName"),
+                "reason": "duplicate-equipment-id",
+            })
+            continue
+        result[equipment_id] = record
+    if invalid:
+        _development_stop(
+            stop_reason="kcwiki-development-flag-invalid",
+            message="KCWiki 开发标记存在非布尔、缺失或重复记录。",
+            details={"issueCount": len(invalid), "issues": invalid[:50]},
+        )
+    return result
+
+
+def build_wikiwiki_development_index(
+    records: Iterable[dict[str, Any]],
+) -> dict[int, dict[str, Any]]:
+    result: dict[int, dict[str, Any]] = {}
+    invalid: list[dict[str, Any]] = []
+    for record_index, record in enumerate(records, 1):
+        if record.get("accepted") is not True:
+            continue
+        equipment_id = int(record.get("equipmentId") or 0)
+        value = record.get("developmentAvailable")
+        if equipment_id <= 0 or not isinstance(value, bool):
+            issue = {
+                "recordIndex": record_index,
+                "equipmentId": equipment_id,
+                "equipmentName": record.get("equipmentName"),
+                "sourceUrl": record.get("sourceUrl"),
+                "developmentAvailable": value,
+                "valueType": type(value).__name__,
+                "developmentResolution": record.get("developmentResolution"),
+            }
+            invalid.append(issue)
+            simple_logger.error(
+                "[WIKIWIKI DEVELOPMENT FLAG UNRESOLVED] "
+                f"equipment={equipment_id}:{record.get('equipmentName')}; "
+                f"source={record.get('sourceUrl')}; "
+                f"resolution={record.get('developmentResolution')}"
+            )
+            continue
+        previous = result.get(equipment_id)
+        if previous is not None:
+            invalid.append({
+                "recordIndex": record_index,
+                "equipmentId": equipment_id,
+                "equipmentName": record.get("equipmentName"),
+                "reason": "duplicate-equipment-id",
+            })
+            continue
+        result[equipment_id] = record
+    if invalid:
+        _development_stop(
+            stop_reason="wikiwiki-development-flag-unresolved",
+            message="WikiWiki 开发标记存在 null、缺失、非布尔或重复记录。",
+            details={"issueCount": len(invalid), "issues": invalid[:50]},
+        )
+    return result
+
+
 def _record_map(records: Iterable[dict[str, Any]]) -> dict[int, dict[str, Any]]:
     return {int(record["equipmentId"]): record for record in _canonical_records(records)}
 
@@ -225,24 +329,94 @@ def build_equipment_source_records(
     drop_records: Iterable[dict[str, Any]],
     improvement_path: Path,
     acquisition_records: Iterable[dict[str, Any]] = (),
-) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    development_records: Iterable[dict[str, Any]] = (),
+) -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+    acquisition_records = list(acquisition_records)
+    development_records = list(development_records)
     ship_index, ship_relation_count = build_ship_index(drop_records)
     upgrade_index, upgrade_metrics = build_upgrade_reverse_index(improvement_path, item_utils)
     quest_index, quest_relation_count = build_quest_index(acquisition_records)
+    kcwiki_development = build_kcwiki_development_index(development_records)
+    wikiwiki_development = build_wikiwiki_development_index(acquisition_records)
     records: list[dict[str, Any]] = []
+    diagnostics: list[dict[str, Any]] = []
+    missing_kcwiki: list[dict[str, Any]] = []
+    conflicts: list[dict[str, Any]] = []
+    validation_counts: defaultdict[str, int] = defaultdict(int)
+    available_count = 0
     for item in item_utils.items:
         equipment_id = int(item.get("api_id") or 0)
         if equipment_id <= 0 or int(item.get("api_sortno") or 0) <= 0:
             continue
+        equipment_name = str(item.get("api_name") or "")
+        kcwiki_record = kcwiki_development.get(equipment_id)
+        if kcwiki_record is None:
+            missing_kcwiki.append({
+                "equipmentId": equipment_id,
+                "equipmentName": equipment_name,
+            })
+            continue
+        development_available = kcwiki_record["developmentAvailable"]
+        available_count += int(development_available)
+        wikiwiki_record = wikiwiki_development.get(equipment_id)
+        diagnostic: dict[str, Any] = {
+            "equipmentId": equipment_id,
+            "equipmentName": equipment_name,
+            "kcwiki": {
+                "developmentAvailable": development_available,
+                "evidence": kcwiki_record.get("evidence", {}),
+            },
+        }
+        if wikiwiki_record is None:
+            status = "wikiwiki-missing"
+        else:
+            wikiwiki_value = wikiwiki_record["developmentAvailable"]
+            diagnostic["wikiwiki"] = {
+                "developmentAvailable": wikiwiki_value,
+                "sourceUrl": wikiwiki_record.get("sourceUrl"),
+                "resolution": wikiwiki_record.get("developmentResolution", {}),
+            }
+            status = "matched" if wikiwiki_value == development_available else "conflict"
+            if status == "conflict":
+                conflicts.append(diagnostic)
+        diagnostic["status"] = status
+        validation_counts[status] += 1
+        diagnostics.append(diagnostic)
         records.append({
             "equipmentId": equipment_id,
-            "equipmentName": str(item.get("api_name") or ""),
+            "equipmentName": equipment_name,
             "source": {
                 "shipIds": sorted(ship_index.get(equipment_id, set())),
                 "upgradeFromItemIds": sorted(upgrade_index.get(equipment_id, set())),
                 "questKey": sorted(quest_index.get(equipment_id, set())),
+                "developmentAvailable": development_available,
             },
         })
+    wikiwiki_missing_count = int(validation_counts.get("wikiwiki-missing", 0))
+    if wikiwiki_missing_count:
+        simple_logger.warning(
+            "[EQUIPMENT DEVELOPMENT CROSS-VALIDATION INCOMPLETE] "
+            f"wikiwikiMissing={wikiwiki_missing_count}; "
+            "formal values remain sourced from KCWiki _buildable"
+        )
+    if missing_kcwiki:
+        _development_stop(
+            stop_reason="kcwiki-development-coverage-incomplete",
+            message="KCWiki 开发标记未覆盖全部 Start2 玩家装备。",
+            details={
+                "missingCount": len(missing_kcwiki),
+                "missing": missing_kcwiki[:50],
+            },
+        )
+    if conflicts:
+        _development_stop(
+            stop_reason="equipment-development-source-conflict",
+            message="KCWiki 与 WikiWiki 的装备开发标记交叉验证不一致。",
+            details={
+                "conflictCount": len(conflicts),
+                "conflicts": conflicts[:50],
+            },
+        )
     records = _canonical_records(records)
     metadata = {
         "source": SOURCE_DATASET_ID,
@@ -250,9 +424,19 @@ def build_equipment_source_records(
         "equipmentRecordCount": len(records),
         "shipRelationCount": ship_relation_count,
         "questRelationCount": quest_relation_count,
+        "developmentAvailableCount": available_count,
+        "developmentUnavailableCount": len(records) - available_count,
+        "developmentCrossValidation": {
+            "kcwikiAuthority": "_buildable matched by normalized Japanese name",
+            "wikiwikiEvidence": "current equipment infobox 備考 row",
+            "matchedCount": int(validation_counts.get("matched", 0)),
+            "wikiwikiMissingCount": wikiwiki_missing_count,
+            "conflictCount": int(validation_counts.get("conflict", 0)),
+            "diagnosticRecordCount": len(diagnostics),
+        },
         **upgrade_metrics,
     }
-    return records, metadata
+    return records, metadata, diagnostics
 
 
 def write_incremental_source_bundle(

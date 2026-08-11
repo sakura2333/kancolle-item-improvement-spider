@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from pojo.improvement import Improvement, ShipWeek
+from service.improvement.model import Improvement, ShipWeek
 
 def process_daily_ships(processor, page_node):
     support_ship_nodes = page_node.xpath(".//div[contains(@class, 'support-ship-table')]//td/div[@class='support-ship']")

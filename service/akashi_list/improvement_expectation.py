@@ -4,7 +4,7 @@ import re
 from dataclasses import dataclass
 from typing import Any, Iterable
 
-from pojo.improvement import ImprovementStage
+from service.improvement.model import ImprovementStage
 
 
 _STAR_HEADER = re.compile(r"^★(\d+)$")

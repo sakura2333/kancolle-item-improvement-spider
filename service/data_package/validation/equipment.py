@@ -47,7 +47,7 @@ def _validate_equipment_sources(path: Path) -> tuple[int, int, int, int]:
             raise QualityGateError(f"equipment-source {equipment_id} has no name")
         source = record.get("source")
         if not isinstance(source, dict) or set(source) != {
-            "shipIds", "upgradeFromItemIds", "questKey"
+            "shipIds", "upgradeFromItemIds", "questKey", "developmentAvailable"
         }:
             raise QualityGateError(
                 f"equipment-source {equipment_id} has an invalid source contract"
@@ -62,6 +62,10 @@ def _validate_equipment_sources(path: Path) -> tuple[int, int, int, int]:
                 raise QualityGateError(
                     f"equipment-source {equipment_id} has invalid {field}"
                 )
+        if not isinstance(source.get("developmentAvailable"), bool):
+            raise QualityGateError(
+                f"equipment-source {equipment_id} has invalid developmentAvailable"
+            )
         ship_relations += len(source["shipIds"])
         upgrade_relations += len(source["upgradeFromItemIds"])
         quest_relations += len(source["questKey"])

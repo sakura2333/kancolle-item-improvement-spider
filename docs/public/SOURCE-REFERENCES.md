@@ -9,14 +9,15 @@
 | ID | 资源 | 当前地址 | 代码入口 | 主要用途 | 权威角色 |
 |---|---|---|---|---|---|
 | `akashi-index` | Akashi List 首页 | `https://akashi-list.me/` | `service/akashi_list/akashi_list_spider.py` | 枚举可改修装备和详情页 ID | 改修数据正式来源 |
-| `akashi-detail` | Akashi List 装备详情 | `https://akashi-list.me/detail/{weapon_id}.html` | `service/akashi_list/akashi_list_spider.py`、`akashi_detail_processor.py` | 改修阶段、材料、资材、二号舰、星期、更新目标、页面图片引用 | 改修数据正式来源 |
+| `akashi-detail` | Akashi List 装备详情 | `https://akashi-list.me/detail/{weapon_id}.html` | `service/akashi_list/akashi_list_spider.py`、`akashi_detail_processor.py` | 改修阶段、材料、资材、二号舰、星期和更新目标 | 改修数据正式来源 |
 | `wikiwiki-jp` | 日文 WikiWiki 改修表 | `https://wikiwiki.jp/kancolle/%E6%94%B9%E4%BF%AE%E8%A1%A8` | `service/source_validation/wikiwiki_jp.py` | 独立解析改修日程和二号舰条件 | 交叉验证，不覆盖 Akashi |
 | `kcwiki-equipment` | KcWiki 装备数据 | `https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/equipment.json` | `service/source_validation/kcwiki_data.py`、`service/data_package/equipment_drop_from.py` | 改修交叉验证；装备获得关系解析 | 验证来源；获得关系数据集的组成来源 |
 | `kcwiki-ship` | KcWiki 舰船数据 | `https://raw.githubusercontent.com/kcwiki/kancolle-data/refs/heads/master/wiki/ship.json` | `service/data_package/equipment_drop_from.py` | 舰船初始装备、改造装备和舰船映射 | 获得关系数据集正式来源 |
 | `kc3-slotitem-bonus` | KC3 装备加成数据 | `https://raw.githubusercontent.com/KC3Kai/kancolle-replay/refs/heads/master/js/data/mst_slotitem_bonus.json` | `service/data_package/equipment_bonus.py` | 舰种、舰级、舰船和装备类型加成规则 | 特殊加成独立数据集正式来源 |
 | `start2-index` | start2 版本索引 | `https://api.kcwiki.moe/start2/archives` | `util/start2/start2_utils.py` | 判断本地主数据是否需要更新 | 主数据版本依据 |
 | `start2-current` | 当前完整 start2 | `https://api.kcwiki.moe/start2` | `util/start2/start2_utils.py` | 装备、舰船、消耗品 ID/名称/类型和改造链映射 | ID 与主数据映射基线 |
-| `akashi-page-images` | Akashi 详情页图片 URL | 页面中的 `src` / `data-src` | `akashi_detail_processor.py` | 下载被改修材料引用的消耗品 PNG；舰船图片路径辅助识别舰船 ID | 资产辅助，不参与改修事实选举 |
+| `official-slot-card` | 舰 C 官方装备卡 | `https://<game-server>/kcs2/resources/slot/card/{id}_{resource}.png` | `service/data_package/official_assets.py` | 按 Start2 装备 ID、`api_version` 和官方资源码获取 390×390 原图，再编码为 WebP quality 93 | 图片正式来源，不参与改修事实选举 |
+| `official-useitem-card` | 舰 C 官方消耗品卡 | `https://<game-server>/kcs2/resources/useitem/card[_]/{id}.png` | `service/data_package/official_assets.py` | 按 Start2 useitem ID 获取官方 PNG；生成 canonical WebP，同时为 improvement2 保留 PNG | 图片正式来源，不参与改修事实选举 |
 
 ## 2. 数据集权威划分
 
@@ -28,9 +29,8 @@ Akashi List
 
 WikiWiki / KcWiki
   -> 归一化后与 Akashi 比较
-  -> 生成运行期验证材料
-  -> 公开 main 只保留 metadata、正式快照与聚合摘要
-  -> 不自动改写 data/improvement/**
+  -> 只写 dist/data-pipeline/sources/**
+  -> 不自动改写 dist/data-pipeline/improvement/**
 ```
 
 正式改修数据包括：
@@ -82,7 +82,14 @@ WikiWiki 装备详情中的舰娘引用按两层严格规则处理：
 
 链接中的数字、页面内部编号和图片文件名永远不作为游戏主键。链接缺失、目标仍为裸名称、目标与显示文字冲突，或交叉验证后仍不唯一时，严格构建输出 operator stop，不写入公开 `source.shipIds`。
 
-出现上述歧义时，严格构建必须停止，且成功的公开快照不得包含任何 operator-stop 文件。
+停止信息位于：
+
+```text
+dist/data-pipeline/sources/wikiwiki-equipment-detail/operator-stop.json
+dist/data-pipeline/sources/wikiwiki-equipment-detail/operator-stops.nedb
+```
+
+前者是首要停止摘要，后者是全部去重后的机器可读停止项。终端同时输出红色 `ERROR`、`stopReason`、人工处理方法和可继续使用的 Raw Cache 断点。
 
 ## 3. 来源选举/仲裁方式
 
@@ -120,11 +127,11 @@ WikiWiki 装备详情中的舰娘引用按两层严格规则处理：
 
 这些结果只形成审计材料，不自动修改正式改修数据。
 
-### 3.3 相对一致性摘要
+### 3.3 历史观察与相对权重
 
-系统可以根据两两一致和同行共识生成聚合后的相对一致性摘要。该结果仅表示“与现有其他来源相比更一致”，不表示官方权威，也不参与正式来源切换。
+成功解析的来源会先建立一次完整基线，之后只追加事实变化。系统根据两两一致、同行共识和积累后的变化佐证输出相对权重，但该权重仅表示“与现有其他来源相比更一致”，不表示官方权威，也不参与正式来源切换。
 
-公开 `main` 只保留 `data/sources/reliability/summary.json`。逐轮历史、完整来源副本和人工报告属于运行期工作集，不进入公开稳定树。边界见 `SOURCE-EVIDENCE.md`。
+当前改修投影仍固定来自 Akashi；权重报告位于 `dist/data-pipeline/sources/reliability/`，详细结构见 `SOURCE-HISTORY.md`。
 
 ### 3.4 Akashi 内部路线选取
 
@@ -183,7 +190,7 @@ CACHE_ONLY=1
 5. 返回 `304`：保留缓存，但记为本次网络验证成功；
 6. TTL 过期后的网络请求失败：非严格模式可回退旧缓存，严格模式直接失败。
 
-普通文件缓存默认有效期为 7 天；配方所需的 useitem/材料图片通过 `download_pic()` 下载，默认有效期为 30 天，装备图片不下载。所有请求元数据写入：
+普通文件缓存默认有效期为 7 天；官方 useitem PNG 与装备 `slot/card` 原图通过 `download_pic()` 下载，图片缓存有效期统一为 180 天。两类官方 PNG 都保存在 Source Cache，并确定性编码为 WebP quality 93；useitem PNG 另外作为 improvement2 兼容输入。所有请求元数据写入：
 
 ```text
 本机 HTTP 缓存元数据
@@ -207,32 +214,30 @@ CACHE_ONLY=1
 
 ### 当前实际行为
 
-- 改修路线“大图”不是一张被抓取的背景图；路线节点和连线应由消费方根据数据绘制。
-- Spider 会读取 Akashi 详情页中消耗品图片的 `src` 或 `data-src`，保存到 sitecache，再提升为稳定 `data/assets/useitems/{id}.png`。
-- 舰船图片路径只作为舰船 ID 解析提示，不作为正式发布图片集。
-- npm 数据包当前仍包含被改修材料引用到的 use-item PNG。
+- Akashi 只提供改修业务事实，不再参与图片 URL 发现或下载；详情解析完成并转换为 canonical 路线后，独立的 `official-assets` 阶段统一收集装备/useitem ID。
+- `api_mst_slotitem` 提供装备 ID 与 `api_version`；Spider 按官方资源码算法生成 `slot/card` 地址。
+- 装备官方原图按 Start2 `api_version` 保存在 `.spider/local/source-cache/cache/official/equip/{id}/{api_version}.png`，避免半年 TTL 掩盖资源版本变化；编码缓存位于 `.spider/local/source-cache/cache/official/equip/webp-q93-a100-m6-exact/{id}.webp`，发布投影保存在 `dist/data-pipeline/assets/equip/{id}.webp`，保持 390×390，固定 WebP quality 93、alpha quality 100、method 6。
+- `api_mst_useitem` 提供消耗品 ID；Spider 按官方 `useitem/card` 与旧式 `card_` 路径获取 PNG，原图缓存位于 `.spider/local/source-cache/cache/official/useitem/{id}.png`，编码缓存位于 `.spider/local/source-cache/cache/official/useitem/webp-q93-a100-m6-exact/{id}.webp`。`latest` 发布 `assets/useitem/{id}.webp`，`improvement2` 仅发布 `assets/useitem/{id}.png`。
+- 旧 `cache/useitem/*.png` 与 `cache/equip/*.png` 属于退役 Akashi 图片缓存；恢复 seed Source Bundle 后会删除文件及对应 `_meta.json` 条目，不进入下一份 Bundle。
+- 图片缓存有效期为 180 天；TTL 内直接复用，过期后按统一 HTTP 缓存规则重新验证。
+- 改修路线“大图”仍由消费方根据数据绘制，不作为单独抓取资产。
 
-### Poi 资源减负方向
+### 网络边界
 
-Poi 已提供装备类型、材料和飞机分类图标。后续插件可以按以下顺序解析：
+官方游戏资源服务器可能按出口地区返回 403。严格 Source Acquire 首次缺图或缓存过期时必须成功取得官方资源，否则不生成 ready Source Bundle；已有缓存不得在严格过期场景冒充新鲜输入。CI 可通过 `KANCOLLE_ASSET_BASE_URLS` 指向允许访问的官方游戏服务器候选，并可使用运行环境已有的标准 HTTP(S) 代理配置。
 
-```text
-Poi SVG 类型图标
--> Poi PNG 类型图标
--> 插件自带通用 fallback
-```
-
-这项迁移完成前，Spider 仍应保留当前 use-item PNG 生成和完整性检查；不能仅因 Poi 存在资源就提前删除现有资产。
 ## 8. 站点风险与本地时效
 
-当前 `source-policy.json` 注册 5 个逻辑来源族，实际访问 4 个 hostname：`akashi-list.me`、`wikiwiki.jp`、`raw.githubusercontent.com` 与 `api.kcwiki.moe`。KcWiki JSON 与 KC3 JSON 虽共享 GitHub Raw hostname，但保持不同的数据集权威。
+当前 `source-policy.json` 注册 5 个文本/数据来源族；此外图片链路会访问 `KANCOLLE_ASSET_BASE_URLS` 指定或内置候选的官方 game-server。KcWiki JSON 与 KC3 JSON 虽共享 GitHub Raw hostname，但保持不同的数据集权威。
 
 | 来源 | 风险级别 | 当前保护 | 本地时效 |
 |---|---|---|---|
-| Akashi List | 中 | 同 hostname 串行、通用有界重试、严格模式拒绝旧缓存冒充新鲜 | 文本缓存 22 小时；页面图片缓存 30 天 |
-| WikiWiki 改修表 | 中 | 同 hostname 串行、条件请求、429/5xx 有界重试 | 标准文本缓存 22 小时 |
+| Akashi List | 中 | 同 hostname 串行、通用有界重试、严格模式拒绝旧缓存冒充新鲜 | 文本缓存 48 小时 |
+| 舰 C 官方图片资源 | 高 | 可配置 game-server 候选顺序回退（默认使用 w15p）、图片签名校验、严格模式拒绝过期 fallback | 原始 useitem/equip 图片缓存 180 天 |
+| WikiWiki 改修表 | 中 | 同 hostname 串行、条件请求、429/5xx 有界重试 | 标准文本缓存 48 小时 |
 | WikiWiki 浏览器会话详情采集 | 高 | 单线程、3 秒±1 秒间隔、429 全站 90 秒指数冷却、连续限流熔断、挑战页拒收 | Raw HTML 无自动 TTL；目录和详情仅在显式刷新时更新；Cookie 时效由站点会话控制 |
-| KcWiki / KC3 GitHub Raw | 低 | 同 hostname 串行、条件请求、有界重试 | 文本缓存 22 小时 |
+| KcWiki / KC3 GitHub Raw | 低 | 同 hostname 串行、条件请求、有界重试 | 文本缓存 48 小时 |
 | start2 API | 低到中 | 30 秒超时、最多 3 次请求、失败后非严格模式保留本地版本 | 无固定 TTL；每次更新入口先检查远端版本索引，仅版本变化时下载完整数据 |
 
 “Raw HTML 无自动 TTL”表示它是带抓取时间和哈希的历史证据，不会因时间到达而被静默删除；准备 Stable 或需要最新获取方式时应显式刷新。所有风险级别都是当前实现与已观察访问行为下的运维判断，不是来源站点的可用性承诺。
+

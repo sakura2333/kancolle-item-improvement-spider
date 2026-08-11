@@ -7,9 +7,12 @@ from pathlib import Path
 from typing import Iterable
 
 from service.data_package.package_paths import (
-    CACHE_IMAGE_DIR,
+    CACHE_EQUIPMENT_IMAGE_DIR,
+    CACHE_USEITEM_PNG_DIR,
+    CACHE_USEITEM_WEBP_DIR,
     IMPROVEMENT2_COMPAT_DIR,
     PACKAGE_DIR,
+    STATIC_EQUIPMENT_IMAGE_DIR,
     STATIC_IMAGE_DIR,
 )
 
@@ -21,7 +24,11 @@ def _clear_regenerated():
     # Improvement projections and icons are owned locally and can always be
     # regenerated. External equipment datasets are intentionally preserved
     # until their replacement source has been fetched and parsed successfully.
-    for relative in ("improvement", "assets/useitems", "audit"):
+    for relative in ("assets/useitems", "assets/equipment"):
+        legacy_path = PACKAGE_DIR / relative
+        if legacy_path.exists():
+            shutil.rmtree(legacy_path)
+    for relative in ("improvement", "assets/useitem", "assets/equip", "audit"):
         path = PACKAGE_DIR / relative
         if path.exists():
             shutil.rmtree(path)
@@ -85,19 +92,43 @@ def _improvement_projection_metrics(detail_path: Path) -> dict[str, int]:
         ),
     }
 
-def _copy_icon_directory(source_dir: Path, target_dir: Path):
+def copy_asset_directory(source_dir: Path, target_dir: Path, pattern: str):
     if not source_dir.exists():
         return
-    for image in sorted(source_dir.glob("*.png")):
+    for image in sorted(source_dir.glob(pattern)):
         _copy_file(image, target_dir / image.name)
 
-def _promote_cached_icons():
-    """Persist newly discovered icons outside the ignored HTTP cache.
 
-    Runtime cache is intentionally not committed. Promoting numeric PNGs into
-    data/assets makes the next clean checkout reproducible and lets the release
-    commit carry newly referenced use-item assets.
+def _copy_icon_directory(source_dir: Path, target_dir: Path):
+    copy_asset_directory(source_dir, target_dir, "*.png")
+
+def _clear_image_files(directory: Path) -> None:
+    directory.mkdir(parents=True, exist_ok=True)
+    for pattern in ("*.png", "*.webp"):
+        for image in directory.glob(pattern):
+            image.unlink()
+
+
+def _promote_cached_icons():
+    """Persist only official use-item assets into the stable projection.
+
+    The source PNG namespace is intentionally separate from the retired
+    Akashi image cache. The same official PNG is copied for improvement2 and
+    encoded as deterministic Q93 WebP for the canonical package.
     """
 
-    _copy_icon_directory(CACHE_IMAGE_DIR, STATIC_IMAGE_DIR)
+    _clear_image_files(STATIC_IMAGE_DIR)
+    _copy_icon_directory(CACHE_USEITEM_PNG_DIR, STATIC_IMAGE_DIR)
+    copy_asset_directory(CACHE_USEITEM_WEBP_DIR, STATIC_IMAGE_DIR, "*.webp")
+
+
+def _promote_cached_equipment_images():
+    """Persist only official equipment WebP cards into stable assets."""
+
+    _clear_image_files(STATIC_EQUIPMENT_IMAGE_DIR)
+    copy_asset_directory(
+        CACHE_EQUIPMENT_IMAGE_DIR,
+        STATIC_EQUIPMENT_IMAGE_DIR,
+        "*.webp",
+    )
 
