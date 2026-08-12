@@ -1,6 +1,6 @@
 # Source reliability observation
 
-Generated: 2026-08-11T12:39:54+00:00
+Generated: 2026-08-12T07:52:25+00:00
 
 These weights are advisory relative-consistency signals. They do not select or overwrite the canonical dataset.
 

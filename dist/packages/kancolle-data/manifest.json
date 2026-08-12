@@ -1,6 +1,6 @@
 {
-  "packageVersion": "0.5.45",
-  "generatedAt": "2026-08-11T12:40:01+00:00",
+  "packageVersion": "0.5.46",
+  "generatedAt": "2026-08-12T07:52:36+00:00",
   "datasets": {
     "improvement": {
       "schemaVersion": 4,
@@ -32,7 +32,7 @@
       ],
       "sourceScheduleCount": 2652,
       "sourceIssueCount": 0,
-      "sourceGeneratedAt": "2026-08-11T12:39:48+00:00",
+      "sourceGeneratedAt": "2026-08-12T07:52:14+00:00",
       "collectionCompletedInRun": true,
       "assistantDailyReverseIndex": {
         "schemaVersion": 1,
@@ -1510,8 +1510,8 @@
   },
   "files": {
     "CHANGELOG.md": {
-      "sha256": "6595b7c2ecedaf09f575800ad069dcb62a560777ffce434a482f7f6e4c76c70b",
-      "bytes": 15447
+      "sha256": "4db960d71a2eb75fcd3b4ae14c6b20465860182cefac1c2c72934903f2f169f6",
+      "bytes": 15867
     },
     "LICENSES.md": {
       "sha256": "40bddfdbcdc4b7812056e82fc5de18184097d2fdb903fab14262ea41e47c7594",
@@ -1522,8 +1522,8 @@
       "bytes": 3199
     },
     "RELEASES.json": {
-      "sha256": "d0e8f2d5153234563f4ec20556a67a34c67b49b04b09571c6d11b3333049132e",
-      "bytes": 37443
+      "sha256": "7191e9ab4d8d6f5083cbe14d4885422c692b2fef436fbd8e2767555d89cff645",
+      "bytes": 39069
     },
     "assets/equip/1.webp": {
       "sha256": "4e2ff0528e71462b45df1ab4fd708e228ac8f2afa971e11f7247166ecc46c171",
@@ -3218,7 +3218,7 @@
       "bytes": 26970
     },
     "audit/build-report.json": {
-      "sha256": "95d3980db16aed53f59e3329338b2c83c83fdb8d67a38828466a8f01293ec6b9",
+      "sha256": "659215594c9a837210ef8444e4d01d219081c7c245341d7267bb1318fc95aa63",
       "bytes": 8458
     },
     "equipment/drop-from.nedb": {
@@ -3238,7 +3238,7 @@
       "bytes": 2953885
     },
     "improvement/list.json": {
-      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b",
+      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d",
       "bytes": 209473
     },
     "index.d.ts": {

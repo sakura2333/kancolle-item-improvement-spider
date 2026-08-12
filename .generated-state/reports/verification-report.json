@@ -1,9 +1,9 @@
 {
   "snapshotVersion": 2,
   "identitySchemaVersion": 3,
-  "createdAt": "2026-08-11T12:40:02+00:00",
-  "contentDigest": "9ffe3d433c6b7f3604af90a5867af59e96d2c3e620226f4b206111ae8fe30dab",
-  "improvement2ContentDigest": "7615c86ffe1352dad8755721084c13bdb4d57bb748507751051fe0e29d3a043d",
+  "createdAt": "2026-08-12T07:52:37+00:00",
+  "contentDigest": "4fedfada310b21267f30dbf6496a994c2d9434f68d3cb508b672a64159a7e99b",
+  "improvement2ContentDigest": "6251a0d61884eff65abddf36c220ebf60b25817a90ddbab71aae9459872d603e",
   "metrics": {
     "improvement.listViewCount": 8,
     "improvement.listAllCount": 372,
@@ -32,7 +32,7 @@
     "compat.poiPluginItemImprovement2.useitemPngCount": 13,
     "equipmentImages.count": 410,
     "equipmentImages.totalBytes": 24365868,
-    "publicData.totalBytes": 30985988
+    "publicData.totalBytes": 30985989
   },
   "files": {
     "assets/equip/1.webp": {
@@ -1785,11 +1785,11 @@
     },
     "compat/poi-plugin-item-improvement2/improvement/list.json": {
       "bytes": 209473,
-      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b"
+      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d"
     },
     "compat/poi-plugin-item-improvement2/manifest.json": {
-      "bytes": 953,
-      "sha256": "228c8ff4ceb913c154c09063ec057014bccd242416f8d160dccc97d9ab1a3aa2"
+      "bytes": 954,
+      "sha256": "007ffeb215e291b4a032432c81a9d0173fa1e9d63db73628fdcbbea3ef026e11"
     },
     "equipment/drop-from.nedb": {
       "bytes": 369354,
@@ -1809,7 +1809,7 @@
     },
     "improvement/list.json": {
       "bytes": 209473,
-      "sha256": "81c4c7af17312f196d3368b6370be2c1fcb0073a201fe31460666a9eac7f611b"
+      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d"
     }
   }
 }
