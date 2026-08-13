@@ -1,6 +1,6 @@
 # Improvement source comparison
 
-Generated: 2026-08-12T07:52:20+00:00
+Generated: 2026-08-13T02:32:17+00:00
 Baseline: `akashi-list`
 
 | Source | Status | Capabilities | Comparable | Match | Week mismatch | Missing | Extra | Ignored unsupported | Issues | Agreement |

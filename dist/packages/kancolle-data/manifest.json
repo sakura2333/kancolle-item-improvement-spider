@@ -1,6 +1,6 @@
 {
-  "packageVersion": "0.5.46",
-  "generatedAt": "2026-08-12T07:52:36+00:00",
+  "packageVersion": "0.5.47",
+  "generatedAt": "2026-08-13T02:32:34+00:00",
   "datasets": {
     "improvement": {
       "schemaVersion": 4,
@@ -32,7 +32,7 @@
       ],
       "sourceScheduleCount": 2652,
       "sourceIssueCount": 0,
-      "sourceGeneratedAt": "2026-08-12T07:52:14+00:00",
+      "sourceGeneratedAt": "2026-08-13T02:32:11+00:00",
       "collectionCompletedInRun": true,
       "assistantDailyReverseIndex": {
         "schemaVersion": 1,
@@ -1510,8 +1510,8 @@
   },
   "files": {
     "CHANGELOG.md": {
-      "sha256": "4db960d71a2eb75fcd3b4ae14c6b20465860182cefac1c2c72934903f2f169f6",
-      "bytes": 15867
+      "sha256": "6aedb2126528a3443e04d52e83673d8f9770a2f39682f98937808672d451d35f",
+      "bytes": 16287
     },
     "LICENSES.md": {
       "sha256": "40bddfdbcdc4b7812056e82fc5de18184097d2fdb903fab14262ea41e47c7594",
@@ -1522,8 +1522,8 @@
       "bytes": 3199
     },
     "RELEASES.json": {
-      "sha256": "7191e9ab4d8d6f5083cbe14d4885422c692b2fef436fbd8e2767555d89cff645",
-      "bytes": 39069
+      "sha256": "0beb059f0b8381acc6a0fad2921cd180bf41131245794ba207fb3ccbb133978e",
+      "bytes": 40695
     },
     "assets/equip/1.webp": {
       "sha256": "4e2ff0528e71462b45df1ab4fd708e228ac8f2afa971e11f7247166ecc46c171",
@@ -3218,7 +3218,7 @@
       "bytes": 26970
     },
     "audit/build-report.json": {
-      "sha256": "659215594c9a837210ef8444e4d01d219081c7c245341d7267bb1318fc95aa63",
+      "sha256": "e11b600e44f5f7b7e791126f57a234b9bb29d9479e1e965e2a1f72429dd83664",
       "bytes": 8458
     },
     "equipment/drop-from.nedb": {
@@ -3238,8 +3238,8 @@
       "bytes": 2953885
     },
     "improvement/list.json": {
-      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d",
-      "bytes": 209473
+      "sha256": "b7ab893b762825fca0970610c47b0eaa881a9081e028ba68b60de1aa1f16246a",
+      "bytes": 209606
     },
     "index.d.ts": {
       "sha256": "5e2e1eae1fb6a3afd85a568a8d1ea2b1307f26429ea55d9c6dd9fbfe8dba64a5",

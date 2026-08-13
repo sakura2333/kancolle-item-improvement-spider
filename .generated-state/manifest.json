@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "stateId": "online-data",
   "role": "generated-state",
-  "buildId": "20260812T075301Z-ecf57fbae965",
+  "buildId": "20260813T023300Z-1568b2693fdc",
   "baseRevision": {
     "type": "git",
     "ref": "main",
-    "commit": "ecf57fbae9653382c1423121cfc87a4ad5b56bd7"
+    "commit": "1568b2693fdcdfe8dbc747f96e57dfd09eed56ce"
   },
   "generator": {
     "project": "kancolle-item-improvement-spider",
-    "projectVersion": "1.0.25",
+    "projectVersion": "1.0.26",
     "contractVersion": 1
   },
-  "generatedAt": "2026-08-12T07:53:01Z",
+  "generatedAt": "2026-08-13T02:33:00Z",
   "outputs": [
     {
       "path": "dist/data-pipeline/improvement/improvement-detail.nedb",
@@ -22,8 +22,8 @@
     },
     {
       "path": "dist/data-pipeline/improvement/improvement-list.json",
-      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d",
-      "size": 209473
+      "sha256": "b7ab893b762825fca0970610c47b0eaa881a9081e028ba68b60de1aa1f16246a",
+      "size": 209606
     },
     {
       "path": "dist/data-pipeline/start2_data/api_mst_bgm.json",
@@ -2322,7 +2322,7 @@
     },
     {
       "path": "dist/data-pipeline/sources/ai-review/input.json",
-      "sha256": "f64caca8c81384c3ebcc9739fd0258014644f84f12fcc3d4f62fa376348dcc62",
+      "sha256": "0284092ccfbaa6618fd27818e4334835ee7f0ee479a56ef2a6e7b987744f57fe",
       "size": 11011867
     },
     {
@@ -2342,7 +2342,7 @@
     },
     {
       "path": "dist/data-pipeline/sources/akashi-list/metadata.json",
-      "sha256": "96e8d196260fcb32dd91d07dd6dd171f4bf84c23f82d3b0c15fbeee83ac6e8c6",
+      "sha256": "b941af0ec0745fa993448edb39f13a64b81cf7b47a0b6f06fce13f8912297a22",
       "size": 273
     },
     {
@@ -2367,12 +2367,12 @@
     },
     {
       "path": "dist/data-pipeline/sources/comparison/report.md",
-      "sha256": "6eb8e00f766969195f2ebf1e46e2b84b0d2fa8f5f12c11f46d1066577887bdb5",
+      "sha256": "e3e6f8282f673b5a742c5e2c939bbe4404a5641da99509d306633da06206d233",
       "size": 804
     },
     {
       "path": "dist/data-pipeline/sources/comparison/summary.json",
-      "sha256": "8b7982e6444fd6fc4bd575ce6542fe39a31954851dbaa07e28b56f7e66468e06",
+      "sha256": "8bd5127fc84b549f18535b7691265670f06dcf10ed5b767affb4730c4d072221",
       "size": 1084
     },
     {
@@ -2397,52 +2397,52 @@
     },
     {
       "path": "dist/data-pipeline/sources/history/baseline/akashi-list.json",
-      "sha256": "e178853b65c9cb6fa63626af09ee270831a4ff789f414801c9456a29c75e082d",
+      "sha256": "769908b138c13c45a21b0d440ad0f18928ccceb419031d6b6432c703b3dc6aff",
       "size": 1895798
     },
     {
       "path": "dist/data-pipeline/sources/history/baseline/kcwiki-data.json",
-      "sha256": "e82f3acef75b05bd8ae1254ce878477187f16e7d0fea913bbcd542e5fdec62a2",
+      "sha256": "59060bc1ff0d86025593fe1de8a7c0f3c54fe31fc626ebf5924942e61b0beb8f",
       "size": 546322
     },
     {
       "path": "dist/data-pipeline/sources/history/baseline/wikiwiki-jp.json",
-      "sha256": "4fbf10815ec9a585a701fba73ca86a5c5a366842e3e99791b889e93decc93d26",
+      "sha256": "f0712bfcef517b2efe21986c9684630606f9f1355d3841b4b36a52b29a53d783",
       "size": 1249070
     },
     {
       "path": "dist/data-pipeline/sources/history/current/akashi-list.json",
-      "sha256": "e178853b65c9cb6fa63626af09ee270831a4ff789f414801c9456a29c75e082d",
+      "sha256": "769908b138c13c45a21b0d440ad0f18928ccceb419031d6b6432c703b3dc6aff",
       "size": 1895798
     },
     {
       "path": "dist/data-pipeline/sources/history/current/kcwiki-data.json",
-      "sha256": "e82f3acef75b05bd8ae1254ce878477187f16e7d0fea913bbcd542e5fdec62a2",
+      "sha256": "59060bc1ff0d86025593fe1de8a7c0f3c54fe31fc626ebf5924942e61b0beb8f",
       "size": 546322
     },
     {
       "path": "dist/data-pipeline/sources/history/current/wikiwiki-jp.json",
-      "sha256": "4fbf10815ec9a585a701fba73ca86a5c5a366842e3e99791b889e93decc93d26",
+      "sha256": "f0712bfcef517b2efe21986c9684630606f9f1355d3841b4b36a52b29a53d783",
       "size": 1249070
     },
     {
       "path": "dist/data-pipeline/sources/history/manifest.json",
-      "sha256": "e29acd30de4d846b48fdd3d403dabb769bf6f12ce12eb0680a6234cda49740de",
+      "sha256": "be8dc28d15ba3820b27b2bad8b08db5141f8853771ae5fb74a3f5a6476266e55",
       "size": 1385
     },
     {
       "path": "dist/data-pipeline/sources/history/runs.nedb",
-      "sha256": "07c61879cef4699d8c52b616eca2725616c6639192a0d2e7dc699d0cd689a518",
+      "sha256": "d29f63cf7d3cb963050188d2e4c9839071b5615b0f9c3160ee949e972977c48d",
       "size": 903
     },
     {
       "path": "dist/data-pipeline/sources/improvement-assistant-reverse/assistant-day-reverse-index.json",
-      "sha256": "48104beea13a3a2e1f6403459f9a1f24142df7fbaf9c5d1fe9048762bf9ff646",
+      "sha256": "5a05cb71048f1deea95c92d57a26df5a2609b475ca6193ea0c714820e00a6ee1",
       "size": 6012401
     },
     {
       "path": "dist/data-pipeline/sources/improvement-assistant-reverse/assistant-day-reverse-index.md",
-      "sha256": "6359c03cade1e04db9a55a14097157cc8c0c3148553e4ac5ded0906a9a8d35f0",
+      "sha256": "e5aa8103ad8a966a9081b8081402e0754d365dd9f72bdd553a47b67c01d4a1c8",
       "size": 727022
     },
     {
@@ -2517,12 +2517,12 @@
     },
     {
       "path": "dist/data-pipeline/sources/reliability/report.md",
-      "sha256": "62f566d4580083c77c16c37ccf69ecd86bbdb241720da5b8f9c880f7895a544d",
+      "sha256": "83860613f85d5422c37504bc7cef791c0ba2f29f96cea7a645ce4c01f6ec44fc",
       "size": 836
     },
     {
       "path": "dist/data-pipeline/sources/reliability/summary.json",
-      "sha256": "8d633f9157e1932ab57b93d5223197331c751ed047322a34fe9118d7dcb67846",
+      "sha256": "5a2e3f1a1be00d2d287a941892ac8b1a19ab91cd9fc2cbb0e33e49f8acbf7ff0",
       "size": 4330
     },
     {
@@ -2542,7 +2542,7 @@
     },
     {
       "path": "dist/data-pipeline/sources/wikiwiki-equipment-detail/dataset-metadata.json",
-      "sha256": "98b23163a00840e72f97c6c415dd457b344232c393c8fa79f55070e58019f118",
+      "sha256": "573787744b07059a5e85b95a466cbee212e25819958e43df53b26048ea0e8b42",
       "size": 3006
     },
     {
@@ -2597,8 +2597,8 @@
     },
     {
       "path": "dist/packages/kancolle-data/improvement/list.json",
-      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d",
-      "size": 209473
+      "sha256": "b7ab893b762825fca0970610c47b0eaa881a9081e028ba68b60de1aa1f16246a",
+      "size": 209606
     },
     {
       "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/assets/useitem/100.png",
@@ -2672,12 +2672,12 @@
     },
     {
       "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/improvement/list.json",
-      "sha256": "a475d2c73e374dba2c002b6784e13b95e8ac5b7f7830b82a6c1296e082254b6d",
-      "size": 209473
+      "sha256": "b7ab893b762825fca0970610c47b0eaa881a9081e028ba68b60de1aa1f16246a",
+      "size": 209606
     },
     {
       "path": "dist/packages/kancolle-data/compat/poi-plugin-item-improvement2/manifest.json",
-      "sha256": "007ffeb215e291b4a032432c81a9d0173fa1e9d63db73628fdcbbea3ef026e11",
+      "sha256": "5d2cdc046164a5ba07b3f6cca1205ddbf39eca02136207c0be4fceb0350f82c2",
       "size": 954
     },
     {
@@ -4812,22 +4812,22 @@
     },
     {
       "path": "dist/packages/kancolle-data/audit/build-report.json",
-      "sha256": "659215594c9a837210ef8444e4d01d219081c7c245341d7267bb1318fc95aa63",
+      "sha256": "e11b600e44f5f7b7e791126f57a234b9bb29d9479e1e965e2a1f72429dd83664",
       "size": 8458
     },
     {
       "path": "dist/packages/kancolle-data/CHANGELOG.md",
-      "sha256": "4db960d71a2eb75fcd3b4ae14c6b20465860182cefac1c2c72934903f2f169f6",
-      "size": 15867
+      "sha256": "6aedb2126528a3443e04d52e83673d8f9770a2f39682f98937808672d451d35f",
+      "size": 16287
     },
     {
       "path": "dist/packages/kancolle-data/RELEASES.json",
-      "sha256": "7191e9ab4d8d6f5083cbe14d4885422c692b2fef436fbd8e2767555d89cff645",
-      "size": 39069
+      "sha256": "0beb059f0b8381acc6a0fad2921cd180bf41131245794ba207fb3ccbb133978e",
+      "size": 40695
     },
     {
       "path": "dist/packages/kancolle-data/manifest.json",
-      "sha256": "b38ae47d651e253d6777114fb6379c485ffa4c07b850996b685a47a6137ca324",
+      "sha256": "00af1e6c9a10d82750bfc2297ed0e972df5f7c92e6691c9edceae7fbe94db865",
       "size": 89400
     }
   ],
@@ -4835,7 +4835,7 @@
     {
       "kind": "verification",
       "path": ".generated-state/reports/verification-report.json",
-      "sha256": "ceff921c8a4bacf9c0011864f005efc7c1991d1c1297308fc693b55d718dfc5f",
+      "sha256": "f96aa8004bf2016ca008a1d9362b6b6f2d2a9bd49fc3c0aa02dea7f35a6fba3e",
       "size": 65600
     }
   ],
@@ -4843,9 +4843,9 @@
     "spider.kancolle": {
       "package": {
         "name": "@sakura2333/kancolle-data",
-        "version": "0.5.46"
+        "version": "0.5.47"
       },
-      "dataGeneratedAt": "2026-08-12T07:52:36+00:00",
+      "dataGeneratedAt": "2026-08-13T02:32:34+00:00",
       "datasetStatuses": {
         "improvement": "ok",
         "equipmentDropFrom": "ok",

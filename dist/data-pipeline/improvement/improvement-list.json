@@ -1,8 +1,8 @@
 {
   "metadata": {
     "schemaVersion": 2,
-    "dataVersion": "2026-08-12T07:52:14+00:00",
-    "generatedAt": "2026-08-12T07:52:14+00:00",
+    "dataVersion": "2026-08-13T02:32:11+00:00",
+    "generatedAt": "2026-08-13T02:32:11+00:00",
     "shipMasterVersion": "2026080618",
     "dayOrder": [
       "all",
@@ -19,7 +19,9 @@
       "assistantTexts"
     ],
     "detailFile": "improvement-detail.nedb",
-    "itemCount": 372
+    "itemCount": 372,
+    "contentDigestSchemaVersion": 1,
+    "contentDigest": "sha256:ad80984741e2dd539fb89821b5a68315953102470f02d491d0849b82202599ee"
   },
   "data": [
     [

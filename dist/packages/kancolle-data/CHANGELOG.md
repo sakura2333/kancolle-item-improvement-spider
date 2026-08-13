@@ -28,6 +28,21 @@ All notable consumer-visible changes to `@sakura2333/kancolle-data` are document
 - Add quest, development, exchange, ranking, and event acquisition methods.
 - Add additional ship, map, and quest projections when stable schemas are available.
 
+## [0.5.47] - 2026-08-13
+
+### Data
+
+- Refreshed validated KanColle consumer datasets after a successful strict Spider run.
+- Improvement records: 372.
+- Equipment acquisition records: 258.
+- Equipment special-bonus records: 362.
+- Equipment-type special-bonus records: 7.
+- Packaged use-item icons: 13.
+
+### Validation
+
+- Passed source freshness, schema, reference-integrity, record-count, and file-size quality gates.
+
 ## [0.5.46] - 2026-08-12
 
 ### Data
