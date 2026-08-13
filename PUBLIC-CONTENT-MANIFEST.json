@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "project": "kancolle-item-improvement-spider",
-  "version": "1.0.25",
-  "sourceCommit": "81cc103b230854fa16d81867a836b371b67d7e69",
-  "generatedAt": "2026-08-11T09:21:49.781438+00:00",
+  "version": "1.0.26",
+  "sourceCommit": "26205a565a6afb72cd92868fd57a695ec941d90f",
+  "generatedAt": "2026-08-12T15:21:20.163427+00:00",
   "managedFiles": [
     ".github/workflows/data-build.yml",
     ".github/workflows/release.yml",
@@ -92,6 +92,7 @@
     "service/data_package/acquisition_references.py",
     "service/data_package/builder.py",
     "service/data_package/cli.py",
+    "service/data_package/content_digest.py",
     "service/data_package/equipment_acquisition.py",
     "service/data_package/equipment_acquisition_crawl.py",
     "service/data_package/equipment_acquisition_raw_parse.py",

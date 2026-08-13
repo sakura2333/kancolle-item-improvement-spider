@@ -3,6 +3,7 @@ from dataclasses import asdict, is_dataclass
 from datetime import datetime, timezone
 
 from configs.path import get_data_pipeline_dir
+from service.data_package.content_digest import stamp_improvement_list_content_digest
 from service.data_package.improvement_record import WeaponItemVO
 from util.json_utils import write_json, write_json_lines
 from util.logger import simple_logger
@@ -124,6 +125,7 @@ def export_list_data(data_list: list[WeaponItemVO]):
         },
         "data": build_list_projection(data_list),
     }
+    list_data = stamp_improvement_list_content_digest(list_data)
     write_json(
         os.path.join(get_improvement_db_dir(), LIST_FILE_NAME),
         list_data,

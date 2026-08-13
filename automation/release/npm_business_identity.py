@@ -16,10 +16,11 @@ import tarfile
 from typing import Iterable, Iterator
 
 from automation.common.process import AutomationError
+from service.data_package.content_digest import ContentDigestError, normalized_data_bytes
 
 ProjectCommandError = AutomationError
 
-IDENTITY_SCHEMA_VERSION = 1
+IDENTITY_SCHEMA_VERSION = 2
 
 # These files are intentionally not part of the npm business-change decision.
 # They are documentation, release history, generated diagnostics, or a derived
@@ -36,12 +37,14 @@ _EXCLUDED_PREFIXES = ("audit/",)
 _PACKAGE_JSON_VOLATILE_KEYS = {"version"}
 
 
-def _canonical_json_bytes(raw: bytes, *, label: str) -> bytes:
-    try:
-        value = json.loads(raw.decode("utf-8"))
-    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise ProjectCommandError(f"npm business JSON is invalid: {label}: {exc}") from exc
-    if label == "package.json":
+def _normalized_bytes(relative: str, raw: bytes) -> bytes:
+    if relative == "package.json":
+        try:
+            value = json.loads(raw.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            raise ProjectCommandError(
+                f"npm business JSON is invalid: {relative}: {exc}"
+            ) from exc
         if not isinstance(value, dict):
             raise ProjectCommandError("npm package.json must contain an object")
         value = {
@@ -49,46 +52,21 @@ def _canonical_json_bytes(raw: bytes, *, label: str) -> bytes:
             for key, item in value.items()
             if key not in _PACKAGE_JSON_VOLATILE_KEYS
         }
-    return json.dumps(
-        value,
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-    ).encode("utf-8") + b"\n"
-
-
-def _canonical_json_lines(raw: bytes, *, label: str) -> bytes:
-    try:
-        text = raw.decode("utf-8")
-    except UnicodeDecodeError as exc:
-        raise ProjectCommandError(f"npm business JSONL is not UTF-8: {label}: {exc}") from exc
-    lines: list[bytes] = []
-    for line_number, line in enumerate(text.splitlines(), start=1):
-        if not line.strip():
-            continue
-        try:
-            value = json.loads(line)
-        except json.JSONDecodeError as exc:
-            raise ProjectCommandError(
-                f"npm business JSONL is invalid: {label}:{line_number}: {exc}"
-            ) from exc
-        lines.append(
+        return (
             json.dumps(
                 value,
                 ensure_ascii=False,
                 sort_keys=True,
                 separators=(",", ":"),
             ).encode("utf-8")
+            + b"\n"
         )
-    return b"\n".join(lines) + (b"\n" if lines else b"")
-
-
-def _normalized_bytes(relative: str, raw: bytes) -> bytes:
-    if relative.endswith(".json"):
-        return _canonical_json_bytes(raw, label=relative)
-    if relative.endswith(".nedb"):
-        return _canonical_json_lines(raw, label=relative)
-    return raw
+    try:
+        return normalized_data_bytes(relative, raw)
+    except ContentDigestError as exc:
+        raise ProjectCommandError(
+            f"npm business data identity is invalid: {relative}: {exc}"
+        ) from exc
 
 
 def _wanted(relative: str) -> bool:

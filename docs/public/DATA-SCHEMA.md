@@ -10,6 +10,8 @@ A compact read model for the plugin list page. Its public row shape remains unch
 {
   "metadata": {
     "schemaVersion": 2,
+    "contentDigestSchemaVersion": 1,
+    "contentDigest": "sha256:...",
     "dayOrder": ["all", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
     "rowSchema": ["itemId", "assistantTexts"],
     "detailFile": "improvement-detail.nedb"
@@ -20,6 +22,9 @@ A compact read model for the plugin list page. Its public row shape remains unch
   ]
 }
 ```
+
+`metadata.contentDigest` is the producer-owned business-content identity of this JSON.
+`dataVersion`, `generatedAt`, `shipMasterVersion`, and the digest value itself are provenance metadata and do not participate in this digest. `contentDigestSchemaVersion` does participate, so digest-rule migrations intentionally produce one new data version.
 
 `data[0]` is the all-days view. `data[1]` through `data[7]` are Sunday through Saturday.
 Each row is `[itemId, assistantTexts]`. An empty text array is valid and means the

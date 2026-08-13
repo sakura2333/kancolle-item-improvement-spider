@@ -3,6 +3,11 @@ from __future__ import annotations
 import math
 from pathlib import Path
 
+from service.data_package.content_digest import (
+    IMPROVEMENT_LIST_CONTENT_DIGEST_SCHEMA_VERSION,
+    improvement_list_content_digest,
+)
+
 from .common import QualityGateError, _non_empty_string, _positive_int, _read_json, _read_nedb
 
 def _validate_improvement_list(path: Path) -> tuple[int, int, set[int]]:
@@ -17,6 +22,17 @@ def _validate_improvement_list(path: Path) -> tuple[int, int, set[int]]:
         raise QualityGateError(f"unsupported improvement list schema: {metadata.get('schemaVersion')!r}")
     if metadata.get("rowSchema") != ["itemId", "assistantTexts"]:
         raise QualityGateError("improvement list rowSchema changed unexpectedly")
+    if metadata.get("contentDigestSchemaVersion") != IMPROVEMENT_LIST_CONTENT_DIGEST_SCHEMA_VERSION:
+        raise QualityGateError(
+            "unsupported improvement list content digest schema: "
+            f"{metadata.get('contentDigestSchemaVersion')!r}"
+        )
+    actual_digest = f"sha256:{improvement_list_content_digest(document)}"
+    if metadata.get("contentDigest") != actual_digest:
+        raise QualityGateError(
+            "improvement list contentDigest mismatch: "
+            f"declared={metadata.get('contentDigest')!r} actual={actual_digest}"
+        )
 
     all_ids: set[int] = set()
     for view_index, rows in enumerate(views):
